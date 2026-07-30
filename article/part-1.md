@@ -7,9 +7,9 @@
 > *"He's got scams you haven't even dreamed of.
 > Kickbacks on his kickbacks.
 > There's a river of dirty money running through this place."*
-
-![Andy header](../assets/img/andy-header.png)
-
+>
+> ![Andy header](../assets/img/andy-header.png)
+>
 > *"You know, the funny thing is, on the outside, I was an honest man, straight as an arrow. I had to come to prison to be a crook."*
 >
 > Andy Dufresne
