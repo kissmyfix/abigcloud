@@ -4,16 +4,13 @@
 
 ---
 
-> *"He's got scams you haven't even dreamed of.
-> Kickbacks on his kickbacks.
-> There's a river of dirty money running through this place."*
+> ### *"He's got scams you haven't even dreamed of. Kickbacks on his kickbacks. There's a river of dirty money running through this place."*
+
+<p align="center"><img src="../assets/img/andy-header.png" width="75%" /></p>
+
+> ### *"You know, the funny thing is, on the outside, I was an honest man, straight as an arrow. I had to come to prison to be a crook."*
 >
-> ![Andy header](../assets/img/andy-header.png)
->
-> *"You know, the funny thing is, on the outside, I was an honest man, straight as an arrow. I had to come to prison to be a crook."*
->
-> Andy Dufresne
-> *Shawshank Redemption*
+> **Andy Dufresne — *Shawshank Redemption***
 
 ---
 
