@@ -1,0 +1,24 @@
+---
+import { getCollection, render } from 'astro:content';
+import Page from '../layouts/Page.astro';
+
+export async function getStaticPaths() {
+	/*
+	  A draft is not generated for the live site at all, so there is no URL to
+	  stumble onto and nothing for the sitemap to list. It still builds locally,
+	  where Page.astro flags it with the working-draft pill.
+	*/
+	const pages = await getCollection(
+		'content',
+		({ data }) => import.meta.env.DEV || !data.draft
+	);
+	return pages.map((entry) => ({ params: { slug: entry.id }, props: entry }));
+}
+
+const entry = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Page {...entry.data}>
+	<Content />
+</Page>

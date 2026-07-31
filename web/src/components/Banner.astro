@@ -1,0 +1,75 @@
+---
+import { getImage } from 'astro:assets';
+
+// A wide cinematic crop turns into an unreadable sliver on a phone, so pages
+// may supply a second, taller crop of the same scene. That is art direction,
+// which <Image> does not do: it changes pixel count, not composition.
+interface Props {
+	wide: ImageMetadata;
+	narrow?: ImageMetadata;
+}
+
+const { wide, narrow } = Astro.props;
+
+const wideImg = await getImage({ src: wide, widths: [800, 1200, 1600, 2000], format: 'webp' });
+const narrowImg = narrow
+	? await getImage({ src: narrow, widths: [500, 750, 1000], format: 'webp' })
+	: null;
+
+const ratio = (img: ImageMetadata) => `${img.width} / ${img.height}`;
+---
+
+<div
+	class="banner"
+	style={`--ratio-wide:${ratio(wide)};--ratio-narrow:${ratio(narrow ?? wide)}`}
+>
+	<picture>
+		{
+			narrowImg && (
+				<source
+					media="(max-width: 700px)"
+					srcset={narrowImg.srcSet.attribute}
+					sizes="100vw"
+					type="image/webp"
+				/>
+			)
+		}
+		<source srcset={wideImg.srcSet.attribute} sizes="100vw" type="image/webp" />
+		<img src={wideImg.src} alt="" loading="eager" fetchpriority="high" decoding="async" />
+	</picture>
+</div>
+
+<style>
+	.banner {
+		position: relative;
+		width: 100%;
+		line-height: 0;
+	}
+	.banner img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: 0;
+		/* Reserves the box before the image arrives, so nothing jumps. */
+		aspect-ratio: var(--ratio-wide);
+	}
+	@media (max-width: 700px) {
+		.banner img {
+			aspect-ratio: var(--ratio-narrow);
+		}
+	}
+	/* Fades the image into the page so there is no hard seam between them. */
+	.banner::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background: linear-gradient(
+			to bottom,
+			var(--bg) 0%,
+			rgba(0, 0, 0, 0) var(--banner-fade-top),
+			rgba(0, 0, 0, 0) var(--banner-fade-bottom),
+			var(--bg) 100%
+		);
+	}
+</style>

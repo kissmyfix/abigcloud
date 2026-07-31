@@ -1,63 +1,25 @@
-# Astro Starter Kit: Blog
+# It's a Big Cloud
 
-```sh
-npm create astro@latest -- --template blog
-```
+**What is actually happening in Middle Tennessee, and why the story being told may not be complete.**
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+The site is at [abigcloud.com](https://abigcloud.com). This repository is the evidence behind it.
 
-Features:
+---
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and Open Graph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+## Why This Repository Exists
 
-## 🚀 Project Structure
+The source material behind this work is not linkable web content. It is meeting minutes, property assessments, federal tax filings, legislative archives, and audio recordings. Most of it exists as documents nobody has put online in any usable form.
 
-Inside of your Astro project, you'll see the following folders and files:
+So it lives here, in the open. Articles on [abigcloud.com](https://abigcloud.com) cite directly into this repository, and the link is the citation. There is no separate sources page to maintain and no bibliography that drifts out of date. If a claim is made, the document behind it is one click away and you can read it yourself.
 
-```text
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+Every document here is a public record or was obtained through lawful public channels. Nothing has been altered. Where documents came from public portals, the retrieval method and date are noted.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+This is not a legal filing. It is not a formal complaint. It is not affiliated with any political party, advocacy group, or media organization. It is one resident's attempt to answer a simple question, **have the promises been kept?**, using only public records and primary sources.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+If any claim is inaccurate, [open an issue](https://github.com/kissmyfix/abigcloud/issues). That is the point of putting it here.
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+---
 
-Any static assets, like images, can be placed in the `public/` directory.
+## License
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+All original writing is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source documents are public records and retain their original terms. Attribution appreciated. Forks encouraged.
