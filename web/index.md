@@ -1,47 +1,16 @@
-# It's a Big Cloud
-
-**What is actually happening in Middle Tennessee, and why the story being told may not be complete.**
-
----
-
-## Mission and Thesis
-
-**This is not anti-AI. This is not anti-progress. This is a demand for transparency about pace, consent, and the fundamental questions surrounding the sudden and seemingly insatiable demand for unfathomable amounts of energy and computational power. What is driving this demand? Where does it come from? And where does it end?**
-
-> **Core Question**
->
-> We are at a crossroad whereby nearly every man, woman, and child can sense a change is coming. Most of us are keenly tuned to the speed at which these changes are happening. But how many of us can truly grasp the scale at which our newest innovation will impact life on Earth as we know it? The question is not whether this technology will exist. It already does. The question is whether we are moving at a speed that still allows for correction.
->
-> **Does time still afford us the privilege of mistake?**
-
----
-
-The goal here is clear. Provide an honest picture of what is actually happening within the race for AI to an audience who deserves to understand it. To understand AI's complexities without the need for a physics or law degree.
-
-At every technological revolution faced so far, mankind stood at the crossroads of change and had to make a choice. Those moments were navigated with the benefit and luxury of time: the time to make mistakes, the time to study them, the time to correct them. The time to *learn* from them.
-
-What this project examines is whether the luxury of time still exists, or whether we are pushing ahead at speeds in which time can no longer protect. What happens to us if there is no time for overcoming our own mistakes?
-
----
-
+# Seeking *Answers*
+## Does **time** still afford us the privilege of *mistake*? The **time** to *make* it? The **time** to *learn* from it? The **time** to *correct* it?
+### **What is actually happening in the A.I. race? Is the story being told the complete version?**
 What shapes everything that follows is a documented shift in how the people overseeing the approval and the building of this infrastructure, from our elected leaders, to top executives in tech, and even our favorite media sources are framing who is *responsible* for all of it.
 
-Because they are blaming you.
+***Because they are blaming you.***
 
-The individual consumer. The morning Instagram poster and meme warrior.
+The individual consumer. The morning Instagram poster. The humble meme warrior.
 
-This project pushes back on that framing and draws comparisons to the not so distant controversy surrounding plastic straws. It was not long ago we were told the oceans might be saved if we could all just stop using plastic straws. Because if every individual could just do this one thing our oceans would be free from floating islands of plastic garbage forever.
-
-The world eventually pushed back on that narrative pointing to the corporate and manufacturing sectors notorious for ignoring disposal and environmental regulations.
-
-The straws were never the point, and I will argue neither are cat memes.
 
 > **What do we believe in an era of mistrust?**
 >
 > What are half truths and omissions? Is it spin for personal gain? Is it a lie? Does it matter?
-
----
-
 <div class="two-col">
 
 <div class="info-box">
@@ -70,9 +39,8 @@ The straws were never the point, and I will argue neither are cat memes.
 
 </div>
 
----
-
-## The Site
+>This is not anti-AI. This is not anti-progress. This is a demand for transparency about pace, consent, and the fundamental questions surrounding the sudden and seemingly insatiable demand for unfathomable amounts of energy and computational power. What is driving this demand? Where does it come from? And where does it end?
+>What this project examines is whether the luxury of time still exists, or whether we are pushing ahead at speeds in which time can no longer protect. What happens to us if there is no time for overcoming our own mistakes?
 
 | Section | What It Covers |
 |---|---|
@@ -84,6 +52,3 @@ The straws were never the point, and I will argue neither are cat memes.
 | [Reference](/reference/) | Plain-language explainers, the falsehoods ledger, and open threads. |
 | [FAQ](/faq/) | What a data center is, how to read a megawatt figure, and what is still unverified. |
 | [About](/about/) | Who is writing this, and how the work gets verified. |
-
----
-
