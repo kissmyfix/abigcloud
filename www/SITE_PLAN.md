@@ -77,6 +77,33 @@ Gallatin IDB record itself.
 
 ## Pipeline & security posture (decided 2026-07-06)
 
+> **SUPERSEDED 2026-08-17.** The plan below was never implemented. What actually
+> happens today is recorded here instead; the original text is kept underneath for
+> the record.
+
+**Live pipeline (verified 2026-08-17):**
+
+- The published site is **`abigcloud/web/`** in this tree, a clone of
+  **`github.com/kissmyfix/abigcloud`**.
+- **Deploy = `git push origin main`.** A GitHub Actions workflow
+  (`.github/workflows/deploy.yml`) runs `npm ci && npm run build` in `web/` and
+  publishes `web/dist/` to **GitHub Pages**. The custom domain is set by
+  `web/public/CNAME`.
+- **`npm run publish`** regenerates the article and the source index from this
+  research tree first, then builds. Use it instead of `npm run build` when a draft
+  has changed.
+- `site.abigcloud.com` no longer resolves; the CT-log exposure noted below is closed.
+- `192.168.1.4` is not part of the pipeline. It answers on :80 with a 403 and has no
+  `/var/www/html`. Nothing depends on it.
+- **Open:** `www.abigcloud.com` points at Cloudflare and returns HTTP 530 (origin
+  unreachable). The apex is fine. Needs a DNS fix.
+- **Open:** the research corpus has no public home yet. It is committed locally but
+  its remote was removed — the old `quid-pro-no` remote turned out to be the *site*
+  repo under its former name, and pushing 452MB of PDFs there would have broken the
+  Pages build. Needs a new repo (e.g. `abigcloud-sources`), which needs a browser.
+
+<details><summary>Original 2026-07-06 plan, not implemented</summary>
+
 - Develop on **asus**; preview via Astro dev server, **LAN-only for now**.
 - **Git: local repo only, no GitHub remote.** Optional later: bare repo on another LAN
   box (pve/hplaptop) over ssh as backup — zero third parties either way.
@@ -86,6 +113,8 @@ Gallatin IDB record itself.
   to that block or repoint it.
 - Production: rsync `dist/` → proxy (`192.168.1.4`) `/var/www/html`, already served by
   Caddy with good headers. Open item: confirm write ownership of `/var/www/html`.
+
+</details>
 
 ## Phases
 
