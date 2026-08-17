@@ -1,0 +1,7 @@
+text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+2018-06-19-city-council-agenda-ocr.txt,2018-06-19-city-council-agenda-ocr.pdf,OCR_SCAN,102,226340,2219,0.73,verify figures against page image,pikepdf 9.5.2
+2020-05-05-city-council-agenda-ocr.txt,2020-05-05-city-council-agenda-ocr.pdf,OCR_SCAN,69,146293,2120,0.9,verify figures against page image,pikepdf 9.5.2
+2020-05-12-council-committee-agenda-ocr.txt,2020-05-12-council-committee-agenda-ocr.pdf,OCR_SCAN,91,300853,3306,0.53,verify figures against page image,pikepdf 9.5.2
+2020-10-06-city-council-agenda-ocr.txt,2020-10-06-city-council-agenda-ocr.pdf,DIGITAL,162,334449,2064,0.2,extraction authoritative,pikepdf 9.5.2
+2023-03-07-city-council-agenda-ocr.txt,2023-03-07-city-council-agenda-ocr.pdf,OCR_SCAN,62,139067,2243,0.95,verify figures against page image,pikepdf 9.5.2
+2024-09-17-city-council-agenda-ocr.txt,2024-09-17-city-council-agenda-ocr.pdf,DIGITAL,93,368341,3961,0.45,extraction authoritative,pikepdf 9.5.2

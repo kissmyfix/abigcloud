@@ -1,0 +1,619 @@
+[[page 1]]
+HEALTH, EDUCATIONAL AND HOUSING
+    FACILITIES BOARD OF THE
+  CITY OF GALLATIN, TENNESSEE
+
+     FINANCIAL STATEMENTS
+
+          JUNE 30, 2025
+
+[[page 2]]
+ HEALTH, EDUCATIONAL AND HOUSING FACILITIES
+  BOARD OF l'HE CITY OF GALLATIN, TENNESSEE
+
+
+
+ TABLE OF CONTENTS                                                              PAGE
+
+
+Introductory Section
+
+Board of Directors                                                                 1
+
+
+Financial Section
+
+Independent Auditor's Report                                                      1-3
+
+Financial tatement
+
+Statement of Financial Position                                                    4
+
+Statement of Activities                                                            5
+
+Statement of Cash Flows                                                            6
+
+Notes to Financial Statements                                                     7-9
+
+Supplemental Information
+
+Schedule of Cash and Cash Equivalents and Certificate of Deposit                   10
+
+Compliance and Internal Control
+
+Independent Auditor's Report on Internal Control Over Financial Reporting and on
+Compliance and Other Matters Based on an Audit of Financial Statements Performed
+In Accordance with Government Auditing Standards                                 12-13
+
+Schedule of Disposition of Prior Year Comments                                     14
+
+[[page 3]]
+INTRODUCTORY SECTION
+
+[[page 4]]
+ HEALTH, EDUCATIONAL AND HOUSING FACILITIES
+             BOARD OF THE CITY
+           OF GALLATIN, TENNESSEE
+
+                  Board of Directors
+
+                    June 30, 2025
+
+
+
+ Name                                  Title
+
+Neil Burgess                           Chair
+
+Len Assante                            Treasurer
+
+Joanne Walker                          Secretary
+
+Stan Carver                            Board Member
+
+Jessie Maness                          Board Member
+
+Allen Ramsey                           Board Member
+
+Phil Carver                            Board Member
+
+Derrick Jackson                        Board Member
+
+Don Cunningham                         Board Member
+
+
+
+
+                       i
+
+[[page 5]]
+FINANCIAL SECTION
+
+[[page 6]]
+                            .JOHN           R.     POOLE,               CPA
+                              CERTIF"IED PUBLIC ACCOUNTANT
+
+1 34 NORTHLAKE DRIVE                                                                    (615} 822-4177
+HENDERSONVILLE, TN 37075
+
+                                        Independent Auditor's Report
+
+      To the Board of Directors of
+      Health, Educational and Housing Facilities Board of the City of Gallatin, Tennessee
+      Gallatin, Tennessee
+
+                               Report on the Audit of the Financial Statements
+      Opinion
+      I have audited the accompanying financial statements of the Health, Educational and Housing
+      Facilities Board of the City of Gallatin, Tennessee which comprise the statement of financial
+      position as of June 30, 2025, and the related statement of activities and cash flows for the year then
+      ended and the related notes to the financial statements.
+
+     In my opinion, the financial statements present fairly, in all material respects the financial position
+     of Health, Educational and Housing Facilities Board of the City of Gallatin, Tennessee as of Jtme
+     30, 2025, and the changes in its net assets and its cash flows for the year then ended in accordance
+     with accounting principles generally accepted in the United States of America.
+
+     Basis for Opinion
+     I conducted my audit in accordance with auditing standards generally accepted in the United States
+     of America and the standards applicable to financial audits contained in the Government Auditing
+     Standards, issued by the Comptroller General of the United States. My responsibilities under those
+     standards .are further described in the Auditor's Responsibilities for the Audit of the Financial
+     Statements section of my repmt. I am required to be independent of Health, Educational and
+     Housing Facilities Board of the City of Gallatin, Tennessee and to meet my other ethical
+     responsibilities, in accordance with the relevant ethical requirements relating to my audit. I believe
+     that the audit evidence I have obtained is sufficient and appropriate to provide a basis for my audit
+     opinions.
+
+     Responsibilities of Management for the Financial Statements
+     Management is responsible for the preparation and fair presentation of the financial statements in
+     accordance with accounting principles generally accepted in the United States of America, and for
+     the design, implementation, and maintenance of internal control rele ant to the preparation and
+     fair presentation of financial statements that are free from material misstatement, whether due to
+     fraud or error.
+
+     In preparing the financial statements, management is required to evaluate whether there are
+     conditions or events, considered in the aggregate, that raise substantial doubt about the Health,
+     Educational and Housing Facilities Board ofthe City of Gallatin Tennessee' s ability to continue
+     as a going concern within one year after the date that the financial statements are available to be
+     issued.
+
+[[page 7]]
+ Auditor's Responsibilities for the Audit ofthe Financial Statements
+
+ My objectives are to obtain reasonable assurance about whether the financial statements as a whole
+ are free from material misstatement, whether due to fraud or error, and to issue an auditor's report
+ that includes my opinions. Reasonable assurance is a high level of assurance but is not absolute
+ assurance and therefore is not a guarantee that an audit conducted in accordance with generally
+ accepted auditing standards and Government Auditing Standards will always detect a material
+ misstatement when it exists. The risk of not detecting a material misstatement resulting from fraud
+ is higher than for one resulting from error, as fraud may involve collusion, forgery, intentional
+ omissions, misrepresentations, or the override of internal control. Misstatements are considered
+ material if there is a substantial likelihood that, individually or in the aggregate, they would
+ influence the judgement made by a reasonable user based on the financial statements.
+
+In performing an audit in accordance with generally accepted auditing standards and Government
+Auditing Standards, I:
+
+     •!• Exercise professional judgment and maintain professional skepticism throughout the audit.
+     •!• Identify and assess the risks of material misstatement of the financial statements, whether
+          due to fraud or error, and design and perform audit procedures responsive to those risks.
+          Such procedures include examining, on a test basis, evidence regarding the amounts and
+          disclosures in the financial statements.
+    •!• Obtain an understanding of internal control relevant to the audit in order to design audit
+         procedures that are appropriate in the circumstances, but not for the purpose of expressing
+         an opinion on the effectiveness of the Health, Educational and Housing Facilities Board of
+         the City of Gallatin, Tennessee's internal control. Accordingly, no such opinion is
+         expressed.
+    •!• Evaluate the appropriateness of accounting policies used and the reasonableness of
+         significant accounting estimates made by management, as well as evaluate the overall
+         presentation of the financial statements.
+    •!• Conclude whether, in my judgment, there are conditions or events, considered in the
+         aggregate, that raise substantial doubt about the Health, Educational and Housing Facilities
+         Board of the City of Gallatin, Tennessee's ability to continue as a going concern for a
+         reasonable period of time.
+
+I am required to communicate with those charged with governance regarding, among other matters,
+the planned scope and timing of the audit, significant audit findings, and certain internal control-
+related matters that I identified during the audit.
+
+Supplementary Information
+
+My audit was conducted for the purpose of forming opinions on the financial statements as a
+whole. The supplementary information section, as listed in the table of contents, is presented for
+purposes of additional analysis and is not a required part of the financial statements. Such
+information is the responsibility of management and was derived from and relates directly to the
+underlying accounting and other records used to prepare the financial statements. The information
+
+
+
+                                                                                                2
+
+[[page 8]]
+has been subjected to the auditing procedures applied in the audit of the financial statements and
+certain additional procedures, including comparing and reconciling such information directly to
+the underlying accounting and other records used to prepare the fmancial statements or to the
+financial statements themselves, and other additional procedures in accordance with auditing
+standards generally accepted in the United States of ArneTica. In my opinion. the supplementary
+information is fairly stated in all material respects in relation to the basic financial statements as a
+whole.
+
+Other Information -Introductory Section
+
+Management is responsible for the other information included in the annual report. The other
+information section, as listed in the table of contents such as the Introductory section, does not
+include the basic financial statements and my auditor's report thereon. My opinion on the basic
+financial statements does not cover the other information, and I do not express an opinion or any
+other assurance thereon.
+
+In connection with my audit of the basic financial statements, my responsibility is to read the other
+information and consider whether a material inconsistency exists between the other infom1ation
+and basic financial statements or the other information otherwise appears to be materially
+misstated. If, based on the work performed, I conclude that an uncorrected material misstatement
+of the other information exists, I am required to describe it in my report.
+
+Other Reporting Required by Government Auditing Standards
+
+In accordance with Government Auditing Standards, I have also issued my rep rt dated July 31,
+2025, on my consideration of Health, Educational and Housing Facilities Board of the City of
+Gallatin, Tennessee's internal control over financial reporting and on my tests of its compliance
+with certain provisions of laws, regulations, contracts and grant agreements and otheT matters. The
+purpose of that report is solely to describe the scope of my testing of internal control over financial
+r porting and compliance and the results of that testing and not to provide an opinion on th
+effectiveness of Health, Educational and Housing Facilities Board of the City of Gallatin,
+Tennessee's internal control over financial reporting or on compliance. That report is an integral
+part of an audit performed in accordance with Government Auditing Standards in considering the
+Health Educational and Housing Facilities Board of the City of Gallatin, Tennessee's internal
+control over financial reporting and compliance.
+
+
+
+
+July 31, 2025
+
+
+
+
+                                                                                                  3
+
+[[page 9]]
+FINANCIAL STATEMENTS
+
+[[page 10]]
+                   HEALTH, EDUCATIONAL AND HOUSING FACILITIES
+                    BOARD OF THE CITY OF GALLATIN, TENNESSEE
+                                                  Statement of Financial Position
+
+                                                          June 30,2025
+
+
+
+
+Current assets:
+     Cash                                                                                          $   101,411
+     Certificate of deposit                                                                             10,544
+          Total current assets                                                                         111,955
+
+
+
+
+             Total assets                                                                          $   111,955
+
+                                                    Liabilities and Net Assets
+
+
+Current liabilities:
+     Accounts payable                                                                              $         0
+
+             Total current liabilities                                                                       0
+
+
+Net assets                                                                                             111 ,955
+             Total net assets                                                                          111,955
+
+
+             Total liabilities and net assets                                                      $   111,955
+
+
+
+
+                                The accompanying notes are an intergal part of these statements.             4
+
+[[page 11]]
+                  HEALTH, EDUCATIONAL AND HOUSING FACILITIES
+                   BOARD OF THE CITY OF GALLATIN, TENNESSEE
+
+                                                     Statement of Activities
+
+                                                For the year ended June 30, 2025
+
+
+
+
+Revenues:
+            PILOT                                                                                 $         74,829
+            Maintenance fees                                                                                 3,370
+            Other income                                                                                     2,362
+            Total public support                                                                            80,561
+
+
+Expenses:
+            Civitas                                                                                         48,000
+            Professional services                                                                           13,300
+            Insurance                                                                                        1,265
+            Miscellaneous                                                                                       38
+            Total expenses                                                                                  62,603
+
+
+
+
+Increase (decrease) in net assets                                                                           17,958
+
+Beginning of year net assets                                                                                93,997
+
+End of year net assets                                                                            $        111,955
+                                                                                                      =========
+
+
+
+
+                               The accompanying notes are an intergal part of these statements.                 5
+
+[[page 12]]
+                 HEALTH, EDUCATIONAL AND HOUSING FACILITIES
+                  BOARD OF THE CITY OF GALLATIN, TENNESSEE
+                                                     Statement of Cash Flows
+
+                                                 For the year ended June 30, 2025
+
+Cash flows from operating activities:
+    Support and revenue received                                                               $    80,561
+    Cash paid for:
+    Program and support services                                                                   (62,603)
+                           Net cash provided by operating activities                                17,958
+
+Cash flows used by investing activities:
+    Purchase of certificate of deposit                                                                (282)
+                            Net cash used by investing activities                                     (282)
+
+                             Net increase in cash                                                   17,676
+
+Cash and cash equivalents at beginning of year                                                      83,735
+
+Cash and cash equivalents at end of year                                                       $   101,411
+
+                             Reconciliation oflncrease in Net Assets to Net Cash Provided by
+                                                 Operating Activities
+
+Increase (decrease) in net assets                                                              $    17,958
+
+Adjustments to reconcile decrease in net assets to
+ net cash provided by operating activities:
+    Changes in assets (increase) decrease:
+    Changes in liabilities increase (decrease)
+
+Net cash provided by operating activities                                                      $   17,958
+
+
+
+
+                            The accompanying notes are an intergal part of these statements.            6
+
+[[page 13]]
+NOTES TO THE.· FINANCIAL
+     STATEMENTS
+
+[[page 14]]
+  HEALTH, EDUCATIONAL AND HOUSING FACILITIES BOARD OF THE CITY OF
+                       GALLATIN, TENNESSEE
+
+                                 Notes to the Financial Statements
+                                           June 30, 2025
+
+ 1.     SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+Nature of Activities
+The Health, Educational and Housing Facilities Board of the City of Gallatin, Tennessee is
+responsible for recruitment and facilitate development in the City of Gallatin, Tennessee.
+Revenues are primarily from the administration of the PILOT program which involves payments
+in lieu of taxes.
+
+Basis of Accounting
+The accompanying financial statements have been prepared on the accrual basis of accounting in
+accordance with generally accepted accounting principles and recommendations of the American
+Institute of Ce1iified Public Accountants in its industry audit and accounting guide, Not-for-Profit
+Organizations.
+
+Basis ofPresentation
+Financial statement presentation follows the recommendations of the Financial Accounting
+Standards Board in its Statement of Financial Standards. The Health, Educational and Housing
+Facilities Board of the City of Gallatin, Tennessee is required to report information regarding its
+frnancial position and activities according to the two classes (with or without donor restrictions)
+of net assets.
+
+Contributions
+Contributions received are recorded as with or without donor restricted support depending on the
+existence or nature of any donor restrictions.
+
+Promises to Give
+Contributions are recognized when the donor makes a promise to give to the Health Educational
+and Housing Facilities Board of the City of Gallatin Tennessee thati , in substance, unconditional.
+Contributions that are restricted by the donor are reported as increases in without donor restricted
+net assets if the restrictions expire in the fiscal year in which the conn:ibutions are r cognized. All
+other donor-restricted contributions are reported as increases in donor restricted net assets
+depending on the nature of the restrictions. When a restriction expires, donor restricted net assets
+are reclassified to without donor restricted net assets.
+
+Donated Services
+Health, Educational and Housing Facilities Board of the City of Gallatin, Tennessee receives many
+hours of donated time from various citizens. It is impractical to estimate a value for these services
+as such no such value has been placed on these services in the Health Educational and Housing
+Facilities Board of the City of Gallatin, Tennessee's financial statements.
+
+
+
+                                                                                                  7
+
+[[page 15]]
+  HEALTH, EDUCATIONAL AND HOUSING FACILITIES BOARD OF THE CITY OF
+                       GALLATIN, TENNESSEE
+
+                                Notes to the Financial Statements
+                                          June 30,2025
+
+ 1. SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES, continued
+
+ Promises to Give/Pledges
+ Unconditional promises to give that are expected to be collected within one year are recorded at
+ their net realizable value. Unconditional promises to give that are expected to be collected in
+ future years are recorded at the present value of estimated future cash flows. Conditional promises
+ to give are not included as support until such time as the conditions are substantially met.
+
+Income Taxes
+The Organization is a not-for-profit organization that is exempt from income taxes under the
+provisions of the Internal Revenue Code.
+
+Cash and Cash Equivalents
+For pw:poses of the statement of cash flows, the Health, Educational and Housing Facilities Board
+of the City of Gallatin, Tennessee considers all highly liquid investments with an initial maturity
+of three months or less to be cash equivalents.
+
+Estimates
+The preparation of financial statements in conformity with generally accepted accounting
+principles requires management to make estimates and assumptions that affect certain reported
+amounts and disclosures. Accordingly, actual results could differ from those estimates.
+
+2. AVAILABILITY AND LIQUIDITY
+The following represents Health Educational and Housing Facilities Board of the City of Gallatin,
+Tennessee's financial assets at June 30, 2025:
+
+Financial assets at year end:
+    Cash                                                    $ 101,411
+    Certificate of deposit                                     10,544
+                                                      Total $ 111,955
+
+Less amounts not available to be used within one year:                 0
+
+Financial assets available to meet general expenditures
+over the next twelve months:                                   $ 111,955
+
+Health, Educational and Housing Facilities Board of the City of Gallatin, Tennessee ' s goal is to
+maintain financial assets to meet its operating expenses and has purchased a Certificate of Deposit
+of$10,544.
+
+
+
+                                                                                               8
+
+[[page 16]]
+ HEALTH, EDUCATIONAL AND HOUSING FACILITIES BOARD OF THE CITY OF
+                      GALLATIN, TENNESSEE
+
+                               Notes to the Financial Statements
+                                         June 30, 2025
+
+
+
+
+3.   SUBSEQUENT EVENTS
+
+Thru July 31, 2025 (the date of this report), there are no material subsequent events that should be
+reported.
+
+
+
+
+                                                9
+
+[[page 17]]
+SUPPLEMENTAL
+ INFORMATION
+
+[[page 18]]
+     HEALTH, EDUCATIONAL AND HOUSING FACILITIES
+      BOARD OF THE CITY OF GALLATIN, TENNESSEE
+                    Schedule of Cash and Cash Equivalents and Certificate of Deposit
+
+                                   For the year ended June 30, 2025
+
+
+Checking accounts                                                         l01 ,4 11
+
+Certificate of Deposit                                                     10,544
+
+                 Total Cash                                               Ill 955
+
+
+
+
+                 The accompanying notes are an intergal part of these statements.      10
+
+[[page 19]]
+ COMPLIANCE AND
+INTERNAL CONTROL
+
+[[page 20]]
+                           &JOHN           R.     POOLE,               CPA
+                              CERTIF"IEO PUBLIC ACCOUNTANT
+
+1 34 NORTHLAKE DRIVE                                                                   (61 5) 822-41 77
+HENDERSONVILLE, TN 37075
+
+
+
+           INDEPENDENT AUDITOR'S REPORT ON INTERNAL CONTROL OVER
+       FINANCIAL REPORTING AND ON COMPLIANCE AND OTHER MATTERS BASED
+               ON AN AUDIT OF FINANCIAL STATEMENTS PERFORMED
+             IN ACCORDANCE WITH GOVERNMENT AUDITING STANDARDS
+
+      To the Board of Directors of
+      Health, Educational and Housing Facilities Board ofthe City of Gallatin, Tennessee
+      Gallatin, Tennessee
+
+     I have audited, in accordance with the auditing standards generally accepted in the United States
+     of America and the standards applicable to financial audits contained in Government Auditing
+     Standards, issued by the Comptroller General of the United States, the financial statements of
+     Health, Educational and Housing Facilities Board of the City of Gallatin, Tennessee which
+     comprise the statement of financial position as of June 30, 2025,and the related statement of
+     activities and cash flows for the year then ended, and the related notes to the financial statements,
+     which collectively comprise Health, Educational and Housing Facilities Board of the City of
+     Gallatin, Tennessee's financial statements and have issued a report thereon dated July 31, 2025.
+
+     Report on Internal Control Over Financial Reporting
+
+     In planning and performing my audit of the financial statements, I considered the Health,
+     Educational and Housing Facilities Board of the City of Gallatin, Tennessee's internal control over
+     financial reporting (internal control) as a basis for designing the audit procedures that are
+     appropriate in the circumstances for the purpose of expressing an opinion on the financial
+     statements but not for the purpose of expressing an opinion on the effectiveness of the Health,
+     Educational and Housing Facilities Board of the City of Gallatin, Tennessee s internal control.
+     Accordingly, I do not express an opinion on the effectiveness of the Organization's internal
+     control.
+
+     A deficiency in internal control exists when the design or operation of a control does not allow
+     management or employees, in the normal course of performing their assigned functions, to prevent
+     or detect and correct misstatements on a timely basis. A material weakness is a deficiency, or
+     combination of deficiencies, in internal control, such that there is a reasonable possibility that a
+     material misstatement of the entity's financial statements will not be prevented, or detected and
+     corrected on a timely basis. A significant deficiency is a deficiency, or a combination of
+     deficiencies, in internal control that is less severe than a material weakness, yet important enough
+     to merit attention by those charged with governance.
+
+
+
+
+                                                                                                    12
+
+[[page 21]]
+My consideration of the internal control was for the limited purpose described in the first paragraph
+of this section and was not designed to identify all deficiencies in internal control that might be
+material weaknesses or significant deficiencies. Given these limitations, during the audit I did not
+identify any deficiencies in internal control that I consider to be material weaknesses or significant
+deficiencies. However, material weaknesses or significant deficiencies may exist that have not
+been identified.
+
+Report on Compliance and Other Matters
+
+As part of obtaining reasonable assurance about whether the Health, Educational and Housing
+Facilities Board of the City of Gallatin, Tennessee's financial statements are free of material
+misstatement, I performed tests of its compliance with certain provisions of laws, regulations,
+contracts and grant agreements, noncompliance with which could have a direct and material effect
+on the determination of the financial statements. However, providing an opinion on compliance
+with those provisions was not an objective of the audit and accordingly, I do not express such an
+opinion. The results of the tests disclosed no instances ofnoncompliance or other matters that are
+required to be repmted under Government Auditing Standm·ds.
+
+Purpose of This Report
+
+The purpos of this report is solely to describe the scope of the testing of internal control and
+compliance and the result of that testing and not to provide an opinion on the effectiveness ofth
+entity s internal control or on compliance. This repo11 is an integral part of an audit pe1formed in
+accordance with Government Auditing tandards in considering the entity's internal control and
+compliance. Accordingly, this communication is not suitable for any other purpose.
+
+
+
+
+July 31, 2025
+
+
+
+
+                                                                                                13
+
+[[page 22]]
+ HEALTH, EDUCATIONAL AND HOUSING FACILITIES BOARD OF THE CITY OF
+                      GALLATIN, TENNESSEE
+
+                      Schedule of Disposition of Prior Year Comments
+
+                                      June 30, 2025
+
+
+
+There were no prior year comments.
+
+
+
+
+                                                                       14

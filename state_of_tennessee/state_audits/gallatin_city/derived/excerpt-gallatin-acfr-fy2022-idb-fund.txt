@@ -1,0 +1,33 @@
+[[page 1]]
+                                  City of Gallatin, Tennessee
+               Schedule of Revenues, Expenditures, and Changes in Fund Balance
+                                Budget (GAAP Basis) and Actual
+                                 Industrial Development Board
+                               For the Year Ended June 30, 2022
+
+
+                                            Budgeted amounts
+                                                                          Actual     Variance with
+                                         Original         Final          amounts     final budget
+Revenues
+ Other
+   Payment in lieu from industry     $      265,025   $    265,025   $     182,548   $     (82,477)
+   Application fee                            1,500          1,500           1,256            (244)
+   Interest                                     -              -               116             116
+   Total revenues                           266,525        266,525         183,920         (82,605)
+
+Expenditures
+ Current
+   Economic Development                     205,260        227,760         161,718         66,042
+
+Excess of revenues over
+  (under) expenditures                       61,265         38,765          22,202         16,563
+
+
+Fund balance, beginning of year            123,462         123,462         123,462            -
+Fund balance, end of year            $     184,727    $    162,227   $     145,664   $     16,563
+
+
+
+
+                                                                                                 90

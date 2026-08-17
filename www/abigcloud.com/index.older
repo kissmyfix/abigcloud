@@ -1,0 +1,1157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>KissMyFix — Ugly Mailbox? K.I.S.S. It.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,900;1,700;1,900&family=JetBrains+Mono:wght@400;500&family=Permanent+Marker&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --charcoal: #1a1815;
+      --cream:    #F4EDD8;
+      --warm:     #EDE2C4;
+      --red:      #E63124;
+      --rust:     #B5641E;
+      --bg:       #efe9d7;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--charcoal);
+      font-family: 'Barlow Condensed', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── GRAIN overlay ─────────────────────────────────────────────────── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 1000;
+      opacity: 0.45;
+    }
+
+    /* ── NAV ───────────────────────────────────────────────────────────── */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 48px;
+      border-bottom: 1px solid rgba(26,24,21,0.12);
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 100;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-mark {
+      width: 40px;
+      height: 40px;
+    }
+
+    .nav-wordmark {
+      font-weight: 900;
+      font-size: 26px;
+      letter-spacing: -0.01em;
+      line-height: 1;
+      text-transform: lowercase;
+    }
+
+    .nav-handle {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      opacity: 0.55;
+    }
+
+    /* ── HERO ──────────────────────────────────────────────────────────── */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 0;
+      min-height: calc(100vh - 81px);
+      align-items: stretch;
+    }
+
+    .hero-left {
+      padding: 80px 64px 80px 64px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 32px;
+      border-right: 1px solid rgba(26,24,21,0.1);
+    }
+
+    .hero-tagline {
+      font-weight: 900;
+      font-size: clamp(72px, 10vw, 120px);
+      line-height: 0.88;
+      letter-spacing: -0.02em;
+      text-transform: lowercase;
+    }
+
+    .hero-tagline .kiss {
+      display: block;
+      color: var(--red);
+    }
+
+    .hero-sub {
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 1.4;
+      max-width: 480px;
+      opacity: 0.8;
+    }
+
+    .hero-divider {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .hero-divider-line {
+      flex: 1;
+      height: 1px;
+      background: var(--charcoal);
+      opacity: 0.2;
+    }
+
+    .hero-divider-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      opacity: 0.5;
+    }
+
+    .hero-location {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      opacity: 0.55;
+    }
+
+    .hero-right {
+      background: var(--charcoal);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-right::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 40px,
+        rgba(244,237,216,0.02) 40px,
+        rgba(244,237,216,0.02) 41px
+      );
+    }
+
+    .hero-character {
+      width: 320px;
+      height: 320px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ── PRICING ───────────────────────────────────────────────────────── */
+    .pricing {
+      padding: 100px 64px;
+      background: var(--charcoal);
+      color: var(--cream);
+    }
+
+    .pricing-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 56px;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .pricing-title {
+      font-weight: 900;
+      font-size: 64px;
+      letter-spacing: -0.02em;
+      line-height: 0.9;
+      text-transform: lowercase;
+    }
+
+    .pricing-title em {
+      font-style: italic;
+      color: var(--red);
+    }
+
+    .pricing-note {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      opacity: 0.45;
+      max-width: 260px;
+      line-height: 1.6;
+      text-align: right;
+    }
+
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 280px;
+      gap: 20px;
+      align-items: start;
+    }
+
+    .tier {
+      background: rgba(244,237,216,0.05);
+      border: 1px solid rgba(244,237,216,0.1);
+      border-radius: 4px;
+      padding: 36px 32px 32px;
+      position: relative;
+      transition: border-color 0.2s;
+    }
+
+    .tier:hover {
+      border-color: rgba(244,237,216,0.25);
+    }
+
+    .tier.featured {
+      background: rgba(230,49,36,0.08);
+      border-color: var(--red);
+    }
+
+    .tier-badge {
+      position: absolute;
+      top: -1px;
+      right: 24px;
+      background: var(--red);
+      color: var(--cream);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 0 0 4px 4px;
+    }
+
+    .tier-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      opacity: 0.5;
+      margin-bottom: 16px;
+    }
+
+    .tier-price {
+      font-weight: 900;
+      font-size: 80px;
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+      margin-bottom: 20px;
+    }
+
+    .tier-price sup {
+      font-size: 36px;
+      font-weight: 700;
+      vertical-align: top;
+      margin-top: 8px;
+      display: inline-block;
+    }
+
+    .tier-name {
+      font-weight: 700;
+      font-size: 22px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .tier-desc {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      opacity: 0.7;
+    }
+
+    .tier-detail {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(244,237,216,0.1);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      opacity: 0.45;
+      line-height: 1.8;
+    }
+
+    /* QR panel */
+    .qr-panel {
+      border: 1px solid rgba(244,237,216,0.15);
+      border-radius: 4px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+    }
+
+    .qr-code {
+      width: 160px;
+      height: 160px;
+      background: var(--cream);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+    }
+
+    .qr-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      opacity: 0.45;
+      line-height: 1.7;
+    }
+
+    .qr-handle {
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 0.04em;
+      color: var(--cream);
+    }
+
+    /* ── HOW IT WORKS ──────────────────────────────────────────────────── */
+    .how {
+      padding: 100px 64px;
+      background: var(--cream);
+      color: var(--charcoal);
+    }
+
+    .how-header {
+      margin-bottom: 64px;
+    }
+
+    .how-title {
+      font-weight: 900;
+      font-size: 56px;
+      letter-spacing: -0.02em;
+      text-transform: lowercase;
+      line-height: 0.9;
+      margin-bottom: 12px;
+    }
+
+    .how-sub {
+      font-size: 18px;
+      font-weight: 500;
+      opacity: 0.65;
+    }
+
+    .how-steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+    }
+
+    .step {
+      background: var(--warm);
+      padding: 36px 28px;
+      position: relative;
+    }
+
+    .step-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      opacity: 0.4;
+      margin-bottom: 20px;
+    }
+
+    .step-title {
+      font-weight: 900;
+      font-size: 26px;
+      letter-spacing: -0.01em;
+      text-transform: lowercase;
+      margin-bottom: 10px;
+      line-height: 1;
+    }
+
+    .step-desc {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.5;
+      opacity: 0.7;
+    }
+
+    .step-accent {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+      background: var(--red);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .step:hover .step-accent { opacity: 1; }
+
+    /* ── FOOTER ────────────────────────────────────────────────────────── */
+    footer {
+      background: var(--charcoal);
+      color: var(--cream);
+      padding: 48px 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    .footer-left {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .footer-brand {
+      font-weight: 900;
+      font-size: 32px;
+      letter-spacing: -0.01em;
+      text-transform: lowercase;
+    }
+
+    .footer-tagline {
+      font-size: 16px;
+      font-weight: 600;
+      opacity: 0.6;
+      letter-spacing: 0.02em;
+      text-transform: lowercase;
+    }
+
+    .footer-handle {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      opacity: 0.4;
+      margin-top: 4px;
+    }
+
+    .footer-badge {
+      width: 100px;
+      height: 100px;
+      opacity: 0.85;
+    }
+
+    /* ── ANIMATIONS ────────────────────────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-tagline { animation: fadeUp 0.7s ease both; }
+    .hero-sub     { animation: fadeUp 0.7s 0.1s ease both; }
+    .hero-divider { animation: fadeUp 0.7s 0.2s ease both; }
+    .hero-character { animation: fadeUp 0.9s 0.15s ease both; }
+
+    /* ── RESPONSIVE ────────────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      nav { padding: 16px 24px; }
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-left { padding: 60px 24px; border-right: none; border-bottom: 1px solid rgba(26,24,21,0.1); }
+      .hero-right { padding: 48px 24px; min-height: 320px; }
+      .hero-character { width: 220px; height: 220px; }
+      .pricing { padding: 60px 24px; }
+      .pricing-grid { grid-template-columns: 1fr; }
+      .how { padding: 60px 24px; }
+      .how-steps { grid-template-columns: 1fr 1fr; }
+      footer { padding: 40px 24px; }
+    }
+
+    @media (max-width: 600px) {
+      .hero-tagline { font-size: 64px; }
+      .how-steps { grid-template-columns: 1fr; }
+      .pricing-title { font-size: 44px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">
+    <svg class="nav-mark" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <mask id="nav-head">
+          <rect width="600" height="600" fill="black"/>
+          <path d="M 200 240 L 200 170 A 100 100 0 0 1 400 170 L 400 240 Z" fill="white"/>
+          <ellipse cx="208" cy="142" rx="16" ry="11" fill="black"/>
+          <ellipse cx="290" cy="68" rx="14" ry="8" fill="black"/>
+          <ellipse cx="402" cy="200" rx="11" ry="17" fill="black"/>
+          <circle cx="378" cy="240" r="9" fill="black"/>
+          <circle cx="200" cy="222" r="7" fill="black"/>
+          <ellipse cx="362" cy="74" rx="9" ry="6" fill="black"/>
+        </mask>
+      </defs>
+      <ellipse cx="300" cy="572" rx="118" ry="7" fill="#1a1815" opacity="0.2"/>
+      <line x1="300" y1="240" x2="300" y2="420" stroke="#1a1815" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <path d="M 300 282 Q 268 332, 256 412" stroke="#1a1815" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <circle cx="254" cy="418" r="9" fill="#1a1815"/>
+      <line x1="254" y1="425" x2="248" y2="438" stroke="#1a1815" stroke-width="5" stroke-linecap="round"/>
+      <path d="M 300 282 Q 348 246, 388 168" stroke="#1a1815" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <circle cx="390" cy="162" r="9" fill="#1a1815"/>
+      <line x1="390" y1="162" x2="438" y2="52" stroke="#1a1815" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="438" cy="49" r="5" fill="#1a1815"/>
+      <path d="M 438 55 Q 480 48, 530 60 Q 525 90, 530 120 Q 484 108, 438 118 Z" fill="#E63124"/>
+      <path d="M 438 55 Q 452 56, 458 60 L 458 116 Q 450 116, 438 118 Z" fill="#E63124" opacity="0.78"/>
+      <path d="M 300 420 Q 272 478, 256 552" stroke="#1a1815" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <path d="M 300 420 Q 328 478, 344 552" stroke="#1a1815" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <line x1="240" y1="558" x2="272" y2="554" stroke="#1a1815" stroke-width="9" stroke-linecap="round"/>
+      <line x1="328" y1="554" x2="360" y2="558" stroke="#1a1815" stroke-width="9" stroke-linecap="round"/>
+      <rect x="0" y="0" width="600" height="600" fill="#1a1815" mask="url(#nav-head)"/>
+      <path d="M 222 130 Q 244 118, 266 114" stroke="#F4EDD8" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <path d="M 334 114 Q 356 118, 378 130" stroke="#F4EDD8" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <ellipse cx="255" cy="152" rx="20" ry="16" fill="#F4EDD8"/>
+      <ellipse cx="345" cy="152" rx="20" ry="16" fill="#F4EDD8"/>
+      <path d="M 235 152 A 20 16 0 0 1 275 152 L 275 148 Q 255 138, 235 148 Z" fill="#1a1815"/>
+      <path d="M 325 152 A 20 16 0 0 1 365 152 L 365 148 Q 345 138, 325 148 Z" fill="#1a1815"/>
+      <circle cx="258" cy="160" r="4.5" fill="#1a1815"/>
+      <circle cx="348" cy="160" r="4.5" fill="#1a1815"/>
+      <path d="M 212 204 Q 300 195, 388 210 L 390 236 Q 340 226, 300 224 L 210 234 Z" fill="#000"/>
+      <path d="M 230 209 Q 300 201, 370 215 L 371 226 Q 340 219, 300 217 L 229 226 Z" fill="#F4EDD8"/>
+      <rect x="257" y="206" width="3" height="22" fill="#000"/>
+      <rect x="284" y="205" width="3" height="22" fill="#000"/>
+      <rect x="312" y="207" width="3" height="22" fill="#000"/>
+      <path d="M 276 206 L 282 206 L 282 212 L 278 215 L 276 211 Z" fill="#000"/>
+      <rect x="340" y="207" width="16" height="22" fill="#000"/>
+      <path d="M 220 206 Q 300 197, 380 211" stroke="#F4EDD8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </svg>
+    <div>
+      <div class="nav-wordmark">kissmyfix</div>
+    </div>
+  </div>
+  <div class="nav-handle">@kissmyfix.com</div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-tagline">
+      ugly<br>mailbox?
+      <span class="kiss">k.i.s.s. it</span>
+    </div>
+    <p class="hero-sub">
+      Your mailbox is embarrassing your house.<br>
+      We pull the old, set the new, and disappear before lunch.
+    </p>
+    <div class="hero-divider">
+      <div class="hero-divider-line"></div>
+      <div class="hero-divider-text">Hendersonville, TN</div>
+      <div class="hero-divider-line"></div>
+    </div>
+    <div class="hero-location">Same-week service · No deposit · Scan to book</div>
+  </div>
+  <div class="hero-right">
+    <!-- Full character on dark background -->
+    <svg class="hero-character" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <mask id="hero-head">
+          <rect width="600" height="600" fill="black"/>
+          <path d="M 200 240 L 200 170 A 100 100 0 0 1 400 170 L 400 240 Z" fill="white"/>
+          <ellipse cx="208" cy="142" rx="16" ry="11" fill="black"/>
+          <ellipse cx="290" cy="68" rx="14" ry="8" fill="black"/>
+          <ellipse cx="402" cy="200" rx="11" ry="17" fill="black"/>
+          <circle cx="378" cy="240" r="9" fill="black"/>
+          <circle cx="200" cy="222" r="7" fill="black"/>
+          <ellipse cx="362" cy="74" rx="9" ry="6" fill="black"/>
+        </mask>
+      </defs>
+      <ellipse cx="300" cy="572" rx="118" ry="7" fill="#F4EDD8" opacity="0.15"/>
+      <line x1="300" y1="240" x2="300" y2="420" stroke="#F4EDD8" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <path d="M 300 282 Q 268 332, 256 412" stroke="#F4EDD8" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <circle cx="254" cy="418" r="9" fill="#F4EDD8"/>
+      <line x1="254" y1="425" x2="248" y2="438" stroke="#F4EDD8" stroke-width="5" stroke-linecap="round"/>
+      <path d="M 300 282 Q 348 246, 388 168" stroke="#F4EDD8" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <circle cx="390" cy="162" r="9" fill="#F4EDD8"/>
+      <line x1="390" y1="162" x2="438" y2="52" stroke="#F4EDD8" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="438" cy="49" r="5" fill="#F4EDD8"/>
+      <path d="M 438 55 Q 480 48, 530 60 Q 525 90, 530 120 Q 484 108, 438 118 Z" fill="#E63124"/>
+      <path d="M 438 55 Q 452 56, 458 60 L 458 116 Q 450 116, 438 118 Z" fill="#E63124" opacity="0.78"/>
+      <text text-anchor="middle" font-family='"Permanent Marker", cursive' font-size="22" fill="#000" letter-spacing="0.01em">
+        <tspan x="483" y="82">kiss</tspan>
+        <tspan x="483" y="106">me</tspan>
+      </text>
+      <path d="M 300 420 Q 272 478, 256 552" stroke="#F4EDD8" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <path d="M 300 420 Q 328 478, 344 552" stroke="#F4EDD8" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <line x1="240" y1="558" x2="272" y2="554" stroke="#F4EDD8" stroke-width="9" stroke-linecap="round"/>
+      <line x1="328" y1="554" x2="360" y2="558" stroke="#F4EDD8" stroke-width="9" stroke-linecap="round"/>
+      <rect x="0" y="0" width="600" height="600" fill="#F4EDD8" mask="url(#hero-head)"/>
+      <g mask="url(#hero-head)">
+        <ellipse cx="218" cy="225" rx="22" ry="14" fill="#B5641E" opacity="0.85"/>
+        <ellipse cx="388" cy="228" rx="18" ry="12" fill="#B5641E" opacity="0.8"/>
+        <ellipse cx="218" cy="160" rx="9" ry="13" fill="#B5641E" opacity="0.7"/>
+        <ellipse cx="320" cy="80" rx="20" ry="8" fill="#B5641E" opacity="0.75"/>
+        <circle cx="380" cy="118" r="5" fill="#B5641E" opacity="0.7"/>
+        <circle cx="250" cy="232" r="3.5" fill="#B5641E" opacity="0.85"/>
+      </g>
+      <path d="M 222 130 Q 244 118, 266 114" stroke="#1a1815" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <path d="M 334 114 Q 356 118, 378 130" stroke="#1a1815" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <ellipse cx="255" cy="152" rx="20" ry="16" fill="#1a1815"/>
+      <ellipse cx="345" cy="152" rx="20" ry="16" fill="#1a1815"/>
+      <path d="M 235 152 A 20 16 0 0 1 275 152 L 275 148 Q 255 138, 235 148 Z" fill="#F4EDD8"/>
+      <path d="M 325 152 A 20 16 0 0 1 365 152 L 365 148 Q 345 138, 325 148 Z" fill="#F4EDD8"/>
+      <circle cx="258" cy="160" r="4.5" fill="#F4EDD8"/>
+      <circle cx="348" cy="160" r="4.5" fill="#F4EDD8"/>
+      <path d="M 212 204 Q 300 195, 388 210 L 390 236 Q 340 226, 300 224 L 210 234 Z" fill="#000"/>
+      <path d="M 230 209 Q 300 201, 370 215 L 371 226 Q 340 219, 300 217 L 229 226 Z" fill="#1a1815"/>
+      <rect x="257" y="206" width="3" height="22" fill="#F4EDD8"/>
+      <rect x="284" y="205" width="3" height="22" fill="#F4EDD8"/>
+      <rect x="312" y="207" width="3" height="22" fill="#F4EDD8"/>
+      <path d="M 276 206 L 282 206 L 282 212 L 278 215 L 276 211 Z" fill="#F4EDD8"/>
+      <rect x="340" y="207" width="16" height="22" fill="#F4EDD8"/>
+      <path d="M 220 206 Q 300 197, 380 211" stroke="#1a1815" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ── PRICING ── -->
+<section class="pricing">
+  <div class="pricing-header">
+    <div class="pricing-title">
+      pick your<br><em>fix.</em>
+    </div>
+    <div class="pricing-note">
+      No deposit.<br>
+      No payment until the job is done.<br>
+      Same week, guaranteed.
+    </div>
+  </div>
+
+  <div class="pricing-grid">
+
+    <!-- Tier 1 -->
+    <div class="tier">
+      <div class="tier-label">New Mailbox</div>
+      <div class="tier-price"><sup>$</sup>99</div>
+      <div class="tier-name">the basic fix</div>
+      <div class="tier-desc">New box, same post. Gone by lunch.</div>
+      <div class="tier-detail">
+        box swapped · post reused<br>
+        address stickers included<br>
+        same-week service
+      </div>
+      <div class="step-accent"></div>
+    </div>
+
+    <!-- Tier 2 -->
+    <div class="tier featured">
+      <div class="tier-badge">Most Picked</div>
+      <div class="tier-label">Box + Post</div>
+      <div class="tier-price"><sup>$</sup>149</div>
+      <div class="tier-name">the full fix</div>
+      <div class="tier-desc">Full replacement, fresh post, level for once.</div>
+      <div class="tier-detail">
+        new box + new wood post<br>
+        embossed address numbers<br>
+        dado arm mount · same-week service
+      </div>
+      <div class="step-accent"></div>
+    </div>
+
+    <!-- QR -->
+    <div class="qr-panel">
+      <div class="qr-label">Scan to book<br>same week</div>
+      <!-- Decorative QR placeholder -->
+      <div class="qr-code">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+          <!-- QR finder patterns -->
+          <rect x="5" y="5" width="35" height="35" fill="none" stroke="#1a1815" stroke-width="4"/>
+          <rect x="12" y="12" width="21" height="21" fill="#1a1815"/>
+          <rect x="60" y="5" width="35" height="35" fill="none" stroke="#1a1815" stroke-width="4"/>
+          <rect x="67" y="12" width="21" height="21" fill="#1a1815"/>
+          <rect x="5" y="60" width="35" height="35" fill="none" stroke="#1a1815" stroke-width="4"/>
+          <rect x="12" y="67" width="21" height="21" fill="#1a1815"/>
+          <!-- QR data dots -->
+          <rect x="45" y="5"  width="7" height="7" fill="#1a1815"/>
+          <rect x="55" y="5"  width="7" height="7" fill="#1a1815"/>
+          <rect x="45" y="15" width="7" height="7" fill="#1a1815"/>
+          <rect x="55" y="25" width="7" height="7" fill="#1a1815"/>
+          <rect x="45" y="35" width="7" height="7" fill="#1a1815"/>
+          <rect x="45" y="45" width="7" height="7" fill="#1a1815"/>
+          <rect x="55" y="45" width="7" height="7" fill="#1a1815"/>
+          <rect x="65" y="45" width="7" height="7" fill="#1a1815"/>
+          <rect x="75" y="45" width="7" height="7" fill="#1a1815"/>
+          <rect x="85" y="45" width="7" height="7" fill="#1a1815"/>
+          <rect x="5"  y="45" width="7" height="7" fill="#1a1815"/>
+          <rect x="15" y="45" width="7" height="7" fill="#1a1815"/>
+          <rect x="25" y="45" width="7" height="7" fill="#1a1815"/>
+          <rect x="35" y="45" width="7" height="7" fill="#1a1815"/>
+          <rect x="55" y="55" width="7" height="7" fill="#1a1815"/>
+          <rect x="75" y="55" width="7" height="7" fill="#1a1815"/>
+          <rect x="85" y="55" width="7" height="7" fill="#1a1815"/>
+          <rect x="65" y="65" width="7" height="7" fill="#1a1815"/>
+          <rect x="85" y="65" width="7" height="7" fill="#1a1815"/>
+          <rect x="45" y="65" width="7" height="7" fill="#1a1815"/>
+          <rect x="55" y="75" width="7" height="7" fill="#1a1815"/>
+          <rect x="75" y="75" width="7" height="7" fill="#1a1815"/>
+          <rect x="45" y="75" width="7" height="7" fill="#1a1815"/>
+          <rect x="65" y="85" width="7" height="7" fill="#1a1815"/>
+          <rect x="85" y="85" width="7" height="7" fill="#1a1815"/>
+          <rect x="45" y="85" width="7" height="7" fill="#1a1815"/>
+          <rect x="55" y="85" width="7" height="7" fill="#1a1815"/>
+        </svg>
+      </div>
+      <div class="qr-handle">@kissmyfix.com</div>
+      <div class="qr-label" style="font-size:10px;">
+        Address pre-filled on arrival.<br>No account needed.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── HOW IT WORKS ── -->
+<section class="how">
+  <div class="how-header">
+    <div class="how-title">dead simple.<br>by design.</div>
+    <div class="how-sub">Four steps. Zero hassle. That's the whole point.</div>
+  </div>
+  <div class="how-steps">
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-title">flyer finds you</div>
+      <div class="step-desc">We leave a flyer on your mailbox. Your address is already on the QR code.</div>
+      <div class="step-accent"></div>
+    </div>
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-title">scan & pick</div>
+      <div class="step-desc">Scan the code, pick your tier, confirm your address. Takes about 90 seconds.</div>
+      <div class="step-accent"></div>
+    </div>
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-title">we show up</div>
+      <div class="step-desc">Same week. You don't need to be home. We pull the old one and set the new one.</div>
+      <div class="step-accent"></div>
+    </div>
+    <div class="step">
+      <div class="step-num">04</div>
+      <div class="step-title">pay when done</div>
+      <div class="step-desc">We send a payment link when the job is finished. No deposit. No surprises.</div>
+      <div class="step-accent"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-left">
+    <div class="footer-brand">kissmyfix</div>
+    <div class="footer-tagline">ugly mailbox? k.i.s.s. it</div>
+    <div class="footer-handle">@kissmyfix.com · Hendersonville, TN</div>
+  </div>
+  <!-- Badge in footer -->
+  <svg class="footer-badge" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <path id="ft-arc-top" d="M 108 300 A 192 192 0 0 1 492 300" fill="none"/>
+      <path id="ft-arc-bot" d="M 72 355 A 242 242 0 0 0 528 355" fill="none"/>
+      <mask id="ft-head">
+        <rect width="600" height="600" fill="black"/>
+        <path d="M 200 240 L 200 170 A 100 100 0 0 1 400 170 L 400 240 Z" fill="white"/>
+        <ellipse cx="208" cy="142" rx="16" ry="11" fill="black"/>
+        <ellipse cx="290" cy="68" rx="14" ry="8" fill="black"/>
+        <ellipse cx="402" cy="200" rx="11" ry="17" fill="black"/>
+        <circle cx="378" cy="240" r="9" fill="black"/>
+        <circle cx="200" cy="222" r="7" fill="black"/>
+        <ellipse cx="362" cy="74" rx="9" ry="6" fill="black"/>
+      </mask>
+    </defs>
+    <circle cx="300" cy="300" r="270" fill="#F4EDD8" opacity="0.08"/>
+    <circle cx="300" cy="300" r="248" fill="none" stroke="#F4EDD8" stroke-width="3" opacity="0.3"/>
+    <circle cx="300" cy="300" r="240" fill="#2a2622"/>
+    <g transform="translate(138 148) scale(0.54)">
+      <ellipse cx="300" cy="572" rx="118" ry="7" fill="#F4EDD8" opacity="0.15"/>
+      <line x1="300" y1="240" x2="300" y2="420" stroke="#F4EDD8" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <path d="M 300 282 Q 268 332, 256 412" stroke="#F4EDD8" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <circle cx="254" cy="418" r="9" fill="#F4EDD8"/>
+      <path d="M 300 282 Q 348 246, 388 168" stroke="#F4EDD8" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <circle cx="390" cy="162" r="9" fill="#F4EDD8"/>
+      <line x1="390" y1="162" x2="438" y2="52" stroke="#F4EDD8" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="438" cy="49" r="5" fill="#F4EDD8"/>
+      <path d="M 438 55 Q 480 48, 530 60 Q 525 90, 530 120 Q 484 108, 438 118 Z" fill="#E63124"/>
+      <path d="M 300 420 Q 272 478, 256 552" stroke="#F4EDD8" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <path d="M 300 420 Q 328 478, 344 552" stroke="#F4EDD8" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <line x1="240" y1="558" x2="272" y2="554" stroke="#F4EDD8" stroke-width="9" stroke-linecap="round"/>
+      <line x1="328" y1="554" x2="360" y2="558" stroke="#F4EDD8" stroke-width="9" stroke-linecap="round"/>
+      <rect x="0" y="0" width="600" height="600" fill="#F4EDD8" mask="url(#ft-head)"/>
+      <path d="M 222 130 Q 244 118, 266 114" stroke="#1a1815" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <path d="M 334 114 Q 356 118, 378 130" stroke="#1a1815" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <ellipse cx="255" cy="152" rx="20" ry="16" fill="#1a1815"/>
+      <ellipse cx="345" cy="152" rx="20" ry="16" fill="#1a1815"/>
+      <path d="M 235 152 A 20 16 0 0 1 275 152 L 275 148 Q 255 138, 235 148 Z" fill="#F4EDD8"/>
+      <path d="M 325 152 A 20 16 0 0 1 365 152 L 365 148 Q 345 138, 325 148 Z" fill="#F4EDD8"/>
+      <circle cx="258" cy="160" r="4.5" fill="#F4EDD8"/>
+      <circle cx="348" cy="160" r="4.5" fill="#F4EDD8"/>
+      <path d="M 212 204 Q 300 195, 388 210 L 390 236 Q 340 226, 300 224 L 210 234 Z" fill="#000"/>
+      <path d="M 230 209 Q 300 201, 370 215 L 371 226 Q 340 219, 300 217 L 229 226 Z" fill="#1a1815"/>
+      <rect x="340" y="207" width="16" height="22" fill="#F4EDD8"/>
+      <path d="M 220 206 Q 300 197, 380 211" stroke="#1a1815" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+    <text font-family='"Barlow Condensed", sans-serif' font-weight="900" font-size="48" fill="#F4EDD8" letter-spacing="7">
+      <textPath href="#ft-arc-top" startOffset="50%" text-anchor="middle">KISSMYFIX</textPath>
+    </text>
+    <text font-family='"Barlow Condensed", sans-serif' font-weight="700" font-size="19" fill="#F4EDD8" letter-spacing="1.5">
+      <textPath href="#ft-arc-bot" startOffset="50%" text-anchor="middle">★  UGLY MAILBOX? K.I.S.S. IT  ★</textPath>
+    </text>
+    <circle cx="76" cy="300" r="4" fill="#F4EDD8" opacity="0.4"/>
+    <circle cx="524" cy="300" r="4" fill="#F4EDD8" opacity="0.4"/>
+  </svg>
+</footer>
+
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>KissMyFix — Badge / Sticker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500&family=Permanent+Marker&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #efe9d7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 48px;
+      padding: 48px;
+      font-family: 'Barlow Condensed', sans-serif;
+    }
+    .label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #1a1815;
+      opacity: 0.5;
+      text-align: center;
+    }
+    .badge-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+    }
+    .row {
+      display: flex;
+      gap: 40px;
+      align-items: flex-end;
+    }
+  </style>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const PALETTE = {
+      charcoal:    '#1a1815',
+      charcoalSoft:'#2a2622',
+      red:         '#E63124',
+      redDark:     '#B82218',
+      cream:       '#F4EDD8',
+      creamWarm:   '#EDE2C4',
+      rust:        '#B5641E',
+      rustDeep:    '#7d4514',
+    };
+
+    // ── MailboxCharacter ────────────────────────────────────────────────────
+    function MailboxCharacter({
+      bodyColor = PALETTE.charcoal,
+      accentRed = PALETTE.red,
+      eyeWhite  = PALETTE.cream,
+      rust      = PALETTE.rust,
+      showRust  = true,
+      brow      = 'sad-soft',
+      flagText  = true,
+      id        = 'mb',
+    }) {
+      const brows = {
+        'sad-soft': { left:'M 222 130 Q 244 118, 266 114', right:'M 334 114 Q 356 118, 378 130', weight:7 },
+        'defeated': { left:'M 220 140 Q 246 114, 268 112', right:'M 332 112 Q 354 114, 380 140', weight:8 },
+        'sad':      { left:'M 220 134 Q 240 116, 264 110', right:'M 336 110 Q 360 116, 380 134', weight:7 },
+        'tired':    { left:'M 222 118 Q 242 122, 262 132', right:'M 338 132 Q 358 122, 378 118', weight:7 },
+        'scowl':    { left:'M 218 110 Q 240 118, 264 134', right:'M 336 134 Q 360 118, 382 110', weight:8 },
+      };
+      const b    = brows[brow] || brows['sad-soft'];
+      const dark = bodyColor === PALETTE.charcoal ? '#000' : bodyColor;
+      const sk   = { stroke:bodyColor, strokeWidth:11, strokeLinecap:'round', strokeLinejoin:'round', fill:'none' };
+
+      return (
+        <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"
+             style={{ display:'block', width:'100%', height:'100%' }}>
+          <defs>
+            <mask id={`${id}-head`}>
+              <rect width="600" height="600" fill="black"/>
+              <path d="M 200 240 L 200 170 A 100 100 0 0 1 400 170 L 400 240 Z" fill="white"/>
+              <ellipse cx="208" cy="142" rx="16" ry="11" fill="black"/>
+              <ellipse cx="290" cy="68"  rx="14" ry="8"  fill="black"/>
+              <ellipse cx="402" cy="200" rx="11" ry="17" fill="black"/>
+              <circle  cx="378" cy="240" r="9"            fill="black"/>
+              <circle  cx="200" cy="222" r="7"            fill="black"/>
+              <ellipse cx="362" cy="74"  rx="9"  ry="6"  fill="black"/>
+            </mask>
+          </defs>
+
+          {/* ground shadow */}
+          <ellipse cx="300" cy="572" rx="118" ry="7" fill={bodyColor} opacity="0.25"/>
+
+          {/* torso */}
+          <line x1="300" y1="240" x2="300" y2="420" {...sk}/>
+
+          {/* limp arm */}
+          <path d="M 300 282 Q 268 332, 256 412" {...sk}/>
+          <circle cx="254" cy="418" r="9" fill={bodyColor}/>
+          <line x1="254" y1="425" x2="248" y2="438"
+                stroke={bodyColor} strokeWidth="5" strokeLinecap="round" fill="none"/>
+
+          {/* raised arm */}
+          <path d="M 300 282 Q 348 246, 388 168" {...sk}/>
+          <circle cx="390" cy="162" r="9" fill={bodyColor}/>
+
+          {/* flag pole */}
+          <line x1="390" y1="162" x2="438" y2="52"
+                stroke={bodyColor} strokeWidth="7" strokeLinecap="round" fill="none"/>
+          <circle cx="438" cy="49" r="5" fill={bodyColor}/>
+
+          {/* flag */}
+          <path d="M 438 55 Q 480 48, 530 60 Q 525 90, 530 120 Q 484 108, 438 118 Z"
+                fill={accentRed}/>
+          <path d="M 438 55 Q 452 56, 458 60 L 458 116 Q 450 116, 438 118 Z"
+                fill={accentRed} opacity="0.78"/>
+
+          {/* kiss me text on flag */}
+          {flagText && (
+            <text textAnchor="middle"
+                  fontFamily='"Permanent Marker", "Comic Sans MS", cursive'
+                  fontSize="22" fill="#000" letterSpacing="0.01em">
+              <tspan x="483" y="82">kiss</tspan>
+              <tspan x="483" y="106">me</tspan>
+            </text>
+          )}
+
+          {/* legs */}
+          <path d="M 300 420 Q 272 478, 256 552" {...sk}/>
+          <path d="M 300 420 Q 328 478, 344 552" {...sk}/>
+          <line x1="240" y1="558" x2="272" y2="554"
+                stroke={bodyColor} strokeWidth="9" strokeLinecap="round" fill="none"/>
+          <line x1="328" y1="554" x2="360" y2="558"
+                stroke={bodyColor} strokeWidth="9" strokeLinecap="round" fill="none"/>
+
+          {/* mailbox head */}
+          <rect x="0" y="0" width="600" height="600"
+                fill={bodyColor} mask={`url(#${id}-head)`}/>
+
+          {/* rust stains */}
+          {showRust && rust && (
+            <g mask={`url(#${id}-head)`}>
+              <ellipse cx="218" cy="225" rx="22" ry="14" fill={rust} opacity="0.85"/>
+              <ellipse cx="388" cy="228" rx="18" ry="12" fill={rust} opacity="0.8"/>
+              <ellipse cx="218" cy="160" rx="9"  ry="13" fill={rust} opacity="0.7"/>
+              <ellipse cx="320" cy="80"  rx="20" ry="8"  fill={rust} opacity="0.75"/>
+              <circle  cx="380" cy="118" r="5"           fill={rust} opacity="0.7"/>
+              <circle  cx="250" cy="232" r="3.5"         fill={rust} opacity="0.85"/>
+            </g>
+          )}
+
+          {/* eyebrows */}
+          <path d={b.left}  stroke={eyeWhite} strokeWidth={b.weight}
+                strokeLinecap="round" fill="none"/>
+          <path d={b.right} stroke={eyeWhite} strokeWidth={b.weight}
+                strokeLinecap="round" fill="none"/>
+
+          {/* eyes */}
+          <ellipse cx="255" cy="152" rx="20" ry="16" fill={eyeWhite}/>
+          <ellipse cx="345" cy="152" rx="20" ry="16" fill={eyeWhite}/>
+
+          {/* droopy lids */}
+          <path d="M 235 152 A 20 16 0 0 1 275 152 L 275 148 Q 255 138, 235 148 Z"
+                fill={bodyColor}/>
+          <path d="M 325 152 A 20 16 0 0 1 365 152 L 365 148 Q 345 138, 325 148 Z"
+                fill={bodyColor}/>
+          <path d="M 235 152 Q 255 161, 275 152"
+                stroke={bodyColor} strokeWidth="1.5" fill="none" opacity="0.5"/>
+          <path d="M 325 152 Q 345 161, 365 152"
+                stroke={bodyColor} strokeWidth="1.5" fill="none" opacity="0.5"/>
+
+          {/* pupils */}
+          <circle cx="258" cy="160" r="4.5" fill={bodyColor}/>
+          <circle cx="348" cy="160" r="4.5" fill={bodyColor}/>
+
+          {/* mouth — asymmetric grimace, chipped tooth, missing molar */}
+          <path d="M 212 204 Q 300 195, 388 210 L 390 236 Q 340 226, 300 224 L 210 234 Z"
+                fill={dark}/>
+          <path d="M 230 209 Q 300 201, 370 215 L 371 226 Q 340 219, 300 217 L 229 226 Z"
+                fill={eyeWhite}/>
+          <rect x="257" y="206" width="3" height="22" fill={dark}/>
+          <rect x="284" y="205" width="3" height="22" fill={dark}/>
+          <rect x="312" y="207" width="3" height="22" fill={dark}/>
+          <path d="M 276 206 L 282 206 L 282 212 L 278 215 L 276 211 Z" fill={dark}/>
+          <rect x="340" y="207" width="16" height="22" fill={dark}/>
+          <path d="M 220 206 Q 300 197, 380 211"
+                stroke={eyeWhite} strokeWidth="3" strokeLinecap="round" fill="none"/>
+        </svg>
+      );
+    }
+
+    // ── LogoBadge — FIXED: KISSMYFIX top, tagline bottom ────────────────────
+    function LogoBadge({ id = 'badge', brow = 'sad-soft', showRust = false, size = 600 }) {
+      return (
+        <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"
+             style={{ display:'block', width:size, height:size }}>
+          <defs>
+            {/* Top arc — KISSMYFIX brand name */}
+            <path id={`${id}-arc-top`}
+                  d="M 108 300 A 192 192 0 0 1 492 300"
+                  fill="none"/>
+            {/* Bottom arc — tagline, sits below the character's feet */}
+            <path id={`${id}-arc-bot`}
+                  d="M 72 355 A 242 242 0 0 0 528 355"
+                  fill="none"/>
+          </defs>
+
+          {/* Outer charcoal ring */}
+          <circle cx="300" cy="300" r="270" fill={PALETTE.charcoal}/>
+          {/* Inner cream rule line */}
+          <circle cx="300" cy="300" r="248" fill="none"
+                  stroke={PALETTE.cream} strokeWidth="3"/>
+          {/* Cream background */}
+          <circle cx="300" cy="300" r="240" fill={PALETTE.creamWarm}/>
+
+          {/* Character — centered, scale tuned to leave room for both arc texts */}
+          <g transform="translate(138 148) scale(0.54)">
+            <MailboxCharacter id={`${id}-mb`} brow={brow} showRust={showRust}/>
+          </g>
+
+          {/* TOP ARC — KISSMYFIX (brand primary) */}
+          <text fontFamily='"Barlow Condensed", sans-serif'
+                fontWeight="900" fontSize="48"
+                fill={PALETTE.charcoal} letterSpacing="7">
+            <textPath href={`#${id}-arc-top`} startOffset="50%" textAnchor="middle">
+              KISSMYFIX
+            </textPath>
+          </text>
+
+          {/* BOTTOM ARC — tagline */}
+          <text fontFamily='"Barlow Condensed", sans-serif'
+                fontWeight="700" fontSize="19"
+                fill={PALETTE.charcoal} letterSpacing="1.5">
+            <textPath href={`#${id}-arc-bot`} startOffset="50%" textAnchor="middle">
+              ★  UGLY MAILBOX? K.I.S.S. IT  ★
+            </textPath>
+          </text>
+
+          {/* Side dot ornaments at 9 and 3 o'clock */}
+          <circle cx="76"  cy="300" r="4" fill={PALETTE.charcoal}/>
+          <circle cx="524" cy="300" r="4" fill={PALETTE.charcoal}/>
+        </svg>
+      );
+    }
+
+    // ── App — primary + two context variants ────────────────────────────────
+    function App() {
+      return (
+        <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:52 }}>
+
+          {/* Primary — cream background */}
+          <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:14 }}>
+            <div className="label">Primary · cream bg</div>
+            <div style={{
+              borderRadius:'50%',
+              boxShadow:'0 28px 56px rgba(26,24,21,0.22), 0 8px 16px rgba(26,24,21,0.12)',
+            }}>
+              <LogoBadge id="badge-a" brow="sad-soft" showRust={false} size={520}/>
+            </div>
+          </div>
+
+          {/* Two smaller variants side by side */}
+          <div style={{ display:'flex', gap:40, alignItems:'flex-end' }}>
+
+            {/* On dark */}
+            <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:12 }}>
+              <div className="label">On dark</div>
+              <div style={{
+                background: PALETTE.charcoal,
+                borderRadius:'50%',
+                padding: 16,
+                boxShadow:'0 16px 32px rgba(26,24,21,0.3)',
+              }}>
+                <LogoBadge id="badge-b" brow="sad-soft" showRust={false} size={260}/>
+              </div>
+            </div>
+
+            {/* On red */}
+            <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:12 }}>
+              <div className="label">On red</div>
+              <div style={{
+                background: PALETTE.red,
+                borderRadius:'50%',
+                padding: 16,
+                boxShadow:'0 16px 32px rgba(230,49,36,0.35)',
+              }}>
+                <LogoBadge id="badge-c" brow="sad-soft" showRust={false} size={260}/>
+              </div>
+            </div>
+
+            {/* With rust — for context */}
+            <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:12 }}>
+              <div className="label">With rust detail</div>
+              <div style={{
+                borderRadius:'50%',
+                boxShadow:'0 16px 32px rgba(26,24,21,0.18)',
+              }}>
+                <LogoBadge id="badge-d" brow="sad-soft" showRust={true} size={260}/>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+  </script>
+</body>
+</html>

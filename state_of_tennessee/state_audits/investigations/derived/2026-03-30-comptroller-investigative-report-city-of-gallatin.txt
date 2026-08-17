@@ -1,0 +1,193 @@
+[[page 1]]
+COMPTROLLER’S INVESTIGATIVE REPORT
+
+
+
+          City of Gallatin
+            March 30, 2026
+
+
+
+
+                              Jason E. Mumpower
+                             Comptroller of the Treasury
+
+
+
+
+                             DIVISION OF INVESTIGATIONS
+
+[[page 2]]
+                                           March 30, 2026
+
+
+Mayor Paige Brown
+City of Gallatin
+132 West Main Street
+Gallatin, TN 37066
+
+
+Mayor Brown:
+
+       The Office of the Comptroller of the Treasury conducted an investigation of selected
+records of the City of Gallatin, and the results are presented herein.
+
+        Copies of this report are being forwarded to Governor Bill Lee, the State Attorney General,
+the District Attorney General of the 18th Judicial District, certain state legislators, and various other
+interested parties. A copy of the report is available for public inspection in our Office and may be
+viewed at http://www.comptroller.tn.gov/ia/.
+
+                                                Sincerely,
+
+
+
+
+                                                Jason E. Mumpower
+                                                Comptroller of the Treasury
+
+
+JEM/MLC
+
+[[page 3]]
+            _________________________________________________City of Gallatin
+
+
+                 INVESTIGATIVE REPORT
+                                   City of Gallatin
+The Office of the Comptroller of the Treasury, in conjunction with the Tennessee Department of
+Revenue, investigated allegations of malfeasance related to the City of Gallatin. The investigation
+was limited to selected records for the period March 25, 2015, through November 18, 2025. The
+results of the investigation were communicated with the Office of the District Attorney General of
+the 18th Judicial District.
+
+                                      BACKGROUND
+
+                                                          The City of Gallatin (city), located in
+                                                          Sumner County, Tennessee, is governed
+                                                          by a mayor and city council. The city
+                                                          issues purchasing cards to certain
+                                                          employees for city purchases. All
+                                                          purchases made with a city purchasing
+                                                          card are reviewed by the employee’s
+                                                          supervisor.    The     city’s    finance
+                                                          department includes a purchasing agent
+                                                          responsible for purchasing and bid
+                                                          processes for multiple city departments.
+
+                                                      The city has an Amazon Business
+                                                      account with user accounts assigned to
+                                                      employees across various departments.
+Employees use their city purchasing cards to make purchases through their individual Amazon
+Business user accounts. Purchases made through the city’s Amazon Business account are tax-
+exempt.
+
+James R. (J.R.) Smith Jr. was hired as the city’s purchasing agent in August 2009 and was an
+administrator on the city’s Amazon Business account. In November 2024, another city account
+administrator identified questionable transactions placed using Smith’s user account, paid with
+Smith’s personal credit or debit card. Smith told his supervisor that the purchases made on the
+city’s Amazon Business account were in error and would be returned. In August 2025, a city
+employee discovered that Smith continued making personal purchases on the city’s Amazon
+Business account after the November 2024 incident. Although Smith used a personal credit or
+debit card for payment, no sales tax was paid on the purchases. Smith’s employment with the city
+was terminated on November 18, 2025.
+
+
+
+
+                                                1
+
+[[page 4]]
+            _________________________________________________City of Gallatin
+
+                            RESULTS OF INVESTIGATION
+
+1. FORMER CITY OF GALLATIN PURCHASING AGENT JAMES R. SMITH JR.
+   USED THE CITY’S AMAZON BUSINESS ACCOUNT TO AVOID SALES TAX AND
+   RECEIVE DISCOUNTS ON PERSONAL PURCHASES
+
+   A. Smith avoided paying $1,128.49 in sales tax by using the city’s Amazon Business
+      account to make personal purchases
+
+       Smith avoided paying $1,128.49 in sales tax by using the city’s Amazon Business account
+       to make personal purchases. From March 25, 2015, through November 18, 2025, Smith
+       made 133 personal purchases using the city’s Amazon Business account and improperly
+       used the city’s sales tax exemption to avoid paying sales tax on 130 of those purchases.
+       Smith used his personal credit card to pay for these purchases. These personal purchases
+       were shipped to Smith’s personal residence, Gallatin City Hall, and the residences of
+       Smith’s relatives. Smith began remitting the unpaid sales tax amount to the Tennessee
+       Department of Revenue on November 25, 2025.
+
+             Calculation of Sales Tax Avoided by Smith on Personal Purchases
+            Personal Purchases without Sales Tax Paid      $      12,199.93
+            Sumner County Sales Tax Rate                      x       9.25%
+            Sales Tax Avoided                              $        1,128.49
+
+   B. Smith received an undue benefit of $39.64 in discounts on personal purchases
+
+       Smith received an undue benefit of $39.64 in discounts on 28 personal purchases made
+       through the city’s Amazon Business account. The discounts received were business pricing
+       exclusive to Amazon Business accounts and would not have been available to Smith
+       through a personal Amazon account.
+
+2. FORMER CITY OF GALLATIN PURCHASING AGENT JAMES R. SMITH JR.
+   DELETED HIS PERSONAL PAYMENT METHODS FROM THE CITY ’S AMAZON
+   BUSINESS ACCOUNT TO CONCEAL EVIDENCE OF PERSONAL PURCHASES
+
+Smith deleted his personal credit and debit card information from the payment methods saved to
+his assigned user account on the city’s Amazon Business account to conceal evidence of personal
+purchases. Smith was notified on the morning of November 18, 2025, that he would meet with
+investigators about issues with the city’s Amazon Business account. Smith told investigators that,
+after receiving this notification, he deleted his personal credit and debit card information from the
+payment methods saved on his city assigned user account.
+
+
+
+
+                                                 2
+
+[[page 5]]
+            _________________________________________________City of Gallatin
+
+On March 2, 2026, the Sumner County Grand Jury indicted James R. Smith Jr. on one count of
+Tax Evasion; one count of Official Misconduct; and one count of Destruction of Government
+Records.
+
+The charges and allegations contained in the indictment are merely accusations of criminal
+conduct, and not evidence. The defendant is presumed innocent unless and until proven guilty
+beyond a reasonable doubt and convicted through due process of law.
+
+                              City of Gallatin Investigation Exhibit
+
+
+                              ______________________________
+
+
+                      INTERNAL CONTROL DEFICIENCIES
+
+Our investigation revealed deficiencies in internal controls. These deficiencies included:
+
+Deficiency 1: The former purchasing agent violated the city’s use-of-position policy
+
+Smith violated the city’s use-of-position policy by using the city’s Amazon Business account to
+avoid paying sales tax on personal purchases and to receive exclusive business account discounts.
+The city’s personnel rules and regulations state that “no municipal official or employee shall make
+or attempt to make private purchases, for cash or otherwise, in the name of the municipality, nor
+shall he/she otherwise use or attempt to use his/her position to secure unwarranted privileges or
+exemptions for himself/herself or others.”
+
+Deficiency 2: The former purchasing agent violated the city’s use of municipal computer
+              systems policy
+
+Smith violated the city’s use of computer systems policy by using his city laptop to make personal
+purchases through the city’s Amazon Business account. The city’s personnel rules and regulations
+state that “the use of the city’s business systems or equipment, including… computers, … and
+internet access for personal use is prohibited other than de minimus personal use. Employees
+abusing the city’s business systems or equipment for non-work-related purposes are subject to
+disciplinary action appropriate for the offense.”
+
+                              ______________________________
+
+
+
+
+                                                 3

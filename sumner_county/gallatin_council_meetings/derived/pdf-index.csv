@@ -1,0 +1,24 @@
+text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+2018-06-19-city-council-agenda.txt,2018-06-19-city-council-agenda.pdf,OCR_SCAN,102,89252,875,0.73,verify figures against page image,Adobe Acrobat Pro DC 15.17.20050
+2019-gallatin-annual-financial-report.txt,2019-gallatin-annual-financial-report.pdf,DIGITAL,120,396635,3305,0.03,extraction authoritative,Acrobat Distiller 19.0 (Windows)
+2020-05-05-city-council-agenda.txt,2020-05-05-city-council-agenda.pdf,OCR_SCAN,69,57247,830,0.9,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2020-05-12-council-committee-agenda.txt,2020-05-12-council-committee-agenda.pdf,OCR_SCAN,91,79966,879,0.53,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2020-05-12-r2005-24-woolhawk-pilot-terms.txt,2020-05-12-r2005-24-woolhawk-pilot-terms.pdf,DIGITAL,6,11750,1958,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)
+2020-06-09-council-committee-agenda.txt,2020-06-09-council-committee-agenda.pdf,OCR_SCAN,121,418948,3462,0.89,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2020-06-16-city-council-agenda.txt,2020-06-16-city-council-agenda.pdf,OCR_SCAN,206,699748,3397,0.93,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2020-07-07-city-council-agenda.txt,2020-07-07-city-council-agenda.pdf,OCR_SCAN,31,72246,2331,0.97,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2020-07-21-city-council-agenda.txt,2020-07-21-city-council-agenda.pdf,OCR_SCAN,24,145121,6047,0.96,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2020-09-15-city-council-agenda.txt,2020-09-15-city-council-agenda.pdf,OCR_SCAN,160,474451,2965,0.86,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2020-10-06-city-council-agenda.txt,2020-10-06-city-council-agenda.pdf,SPARSE,162,96205,594,0.2,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2020-10-20-city-council-agenda.txt,2020-10-20-city-council-agenda.pdf,OCR_SCAN,112,285022,2545,0.89,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2021-01-12-council-committee-agenda.txt,2021-01-12-council-committee-agenda.pdf,OCR_SCAN,64,134811,2106,0.59,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2021-02-02-city-council-agenda.txt,2021-02-02-city-council-agenda.pdf,OCR_SCAN,31,52974,1709,0.97,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2021-02-16-city-council-agenda.txt,2021-02-16-city-council-agenda.pdf,OCR_SCAN,60,149537,2492,0.95,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2021-03-16-city-council-agenda.txt,2021-03-16-city-council-agenda.pdf,OCR_SCAN,175,400707,2290,0.94,verify figures against page image,Adobe Acrobat Pro DC 19.21.20049
+2022-04-19-city-council-agenda.txt,2022-04-19-city-council-agenda.pdf,OCR_SCAN,46,90805,1974,0.98,verify figures against page image,Adobe PSL 1.3e for Canon
+2022-05-17-city-council-agenda.txt,2022-05-17-city-council-agenda.pdf,OCR_SCAN,96,223349,2327,0.95,verify figures against page image,Adobe PSL 1.3e for Canon
+2022-gallatin-annual-financial-report.txt,2022-gallatin-annual-financial-report.pdf,DIGITAL,142,456310,3213,0.0,extraction authoritative,Nitro Pro 13 (13.50.4.1013)
+2023-03-07-city-council-agenda.txt,2023-03-07-city-council-agenda.pdf,OCR_SCAN,62,6019,97,0.95,verify figures against page image,Adobe PSL 1.3e for Canon
+2024-09-17-city-council-agenda.txt,2024-09-17-city-council-agenda.pdf,SPARSE,93,91907,988,0.45,verify figures against page image,Aspose.PDF for .NET 22.11.0
+2024-10-31-gallatin-city-hall-space-needs-assessment.txt,2024-10-31-gallatin-city-hall-space-needs-assessment.pdf,OCR_SCAN,133,464114,3490,0.54,verify figures against page image,Adobe PDF Library 17.0
+2026-07-meetings-public-notice.txt,2026-07-meetings-public-notice.pdf,DIGITAL,1,1368,1368,0.0,extraction authoritative,Adobe PDF Library 26.1.158

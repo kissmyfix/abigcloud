@@ -1,0 +1,491 @@
+Interview with Kevin O’Leary: The World’s Largest Data Center
+
+So we thought now is exactly the time to talk to — I don’t know the guy managing it exactly, but certainly the face of the world’s largest data center in Utah. That’d be Kevin O’Leary, who is famous to people who watch cable television as one of the hosts for many years of Shark Tank. Also, as you’ll find out in a minute, an enormously nice guy, a genial guy. Maybe that’s why he’s out explaining what the data center is, because it’s pretty hard to dislike him personally.
+
+But as you watch this interview with the guy who’s in charge of the world’s largest data center, watch carefully and listen. Are any of the questions being answered? Does he know the answers? Does he care about the answers? Watch.
+
+TUCKER: Kevin O’Leary, thank you so much for doing this. I read — first I just want to check the facts here — but I read that you are building the world’s largest data center in Utah, 40,000 acres. If that’s true, how did you get into the data center business? How did this start?
+
+KEVIN O’LEARY: I’ve always been in real estate and I came up in commercial real estate with climate control storage for pharmaceutical companies. Data center development is very complex, but very similar in some ways. It requires permitting, it requires dark fiber. There’s only five tenants in the world — you know them all — Amazon, Google, Microsoft, et cetera.
+
+And so the thing that got me motivated though was watching in the last two years this narrative in North America about how negative data centers are. It started in Virginia, actually — the idea that they consume a lot of water, that they are very noisy, and all that’s true from stuff that was built 15 years ago, but today that’s not the case. And yet the narrative kept going.
+
+And I thought, who’s doing this? Who would not want us to have compute power? Who would not want us to build our power grid out? Because when you build a data center today, you have to develop your own power and you can sell it back to the grid. That’s what we’re doing in Utah.
+
+I’m thinking to myself, the Chinese — they don’t want us to do that. And I went through that whole thing with TikTok, as you may recall, and I actually saw the evidence of how the Chinese were manipulating the algorithm. Now they’re doing it a different way. And that just kind of pisses me off. So I’m happy to add compute. I don’t want my kids in 20 years who live in New York being told what to eat for breakfast by the Chinese. So I’m kind of on a mission here to compete.
+China, AI Compute, and the Race for Dominance
+
+TUCKER: Okay, so the point is — you’re doing this because, well, because it’s a business opportunity, but also because China doesn’t want you to do it. Why would China not want data centers built in the United States?
+
+KEVIN O’LEARY: Because we’re in a competition for AI compute. The nation that has the best AI models will be the winner of future wars. It’ll have the most productive economy. We already know now, just looking at earnings that are coming out as we speak — talk about the earnings this quarter — unprecedented in terms of how good they are, because somehow, very quickly — and this is probably just serendipitous luck for this administration — AI compute is now being implemented in all 11 sectors of our economy and it’s enhancing both productivity and margin.
+
+So these companies are making a lot more money than they were anticipated to, because AI is very productive. And people debate about the job shift and everything else, but the fact is the economy’s on fire, even at a time when we have conflict.
+
+So if I were the Chinese, the last thing I want in America is the five or six tech companies that are competing with me on DeepSeek having more compute capacity. I want to shut down every single proposal for every single data center in every single state. And I want agitators. I want paid protestors. I want environmentalists.
+The Energy Race: Data Centers, China, and America’s Power Grid
+
+KEVIN O’LEARY: I want to shut it all down so that they can’t train their models as fast as I can. Meanwhile, the Chinese just built, in terms of new power in the last 18 months, 400 gigawatts of new power, all with coal burning turbines, coal. They’re not worried about the environment. The big guy over there says, “Build one here and then stick a data set beside it so I can train my DeepSeek model faster.” And you’ve heard it from the Anthropic CEO this week.
+
+He came out, the Dario guy, and said, “Hey, they’re going to catch up in six months.” So everybody wake up and smell what’s going on here. And I started to dig in the last week, looking at all of these strings that are attacking the Utah proposal, and the one I’ve got up in Alberta. I’m going to where I can find power and developing these things, and I want the Chinese to see what we’re doing. We’re coming at you, buddy.
+The US-China AI Competition
+
+TUCKER: Can I ask? I’ve got a million questions, but let’s just start with the competition between the US and China on AI. If data centers are the key to AI, why has China built so few of them? I think there are about 365 data centers in China, almost 4,000 in the United States. So clearly they haven’t prevented us from building data centers. What do you think that is?
+
+KEVIN O’LEARY: Okay, let me walk you through the math of the last, this is moving very, very quickly, but the data centers of even 24 months ago were 100 megawatt facilities. And they were useful for cloud storage, like your Excel files and all the rest of that. They were useful for just basic compute and storage of data.
+
+But then when these models started emerging, such as we have going within Anthropic or Gemini and any of them, Grok, all of it, and all of the tools built on top of them, the amount of compute power required geometrically grew. And it was no longer 100 megawatts. The minimum was 250 megawatts. Then four months later, the minimum was 500 megawatts. Wait, here it comes. And then two months after that, it was one gigawatt.
+
+Now try and get a gigawatt out of the American grid or the Canadian grid or the Mexican grid. Not a chance in hell. We’re tapped out. So the Chinese were building these one gigawatt facilities. So it doesn’t matter about the number of facilities. It matters how many are gigawatt-plus for training AI models. Because you need a lot of compute for the modern day chip, and this technology is advancing very, very quickly.
+
+So it’s the size — the large ones are the ones that they’re beating us on, not the small 100 megawatts. Nobody cares about those anymore. You can’t train anything on that. So we’re competing now for campuses 10,000 acres and more at a time. And that’s where the Chinese are kicking our asses.
+Powering the Data Center: The Energy Strategy
+
+TUCKER: So you said you will go wherever the energy is, but I thought you were bringing your own energy to the project. Can you explain how you’re going to power this?
+
+KEVIN O’LEARY: Sure. That’s a good question. You can’t tap in, you know, you tap into somebody’s grid — let’s take a place like Texas or Mississippi or Utah, for that matter, where I am — the electrical bills in that county are going to go up 30%, and that’s what pissed off so many people in Virginia. They went out of their minds as the electrical bills kept going up. So you can’t do that. You have to bring your own power.
+
+So the way you do that is you find low-cost stranded natural gas. You acquire the new technology turbines that burn very, very clean, require a lot less water — because that’s a big debate too — and in some cases, no water. They’re air-cooled. And you build those turbines first.
+
+So basically, the data center game is about power. Now here’s another reason the Chinese would not want, forget about data centers. Let’s just say we’re building new gas turbines that make electricity. The Chinese don’t want you to do that either, because they know that that’s how you’re going to solve the grid problem.
+
+The people in Utah are telling me, “Look, is there any way when you build these power facilities for the data centers, you can sell back some of that power to our local grid?” And the answer is yes. So now, instead of being the evil data center guys, we can be the guys that are actually powering the Utah grid, which by the way, taps into the national grid. So we want to build as many of these power generators before we build any data centers.
+
+TUCKER: So where does the gas come from in the world’s largest data center, the one you’re planning in Utah?
+
+KEVIN O’LEARY: Well, mine won’t be the largest for years. That’s another piece of misinformation being spewed everywhere, and I’m going to tell you that soon. We’re going to build 1.5 gigawatts first, so a fraction of the 9 gigawatt proposed, and make sure everything works and the people there in Box Elder County can come and inspect it and see the air quality EPA standards we’re going to hold up to, the water rights permits that we’re going to maintain and be compliant with, the noise EPA requirements that we have to be compliant with, the air quality we have to be compliant with. Get the first one up, a small fraction of it, show everybody how it works. That’s the plan.
+
+And then I didn’t need 40,000 acres, but that was the parcel available. That’s twice the size of Manhattan. It’s called the Maya designation, right beside the Hill Air Force Base. So I’m not using it all. It’s at least three times bigger than that. Yeah, it’s huge. But I don’t need all that — that was what was available. I’m going to lease it back to grazers, do some manufacturing maybe. There’s plenty of land. We don’t need it all.
+
+TUCKER: But the power for it, where does that come from?
+
+KEVIN O’LEARY: So what we do is there’s the Ruby pipeline there. It’s only 17% utilized. It’s one of the most underutilized pipelines in America. So we buy gas from the Ruby pipeline, and we put it into a clean generator, and it generates electricity. And we tie that back to the grid if they want it, or we power a data center. That’s the idea. So we have to build the power first.
+
+And the power itself — I think we have a big challenge in every state. Everybody’s got to build more power in the American grid right now, and the North American grid for that matter, Mexico too and Canada.
+Foreign Interference and Social Media Attacks
+
+TUCKER: I mean, I think that’s absolutely right. But to just be clear, this project is totally energy independent. It takes electricity from nobody else. It creates 100% of its own power.
+
+KEVIN O’LEARY: Yes, that’s 100% correct. And that was always the proposal. And that is in the contract that we actually developed and got unanimously passed by the three commissioners in Box Elder. This is the benefit — it’s to the benefit of Box Elder, 66,000 people there. They’re going to get a lot of tax revenue, a lot of jobs, 10,000 construction jobs, 2,000 maintenance jobs just for the first 1.5 gigawatts. So there’s a lot of economic upside.
+
+But I must tell you, and this is the first time this has happened to me — I have a pretty big team, as I’m sure you do, on social media, managing a network of 12 million-plus followers on different platforms, on all of them. And so about four hours after the vote was unanimously passed, it was a Monday night at around 6:05 Utah time. I got a phone call from one of the people that watches our network, looks for abnormalities. And he said, “There’s something going on here, something very unusual on Instagram and on Twitter, which is now X.”
+
+And I said, “What do you mean?” He said, “The spiking of a bunch of IP addresses that we don’t know, and it’s spewing out a tremendous amount of information.” I said, “Okay, guys, let’s get our team on,” because I’m very fortunate. I have a bunch of very good data scientists, investigative data scientists, if you want to call them that. Probably one of the best teams privately outside of the government in the Department of Defense. My team’s pretty good. You can make the assumption they once worked in these agencies.
+
+All right, let me give you some names here, Tucker. Party for Socialism and Liberation — apparently shares offices with the CCP — all over my social media.
+
+TUCKER: Okay, wait, let me just stop you there. So if you’re saying that you’re being criticized by agents of a foreign government, let me just add my sympathy — empathy, in fact — having been the subject of that. You know quite a bit of… I’m well aware.
+
+KEVIN O’LEARY: Right.
+
+TUCKER: But this, okay, but that doesn’t — yeah, you make the case the Chinese don’t like it. If you’re that concerned about the Chinese, what percentage of the materials in the data center come from China?
+
+KEVIN O’LEARY: Less and less all the time. That’s one of the things the administration is trying to do. The turbines are European made or American made. The pipelines are obviously American made. The chips are certainly American made. The actual build out of the facilities, mostly American made. I don’t think there’s a whole lot of — we’re not mining Bitcoin here.
+
+TUCKER: Right, no. I mean, I think I read it’s about 40 or 41%. So China is benefiting from most purchases that most of us make, because it’s the world’s largest manufacturer, and that would also include the construction of data centers. But my point is, I’m sure there are lots of people trying to influence this outcome to their own benefit, and that would include foreign countries, maybe even China. But it doesn’t change the facts about the project. So I just want to make sure I have these clear. Would you be paying market rate for the gas?
+
+KEVIN O’LEARY: Yes, I don’t have a choice on that. I have to negotiate a gas deal, pretty well paying market rate for everything. There’s a competition between states for these jobs.
+Addressing Critics and the Utah Opposition
+
+TUCKER: I know there’s a lot of bad press. I wanted to just finish with the list because I don’t think, Tucker, you get the enormity of what’s going on here.
+
+KEVIN O’LEARY: Oh, I do. I do get the enormity.
+
+TUCKER: No, no, I have no doubt about that. Well, I want to mention two that are cells inside of Utah, which really stunned me. This I’d never seen before. Alliance for a Better Utah, Elevate Strategies — taking the content from the CCP, repurposing it and jamming it down the throats of people in Utah on my social media feed and lots of other feeds.
+
+TUCKER: I have no doubt that’s true, but I’m asking questions that I think are relevant to the country. I’m not an agent of the Chinese, I’m not a socialist. So I just want to know, like, where’s the water coming from? Because water, as you know, is one of those tested resources in the West.
+Water Rights and Sustainability
+
+KEVIN O’LEARY: No, no, that’s right. That’s right. When you buy land in Utah, there are water rights that were granted to that land, sometimes over 100 years ago. You have to apply for a permit, a usage permit for that water. So if it was once used for one purpose and you want to change the purpose to industrial — let’s say in the case of a data center or power generation — you have to apply for the permit.
+
+Usually what happens, if it was grazing and it was 100% you could use, they may change that and knock it down by 40% to 60%. But there’s water already on that property already being used right now. We’re just repurposing that water for a different purpose. It’s not like we’re going to draw water from somewhere else. We couldn’t use the land if it had no water. We couldn’t even have a toilet in the men’s room if we didn’t have any water.
+
+TUCKER: So you’d be using more water than, say, a sugar beet farmer would?
+
+KEVIN O’LEARY: No, actually probably not. It depends. Here’s the thing, Tucker. The way it works is, let’s say your prime tenant is Google. They come along and they say, “Okay, we want to be the tenant for the Utah site.” But we have a whole bunch of requirements, because they’re under pressure too to be a lot more efficient, productive, and more sustainable. They may say, “Well, let’s not use water to cool our turbines.”
+The Water Question and Air-Cooled Technology
+
+KEVIN O’LEARY: Our spec is going to be air-cooled turbines. So you’re going to build out, you’re the owner, you’re the master developer, here’s our spec. And so I expect whether it ends up being Amazon or Microsoft or Tesla or Google, they’re going to build in a whole bunch of things. And we can’t deliver them water we don’t have. So my guess is it’s going to be contained cooling for the chips, which is like a radiator in your car, so you’re not using a ton of water there, and then for the turbines themselves it may be air-cooled. We don’t know yet.
+
+It depends what the tenant wants. So what’s your, as you game this out, expected water use over the first 10 years? Well, not knowing what my tenant wants yet, probably less than we originally anticipated in terms of what is given us on the water rights. We’ve applied for that. I mean, we’re anticipating we’ll get, whatever we’re going to get.
+
+I don’t think we’re going to use it all at all because what people—
+
+TUCKER CARLSON: Do you expect water rates in the state of Utah will go up?
+
+KEVIN O’LEARY: Yeah, not because of us. I just think they go up anyways over time. But if they go up at a quicker rate than they have been going up, if there’s a spike in water price, would you compensate the state for the difference? No, I’d be paying.
+
+TUCKER CARLSON: In other words, if your business causes water prices to rise, are you on the hook for any of that?
+
+KEVIN O’LEARY: Yeah, I think we would be. I mean, we’re negotiating that, but I don’t think water is the constraint because most of the technology, which advances every 24 months, is reducing the requirement for water. So I mentioned the air-cooled turbines. Those just came on the scene 18 months ago.
+
+So they’re the first to actually generate 5 megawatts at a time like a Lego box, put them together and you’re just using air. But they’re also, you have EPA regulation about air quality. So you’ve got to be very careful that when you’re using air cooling, you’re not breaching the air quality because in Utah, and I studied this when I was back in college, it’s a unique geography. They get inversions there because of the mountains. So you really, as an old environmental study guy, that’s the one they’d always show us, would be Salt Lake City.
+
+So I’m well aware of the problem, and I know what the new turbines can do. The amount of hype and hysteria and over all of this stuff, well, I’ve already pointed out I think it’s being generated by our adversaries, but it’s also misinformation. Everything that has been said about that site is false.
+
+TUCKER CARLSON: Well, I’m grateful that you’re able to present your side of this and thank you for doing it.
+Why Should Taxpayers Subsidize Private AI Infrastructure?
+
+TUCKER CARLSON: Things around the world are moving so fast right now, it’s impossible to keep up with all of the changes. So let me ask, because I mean this is just a huge new thing and I think it’s understandable that people would be anxious about it. I don’t think they understand it. I don’t fully understand it, that’s for sure.
+
+Let me ask though about why taxpayers should have to pay for this if it’s a private business and your tenants are some of the richest companies in the world. Why would taxpayers be required, as they now are, to subsidize this?
+
+KEVIN O’LEARY: They don’t. They don’t necessarily have to do that. They just won’t win any contracts. It’s a competition.
+
+TUCKER CARLSON: But why are you getting tax breaks is my question.
+
+KEVIN O’LEARY: Everybody, you go back and you say, “What incentives can you give us to invest $15 billion in the first 1.5 gigs?” That’s what it takes. I have to go raise $15 billion. That’s just the first—
+
+TUCKER CARLSON: But anyone who starts a business, why should taxpayers have to pony up for that?
+
+KEVIN O’LEARY: They don’t.
+
+TUCKER CARLSON: Of course they do. If you’re getting a tax break and they’re not, they’re making up the difference. There’s a state budget.
+
+KEVIN O’LEARY: That’s no problem. That’s no problem. I can build that in Texas. I can build it in Jacksonville, Mississippi.
+
+TUCKER CARLSON: But why, if it’s such a good business, would you be asking taxpayers to help pay for it without giving them equity in the company? Are you giving taxpayers shares?
+
+KEVIN O’LEARY: No, the investors get the shares, but here’s why they would do it.
+
+TUCKER CARLSON: Why would the taxpayers have to? I mean, in other words, if you want to start a business, but why am I, as a taxpayer, forced to pay for your business? I don’t get it.
+
+KEVIN O’LEARY: Well, let’s forget about data centers. Let’s go any manufacturing. Let’s say you’re going to build an aluminum sheet manufacturing facility. You go to the government there and say, “Look, this is going to be a huge capex expenditure. I’m going to hire 2,000 people. I’m going to build a community center. I’m going to pay a lot of tax on the profits in your state when I sell the aluminum. And I’m going to hire all these people who will also pay tax. And we will build a school because our workers need a school.” And what can you give me to incentivize me versus the state right beside you which is willing to give me an incentive package?
+
+TUCKER CARLSON: No, no, I understand that you’re gaming a system in place you didn’t come up with, but I’m just trying to understand. So the trade typically is jobs, okay? But these projects don’t actually—
+
+KEVIN O’LEARY: Well, no, no, it’s also jobs and taxes, because you’re going to be—
+
+TUCKER CARLSON: And taxes. Yeah. But then you’re getting a tax break, so that doesn’t really make any sense.
+
+KEVIN O’LEARY: Only up front you’re getting— Tucker, welcome to America, buddy. This is how it’s gone on for 200 years.
+
+TUCKER CARLSON: Okay, well, I don’t know. Lots of bad things go on for a while. I’m just, but I think at some point it’s worth assessing like, why are we doing this? So on the job query—
+
+KEVIN O’LEARY: You are fair to do that. You’re doing it because there’s a competition.
+
+TUCKER CARLSON: Well, I run a couple of businesses and we’re not getting any tax breaks. I think they’re every bit as virtuous as data centers, but I’m not availing myself of that and no one’s offered. And I wouldn’t take it anyway, because it’s not the job of taxpayers to subsidize a private business.
+
+KEVIN O’LEARY: It’s a fair comment, but my job is to create a data center, create 2,000 jobs long-term and 10,000 manufacturing at the beginning, or construction. And I’m obviously looking at multiple sites, and this won’t be the last one I build. I have to—
+The Jobs Debate: Will AI Create or Eliminate Employment?
+
+TUCKER CARLSON: May I ask, 2,000 jobs, okay, so relative to the size, the physical size of the project, which as you noted is multiple times the size of Manhattan, and the power draw at peak, this data center, your projections will consume about as much energy as New York City does, but New York City provides almost 5 million jobs and this project by your own description would provide about 2,000 jobs. I don’t see the trade here.
+
+KEVIN O’LEARY: You definitely got that calculation wrong. By building a data center that trains AI, that provides productivity to the entire nation, we create millions of jobs, high paying jobs.
+
+TUCKER CARLSON: So AI is going to create jobs?
+
+KEVIN O’LEARY: Yes.
+
+TUCKER CARLSON: I thought it was going to eliminate jobs.
+
+KEVIN O’LEARY: Just think about the new technologies we don’t even know yet that are going to be built off AI. Everybody thinks when television came, everybody would lose their job in radio. That was complete BS. And the same thing is going to happen here. Everybody’s hysteria about losing jobs, making hamburgers or flipping them, being replaced by a robot. That’s probably true. But all kinds of new technology will become available over time, including in medical science and biology and all kinds of things where the models can be used. I’m extremely optimistic. What I’m doing is creating a whole new opportunity for my children.
+
+TUCKER CARLSON: What kinds of jobs? Well, I mean, again, some of this, of course, is unknowable and I want to be as fair as I can be because I’m grateful that you’re willing to talk about it so openly. But you just said this will create, AI will create millions of new jobs. You’re part of the basis of AI. You can’t have AI without data centers, at least right now. So what are those millions of jobs?
+
+Because we can go through the list that the creators, the people who actually are making AI right now, developing it, we can go through a list of jobs they say it’s going to eliminate, which would be like lawyers and financial planners and like the basis of upper middle class America that’s going away. They’ve said this. What will it be replaced by?
+
+KEVIN O’LEARY: It’ll be replaced by new science opportunities, new exploration into space, new manufacturing for robotics, for defense as well. Wars in the future probably aren’t going to be fought with people getting shot in the flesh. It’ll be one set of robots against another. I think the drone technology will advance the manufacturing of surveillance, all that stuff against our enemies, which notably is basically China.
+
+So if you think about how you debate the data center, I think it’s fair to do that, what you’re doing, but I would be very concerned if I were living in Taiwan that one day my electricity just goes out and I get invaded by basically robotics and high precision ordinance. And that’s what China wants and they want to get there first.
+
+Now, if we don’t get there first, if we don’t develop something better than their AI, and our ability to be predictive on where these conflicts are going to happen, I think we’ll be in a bad place in 20 years.
+The China Threat and the American Dream
+
+TUCKER CARLSON: Okay, but I think it’s very revealing that I asked you about jobs in the United States, and you went immediately to defending Taiwan in the sense of—
+
+KEVIN O’LEARY: Well, we manufacture the equipment here, Tucker. That’s where it’s made.
+
+TUCKER CARLSON: Okay. Well, actually, a lot of this has been in China, as I know you know. So, no, we don’t make it.
+
+KEVIN O’LEARY: But that’s my whole point. I don’t want to do that anymore. I want to start making it here. I want to do advanced robotics. I totally agree.
+
+TUCKER CARLSON: But the promise of AI and robotics is that the robots will make the products of the future. So how exactly does that result in American jobs? If you’re in the campus, and more specifically, what are those? What are you talking about? Every job is replaced by a machine.
+
+KEVIN O’LEARY: I don’t buy that. I just don’t agree with you because it’s never happened this way.
+
+TUCKER CARLSON: Well, I’m not saying I don’t want that to happen. Trust me. I’m really worried about it. Almost panicked. But I’m trying to feel better. Okay, then please make me feel better. Where are these millions of new jobs? What specifically are you talking about?
+
+KEVIN O’LEARY: Well, you know, every time technology advances it creates new opportunities that were not foreseen prior, because you don’t know the direction of new tech. Think about if you and I, because we were actually around in the late 80s, contemplating what new jobs would be created by the internet. And look at what’s happened. It’s created millions of jobs and advanced all kinds of technologies and changed the way we live to the better.
+
+And I would say to you the same angst we had, the same narrative that was going on in 1992 about how the internet is going to wipe out the economy and it’s a bad thing and it’s dangerous. Of course people loathe change. That’s the nature of how it is.
+
+TUCKER CARLSON: Do you think that the United States is a happier country than it was in 1992?
+
+KEVIN O’LEARY: What does happy mean? What does that mean?
+
+TUCKER CARLSON: I don’t know. How about the suicide rate or the addiction rate or the life expectancy?
+
+KEVIN O’LEARY: Those are all absurd. Yes, I mean, look, there’s lots of social issues and there always has been. I would remind you though—
+
+TUCKER CARLSON: But they’ve gotten worse at exactly the period in history that the internet was formed and then seemed to infuse every part of our lives. So if you were worried about the effect of the internet in 1992 on America, looking back from the vantage of 2026, you could say, “Yeah, I had good reason to be worried,” couldn’t you? Or am I imagining that?
+
+KEVIN O’LEARY: You could say that it would have some effect on society, but let me remind you something, and I’m probably the right guy to make this comment because I spend a lot of time all around the world investing all around the world. I don’t care where you go, and I feel this way, and I’ve really learned this over the last 20 years. What is the number one export of America? It’s not energy, and it’s not technology. It’s actually the American dream.
+
+For all its faults that America has, everybody I meet in every country, pretty well every single one, would like to figure out how they can get to America, start a business and be part of the American dream. And I go to some pretty gnarly places where people are willing to risk their lives to go under a river with barbed wire to get in here. So until that changes, which I don’t see ever happening, my only concern is China. They’re the ones.
+
+TUCKER CARLSON: What’s the— if you could just be more precise. I mean, born here, I love this country, I’m not leaving. So I’m vested in the idea of the American dream, but I’d love to just define it more precisely before we discuss it. What is it?
+The American Dream, AI, and the Future of Work
+
+KEVIN O’LEARY: Okay, let’s make it really basic. Let’s go to Shark Tank. Those people that trot out in front of me and have done for almost 20 years with an idea to solve someone’s problem that they’ll get paid for. And 80% fail, but 20% make it. And it creates personal freedom for them because it was just an idea.
+
+I mean, I think of some of these things, wicked good cupcakes set two women free for the rest of their lives, base pause, cat DNA testing, and a Skya, a researcher that came up with this idea, walked away with 105 million cash 36 months later. That’s the American dream and I’m an ambassador for it. So it’s freedom and opportunity, I think you just said. Is it fair to summarize? It’s not about the greed of money.
+
+What I’ve learned is—
+
+TUCKER: No, opportunity.
+
+KEVIN O’LEARY: It’s opportunity. And I see it over and over again, and I’m ambassador for it all around the world because of the fact that somehow magically this show, and you understand television better than anybody, this thing is on in 54 countries around the world. I can go anywhere and call up the leadership of any place and have a meeting with them because I’m just an ambassador of the American Dream. That’s pretty interesting.
+
+TUCKER: Well, it’s a great thing, the American Dream. If freedom and opportunity is what the American dream is, then those are things worth dying for, I think. That’s what people are doing. So the question is, is AI going to bring us freedom and opportunity?
+
+Because AI is the big bet that the entire American economy is making right now. And I want it to be a good bet more than anything, but I wonder if it’s going to bring us freedom and opportunity. So let’s just start with opportunity. The concern that people have is that their jobs, and not just their jobs, but their purpose for being alive, will be replaced by machines. To which you say, that’s not true, great things will happen, to which I said, okay, what are those great things, to which you talked about Shark Tank?
+
+So I just want to be a little more specific about what the upside of AI is, because then everyone will calm down and feel happy about your data center. What is the upside?
+AI in Medicine and Daily Life
+
+KEVIN O’LEARY: Well, let’s start in medicine. Let’s use specific cases everybody can understand. I was in Miami two weeks ago and went for a full body scan, the price of which has dropped 80% in the last three years.
+
+So in an hour and a half, this machine went right through my body. Two years ago, it would have taken three weeks to get the results, looking for cysts on your liver or whatever it is. With AI, with the agent they had there right at the scan facility, 18 minutes later it delivered me a report, told me I had an infection in my sinus, that I had a cyst on my kidney that hasn’t grown since the last body scan four years ago. That was stunning and remarkable.
+
+TUCKER: Yeah, it’s great.
+
+KEVIN O’LEARY: It is great. So that’s one use case of something very, very important. And that’s just medicine. And so if you think about all the things that this can do, including the arts and in music and film and everything, I think the use cases are going to be created by humans who find ways to use the tool. I view it, and maybe you don’t agree, as simply a tool.
+
+Another example, because it’s great to tell people just examples. I’ve been a photographer my whole life, including a period when I was a professional commercial photographer and a cinematographer for the networks. I’ve amassed 590,000 images during my career, half of which are on film, not shot with a phone where you get all the data on it and it knows where it was shot, when it was shot and everything else, which is easy to index and look for. So call it a quarter of a million negatives. How could I possibly catalog that as a human?
+
+I couldn’t. I don’t have enough time left before I’m dead. So I used AI last week with a tool to actually, after scanning all the images, to go look at them for two weeks. And now I’m able to just go to this computer and say, “Find a picture of my wife the day I met her in the gym.” Boom, there it is.
+
+TUCKER: It’s amazing.
+Machines Replacing Human Labor
+
+KEVIN O’LEARY: Now—
+
+TUCKER: No, you’re kind of making my point though, because the two examples you gave are examples of a machine replacing human labor and doing a better job than any person could do.
+
+KEVIN O’LEARY: Oh, Tucker, that’s horrible.
+
+TUCKER: Which is great.
+
+KEVIN O’LEARY: Well, that’s my point.
+
+TUCKER: I know it’s your point. I know it’s your point and I can see the marvel of it, but it raises the question which won’t go away, which is okay, now that machines do what people do better than people did, what do people do? Okay, and what is the answer to that?
+The US vs. China Compute Power Debate
+
+KEVIN O’LEARY: Let me ask you, let me pose a question against that. Would you prefer — I’m giving you one of two options with the uncertainty of both. Okay. But I want you to pick one. This will tell me a lot about how you think. Would you prefer in the next five years that China have more compute power than we do, even though the use and the outcome and jobs and everything else you’re talking about is unknown, or would you prefer the United States of America and their allies in North America had more compute power to develop AI?
+
+TUCKER: It depends. Whichever makes the United States happier, freer, and more prosperous, I guess, is the answer to every question.
+
+KEVIN O’LEARY: Well, do you know what the answer to that is?
+
+TUCKER: What do you think it is? I’m not sure that we know. I know that reducing this question to a competition between the United States and China is a very quick way to derail people from the core questions, which revolve around whether or not it’s a good idea. So that’s always kind of a red flag for me.
+
+China has more economic power now than the United States, probably has more military power. I didn’t want either of those things to happen. I’m a little bitter at the American business community, which allowed them to happen, but they happened, so here we are. There’s not much I can do about it.
+
+My focus remains, however, on is it good for the United States, is it good for us, does it make people happy? And I don’t understand what people are going to do for a living if machines are going to be able to do most things that people currently do better than people do them. Like, what is the answer? And a lot of people are honest enough to say nothing, we’re just going to, the oligarchs are going to send out checks to everybody, the bread and circuses, and everyone’s just going to kind of stay home and be obedient. But I don’t know that that is a good idea. I don’t know if it works.
+Historical Parallels: The Model T and Technological Change
+
+KEVIN O’LEARY: I think you’re raising a great point. It’s a wonderful debate and it’s certainly going on. But it’s analogous to the narrative that must have been happening back when the Model T Ford rolled off the assembly line and everybody that had a buggy looked at it and said, “Oh no, this is going to wipe me out and there’ll be no work for me.” The American economy is very resilient as it develops new sectors. What happened after the Model T was rolled out?
+
+TUCKER: We had two big events in the, say, 40 years after that. We actually had — one was the First World War and one was the Second World War. The industrial revolution, like all technological change, caused dramatic political and social change, which resulted in the biggest bloodletting in human history. So I’m like, it’s worth thinking this stuff through. Technological change forces social change.
+
+KEVIN O’LEARY: Fair enough, but unfortunately capitalism and the freedom it provides is volatile. And it has lots of periods, including the Great Depression, where it taxes the people that support it. But it’s still better than the alternative anywhere on earth, it seems, 200 years later.
+
+And so when you start looking at the American economy and the volatility it’s had, it’s been unbelievable. But the system, with all its faults, and you’re raising some good points, I agree with you, I’m just trying to think what’s the alternative. And regarding AI and the ultimate issue around your job issue, and I think it’s fair, I’m looking at it differently. I’m looking at it as insurance.
+
+I would prefer, even though the future is uncertain and the outcome, and the end is always near, to quote Jim Morrison, I love that line in his song.
+
+TUCKER: Roadhouse Blues.
+
+KEVIN O’LEARY: Yeah. “The future is uncertain and the end is always near.” Words I live by. But it’s sort of, if you had to give me the two alternatives, let China do this first or us, I’ll take us. And I’m part of that now and in the controversy of it, we started our conversation. I’ve never seen a controversy like this. I’ve never seen a tax like this. I know you have but I haven’t experienced it and I’m hiring.
+Taxpayer Funding and the Limits of Capitalism
+
+TUCKER: Well, I mean, if you take money from taxpayers you should expect them to weigh in too and take their complaints seriously and not just dismiss them as just a crime.
+
+KEVIN O’LEARY: You’re right, but this has been going on. Incentives state by state in every sector happen, even real estate.
+
+TUCKER: Not incentives. They’re a forced transfer of wealth from taxpayers to people who are richer than taxpayers. So like, of course they have it. You get a tax break to create 2,000 jobs in the…
+
+KEVIN O’LEARY: The taxpayer wouldn’t do it if it wasn’t the long-term outcome.
+
+TUCKER: The taxpayer has no choice.
+
+KEVIN O’LEARY: The taxpayer has no choice.
+
+TUCKER: They can say no. That’s not what happened.
+
+KEVIN O’LEARY: Well, they tried to say no to this data center and they got laughed at. And then the governor, Spencer Cox of Utah, who really is a kind of living symbol of our ruling class, said that the state has an obligation to do this and basically, as you are doing, waved away concerns as like foreign propaganda, when I think there are probably non-crazy people living in Utah who are like, “Why is this good for me? Why should I pay for this?”
+
+KEVIN O’LEARY: That’s fair, it’s fair, all this is fair.
+Energy, Power Generation, and the Real Debate
+
+KEVIN O’LEARY: How about we forget the data center and just talk about the power for a second, because there aren’t going to be any data centers in America unless we build power generation. Do you have the same visceral reaction to power generation as you do to data centers?
+
+TUCKER: Inversely, I think we need more electricity in the United States. And I think that people who are —
+
+KEVIN O’LEARY: That’s what I’m talking about.
+
+TUCKER: Speaking of agents of China, in fact, if you’re looking for agents of China, it’s the people who told you that you could live without fossil fuels, that babies wouldn’t die without fossil fuels. Babies will die without fossil fuels. Civilization will collapse without fossil fuels. And that right there is the foreign op telling us that people are causing global climate change. People are not causing global climate change substantially. We’re having global climate change as we always have, but to blame it on natural gas is just a flat out lie. And a lot of rich Americans fell for that.
+
+So no, I’m strongly for energy. I’m just very concerned about replacing people, their purpose for living, which is to create, with machines. That seems like hell to me, literally hell. So I think it’s fair to ask, like, how is this not hell? And no one has been able to answer it.
+
+KEVIN O’LEARY: Yeah, I think trying to stop advancement of technology with the uncertainty it brings has always been a dilemma in capitalism and in America. And it’s a fair comment.
+
+TUCKER: How is this capitalism? If taxpayers are paying for some of it, how is that capitalism? That seems…
+
+KEVIN O’LEARY: I think that’s no different than building an apartment building downtown in Austin. You can get incentives for that too. And that’s just part of how it works. You can debate that.
+
+TUCKER: How is that capitalism? How is that free market? If politicians are handing you other people’s money to do it, how is that capitalism?
+Competition Between States and the Free Market
+
+KEVIN O’LEARY: Well, capitalism is built into the constitution, which I think was genius because I couldn’t have even thought that far ahead, was the idea of competition between states. Why is there an exodus out of New York City to Miami where I live? Why are people leaving New Jersey and Massachusetts and moving into my building? Nobody in my building is from Florida. They’re all from other states.
+
+TUCKER: I understand. And all of these people moving, why?
+
+KEVIN O’LEARY: Because they’re reaching retirement age and the environment in these other states is not conducive to their lifestyle when they’re being attacked.
+
+TUCKER: But I think you’re making my point for me. You just listed states that use a higher percentage of taxpayer dollars for private industry and people are leaving those states — Illinois, California, New York.
+
+KEVIN O’LEARY: New York is inefficiently run.
+
+TUCKER: It may be inefficient, but the principle that politicians can take the public’s money and hand it to their friends in business, that’s a longstanding practice in New York, California, and Illinois, and relatively uncommon in Florida. So people are moving to the free market state, but you’re now saying that actually the beauty of capitalism is that politicians hand other people’s money to their friends. That doesn’t — that’s the opposite of capitalism.
+
+KEVIN O’LEARY: I’m saying that — no, that is incorrect. I didn’t say that. I said what makes capitalism work is competition. And it does work. And it has worked for hundreds of years. And so the concept, you may not like the policy of giving incentives for manufacturers and real estate. You may not like it, and I understand you don’t, but you don’t have to do it. A state can stop doing it, and then for a while maybe they’ll be less competitive in terms of getting new projects. I didn’t make those rules up. I’m a football player on the field of capitalism. I have to play by the rules.
+
+TUCKER: I get it, I get it. No, I get it. And I’m not attacking you for it.
+The American Way of Life and the AI Race
+
+TUCKER: I’m just wondering, again, occasionally it’s worth pausing and asking, are we doing the right thing, even if we’ve been doing it the same way for a long time? Do you, I’ll ask just one final question. I’ll stop torturing you, but do you see how other people find it unfair that one of the richest people in America, you, in league with the biggest companies in America, Amazon, Microsoft, et cetera, the ones you listed, that the richest people in our society would be taking money from people much poorer than them. That seems very unfair.
+
+KEVIN O’LEARY: You know, Tucker, I’ll speak for myself on this. I’m not motivated by money anymore. That is not why I get up and work 18 hours a day. I want to build something incredible. I want my legacy for my children to be something that they’re honored by. I want to compete against the Chinese.
+
+I don’t like the Chinese government in case anybody has noticed that over the last five years. I don’t like how they treat their people. I don’t like how they treat me in business. I simply don’t like them. What’s motivating me now with all of this barrage, this firestorm, which I understand you’ve experienced in the past, is I want to beat them in AI.
+
+I don’t want them controlling the most advanced models, wherever that’s taking us, because you bring up great points about the unknown and jobs and everything else. But I want to be part of the team that makes sure our way of life in North America remains the same for my children. I don’t give a s* about money anymore. I don’t need any more money. I’ve already been very successful.
+
+I’m very lucky, but I’m not finished. I’m very motivated to win. And if people want to compete with me, I want that. If they don’t think my motivation is to beat the Chinese, they’re wrong. I am going to beat them.
+
+I am going to show them these data centers. They’re going to be this shining example of how you do this sustainably, because I’m the only guy that has graduated out of environmental studies and builds data centers. No one else on earth has done that. I get the freaking joke.
+Are Big Tech Companies Truly American?
+
+TUCKER: Do you think, well, I love the idea, I’m for America above all, do you think that Microsoft and Amazon and Google will do a good job preserving the American way of life. Are they substantially superior morally to the Chinese government? Do you think that those are your tenants?
+
+KEVIN O’LEARY: Yes, I do. And in fact, I deal with that.
+
+TUCKER: Tell me how.
+
+KEVIN O’LEARY: I was talking with the guy yesterday that does the build-ups all around the world for Google’s data centers. They are on an incredible sustainable mission. They are looking at every technology to reduce their need for traditional power sources. And we were talking about the campus in Utah. They have some very advanced thinking on the use of battery, wind and solar, and so they want to do that. Why? Because their customers want that.
+
+TUCKER: Well, wait a second. China leads the United States in battery, wind and solar in development of those technologies.
+
+KEVIN O’LEARY: Yeah, that’s a great story, but not in data centers they don’t. They’re powering…
+
+TUCKER: No, but hold on. Jumping around a little bit. I’m just trying to ask, okay, so you say you want to preserve the American way of life, that’s why you’re building this. My question was, okay, well your tenants are these big companies that are not really American companies, they’re publicly traded companies that are owned by the sovereign wealth funds of tons of countries around the world. In what sense are they American companies? In what sense do they have American values?
+
+KEVIN O’LEARY: Because they operate under the laws and are headquartered in the United States of America under the regulations. The only reason that Google can raise as much capital as it does from the sovereign wealth, now you’re coming into my space, I’m an indexer for sovereign wealth.
+
+The only reason 52 cents of every dollar comes to America is the transparency of our laws and the appellate system and our banking system and the regulatory environment. And so that’s why you find the largest tech companies on earth housed in America, because the regulatory environment in the context of the globe is the most advanced on earth.
+
+So you may hate the SEC, you may not like regulations, but in fact, it gives an infrastructure where most capital comes here. That’s what happens because of the outcomes. Why does France have no Microsoft? Why does Germany not have one? What happened to the European countries and Britain? They don’t have any of this tech because they regulated it out of their society.
+
+We don’t want to change that. We want the innovation here, not the regulation necessarily. But I strongly agree, except to the extent the regulation protects the public. It’s a balance. That’s why we trust the government.
+
+A lot of people don’t like them. But look, at the end of the day, the great example that we could use that you both know, I don’t think crypto is going to work until they pass the bill about crypto. They’ve got to finish this infrastructure act so that finally crypto can find its place inside of the 11 sectors of our economy. I’m not investing in crypto until I get that thing through the house.
+AI, Surveillance, and American Freedom
+
+TUCKER: May I ask, okay so just to your second point about the American Dream, there was opportunity, the ability to be judged on your actions and your behavior, on your character, to be treated equally. And there was also freedom. And so I think many people have deep concerns about AI’s effect on freedom. You said yourself, the purpose of AI is in part surveillance. What does that look like?
+
+I asked what jobs it would create and couldn’t get an answer. Now I’m going to ask you a more specific question. Nobody knows what jobs it’s going to create yet.
+
+KEVIN O’LEARY: Well, I’ve always seen every technology that has been rolled out as it’s come in, always creates new jobs. And I assume the same for this tool. It’s just a tool. So the surveillance is a great point. We have laws regarding surveillance and we have laws that restrict the government and they’re built into the Constitution. We have free speech. All of these things remain the same. They don’t change with AI.
+
+TUCKER: Well they did until last week when the president led the charge to change the law and allow warrantless spying on Americans. In direct violation of the US Constitution. So obviously the Constitution doesn’t matter to the people in charge.
+
+KEVIN O’LEARY: No, it does. Every administration is kept in check by the Supreme Court, including this one. And so that’s why the founding fathers created this structure. And I think it works and I trust it. And I’m willing to have my kids who are Americans grow up here and I want to protect them.
+
+TUCKER: Okay, so what kind of surveillance, I mean, it seems like AI will make it possible to know what every American is doing at all times. Correct me if I’m wrong.
+
+KEVIN O’LEARY: I would say that it’s not AI that’s going to do that. I would say now with the amount of high resolution video and surveillance that is built into every street corner, that’s how they solve a lot of crimes. Now, if you don’t like that…
+
+TUCKER: Do they solve a lot of crimes?
+
+KEVIN O’LEARY: Well, they do. They do.
+
+TUCKER: Has the closure rate for murders in our big cities, like what percentage of murders in New York City or Chicago or Detroit are solved?
+
+KEVIN O’LEARY: I don’t track them.
+
+TUCKER: Pretty low, actually. It’s lower in this country than in the United States.
+
+KEVIN O’LEARY: The point is surveillance isn’t a great issue, but the enhancement of surveillance with AI tools is how you now walk through the Dubai airport and you also walk through some airports here in the US. Facial recognition technology has finally got to the resolution using AI’s tools.
+
+TUCKER: It’s going to run through your data center. There’ll be pictures of all of us in your data center. Every data center.
+
+KEVIN O’LEARY: Right. But how does that make it free? You don’t have to opt into that program, by the way. I do it for convenience. I’m not hiding anything.
+
+TUCKER: Well, it’s on street corners, as you said. So anytime you’re in public, your face is being surveilled by the US government.
+
+KEVIN O’LEARY: It is, but I’m not doing nefarious things. I’m not a criminal and I’m not stealing any money from anybody, so.
+
+TUCKER: The definition of nefarious changes, as you know. I mean, hundreds of thousands of American citizens were sent to concentration camps by Franklin Roosevelt because they were Japanese. So in 1940 it was not a crime to be Japanese. In 1941 it was. So the definition does change, as you know.
+
+KEVIN O’LEARY: It’s true. So you could have those concerns, but I asked you again, Tucker, and you haven’t answered my question. Do you want the insurance policy or not? With all of the nefarious concerns about AI, which outcome do you prefer as an American for your family? Would you prefer all of us that are developing these data centers put down our shovels and stop while the Chinese accelerate theirs? Would you like that?
+Beating China vs. Becoming China
+
+TUCKER: Well, I see it as a different question. Let me answer your question in the following way. Do I want to become like China in order that we can quote “beat China”? Not at all. The problem with China from my perspective is that it surveils its citizens and it limits their ability to say what they think and to oppose existing power. That’s why China is bad, I thought. Because there are a lot of things about China that are great, but what I don’t like about China is the totalitarian approach it has towards its own population.
+
+KEVIN O’LEARY: I agree with you.
+
+TUCKER: You’re making it possible for our government to have the same approach and our government already does. They’re surveilling us at all times. Most Americans don’t even know they’re being watched. There are license plate readers. There are facial recognition cameras everywhere. And the question is why? So the crime rate can go down? Well, it hasn’t gone down. So of course, the real reason is to make you obedient, obviously.
+
+KEVIN O’LEARY: No, I have a different vision of the future. Now hear me out. Here’s what I think is going to happen, because I’m enjoying this conversation. Let me, as we come to a close soon, here’s where I think we’re going to be in 20 years.
+
+I believe in 20 years, and this is my vision of what’s going to occur. And I think I’m a great guy to actually do this because I have a foot in both economies. I think by the time the 20th year, I’m going to make it in 10 years. It may not be with this administration or the administration in Canada. The two economies are going to emerge for one reason.
+
+TUCKER: Which two economies?
+
+KEVIN O’LEARY: Canada has all the raw resources, the largest consumer. And it’s crazy that we’re fighting on this stuff. It’s crazy.
+
+TUCKER: I agree. It makes no sense.
+
+KEVIN O’LEARY: Totally agree. And so we should merge these economies. You don’t have to merge the countries. You can merge the economies. You get an EU type situation where you allow freedom of movement across the border and you allow no tariffs on all the stuff we need. The rare earth, Canada has the water, the paper, all that stuff. And the only reason we’re going to do that so we can take five percent of our GDP, which will be the largest on earth by around 25 percent. No one will be close to us.
+
+We merge those two together and the benefits that accrue, for one reason, to tell the Chinese, “Don’t f with us.” That’s basically what’s going to happen because they want to f with us big time, and that’s my belief and I think I’m right. I think that’s what’s going to happen. And AI and compute and all this stuff, that’s a side story. We have to keep all of our tech ahead of theirs, including data centers and everything else, but ultimately they are our adversary on our way of life.
+
+TUCKER: Then can I ask, our way of life, right? So you, I would think since you disagree with the Chinese way of life, which is pretty civilized in a lot of ways, but the one way in which it’s barbaric is that it grants its citizens no real rights. And so I would think that you would be very worried about aping their system, which we are now doing. Like they have total surveillance, it’s a panopticon in China, we should create our own. Let’s take 40,000 acres in Utah and make it possible for the government to know where you are at all times and what you’re thinking, listening to you on your phone. Like we have that.
+
+KEVIN O’LEARY: But I don’t think you’d be upset about that. You have to choose the lesser of two evils in your scenario. And I’m telling you, what you should do is say, “I want Kevin O’Leary to succeed. I want him to beat the Chinese in compute power and then use the laws of the United States to make sure that you keep that compute power in check whichever way you want.”
+
+But to not have it available, to put down my shovel, I don’t think people want me to do that. Even the people in Box Elder, the majority of them want me to hold my shovel and start digging. And that’s basically the debate we’re having.
+
+TUCKER: How do you know that?
+
+KEVIN O’LEARY: Because they voted for it unanimously before the Chinese guys that people dispatch.
+Wrapping Up: Data Centers, Democracy, and Digging
+
+TUCKER: There was a referendum? Like all this crap that’s being spewed out. Wait, so hold on. Yeah, and I may have fallen for some of it, so you correct me. There was a referendum among citizens or did some like county board vote?
+
+KEVIN O’LEARY: We actually went through the whole process that you have to do by their laws and were granted three to zero. The commissioners of the county said we want to be part of this. So three people voted, the people of the county. They’re elected officials. That’s how you do it.
+
+TUCKER: How hard is it for Kevin O’Leary and Amazon and Microsoft and Google to subvert three county commissioners in rural Utah?
+
+KEVIN O’LEARY: They asked us to come. They asked us to bring $15 billion. They asked and they voted and it was a three to zero vote.
+
+TUCKER: And Kevin O’Leary got three county commissioners in rural Utah on their side. Good work. But can I just ask you really quick, like why don’t you have a referendum? Why don’t you let all citizens, all taxpayers, the ones who are paying for your project, why don’t they get to vote?
+
+KEVIN O’LEARY: Well, listen, the whole idea of expediting it was so the project didn’t go to Jacksonville, Mississippi. That’s the competition.
+
+And so the government there said, okay, look, we’ve done, because we haven’t lost our, we have to go through EPA. We have to go through air and quality. We have to go through the water permitting. We have to go through the land construction permitting. Nothing’s been lost. There’s no circumventing the process and that’s what we’re doing now.
+
+So if you want to block the water permit or whatever, go ahead. I mean, if you think that’s a good idea, if there’s a path to do that, we’re going to do it the way we’ve been told by the law.
+
+TUCKER: By the way, I gotta go soon, but I would love to keep going. Kevin O’Leary, I sure appreciate it. And I hope that when my personal data comes to your data center, you will filter it.
+
+KEVIN O’LEARY: Tucker, I think I’m going to tell when people ask me what was the last time to say, he told me to get my shovel out and keep digging.
+
+TUCKER: I very much did not say that. Not digging for a data center. I don’t know, build like an antibiotics factory. That would be, I’d be for that.
+
+Thank you very much. Take care my friend.
+
+KEVIN O’LEARY: Thank you very much. You know I’m a huge fan. I really am. I appreciate the opportunity. I love the sh you take and the sh you give. I really do. Doesn’t bother me at all.
+
+TUCKER: Thanks, familiar. Thank you, take care, ciao, bye bye.

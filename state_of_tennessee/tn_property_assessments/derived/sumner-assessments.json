@@ -1,0 +1,1595 @@
+[
+  {
+    "county": {
+      "name": "Sumner",
+      "code": "083"
+    },
+    "tax_year": 2026,
+    "reappraisal_year": 2024,
+    "situs_address": "GTN5 META LOOP 1",
+    "owners": {
+      "jan1": [
+        "INDUSTRIAL DEV BRD OF CITY OF GALLATIN",
+        "C/O WOOLHAWK LLC ATTN: TAX",
+        "1601 WILLOW RD",
+        "MENLO PARK CA 94025"
+      ],
+      "current": null
+    },
+    "parcel": {
+      "ctrl_map": "111",
+      "group": null,
+      "parcel": "001.00",
+      "pi": null,
+      "si": "000"
+    },
+    "parcel_id": "111 00100 000",
+    "value": {
+      "land_market": {
+        "raw": "$46,026,100",
+        "usd": 46026100
+      },
+      "improvement": {
+        "raw": "$473,163,700",
+        "usd": 473163700
+      },
+      "total_market_appraisal": {
+        "raw": "$519,189,800",
+        "usd": 519189800
+      },
+      "assessment_percentage": {
+        "raw": "0%",
+        "pct": 0
+      },
+      "assessment": {
+        "raw": "$0",
+        "usd": 0
+      }
+    },
+    "subdivision": {
+      "name": "GALLATIN IND REPLAT LOT 1",
+      "plat_book": "34",
+      "plat_page": "148-150",
+      "block": null,
+      "lot": "1"
+    },
+    "additional_information": "PB33 PG366 LT1 SURVEYOR CORR 5847-137 GALLATIN IND. CENTER PH. 3 COMB PCL 112 -12.03 W/THIS FOR GB# 6136 FOR 15",
+    "general": {
+      "class": "02 - City",
+      "city": "GALLATIN",
+      "city_number": "278",
+      "district": "02",
+      "neighborhood": "G40",
+      "special_service_district_1": null,
+      "special_service_district_2": null,
+      "number_of_buildings": 5,
+      "number_of_mobile_homes": null,
+      "zoning": null,
+      "utilities": {
+        "electricity": "01 - PUBLIC",
+        "water_sewer": "01 - PUBLIC / PUBLIC",
+        "gas": "00 - NONE"
+      }
+    },
+    "land": {
+      "deed_acres": 0,
+      "calculated_acres": 512.54,
+      "total_land_units": 512.54,
+      "codes": [
+        {
+          "code": "70 - EXEMPT",
+          "soil_class": null,
+          "units": 512.54
+        }
+      ]
+    },
+    "buildings": [
+      {
+        "building": 2,
+        "improvement_type": "49 - EXCEPTIONAL",
+        "actual_year_built": 2023,
+        "quality": "1 - AVERAGE",
+        "business_living_area": 981430,
+        "foundation": null,
+        "floor_system": null,
+        "roof_framing": null,
+        "roof_cover_deck": null,
+        "cabinet_millwork": null,
+        "floor_finish": null,
+        "interior_finish": null,
+        "paint_decor": null,
+        "bath_tiles": null,
+        "electrical": null,
+        "shape": null,
+        "structural_frame": null,
+        "heat_and_ac": null,
+        "plumbing_fixtures": null,
+        "areas": [
+          {
+            "type": "49 - EXCEPTIONAL",
+            "square_feet": 279130,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "49 - EXCEPTIONAL",
+            "square_feet": 181140,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "39 - EXCEPTIONAL",
+            "square_feet": 17024,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "39 - EXCEPTIONAL",
+            "square_feet": 16560,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "SPN - Service Production Area",
+            "square_feet": 27306,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "49 - EXCEPTIONAL",
+            "square_feet": 279130,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "49 - EXCEPTIONAL",
+            "square_feet": 181140,
+            "exterior_wall": "16 - PRECAST PANEL"
+          }
+        ],
+        "features": [
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "279130 X 1"
+          },
+          {
+            "type": "HAC - HEATING AND COOLING",
+            "units": "279130 X 1"
+          },
+          {
+            "type": "CAN - CANOPY",
+            "units": "1428 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "27306 X 1"
+          },
+          {
+            "type": "HAC - HEATING AND COOLING",
+            "units": "27306 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "181140 X 1"
+          },
+          {
+            "type": "HAC - HEATING AND COOLING",
+            "units": "181140 X 1"
+          },
+          {
+            "type": "CAN - CANOPY",
+            "units": "2240 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "17024 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "16560 X 1"
+          },
+          {
+            "type": "FEL - FREIGHT ELEVATOR",
+            "units": "162400 X 1"
+          },
+          {
+            "type": "PEL - PASSENGER ELEVATOR",
+            "units": "194200 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "279130 X 1"
+          },
+          {
+            "type": "HAC - HEATING AND COOLING",
+            "units": "279130 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "181140 X 1"
+          },
+          {
+            "type": "HAC - HEATING AND COOLING",
+            "units": "181140 X 1"
+          }
+        ]
+      },
+      {
+        "building": 3,
+        "improvement_type": "49 - EXCEPTIONAL",
+        "actual_year_built": 2021,
+        "quality": "1 - AVERAGE",
+        "business_living_area": 40824,
+        "foundation": null,
+        "floor_system": null,
+        "roof_framing": null,
+        "roof_cover_deck": null,
+        "cabinet_millwork": null,
+        "floor_finish": null,
+        "interior_finish": null,
+        "paint_decor": null,
+        "bath_tiles": null,
+        "electrical": null,
+        "shape": null,
+        "structural_frame": null,
+        "heat_and_ac": null,
+        "plumbing_fixtures": null,
+        "areas": [
+          {
+            "type": "49 - EXCEPTIONAL",
+            "square_feet": 40824,
+            "exterior_wall": "19 - PREFIN METAL CRIMPED"
+          }
+        ],
+        "features": [
+          {
+            "type": "CAN - CANOPY",
+            "units": "4860 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "40824 X 1"
+          },
+          {
+            "type": "HAC - HEATING AND COOLING",
+            "units": "40824 X 1"
+          }
+        ]
+      },
+      {
+        "building": 4,
+        "improvement_type": "49 - EXCEPTIONAL",
+        "actual_year_built": 2021,
+        "quality": "1 - AVERAGE",
+        "business_living_area": 51809,
+        "foundation": null,
+        "floor_system": null,
+        "roof_framing": null,
+        "roof_cover_deck": null,
+        "cabinet_millwork": null,
+        "floor_finish": null,
+        "interior_finish": null,
+        "paint_decor": null,
+        "bath_tiles": null,
+        "electrical": null,
+        "shape": null,
+        "structural_frame": null,
+        "heat_and_ac": null,
+        "plumbing_fixtures": null,
+        "areas": [
+          {
+            "type": "49 - EXCEPTIONAL",
+            "square_feet": 51809,
+            "exterior_wall": "19 - PREFIN METAL CRIMPED"
+          }
+        ],
+        "features": [
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "51809 X 1"
+          }
+        ]
+      },
+      {
+        "building": 5,
+        "improvement_type": "39 - EXCEPTIONAL",
+        "actual_year_built": 2021,
+        "quality": "1 - AVERAGE",
+        "business_living_area": 552,
+        "foundation": null,
+        "floor_system": null,
+        "roof_framing": null,
+        "roof_cover_deck": null,
+        "cabinet_millwork": null,
+        "floor_finish": null,
+        "interior_finish": null,
+        "paint_decor": null,
+        "bath_tiles": null,
+        "electrical": null,
+        "shape": null,
+        "structural_frame": null,
+        "heat_and_ac": null,
+        "plumbing_fixtures": null,
+        "areas": [
+          {
+            "type": "39 - EXCEPTIONAL",
+            "square_feet": 552,
+            "exterior_wall": "05 - SIDING ABOVE AVG"
+          }
+        ],
+        "features": [
+          {
+            "type": "CAN - CANOPY",
+            "units": "160 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "552 X 1"
+          }
+        ]
+      },
+      {
+        "building": 6,
+        "improvement_type": "49 - EXCEPTIONAL",
+        "actual_year_built": 2024,
+        "quality": "1 - AVERAGE",
+        "business_living_area": 503498,
+        "foundation": null,
+        "floor_system": null,
+        "roof_framing": null,
+        "roof_cover_deck": null,
+        "cabinet_millwork": null,
+        "floor_finish": null,
+        "interior_finish": null,
+        "paint_decor": null,
+        "bath_tiles": null,
+        "electrical": null,
+        "shape": null,
+        "structural_frame": null,
+        "heat_and_ac": null,
+        "plumbing_fixtures": null,
+        "areas": [
+          {
+            "type": "49 - EXCEPTIONAL",
+            "square_feet": 279410,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "49 - EXCEPTIONAL",
+            "square_feet": 181140,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "SPN - Service Production Area",
+            "square_feet": 27306,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "39 - EXCEPTIONAL",
+            "square_feet": 15642,
+            "exterior_wall": "16 - PRECAST PANEL"
+          }
+        ],
+        "features": [
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "279410 X 1"
+          },
+          {
+            "type": "HAC - HEATING AND COOLING",
+            "units": "279410 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "181140 X 1"
+          },
+          {
+            "type": "HAC - HEATING AND COOLING",
+            "units": "181140 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "27306 X 1"
+          },
+          {
+            "type": "HAC - HEATING AND COOLING",
+            "units": "27306 X 1"
+          },
+          {
+            "type": "SPR - SPRINKLER SYSTEM",
+            "units": "15642 X 1"
+          },
+          {
+            "type": "FEL - FREIGHT ELEVATOR",
+            "units": "162400 X 1"
+          }
+        ]
+      }
+    ],
+    "outbuildings": [
+      {
+        "building": 2,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 59000
+      },
+      {
+        "building": 2,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 29000
+      },
+      {
+        "building": 2,
+        "type": "ASP - ASPHALT PAVING",
+        "description": null,
+        "area_units": 870000
+      },
+      {
+        "building": 2,
+        "type": "UTB - UTILITY BUILDING",
+        "description": null,
+        "area_units": 1200
+      },
+      {
+        "building": 2,
+        "type": "UTB - UTILITY BUILDING",
+        "description": null,
+        "area_units": 588
+      },
+      {
+        "building": 2,
+        "type": "UTB - UTILITY BUILDING",
+        "description": null,
+        "area_units": 351
+      },
+      {
+        "building": 2,
+        "type": "TNK - TANK - FERTILIZER/CHEMICAL/ETC",
+        "description": null,
+        "area_units": 130000
+      },
+      {
+        "building": 2,
+        "type": "CLF - CHAIN LINK FENCE",
+        "description": null,
+        "area_units": 1427
+      },
+      {
+        "building": 2,
+        "type": "CLF - CHAIN LINK FENCE",
+        "description": null,
+        "area_units": 3168
+      },
+      {
+        "building": 2,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 169300
+      },
+      {
+        "building": 2,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 92800
+      },
+      {
+        "building": 2,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 331190
+      },
+      {
+        "building": 2,
+        "type": "UTB - UTILITY BUILDING",
+        "description": null,
+        "area_units": 588
+      },
+      {
+        "building": 2,
+        "type": "UTB - UTILITY BUILDING",
+        "description": null,
+        "area_units": 1200
+      },
+      {
+        "building": 2,
+        "type": "TNK - TANK - FERTILIZER/CHEMICAL/ETC",
+        "description": null,
+        "area_units": 130000
+      },
+      {
+        "building": 2,
+        "type": "CLF - CHAIN LINK FENCE",
+        "description": null,
+        "area_units": 1427
+      },
+      {
+        "building": 2,
+        "type": "LGT - LIGHTS",
+        "description": "159 POLES, 1 LIGHT",
+        "area_units": 159
+      },
+      {
+        "building": 2,
+        "type": "LGT - LIGHTS",
+        "description": "22 POLES, 2 LIGHT",
+        "area_units": 22
+      },
+      {
+        "building": 3,
+        "type": "LGT - LIGHTS",
+        "description": "6 POLES, 1 LIGHT",
+        "area_units": 6
+      },
+      {
+        "building": 4,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 50000
+      },
+      {
+        "building": 4,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 36000
+      },
+      {
+        "building": 4,
+        "type": "LGT - LIGHTS",
+        "description": "25 POLES, 1 LIGHT",
+        "area_units": 25
+      },
+      {
+        "building": 4,
+        "type": "MLF - METAL FENCE",
+        "description": null,
+        "area_units": 2000
+      },
+      {
+        "building": 6,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 30600
+      },
+      {
+        "building": 6,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 33669
+      },
+      {
+        "building": 6,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 61500
+      },
+      {
+        "building": 6,
+        "type": "CLF - CHAIN LINK FENCE",
+        "description": null,
+        "area_units": 1427
+      },
+      {
+        "building": 6,
+        "type": "CLF - CHAIN LINK FENCE",
+        "description": null,
+        "area_units": 775
+      },
+      {
+        "building": 6,
+        "type": "TNK - TANK - FERTILIZER/CHEMICAL/ETC",
+        "description": null,
+        "area_units": 130000
+      },
+      {
+        "building": 6,
+        "type": "UTB - UTILITY BUILDING",
+        "description": null,
+        "area_units": 1200
+      },
+      {
+        "building": 6,
+        "type": "UTB - UTILITY BUILDING",
+        "description": null,
+        "area_units": 588
+      },
+      {
+        "building": 6,
+        "type": "LGT - LIGHTS",
+        "description": "54 POLES, 1 LIGHT",
+        "area_units": 54
+      },
+      {
+        "building": 6,
+        "type": "LGT - LIGHTS",
+        "description": "10 POLES, 2 LIGHT",
+        "area_units": 10
+      },
+      {
+        "building": 6,
+        "type": "CNC - CONCRETE PAVING",
+        "description": null,
+        "area_units": 120600
+      },
+      {
+        "building": 6,
+        "type": "CLF - CHAIN LINK FENCE",
+        "description": null,
+        "area_units": 2900
+      }
+    ],
+    "sales": [
+      {
+        "date": "2020-10-02",
+        "date_raw": "10/2/2020",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "5362",
+        "page": "506",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "QC - QUITCLAIM DEED",
+        "qualification": null
+      },
+      {
+        "date": "2020-08-27",
+        "date_raw": "8/27/2020",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "5362",
+        "page": "506",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "WD - WARRANTY DEED",
+        "qualification": "P - MULTIPLE PARCELS"
+      },
+      {
+        "date": "2020-05-18",
+        "date_raw": "5/18/2020",
+        "price": {
+          "raw": "$8,268,000",
+          "usd": 8268000
+        },
+        "book": "5218",
+        "page": "424",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": null,
+        "qualification": "L - LIMITED"
+      },
+      {
+        "date": "2003-08-06",
+        "date_raw": "8/6/2003",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "1811",
+        "page": "783",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "2001-02-13",
+        "date_raw": "2/13/2001",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "1226",
+        "page": "553",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "2000-10-16",
+        "date_raw": "10/16/2000",
+        "price": {
+          "raw": "$400,000",
+          "usd": 400000
+        },
+        "book": "1168",
+        "page": "298",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "WD - WARRANTY DEED",
+        "qualification": "N - NON-ARM'S LENGTH"
+      },
+      {
+        "date": "1995-12-31",
+        "date_raw": "12/31/1995",
+        "price": {
+          "raw": "$286,000",
+          "usd": 286000
+        },
+        "book": "584",
+        "page": "591",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "WD - WARRANTY DEED",
+        "qualification": "B - FAMILY SALE"
+      },
+      {
+        "date": "1987-07-10",
+        "date_raw": "7/10/1987",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "541",
+        "page": "513",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1976-01-27",
+        "date_raw": "1/27/1976",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "361",
+        "page": "627",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1975-12-31",
+        "date_raw": "12/31/1975",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "360",
+        "page": "571",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1957-06-11",
+        "date_raw": "6/11/1957",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "WB12",
+        "page": "21",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1907-11-20",
+        "date_raw": "11/20/1907",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "58",
+        "page": "468",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      }
+    ],
+    "source": {
+      "file": "sumner-assessment-woolhawk.pdf",
+      "pages": 7,
+      "sha256": "255d2817f1b954350671bd641d449593fa5a565385ad28bb34f002903289a2cf"
+    },
+    "flags": []
+  },
+  {
+    "county": {
+      "name": "Sumner",
+      "code": "083"
+    },
+    "tax_year": 2026,
+    "reappraisal_year": 2024,
+    "situs_address": "GATEWAY DRIVE 1399",
+    "owners": {
+      "jan1": [
+        "GALLATIN CITY OF IDB",
+        "DANA A FRAZIER C/O",
+        "17601 BERETTA DRIVE",
+        "ACCOKEEK MD 20607"
+      ],
+      "current": null
+    },
+    "parcel": {
+      "ctrl_map": "112",
+      "group": null,
+      "parcel": "012.02",
+      "pi": null,
+      "si": "000"
+    },
+    "parcel_id": "112 01202 000",
+    "value": {
+      "land_market": {
+        "raw": "$9,049,100",
+        "usd": 9049100
+      },
+      "improvement": {
+        "raw": "$10,063,000",
+        "usd": 10063000
+      },
+      "total_market_appraisal": {
+        "raw": "$19,112,100",
+        "usd": 19112100
+      },
+      "assessment_percentage": {
+        "raw": "0%",
+        "pct": 0
+      },
+      "assessment": {
+        "raw": "$0",
+        "usd": 0
+      }
+    },
+    "subdivision": {
+      "name": null,
+      "plat_book": "28",
+      "plat_page": null,
+      "block": "193-194",
+      "lot": "4"
+    },
+    "additional_information": "PB28 PG193-194 LT4",
+    "general": {
+      "class": "02 - City",
+      "city": "GALLATIN",
+      "city_number": "278",
+      "district": "02",
+      "neighborhood": "G40",
+      "special_service_district_1": null,
+      "special_service_district_2": null,
+      "number_of_buildings": 1,
+      "number_of_mobile_homes": null,
+      "zoning": null,
+      "utilities": {
+        "electricity": "01 - PUBLIC",
+        "water_sewer": "01 - PUBLIC / PUBLIC",
+        "gas": "00 - NONE"
+      }
+    },
+    "land": {
+      "deed_acres": 0,
+      "calculated_acres": 99.88,
+      "total_land_units": 99.88,
+      "codes": [
+        {
+          "code": "70 - EXEMPT",
+          "soil_class": null,
+          "units": 99.88
+        }
+      ]
+    },
+    "buildings": [
+      {
+        "building": 1,
+        "improvement_type": "44 - LIGHT MFG",
+        "actual_year_built": 2015,
+        "quality": "1 - AVERAGE",
+        "business_living_area": 160138,
+        "foundation": "03 - SPREAD FOOTING",
+        "floor_system": "01 - SLAB ON GRADE",
+        "roof_framing": "06 - STEEL TRUSS/PURLINS",
+        "roof_cover_deck": "13 - PREFIN METAL CRIMPED",
+        "cabinet_millwork": "03 - AVERAGE",
+        "floor_finish": "01 - CONCRETE FINISH",
+        "interior_finish": "01 - UNFINISHED",
+        "paint_decor": "03 - AVERAGE",
+        "bath_tiles": null,
+        "electrical": "03 - AVERAGE",
+        "shape": null,
+        "structural_frame": "04 - SPECIAL",
+        "heat_and_ac": "01 - UNIT HEATER",
+        "plumbing_fixtures": 46,
+        "areas": [
+          {
+            "type": "44 - LIGHT MFG",
+            "square_feet": 133760,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "OFA - Office - Average",
+            "square_feet": 13202,
+            "exterior_wall": "16 - PRECAST PANEL"
+          },
+          {
+            "type": "44 - LIGHT MFG",
+            "square_feet": 13176,
+            "exterior_wall": "16 - PRECAST PANEL"
+          }
+        ],
+        "features": [
+          {
+            "type": "CAW - CANOPY",
+            "units": "3430 X 1"
+          },
+          {
+            "type": "CAW - CANOPY",
+            "units": "672 X 1"
+          },
+          {
+            "type": "OPF - OPEN PORCH FINISHED",
+            "units": "544 X 1"
+          },
+          {
+            "type": "HAC - HEATING AND COOLING",
+            "units": "133760 X 1"
+          }
+        ]
+      }
+    ],
+    "outbuildings": [
+      {
+        "building": 1,
+        "type": "ASP - ASPHALT PAVING",
+        "description": "20",
+        "area_units": 214000
+      },
+      {
+        "building": 1,
+        "type": "CNC - CONCRETE PAVING",
+        "description": "12",
+        "area_units": 26000
+      },
+      {
+        "building": 1,
+        "type": "CLF - CHAIN LINK FENCE",
+        "description": "12",
+        "area_units": 10500
+      },
+      {
+        "building": 1,
+        "type": "CLF - CHAIN LINK FENCE",
+        "description": "12",
+        "area_units": 560
+      },
+      {
+        "building": 1,
+        "type": "LGT - LIGHTS",
+        "description": "20",
+        "area_units": 1
+      },
+      {
+        "building": 1,
+        "type": "LGT - LIGHTS",
+        "description": "20",
+        "area_units": 14
+      }
+    ],
+    "sales": [
+      {
+        "date": "2017-12-13",
+        "date_raw": "12/13/2017",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "4673",
+        "page": "606",
+        "vacant_improved": "V - VACANT",
+        "instrument": "ES - EASEMENT",
+        "qualification": null
+      },
+      {
+        "date": "2014-08-28",
+        "date_raw": "8/28/2014",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "4001",
+        "page": "628",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "QC - QUITCLAIM DEED",
+        "qualification": null
+      },
+      {
+        "date": "2014-08-07",
+        "date_raw": "8/7/2014",
+        "price": {
+          "raw": "$170,922",
+          "usd": 170922
+        },
+        "book": "3983",
+        "page": "425",
+        "vacant_improved": "V - VACANT",
+        "instrument": "WD - WARRANTY DEED",
+        "qualification": null
+      },
+      {
+        "date": "2014-07-28",
+        "date_raw": "7/28/2014",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "3983",
+        "page": "136",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "QC - QUITCLAIM DEED",
+        "qualification": null
+      },
+      {
+        "date": "2008-05-14",
+        "date_raw": "5/14/2008",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "2962",
+        "page": "808",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "2008-05-13",
+        "date_raw": "5/13/2008",
+        "price": {
+          "raw": "$3,615,848",
+          "usd": 3615848
+        },
+        "book": "2962",
+        "page": "802",
+        "vacant_improved": "V - VACANT",
+        "instrument": "WD - WARRANTY DEED",
+        "qualification": "P - MULTIPLE PARCELS"
+      },
+      {
+        "date": "2008-05-12",
+        "date_raw": "5/12/2008",
+        "price": {
+          "raw": "$1,452,332",
+          "usd": 1452332
+        },
+        "book": "2962",
+        "page": "797",
+        "vacant_improved": "V - VACANT",
+        "instrument": "WD - WARRANTY DEED",
+        "qualification": "P - MULTIPLE PARCELS"
+      },
+      {
+        "date": "1987-07-10",
+        "date_raw": "7/10/1987",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "541",
+        "page": "517",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1976-01-27",
+        "date_raw": "1/27/1976",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "361",
+        "page": "627",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1975-12-31",
+        "date_raw": "12/31/1975",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "360",
+        "page": "571",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1957-06-11",
+        "date_raw": "6/11/1957",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "WB12",
+        "page": "21",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      }
+    ],
+    "source": {
+      "file": "sumner-assessment-beretta.pdf",
+      "pages": 2,
+      "sha256": "cdcc089fbd77ae23811ecb89a082d24ba8bfafe9c6563bef6d0ec1a1dc2231ee"
+    },
+    "flags": []
+  },
+  {
+    "county": {
+      "name": "Sumner",
+      "code": "083"
+    },
+    "tax_year": 2026,
+    "reappraisal_year": 2024,
+    "situs_address": "COMMERCE WAY 195",
+    "owners": {
+      "jan1": [
+        "IFR LAND LLC",
+        "10875 CHICAGO DRIVE",
+        "ZEELAND MI 49464"
+      ],
+      "current": [
+        "Commercial Building #: 1"
+      ]
+    },
+    "parcel": {
+      "ctrl_map": "112",
+      "group": null,
+      "parcel": "109.00",
+      "pi": null,
+      "si": "000"
+    },
+    "parcel_id": "112 10900 000",
+    "value": {
+      "land_market": {
+        "raw": "$996,900",
+        "usd": 996900
+      },
+      "improvement": {
+        "raw": "$1,758,200",
+        "usd": 1758200
+      },
+      "total_market_appraisal": {
+        "raw": "$2,755,100",
+        "usd": 2755100
+      },
+      "assessment_percentage": {
+        "raw": "40%",
+        "pct": 40
+      },
+      "assessment": {
+        "raw": "$1,102,040",
+        "usd": 1102040
+      }
+    },
+    "subdivision": {
+      "name": "GALLATIN INDUSTRIAL",
+      "plat_book": "23",
+      "plat_page": "103",
+      "block": null,
+      "lot": "2"
+    },
+    "additional_information": "PLAT: 23 PAGE: 103 BLOCK: LOT: 2 SUBD: GALLATIN INDUSTRIAL CTR",
+    "general": {
+      "class": "09 - Industrial",
+      "city": "GALLATIN",
+      "city_number": "278",
+      "district": "02",
+      "neighborhood": "G40",
+      "special_service_district_1": null,
+      "special_service_district_2": null,
+      "number_of_buildings": 1,
+      "number_of_mobile_homes": null,
+      "zoning": null,
+      "utilities": {
+        "electricity": "01 - PUBLIC",
+        "water_sewer": "01 - PUBLIC / PUBLIC",
+        "gas": "00 - NONE"
+      }
+    },
+    "land": {
+      "deed_acres": 0,
+      "calculated_acres": 8.37,
+      "total_land_units": 8.37,
+      "codes": [
+        {
+          "code": "16 - IND PARK",
+          "soil_class": null,
+          "units": 8.37
+        }
+      ]
+    },
+    "buildings": [
+      {
+        "building": 1,
+        "improvement_type": "44 - LIGHT MFG",
+        "actual_year_built": 2007,
+        "quality": "1 - AVERAGE",
+        "business_living_area": 50000,
+        "foundation": "03 - SPREAD FOOTING",
+        "floor_system": "01 - SLAB ON GRADE",
+        "roof_framing": "06 - STEEL TRUSS/PURLINS",
+        "roof_cover_deck": "13 - PREFIN METAL CRIMPED",
+        "cabinet_millwork": "03 - AVERAGE",
+        "floor_finish": "01 - CONCRETE FINISH",
+        "interior_finish": "01 - UNFINISHED",
+        "paint_decor": "03 - AVERAGE",
+        "bath_tiles": "00 - NONE",
+        "electrical": "03 - AVERAGE",
+        "shape": null,
+        "structural_frame": "05 - RIGID FRAME",
+        "heat_and_ac": "01 - UNIT HEATER",
+        "plumbing_fixtures": 12,
+        "areas": [
+          {
+            "type": "44 - LIGHT MFG",
+            "square_feet": 46500,
+            "exterior_wall": "19 - PREFIN METAL CRIMPED"
+          },
+          {
+            "type": "OFA - Office - Average",
+            "square_feet": 3500,
+            "exterior_wall": "19 - PREFIN METAL CRIMPED"
+          }
+        ],
+        "features": []
+      }
+    ],
+    "outbuildings": [
+      {
+        "building": 1,
+        "type": "ASP - ASPHALT PAVING",
+        "description": "60",
+        "area_units": 21000
+      },
+      {
+        "building": 1,
+        "type": "CNC - CONCRETE PAVING",
+        "description": "36",
+        "area_units": 2800
+      },
+      {
+        "building": 1,
+        "type": "CNC - CONCRETE PAVING",
+        "description": "9",
+        "area_units": 26000
+      }
+    ],
+    "sales": [
+      {
+        "date": "2024-04-30",
+        "date_raw": "4/30/2024",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "6362",
+        "page": "303",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "QC - QUITCLAIM DEED",
+        "qualification": null
+      },
+      {
+        "date": "2016-04-13",
+        "date_raw": "4/13/2016",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "4297",
+        "page": "654",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "QC - QUITCLAIM DEED",
+        "qualification": null
+      },
+      {
+        "date": "2016-01-19",
+        "date_raw": "1/19/2016",
+        "price": {
+          "raw": "$1,950,000",
+          "usd": 1950000
+        },
+        "book": "4243",
+        "page": "328",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": null,
+        "qualification": "L - LIMITED"
+      },
+      {
+        "date": "2006-03-23",
+        "date_raw": "3/23/2006",
+        "price": {
+          "raw": "$72,000",
+          "usd": 72000
+        },
+        "book": "2470",
+        "page": "852",
+        "vacant_improved": "V - VACANT",
+        "instrument": "WD - WARRANTY DEED",
+        "qualification": "F - TAX EXEMPT SALE"
+      },
+      {
+        "date": "2002-01-29",
+        "date_raw": "1/29/2002",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "231",
+        "page": "451",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      }
+    ],
+    "source": {
+      "file": "sumner-assessment-bradford.pdf",
+      "pages": 2,
+      "sha256": "842183da5ddbee86fac3d2acb1b821bb0b92f41607b59fa90df3961b080f7a1d",
+      "duplicate_files": [
+        "unknown-assessment.pdf"
+      ]
+    },
+    "flags": [
+      "duplicate file unknown-assessment.pdf: identical content"
+    ]
+  },
+  {
+    "county": {
+      "name": "Sumner",
+      "code": "083"
+    },
+    "tax_year": 2026,
+    "reappraisal_year": 2024,
+    "situs_address": "GATEWAY DRIVE 1434",
+    "owners": {
+      "jan1": [
+        "UNITED STATES OF AMERICA",
+        "1101 MARKET ST BR 4B",
+        "CHATTANOOGA TN 37204"
+      ],
+      "current": null
+    },
+    "parcel": {
+      "ctrl_map": "111",
+      "group": null,
+      "parcel": "001.02",
+      "pi": null,
+      "si": "000"
+    },
+    "parcel_id": "111 00102 000",
+    "value": {
+      "land_market": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "improvement": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "total_market_appraisal": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "assessment_percentage": {
+        "raw": "0%",
+        "pct": 0
+      },
+      "assessment": {
+        "raw": "$0",
+        "usd": 0
+      }
+    },
+    "subdivision": {
+      "name": "GALLATIN INDUSTRIAL CENTER PH 4",
+      "plat_book": "33",
+      "plat_page": "366",
+      "block": null,
+      "lot": "9"
+    },
+    "additional_information": "PB33 PG366 LT9 SURVEYOR CORR 5847-137",
+    "general": {
+      "class": "03 - State",
+      "city": "GALLATIN",
+      "city_number": "278",
+      "district": "02",
+      "neighborhood": "G40",
+      "special_service_district_1": null,
+      "special_service_district_2": null,
+      "number_of_buildings": 0,
+      "number_of_mobile_homes": null,
+      "zoning": null,
+      "utilities": {
+        "electricity": "01 - PUBLIC",
+        "water_sewer": "01 - PUBLIC / PUBLIC",
+        "gas": "00 - NONE"
+      }
+    },
+    "land": {
+      "deed_acres": 0,
+      "calculated_acres": 6.77,
+      "total_land_units": 6.77,
+      "codes": [
+        {
+          "code": "70 - EXEMPT",
+          "soil_class": null,
+          "units": 6.77
+        }
+      ]
+    },
+    "buildings": [],
+    "outbuildings": [],
+    "sales": [
+      {
+        "date": "2022-07-25",
+        "date_raw": "7/25/2022",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "6013",
+        "page": "442",
+        "vacant_improved": "V - VACANT",
+        "instrument": "QC - QUITCLAIM DEED",
+        "qualification": null
+      },
+      {
+        "date": "2020-10-02",
+        "date_raw": "10/2/2020",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "5362",
+        "page": "506",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "QC - QUITCLAIM DEED",
+        "qualification": null
+      },
+      {
+        "date": "2020-08-27",
+        "date_raw": "8/27/2020",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "5362",
+        "page": "506",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "WD - WARRANTY DEED",
+        "qualification": "P - MULTIPLE PARCELS"
+      },
+      {
+        "date": "2020-05-18",
+        "date_raw": "5/18/2020",
+        "price": {
+          "raw": "$8,268,000",
+          "usd": 8268000
+        },
+        "book": "5218",
+        "page": "424",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": null,
+        "qualification": "L - LIMITED"
+      },
+      {
+        "date": "2003-08-06",
+        "date_raw": "8/6/2003",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "1811",
+        "page": "783",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "2001-02-13",
+        "date_raw": "2/13/2001",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "1226",
+        "page": "553",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "2000-10-16",
+        "date_raw": "10/16/2000",
+        "price": {
+          "raw": "$400,000",
+          "usd": 400000
+        },
+        "book": "1168",
+        "page": "298",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "WD - WARRANTY DEED",
+        "qualification": "N - NON-ARM'S LENGTH"
+      },
+      {
+        "date": "1995-12-31",
+        "date_raw": "12/31/1995",
+        "price": {
+          "raw": "$286,000",
+          "usd": 286000
+        },
+        "book": "584",
+        "page": "591",
+        "vacant_improved": "I - IMPROVED",
+        "instrument": "WD - WARRANTY DEED",
+        "qualification": "B - FAMILY SALE"
+      },
+      {
+        "date": "1987-07-10",
+        "date_raw": "7/10/1987",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "541",
+        "page": "513",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1976-01-27",
+        "date_raw": "1/27/1976",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "361",
+        "page": "627",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1975-12-31",
+        "date_raw": "12/31/1975",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "360",
+        "page": "571",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1957-06-11",
+        "date_raw": "6/11/1957",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "WB12",
+        "page": "21",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      },
+      {
+        "date": "1907-11-20",
+        "date_raw": "11/20/1907",
+        "price": {
+          "raw": "$0",
+          "usd": 0
+        },
+        "book": "58",
+        "page": "468",
+        "vacant_improved": "V - VACANT",
+        "instrument": null,
+        "qualification": null
+      }
+    ],
+    "source": {
+      "file": "sumner-assessment-tva.pdf",
+      "pages": 2,
+      "sha256": "568438de4abe995750abd864d78b7a184485f5286e3bf4aa3267db3554a37537"
+    },
+    "flags": []
+  }
+]

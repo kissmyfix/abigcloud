@@ -1,0 +1,1112 @@
+[
+  {
+    "filing_year": 2020,
+    "form": "990-EZ",
+    "tax_period": {
+      "begin": "2020-07-01",
+      "end": "2021-06-30"
+    },
+    "dln": "93492189011152",
+    "identity": {
+      "name_as_filed": "Industrial Developement Board of the City of Gallatin Tennessee",
+      "care_of": null,
+      "ein": "38-4171308",
+      "address": "132 West Main Street, Gallatin, TN 37066",
+      "phone": "(615) 992-5588",
+      "website": "N/A",
+      "principal_officer": null,
+      "year_of_formation": null,
+      "state_of_domicile": null,
+      "exempt_status": "501(c)(4)",
+      "form_of_organization": "Corporation",
+      "accounting_method": "Cash",
+      "checkbox_initial_return": true,
+      "checkbox_name_change": false,
+      "checkbox_amended": false,
+      "gross_receipts": 100048
+    },
+    "mission": {
+      "primary_exempt_purpose": "Recruit and Facilitate industrial developement in the City of Gallatin, Tennessee",
+      "location": "Part III",
+      "program_services_verbatim": "Fees in lieu of taxes paid to Sumner County Tennessee$17,474.00 Beretta $39,919.00, and Bradford $13,155.00",
+      "program_service_expenses": 70548,
+      "new_services_not_previously_reported": "No",
+      "significant_changes_to_governing_documents": "No"
+    },
+    "revenue": {
+      "contributions": 0,
+      "program_service_revenue": 100048,
+      "total": 100048,
+      "itemization": null
+    },
+    "expenses": {
+      "professional_fees": 39586,
+      "other_expenses": 75106,
+      "total": 114692,
+      "itemization": [
+        {
+          "label": "Payments in lieu of Taxes Pilot to Summer County",
+          "amount": 69549
+        },
+        {
+          "label": "Legal",
+          "amount": 5557
+        }
+      ]
+    },
+    "net_assets": {
+      "beginning": 102948,
+      "end": 88304,
+      "revenue_less_expenses": -14644,
+      "prior_period_adjustments": null,
+      "other_changes": null
+    },
+    "total_liabilities": 0,
+    "governance": {
+      "voting_members": null,
+      "independent_voting_members": null,
+      "employees": null,
+      "volunteers": null,
+      "forms_1096": null,
+      "forms_w2g": null
+    },
+    "officers": [
+      {
+        "name": "Allen Ramsey",
+        "title": "Chair",
+        "hours_per_week": 2.0,
+        "compensation": 0
+      },
+      {
+        "name": "Ryan Clinard",
+        "title": "Vice Chair",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "Larry Wise",
+        "title": "Treasurer",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "Joanne Walker",
+        "title": "Secretary",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "Derrick Jackson",
+        "title": "Member",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "Leonard Assante",
+        "title": "Member",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "P J Davis",
+        "title": "Member",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      }
+    ],
+    "books_in_care_of": "Preston Stark, 132 West Main Street, Gallatin, TN 37066",
+    "signature": {
+      "name": "Preston Stark",
+      "title": "Contracted Board Administrator",
+      "date": "2021-11-14"
+    },
+    "preparer": {
+      "name": "J Michael Patterson",
+      "firm": "JOHNIE M PATTERSON",
+      "address": "8609 Belle Mina Way, Knoxville, TN 37923",
+      "ptin": "P01412364",
+      "firm_ein": null,
+      "phone": "(615) 812-1858",
+      "date": null
+    },
+    "schedule_o": [
+      {
+        "reference": "Form 990EZ, Part I, Line 16",
+        "text": "Payments in lieu of Taxes Pilot to"
+      },
+      {
+        "reference": "Form 990EZ, Part I, Line 16",
+        "text": "Summer County 69549."
+      },
+      {
+        "reference": "Form 990EZ, Part I, Line 16",
+        "text": "Legal 5557."
+      }
+    ],
+    "source": {
+      "file": "idb2020.pdf",
+      "pages": 8,
+      "text_layer": false,
+      "method": "vision transcription",
+      "pages_read": "1-8"
+    },
+    "flags": [
+      "Name misspelled on form: 'Developement'",
+      "Purpose misspelled on form: 'developement'",
+      "Schedule O misspells the county: 'Summer County'",
+      "Initial return checked, yet beginning net assets are $102,948",
+      "Part III program services ($70,548 to Sumner County/Beretta/Bradford) cannot be reconciled with Schedule O's line 16 breakdown ($69,549 all to 'Summer County' plus $5,557 legal)",
+      "Two of the three largest program service accomplishments are payments to private for-profit corporations"
+    ]
+  },
+  {
+    "filing_year": 2021,
+    "form": "990",
+    "tax_period": {
+      "begin": "2021-07-01",
+      "end": "2022-06-30"
+    },
+    "dln": "93493326011112",
+    "identity": {
+      "name_as_filed": "Industrial Development Board of the City of Gallatin TN",
+      "care_of": "Preston Stark",
+      "ein": "38-4171308",
+      "address": "132 W Main St, Gallatin, TN 37066",
+      "phone": "(615) 992-5588",
+      "website": "https://www.gallatintn.gov/509/Industrial-Development-Board",
+      "principal_officer": "Preston Stark, 1092 Edgewater, Gallatin, TN 37066",
+      "year_of_formation": 2020,
+      "state_of_domicile": "TN",
+      "exempt_status": "501(c)(4)",
+      "form_of_organization": "Corporation",
+      "accounting_method": "Cash",
+      "checkbox_initial_return": true,
+      "checkbox_name_change": false,
+      "checkbox_amended": false,
+      "gross_receipts": 145425
+    },
+    "mission": {
+      "primary_exempt_purpose": "Recruit and facilitate industrial development in the City of Gallatin TN",
+      "location": "Part I line 1 and Part III line 1",
+      "program_services_verbatim": "The IDB is responsible for administration of the PILOT program which involves payments in lieu of taxes. Payments are primarily payments to the couty Gallatin in which the City of Gallatin is located. Other expeses are related to the operation of the Industrial Park.",
+      "program_service_expenses": 130320,
+      "new_services_not_previously_reported": "No",
+      "significant_changes_to_program_services": "No",
+      "significant_changes_to_governing_documents": "No"
+    },
+    "revenue": {
+      "contributions": 0,
+      "program_service_revenue": 145425,
+      "total": 145425,
+      "itemization": [
+        {
+          "label": "Pilot payments",
+          "amount": 123537
+        },
+        {
+          "label": "Legal payments",
+          "amount": 15129
+        },
+        {
+          "label": "Maintenance fees",
+          "amount": 3277
+        },
+        {
+          "label": "Application fees",
+          "amount": 3482
+        }
+      ]
+    },
+    "expenses": {
+      "total": 136802,
+      "program_service": 130320,
+      "management_and_general": 6482,
+      "fundraising": 0,
+      "itemization": [
+        {
+          "label": "Legal",
+          "amount": 18096
+        },
+        {
+          "label": "Accounting",
+          "amount": 750
+        },
+        {
+          "label": "Other fees for services",
+          "amount": 3966
+        },
+        {
+          "label": "Insurance",
+          "amount": 1204
+        },
+        {
+          "label": "Property taxes",
+          "amount": 107488
+        },
+        {
+          "label": "Lawn care Industrial Park",
+          "amount": 5211
+        },
+        {
+          "label": "Public notice",
+          "amount": 87
+        }
+      ]
+    },
+    "net_assets": {
+      "beginning": 88304,
+      "end": 98131,
+      "revenue_less_expenses": 8623,
+      "prior_period_adjustments": 1204,
+      "other_changes": null
+    },
+    "total_liabilities": 0,
+    "governance": {
+      "voting_members": 7,
+      "independent_voting_members": 7,
+      "employees": 0,
+      "volunteers": 7,
+      "forms_1096": 0,
+      "forms_w2g": 0,
+      "family_or_business_relationships": "No",
+      "significant_changes_to_governing_documents": "No",
+      "copy_of_990_provided_to_board_before_filing": "Yes",
+      "conflict_of_interest_policy": "Yes",
+      "conflict_of_interest_annual_disclosure": "No",
+      "conflict_of_interest_monitored": "No",
+      "whistleblower_policy": "No",
+      "document_retention_policy": "No",
+      "financial_statements_compiled_or_reviewed": "Yes",
+      "financial_statements_audited": "No",
+      "documents_available": "Upon request"
+    },
+    "officers": [
+      {
+        "name": "Allan Ramsey",
+        "title": "Chair",
+        "hours_per_week": 2.0,
+        "compensation": 0
+      },
+      {
+        "name": "Ryan Clinard",
+        "title": "Vice Chair",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "Joanne Walker",
+        "title": "Secretary",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "Leonard Assante",
+        "title": "Board member",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "Neil Burgess",
+        "title": "Board member",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "Britanie Earlie",
+        "title": "Board member",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "Derrick Jackson",
+        "title": "Board member",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      }
+    ],
+    "books_in_care_of": "Preston Stark, 132 W Main St, Gallatin, TN 37066, (615) 992-5588",
+    "signature": {
+      "name": "Preston Stark",
+      "title": "Board Administrator",
+      "date": "2022-11-21"
+    },
+    "preparer": {
+      "name": "Joe Osterfeld CPA",
+      "firm": "Joe Osterfeld CPA",
+      "address": "PO Box 807, Columbia, TN 38402-0807",
+      "ptin": "P00128248",
+      "firm_ein": "62-1763210",
+      "phone": "(931) 388-7144",
+      "date": "2022-11-22"
+    },
+    "schedule_o": [
+      {
+        "reference": "Form 990, Part VI, Section B, Line 11b",
+        "text": "Due to time constraints, the board reviews the Form 990 after it is filed. The board administrator reviews it prior to filing."
+      },
+      {
+        "reference": "Form 990, Part VI, Section C, Line 19",
+        "text": "These forms are available upon written request."
+      }
+    ],
+    "source": {
+      "file": "idb2021.pdf",
+      "pages": 15,
+      "text_layer": false,
+      "method": "vision transcription",
+      "pages_read": "1-15"
+    },
+    "flags": [
+      "Initial return checked for a second consecutive year",
+      "Year of formation reported as 2020",
+      "Part III line 4a misspells 'county' as 'couty' and names the county as Gallatin",
+      "Part III line 4a misspells 'expenses' as 'expeses'",
+      "Chair's given name spelled 'Allan' here and 'Allen' on the 2020 filing",
+      "Prior-year total expenses restated as $114,690; the 2020 filing itself reported $114,692",
+      "Largest expense is $107,488 of 'Property taxes' against $123,537 of 'Pilot payments' revenue",
+      "Schedule O states the board reviews the Form 990 only after it is filed",
+      "Part VI line 11a answers Yes (board given a complete copy before filing) while Schedule O on the same return states the board reviews it only after filing"
+    ],
+    "prior_year_reported": {
+      "total_revenue": 100048,
+      "total_expenses": 114690
+    }
+  },
+  {
+    "filing_year": 2022,
+    "form": "990",
+    "tax_period": {
+      "begin": "2022-07-01",
+      "end": "2023-06-30"
+    },
+    "dln": "93493317012453",
+    "identity": {
+      "name_as_filed": "INDUSTRIAL DEVELOPMNET BOARD OF THE GALLATIN TN",
+      "care_of": null,
+      "ein": "38-4171308",
+      "address": "132 W MAIN STREET, GALLATIN, TN 37066",
+      "phone": null,
+      "website": "WWW.GALLATIN.GOV/509/INDUSTRIAL-DEVELOPM",
+      "principal_officer": "PRESTON STARK, 1092 EDGEWATER, GALLATIN, TN 37066",
+      "year_of_formation": 2020,
+      "state_of_domicile": "TN",
+      "exempt_status": "501(c)(4)",
+      "form_of_organization": "Corporation",
+      "accounting_method": "Accrual",
+      "checkbox_initial_return": false,
+      "checkbox_name_change": false,
+      "checkbox_amended": false,
+      "gross_receipts": 334268
+    },
+    "mission": {
+      "primary_exempt_purpose": "THE IDB IS RESPONSIBLE FOR ADMINSTRATION OF THE PILOT PROGRAM WHICH INVOLVES PAYMENTS IN LIEU OF TAXES. PAYMENTS ARE PRIMARILY PAYMNETS TO THE COUNTY (GALLATIN) IN WHICH THE CITY OF GALLATIN IS LOCATED. OTHER EXPENSES ARE RELATED TO THE OPERATION OF THE INDUSTRIAL PARK.",
+      "location": "Part I line 1 and Part III line 1",
+      "program_services_verbatim": "RECRUIT AND FACILITATE INDUSTRIAL DEVELOPMENT IN TH ECITY OF GALLATIN TN",
+      "program_service_expenses": 244290,
+      "new_services_not_previously_reported": "No",
+      "significant_changes_to_program_services": "No"
+    },
+    "revenue": {
+      "contributions": 0,
+      "program_service_revenue": 334268,
+      "total": 334268,
+      "itemization": [
+        {
+          "label": "PILOT PAYMENTS",
+          "amount": 326731,
+          "business_code": "531120"
+        },
+        {
+          "label": "MAINTENANCE FEES",
+          "amount": 4372,
+          "business_code": "531120"
+        },
+        {
+          "label": "LEGAL FEES",
+          "amount": 1559,
+          "business_code": "531120"
+        },
+        {
+          "label": "OTHER FEES",
+          "amount": 1606,
+          "business_code": "531120"
+        }
+      ]
+    },
+    "expenses": {
+      "total": 244797,
+      "program_service": 244290,
+      "management_and_general": 507,
+      "fundraising": 0,
+      "itemization": [
+        {
+          "label": "Legal",
+          "amount": 15627
+        },
+        {
+          "label": "Accounting",
+          "amount": 400
+        },
+        {
+          "label": "Advertising and promotion",
+          "amount": 683
+        },
+        {
+          "label": "Office expenses",
+          "amount": 269
+        },
+        {
+          "label": "Occupancy",
+          "amount": 8890
+        },
+        {
+          "label": "Insurance",
+          "amount": 2408
+        },
+        {
+          "label": "PROPERTY TAXES",
+          "amount": 141791
+        },
+        {
+          "label": "PAYMENT SUMNER COUNTY SCHOOL",
+          "amount": 74622
+        },
+        {
+          "label": "FEES",
+          "amount": 107
+        }
+      ]
+    },
+    "net_assets": {
+      "beginning": 98131,
+      "end": 187602,
+      "revenue_less_expenses": 89471,
+      "prior_period_adjustments": null,
+      "other_changes": 0
+    },
+    "total_liabilities": 0,
+    "governance": {
+      "employees": 0,
+      "forms_1096": 0,
+      "forms_w2g": 0,
+      "family_or_business_relationships": "No",
+      "delegated_control_to_management_company": "No",
+      "significant_changes_to_governing_documents": "No",
+      "significant_diversion_of_assets": "No",
+      "members_or_stockholders": "No",
+      "governing_body_minutes_documented": "Yes",
+      "committee_minutes_documented": "Yes",
+      "copy_of_990_provided_to_board_before_filing": "Yes",
+      "conflict_of_interest_policy": "Yes",
+      "conflict_of_interest_annual_disclosure": "No",
+      "conflict_of_interest_monitored": "No",
+      "whistleblower_policy": "No",
+      "document_retention_policy": "No",
+      "compensation_review_ceo": "No",
+      "compensation_review_other_officers": "No",
+      "joint_venture": "No",
+      "states_filed": null,
+      "documents_available": "Upon request",
+      "voting_members": 9,
+      "independent_voting_members": 9,
+      "volunteers": 9,
+      "financial_statements_compiled_or_reviewed": "No",
+      "financial_statements_audited": "Yes"
+    },
+    "officers": [
+      {
+        "name": "PHIL CARVER",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "DERRICK JACKSON",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "JESSE MANESS",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "STAN CARVER",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "NEIL BURGESS",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "LEONARD ASSANTTE",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "ALLAN RAMSEY",
+        "title": "CHAIR",
+        "hours_per_week": 2.0,
+        "compensation": 0
+      },
+      {
+        "name": "PRESTON STARK",
+        "title": "BOARD ADMINISTRATOR",
+        "hours_per_week": 0.0,
+        "compensation": 0
+      },
+      {
+        "name": "JOANNE WALKER",
+        "title": "SECRETARY",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "RYAN CLINARD",
+        "title": "VICE CHAIR",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      }
+    ],
+    "books_in_care_of": "PRESTON STARK, 132 W MAIN STREET, GALLATIN, TN 37066, (615) 992-5588",
+    "signature": {
+      "name": "PRESTON STARK",
+      "title": "BOARD ADMINISTR",
+      "date": "2023-11-13"
+    },
+    "preparer": {
+      "name": null,
+      "firm": "John P Young PC",
+      "address": "114 Canfield Place A-7, Hendersonville, TN 37075",
+      "ptin": "P00271446",
+      "firm_ein": "62-1796708",
+      "phone": "(615) 822-8202",
+      "date": "2023-11-13"
+    },
+    "schedule_o": [
+      {
+        "reference": "Form 990 governing body review, Part VI line 11",
+        "text": "THE BOARD ADMINISTRATOR REVIEWS IT PRIOR TO FILING. THE BOARD REVIEWS THE FORM AT THE NEXT BOARD MEETING."
+      },
+      {
+        "reference": "Governing documents etc available to public, Part VI line 19",
+        "text": "THESE FORMS ARE AVALIBLE AT THE ORGANIZATION OFFICE DURING NORMAL BUSINESS HOURS."
+      }
+    ],
+    "source": {
+      "file": "idb2022.pdf",
+      "pages": 20,
+      "text_layer": false,
+      "method": "vision transcription",
+      "pages_read": "1-20"
+    },
+    "flags": [
+      "Name misspelled on form: 'DEVELOPMNET'",
+      "'City of' dropped from the organization name, leaving 'OF THE GALLATIN TN'",
+      "Mission misspells 'ADMINSTRATION' and 'PAYMNETS'",
+      "Mission names the county as Gallatin, now as an explicit parenthetical: 'THE COUNTY (GALLATIN)'",
+      "Mission statement replaced entirely versus 2021, yet Part III lines 2 and 3 are both answered No",
+      "Accounting method changed from cash to accrual versus 2021",
+      "First appearance of a 'PAYMENT SUMNER COUNTY SCHOOL' expense line",
+      "Part III line 4a still describes the program as 'RECRUIT AND FACILITATE INDUSTRIAL DEVELOPMENT', contradicting the mission line on the same return",
+      "Additional Data misprints 'TH ECITY'",
+      "Board member surname spelled 'ASSANTTE'; the 2020 and 2021 filings spell it 'Assante'",
+      "Zero Forms 1096 filed",
+      "Part VI line 11a answers Yes (board given a complete copy before filing) while Schedule O on the same return states the board reviews it only after filing"
+    ],
+    "prior_year_reported": {
+      "total_revenue": 145425,
+      "total_expenses": 136802
+    }
+  },
+  {
+    "filing_year": 2023,
+    "form": "990",
+    "tax_period": {
+      "begin": "2023-07-01",
+      "end": "2024-06-30"
+    },
+    "dln": "93493318076384",
+    "identity": {
+      "name_as_filed": "INDUSTRIAL DEVELOPMENT BOARD OF THE GALLATIN TN",
+      "care_of": null,
+      "ein": "38-4171308",
+      "address": "132 W MAIN STREET, GALLATIN, TN 37066",
+      "phone": null,
+      "website": "WWW.GALLATIN.GOV/509/INDUSTRIAL-DEVELOPM",
+      "principal_officer": "PRESTON STARK, 1092 EDGEWATER, GALLATIN, TN 37066",
+      "year_of_formation": 2020,
+      "state_of_domicile": "TN",
+      "exempt_status": "501(c)(4)",
+      "form_of_organization": "Corporation",
+      "accounting_method": "Accrual",
+      "checkbox_initial_return": false,
+      "checkbox_name_change": false,
+      "checkbox_amended": false,
+      "gross_receipts": 1796648
+    },
+    "mission": {
+      "primary_exempt_purpose": "THE IDB IS RESPONSIBLE FOR ADMINSTRATION OF THE PILOT PROGRAM WHICH INVOLVES PAYMENTS IN LIEU OF TAXES. PAYMENTS ARE PRIMARILY PAYMNETS TO THE COUNTY (GALLATIN) IN WHICH THE CITY OF GALLATIN IS LOCATED. OTHER EXPENSES ARE RELATED TO THE OPERATION OF THE INDUSTRIAL PARK.",
+      "location": "Part I line 1 and Part III line 1",
+      "program_services_verbatim": "RECRUIT AND FACILITATE INDUSTRIAL DEVELOPMENT IN TH ECITY OF GALLATIN TN",
+      "program_service_expenses": 1079908,
+      "new_services_not_previously_reported": null,
+      "significant_changes_to_program_services": null
+    },
+    "revenue": {
+      "contributions": 0,
+      "program_service_revenue": 1796648,
+      "total": 1796648,
+      "itemization": [
+        {
+          "label": "PILOT PAYMENTS",
+          "amount": 1758136,
+          "business_code": "531120"
+        },
+        {
+          "label": "MAINTENANCE FEES",
+          "amount": 34371,
+          "business_code": "531120"
+        },
+        {
+          "label": "LEGAL FEES",
+          "amount": null,
+          "business_code": "531120"
+        },
+        {
+          "label": "OTHER FEES",
+          "amount": 4141,
+          "business_code": "531120"
+        }
+      ]
+    },
+    "expenses": {
+      "total": 1079908,
+      "program_service": 1079908,
+      "management_and_general": 0,
+      "fundraising": 0,
+      "itemization": [
+        {
+          "label": "Accounting",
+          "amount": 4641
+        },
+        {
+          "label": "Office expenses",
+          "amount": 1755
+        },
+        {
+          "label": "Occupancy",
+          "amount": 9384
+        },
+        {
+          "label": "Insurance",
+          "amount": 1204
+        },
+        {
+          "label": "PILOT FEES DISTRIBUTED",
+          "amount": 155475
+        },
+        {
+          "label": "PAYMENT SUMNER COUNTY SCHOOL",
+          "amount": 901080
+        },
+        {
+          "label": "FEES",
+          "amount": 3032
+        },
+        {
+          "label": "MISCELLANEOUS",
+          "amount": 3337
+        }
+      ]
+    },
+    "net_assets": {
+      "beginning": 187602,
+      "end": 904342,
+      "revenue_less_expenses": 716740,
+      "prior_period_adjustments": null,
+      "other_changes": 0
+    },
+    "total_liabilities": 0,
+    "governance": {
+      "employees": 0,
+      "forms_1096": 0,
+      "forms_w2g": 0,
+      "family_or_business_relationships": "No",
+      "delegated_control_to_management_company": "No",
+      "significant_changes_to_governing_documents": "No",
+      "significant_diversion_of_assets": "No",
+      "members_or_stockholders": "No",
+      "governing_body_minutes_documented": "Yes",
+      "committee_minutes_documented": "Yes",
+      "copy_of_990_provided_to_board_before_filing": "Yes",
+      "conflict_of_interest_policy": "Yes",
+      "conflict_of_interest_annual_disclosure": "No",
+      "conflict_of_interest_monitored": "No",
+      "whistleblower_policy": "No",
+      "document_retention_policy": "No",
+      "compensation_review_ceo": "No",
+      "compensation_review_other_officers": "No",
+      "joint_venture": "No",
+      "states_filed": null,
+      "documents_available": "Upon request",
+      "voting_members": 8,
+      "independent_voting_members": 8,
+      "volunteers": null,
+      "financial_statements_compiled_or_reviewed": "No",
+      "financial_statements_audited": "Yes"
+    },
+    "officers": [
+      {
+        "name": "PHIL CARVER",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "DERRICK JACKSON",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "JESSE MANESS",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "STAN CARVER",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "LEONARD ASSANTTE",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "NEIL BURGESS",
+        "title": "VICE-CHAIR",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "PRESTON STARK",
+        "title": "BOARD ADMINISTRATOR",
+        "hours_per_week": 0.0,
+        "compensation": 0
+      },
+      {
+        "name": "ALLAN RAMSEY",
+        "title": "CHAIR",
+        "hours_per_week": 2.0,
+        "compensation": 0
+      },
+      {
+        "name": "JOANNE WALKER",
+        "title": "SECRETARY",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      }
+    ],
+    "books_in_care_of": "PRESTON STARK, 132 W MAIN STREET, GALLATIN, TN 37066, (615) 992-5588",
+    "signature": {
+      "name": "PRESTON STARK",
+      "title": "BOARD ADMINISTR",
+      "date": "2024-11-13"
+    },
+    "preparer": {
+      "name": null,
+      "firm": "John P Young PC",
+      "address": "114 Canfield Place A-7, Hendersonville, TN 37075",
+      "ptin": "P00271446",
+      "firm_ein": "62-1796708",
+      "phone": "(615) 822-8202",
+      "date": "2024-11-13"
+    },
+    "schedule_o": [
+      {
+        "reference": "Form 990 governing body review, Part VI line 11",
+        "text": "THE BOARD ADMINISTRATOR REVIEWS IT PRIOR TO FILING. THE BOARD REVIEWS THE FORM AT THE NEXT BOARD MEETING."
+      },
+      {
+        "reference": "Governing documents etc available to public, Part VI line 19",
+        "text": "THESE FORMS ARE AVALIBLE AT THE ORGANIZATION OFFICE DURING NORMAL BUSINESS HOURS."
+      }
+    ],
+    "source": {
+      "file": "idb2023.pdf",
+      "pages": 20,
+      "text_layer": false,
+      "method": "vision transcription",
+      "pages_read": "1-20"
+    },
+    "flags": [
+      "Part III lines 2 and 3 are both left blank, neither Yes nor No",
+      "Expense line renamed from 'PROPERTY TAXES' to 'PILOT FEES DISTRIBUTED' versus 2022",
+      "Received $1,758,136 in PILOT payments and distributed $155,475; retained $716,740, taking net assets from $187,602 to $904,342",
+      "Board size dropped from 9 to 8",
+      "Part III line 4a still describes the program as 'RECRUIT AND FACILITATE INDUSTRIAL DEVELOPMENT', contradicting the mission line on the same return",
+      "Additional Data misprints 'TH ECITY'",
+      "Zero Forms 1096 filed",
+      "Part VI line 11a answers Yes (board given a complete copy before filing) while Schedule O on the same return states the board reviews it only after filing"
+    ],
+    "prior_year_reported": {
+      "total_revenue": 334268,
+      "total_expenses": 244797
+    }
+  },
+  {
+    "filing_year": 2024,
+    "form": "990",
+    "tax_period": {
+      "begin": "2024-07-01",
+      "end": "2025-06-30"
+    },
+    "dln": null,
+    "object_id": "202512309349301216",
+    "submission_date": "2025-08-11",
+    "identity": {
+      "name_as_filed": "INDUSTRIAL DEVELOPMENT BOARD OF THE GALLATIN TN",
+      "care_of": "PRESTON STARK",
+      "ein": "38-4171308",
+      "address": "132 W MAIN STREET, GALLATIN, TN 37066",
+      "phone": "(615) 992-5588",
+      "website": "WWW.GALLATIN.GOV/509/INDUSTRIAL-DEVELOPM",
+      "principal_officer": "PRESTON STARK, 1092 EDGEWATER, GALLATIN, TN 37066",
+      "year_of_formation": 2020,
+      "state_of_domicile": "TN",
+      "exempt_status": "501(c)(4)",
+      "form_of_organization": "Corporation",
+      "accounting_method": null,
+      "checkbox_initial_return": false,
+      "checkbox_name_change": false,
+      "checkbox_amended": false,
+      "gross_receipts": 2242221
+    },
+    "mission": {
+      "primary_exempt_purpose": "THE IDB IS RESPONSIBLE FOR ADMINSTRATION OF THE PILOT PROGRAM WHICH INVOLVES PAYMENTS IN LIEU OF TAXES. PAYMENTS ARE PRIMARILY PAYMNETS TO THE COUNTY (GALLATIN) IN WHICH THE CITY OF GALLATIN IS LOCATED. OTHER EXPENSES ARE RELATED TO THE OPERATION OF THE INDUSTRIAL PARK.",
+      "location": "Part I line 1 and Part III line 1",
+      "program_services_verbatim": null,
+      "program_service_expenses": null,
+      "new_services_not_previously_reported": null,
+      "significant_changes_to_program_services": null
+    },
+    "revenue": {
+      "contributions": 0,
+      "program_service_revenue": 2242221,
+      "total": 2242221,
+      "itemization": [
+        {
+          "label": "PILOT PAYMENTS",
+          "amount": 2210996,
+          "business_code": "531120"
+        },
+        {
+          "label": "MAINTENANCE FEES",
+          "amount": 19372,
+          "business_code": "531120"
+        },
+        {
+          "label": "LEGAL FEES",
+          "amount": 9980,
+          "business_code": "531120"
+        },
+        {
+          "label": "OTHER FEES",
+          "amount": 1873,
+          "business_code": "531120"
+        }
+      ]
+    },
+    "expenses": {
+      "total": 2998536,
+      "program_service": 2998536,
+      "management_and_general": 0,
+      "fundraising": 0,
+      "itemization": [
+        {
+          "label": "Management",
+          "amount": 12000
+        },
+        {
+          "label": "Office expenses",
+          "amount": 1766
+        },
+        {
+          "label": "Occupancy",
+          "amount": 6364
+        },
+        {
+          "label": "Insurance",
+          "amount": 1204
+        },
+        {
+          "label": "PILOT FEES DISTRIBUTED",
+          "amount": 2291692
+        },
+        {
+          "label": "PAYMENT SUMNER COUNTY SCHOOL",
+          "amount": 640457
+        },
+        {
+          "label": "CONSULTING FEES",
+          "amount": 45000
+        },
+        {
+          "label": "MISCELLANEOUS",
+          "amount": 53
+        }
+      ]
+    },
+    "net_assets": {
+      "beginning": 904342,
+      "end": 148027,
+      "revenue_less_expenses": -756315,
+      "prior_period_adjustments": null,
+      "other_changes": 0
+    },
+    "total_liabilities": 0,
+    "governance": {
+      "employees": 0,
+      "forms_1096": 0,
+      "forms_w2g": 0,
+      "family_or_business_relationships": "No",
+      "delegated_control_to_management_company": "No",
+      "significant_changes_to_governing_documents": "No",
+      "significant_diversion_of_assets": "No",
+      "members_or_stockholders": "No",
+      "governing_body_minutes_documented": "Yes",
+      "committee_minutes_documented": "Yes",
+      "copy_of_990_provided_to_board_before_filing": "No",
+      "conflict_of_interest_policy": "Yes",
+      "conflict_of_interest_annual_disclosure": "No",
+      "conflict_of_interest_monitored": "No",
+      "whistleblower_policy": "No",
+      "document_retention_policy": "No",
+      "compensation_review_ceo": "No",
+      "compensation_review_other_officers": "No",
+      "joint_venture": "No",
+      "states_filed": null,
+      "documents_available": "Upon request",
+      "voting_members": 9,
+      "independent_voting_members": 9,
+      "volunteers": null
+    },
+    "officers": [
+      {
+        "name": "ALLAN RAMSEY",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 2.0,
+        "compensation": 0
+      },
+      {
+        "name": "DERRICK JACKSON",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "PHIL CARVER",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "STAN CARVER",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "JESSE MANESS",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "DON CUNNINGHAM",
+        "title": "BOARD MEMBER",
+        "hours_per_week": 0.0,
+        "compensation": 0
+      },
+      {
+        "name": "JOANNE WALKER",
+        "title": "SECRETARY",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "LEONARD ASSANTTE",
+        "title": "TREASURER",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "NEIL BURGESS",
+        "title": "CHAIR",
+        "hours_per_week": 1.0,
+        "compensation": 0
+      },
+      {
+        "name": "PRESTON STARK",
+        "title": "BOARD ADMINISTRATOR",
+        "hours_per_week": 0.0,
+        "compensation": 0
+      }
+    ],
+    "books_in_care_of": "PRESTON STARK, 132 W MAIN STREET, GALLATIN, TN 37066, (615) 992-5588",
+    "signature": {
+      "name": "PRESTON STARK",
+      "title": "BOARD ADMINISTRATOR",
+      "date": "2025-08-15"
+    },
+    "preparer": {
+      "name": null,
+      "firm": "John P Young PC",
+      "address": "114 Canfield Place A-7, Hendersonville, TN 37075",
+      "ptin": "P00271446",
+      "firm_ein": "62-1796708",
+      "phone": "(615) 822-8202",
+      "date": "2025-08-11"
+    },
+    "schedule_o": [
+      {
+        "reference": "Form 990 governing body review, Part VI line 11",
+        "text": "THE BOARD ADMINISTRATOR REVIEWS IT PRIOR TO FILING. THE BOARD REVIEWS THE FORM AT THE NEXT BOARD MEETING."
+      },
+      {
+        "reference": "Governing documents etc available to public, Part VI line 19",
+        "text": "THESE FORMS ARE AVALIBLE AT THE ORGANIZATION OFFICE DURING NORMAL BUSINESS HOURS."
+      }
+    ],
+    "source": {
+      "file": "idb2024.pdf",
+      "pages": 17,
+      "text_layer": true,
+      "method": "text layer (ProPublica visual render)",
+      "pages_read": "1-17"
+    },
+    "flags": [
+      "$45,000 consulting fees and $12,000 management fees reported with zero Forms 1096 filed",
+      "Distributed $2,291,692 in PILOT fees against $2,210,996 received, drawing net assets down from $904,342 to $148,027",
+      "Schedule O misspells 'AVALIBLE'",
+      "Part VI line 11a answered No: the board is not given the return before filing (2021-2023 answered Yes)",
+      "Allan Ramsey drops from Chair to board member; Neil Burgess becomes Chair"
+    ],
+    "prior_year_reported": {
+      "total_revenue": 1796648,
+      "total_expenses": 1079908
+    }
+  }
+]

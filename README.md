@@ -16,8 +16,10 @@ Every claim is sourced from public records, state filings, federal tax documents
 
 | Part | Title | Summary |
 |------|-------|---------|
-| [Part 1](article/part-1.md) | **The Simple Question That Wasn't** | A Gallatin resident asks whether the promises made about Meta's data center were kept — and discovers a system engineered to make the question uncheckable. |
-| [Part 2](article/part-2.md) | **Where Were the Adults?** | Every layer of oversight that should have caught this — county, city, state legislature, comptroller, IRS, press — and the specific moment each one failed or was bypassed. *(forthcoming)* |
+| Part 1 *(in progress)* | **The Simple Question That Wasn't** | A Gallatin resident asks whether the promises made about Meta's data center were kept — and discovers a system engineered to make the question uncheckable. |
+| Part 2 *(forthcoming)* | **Where Were the Adults?** | Every layer of oversight that should have caught this — county, city, state legislature, comptroller, IRS, press — and the specific moment each one failed or was bypassed. |
+
+The evidence below is published now; the written parts land as they're finished.
 
 ---
 
@@ -64,9 +66,9 @@ Everything below is a primary source document or public record. Nothing has been
 
 | Document | What It Shows |
 |---|---|
-| `HB1269.pdf` | Original bill text — would have required PILOT payments equal to ad valorem taxes |
-| `pc0265.pdf` | Public Chapter 265 as signed — adds "or instrumentality thereof" to § 67-5-502(c) and (d). Passed April 18, signed April 30, 2019. Immediate effect. |
-| `FM0797.pdf` | Fiscal memorandum — original fiscal impact exceeding $2.72M rewritten to "unknown" and "not significant" after the amendment gutted the bill |
+| `hb1269-sb708-as-introduced.pdf` | Original bill text — would have required PILOT payments equal to ad valorem taxes |
+| `pc265-sb708-as-enacted.pdf` | Public Chapter 265 as signed — adds "or instrumentality thereof" to § 67-5-502(c) and (d). Passed April 18, signed April 30, 2019. Immediate effect. |
+| `pc265-sb708-fiscal-memo.pdf` | Fiscal memorandum — original fiscal impact exceeding $2.72M rewritten to "unknown" and "not significant" after the amendment gutted the bill |
 
 A statute untouched since 1955, amended during the Woolhawk negotiation window, adding the exact language the deal structure required. No public explanation for why it suddenly needed changing.
 

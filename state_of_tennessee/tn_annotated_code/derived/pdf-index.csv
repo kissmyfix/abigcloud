@@ -1,0 +1,9 @@
+text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+2014-06-12-cumulative-fiscal-note-2014-session.txt,2014-06-12-cumulative-fiscal-note-2014-session.pdf,DIGITAL,80,649984,8125,0.0,extraction authoritative,Adobe Acrobat 9.0.0
+hb1269-sb708-as-introduced.txt,hb1269-sb708-as-introduced.pdf,DIGITAL,1,2213,2213,0.0,extraction authoritative,Microsoft® Word 2010
+pc265-sb708-as-enacted.txt,pc265-sb708-as-enacted.pdf,OCR_SCAN,2,2495,1248,1.0,verify figures against page image,Adobe PSL 1.3e for Canon
+pc265-sb708-fiscal-memo.txt,pc265-sb708-fiscal-memo.pdf,DIGITAL,2,2876,1438,0.0,extraction authoritative,Microsoft® Word 2010
+tca-7-53-301-board-of-directors.txt,tca-7-53-301-board-of-directors.pdf,DIGITAL,3,5662,1887,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)
+tca-7-53-302-corporate-powers.txt,tca-7-53-302-corporate-powers.pdf,DIGITAL,5,12270,2454,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)
+tca-7-53-305-tax-exemption-pilot.txt,tca-7-53-305-tax-exemption-pilot.pdf,DIGITAL,1,17361,17361,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)
+tca-7-53-308.txt,tca-7-53-308.pdf,DIGITAL,2,3406,1703,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)

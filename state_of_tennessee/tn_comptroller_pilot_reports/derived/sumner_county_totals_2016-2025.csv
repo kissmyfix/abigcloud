@@ -1,0 +1,10 @@
+year,total_est_value,total_rent,total_pilot_city,total_pilot_county,num_line_items,num_entities,entities
+2016,31076264,2867686,0,0,7,6,Beretta USA Corp; Bradford Company; NASG Tennessee North; North American Stamping Group; Shoals Technologies Group; Solon
+2017,184277996,3954422,0,0,10,7,Bradford Company; NASG Tennessee North; North American Stamping Group; Shoals Technologies Group; Solon; Stevison Ham Company; Unipres USA
+2019,26351192,4094024,12126,21500,6,5,Bradford Company; NASG Tennessee North; North American Stamping Group; Shoals Technologies Group; Solon
+2020,21486138,3042359,18204,38845,6,5,Bradford Company; NASG Tennessee North; North American Stamping Group; Shoals Technologies Group; Solon
+2021,55152129,2961839,98844,110224,12,7,Archer Datacenters; Bradford Company; NASG Tennessee North; North American Stamping Group; Shoals Technologies Group; Solon; Woolhawk LLC
+2022,46434076,12349639,37632,68485,16,6,Bradford Company; NASG Tennessee North; North American Stamping Group; Shoals Technologies Group; Solon; Woolhawk LLC
+2023,115414634,4212189,202612,73380,15,6,Bradford Company; NASG Tennessee North; North American Stamping Group; Shoals Technologies Group; Solon; Woolhawk LLC
+2024,430356064,820689,1231064,256488,14,4,Bradford Company; Shoals Technologies Group; The Gap Inc; Woolhawk LLC
+2025,554547379,667578,1893678,67069,13,3,Shoals Technologies Group; The Gap Inc; Woolhawk LLC

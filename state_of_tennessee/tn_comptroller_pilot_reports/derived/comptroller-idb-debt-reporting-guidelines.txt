@@ -1,0 +1,153 @@
+[[page 1]]
+                Tennessee State Funding Board Guidelines
+                   Debt Reporting by Industrial Development Boards
+
+I. Background
+
+     Title 7, Chapter 53 of the Tenn. Code Ann. authorizes the formation of industrial development
+     corporations, also known as industrial development boards (IDBs), for the purpose of
+     maintaining and increasing employment opportunities, agricultural commodities, and available
+     housing, as well as addressing environmental pollution.
+
+     Tenn. Code Ann. § 7-53-304 creates transparency related to debt issued by IDBs by requiring
+     an IDB to maintain an aggregate listing of its current debt, including both the direct debt of the
+     IDB and any conduit debt, in accordance with guidelines approved by the Tennessee State
+     Funding Board (SFB) and to report to the SFB any defaults.
+
+     Pursuant to Tenn. Code Ann. § 9-21-134, IDBs are also required to report covenant violations
+     and credit rating downgrades to the Comptroller of the Treasury. Those reporting requirements
+     are available at: tncot.cc/debt. - SFB Guidelines – Debt Reporting by Public Entities
+
+II. Reporting
+
+     A. Annual Report on Outstanding Debt
+         IDBs have ninety (90) calendar days from the close of the IDB’s fiscal year to submit the
+         Annual Report on Outstanding Debt using the reporting format prescribed in Appendix B.
+
+     B. Notice of Default
+         The IDB shall file a notice within fifteen (15) calendar days of the default (see Appendix
+         A for a definition) using the reporting format in Appendix C.
+
+  Approved by the State Funding Board at its meeting on January 21, 2020, and amended at the
+  meetings held on June 27, 2023, and June 23, 2025.
+
+[[page 2]]
+                                 Appendix A
+                                     Glossary
+
+Authorized Representative – shall mean the individual the IDB has authorized to
+compile and submit information pursuant to these Guidelines.
+
+Debt – shall mean any bond, note, loan agreement, or other evidence of a debt obligation,
+including leases that meet the statutory definition of a financing lease pursuant to Tenn.
+Code Ann. § 9-24-102. Debt does not include credit and liquidity facilities and standby or
+drawdown loan agreements that have not been drawn on or utilized. Debt includes both
+IDB and conduit debt obligations as described below.
+  1. IDB Debt (also referred to as direct debt of the IDB) shall mean debt in which the
+     IDB incurs a definite and absolute obligation to the payment of the principal of and
+     interest on the debt obligation.
+ 2. Conduit Debt shall mean debt issued by the IDB to provide capital financing for a
+    public, private, or nonprofit entity other than the IDB.
+
+Default – shall mean:
+   1. A failure to pay principal of or interest on a debt when it is due if defined as a
+       default in the indenture; or
+   2. Insufficiency of funds to make scheduled debt payments, but not defined as a
+       default in the indenture; or
+   3. Receipt by the IDB of a notice of an event of default from a conduit borrower.
+   Default does not include situations where such failure has been waived by the holder(s)
+   of the debt.
+
+Industrial Development Corporation/Board or IDB – shall mean any corporation
+organized pursuant to Tenn. Code Ann, Title 7, Chapter 53.
+
+Report on Debt Obligation – shall mean the statutory reporting as prescribed in Tenn.
+Code Ann. § 9-21-134(c) and as outlined in the SFB Guidelines – Debt Reporting by
+Public Entities.
+
+Report on Outstanding Debt – shall mean the annual listing of debt to be submitted by
+the Authorized Representative, using the reporting format as prescribed in Appendix B.
+
+[[page 3]]
+                                         Appendix B
+                               Industrial Development Boards
+                                Report on Outstanding Debt
+                                           Format
+The Industrial Development Board (IDB) must prepare a listing of its currently outstanding debt.
+The information indicated below is required to be included in the listing. In order to prepare the
+listing, IDBs should locate and review annual financial reports, closing transcripts, and board
+minutes. If the IDB is unable to obtain the required information, the Authorized Representative
+must furnish a statement of the efforts undertaken to obtain the information, the problems
+encountered in obtaining the information, and the efforts to be undertaken to subsequently obtain
+the information. IDBs are also encouraged but not required to collect the recommended information
+for each debt issue.
+
+An online reporting form that meets minimum reporting requirements is available at: tncot.cc/debt.
+
+I. Required Information
+
+   A. IDB information to provide:
+         1. Name of IDB as listed in the certificate of incorporation.
+         2. County or Counties in which the IDB is located.
+         3. List of the current IDB Board Members and the Authorized Representative, including
+            their name, title, company/government, email address, and phone number.
+         4. As applicable, identify the IDB Counsel and Financial Advisor, including their name,
+            title, company, email address, and phone number.
+
+   B. Listing of Currently-Outstanding Debt – For each issue of debt, provide:
+         1. The name of the debt and date it was issued.
+         2. The date of the final maturity or final principal payment on the debt.
+         3. The original dollar amount of the debt.
+         4. The name of the project financed or a description of the purpose for the debt,
+            indicating whether the debt is a direct debt of the IDB or a Conduit Debt Obligation.
+            Do not include Non-debt (PILOT/Leasehold.)
+         5. If the Report on Debt Obligation was filed with the Division of Local Government
+            Finance.
+
+II. Recommended Additional Information for Each Issue of Debt
+   A. The dollar amount of the principal outstanding as of the end of fiscal year.
+   B. The federal tax status (taxable or tax-exempt).
+   C. The type of issuance (publicly sold, direct placement, or loan).
+   D. As applicable, the name and contact information for the trustee, paying agent, or debt
+      holder.
+
+[[page 4]]
+                                        Appendix C
+                              Industrial Development Boards
+                                 Notice of Default Form
+The Industrial Development Board (IDB) must give notice to the State Funding Board (SFB) of
+default on any IDB or Conduit Debt Obligation within fifteen (15) calendar days of the event or
+of receipt of notice of default. A copy of any notice of default received by the IDB must be included
+with the Notice of Default to the SFB. Also, a copy of the official statement, offering
+memorandum, or loan document, as applicable, related to the debt should be included as part of
+the notice. If a notice of default received by the IDB contains the required information and is
+attached to the IDB’s submission to the SFB, the IDB does not have to restate such information. If
+the IDB is unable to obtain all the required information, the IDB should furnish a statement of the
+efforts undertaken to obtain the required information, the problems encountered in obtaining the
+information and the efforts to be undertaken to subsequently obtain the information.
+
+An online reporting form that meets minimum reporting requirements is available at: tncot.cc/debt.
+
+The following items should be included in the Notice of Default:
+   A. Name of IDB: Legal name as listed in its certificate of incorporation.
+   B. Contact Information: Include the name, title, company/government, phone number, and
+      email address for the IDB President or Chair, IDB Counsel, Financial Advisor (if
+      applicable), Obligor (if applicable), and Authorized Representative.
+   C. Name of Debt Issue: As reported on the official statement or offering memorandum or
+      other loan document (for example: “Tax Increment Revenue Bonds (ABC Project), Series
+      2014”).
+   D. Description of Debt: Include sources of revenue pledged to repay the debt and, if
+      applicable, the lien position of revenues that are associated with other outstanding debt.
+   E. Type of Default: Refer to defined terms in Appendix A.
+   F. Date of Default: Either the date the IDB defaulted on debt, had insufficient funds to pay
+      debt service but was not a default under the indenture, or the date on which the IDB
+      received notice of default from a conduit borrower.
+   G. Date Default Reported on EMMA: If applicable, the date the defaulted principal and/or
+      interest payment was reported to the MSRB’s Electronic Municipal Market Access
+      (EMMA) system.
+   H. Reason for Default and Plans to Cure: Describe the events leading to default and when
+      applicable, plans to cure it.
+   I. Additional Comments: Include any comments pertinent to the defaulted debt issue that
+      are not otherwise addressed within the notice.
+   J. Signature: The Authorized Representative should date and submit the notice within fifteen
+      (15) calendar days of the default.

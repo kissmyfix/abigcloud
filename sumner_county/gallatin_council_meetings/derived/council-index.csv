@@ -1,0 +1,24 @@
+source_pdf,text_file,text_source,header_date,header_date_source,filename_date,date_agrees,body,pages,blank_pages,extraction,quotable,duplicate_of,md5
+2018-06-19-city-council-agenda.pdf,derived/ocr/2018-06-19-city-council-agenda-ocr.txt,ocrmypdf,2018-06-19,masthead,2018-06-19,yes,city_council,102,0,OCR_SCAN,verify,,4fe2f7c3aaac4e42dadbb90b9695137d
+2019-gallatin-annual-financial-report.pdf,derived/2019-gallatin-annual-financial-report.txt,pdftotext,2019-06-30,masthead,2019-XX-XX,yes,other,120,7,DIGITAL,yes,,641cdd7b2244501297ab76eee1902e90
+2020-05-05-city-council-agenda.pdf,derived/ocr/2020-05-05-city-council-agenda-ocr.txt,ocrmypdf,2020-05-05,masthead,2020-05-05,yes,city_council,69,1,OCR_SCAN,verify,,d87943a9fe52069ece7e8abe2d797fd6
+2020-05-12-council-committee-agenda.pdf,derived/ocr/2020-05-12-council-committee-agenda-ocr.txt,ocrmypdf,2020-05-12,masthead,2020-05-12,yes,council_committee,91,0,OCR_SCAN,verify,,e63a614cbb10f466c78138ca309caf62
+2020-05-12-r2005-24-woolhawk-pilot-terms.pdf,derived/2020-05-12-r2005-24-woolhawk-pilot-terms.txt,pdftotext,2020-05-12,masthead,2020-05-12,yes,council_committee,6,0,DIGITAL,yes,,7000e250d34e32dd352635182f81be82
+2020-06-09-council-committee-agenda.pdf,derived/2020-06-09-council-committee-agenda.txt,pdftotext,2020-06-09,masthead,2020-06-09,yes,council_committee,121,0,OCR_SCAN,verify,,ba9626581d80a8b15659ca9cc1c71830
+2020-06-16-city-council-agenda.pdf,derived/2020-06-16-city-council-agenda.txt,pdftotext,2020-06-16,masthead,2020-06-16,yes,city_council,206,0,OCR_SCAN,verify,,8415e4d16322bd91bca80c11ba1d798f
+2020-07-07-city-council-agenda.pdf,derived/2020-07-07-city-council-agenda.txt,pdftotext,2020-07-07,masthead,2020-07-07,yes,city_council,31,0,OCR_SCAN,verify,,e3341930bbad312b007aba6c19dcfb4f
+2020-07-21-city-council-agenda.pdf,derived/2020-07-21-city-council-agenda.txt,pdftotext,2020-07-21,masthead,2020-07-21,yes,city_council,24,0,OCR_SCAN,verify,,b861ec7cb9aab5e574fe2b3482c99955
+2020-09-15-city-council-agenda.pdf,derived/2020-09-15-city-council-agenda.txt,pdftotext,2020-09-15,masthead,2020-09-15,yes,city_council,160,0,OCR_SCAN,verify,,c8c1afa3538207034d6618b9ab1161c7
+2020-10-06-city-council-agenda.pdf,derived/ocr/2020-10-06-city-council-agenda-ocr.txt,ocrmypdf,2020-10-06,masthead,2020-10-06,yes,city_council,162,40,OCR_SCAN,verify,,3bd6704b7758cf359dd820f7f50282f2
+2020-10-20-city-council-agenda.pdf,derived/2020-10-20-city-council-agenda.txt,pdftotext,2020-10-20,masthead,2020-10-20,yes,city_council,112,0,OCR_SCAN,verify,,4b37c0d67759b63686cfade181cc27a9
+2021-01-12-council-committee-agenda.pdf,derived/2021-01-12-council-committee-agenda.txt,pdftotext,2021-01-12,masthead,2021-01-12,yes,council_committee,64,0,OCR_SCAN,verify,,da643c2012cfa4ef8ff99a6c6570b79a
+2021-02-02-city-council-agenda.pdf,derived/2021-02-02-city-council-agenda.txt,pdftotext,2021-02-02,masthead,2021-02-02,yes,city_council,31,0,OCR_SCAN,verify,,1088db75c92fe3defeb53eb532546c6a
+2021-02-16-city-council-agenda.pdf,derived/2021-02-16-city-council-agenda.txt,pdftotext,2021-02-16,masthead,2021-02-16,yes,city_council,60,0,OCR_SCAN,verify,,554dc2635a2f9a4f2cacfd76a477612a
+2021-03-16-city-council-agenda.pdf,derived/2021-03-16-city-council-agenda.txt,pdftotext,2021-03-16,masthead,2021-03-16,yes,city_council,175,0,OCR_SCAN,verify,,91a96cc343e91d0313b540ddfa543653
+2022-04-19-city-council-agenda.pdf,derived/2022-04-19-city-council-agenda.txt,pdftotext,2022-04-19,page image (hand-read),2022-04-19,yes,city_council,46,0,OCR_SCAN,verify,,4bdb1701dc6dd241bc5b70dae518985d
+2022-05-17-city-council-agenda.pdf,derived/2022-05-17-city-council-agenda.txt,pdftotext,2022-05-17,page image (hand-read),2022-05-17,yes,city_council,96,2,OCR_SCAN,verify,,1f2dc50ea1b070efa0bef9f26525b9c9
+2022-gallatin-annual-financial-report.pdf,derived/2022-gallatin-annual-financial-report.txt,pdftotext,2022-06-30,masthead,2022-XX-XX,yes,other,142,6,DIGITAL,yes,,56a28c1310fa29bb8611151ca0b09637
+2023-03-07-city-council-agenda.pdf,derived/ocr/2023-03-07-city-council-agenda-ocr.txt,ocrmypdf,2023-03-07,masthead,2023-03-07,yes,city_council,62,2,OCR_SCAN,verify,,b163852244ae275ede0590c01e9beaed
+2024-09-17-city-council-agenda.pdf,derived/ocr/2024-09-17-city-council-agenda-ocr.txt,ocrmypdf,2024-09-17,masthead,2024-09-17,yes,city_council,93,1,OCR_SCAN,verify,,38ab02a5e40667fc7f1656d0f756b074
+2024-10-31-gallatin-city-hall-space-needs-assessment.pdf,derived/2024-10-31-gallatin-city-hall-space-needs-assessment.txt,pdftotext,2024-10-31,masthead,2024-10-31,yes,other,133,0,OCR_SCAN,verify,,16dc943e365e5e78fd2fd4a5da902803
+2026-07-meetings-public-notice.pdf,derived/2026-07-meetings-public-notice.txt,pdftotext,2026-07-06,masthead,2026-07-XX,yes,public_notice,1,0,DIGITAL,yes,,a2362e11fa4b70d475688d4c91adc765

@@ -1,0 +1,25 @@
+SOURCE: Business Facilities Magazine
+HEADLINE: Facebook Building $800M Data Center In Tennessee
+DEK: The social media giant's new data center will be supported by 100 percent renewable
+     energy and create approximately 100 jobs in Gallatin, TN.
+DATE: August 2020
+URL: https://businessfacilities.com/facebook-building-800m-data-center-in-tennessee/
+ARCHIVE: https://web.archive.org/web/20230601101038/https://businessfacilities.com/facebook-building-800m-data-center-in-tennessee/
+RETRIEVED: 2026-08-17 (via Internet Archive; live site returns 403)
+WHY SAVED: REPRINT #3. Trade press, same verbatim paragraphs.
+FORENSIC NOTE: renders "energy- and water- efficient" with the same stray space as the
+Nashville Chamber copy, and unlike the tn.gov page -- both appear to have worked from the
+same distributed release rather than the published web version.
+---
+
+Facebook is investing $800 million to build a new state-of-the-art data center in Gallatin,
+TN. Once operational, the project is estimated to support approximately 100 jobs and will have
+more than 1,100 construction workers on site at peak. Construction is already underway on the
+982,000-square-foot facility.
+
+The Facebook Gallatin Data Center will be among the most advanced, energy- and water-
+efficient data center facilities in the world. It will be supported by 100 percent renewable
+energy, will use 80 percent less water than the average, and, once completed, will be LEED
+Gold certified. Facebook has already partnered with Tennessee Valley Authority (TVA) to bring
+220 MW of new solar energy to the Tennessee Valley to support Facebook's operations in the
+region.

@@ -1,0 +1,6947 @@
+[
+  {
+    "report_year": 2015,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2015-10-01",
+    "case_number": null,
+    "lessee": "ATA Retail Services, Inc.",
+    "property": {
+      "address": null,
+      "city": null,
+      "parcel": "020 02900 P",
+      "code": "ID-1",
+      "type": "personal",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Christopher Bowles, Attorney",
+      "title": null,
+      "email": null
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$517,677",
+        "usd": 517677
+      },
+      "rent": {
+        "raw": "$56,950",
+        "usd": 56950
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "$0",
+        "usd": 0
+      }
+    },
+    "lease": {
+      "begin": null,
+      "end": "2026-01-01"
+    },
+    "source": {
+      "file": "2015-pilot-sumner.pdf",
+      "locator": "p1:y440",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2015,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2015-10-01",
+    "case_number": null,
+    "lessee": "Bennett Portland LLC",
+    "property": {
+      "address": null,
+      "city": null,
+      "parcel": "020 02900",
+      "code": "ID-1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Christopher Bowles, Attorney",
+      "title": null,
+      "email": null
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$2,114,800",
+        "usd": 2114800
+      },
+      "rent": {
+        "raw": "$159,500",
+        "usd": 159500
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "$0",
+        "usd": 0
+      }
+    },
+    "lease": {
+      "begin": null,
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2015-pilot-sumner.pdf",
+      "locator": "p1:y450",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2015,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2015-08-14",
+    "case_number": null,
+    "lessee": "Beretta USA Corp.",
+    "property": {
+      "address": null,
+      "city": null,
+      "parcel": "1399 Gateway Drive",
+      "code": "ID-1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Dana Frazier, Controller",
+      "title": null,
+      "email": null
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$8,000,000",
+        "usd": 8000000
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": null,
+      "end": null
+    },
+    "source": {
+      "file": "2015-pilot-sumner.pdf",
+      "locator": "p1:y461",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2015,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2015-10-01",
+    "case_number": null,
+    "lessee": "NASG Tennessee North 2, LLC",
+    "property": {
+      "address": null,
+      "city": null,
+      "parcel": "020 02802 P",
+      "code": "ID-1",
+      "type": "personal",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Christopher Bowles, Attorney",
+      "title": null,
+      "email": null
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$14,080,816",
+        "usd": 14080816
+      },
+      "rent": {
+        "raw": "$1,160,000",
+        "usd": 1160000
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "$0",
+        "usd": 0
+      }
+    },
+    "lease": {
+      "begin": null,
+      "end": "2025-01-01"
+    },
+    "source": {
+      "file": "2015-pilot-sumner.pdf",
+      "locator": "p1:y471",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2015,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2015-08-20",
+    "case_number": null,
+    "lessee": "NHC HealthCare-Sumner, LLC",
+    "property": {
+      "address": null,
+      "city": null,
+      "parcel": "136 02404 000",
+      "code": "HE-2",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Kathy Henderson, Accountant",
+      "title": null,
+      "email": null
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$2,252,770",
+        "usd": 2252770
+      },
+      "rent": {
+        "raw": "$1,800,000",
+        "usd": 1800000
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": null,
+      "end": "2026-12-31"
+    },
+    "source": {
+      "file": "2015-pilot-sumner.pdf",
+      "locator": "p1:y481",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2015,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2015-10-01",
+    "case_number": null,
+    "lessee": "North American Stampig Group, LLC",
+    "property": {
+      "address": null,
+      "city": null,
+      "parcel": "020 02802 P 000",
+      "code": "ID-1",
+      "type": "personal",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Christopher Bowles, Attorney",
+      "title": null,
+      "email": null
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$7,947,200",
+        "usd": 7947200
+      },
+      "rent": {
+        "raw": "$855,500",
+        "usd": 855500
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "$0",
+        "usd": 0
+      }
+    },
+    "lease": {
+      "begin": null,
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2015-pilot-sumner.pdf",
+      "locator": "p1:y491",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2015,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2015-10-01",
+    "case_number": null,
+    "lessee": "Shoals Technologies Group, LLC",
+    "property": {
+      "address": null,
+      "city": null,
+      "parcel": "018 01501",
+      "code": "ID-1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Christopher Bowles, Attorney",
+      "title": null,
+      "email": null
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,932,300",
+        "usd": 1932300
+      },
+      "rent": {
+        "raw": "$433,128",
+        "usd": 433128
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "$0",
+        "usd": 0
+      }
+    },
+    "lease": {
+      "begin": null,
+      "end": "2028-01-01"
+    },
+    "source": {
+      "file": "2015-pilot-sumner.pdf",
+      "locator": "p1:y501",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2015,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2015-10-01",
+    "case_number": null,
+    "lessee": "Solon, LLC",
+    "property": {
+      "address": null,
+      "city": null,
+      "parcel": "018 01501",
+      "code": "ID-1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Christopher Bowles, Attorney",
+      "title": null,
+      "email": null
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,620,200",
+        "usd": 3620200
+      },
+      "rent": {
+        "raw": "$160,213",
+        "usd": 160213
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "$0",
+        "usd": 0
+      }
+    },
+    "lease": {
+      "begin": null,
+      "end": "2028-01-01"
+    },
+    "source": {
+      "file": "2015-pilot-sumner.pdf",
+      "locator": "p1:y512",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2016,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2016-09-28",
+    "case_number": null,
+    "lessee": "Beretta USA Corporation",
+    "property": {
+      "address": "1399 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "NOF000",
+      "code": "1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Dana Frazier, Controller",
+      "title": null,
+      "email": "dfrazier@berettausa.com"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$15,500,000",
+        "usd": 15500000
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": null,
+      "end": null
+    },
+    "source": {
+      "file": "2016-pilot-sumner.pdf",
+      "locator": "p14:y399",
+      "block_complete": true
+    },
+    "flags": [
+      "lease_begin_no_info"
+    ]
+  },
+  {
+    "report_year": 2016,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2016-10-03",
+    "case_number": null,
+    "lessee": "Bradford Company",
+    "property": {
+      "address": "195 COMMERCE ROAD",
+      "city": "Gallatin",
+      "parcel": "112109",
+      "code": "ID1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Robert D. James, Attorney",
+      "title": null,
+      "email": "rjames@bradley.com"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "rent": {
+        "raw": "$228,750",
+        "usd": 228750
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2016-pilot-sumner.pdf",
+      "locator": "p14:y405",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2016,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2016-10-03",
+    "case_number": null,
+    "lessee": "Bradford Company",
+    "property": {
+      "address": "195 COMMERCE ROAD",
+      "city": "Gallatin",
+      "parcel": "112109",
+      "code": "ID1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Robert D. James, Attorney",
+      "title": null,
+      "email": "rjames@bradley.com"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "rent": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2016-pilot-sumner.pdf",
+      "locator": "p14:y410",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2016,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2016-10-03",
+    "case_number": null,
+    "lessee": "NASG Tennessee North 2 LLC",
+    "property": {
+      "address": "160 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "02002802P",
+      "code": "ID1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Robert D. James, Attorney",
+      "title": null,
+      "email": "rjames@bradley.com"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,394,168",
+        "usd": 3394168
+      },
+      "rent": {
+        "raw": "$1,160,000",
+        "usd": 1160000
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2025-01-01"
+    },
+    "source": {
+      "file": "2016-pilot-sumner.pdf",
+      "locator": "p14:y415",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2016,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2016-09-13",
+    "case_number": null,
+    "lessee": "NHC HealthCare Sumner, LLC",
+    "property": {
+      "address": "140 THORNE BLVD",
+      "city": "Gallatin",
+      "parcel": "136 02404 000",
+      "code": "HE-2",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Kathy Henderson, Accountant",
+      "title": null,
+      "email": "khenderson@nhccare.com"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$21,483,000",
+        "usd": 21483000
+      },
+      "rent": {
+        "raw": "$3,600,000",
+        "usd": 3600000
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2012-08-23",
+      "end": "2027-01-01"
+    },
+    "source": {
+      "file": "2016-pilot-sumner.pdf",
+      "locator": "p14:y426",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2016,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2016-10-03",
+    "case_number": null,
+    "lessee": "North American Stamping Group, LLC",
+    "property": {
+      "address": "119 KIRBY ROAD",
+      "city": "Portland",
+      "parcel": "02002802",
+      "code": "ID1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Robert D. James, Attorney",
+      "title": null,
+      "email": "rjames@bradley.com"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$7,217,000",
+        "usd": 7217000
+      },
+      "rent": {
+        "raw": "$855,500",
+        "usd": 855500
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2006-12-19",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2016-pilot-sumner.pdf",
+      "locator": "p14:y420",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2016,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2016-10-03",
+    "case_number": null,
+    "lessee": "Shoals Technologies Group, LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "01801501P",
+      "code": "ID1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Robert D. James, Attorney",
+      "title": null,
+      "email": "rjames@bradley.com"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,344,896",
+        "usd": 1344896
+      },
+      "rent": {
+        "raw": "$463,223",
+        "usd": 463223
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2028-01-01"
+    },
+    "source": {
+      "file": "2016-pilot-sumner.pdf",
+      "locator": "p14:y431",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2016,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2016-10-03",
+    "case_number": null,
+    "lessee": "Solon LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "01801501",
+      "code": "ID1",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "Robert D. James, Attorney",
+      "title": null,
+      "email": "rjames@bradley.com"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,620,200",
+        "usd": 3620200
+      },
+      "rent": {
+        "raw": "$160,213",
+        "usd": 160213
+      },
+      "pilot_city": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2028-01-01"
+    },
+    "source": {
+      "file": "2016-pilot-sumner.pdf",
+      "locator": "p14:y436",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2017-09-29",
+    "case_number": "IDB000000002711",
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE ROAD",
+      "city": "Gallatin",
+      "parcel": "112 109 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "DAVID LAYMAN",
+      "title": "DIRECTOR OF ACCOUNTING",
+      "email": "DAVE.LAYMAN@BRADFORSCO.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,854,800.00",
+        "usd": 1854800
+      },
+      "rent": {
+        "raw": "$153,021.00",
+        "usd": 153021
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y198",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2017-09-29",
+    "case_number": "IDB000000003016",
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE ROAD",
+      "city": "Gallatin",
+      "parcel": "112 109 P000",
+      "code": "ID02",
+      "type": "personal",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "DAVID LAYMAN",
+      "title": "DIRECTOR OF ACCOUNTING",
+      "email": "DAVID.LAYMAN@BRADFORDCO.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,523,029.00",
+        "usd": 1523029
+      },
+      "rent": {
+        "raw": "$125,650.00",
+        "usd": 125650
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2021-01-01"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y193",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2017-10-02",
+    "case_number": "IDB000000002348",
+    "lessee": "NASG TENNESSEE NORTH 2, LLC",
+    "property": {
+      "address": "160 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "020 02802P000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "ROBERT D. JAMES",
+      "title": "ATTORNEY",
+      "email": "RJAMES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,335,523.00",
+        "usd": 3335523
+      },
+      "rent": {
+        "raw": "$1,320,000.00",
+        "usd": 1320000
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2025-01-01"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y202",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2017-08-30",
+    "case_number": "IDB000000002171",
+    "lessee": "NHC HEALTHCARE - SUMNER LLC",
+    "property": {
+      "address": "140 THORNE BLVD.",
+      "city": "Gallatin",
+      "parcel": "136 02404 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "KATHY HENDERSON",
+      "title": "ACCOUNTANT",
+      "email": "KHENDERSON@NHCCARE.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$21,976,963.00",
+        "usd": 21976963
+      },
+      "rent": {
+        "raw": "$3,600,000.00",
+        "usd": 3600000
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2012-08-23",
+      "end": "2027-01-01"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y207",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2017-10-02",
+    "case_number": "IDB000000002354",
+    "lessee": "NORTH AMERICAN STAMPING GROUP, LLC",
+    "property": {
+      "address": "160 KIRBY ROAD",
+      "city": "Portland",
+      "parcel": "020 02802 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "ROBERT D. JAMES",
+      "title": "ATTORNEY",
+      "email": "RJAMES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$7,217,000.00",
+        "usd": 7217000
+      },
+      "rent": {
+        "raw": "$973,500.00",
+        "usd": 973500
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y211",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2017-10-02",
+    "case_number": "IDB000000002097",
+    "lessee": "SHOALS TECHNOLOGIES GROUP, LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 P00",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "ROBERT D. JAMES",
+      "title": "ATTORNEY",
+      "email": "RJAMES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,753,920.00",
+        "usd": 1753920
+      },
+      "rent": {
+        "raw": "$534,800.00",
+        "usd": 534800
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2028-01-01"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y215",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2017-10-02",
+    "case_number": "IDB000000002098",
+    "lessee": "SOLON, LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "ROBERT D. JAMES",
+      "title": "ATTORNEY",
+      "email": "RJAMES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,620,200.00",
+        "usd": 3620200
+      },
+      "rent": {
+        "raw": "$182,311.00",
+        "usd": 182311
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2028-01-01"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y220",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2017-10-02",
+    "case_number": "IDB000000003065",
+    "lessee": "STEVISON HAM COMPANY",
+    "property": {
+      "address": "125 STEVISON HAM ROAD",
+      "city": "Portland",
+      "parcel": "019 12400 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "ROBERT D JAMES",
+      "title": "ATTORNEY",
+      "email": "RJAMES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,135,800.00",
+        "usd": 1135800
+      },
+      "rent": {
+        "raw": "$577,500.00",
+        "usd": 577500
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2017-04-03",
+      "end": "2027-04-03"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y229",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2017-10-02",
+    "case_number": "IDB000000003066",
+    "lessee": "STEVISON HAM COMPANY",
+    "property": {
+      "address": "125 STEVISON HAM ROAD",
+      "city": "Portland",
+      "parcel": "019 12400P000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "ROBERT D JAMES",
+      "title": "ATTORNEY",
+      "email": "RJAMES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$934,826.00",
+        "usd": 934826
+      },
+      "rent": {
+        "raw": "$87,640.00",
+        "usd": 87640
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-12-30",
+      "end": "2027-01-01"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y224",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2017-10-13",
+    "case_number": "IDB000000002997",
+    "lessee": "UNIPRES USA INC",
+    "property": {
+      "address": "201 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "0259 01P",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "BRENDA PENMAN",
+      "title": "SECTION MANAGER - ACCOUNTING",
+      "email": "BPENMAN@UNIPRES.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$81,451,449.00",
+        "usd": 81451449
+      },
+      "rent": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2014-12-29",
+      "end": "2017-12-31"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y233",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2017,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2017-10-13",
+    "case_number": "IDB781",
+    "lessee": "UNIPRES USA INC",
+    "property": {
+      "address": "201 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "029 01P",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "BRENDA PENMAN",
+      "title": "SECTION MANAGER - ACCOUNTING",
+      "email": "BPENMAN@UNIPRES.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$81,451,449.00",
+        "usd": 81451449
+      },
+      "rent": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2014-12-29",
+      "end": "2017-12-31"
+    },
+    "source": {
+      "file": "2017-pilot-sumner.pdf",
+      "locator": "p1:y238",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2018,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2018-10-01",
+    "case_number": "IDB000000001702",
+    "lessee": "ATA RETAIL SERVICES LLC",
+    "property": {
+      "address": "214 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "020 02900 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "TY BENNETT",
+      "title": "MANAGER",
+      "email": "TYBENNETT@GMAIL.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$411,760.00",
+        "usd": 411760
+      },
+      "rent": {
+        "raw": "$69,361.00",
+        "usd": 69361
+      },
+      "pilot_city": {
+        "raw": "$348.00",
+        "usd": 348
+      },
+      "pilot_county": {
+        "raw": "$618.00",
+        "usd": 618
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2012-09-28",
+      "end": "2026-01-01"
+    },
+    "source": {
+      "file": "2018-pilot-sumner.pdf",
+      "locator": "p1:y483",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2018,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2018-10-01",
+    "case_number": "IDB000000002348",
+    "lessee": "NASG TENNESSEE NORTH 2, LLC",
+    "property": {
+      "address": "160 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "020 02802P000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "BART KEMPF",
+      "title": "ATTORNEY",
+      "email": "BKEMPF@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,281,388.00",
+        "usd": 3281388
+      },
+      "rent": {
+        "raw": "$1,412,800.00",
+        "usd": 1412800
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2018-pilot-sumner.pdf",
+      "locator": "p1:y488",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2018,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2018-09-07",
+    "case_number": "IDB000000002171",
+    "lessee": "NHC HEALTHCARE - SUMNER LLC",
+    "property": {
+      "address": "140 THORNE BLVD.",
+      "city": "Gallatin",
+      "parcel": "136 02404 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "KATHY HENDERSON",
+      "title": "ACCOUNTANT",
+      "email": "KHENDERSON@NHCCARE.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$21,983,472.00",
+        "usd": 21983472
+      },
+      "rent": {
+        "raw": "$3,600,000.00",
+        "usd": 3600000
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2012-08-23",
+      "end": "2027-01-01"
+    },
+    "source": {
+      "file": "2018-pilot-sumner.pdf",
+      "locator": "p1:y492",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2018,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2018-10-01",
+    "case_number": "IDB000000002354",
+    "lessee": "NORTH AMERICAN STAMPING GROUP, LLC",
+    "property": {
+      "address": "160 KIRBY ROAD",
+      "city": "Portland",
+      "parcel": "020 02802 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "BART KEMPF",
+      "title": "ATTORNEY",
+      "email": "BKEMPF@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$7,947,200.00",
+        "usd": 7947200
+      },
+      "rent": {
+        "raw": "$1,041,940.00",
+        "usd": 1041940
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2018-pilot-sumner.pdf",
+      "locator": "p1:y497",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2018,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2018-10-01",
+    "case_number": "IDB000000002098",
+    "lessee": "SOLON, LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "CHRISTOPHER BOWLES",
+      "title": "ATTORNEY",
+      "email": "CBOWLES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,312,700.00",
+        "usd": 3312700
+      },
+      "rent": {
+        "raw": "$160,213.00",
+        "usd": 160213
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2018-pilot-sumner.pdf",
+      "locator": "p1:y501",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2018,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2018-09-20",
+    "case_number": "IDB000000003065",
+    "lessee": "STEVISON HAM COMPANY",
+    "property": {
+      "address": "125 STEVISON HAM ROAD",
+      "city": "Portland",
+      "parcel": "019 12400 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "ERIC PATRICK",
+      "title": "ACTING CONTROLLER",
+      "email": "EPATRICK@NOWCFO.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$5,440,000.00",
+        "usd": 5440000
+      },
+      "rent": {
+        "raw": "$399,044.00",
+        "usd": 399044
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2017-04-03",
+      "end": "2027-04-03"
+    },
+    "source": {
+      "file": "2018-pilot-sumner.pdf",
+      "locator": "p1:y506",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2019,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2019-10-03",
+    "case_number": "IDB000000002711",
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE WAY",
+      "city": "Gallatin",
+      "parcel": "112 109 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "DOUGLAS J BRINK",
+      "title": "CFO",
+      "email": "DOUG.BRINK@BRADFORDCOMPANY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,854,800.00",
+        "usd": 1854800
+      },
+      "rent": {
+        "raw": "$153,021.00",
+        "usd": 153021
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-07",
+      "end": "2023-12-26"
+    },
+    "source": {
+      "file": "2019-pilot-sumner.pdf",
+      "locator": "p1:y341",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2019,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2019-10-03",
+    "case_number": "IDB000000003016",
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE WAY",
+      "city": "Gallatin",
+      "parcel": "112 109 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "DOUGLAS J BRINK",
+      "title": "CFO",
+      "email": "DOUG.BRINK@BRADFORDCOMPANY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,565,550.00",
+        "usd": 1565550
+      },
+      "rent": {
+        "raw": "$125,650.00",
+        "usd": 125650
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-07",
+      "end": "2020-12-26"
+    },
+    "source": {
+      "file": "2019-pilot-sumner.pdf",
+      "locator": "p1:y337",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2019,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2019-10-01",
+    "case_number": "IDB000000002348",
+    "lessee": "NASG TENNESSEE NORTH 2, LLC",
+    "property": {
+      "address": "160 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "020 02802P000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "BART KEMPF",
+      "title": "ATTORNEY",
+      "email": "BKEMPF@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,222,742.00",
+        "usd": 3222742
+      },
+      "rent": {
+        "raw": "$1,504,000.00",
+        "usd": 1504000
+      },
+      "pilot_city": {
+        "raw": "$2,726.00",
+        "usd": 2726
+      },
+      "pilot_county": {
+        "raw": "$4,834.00",
+        "usd": 4834
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2019-pilot-sumner.pdf",
+      "locator": "p1:y346",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2019,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2019-09-30",
+    "case_number": "IDB000000002171",
+    "lessee": "NHC HEALTHCARE - SUMNER LLC",
+    "property": {
+      "address": "140 THORNE BLVD.",
+      "city": "Gallatin",
+      "parcel": "136 02404 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "KATHY HENDERSON",
+      "title": "ACCOUNTANT",
+      "email": "KHENDERSON@NHCCARE.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$22,742,368.00",
+        "usd": 22742368
+      },
+      "rent": {
+        "raw": "$3,600,000.00",
+        "usd": 3600000
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2012-08-23",
+      "end": "2027-01-01"
+    },
+    "source": {
+      "file": "2019-pilot-sumner.pdf",
+      "locator": "p1:y350",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2019,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2019-10-01",
+    "case_number": "IDB000000002354",
+    "lessee": "NORTH AMERICAN STAMPING GROUP, LLC",
+    "property": {
+      "address": "160 KIRBY ROAD",
+      "city": "Portland",
+      "parcel": "020 02802 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "BART KEMPF",
+      "title": "ATTORNEY",
+      "email": "BKEMPF@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$8,332,900.00",
+        "usd": 8332900
+      },
+      "rent": {
+        "raw": "$1,109,200.00",
+        "usd": 1109200
+      },
+      "pilot_city": {
+        "raw": "$9,400.00",
+        "usd": 9400
+      },
+      "pilot_county": {
+        "raw": "$16,666.00",
+        "usd": 16666
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-11",
+      "end": "2023-12-31"
+    },
+    "source": {
+      "file": "2019-pilot-sumner.pdf",
+      "locator": "p1:y354",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2019,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2019-10-01",
+    "case_number": "IDB000000002097",
+    "lessee": "SHOALS TECHNOLOGIES GROUP LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "BART KEMPF",
+      "title": "ATTORNEY",
+      "email": "BKEMPF@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$7,947,200.00",
+        "usd": 7947200
+      },
+      "rent": {
+        "raw": "$1,041,940.00",
+        "usd": 1041940
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2019-pilot-sumner.pdf",
+      "locator": "p1:y358",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2019,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2019-10-01",
+    "case_number": "IDB000000002098",
+    "lessee": "SOLON, LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "inferred_from_parcel_suffix"
+    },
+    "contact": {
+      "name": "CHRISTOPHER BOWLES",
+      "title": "ATTORNEY",
+      "email": "CBOWLES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,428,000.00",
+        "usd": 3428000
+      },
+      "rent": {
+        "raw": "$160,213.00",
+        "usd": 160213
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2019-pilot-sumner.pdf",
+      "locator": "p1:y362",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2020,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2020-09-30",
+    "case_number": "IDB000000002711",
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE WAY",
+      "city": "Gallatin",
+      "parcel": "112 109 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "DOUGLAS J BRINK",
+      "title": "CFO",
+      "email": "DOUG.BRINK@BRADFORDCOMPANY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,854,800.00",
+        "usd": 1854800
+      },
+      "rent": {
+        "raw": "$153,021.00",
+        "usd": 153021
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2021-12-31"
+    },
+    "source": {
+      "file": "2020-pilot-sumner.pdf",
+      "locator": "p1:y330",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2020,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2020-09-30",
+    "case_number": "IDB000000003016",
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE WAY",
+      "city": "Gallatin",
+      "parcel": "112 109 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "DOUGLAS J BRINK",
+      "title": "CFO",
+      "email": "DOUG.BRINK@BRADFORDCOMPANY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,592,450.00",
+        "usd": 1592450
+      },
+      "rent": {
+        "raw": "$125,650.00",
+        "usd": 125650
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2021-12-31"
+    },
+    "source": {
+      "file": "2020-pilot-sumner.pdf",
+      "locator": "p1:y326",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2020,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2020-10-01",
+    "case_number": "IDB168583",
+    "lessee": "GALLATIN SLP LLC",
+    "property": {
+      "address": "108 MISS B BLVD",
+      "city": "Gallatin",
+      "parcel": "147 00203000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$349,500.00",
+        "usd": 349500
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$112.00",
+        "usd": 112
+      },
+      "pilot_county": {
+        "raw": "$366.00",
+        "usd": 366
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2019-10-16",
+      "end": "2028-12-31"
+    },
+    "source": {
+      "file": "2020-pilot-sumner.pdf",
+      "locator": "p1:y334",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2020,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2020-10-01",
+    "case_number": "IDB168584",
+    "lessee": "GALLATIN SLP LLC",
+    "property": {
+      "address": "108 MISS B BLVD",
+      "city": "Gallatin",
+      "parcel": "147 00203P 000",
+      "code": "HE02",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "",
+        "usd": null
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2019-10-16",
+      "end": "2028-12-31"
+    },
+    "source": {
+      "file": "2020-pilot-sumner.pdf",
+      "locator": "p1:y337",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2020,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2020-09-29",
+    "case_number": "IDB000000002348",
+    "lessee": "NASG TENNESSEE NORTH 2, LLC",
+    "property": {
+      "address": "160 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "020 02802P000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,200,185.00",
+        "usd": 3200185
+      },
+      "rent": {
+        "raw": "$1,206,400.00",
+        "usd": 1206400
+      },
+      "pilot_city": {
+        "raw": "$4,071.00",
+        "usd": 4071
+      },
+      "pilot_county": {
+        "raw": "$8,687.00",
+        "usd": 8687
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2020-pilot-sumner.pdf",
+      "locator": "p1:y341",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2020,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2020-09-14",
+    "case_number": "IDB000000002171",
+    "lessee": "NHC HEALTHCARE - SUMNER LLC",
+    "property": {
+      "address": "140 THORNE BLVD.",
+      "city": "Gallatin",
+      "parcel": "136 02404 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "KATHY HENDERSON",
+      "title": "ACCOUNTANT",
+      "email": "KHENDERSON@NHCCARE.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$22,824,468.00",
+        "usd": 22824468
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2012-08-23",
+      "end": "2027-01-01"
+    },
+    "source": {
+      "file": "2020-pilot-sumner.pdf",
+      "locator": "p1:y345",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2020,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2020-09-29",
+    "case_number": "IDB000000002354",
+    "lessee": "NORTH AMERICAN STAMPING GROUP, LLC",
+    "property": {
+      "address": "160 KIRBY ROAD",
+      "city": "Portland",
+      "parcel": "020 02802 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$8,332,900.00",
+        "usd": 8332900
+      },
+      "rent": {
+        "raw": "$889,720.00",
+        "usd": 889720
+      },
+      "pilot_city": {
+        "raw": "$14,133.00",
+        "usd": 14133
+      },
+      "pilot_county": {
+        "raw": "$30,158.00",
+        "usd": 30158
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2023-12-31"
+    },
+    "source": {
+      "file": "2020-pilot-sumner.pdf",
+      "locator": "p1:y348",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2020,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2020-09-30",
+    "case_number": "IDB000000002097",
+    "lessee": "SHOALS TECHNOLOGIES GROUP LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,077,803.00",
+        "usd": 3077803
+      },
+      "rent": {
+        "raw": "$507,355.00",
+        "usd": 507355
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2020-pilot-sumner.pdf",
+      "locator": "p1:y352",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2020,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2020-09-30",
+    "case_number": "IDB000000002098",
+    "lessee": "SOLON, LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,428,000.00",
+        "usd": 3428000
+      },
+      "rent": {
+        "raw": "$160,213.00",
+        "usd": 160213
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2020-pilot-sumner.pdf",
+      "locator": "p1:y356",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-09-20",
+    "case_number": null,
+    "lessee": "ARCHER DATACENTERS SPE1 LLC",
+    "property": {
+      "address": "1398 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "112 01206 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "BRETT CARTER",
+      "title": "AUTHORIZED REPRESENTATIVE",
+      "email": "BRETT@CARTERSHELTONLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$10,059,700.00",
+        "usd": 10059700
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "$53,320.00",
+        "usd": 53320
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-02-12",
+      "end": "2028-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p1:y540",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-09-01",
+    "case_number": null,
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE WAY",
+      "city": "Gallatin",
+      "parcel": "112 109 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "DOUGLAS J BRINK",
+      "title": "CFO",
+      "email": "DOUG.BRINK@BRADFORDCOMPANY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,854,800.00",
+        "usd": 1854800
+      },
+      "rent": {
+        "raw": "$153,021.00",
+        "usd": 153021
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2024-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p1:y547",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-09-01",
+    "case_number": null,
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE WAY",
+      "city": "Gallatin",
+      "parcel": "112 109 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "DOUGLAS J BRINK",
+      "title": "CFO",
+      "email": "DOUG.BRINK@BRADFORDCOMPANY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,592,450.00",
+        "usd": 1592450
+      },
+      "rent": {
+        "raw": "$125,650.00",
+        "usd": 125650
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2021-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p1:y544",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2021-09-30",
+    "case_number": null,
+    "lessee": "GALLATIN SLP LLC",
+    "property": {
+      "address": "108 MISS B BLVD",
+      "city": "Gallatin",
+      "parcel": "147 00203000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$7,193,900.00",
+        "usd": 7193900
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "$39,966.00",
+        "usd": 39966
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2019-10-16",
+      "end": "2028-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p1:y551",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2021-09-30",
+    "case_number": null,
+    "lessee": "GALLATIN SLP LLC",
+    "property": {
+      "address": "108 MISS B BLVD",
+      "city": "Gallatin",
+      "parcel": "147 00203P 000",
+      "code": "HE02",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "",
+        "usd": null
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2019-10-16",
+      "end": "2023-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y62",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-09-30",
+    "case_number": null,
+    "lessee": "NASG TENNESSEE NORTH 2, LLC",
+    "property": {
+      "address": "160 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "020 02802P002",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,200,185.00",
+        "usd": 3200185
+      },
+      "rent": {
+        "raw": "$1,160,000.00",
+        "usd": 1160000
+      },
+      "pilot_city": {
+        "raw": "$4,126.00",
+        "usd": 4126
+      },
+      "pilot_county": {
+        "raw": "$11,666.00",
+        "usd": 11666
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2024-01-01"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y66",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2021-09-02",
+    "case_number": null,
+    "lessee": "NHC HEALTHCARE - SUMNER LLC",
+    "property": {
+      "address": "140 THORNE BLVD.",
+      "city": "Gallatin",
+      "parcel": "136 02404 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "KATHY HENDERSON",
+      "title": "ACCOUNTANT",
+      "email": "KHENDERSON@NHCCARE.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$25,149,411.00",
+        "usd": 25149411
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2012-08-23",
+      "end": "2027-01-01"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y69",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-10-01",
+    "case_number": null,
+    "lessee": "NORTH AMERICAN STAMPING GROUP, LLC",
+    "property": {
+      "address": "160 KIRBY ROAD",
+      "city": "Portland",
+      "parcel": "020 02802 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$8,332,900.00",
+        "usd": 8332900
+      },
+      "rent": {
+        "raw": "$855,500.00",
+        "usd": 855500
+      },
+      "pilot_city": {
+        "raw": "$16,001.00",
+        "usd": 16001
+      },
+      "pilot_county": {
+        "raw": "$45,238.00",
+        "usd": 45238
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2023-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y73",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-09-22",
+    "case_number": null,
+    "lessee": "SHOALS TECHNOLOGIES GROUP LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,908,192.00",
+        "usd": 3908192
+      },
+      "rent": {
+        "raw": "$507,355.00",
+        "usd": 507355
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y77",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-09-22",
+    "case_number": null,
+    "lessee": "SOLON, LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,428,000.00",
+        "usd": 3428000
+      },
+      "rent": {
+        "raw": "$160,213.00",
+        "usd": 160213
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y80",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-10-01",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00100 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$8,491,102.00",
+        "usd": 8491102
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y98",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-10-01",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00200 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$13,305,300.00",
+        "usd": 13305300
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$76,961.00",
+        "usd": 76961
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y91",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-10-01",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 01302 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$755,800.00",
+        "usd": 755800
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$542.00",
+        "usd": 542
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y95",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-10-01",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 02400 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$188,800.00",
+        "usd": 188800
+      },
+      "rent": {
+        "raw": "$100.00",
+        "usd": 100
+      },
+      "pilot_city": {
+        "raw": "$1,084.00",
+        "usd": 1084
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y84",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2021,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2021-10-01",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 11880 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$34,900.00",
+        "usd": 34900
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$130.00",
+        "usd": 130
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2021-pilot-sumner.pdf",
+      "locator": "p2:y87",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-27",
+    "case_number": null,
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE WAY",
+      "city": "Gallatin",
+      "parcel": "112 109 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "DOUGLAS J BRINK",
+      "title": "CFO",
+      "email": "DOUG.BRINK@BRADFORDCOMPANY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,854,800.00",
+        "usd": 1854800
+      },
+      "rent": {
+        "raw": "$153,021.00",
+        "usd": 153021
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2024-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y370",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-27",
+    "case_number": null,
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE WAY",
+      "city": "Gallatin",
+      "parcel": "112 109 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "DOUGLAS J BRINK",
+      "title": "CFO",
+      "email": "DOUG.BRINK@BRADFORDCOMPANY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,592,450.00",
+        "usd": 1592450
+      },
+      "rent": {
+        "raw": "$125,650.00",
+        "usd": 125650
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2021-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y374",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2022-09-29",
+    "case_number": null,
+    "lessee": "GALLATIN SLP LLC",
+    "property": {
+      "address": "108 MISS B BLVD",
+      "city": "Gallatin",
+      "parcel": "147 00203000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$9,886,700.00",
+        "usd": 9886700
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "$54,219.00",
+        "usd": 54219
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2019-10-16",
+      "end": "2028-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y378",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2022-09-29",
+    "case_number": null,
+    "lessee": "GALLATIN SLP LLC",
+    "property": {
+      "address": "108 MISS B BLVD",
+      "city": "Gallatin",
+      "parcel": "147 00203P 000",
+      "code": "HE02",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$706,849.00",
+        "usd": 706849
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "$2,603.00",
+        "usd": 2603
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2019-10-16",
+      "end": "2023-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y382",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-25",
+    "case_number": null,
+    "lessee": "NASG TENNESSEE NORTH 2, LLC",
+    "property": {
+      "address": "160 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "020 02802P002",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,154,835.00",
+        "usd": 3154835
+      },
+      "rent": {
+        "raw": "$1,361,600.00",
+        "usd": 1361600
+      },
+      "pilot_city": {
+        "raw": "$5,389.00",
+        "usd": 5389
+      },
+      "pilot_county": {
+        "raw": "$11,500.00",
+        "usd": 11500
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2023-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y386",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2022-09-22",
+    "case_number": null,
+    "lessee": "NHC HEALTHCARE - SUMNER LLC",
+    "property": {
+      "address": "140 THORNE BLVD.",
+      "city": "Gallatin",
+      "parcel": "136 02404 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "BRANDON DUNLAP",
+      "title": "SR. ACCOUNTANT",
+      "email": "KHENDERSON@NHCCARE.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$24,299,501.00",
+        "usd": 24299501
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2012-08-23",
+      "end": "2027-01-01"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y391",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-25",
+    "case_number": null,
+    "lessee": "NORTH AMERICAN STAMPING GROUP, LLC",
+    "property": {
+      "address": "160 KIRBY ROAD",
+      "city": "Portland",
+      "parcel": "020 02802 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$8,332,900.00",
+        "usd": 8332900
+      },
+      "rent": {
+        "raw": "$10,041,800.00",
+        "usd": 10041800
+      },
+      "pilot_city": {
+        "raw": "$21,199.00",
+        "usd": 21199
+      },
+      "pilot_county": {
+        "raw": "$45,238.00",
+        "usd": 45238
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2023-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y395",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "SHOALS TECHNOLOGIES GROUP LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,952,746.00",
+        "usd": 3952746
+      },
+      "rent": {
+        "raw": "$507,355.00",
+        "usd": 507355
+      },
+      "pilot_city": {
+        "raw": "$2,514.00",
+        "usd": 2514
+      },
+      "pilot_county": {
+        "raw": "$5,365.00",
+        "usd": 5365
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y399",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "SOLON, LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,527,000.00",
+        "usd": 3527000
+      },
+      "rent": {
+        "raw": "$160,213.00",
+        "usd": 160213
+      },
+      "pilot_city": {
+        "raw": "$2,991.00",
+        "usd": 2991
+      },
+      "pilot_county": {
+        "raw": "$6,382.00",
+        "usd": 6382
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y403",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1130 ROUNDTREE DRIVE",
+      "city": "Gallatin",
+      "parcel": "105 12300 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$174,716.00",
+        "usd": 174716
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y407",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00100 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$18,444,102.00",
+        "usd": 18444102
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y444",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1434 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00102 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$274,802.00",
+        "usd": 274802
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y432",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00200 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,864,300.00",
+        "usd": 1864300
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2021-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y440",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 02400 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,876,023.00",
+        "usd": 1876023
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$1,068.00",
+        "usd": 1068
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y436",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1819 25E HWY",
+      "city": "Gallatin",
+      "parcel": "111 11800 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$34,900.00",
+        "usd": 34900
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$197.00",
+        "usd": 197
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y428",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1749 HARTSVILLE PIKE",
+      "city": "Gallatin",
+      "parcel": "112 01302 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$531,300.00",
+        "usd": 531300
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$4,274.00",
+        "usd": 4274
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y423",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1130 ROUNDTREE DRIVE",
+      "city": "Gallatin",
+      "parcel": "112 11900 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$391,202.00",
+        "usd": 391202
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y411",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1753 HARTSVILLE PIKE",
+      "city": "Gallatin",
+      "parcel": "112 12000 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$202,100.00",
+        "usd": 202100
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y415",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2022,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2022-09-30",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1751 HARTSVILLE PIKE",
+      "city": "Gallatin",
+      "parcel": "112 12100 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ROBERT R. CAMPBELL, JR.",
+      "title": "ATTORNEY",
+      "email": "ROBERT.CAMPBELL@WALLERLAW.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$225,900.00",
+        "usd": 225900
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2022-pilot-sumner.pdf",
+      "locator": "p1:y419",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-19",
+    "case_number": null,
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE WAY",
+      "city": "Gallatin",
+      "parcel": "112 109 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "DOUGLAS J BRINK",
+      "title": "CFO",
+      "email": "DOUG.BRINK@BRADFORDCOMPANY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,854,800.00",
+        "usd": 1854800
+      },
+      "rent": {
+        "raw": "$153,021.00",
+        "usd": 153021
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2024-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row3",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2023-09-29",
+    "case_number": null,
+    "lessee": "GALLATIN SLP LLC",
+    "property": {
+      "address": "108 MISS B BLVD",
+      "city": "Gallatin",
+      "parcel": "147 00203 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$9,886,700.00",
+        "usd": 9886700
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$15,821.00",
+        "usd": 15821
+      },
+      "pilot_county": {
+        "raw": "$71,953.00",
+        "usd": 71953
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2019-10-16",
+      "end": "2028-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row4",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2023-09-29",
+    "case_number": null,
+    "lessee": "GALLATIN SLP LLC",
+    "property": {
+      "address": "108 MISS B BLVD",
+      "city": "Gallatin",
+      "parcel": "147 00203 P 000",
+      "code": "HE02",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$602,429.00",
+        "usd": 602429
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$445.00",
+        "usd": 445
+      },
+      "pilot_county": {
+        "raw": "$2,024.00",
+        "usd": 2024
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2019-10-16",
+      "end": "2023-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row5",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-29",
+    "case_number": null,
+    "lessee": "NASG TENNESSEE NORTH 2, LLC",
+    "property": {
+      "address": "160 KIRBY DRIVE",
+      "city": "Portland",
+      "parcel": "020 02802 P 002",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,057,671.00",
+        "usd": 3057671
+      },
+      "rent": {
+        "raw": "$1,952,000.00",
+        "usd": 1952000
+      },
+      "pilot_city": {
+        "raw": "$3,591.00",
+        "usd": 3591
+      },
+      "pilot_county": {
+        "raw": "$7,664.00",
+        "usd": 7664
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2023-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row6",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2023-09-22",
+    "case_number": null,
+    "lessee": "NHC HEALTHCARE - SUMNER LLC",
+    "property": {
+      "address": "140 THORNE BLVD.",
+      "city": "Gallatin",
+      "parcel": "136 02404 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "BRANDON DUNLAP",
+      "title": "SR. ACCOUNTANT",
+      "email": "KHENDERSON@NHCCARE.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$24,299,501.00",
+        "usd": 24299501
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$54,052.00",
+        "usd": 54052
+      },
+      "pilot_county": {
+        "raw": "$175,968.00",
+        "usd": 175968
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2012-08-23",
+      "end": "2027-01-01"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row7",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-29",
+    "case_number": null,
+    "lessee": "NORTH AMERICAN STAMPING GROUP, LLC",
+    "property": {
+      "address": "160 KIRBY ROAD",
+      "city": "Portland",
+      "parcel": "020 02802 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$8,332,900.00",
+        "usd": 8332900
+      },
+      "rent": {
+        "raw": "$1,439,600.00",
+        "usd": 1439600
+      },
+      "pilot_city": {
+        "raw": "$21,199.00",
+        "usd": 21199
+      },
+      "pilot_county": {
+        "raw": "$45,238.00",
+        "usd": 45238
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2013-12-12",
+      "end": "2023-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row8",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-29",
+    "case_number": null,
+    "lessee": "SHOALS TECHNOLOGIES GROUP LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$4,615,759.00",
+        "usd": 4615759
+      },
+      "rent": {
+        "raw": "$507,355.00",
+        "usd": 507355
+      },
+      "pilot_city": {
+        "raw": "$3,614.00",
+        "usd": 3614
+      },
+      "pilot_county": {
+        "raw": "$7,713.00",
+        "usd": 7713
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row9",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-29",
+    "case_number": null,
+    "lessee": "SOLON, LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$3,527,000.00",
+        "usd": 3527000
+      },
+      "rent": {
+        "raw": "$160,213.00",
+        "usd": 160213
+      },
+      "pilot_city": {
+        "raw": "$5,982.00",
+        "usd": 5982
+      },
+      "pilot_county": {
+        "raw": "$12,765.00",
+        "usd": 12765
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row10",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-26",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1130 ROUNDTREE DRIVE",
+      "city": "Gallatin",
+      "parcel": "105 12300 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$43,600.00",
+        "usd": 43600
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$78.00",
+        "usd": 78
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row11",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-26",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00100 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$90,273,300.00",
+        "usd": 90273300
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$161,504.00",
+        "usd": 161504
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row20",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-26",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1434 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00102 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$274,802.00",
+        "usd": 274802
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$492.00",
+        "usd": 492
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row16",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-26",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00200 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,864,300.00",
+        "usd": 1864300
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$3,335.00",
+        "usd": 3335
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row18",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-26",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 02400 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$185,100.00",
+        "usd": 185100
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$338.00",
+        "usd": 338
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row17",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-23",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1819 25E HWY",
+      "city": "Gallatin",
+      "parcel": "111 11800 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$34,900.00",
+        "usd": 34900
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$62.00",
+        "usd": 62
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row15",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-26",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "112 01302 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$531,300.00",
+        "usd": 531300
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$951.00",
+        "usd": 951
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row19",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-26",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1130 ROUNDTREE DRIVE",
+      "city": "Gallatin",
+      "parcel": "112 11900 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$391,202.00",
+        "usd": 391202
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$700.00",
+        "usd": 700
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row12",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-26",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1753 HARTSVILLE PIKE",
+      "city": "Gallatin",
+      "parcel": "112 12000 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$202,100.00",
+        "usd": 202100
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$362.00",
+        "usd": 362
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row13",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2023,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2023-09-26",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1751 HARTSVILLE PIKE",
+      "city": "Gallatin",
+      "parcel": "112 12100 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$225,900.00",
+        "usd": 225900
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$404.00",
+        "usd": 404
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row14",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-04",
+    "case_number": null,
+    "lessee": "BRADFORD COMPANY",
+    "property": {
+      "address": "195 COMMERCE WAY",
+      "city": "Gallatin",
+      "parcel": "112 109 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "DOUGLAS J BRINK",
+      "title": "CFO",
+      "email": "DOUG.BRINK@BRADFORDCOMPANY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,854,800.00",
+        "usd": 1854800
+      },
+      "rent": {
+        "raw": "$153,021.00",
+        "usd": 153021
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2016-04-13",
+      "end": "2024-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row24",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2024-09-30",
+    "case_number": null,
+    "lessee": "GALLATIN SLP LLC",
+    "property": {
+      "address": "108 MISS B BLVD",
+      "city": "Gallatin",
+      "parcel": "147 00203 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$11,211,700.00",
+        "usd": 11211700
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$17,941.00",
+        "usd": 17941
+      },
+      "pilot_county": {
+        "raw": "$75,883.00",
+        "usd": 75883
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2019-10-16",
+      "end": "2028-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row25",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2024-09-13",
+    "case_number": null,
+    "lessee": "NHC HEALTHCARE - SUMNER LLC",
+    "property": {
+      "address": "140 THORNE BLVD.",
+      "city": "Gallatin",
+      "parcel": "136 02404 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "BRANDON DUNLAP",
+      "title": "SR. ACCOUNTANT",
+      "email": "KHENDERSON@NHCCARE.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$24,299,501.00",
+        "usd": 24299501
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$94,905.00",
+        "usd": 94905
+      },
+      "pilot_county": {
+        "raw": "$267,124.00",
+        "usd": 267124
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2012-08-23",
+      "end": "2027-01-01"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row26",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-30",
+    "case_number": null,
+    "lessee": "SHOALS TECHNOLOGIES GROUP LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$5,462,200.00",
+        "usd": 5462200
+      },
+      "rent": {
+        "raw": "$160,213.00",
+        "usd": 160213
+      },
+      "pilot_city": {
+        "raw": "$15,207.00",
+        "usd": 15207
+      },
+      "pilot_county": {
+        "raw": "$29,522.00",
+        "usd": 29522
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row28",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-30",
+    "case_number": null,
+    "lessee": "SHOALS TECHNOLOGIES GROUP LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$6,396,840.00",
+        "usd": 6396840
+      },
+      "rent": {
+        "raw": "$507,355.00",
+        "usd": 507355
+      },
+      "pilot_city": {
+        "raw": "$13,357.00",
+        "usd": 13357
+      },
+      "pilot_county": {
+        "raw": "$25,930.00",
+        "usd": 25930
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row27",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-08-28",
+    "case_number": null,
+    "lessee": "THE GAP INC",
+    "property": {
+      "address": "100 GAP BOULEVARD",
+      "city": "Gallatin",
+      "parcel": "125 03900 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "CATHERINE KAWAMOTO",
+      "title": "SENIOR DIRECTOR",
+      "email": "CATHERINE_KAWAMOTO@GAP.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$47,994,524.00",
+        "usd": 47994524
+      },
+      "rent": {
+        "raw": "$100.00",
+        "usd": 100
+      },
+      "pilot_city": {
+        "raw": "$0.00",
+        "usd": 0
+      },
+      "pilot_county": {
+        "raw": "$201,036.00",
+        "usd": 201036
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-01-01",
+      "end": "2025-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row29",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-08-28",
+    "case_number": null,
+    "lessee": "THE GAP INC",
+    "property": {
+      "address": "200 GAP BOULEVARD",
+      "city": "Gallatin",
+      "parcel": "125 03900 P 002",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "CATHERINE KAWAMOTO",
+      "title": "SENIOR DIRECTOR",
+      "email": "CATHERINE_KAWAMOTO@GAP.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "",
+        "usd": null
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-01-01",
+      "end": "2025-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row30",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-08-28",
+    "case_number": null,
+    "lessee": "THE GAP INC",
+    "property": {
+      "address": "300 GAP BOULEVARD",
+      "city": "Gallatin",
+      "parcel": "125 03900 P 003",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "CATHERINE KAWAMOTO",
+      "title": "SENIOR DIRECTOR",
+      "email": "CATHERINE_KAWAMOTO@GAP.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "",
+        "usd": null
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-01-01",
+      "end": "2025-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row31",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-23",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00100 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$360,247,200.00",
+        "usd": 360247200
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$1,175,098.00",
+        "usd": 1175098
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row39",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-23",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00200 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$4,659,000.00",
+        "usd": 4659000
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$15,197.00",
+        "usd": 15197
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row37",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-23",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 02400 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$240,500.00",
+        "usd": 240500
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$784.00",
+        "usd": 784
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row36",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-23",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1819 25E HWY",
+      "city": "Gallatin",
+      "parcel": "111 11800 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$185,400.00",
+        "usd": 185400
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$605.00",
+        "usd": 605
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row35",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-23",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "112 01302 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,414,800.00",
+        "usd": 1414800
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$4,615.00",
+        "usd": 4615
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row38",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-23",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1130 ROUNDTREE DRIVE",
+      "city": "Gallatin",
+      "parcel": "112 11900 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,173,200.00",
+        "usd": 1173200
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$3,827.00",
+        "usd": 3827
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row32",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-23",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1753 HARTSVILLE PIKE",
+      "city": "Gallatin",
+      "parcel": "112 12000 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$343,600.00",
+        "usd": 343600
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$1,121.00",
+        "usd": 1121
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row33",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2024,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2024-09-23",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1751 HARTSVILLE PIKE",
+      "city": "Gallatin",
+      "parcel": "112 12100 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "ANDREW YING",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "ANDREWYING@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$384,000.00",
+        "usd": 384000
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$1,253.00",
+        "usd": 1253
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row34",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "HED",
+    "filing_date": "2025-09-30",
+    "case_number": null,
+    "lessee": "GALLATIN SLP LLC",
+    "property": {
+      "address": "108 MISS B BLVD",
+      "city": "Gallatin",
+      "parcel": "147 00203 000",
+      "code": "HE02",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$10,786,800.00",
+        "usd": 10786800
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$11,423.00",
+        "usd": 11423
+      },
+      "pilot_county": {
+        "raw": "$46,068.00",
+        "usd": 46068
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2019-10-16",
+      "end": "2028-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row44",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-30",
+    "case_number": null,
+    "lessee": "SHOALS TECHNOLOGIES GROUP LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$5,921,400.00",
+        "usd": 5921400
+      },
+      "rent": {
+        "raw": "$160,213.00",
+        "usd": 160213
+      },
+      "pilot_city": {
+        "raw": "$12,790.00",
+        "usd": 12790
+      },
+      "pilot_county": {
+        "raw": "$20,194.00",
+        "usd": 20194
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row46",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-30",
+    "case_number": null,
+    "lessee": "SHOALS TECHNOLOGIES GROUP LLC",
+    "property": {
+      "address": "1400 SHOALS WAY",
+      "city": "Portland",
+      "parcel": "018 01501 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "MADISON C. HAYNES",
+      "title": "ATTORNEY",
+      "email": "MHAYNES@BRADLEY.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$5,266,755.00",
+        "usd": 5266755
+      },
+      "rent": {
+        "raw": "$507,355.00",
+        "usd": 507355
+      },
+      "pilot_city": {
+        "raw": "$14,220.00",
+        "usd": 14220
+      },
+      "pilot_county": {
+        "raw": "$22,452.00",
+        "usd": 22452
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2011-12-29",
+      "end": "2027-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row45",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-30",
+    "case_number": null,
+    "lessee": "THE GAP INC",
+    "property": {
+      "address": "100 GAP BOULEVARD",
+      "city": "Gallatin",
+      "parcel": "125 03900 P 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "CATHERINE KAWAMOTO",
+      "title": "SENIOR DIRECTOR",
+      "email": "CATHERINE_KAWAMOTO@GAP.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$11,396,524.00",
+        "usd": 11396524
+      },
+      "rent": {
+        "raw": "$10.00",
+        "usd": 10
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "$24,423.00",
+        "usd": 24423
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-01-01",
+      "end": "2025-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row47",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-30",
+    "case_number": null,
+    "lessee": "THE GAP INC",
+    "property": {
+      "address": "200 GAP BOULEVARD",
+      "city": "Gallatin",
+      "parcel": "125 03900 P 002",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "CATHERINE KAWAMOTO",
+      "title": "SENIOR DIRECTOR",
+      "email": "CATHERINE_KAWAMOTO@GAP.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "",
+        "usd": null
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-01-01",
+      "end": "2025-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row48",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-30",
+    "case_number": null,
+    "lessee": "THE GAP INC",
+    "property": {
+      "address": "300 GAP BOULEVARD",
+      "city": "Gallatin",
+      "parcel": "125 03900 P 003",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "CATHERINE KAWAMOTO",
+      "title": "SENIOR DIRECTOR",
+      "email": "CATHERINE_KAWAMOTO@GAP.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "",
+        "usd": null
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-01-01",
+      "end": "2025-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row49",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-19",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00100 000",
+      "code": "ID01",
+      "type": "personal",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "JUAN MUNOZ",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "DCED@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$519,189,800.00",
+        "usd": 519189800
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$1,821,846.00",
+        "usd": 1821846
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row57",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-19",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 00200 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "JUAN MUNOZ",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "DCED@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$4,659,000.00",
+        "usd": 4659000
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$16,349.00",
+        "usd": 16349
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row55",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-19",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "111 02400 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "JUAN MUNOZ",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "DCED@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$4,612,900.00",
+        "usd": 4612900
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$16,187.00",
+        "usd": 16187
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row54",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-19",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1819 25E HWY",
+      "city": "Gallatin",
+      "parcel": "111 11800 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "JUAN MUNOZ",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "DCED@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$185,400.00",
+        "usd": 185400
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$651.00",
+        "usd": 651
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row53",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-19",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1432 GATEWAY DRIVE",
+      "city": "Gallatin",
+      "parcel": "112 01302 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "JUAN MUNOZ",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "DCED@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,414,800.00",
+        "usd": 1414800
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$4,965.00",
+        "usd": 4965
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row56",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-19",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1130 ROUNDTREE DRIVE",
+      "city": "Gallatin",
+      "parcel": "112 11900 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "JUAN MUNOZ",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "DCED@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$1,173,200.00",
+        "usd": 1173200
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$4,117.00",
+        "usd": 4117
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row50",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-19",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1753 HARTSVILLE PIKE",
+      "city": "Gallatin",
+      "parcel": "112 12000 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "JUAN MUNOZ",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "DCED@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$343,600.00",
+        "usd": 343600
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$1,206.00",
+        "usd": 1206
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row51",
+      "block_complete": true
+    },
+    "flags": []
+  },
+  {
+    "report_year": 2025,
+    "county": "Sumner",
+    "project_type": "IDB",
+    "filing_date": "2025-09-19",
+    "case_number": null,
+    "lessee": "WOOLHAWK LLC",
+    "property": {
+      "address": "1751 HARTSVILLE PIKE",
+      "city": "Gallatin",
+      "parcel": "112 12100 000",
+      "code": "ID01",
+      "type": "real",
+      "type_source": "column"
+    },
+    "contact": {
+      "name": "JUAN MUNOZ",
+      "title": "ECONOMIC DEVELOPMENT ANLAYST",
+      "email": "DCED@META.COM"
+    },
+    "amounts": {
+      "est_value": {
+        "raw": "$384,000.00",
+        "usd": 384000
+      },
+      "rent": {
+        "raw": "",
+        "usd": null
+      },
+      "pilot_city": {
+        "raw": "$1,347.00",
+        "usd": 1347
+      },
+      "pilot_county": {
+        "raw": "",
+        "usd": null
+      },
+      "leasehold_tax": {
+        "raw": "",
+        "usd": null
+      }
+    },
+    "lease": {
+      "begin": "2020-10-02",
+      "end": "2041-12-31"
+    },
+    "source": {
+      "file": "2023-2025-pilot-sumner.pdf.ods",
+      "locator": "Sheet1!row52",
+      "block_complete": true
+    },
+    "flags": []
+  }
+]

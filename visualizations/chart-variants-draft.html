@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PILOT Tracker — Chart Design Variants</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: #f5f2eb; color: #1a1814; padding: 40px; }
+
+/* ============ VARIANT E: FILING LEDGER (recommended) ============ */
+:root {
+  --e-paper: #F3EFE4;
+  --e-line: #E4DDC9;
+  --e-ink: #211D17;
+  --e-ink-soft: #6B6355;
+  --e-blue: #2F5C8A;
+  --e-gold: #A67C0A;
+  --e-stamp: #A63A2E;
+  --e-redact: #1A1814;
+  --e-absent: #B8AF9E;
+}
+.e-exhibit { background: #fffdf8; border: 1px solid var(--e-line); border-radius: 3px; padding: 26px 28px; margin-bottom: 22px; box-shadow: 0 1px 0 var(--e-line); }
+.e-exhibit h2 { font-size: 17px; font-weight: 600; color: var(--e-ink); margin-bottom: 2px; }
+.e-exhibit .e-sub { font-size: 12px; color: var(--e-ink-soft); margin-bottom: 20px; }
+.e-row { display: flex; align-items: center; padding: 7px 0; border-bottom: 1px solid var(--e-line); }
+.e-row:last-child { border-bottom: none; }
+.e-row.e-header { border-bottom: 2px solid var(--e-ink); padding-bottom: 5px; }
+.e-row-label { width: 128px; flex-shrink: 0; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--e-ink-soft); }
+.e-row.e-header .e-row-label { color: transparent; }
+.e-cells { display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; flex: 1; align-items: end; }
+.e-yr { font-size: 10px; font-family: 'DM Mono', monospace; color: var(--e-ink-soft); text-align: center; }
+
+.e-bar-cell { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 118px; }
+.e-bar { width: 60%; border-radius: 2px 2px 0 0; min-height: 2px; }
+.e-bar.blue { background: var(--e-blue); }
+.e-bar.gold { background: var(--e-gold); }
+.e-bar-val { font-size: 9px; font-family: 'DM Mono', monospace; color: var(--e-ink); margin-top: 4px; white-space: nowrap; }
+
+.e-stamp-cell { display: flex; align-items: center; justify-content: center; height: 34px; }
+.e-stamp {
+  font-family: 'Special Elite', monospace;
+  color: var(--e-stamp);
+  border: 1.5px solid var(--e-stamp);
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 9px;
+  line-height: 1.3;
+  text-align: center;
+  opacity: .82;
+  position: relative;
+  transform: rotate(-4deg);
+}
+.e-stamp::after { content:''; position:absolute; inset:1.5px; border:1px solid var(--e-stamp); border-radius:3px; opacity:.55; }
+.e-stamp .e-amt { display: block; font-size: 10px; font-weight: 700; }
+.e-cells > :nth-child(3n) .e-stamp { transform: rotate(3deg); }
+.e-cells > :nth-child(4n) .e-stamp { transform: rotate(-6deg); }
+.e-cells > :nth-child(5n) .e-stamp { transform: rotate(2deg); }
+
+.e-redact-cell { display: flex; align-items: center; justify-content: center; height: 34px; }
+.e-redact { background: var(--e-redact); color: #f3efe4; font-family: 'Special Elite', monospace; font-size: 8px; letter-spacing: .04em; padding: 4px 7px; border-radius: 2px; }
+
+.e-absent-cell { display: flex; align-items: center; justify-content: center; height: 34px; color: var(--e-absent); font-size: 12px; }
+
+.e-legend { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px dashed var(--e-line); font-size: 11px; color: var(--e-ink-soft); }
+.e-legend .e-litem { display: flex; align-items: center; gap: 6px; }
+.e-legend .e-swatch { width: 12px; height: 12px; border-radius: 2px; }
+
+/* ============ VARIANT F: PIE CHARTS (per category, sliced by year) ============ */
+.p-corp { background: #fff; border: 1px solid #aaa; border-radius: 4px; padding: 24px; margin-bottom: 24px; }
+.p-corp h2 { font-size: 16px; margin-bottom: 2px; }
+.p-corp .p-sub { font-size: 12px; color: #807b74; margin-bottom: 22px; }
+.p-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+.p-cell { text-align: center; }
+.p-total { font-size: 11px; color: #1a1814; margin-bottom: 16px; font-family: 'DM Mono', monospace; }
+.p-pie-wrap { position: relative; width: 400px; height: 400px; margin: 0 auto 16px; }
+.p-pie { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 340px; height: 340px; border-radius: 50%; border: 1px solid #bbb; }
+.p-pie.nodata { background: repeating-linear-gradient(45deg, #e9e4d8, #e9e4d8 10px, #d8d0bd 10px, #d8d0bd 20px); }
+.p-pie.withheld { background: repeating-linear-gradient(45deg, #fbe9a8, #fbe9a8 10px, #f0d066 10px, #f0d066 20px); border-color: #d8bc4a; }
+.p-donut-hole { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 190px; height: 190px; border-radius: 50%; background: #fffdf8; border: 1px solid #ddd6c4; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-shadow: inset 0 0 0 1px rgba(255,255,255,.4); }
+.p-donut-cat { font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: #807b74; font-weight: 600; margin-bottom: 8px; }
+.p-pie-label { font-family: 'DM Mono', monospace; font-size: 22px; font-weight: 700; color: #1a1814; }
+.p-donut-hole.nodata .p-pie-label { color: #8a6400; }
+.p-donut-hole.withheld .p-pie-label { color: #8a6400; }
+.p-pie-sub { font-size: 10px; margin-top: 5px; text-transform: uppercase; letter-spacing: .05em; color: #807b74; padding: 0 10px; }
+.p-slice-val { position: absolute; transform: translate(-50%, -50%); font-family: 'DM Mono', monospace; font-size: 15px; font-weight: 700; pointer-events: none; white-space: nowrap; }
+.p-slice-yr { position: absolute; transform: translate(-50%, -50%) rotate(var(--rot)); font-family: 'DM Mono', monospace; font-size: 12px; font-weight: 600; pointer-events: none; white-space: nowrap; letter-spacing: .02em; }
+.p-key { text-align: left; font-size: 11px; }
+.p-key.p-key-2col { columns: 2; column-gap: 14px; }
+.p-key-row { display: flex; align-items: center; gap: 7px; padding: 2px 0; break-inside: avoid; }
+.p-swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+.p-key-yr { font-family: 'DM Mono', monospace; width: 36px; flex-shrink: 0; color: #807b74; }
+.p-key-amt { font-family: 'DM Mono', monospace; }
+.p-key-note { color: #807b74; font-style: italic; }
+h1 { font-size: 20px; margin-bottom: 4px; }
+.sub { font-size: 13px; color: #807b74; margin-bottom: 24px; }
+
+/* VARIANT NAV */
+.variant-nav { display: flex; gap: 0; margin-bottom: 32px; border-bottom: 2px solid #1a1814; }
+.v-btn { padding: 10px 24px; cursor: pointer; font-size: 13px; font-weight: 600; background: #ddd; border: 1px solid #aaa; border-bottom: none; border-radius: 4px 4px 0 0; margin-right: 4px; color: #807b74; }
+.v-btn.active { background: #1a1814; color: white; border-color: #1a1814; }
+.v-page { display: none; }
+.v-page.active { display: block; }
+.v-note { background: #fff8ed; border: 1px solid #e8c87a; border-radius: 4px; padding: 12px 16px; font-size: 13px; color: #7a5a00; margin-bottom: 24px; }
+
+.corp-block { background: white; border: 1px solid #aaa; border-radius: 4px; padding: 24px; margin-bottom: 24px; }
+.corp-block h2 { font-size: 16px; margin-bottom: 2px; }
+.corp-block .csub { font-size: 12px; color: #807b74; margin-bottom: 16px; }
+.chart-title { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: #807b74; margin-bottom: 14px; }
+
+/* ============ VARIANT A: ORIGINAL (single category, self-scaled) ============ */
+.a-chart { display: flex; align-items: flex-end; gap: 16px; height: 180px; border-bottom: 2px solid #1a1814; }
+.a-group { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 1; }
+.a-stack { display: flex; flex-direction: column; justify-content: flex-end; width: 100%; height: 160px; }
+.a-seg { width: 100%; border-radius: 2px 2px 0 0; }
+.a-seg.rent { background: #3a6ea8; }
+.a-seg.pilot-c { background: #b5890c; }
+.a-seg.absent { background: transparent; }
+.a-label { font-size: 10px; font-weight: 600; font-family: 'DM Mono', monospace; margin-top: 4px; }
+.a-year { font-size: 10px; color: #807b74; }
+
+/* ============ VARIANT B: GROUPED COLUMNS, explicit $0 shown per year ============ */
+.b-chart { display: flex; align-items: flex-end; gap: 14px; height: 200px; border-bottom: 2px solid #1a1814; }
+.b-group { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 1; }
+.b-cols { display: flex; align-items: flex-end; justify-content: center; gap: 3px; height: 160px; width: 100%; }
+.b-col { display: flex; flex-direction: column; align-items: center; width: 16px; }
+.b-fill { width: 100%; border-radius: 2px 2px 0 0; min-height: 2px; }
+.b-fill.rent { background: #3a6ea8; }
+.b-fill.pilot-c { background: #b5890c; }
+.b-fill.pilot-co { background: #c8410a; }
+.b-fill.zero { background: #e5e0d8; border-top: 2px solid #c8410a; }
+.b-fill.absent { background: transparent; }
+.b-collabel { font-size: 8px; font-family: 'DM Mono', monospace; color: #807b74; margin-top: 3px; }
+.b-collabel.zero { color: #c8410a; font-weight: 700; }
+.b-year { font-size: 10px; color: #807b74; margin-top: 2px; }
+.b-legend { display: flex; gap: 16px; margin-top: 14px; flex-wrap: wrap; font-size: 11px; color: #807b74; }
+.b-leg-item { display: flex; align-items: center; gap: 5px; }
+.b-swatch { width: 10px; height: 10px; border-radius: 2px; }
+
+/* ============ VARIANT C: PROPUBLICA-STYLE PANELS (one panel per category, big number + sparkline) ============ */
+.c-panels { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.c-panel { border: 1px solid #ccc; border-radius: 4px; padding: 14px 16px; background: #fbfaf7; }
+.c-panel .c-cat { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: #807b74; margin-bottom: 2px; }
+.c-panel .c-big { font-size: 20px; font-weight: 600; font-family: 'DM Mono', monospace; margin-bottom: 2px; }
+.c-panel .c-big.zero { color: #c8410a; }
+.c-panel .c-yr { font-size: 11px; color: #807b74; margin-bottom: 10px; }
+.c-spark { display: flex; align-items: flex-end; gap: 2px; height: 44px; border-bottom: 1px solid #ccc; }
+.c-bar { flex: 1; border-radius: 1px 1px 0 0; min-height: 1px; }
+.c-bar.rent { background: #3a6ea8; }
+.c-bar.pilot-c { background: #b5890c; }
+.c-bar.pilot-co { background: #e5e0d8; }
+.c-bar.absent { background: transparent; }
+.c-axis { display: flex; justify-content: space-between; font-size: 9px; color: #aaa; margin-top: 3px; font-family: 'DM Mono', monospace; }
+
+/* ============ VARIANT D: HYBRID — grouped columns but compact sparkline height, zero as flat tick ============ */
+.d-chart { display: flex; align-items: flex-end; gap: 12px; height: 130px; border-bottom: 2px solid #1a1814; }
+.d-group { display: flex; flex-direction: column; align-items: center; gap: 3px; flex: 1; }
+.d-cols { display: flex; align-items: flex-end; justify-content: center; gap: 3px; height: 90px; width: 100%; }
+.d-col { display: flex; flex-direction: column; align-items: center; width: 14px; }
+.d-fill { width: 100%; border-radius: 1px 1px 0 0; min-height: 1px; }
+.d-fill.rent { background: #3a6ea8; }
+.d-fill.pilot-c { background: #b5890c; }
+.d-fill.pilot-co { background: #e5e0d8; border-top: 1px solid #c8410a; }
+.d-fill.absent { background: transparent; }
+.d-year { font-size: 9px; color: #807b74; }
+</style>
+</head>
+<body>
+
+<h1>Chart Design Variants — Sumner PILOT Tracker</h1>
+<p class="sub">Real Bradford Company and Woolhawk LLC data, tested against 4 layout approaches. Open in a browser and click between tabs.</p>
+
+<div class="variant-nav">
+  <div class="v-btn active" onclick="showV('va')">A — Current (baseline)</div>
+  <div class="v-btn" onclick="showV('vb')">B — Grouped columns, $0 shown</div>
+  <div class="v-btn" onclick="showV('vc')">C — ProPublica panels</div>
+  <div class="v-btn" onclick="showV('vd')">D — Compact hybrid</div>
+  <div class="v-btn" onclick="showV('ve')">E — Filing ledger (recommended)</div>
+  <div class="v-btn" onclick="showV('vf')">F — Pie charts, per category</div>
+</div>
+
+<!-- ============ VARIANT A ============ -->
+<div id="va" class="v-page active">
+  <div class="v-note">What we shipped Monday. Self-scaled per corp (each chart's own max = 160px) — not comparable across corps. Zero categories aren't drawn at all, called out only in the legend text below.</div>
+
+  <div class="corp-block">
+    <h2>Bradford Company</h2>
+    <div class="csub">Rent only — PILOT/CI and PILOT/CO are $0 every year (text callout, no bars)</div>
+    <div class="chart-title">Rent by year</div>
+    <div class="a-chart">
+      <div class="a-group"><div class="a-stack"><div class="a-seg rent" style="height:131px;"></div></div><div class="a-label">$229K</div><div class="a-year">2016</div></div>
+      <div class="a-group"><div class="a-stack"><div class="a-seg rent" style="height:160px;"></div></div><div class="a-label">$279K</div><div class="a-year">2017</div></div>
+      <div class="a-group"><div class="a-stack"><div class="a-seg rent" style="height:160px;"></div></div><div class="a-label">$279K</div><div class="a-year">2021</div></div>
+      <div class="a-group"><div class="a-stack"><div class="a-seg rent" style="height:88px;"></div></div><div class="a-label">$153K</div><div class="a-year">2023</div></div>
+      <div class="a-group"><div class="a-stack"><div class="a-seg absent" style="height:160px;"></div></div><div class="a-label" style="color:#ccc;">—</div><div class="a-year">2025</div></div>
+    </div>
+  </div>
+
+  <div class="corp-block">
+    <h2>Woolhawk LLC (Meta)</h2>
+    <div class="csub">PILOT/CI only — PILOT/CO and Rent are $0 every year (text callout, no bars)</div>
+    <div class="chart-title">PILOT → City by year</div>
+    <div class="a-chart">
+      <div class="a-group"><div class="a-stack"><div class="a-seg absent" style="height:160px;"></div></div><div class="a-label" style="color:#ccc;">—</div><div class="a-year">2020</div></div>
+      <div class="a-group"><div class="a-stack"><div class="a-seg pilot-c" style="height:7px;"></div></div><div class="a-label">$79K</div><div class="a-year">2021</div></div>
+      <div class="a-group"><div class="a-stack"><div class="a-seg pilot-c" style="height:2px;"></div></div><div class="a-label">$6K</div><div class="a-year">2022</div></div>
+      <div class="a-group"><div class="a-stack"><div class="a-seg pilot-c" style="height:14px;"></div></div><div class="a-label">$168K</div><div class="a-year">2023</div></div>
+      <div class="a-group"><div class="a-stack"><div class="a-seg pilot-c" style="height:103px;"></div></div><div class="a-label">$1.2M</div><div class="a-year">2024</div></div>
+      <div class="a-group"><div class="a-stack"><div class="a-seg pilot-c" style="height:160px;"></div></div><div class="a-label">$1.9M</div><div class="a-year">2025</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ VARIANT B ============ -->
+<div id="vb" class="v-page">
+  <div class="v-note">Every year always shows all 3 category columns. Zero categories render as a flat gray tick with a red top edge and "$0" label — so "the county got zero" is drawn every single year, not just stated once in a legend. Shared scale: $1,866,668 = 160px across the whole tracker.</div>
+
+  <div class="corp-block">
+    <h2>Bradford Company</h2>
+    <div class="chart-title">Rent / PILOT-City / PILOT-County — shared scale</div>
+    <div class="b-chart">
+      <div class="b-group"><div class="b-cols">
+        <div class="b-col"><div class="b-fill rent" style="height:20px;" title="Rent $228,750"></div><div class="b-collabel">$229K</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;" title="PILOT-CI $0"></div><div class="b-collabel zero">$0</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;" title="PILOT-CO $0"></div><div class="b-collabel zero">$0</div></div>
+      </div><div class="b-year">2016</div></div>
+      <div class="b-group"><div class="b-cols">
+        <div class="b-col"><div class="b-fill rent" style="height:24px;" title="Rent $278,671"></div><div class="b-collabel">$279K</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+      </div><div class="b-year">2017</div></div>
+      <div class="b-group"><div class="b-cols">
+        <div class="b-col"><div class="b-fill rent" style="height:24px;"></div><div class="b-collabel">$279K</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+      </div><div class="b-year">2021</div></div>
+      <div class="b-group"><div class="b-cols">
+        <div class="b-col"><div class="b-fill rent" style="height:13px;"></div><div class="b-collabel">$153K</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+      </div><div class="b-year">2023</div></div>
+      <div class="b-group"><div class="b-cols">
+        <div class="b-col"><div class="b-fill absent" style="height:2px;"></div><div class="b-collabel" style="color:#ccc;">—</div></div>
+      </div><div class="b-year">2025</div></div>
+    </div>
+    <div class="b-legend">
+      <div class="b-leg-item"><div class="b-swatch" style="background:#3a6ea8;"></div>Rent</div>
+      <div class="b-leg-item"><div class="b-swatch" style="background:#e5e0d8;border-top:2px solid #c8410a;"></div>Reported, $0</div>
+    </div>
+  </div>
+
+  <div class="corp-block">
+    <h2>Woolhawk LLC (Meta)</h2>
+    <div class="chart-title">Rent / PILOT-City / PILOT-County — shared scale</div>
+    <div class="b-chart">
+      <div class="b-group"><div class="b-cols">
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+        <div class="b-col"><div class="b-fill pilot-c" style="height:7px;" title="PILOT-CI $78,717"></div><div class="b-collabel">$79K</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+      </div><div class="b-year">2021</div></div>
+      <div class="b-group"><div class="b-cols">
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+        <div class="b-col"><div class="b-fill pilot-c" style="height:2px;"></div><div class="b-collabel">$6K</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+      </div><div class="b-year">2022</div></div>
+      <div class="b-group"><div class="b-cols">
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+        <div class="b-col"><div class="b-fill pilot-c" style="height:14px;"></div><div class="b-collabel">$168K</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+      </div><div class="b-year">2023</div></div>
+      <div class="b-group"><div class="b-cols">
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+        <div class="b-col"><div class="b-fill pilot-c" style="height:103px;"></div><div class="b-collabel">$1.2M</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+      </div><div class="b-year">2024</div></div>
+      <div class="b-group"><div class="b-cols">
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+        <div class="b-col"><div class="b-fill pilot-c" style="height:160px;"></div><div class="b-collabel">$1.9M</div></div>
+        <div class="b-col"><div class="b-fill zero" style="height:2px;"></div><div class="b-collabel zero">$0</div></div>
+      </div><div class="b-year">2025</div></div>
+    </div>
+    <div class="b-legend">
+      <div class="b-leg-item"><div class="b-swatch" style="background:#b5890c;"></div>PILOT → City</div>
+      <div class="b-leg-item"><div class="b-swatch" style="background:#e5e0d8;border-top:2px solid #c8410a;"></div>Reported, $0 (Rent, PILOT → County)</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ VARIANT C ============ -->
+<div id="vc" class="v-page">
+  <div class="v-note">Direct port of ProPublica's Nonprofit Explorer layout: one panel per category, big number for the latest year, tiny sparkline underneath. All-zero categories still get a full-size panel — flat line at $0, same as ProPublica's own "Total Liabilities" panel for this same IDB.</div>
+
+  <div class="corp-block">
+    <h2>Bradford Company</h2>
+    <div class="c-panels">
+      <div class="c-panel">
+        <div class="c-cat">Rent</div>
+        <div class="c-big">$153K</div>
+        <div class="c-yr">2024</div>
+        <div class="c-spark">
+          <div class="c-bar rent" style="height:73%;"></div>
+          <div class="c-bar rent" style="height:89%;"></div>
+          <div class="c-bar rent" style="height:89%;"></div>
+          <div class="c-bar rent" style="height:89%;"></div>
+          <div class="c-bar rent" style="height:89%;"></div>
+          <div class="c-bar rent" style="height:89%;"></div>
+          <div class="c-bar rent" style="height:89%;"></div>
+          <div class="c-bar rent" style="height:49%;"></div>
+          <div class="c-bar rent" style="height:49%;"></div>
+        </div>
+        <div class="c-axis"><span>2016</span><span>2024</span></div>
+      </div>
+      <div class="c-panel">
+        <div class="c-cat">PILOT → City</div>
+        <div class="c-big zero">$0</div>
+        <div class="c-yr">every year</div>
+        <div class="c-spark">
+          <div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div>
+          <div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div>
+          <div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div>
+        </div>
+        <div class="c-axis"><span>2016</span><span>2024</span></div>
+      </div>
+      <div class="c-panel">
+        <div class="c-cat">PILOT → County</div>
+        <div class="c-big zero">$0</div>
+        <div class="c-yr">every year</div>
+        <div class="c-spark">
+          <div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div>
+          <div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div>
+          <div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div>
+        </div>
+        <div class="c-axis"><span>2016</span><span>2024</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="corp-block">
+    <h2>Woolhawk LLC (Meta)</h2>
+    <div class="c-panels">
+      <div class="c-panel">
+        <div class="c-cat">Rent</div>
+        <div class="c-big zero">$0</div>
+        <div class="c-yr">every year</div>
+        <div class="c-spark">
+          <div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div>
+          <div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div>
+        </div>
+        <div class="c-axis"><span>2021</span><span>2025</span></div>
+      </div>
+      <div class="c-panel">
+        <div class="c-cat">PILOT → City</div>
+        <div class="c-big">$1.9M</div>
+        <div class="c-yr">2025</div>
+        <div class="c-spark">
+          <div class="c-bar pilot-c" style="height:4%;"></div>
+          <div class="c-bar pilot-c" style="height:1%;"></div>
+          <div class="c-bar pilot-c" style="height:9%;"></div>
+          <div class="c-bar pilot-c" style="height:64%;"></div>
+          <div class="c-bar pilot-c" style="height:100%;"></div>
+        </div>
+        <div class="c-axis"><span>2021</span><span>2025</span></div>
+      </div>
+      <div class="c-panel">
+        <div class="c-cat">PILOT → County</div>
+        <div class="c-big zero">$0</div>
+        <div class="c-yr">every year</div>
+        <div class="c-spark">
+          <div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div>
+          <div class="c-bar pilot-co" style="height:2%;"></div><div class="c-bar pilot-co" style="height:2%;"></div>
+        </div>
+        <div class="c-axis"><span>2021</span><span>2025</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ VARIANT D ============ -->
+<div id="vd" class="v-page">
+  <div class="v-note">Same idea as B (grouped, all categories always shown, shared scale) but compressed — smaller chart height, thinner columns, so it reads more like a dense data table with bars than a big standalone graphic. Better if this needs to sit next to the existing year-tabs/table without dominating the page.</div>
+
+  <div class="corp-block">
+    <h2>Bradford Company</h2>
+    <div class="d-chart">
+      <div class="d-group"><div class="d-cols">
+        <div class="d-col"><div class="d-fill rent" style="height:11px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+      </div><div class="d-year">2016</div></div>
+      <div class="d-group"><div class="d-cols">
+        <div class="d-col"><div class="d-fill rent" style="height:14px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+      </div><div class="d-year">2017</div></div>
+      <div class="d-group"><div class="d-cols">
+        <div class="d-col"><div class="d-fill rent" style="height:14px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+      </div><div class="d-year">2021</div></div>
+      <div class="d-group"><div class="d-cols">
+        <div class="d-col"><div class="d-fill rent" style="height:7px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+      </div><div class="d-year">2023</div></div>
+      <div class="d-group"><div class="d-cols">
+        <div class="d-col"><div class="d-fill absent" style="height:1px;"></div></div>
+      </div><div class="d-year">2025</div></div>
+    </div>
+  </div>
+
+  <div class="corp-block">
+    <h2>Woolhawk LLC (Meta)</h2>
+    <div class="d-chart">
+      <div class="d-group"><div class="d-cols">
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-c" style="height:4px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+      </div><div class="d-year">2021</div></div>
+      <div class="d-group"><div class="d-cols">
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-c" style="height:1px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+      </div><div class="d-year">2022</div></div>
+      <div class="d-group"><div class="d-cols">
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-c" style="height:8px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+      </div><div class="d-year">2023</div></div>
+      <div class="d-group"><div class="d-cols">
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-c" style="height:58px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+      </div><div class="d-year">2024</div></div>
+      <div class="d-group"><div class="d-cols">
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-c" style="height:90px;"></div></div>
+        <div class="d-col"><div class="d-fill pilot-co" style="height:1px;"></div></div>
+      </div><div class="d-year">2025</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ VARIANT E ============ -->
+<div id="ve" class="v-page">
+  <div class="v-note">Signature: the <strong>ink stamp</strong>, borrowed from the subject itself — PILOT filings are government documents, and this is what a confirmed $0 line item looks like on one. Bar chart stays clean and trend-legible for whatever's actually populated; zero categories get their own full-width row of stamps marching across every year instead of crowding into 3-bar clusters. A separate "redaction" bar distinguishes Beretta's "NO INFO" (amounts withheld or unreported, source doesn't specify) from a confirmed zero — those are different facts and now look different.</div>
+
+  <div class="e-exhibit">
+    <h2>Bradford Company</h2>
+    <div class="e-sub">Rent, PILOT → City, PILOT → County — filing record 2016–2025</div>
+
+    <div class="e-row e-header">
+      <div class="e-row-label">Year</div>
+      <div class="e-cells">
+        <div class="e-yr">2016</div><div class="e-yr">2017</div><div class="e-yr">2018</div><div class="e-yr">2019</div><div class="e-yr">2020</div>
+        <div class="e-yr">2021</div><div class="e-yr">2022</div><div class="e-yr">2023</div><div class="e-yr">2024</div><div class="e-yr">2025</div>
+      </div>
+    </div>
+
+    <div class="e-row">
+      <div class="e-row-label">Rent</div>
+      <div class="e-cells">
+        <div class="e-bar-cell"><div class="e-bar blue" style="height:20px;"></div><div class="e-bar-val">$229K</div></div>
+        <div class="e-bar-cell"><div class="e-bar blue" style="height:24px;"></div><div class="e-bar-val">$279K</div></div>
+        <div class="e-bar-cell"><div class="e-bar blue" style="height:24px;"></div><div class="e-bar-val">$279K</div></div>
+        <div class="e-bar-cell"><div class="e-bar blue" style="height:24px;"></div><div class="e-bar-val">$279K</div></div>
+        <div class="e-bar-cell"><div class="e-bar blue" style="height:24px;"></div><div class="e-bar-val">$279K</div></div>
+        <div class="e-bar-cell"><div class="e-bar blue" style="height:24px;"></div><div class="e-bar-val">$279K</div></div>
+        <div class="e-bar-cell"><div class="e-bar blue" style="height:24px;"></div><div class="e-bar-val">$279K</div></div>
+        <div class="e-bar-cell"><div class="e-bar blue" style="height:13px;"></div><div class="e-bar-val">$153K</div></div>
+        <div class="e-bar-cell"><div class="e-bar blue" style="height:13px;"></div><div class="e-bar-val">$153K</div></div>
+        <div class="e-absent-cell">—</div>
+      </div>
+    </div>
+
+    <div class="e-row">
+      <div class="e-row-label">Pilot → City</div>
+      <div class="e-cells">
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-absent-cell">—</div>
+      </div>
+    </div>
+
+    <div class="e-row">
+      <div class="e-row-label">Pilot → County</div>
+      <div class="e-cells">
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-absent-cell">—</div>
+      </div>
+    </div>
+
+    <div class="e-legend">
+      <div class="e-litem"><div class="e-swatch" style="background:var(--e-blue);"></div>Reported amount</div>
+      <div class="e-litem"><div class="e-swatch" style="background:transparent;border:1.5px solid var(--e-stamp);"></div>Reported, confirmed $0.00</div>
+      <div class="e-litem"><div class="e-swatch" style="background:var(--e-absent);"></div>— Not present in that year's filing</div>
+    </div>
+  </div>
+
+  <div class="e-exhibit">
+    <h2>Woolhawk LLC (Meta)</h2>
+    <div class="e-sub">Rent, PILOT → City, PILOT → County — filing record 2016–2025</div>
+
+    <div class="e-row e-header">
+      <div class="e-row-label">Year</div>
+      <div class="e-cells">
+        <div class="e-yr">2016</div><div class="e-yr">2017</div><div class="e-yr">2018</div><div class="e-yr">2019</div><div class="e-yr">2020</div>
+        <div class="e-yr">2021</div><div class="e-yr">2022</div><div class="e-yr">2023</div><div class="e-yr">2024</div><div class="e-yr">2025</div>
+      </div>
+    </div>
+
+    <div class="e-row">
+      <div class="e-row-label">Pilot → City</div>
+      <div class="e-cells">
+        <div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div>
+        <div class="e-bar-cell"><div class="e-bar gold" style="height:7px;"></div><div class="e-bar-val">$79K</div></div>
+        <div class="e-bar-cell"><div class="e-bar gold" style="height:2px;"></div><div class="e-bar-val">$6K</div></div>
+        <div class="e-bar-cell"><div class="e-bar gold" style="height:14px;"></div><div class="e-bar-val">$168K</div></div>
+        <div class="e-bar-cell"><div class="e-bar gold" style="height:103px;"></div><div class="e-bar-val">$1.2M</div></div>
+        <div class="e-bar-cell"><div class="e-bar gold" style="height:118px;"></div><div class="e-bar-val">$1.9M</div></div>
+      </div>
+    </div>
+
+    <div class="e-row">
+      <div class="e-row-label">Rent</div>
+      <div class="e-cells">
+        <div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+      </div>
+    </div>
+
+    <div class="e-row">
+      <div class="e-row-label">Pilot → County</div>
+      <div class="e-cells">
+        <div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+        <div class="e-stamp-cell"><div class="e-stamp"><span class="e-amt">$0.00</span>reported</div></div>
+      </div>
+    </div>
+
+    <div class="e-legend">
+      <div class="e-litem"><div class="e-swatch" style="background:var(--e-gold);"></div>Reported amount</div>
+      <div class="e-litem"><div class="e-swatch" style="background:transparent;border:1.5px solid var(--e-stamp);"></div>Reported, confirmed $0.00</div>
+      <div class="e-litem"><div class="e-swatch" style="background:var(--e-absent);"></div>— Not present in that year's filing</div>
+    </div>
+  </div>
+
+  <div class="e-exhibit">
+    <h2>Beretta USA Corp.</h2>
+    <div class="e-sub">Rent, PILOT → City, PILOT → County — filing record 2016–2025</div>
+
+    <div class="e-row e-header">
+      <div class="e-row-label">Year</div>
+      <div class="e-cells">
+        <div class="e-yr">2016</div><div class="e-yr">2017</div><div class="e-yr">2018</div><div class="e-yr">2019</div><div class="e-yr">2020</div>
+        <div class="e-yr">2021</div><div class="e-yr">2022</div><div class="e-yr">2023</div><div class="e-yr">2024</div><div class="e-yr">2025</div>
+      </div>
+    </div>
+
+    <div class="e-row">
+      <div class="e-row-label">Rent</div>
+      <div class="e-cells">
+        <div class="e-redact-cell"><div class="e-redact">NO INFO</div></div>
+        <div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div>
+        <div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div><div class="e-absent-cell">—</div>
+      </div>
+    </div>
+
+    <div class="e-legend">
+      <div class="e-litem"><div class="e-swatch" style="background:var(--e-redact);"></div>Listed in filing as "NO INFO" (withheld or unreported)</div>
+      <div class="e-litem"><div class="e-swatch" style="background:var(--e-absent);"></div>— Not present in that year's filing</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ VARIANT F ============ -->
+<div id="vf" class="v-page">
+  <div class="v-note">Three pie charts per corp, fixed left-to-right order: PILOT → County, PILOT → City, Rent. Each pie is sliced by year, wedge size = dollar amount that year — so Woolhawk's PILOT-City pie should be dominated by 2024/2025. Categories with no payment ever reported render as one solid striped "No Data Reported" circle instead of an invisible sliver. Beretta gets a third state — striped warning-yellow "NO INFO" — marked "N" (not verified by the county assessor) in the state record, with payment amounts withheld or unreported; either way it's not a confirmed zero, and that's a different fact from Bradford/Woolhawk's confirmed $0s. Key with per-year amounts sits under each pie.</div>
+
+  <div class="p-corp">
+    <h2>Bradford Company</h2>
+    <div class="p-sub">195 Commerce Way/Road, Gallatin · Filing record 2016–2025</div>
+    <div class="p-grid">
+      <div class="p-cell">
+        <div class="p-pie-wrap"><div class="p-pie nodata"></div><div class="p-donut-hole nodata"><div class="p-donut-cat">PILOT → County</div><div class="p-pie-label">$0.00</div><div class="p-pie-sub">No Data Reported</div></div></div>
+        <div class="p-key">
+          <div class="p-key-row p-key-note">$0.00 reported in all 9 years Bradford appears in state filings (2016–2024). Not present in 2025.</div>
+        </div>
+      </div>
+      <div class="p-cell">
+        <div class="p-pie-wrap"><div class="p-pie nodata"></div><div class="p-donut-hole nodata"><div class="p-donut-cat">PILOT → City</div><div class="p-pie-label">$0.00</div><div class="p-pie-sub">No Data Reported</div></div></div>
+        <div class="p-key">
+          <div class="p-key-row p-key-note">$0.00 reported in all 9 years Bradford appears in state filings (2016–2024). Not present in 2025.</div>
+        </div>
+      </div>
+      <div class="p-cell">
+        <div class="p-pie-wrap">
+          <div class="p-pie" style="background: conic-gradient(#bcd4ea 0% 10.37%, #9dc0e0 10.37% 23.00%, #82aed6 23.00% 35.63%, #6c9ecb 35.63% 48.26%, #5890c0 48.26% 60.89%, #4680b0 60.89% 73.52%, #3a6ea8 73.52% 86.15%, #2c5686 86.15% 93.08%, #1e3d63 93.08% 100%);"></div>
+          <div class="p-donut-hole"><div class="p-donut-cat">Rent</div><div class="p-pie-label">$2.21M</div><div class="p-pie-sub">Total, 2016–2024</div></div>
+          <div class="p-slice-val" style="left:240px; top:82px; color:#1a1814;">~$229K</div>
+          <div class="p-slice-yr" style="left:258px; top:28px; color:#1a1814; --rot:18.7deg;">'16</div>
+          <div class="p-slice-val" style="left:308px; top:138px; color:#1a1814;">~$279K</div>
+          <div class="p-slice-yr" style="left:358px; top:109px; color:#1a1814; --rot:60.1deg;">'17</div>
+          <div class="p-slice-val" style="left:320px; top:234px; color:#faf7f0;">~$279K</div>
+          <div class="p-slice-yr" style="left:375px; top:249px; color:#faf7f0; --rot:-74.5deg;">'18</div>
+          <div class="p-slice-val" style="left:261px; top:309px; color:#faf7f0;">~$279K</div>
+          <div class="p-slice-yr" style="left:288px; top:359px; color:#faf7f0; --rot:-29deg;">'19</div>
+          <div class="p-slice-val" style="left:165px; top:320px; color:#faf7f0;">~$279K</div>
+          <div class="p-slice-yr" style="left:148px; top:375px; color:#faf7f0; --rot:16.5deg;">'20</div>
+          <div class="p-slice-val" style="left:90px; top:259px; color:#faf7f0;">~$279K</div>
+          <div class="p-slice-yr" style="left:39px; top:286px; color:#faf7f0; --rot:61.9deg;">'21</div>
+          <div class="p-slice-val" style="left:81px; top:163px; color:#faf7f0;">~$279K</div>
+          <div class="p-slice-yr" style="left:26px; top:146px; color:#faf7f0; --rot:287.4deg;">'22</div>
+          <div class="p-slice-val" style="left:124px; top:101px; color:#faf7f0;">~$153K</div>
+          <div class="p-slice-yr" style="left:90px; top:55px; color:#faf7f0; --rot:322.6deg;">'23</div>
+          <div class="p-slice-val" style="left:173px; top:78px; color:#faf7f0;">~$153K</div>
+          <div class="p-slice-yr" style="left:161px; top:22px; color:#faf7f0; --rot:347.5deg;">'24</div>
+        </div>
+        <div class="p-key p-key-2col">
+          <div class="p-key-row"><div class="p-swatch" style="background:#bcd4ea;"></div><div class="p-key-yr">2016</div><div class="p-key-amt">$228,750</div></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#9dc0e0;"></div><div class="p-key-yr">2017</div><div class="p-key-amt">$278,671</div></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#82aed6;"></div><div class="p-key-yr">2018</div><div class="p-key-amt">$278,671</div></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#6c9ecb;"></div><div class="p-key-yr">2019</div><div class="p-key-amt">$278,671</div></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#5890c0;"></div><div class="p-key-yr">2020</div><div class="p-key-amt">$278,671</div></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#4680b0;"></div><div class="p-key-yr">2021</div><div class="p-key-amt">$278,671</div></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#3a6ea8;"></div><div class="p-key-yr">2022</div><div class="p-key-amt">$278,671</div></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#2c5686;"></div><div class="p-key-yr">2023</div><div class="p-key-amt">$153,021</div></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#1e3d63;"></div><div class="p-key-yr">2024</div><div class="p-key-amt">$153,021</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-corp">
+    <h2>Woolhawk LLC (Meta)</h2>
+    <div class="p-sub">1432 Gateway Drive, Gallatin · Filing record 2021–2025 (lease executed 2020)</div>
+    <div class="p-grid">
+      <div class="p-cell">
+        <div class="p-pie-wrap"><div class="p-pie nodata"></div><div class="p-donut-hole nodata"><div class="p-donut-cat">PILOT → County</div><div class="p-pie-label">$0.00</div><div class="p-pie-sub">No Data Reported</div></div></div>
+        <div class="p-key">
+          <div class="p-key-row p-key-note">$0.00 reported in all 5 years Woolhawk appears in state filings (2021–2025).</div>
+        </div>
+      </div>
+      <div class="p-cell">
+        <div class="p-pie-wrap">
+          <div class="p-pie" style="background: conic-gradient(#e8cf8a 0% 2.37%, #ddbc5e 2.37% 2.54%, #cba53a 2.54% 7.60%, #b5890c 7.60% 43.80%, #7a5a06 43.80% 100%);"></div>
+          <div class="p-donut-hole"><div class="p-donut-cat">PILOT → City</div><div class="p-pie-label">$3.32M</div><div class="p-pie-sub">Total, 2021–2025</div></div>
+          <div class="p-slice-val" style="left:239px; top:81px; color:#1a1814; font-size:13px;">~$168K</div>
+          <div class="p-slice-yr" style="left:257px; top:27px; color:#1a1814; --rot:18.3deg; font-size:11px;">'23</div>
+          <div class="p-slice-val" style="left:325px; top:206px; color:#1a1814;">~$1.2M</div>
+          <div class="p-slice-yr" style="left:382px; top:208px; color:#1a1814; --rot:-87.5deg;">'24</div>
+          <div class="p-slice-val" style="left:77px; top:224px; color:#faf7f0;">~$1.9M</div>
+          <div class="p-slice-yr" style="left:21px; top:235px; color:#faf7f0; --rot:78.8deg;">'25</div>
+        </div>
+        <div class="p-key">
+          <div class="p-key-row"><div class="p-swatch" style="background:#e8cf8a;"></div><div class="p-key-yr">2021</div><div class="p-key-amt">$78,717</div><span class="p-key-note">&nbsp;too small to label on chart</span></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#ddbc5e;"></div><div class="p-key-yr">2022</div><div class="p-key-amt">$5,539</div><span class="p-key-note">&nbsp;too small to label on chart</span></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#cba53a;"></div><div class="p-key-yr">2023</div><div class="p-key-amt">$168,226</div></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#b5890c;"></div><div class="p-key-yr">2024</div><div class="p-key-amt">$1,202,500</div></div>
+          <div class="p-key-row"><div class="p-swatch" style="background:#7a5a06;"></div><div class="p-key-yr">2025</div><div class="p-key-amt">$1,866,668</div></div>
+        </div>
+      </div>
+      <div class="p-cell">
+        <div class="p-pie-wrap"><div class="p-pie nodata"></div><div class="p-donut-hole nodata"><div class="p-donut-cat">Rent</div><div class="p-pie-label">$0.00</div><div class="p-pie-sub">No Data Reported</div></div></div>
+        <div class="p-key">
+          <div class="p-key-row p-key-note">$0.00 reported in all 5 years Woolhawk appears in state filings (2021–2025).</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-corp">
+    <h2>Beretta USA Corp.</h2>
+    <div class="p-sub">1399 Gateway Drive, Gallatin · Appears once, 2016 filing only</div>
+    <div class="p-grid">
+      <div class="p-cell">
+        <div class="p-pie-wrap"><div class="p-pie withheld"></div><div class="p-donut-hole withheld"><div class="p-donut-cat">PILOT → County</div><div class="p-pie-label">NO INFO</div></div></div>
+        <div class="p-key">
+          <div class="p-key-row p-key-note">Marked "NO INFO" in the only year Beretta appears in state filings (2016) — amounts withheld or unreported, source doesn't specify which.</div>
+        </div>
+      </div>
+      <div class="p-cell">
+        <div class="p-pie-wrap"><div class="p-pie withheld"></div><div class="p-donut-hole withheld"><div class="p-donut-cat">PILOT → City</div><div class="p-pie-label">NO INFO</div></div></div>
+        <div class="p-key">
+          <div class="p-key-row p-key-note">Marked "NO INFO" in the only year Beretta appears in state filings (2016) — amounts withheld or unreported, source doesn't specify which.</div>
+        </div>
+      </div>
+      <div class="p-cell">
+        <div class="p-pie-wrap"><div class="p-pie withheld"></div><div class="p-donut-hole withheld"><div class="p-donut-cat">Rent</div><div class="p-pie-label">NO INFO</div></div></div>
+        <div class="p-key">
+          <div class="p-key-row p-key-note">Marked "NO INFO" in the only year Beretta appears in state filings (2016) — amounts withheld or unreported, source doesn't specify which.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function showV(id) {
+  document.querySelectorAll('.v-page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.v-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>

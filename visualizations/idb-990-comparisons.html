@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IDB 990 Comparison — Industrial Development Board of the City of Gallatin, TN</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #f5f4f0; color: #0b0b0b; padding: 40px 24px; }
+h1 { font-size: 20px; font-weight: 500; margin-bottom: 4px; color: #0b0b0b; }
+.subtitle { font-size: 13px; color: #52514e; margin-bottom: 8px; }
+.meta { font-size: 11px; color: #898781; margin-bottom: 28px; }
+.grid { display: grid; grid-template-columns: 200px repeat(4, 1fr); gap: 0; border: 0.5px solid #d1d0c8; border-radius: 12px; overflow: hidden; background: #fff; }
+.cell { padding: 10px 12px; border-bottom: 0.5px solid #e1e0d9; border-right: 0.5px solid #e1e0d9; font-size: 12px; color: #0b0b0b; font-family: 'SF Mono', 'Fira Mono', 'Courier New', monospace; }
+.cell.no-right { border-right: none; }
+.cell.last-row { border-bottom: none; }
+.header { background: #f5f4f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 500; color: #52514e; text-transform: uppercase; letter-spacing: 0.06em; }
+.row-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; color: #52514e; font-weight: 500; background: #fafaf8; }
+.section-header { grid-column: 1 / -1; background: #f0efeb; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 500; color: #898781; text-transform: uppercase; letter-spacing: 0.08em; padding: 6px 12px; border-right: none; }
+.zero { color: #d03b3b; font-weight: 500; }
+.flag { color: #d03b3b; }
+.ok { color: #0ca30c; }
+.warn { color: #fab219; }
+.na { color: #898781; font-style: italic; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+.form-tag { display: inline-block; font-size: 10px; font-weight: 500; padding: 2px 6px; border-radius: 4px; background: #e6f1fb; color: #185fa5; margin-left: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+.note { font-size: 11px; color: #52514e; margin-top: 16px; line-height: 1.7; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; max-width: 900px; }
+.legend { display: flex; gap: 20px; margin-top: 16px; flex-wrap: wrap; }
+.leg { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #52514e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+.dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.mission-changed { color: #d03b3b; }
+.timestamp { font-size: 11px; color: #898781; margin-top: 24px; padding-top: 16px; border-top: 0.5px solid #e1e0d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+</style>
+</head>
+<body>
+
+<h1>IDB 990 Filing Comparison — FY2020 through FY2023</h1>
+<p class="subtitle">Industrial Development Board of the City of Gallatin, Tennessee &nbsp;·&nbsp; EIN 38-4171308</p>
+<p class="meta">Sources: Form 990-EZ (FY2020), Form 990 (FY2021–2023), all filed under penalty of perjury &nbsp;·&nbsp; Compiled for The Data Center Reckoning</p>
+
+<div class="grid">
+
+  <div class="cell header row-label">field</div>
+  <div class="cell header">2020 <span class="form-tag">990-EZ</span></div>
+  <div class="cell header">2021 <span class="form-tag">990</span></div>
+  <div class="cell header">2022 <span class="form-tag">990</span></div>
+  <div class="cell header no-right">2023 <span class="form-tag">990</span></div>
+
+  <div class="cell section-header">filing basics</div>
+
+  <div class="cell row-label">tax year end</div>
+  <div class="cell">Jun 30, 2021</div>
+  <div class="cell">Jun 30, 2022</div>
+  <div class="cell">Jun 30, 2023</div>
+  <div class="cell no-right">Jun 30, 2024</div>
+
+  <div class="cell row-label">filed date</div>
+  <div class="cell">Nov 14, 2021</div>
+  <div class="cell">Nov 22, 2022</div>
+  <div class="cell">Nov 13, 2023</div>
+  <div class="cell no-right">Nov 13, 2024</div>
+
+  <div class="cell row-label">initial return flag</div>
+  <div class="cell ok">yes</div>
+  <div class="cell ok">yes</div>
+  <div class="cell na">no</div>
+  <div class="cell no-right na">no</div>
+
+  <div class="cell row-label">tax-exempt status</div>
+  <div class="cell">501(c)(4)</div>
+  <div class="cell">501(c)(4)</div>
+  <div class="cell">501(c)(4)</div>
+  <div class="cell no-right">501(c)(4)</div>
+
+  <div class="cell row-label">paid preparer</div>
+  <div class="cell" style="font-size:11px; font-family:sans-serif;">J. Michael Patterson<br>Johnie M Patterson firm<br>Knoxville, TN</div>
+  <div class="cell" style="font-size:11px; font-family:sans-serif;">Joe Osterfeld CPA<br>Columbia, TN</div>
+  <div class="cell" style="font-size:11px; font-family:sans-serif;">John P Young PC<br>Hendersonville, TN<br>(Sumner County)</div>
+  <div class="cell no-right" style="font-size:11px; font-family:sans-serif;">John P Young PC<br>Hendersonville, TN<br>(Sumner County)</div>
+
+  <div class="cell row-label">signed by</div>
+  <div class="cell" style="font-size:11px; font-family:sans-serif;">Preston Stark<br>"Contracted Board Administrator"</div>
+  <div class="cell" style="font-size:11px; font-family:sans-serif;">Preston Stark<br>"Board Administrator"</div>
+  <div class="cell" style="font-size:11px; font-family:sans-serif;">Preston Stark<br>"Board Administr"</div>
+  <div class="cell no-right" style="font-size:11px; font-family:sans-serif;">Preston Stark<br>"Board Administr"</div>
+
+  <div class="cell section-header">mission statement (part i &amp; part iii)</div>
+
+  <div class="cell row-label">stated mission</div>
+  <div class="cell" style="font-size:11px; font-family:sans-serif;">"Recruit and Facilitate industrial developement in the City of Gallatin, Tennessee"</div>
+  <div class="cell" style="font-size:11px; font-family:sans-serif;">"Recruit and facilitate industrial development in the City of Gallatin TN"</div>
+  <div class="cell mission-changed" style="font-size:11px; font-family:sans-serif;">"THE IDB IS RESPONSIBLE FOR ADMINSTRATION OF THE PILOT PROGRAM… PAYMENTS ARE PRIMARILY PAYMNETS TO THE COUNTY (GALLATIN) IN WHICH THE CITY OF GALLATIN IS LOCATED."</div>
+  <div class="cell no-right mission-changed" style="font-size:11px; font-family:sans-serif;">Identical to 2022 — copy/pasted verbatim including misspellings</div>
+
+  <div class="cell row-label">part 3: significant changes to program services?</div>
+  <div class="cell na">not asked (EZ form)</div>
+  <div class="cell ok">No</div>
+  <div class="cell flag">No ⚑<br><span style="font-size:10px; font-family:sans-serif;">directly contradicts mission change in same filing</span></div>
+  <div class="cell no-right ok">No</div>
+
+  <div class="cell row-label">tenants named anywhere in filing</div>
+  <div class="cell ok" style="font-family:sans-serif; font-size:11px;">Beretta USA Corp.<br>Bradford Company<br>(Schedule O)</div>
+  <div class="cell na" style="font-family:sans-serif; font-size:11px;">None named</div>
+  <div class="cell na" style="font-family:sans-serif; font-size:11px;">None named</div>
+  <div class="cell no-right na" style="font-family:sans-serif; font-size:11px;">None named</div>
+
+  <div class="cell row-label">Woolhawk / Meta named</div>
+  <div class="cell zero">Never</div>
+  <div class="cell zero">Never</div>
+  <div class="cell zero">Never</div>
+  <div class="cell no-right zero">Never</div>
+
+  <div class="cell section-header">revenue</div>
+
+  <div class="cell row-label">total program service revenue</div>
+  <div class="cell">$100,048</div>
+  <div class="cell">$145,425</div>
+  <div class="cell">$334,268</div>
+  <div class="cell no-right">$1,796,648</div>
+
+  <div class="cell row-label">PILOT payments received</div>
+  <div class="cell na">not itemized</div>
+  <div class="cell">$123,537</div>
+  <div class="cell">$326,731</div>
+  <div class="cell no-right">$1,758,136</div>
+
+  <div class="cell row-label">maintenance fees</div>
+  <div class="cell na">not itemized</div>
+  <div class="cell">$3,277</div>
+  <div class="cell">$4,372</div>
+  <div class="cell no-right">$34,371</div>
+
+  <div class="cell row-label">legal payments</div>
+  <div class="cell na">not itemized</div>
+  <div class="cell">$15,129</div>
+  <div class="cell">$1,559</div>
+  <div class="cell no-right">$0</div>
+
+  <div class="cell section-header">expenses &amp; distributions</div>
+
+  <div class="cell row-label">total expenses</div>
+  <div class="cell">$114,692</div>
+  <div class="cell">$136,802</div>
+  <div class="cell">$244,797</div>
+  <div class="cell no-right">$1,079,908</div>
+
+  <div class="cell row-label">property taxes paid</div>
+  <div class="cell na">not itemized</div>
+  <div class="cell">$107,488</div>
+  <div class="cell">$141,791</div>
+  <div class="cell no-right">$155,475<br><span style="font-size:10px; font-family:sans-serif;">(labeled "PILOT fees distributed")</span></div>
+
+  <div class="cell row-label">payment to Sumner County Schools</div>
+  <div class="cell na">not itemized</div>
+  <div class="cell na">not itemized</div>
+  <div class="cell">$74,622</div>
+  <div class="cell no-right">$901,080</div>
+
+  <div class="cell row-label">PILOT → Sumner County (govt)</div>
+  <div class="cell zero">$0</div>
+  <div class="cell zero">$0</div>
+  <div class="cell zero">$0</div>
+  <div class="cell no-right zero">$0</div>
+
+  <div class="cell row-label">PILOT → City of Gallatin</div>
+  <div class="cell na">not itemized</div>
+  <div class="cell na">not itemized</div>
+  <div class="cell na">not itemized</div>
+  <div class="cell no-right na">not itemized</div>
+
+  <div class="cell row-label">consulting / professional fees</div>
+  <div class="cell">$39,586<br><span style="font-size:10px; font-family:sans-serif;">recipient unnamed</span></div>
+  <div class="cell na">not itemized</div>
+  <div class="cell na">not itemized</div>
+  <div class="cell no-right na">not itemized</div>
+
+  <div class="cell section-header">governance (part vi)</div>
+
+  <div class="cell row-label">board reviewed 990 before filing</div>
+  <div class="cell flag">No<br><span style="font-size:10px; font-family:sans-serif;">admin only, board reviews after</span></div>
+  <div class="cell flag">No<br><span style="font-size:10px; font-family:sans-serif;">admin only, board reviews after</span></div>
+  <div class="cell flag">No<br><span style="font-size:10px; font-family:sans-serif;">admin only, board reviews after</span></div>
+  <div class="cell no-right flag">No<br><span style="font-size:10px; font-family:sans-serif;">admin only, board reviews after</span></div>
+
+  <div class="cell row-label">independent financial audit</div>
+  <div class="cell flag">No</div>
+  <div class="cell flag">No</div>
+  <div class="cell ok">Yes (first time)</div>
+  <div class="cell no-right ok">Yes</div>
+
+  <div class="cell row-label">whistleblower policy</div>
+  <div class="cell flag">No</div>
+  <div class="cell flag">No</div>
+  <div class="cell flag">No</div>
+  <div class="cell no-right flag">No</div>
+
+  <div class="cell row-label">document retention policy</div>
+  <div class="cell flag">No</div>
+  <div class="cell flag">No</div>
+  <div class="cell flag">No</div>
+  <div class="cell no-right flag">No</div>
+
+  <div class="cell row-label">conflict of interest policy</div>
+  <div class="cell na">not reported</div>
+  <div class="cell ok">Yes</div>
+  <div class="cell ok">Yes</div>
+  <div class="cell no-right ok">Yes</div>
+
+  <div class="cell row-label">Stark hours/week (reported)</div>
+  <div class="cell na">not listed separately</div>
+  <div class="cell zero">0.00</div>
+  <div class="cell zero">0.00</div>
+  <div class="cell no-right zero">0.00</div>
+
+  <div class="cell row-label">Stark compensation</div>
+  <div class="cell zero">$0</div>
+  <div class="cell zero">$0</div>
+  <div class="cell zero">$0</div>
+  <div class="cell no-right zero">$0</div>
+
+  <div class="cell row-label">990 forms available to public</div>
+  <div class="cell" style="font-family:sans-serif; font-size:11px;">Upon written request</div>
+  <div class="cell" style="font-family:sans-serif; font-size:11px;">Upon written request</div>
+  <div class="cell" style="font-family:sans-serif; font-size:11px;">During normal business hours</div>
+  <div class="cell no-right" style="font-family:sans-serif; font-size:11px;">During normal business hours</div>
+
+  <div class="cell section-header">balance sheet</div>
+
+  <div class="cell row-label">total assets</div>
+  <div class="cell">$88,304</div>
+  <div class="cell">$98,131</div>
+  <div class="cell">$187,602</div>
+  <div class="cell no-right">$904,342</div>
+
+  <div class="cell row-label">total liabilities</div>
+  <div class="cell">$0</div>
+  <div class="cell">$0</div>
+  <div class="cell">$0</div>
+  <div class="cell no-right">$0</div>
+
+  <div class="cell row-label last-row">net assets end of year</div>
+  <div class="cell last-row">$88,304</div>
+  <div class="cell last-row">$98,131</div>
+  <div class="cell last-row">$187,602</div>
+  <div class="cell no-right last-row">$904,342</div>
+
+</div>
+
+<div class="legend">
+  <div class="leg"><div class="dot" style="background:#d03b3b;"></div>flag / problem / $0</div>
+  <div class="leg"><div class="dot" style="background:#0ca30c;"></div>compliant / present</div>
+  <div class="leg"><div class="dot" style="background:#fab219;"></div>warning</div>
+  <div class="leg"><div class="dot" style="background:#898781;"></div>not applicable / not reported</div>
+</div>
+
+<p class="note">
+  ⚑ The 2022 Part 3 "No" answer to the question "Did the organization make significant changes in how it conducts program services?" directly contradicts the mission statement change documented in the same filing's Part I and Part III. Both statements appear on the same form signed under penalty of perjury by Preston Stark on November 13, 2023.<br><br>
+  The IDB is not listed in the IRS's Exempt Organizations Business Master File — it has never received formal IRS recognition of 501(c)(4) status. It is a self-declared exempt organization. No 990 filings exist prior to FY2020 despite documented Bradford Company and Beretta USA Corp. activity under IDB structure from at least 2013. The Woolhawk LLC lease (Meta Platforms) executed October 2, 2020 — within the FY2020 tax year — and Woolhawk is never named in any IDB filing.<br><br>
+  Sumner County government PILOT column reads $0 in every year of the Tennessee State Comptroller's PILOT registry for Woolhawk LLC (2021–2025).
+</p>
+
+<p class="timestamp">Compiled June 29, 2026 &nbsp;·&nbsp; The Data Center Reckoning &nbsp;·&nbsp; abigcloud.com &nbsp;·&nbsp; For research purposes — attorney review required before publication of legal conclusions</p>
+
+</body>
+</html>

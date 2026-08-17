@@ -1,0 +1,837 @@
+[[page 1]]
+         Strategic Revision of the
+  Sumner County Joint Economic
+and Community Development Board
+ Strategies for Enhanced Effectiveness and Increased Participation
+
+
+
+
+                          Capstone Project
+                           John C. Isbell
+
+
+                            March 2026
+
+
+
+
+                                 1
+
+[[page 2]]
+                                                                Contents
+
+I. Executive Summary ..................................................................................................................... 4
+II. Current Board Structure Analysis .............................................................................................. 5
+   Statutory Framework .................................................................................................................. 5
+       Interlocal Agreement Requirements ....................................................................................... 5
+       Minimum Membership Requirements ..................................................................................... 6
+       Joint Funding Formula ........................................................................................................... 6
+   Current Membership Composition ............................................................................................. 7
+       County Government Representation ....................................................................................... 7
+       Municipal Government Mayors/Managers ............................................................................. 7
+       Education, Economic Development, Business, and Tourism.................................................. 7
+   Identified Challenges .................................................................................................................. 8
+       Vacant Positions ..................................................................................................................... 8
+       Limited Advisory Authority ..................................................................................................... 8
+       Insufficient Meeting Frequency .............................................................................................. 8
+       Limited Private Sector Engagement ....................................................................................... 9
+       Absence of Performance Metrics ............................................................................................ 9
+III Strategies for Increasing Board Effectiveness ........................................................................... 9
+   Governance Structure Reforms ................................................................................................... 9
+       Interlocal Agreement Revision ................................................................................................ 9
+       Committee Structure Enhancement....................................................................................... 10
+   Strategic Planning Integration................................................................................................... 10
+       Vision and Goal Setting ........................................................................................................ 10
+       Annual Review Process ......................................................................................................... 10
+   Coordination with Partner Organizations ................................................................................. 11
+       Forward Sumner Economic Partnership .............................................................................. 11
+       Tennessee Department of Economic and Community Development (TNECD) .................... 11
+       TVA Economic Development ................................................................................................ 11
+       Tennessee Central Economic Authority (TCEA). ................................................................. 11
+       Municipal EDAs and Chambers ........................................................................................... 12
+   ThreeStar Program Optimization .............................................................................................. 12
+IV. Strategies for Increasing Participation .................................................................................... 13
+   Board Member Engagement ..................................................................................................... 13
+       Onboarding and Orientation ................................................................................................ 13
+
+                                                                      2
+
+[[page 3]]
+       Role Alignment and Skills Utilization ................................................................................... 13
+   Expanding Private Sector Participation .................................................................................... 13
+       Business Community Representation Expansion .................................................................. 13
+       Business Retention and Expansion Program ........................................................................ 14
+   Community Engagement Initiatives ......................................................................................... 14
+       Public Input Mechanisms ...................................................................................................... 14
+       Filling Vacant Positions ....................................................................................................... 14
+V. Performance Metrics and Accountability ................................................................................ 15
+   Evaluation Framework .............................................................................................................. 15
+       Board Performance Metrics ................................................................................................. 15
+       Economic Development Outcome Metrics ............................................................................ 15
+   Reporting and Transparency ..................................................................................................... 15
+       Quarterly and Annual Reports .............................................................................................. 15
+       ThreeStar Compliance Documentation................................................................................. 16
+VI. Conclusion and Key Recommendations ................................................................................. 16
+       Governance: Revise Interlocal Agreement ........................................................................... 16
+       Structure: Create Specialized Standing Committees ............................................................ 16
+       Engagement: Comprehensive Onboarding, Expand Private Sector..................................... 17
+       Accountability: Formal Performance Metrics and Reporting .............................................. 17
+       Community: Public Input Opportunities, Fill Vacancies ..................................................... 17
+Works Cited .................................................................................................................................. 19
+
+
+
+
+                                                                       3
+
+[[page 4]]
+I. Executive Summary
+
+        The Joint Economic and Community Development (JECD) Board represents a critical
+
+mechanism for coordinating economic growth and community development across Sumner
+
+County and its municipalities. Established pursuant to Tennessee Code Annotated § 6-58-114,
+
+the JECD Board provides a framework for intergovernmental cooperation that is essential in a
+
+rapidly growing region of the Nashville metropolitan area. This report presents a comprehensive
+
+analysis of the current board structure, identifies key challenges affecting board performance,
+
+and provides detailed strategies for enhancing effectiveness and increasing participation among
+
+all stakeholders.
+
+        Sumner County has experienced remarkable population growth over the past two
+
+decades, with current estimates exceeding 215,000 residents (Sumner County, 2026). This
+
+growth trajectory, projected to continue for the foreseeable future, creates both opportunities and
+
+challenges that require coordinated regional planning. The JECD Board can serve as the primary
+
+vehicle for this coordination, yet the board currently faces structural and operational challenges
+
+that limit its capacity to fulfill this essential function. There are issues with vacant positions in
+
+key sectors, insufficient meeting frequency, limited private sector engagement, and an absence of
+
+formal performance metrics collectively undermine the board’s potential effectiveness.
+
+        This report identifies five strategic priority areas for board improvement. First,
+
+governance reforms including revision of the interlocal agreement and enhancement of
+
+committee structures will provide a stronger organizational foundation. Second, integration of
+
+formal strategic planning processes will enable the board to move from reactive to proactive
+
+regional development. Third, strengthened coordination with partner organizations including
+
+Forward Sumner Economic Partnership, the Tennessee Department of Economic and
+
+
+
+                                                   4
+
+[[page 5]]
+Community Development, TVA Economic Development, Tennessee Central Economic
+
+Authority, and municipal economic development authorities will leverage existing resources and
+
+expertise. Fourth, expanded participation from both board members and the broader private
+
+sector will bring essential perspectives and capabilities to the table. Fifth, implementation of
+
+formal performance metrics and accountability mechanisms will enable continuous improvement
+
+and demonstrate value to stakeholders.
+
+II. Current Board Structure Analysis
+
+Statutory Framework
+
+       Tennessee Code Annotated § 6-58-114 (2024 Tennessee Code, 2026) establishes the
+
+legal foundation for Joint Economic and Community Development Boards throughout the state.
+
+This statutory framework provides both requirements and flexibility that shape how the Sumner
+
+County JECD Board operates. Understanding these legal parameters is essential for any revision
+
+strategy, as proposed changes must remain within statutory boundaries while maximizing
+
+opportunities for local adaptation.
+
+Interlocal Agreement Requirements
+
+        The statute requires that JECD Boards be established through an interlocal agreement
+
+between the county government and participating municipalities. This agreement must specify
+
+the board’s composition, powers, duties, and operational procedures. The interlocal agreement
+
+serves as the board’s governing document and can only be modified through the formal approval
+
+of all participating governmental entities. Sumner County’s current interlocal agreement was
+
+established when the board was created and has not been substantially revised to address
+
+evolving regional needs. The revision process provides an opportunity for comprehensive
+
+reform, allowing participating governments to address multiple structural issues simultaneously.
+
+
+
+                                                  5
+
+[[page 6]]
+Minimum Membership Requirements
+
+       State law establishes minimum membership requirements to ensure appropriate
+
+representation across governmental and community stakeholder groups. The board must include
+
+representatives from county government, participating municipal governments, education,
+
+economic development, business, and tourism sectors (2024 Tennessee Code, 2026). These
+
+requirements ensure that the board maintains a multi-sector perspective essential for effective
+
+regional planning, while the statute provides flexibility in how these requirements are
+
+implemented.
+
+       The statute also requires JECD Boards to meet, at a minimum, on a quarterly basis. This
+
+requirement establishes a floor for board activity but does not preclude more frequent meetings.
+
+The Sumner County JECD Board has historically met at the minimum frequency, which limits
+
+the board’s capacity to address emerging issues in a timely manner and reduces opportunities for
+
+substantive engagement. Increasing meeting frequency beyond the statutory minimum represents
+
+a straightforward mechanism for enhancing board effectiveness (2024 Tennessee Code, 2026).
+
+Joint Funding Formula
+
+       Tennessee law requires that JECD Boards operate under a joint funding formula that
+
+distributes financial responsibility among participating governmental entities. The specific
+
+formula is determined by the interlocal agreement and typically reflects factors such as
+
+population, assessed property values, or other equitable measures. The current funding formula
+
+should be evaluated as part of any comprehensive interlocal agreement revision to ensure
+
+resources are sufficient for the board’s expanded mandate. In Sumner County, the JECD Board
+
+does not operate under a joint funding formula (2024 Tennessee Code, 2026).
+
+
+
+
+                                                6
+
+[[page 7]]
+Current Membership Composition
+
+County Government Representation
+
+       County government representation on the board includes the County Mayor, who serves
+
+as a key leadership figure in regional economic development efforts. The County Mayor’s office
+
+provides staff support for board operations and serves as the primary liaison between the JECD
+
+Board and county government. Additional county representation includes members of the
+
+County Commission as specified in the interlocal agreement.
+
+Municipal Government Mayors/Managers
+
+       Municipal representation includes mayors or city managers from participating
+
+municipalities throughout Sumner County. These members bring essential local perspectives to
+
+regional planning discussions and serve as liaisons between the JECD Board and their respective
+
+municipal governments. Municipal participation is particularly important for ensuring that
+
+regional strategies accommodate local land use decisions, infrastructure capacities, and
+
+community preferences. The municipalities of Gallatin, Hendersonville, Portland,
+
+Westmoreland, White House, and Goodlettsville have varying levels of engagement with the
+
+JECD Board.
+
+Education, Economic Development, Business, and Tourism
+
+       Beyond governmental representatives, the board includes members representing
+
+education (Sumner County Schools, TCAT, and/or Volunteer State Community College),
+
+economic development professionals, local business owners and executives, and tourism
+
+interests connected to Sumner County’s history and natural resources.
+
+
+
+
+                                                7
+
+[[page 8]]
+Identified Challenges
+
+Vacant Positions
+
+       The board currently has vacant positions in several key categories, including Tourism,
+
+Greenbelt, and Gallatin Business representation. These vacancies reduce the diversity of
+
+perspectives available to inform board deliberations and limit capacity to address sector-specific
+
+issues. Prolonged vacancies can signal to potential participants that board service is not valued,
+
+creating a self-reinforcing cycle of disengagement. Filling these vacancies should be an
+
+immediate priority.
+
+Limited Advisory Authority
+
+       The JECD Board operates primarily in an advisory capacity, with limited direct authority
+
+to implement programs or allocate resources. The JECD Board authority varies by county. For
+
+example, Wilson County has a robust JECD Board with paid staff and economic development
+
+authority. Strengthening the board’s advisory influence while respecting elected officials’
+
+decision-making authority represents an important reform opportunity.
+
+Insufficient Meeting Frequency
+
+       Meeting at the statutory minimum of quarterly intervals limits the board’s capacity to
+
+maintain momentum on strategic initiatives and respond to emerging opportunities or challenges.
+
+Quarterly meetings often focus primarily on routine business, leaving insufficient time for
+
+substantive strategic discussions. Moving to monthly or bi-monthly meetings would provide
+
+greater opportunity for engagement while remaining manageable for volunteer members.
+
+
+
+
+                                                 8
+
+[[page 9]]
+Limited Private Sector Engagement
+
+       While the board includes positions for business sector representation, private sector
+
+engagement has been limited in both board membership and broader participation. The business
+
+community represents a vast reservoir of expertise, resources, and implementation capacity that
+
+remains largely untapped. Expanding private sector participation through formal membership
+
+and informal engagement mechanisms represents a significant opportunity.
+
+Absence of Performance Metrics
+
+       The board currently operates without formal performance metrics or systematic
+
+evaluation processes. This absence makes it difficult to assess effectiveness, identify areas for
+
+improvement, or demonstrate value to stakeholders. Implementing a comprehensive performance
+
+measurement framework will enable evidence-based board management and provide
+
+accountability.
+
+III Strategies for Increasing Board Effectiveness
+
+Governance Structure Reforms
+
+Interlocal Agreement Revision
+
+       The existing interlocal agreement should be comprehensively reviewed and revised. Key
+
+areas include expanded membership categories for private sector representation, clarified roles
+
+and responsibilities, enhanced committee structures, updated funding formula, and strengthened
+
+mechanisms for implementing recommendations. The revised agreement should establish clear
+
+attendance expectations, vacancy processes, periodic review mechanisms, and clarify the JECD
+
+Board’s relationship with other regional organizations.
+
+
+
+
+                                                 9
+
+[[page 10]]
+Committee Structure Enhancement
+
+       Standing committees focused on workforce development, infrastructure coordination,
+
+business retention and expansion, and strategic planning can expand board capacity. Each
+
+committee should operate under a clear charter specifying scope, membership, meeting
+
+expectations, and reporting requirements. Committee chairs should be appointed from board
+
+members, with staff support coordinated through the County Mayor’s office.
+
+Strategic Planning Integration
+
+Vision and Goal Setting
+
+       The board should develop a clear vision statement articulating the desired future state for
+
+Sumner County’s economic and community development. This vision should be accompanied by
+
+specific, measurable, achievable, relevant, and time-bound goals addressing job creation and
+
+retention, wage and income growth, infrastructure development, quality of life enhancement, and
+
+sustainable growth management. The goal-setting process should involve extensive stakeholder
+
+input to ensure broad ownership.
+
+       Each strategic goal should be translated into specific action plans identifying activities,
+
+responsibilities, timelines, and resources required for implementation. Action plans provide the
+
+bridge between strategic intentions and operational execution and should be assigned to specific
+
+committees or individuals for implementation with clear accountability for progress and results.
+
+Annual Review Process
+
+       An annual strategic review should assess progress toward goals, evaluate continued
+
+relevance of strategic priorities, identify emerging opportunities or challenges, and update action
+
+plans for the coming year. The annual review also provides an opportunity to celebrate
+
+successes, recognize contributions, and renew commitment to the shared vision.
+
+
+
+                                                10
+
+[[page 11]]
+Coordination with Partner Organizations
+
+Forward Sumner Economic Partnership
+
+       Forward Sumner serves as the primary economic development organization for Sumner
+
+County, leading business recruitment and coordinating workforce development (Choose Sumner,
+
+2026). The JECD Board’s relationship with Forward Sumner should be clearly defined to ensure
+
+complementary activities. The board provides strategic direction and intergovernmental
+
+coordination, while Forward Sumner provides professional economic development capacity the
+
+board cannot replicate (Choose Sumner, 2026).
+
+Tennessee Department of Economic and Community Development (TNECD)
+
+       The JECD Board should maintain an active relationship with TNECD to ensure
+
+awareness of available programs and to advocate for Sumner County’s interests at the state level.
+
+TNECD staff can provide valuable input to board strategic planning and connect the board with
+
+best practices from other regions. The board should designate a liaison responsible for
+
+maintaining this relationship and reporting relevant developments to the full board.
+
+TVA Economic Development
+
+       The Tennessee Valley Authority’s economic development team provides site certification
+
+programs, prospect research services, and other resources that can enhance Sumner County’s
+
+competitiveness for business investment (Economic Development, 2026). The JECD Board
+
+should ensure that local economic development activities coordinate with TVA programs and
+
+that Sumner County maintains visibility with TVA’s economic development staff
+
+Tennessee Central Economic Authority (TCEA).
+
+       The TCEA provides grant opportunities for economic development and can serve as an
+
+active participant in providing insight and guidance from a regional perspective. The TCEA is a
+
+
+
+                                                11
+
+[[page 12]]
+regional economic development organization committed to excellence in the manufacturing
+
+industry. Their mission is to recruit, retain, and expand advanced manufacturing job
+
+opportunities for the five-county region we serve in Middle Tennessee (About Us, 2026). The
+
+mayor of Sumner County currently serves on the board for TCEA and could provide a line of
+
+communication for involvement.
+
+Municipal EDAs and Chambers
+
+        Municipal economic development authorities and local chambers of commerce conduct
+
+activities at the local level that should be coordinated with regional efforts. The JECD Board can
+
+serve as a forum for sharing information, identifying collaboration opportunities, and ensuring
+
+local activities align with regional strategic priorities.
+
+ThreeStar Program Optimization
+
+        The Governor’s ThreeStar Program, administered by TNECD, provides funding and
+
+recognition for communities demonstrating commitment to economic and community
+
+development best practices. ThreeStar requirements include maintaining an active JECD Board,
+
+developing and implementing economic development strategies, and demonstrating progress
+
+toward defined goals (Tennessee Economic and Community Development, 2026). These
+
+requirements align well with the board enhancement strategies recommended in this report. The
+
+board should view ThreeStar compliance not as a bureaucratic burden but as a framework for
+
+organizing and focusing its activities, with the annual reporting process serving as a component
+
+of the broader performance measurement system.
+
+
+
+
+                                                   12
+
+[[page 13]]
+IV. Strategies for Increasing Participation
+
+Board Member Engagement
+
+Onboarding and Orientation
+
+       New board members should receive comprehensive onboarding that prepares them for
+
+effective participation from their first meeting. Onboarding should include review of the board’s
+
+statutory basis and interlocal agreement, introduction to current strategic priorities and ongoing
+
+initiatives, orientation to board procedures and expectations, and connection with experienced
+
+board members who can provide mentorship. Written materials should be provided for reference,
+
+and follow-up sessions should address questions arising during initial service. This is currently
+
+not an administrative function for the board.
+
+Role Alignment and Skills Utilization
+
+       Board members bring diverse skills and expertise that should be leveraged through
+
+intentional role alignment. This approach begins with assessment of each member’s background,
+
+interests, and available capacity, followed by assignment to committees or initiatives that match
+
+capabilities. Regular check-ins with members can identify emerging interests or changing
+
+circumstances that warrant role adjustments, increasing both board productivity and member
+
+satisfaction. Again, there has not been attention given to the skillsets of board members.
+
+Expanding Private Sector Participation
+
+Business Community Representation Expansion
+
+       The interlocal agreement revision should expand formal business community
+
+representation on the board. Additional positions should represent the diversity of Sumner
+
+County’s economy including manufacturing, healthcare, retail, professional services, and
+
+emerging sectors. Recruitment should be conducted strategically to identify business leaders with
+
+
+
+                                                13
+
+[[page 14]]
+both capability and commitment. Term limits and rotation mechanisms can ensure fresh
+
+perspectives while maintaining institutional knowledge.
+
+Business Retention and Expansion Program
+
+        While business retention and expansion is primarily a municipal EDA function, the JECD
+
+can serve to provide a collective voice for projects throughout the county. A formal business
+
+retention and expansion program provides a mechanism for ongoing private sector engagement
+
+beyond formal board membership. Through this program, board members and staff conduct
+
+regular visits with existing businesses to understand needs, challenges, and growth plans.
+
+Information gathered informs strategic planning and identifies opportunities for intervention to
+
+retain or expand local businesses, while building relationships that can lead to increased
+
+participation in board activities.
+
+Community Engagement Initiatives
+
+Public Input Mechanisms
+
+        The board should establish formal mechanisms for public input including comment
+
+periods at meetings, community forums throughout the county, online surveys and feedback
+
+tools, and partnerships with community organizations. Public input should be systematically
+
+collected, analyzed, and incorporated into board deliberations.
+
+Filling Vacant Positions
+
+        An immediate focus should be given to filling current board vacancies in Tourism,
+
+Greenbelt, and Gallatin Business positions. Recruitment should be conducted through multiple
+
+channels including direct outreach to qualified individuals, announcements through partner
+
+organizations, and public notice of open positions. The process should clearly communicate
+
+expectations and benefits of board service to attract high-quality candidates.
+
+
+
+                                                14
+
+[[page 15]]
+V. Performance Metrics and Accountability
+
+Evaluation Framework
+
+Board Performance Metrics
+
+       Board performance metrics should assess how effectively the board operates as an
+
+organization. Key metrics include meeting attendance rates, vacancy duration and fill rates,
+
+completion of action items, committee activity levels, stakeholder satisfaction with board
+
+performance, and timeliness of required reports and filings. These metrics provide leading
+
+indicators of board health and enable early intervention when performance trends are concerning.
+
+Regular review should be incorporated into meeting agendas to maintain visibility and
+
+accountability.
+
+Economic Development Outcome Metrics
+
+       Outcome metrics assess the impact of economic and community development activities
+
+on the regional economy and quality of life. These metrics should align with strategic goals and
+
+may include job creation and retention numbers, private capital investment, wage growth,
+
+unemployment rates, new business formation, infrastructure improvements completed, and
+
+quality of life indicators. While the board cannot take sole credit for regional performance,
+
+tracking these metrics enables assessment of whether strategies are producing desired results and
+
+provides evidence for communicating value.
+
+Reporting and Transparency
+
+Quarterly and Annual Reports
+
+       The board should produce formal quarterly and annual reports documenting activities,
+
+achievements, and progress toward strategic goals. The quarterly reports provide regular updates
+
+suitable for board meetings and participating government sessions. The annual report provides a
+
+
+                                                15
+
+[[page 16]]
+comprehensive assessment along with strategic priorities for the coming year. Reports should be
+
+professionally produced and widely distributed to stakeholders.
+
+ThreeStar Compliance Documentation
+
+       The board should maintain comprehensive documentation throughout the year to
+
+facilitate accurate ThreeStar reporting, integrating with the broader performance measurement
+
+framework to avoid duplication. Currently, this function is being completed by Forward Sumner.
+
+VI. Conclusion and Key Recommendations
+
+       The Sumner County JECD Board has the potential to serve as a powerful mechanism for
+
+coordinating regional economic and community development efforts across the county and its
+
+municipalities. Realizing this potential requires addressing current structural and operational
+
+challenges through the comprehensive strategies outlined in this report.
+
+Governance: Revise Interlocal Agreement
+
+       It is important to initiate a comprehensive review and revision of the interlocal
+
+agreements governing the JECD Board. The revised agreements should address expanded
+
+membership categories, enhanced committee structures, updated funding formulas, and
+
+strengthened implementation mechanisms. This revision process should engage all participating
+
+governmental entities and incorporate input from current board members and community
+
+stakeholders. The target date for completion of the revised agreement is within twelve months.
+
+Structure: Create Specialized Standing Committees
+
+       The board should develop clear charters for each committee that specify scope,
+
+membership, meeting expectations, and reporting requirements. Committee chairs should be
+
+appointed from board members with relevant expertise, and membership should be expanded to
+
+include additional community members. The full committee structure should be implemented
+
+
+                                                16
+
+[[page 17]]
+within six months, with all committees operational and reporting to the full board within nine
+
+months.
+
+Engagement: Comprehensive Onboarding, Expand Private Sector
+
+       The board will develop and implement a comprehensive onboarding program to ensure
+
+new members are fully prepared to contribute from the outset. Private sector representation will
+
+be expanded by adding business positions in the revised interlocal agreement and recruiting
+
+high-quality business leaders to fill those roles. A formal business retention and expansion
+
+program will be established to maintain ongoing, meaningful engagement with the broader
+
+business community. Additionally, meeting structure will be strengthened through the advance
+
+distribution of agendas and the deliberate allocation of time for strategic discussion.
+
+Accountability: Formal Performance Metrics and Reporting
+
+       A comprehensive performance measurement framework will be implemented
+
+encompassing both board operational metrics and economic development outcome metrics.
+
+Quarterly and annual reporting processes will be established, with reports distributed to all
+
+stakeholders on a consistent basis. ThreeStar compliance documentation will be integrated into
+
+the broader measurement system to create a unified and cohesive approach to accountability.
+
+Metric tracking will begin within three months, with the first annual report completed and
+
+released within eighteen months.
+
+Community: Public Input Opportunities, Fill Vacancies
+
+       Formal mechanisms for public input should be established, encompassing structured
+
+comment periods at meetings, community forums, and accessible online feedback tools, with all
+
+input systematically collected, analyzed, and meaningfully incorporated into board deliberations.
+
+Current vacancies in the Tourism, Greenbelt, and Gallatin Business positions must be treated as
+
+
+
+                                                 17
+
+[[page 18]]
+an immediate priority, addressed through active and targeted recruitment efforts. Looking
+
+beyond the present gaps, the board should adopt ongoing vacancy prevention measures such as
+
+term tracking, succession planning, and early recruitment initiatives before terms expire.
+
+       Successful implementation of these recommendations will require sustained commitment
+
+from county and municipal leadership, active engagement from board members and the broader
+
+community, and consistent attention to measuring and communicating results. The time and
+
+resources invested in board revitalization will yield significant returns through expanded
+
+economic opportunities, stronger community development, and more efficient coordination of
+
+regional growth. Sumner County's continued prosperity depends on effective regional leadership,
+
+and a revitalized JECD Board is well-positioned to provide that leadership for years to come.
+
+
+
+
+                                                18
+
+[[page 19]]
+                                        Works Cited
+
+2024 Tennessee Code. (2026). Retrieved from Justia U.S. Law:
+
+       https://law.justia.com/codes/tennessee/title-6/municipal-government-generally/chapter-
+
+       58/section-6-58-114/
+
+About Us. (2026). Retrieved from Tennessee Central: https://tennesseecentral.org/about-us/
+
+Choose Sumner. (2026). Retrieved from Forward Sumner: https://forwardsumner.org/
+
+Economic Development. (2026). Retrieved from TVA: https://www.tva.com/economic-
+
+       development
+
+Sumner County. (2026). Retrieved from World Population Review:
+
+       https://worldpopulationreview.com/us-counties/tennessee/sumner-county
+
+Tennessee Economic and Community Development. (2026). Retrieved from ThreeStar:
+
+       https://www.tn.gov/ecd/rural-development/threestar.html
+
+
+
+
+                                              19

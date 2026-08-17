@@ -1,0 +1,75 @@
+
+blog.451alliance.com
+State-level data center policies, then and now: Part 2, the Southeast
+Dan Thompson
+12–15 minutes
+
+Source: Scott Rodgerson via Unsplash.
+
+With hyperscale and large wholesale data centers beginning to spread into secondary and tertiary markets, we examine which states might be most attractive. With the exclusion of Virginia and Georgia, which are already top markets and covered in Part 1, the southeastern US has positioned itself as a prominent choice with ample land and friendly tax policies. Increasing pushback on tax incentives and utility guidelines in major markets could make the Southeast more visible as a viable location for future development.
+The Take
+
+While major markets are becoming overcrowded, states with smaller markets are getting attention from hyperscalers and large wholesale operations. Many of the southeastern states have a long-standing hyperscale presence, particularly from Meta Platforms Inc. and Google. The last couple of years have seen unprecedented investments from the likes of Microsoft Corp. and Amazon Web Services, as well. The states themselves seem to be courting large data center developments, with all the states in the Southeast having data-center-friendly tax exemptions and, relative to current data center build costs, quite modest requirements for investment. With nearly every southeastern state hosting or set to host at least one large-scale development, the improved interconnection and power infrastructure associated with these projects may set the stage for an even greater expansion in the Southeast.
+
+North Carolina
+
+Outside of Northern Virginia and Atlanta, the Carolinas have garnered the most interest from data center operators in the Southeast. Hyperscalers such as Google and Apple Inc. have been present in the state for over a decade and are expanding existing campuses; however, the state seems plagued by slowdowns or pauses on new developments. The last couple of years have signaled renewed interest, with Microsoft purchasing nearly 2,000 acres in Catawba County and AWS making a $10 billion investment in Richmond County. While interest seems to be growing in the state, time to power has been cited as an issue by providers in the market.
+
+North Carolina has tax incentive programs for both leased data centers and large enterprise data centers for software and internet companies. For leased data centers, the incentives provide for tax exemption on the data center building and electricity, as well as supporting equipment such as generators, chillers, compute, networking, storage, and the software used both within the data center and to run the data center. These exemptions apply to facility owners and tenants so long as there is an investment of $75 million or more by the data center owner and its tenants over a five-year period.
+
+The state’s incentives package for large enterprise data centers mandates building facilities in tier 1 and 2 counties. The 40 most distressed counties are labeled tier 1 counties, and the next 40 are labeled tier 2. For software publishing and internet companies, the incentives program provides for tax exemption on electricity and property, so long as the company makes an investment of $250 million or more across a five-year period, locates the facility in a tier 1 or tier 2 county, and owns the property directly or by affiliation with the operator of the facility. At first glance, data centers outside metro areas appear to be scattered randomly in rural locations. Further investigation, however, shows these to be tier 1 or 2 locations.
+
+South Carolina
+
+South Carolina is beginning to garner more interest from large developments. Google already has a sizable cloud region in the state and announced a $3.3 billion expansion across multiple campuses in 2024. An $800 million campus is also underway by Meta. QTS Realty Trust is also constructing a 400-acre campus that represents a $1 billion investment. In 2023, South Carolina also received its first cable landing station in Myrtle Beach, courtesy of DC BLOX. Both Google and Meta are tenants, with the cables named Firmina, Nuvem and Anjana.
+
+South Carolina provides a tax exemption to data center companies for computers, computer equipment and computer hardware used within a qualifying data center. The exemption also includes electricity used by a qualifying data center and eligible business property located and used at the qualifying data center. To qualify, the company must invest at least $50 million in real and/or personal property over a five-year period. If there are two or more investors, the requirement becomes $75 million. The company must create and maintain at least 25 full-time jobs at the facility with an average cash compensation level of 1.5 times the average income of the state or the relevant county, whichever is lower.
+
+Tennessee
+
+Tennessee has seen some interest from large-scale projects — both Meta and Google have campuses near Nashville. Meta is expanding its campus in Gallatin. Google has also expanded its Clarksville campus, and it is involved in a project with Kairos and Tennessee Valley Authority to build small modular reactors to power its data centers. XAI is also present in the Memphis area. The company is preparing the land for a Colossus 2 facility after buying a nearby substation in Mississippi that it plans to move over the border to Memphis.
+
+To reap sales tax benefits in Tennessee, data center operators must first invest $100 million over a three-year period and create at least 15 new full-time jobs paying at least 150% of the state’s average occupational wage. Qualifying projects will receive sales tax exemption on things like computers, software, repair, installation, warranties, and infrastructure for necessary power and cooling. Data center operators will also receive a 1.5% rate reduction for the purchase of electricity.
+
+Alabama
+
+Alabama has a smaller data center footprint than the aforementioned states. Google was the first hyperscaler in the state, building a small, two-building campus in 2019. Meta started its Huntsville campus around the same time and has been in perpetual expansion since then, with construction still ongoing. Meta also has an $800 million campus under construction in Montgomery.
+
+Alabama data centers can receive both property and sales tax abatements that vary depending on investment. To receive property tax abatement for 10 years, the project must invest $200 million within 10 years of commencement. To receive 20 years of property tax abatement, the project must invest $200 million-$400 million within 10 years. To receive 30 years of property tax abatement, the project must exceed $400 million of investment in 20 years from commencement. Sales tax follows an identical structure, with 10 years of abatement starting at an investment of $200 million, 20 years of sales and use tax abatement for investments of $200 million-$400 million, and 30 years of sales and use tax abatements for those that exceed $400 million.
+
+Mississippi
+
+Despite having data-center-friendly tax incentives, no hyperscale data centers were present in the state until 2025, when AWS began construction on a $10 billion campus in Canton. Compass Datacenters also broke ground on a $10 billion campus early in the year that will consist of eight buildings. In August 2025, AVAIO Digital Management announced that it is planning a $6 billion, 175-acre campus outside Jackson with a go-live date of 2027.
+
+A sales and/or use tax exemption is available for any enterprise owning or operating a data center with a minimum capital investment of $20 million that creates at least 20 new, full-time jobs with an annual salary of at least 1.25 times the average annual wage in the state. A qualifying project is exempt from state taxes for a period of 10 years for any sales or use tax related to the purchase or lease of component building materials and equipment for initial construction of facilities and/or expansion of facilities; sales and/or use tax imposed related to the purchase of replacement hardware and/or software; and income tax and franchise tax imposed on the value of capital used, invested or employed by the business.
+
+Louisiana
+
+Louisiana did not provide a data-center-specific tax rebate until June 2024. Up to that point, there had been no large hyperscale construction in the state. Not long after the rebate was passed, Meta announced a $10 billion campus in Richland Parish.
+
+The program provides state and local sales and use tax rebates on the sale of communications service equipment and data center equipment. The list of items that fall under the rebate is comprehensive, from servers, fiber optics and software to generators, batteries and cooling systems. To qualify, projects must create a minimum of 50 new direct, permanent jobs in Louisiana and invest at least $200 million from July 2024 to July 1, 2029. The tax breaks last for 20-30 years.
+
+Kentucky
+
+Kentucky has received little interest in hyperscale developments, but does have a couple of large cryptocurrency mining data centers. Kentucky provides a sales and use tax exemption that covers data center equipment and operation, with the exclusion of power and administrative equipment. The first hyperscale data center was not planned until January 2025 by Power House Data Centers in Louisville.
+
+To receive the sales and use tax exemption, a project must make a minimum capital investment within five years of the project’s preliminary approval. If located in a county with a population equal to or greater than 100,000, the owner, operator or colocation tenant of a data center project must make an investment of $450 million. In a county with a population greater than 50,000 but less than 100,000, the investment must be at least $100 million. In a county with a population of less than 50,000, the investment must be at least $25 million.
+
+Arkansas
+
+Arkansas has a sales and use tax exemption for qualifying data center equipment, costs and certain services. The state has arguably the smallest data center footprint in the Southeast and does not have any hyperscale facilities. Meta, however, is planning a $3 billion facility in West Memphis.
+
+The sales and use tax exemption applies to data center equipment; services associated with developing, acquiring, constructing, expanding, renovating, refurbishing and operating the facility; and electricity used by the facility. In 2025, the qualifying investment threshold was lowered from $500 million to $100 million within five years of a certificate of occupancy. The company must also provide compensation of at least $1 million to employees within the state and meet approval and certification guidelines from the Arkansas Economic Development Commission. The tax exemption is also contingent upon the facility not being primarily used for crypto mining.
+
+Florida
+
+Florida has a sizable retail market around major cities, but has not received much attention from large wholesale and hyperscale projects, even though the state has a relatively generous tax exemption. None of the major hyperscalers has facilities in the state, nor have there been announcements of plans for major hyperscale expansion to the state.
+
+The state provides sales and use tax exemption for new data centers, as well as the equipment and electricity they use. To qualify, the project must have a power capacity of 15 MW or greater, and its owners or tenants must invest $150 million. Additionally, each tenant must have at least 1 MW of dedicated capacity for its own operations. Requirements must be met within five years of the start of construction.
+
+Want insights on datacenter trends delivered to your inbox? Join the 451 Alliance.
+
+Published by Dan Thompson
+
+As a Principal Research Analyst for 451 Research, a part of S&P Global Market Intelligence, Dan Thompson provides insight into the multi-tenant datacenter (MTDC) market space. He currently leads the research in APAC and Latin America, while also assisting in the coverage of North America. Dan is particularly focused on MTDCs that are trying to move up the stack to offer additional services beyond colocation and connectivity. These services may include disaster recovery, security, various forms of cloud and other managed services. He also assists the 451 Research Information Security group when their interests overlap. View all posts by Dan Thompson
+

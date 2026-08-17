@@ -1,0 +1,1213 @@
+[[page 1]]
+INDUSTRIAL DEVELOPMENT BOARD
+
+  of the CITY of WESTMORELAND
+
+       Annual Financial Report
+
+   For the Year Ended June 30, 2024
+
+[[page 2]]
+                                         INDUSTRIAL DEVELOPMENT BOARD
+
+                                              of the CITY of WESTMORELAND
+
+
+                                                          Table of Contents
+                                                                                                                        Page Number
+
+
+INTRODUCTORY SECTION
+
+Board of Officials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..... ... ... .
+
+FINANCIAL SECTION:
+
+Independent Auditor's Report .. . .. .. . .... ... . .. .. . . . .... ... ............. .                                       1-3
+
+Management's Discussion and Analysis .......... ... ..... . . .. .. .. . ....... .                                             4-6
+
+BASIC FINANCIAL STATEMENTS:
+
+Government-Wide Financial Statements
+ Statement ofNet Positon .................... . . . . ....... . . . ....... ...... .                                             8
+ Statement of Activities ..................... ..... . . . ...... . .. ... ..... . . .                                           9
+
+FUND FINANCIAL STATEMENTS:
+
+Balance Sheet - General Fund . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            11
+
+Reconciliation ofBalance Sheet to Statement ofNet Position of Governmental Activities                                           12
+
+Statement of Revenues, Expenditures, and Changes in Fund Balance - Governmental Fund                                            13
+
+Reconciliation of the Statement of Revenues, Expenditures, and Change in Fund Balance
+of Governmental Fund to the Statement of Activities . . . . . . . . . . . . . . . . . . . . . . . . .                           14
+
+Notes to Financial Statements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        16-20
+
+SUPPLEMENTAL INFORMATION:
+
+   Schedule of Cash and Cash Equivalents ..... . . ... .. . ... . .. .... .... ... .. . .                                       22
+   Schedule of Debt Service Requirements ... ..... .... . ... . ..... . .......... .                                            23
+   Schedule of Changes in Long-term Debt by Individual Issue ......... .. ... ... .                                             24
+
+[[page 3]]
+                             INDUSTRIAL DEVELOPMENT BOARD
+
+                                ofthe CITYofWESTMORELAND
+
+                                   Table of Contents, Continued
+
+
+INTERNAL CONTROL AND COMPLIANCE:
+
+Report on Internal Control Over Financial Reporting and on Compliance and Other
+  Matters Based on an Audit of Financial Statements Performe4
+  in Accordance with Government Auditing Standards . . ........ .. .... . ..... . .   26-27
+
+Schedule of Findings and Responses ........... . .. . .................... . . . .      28
+
+Schedule of Disposition of Prior Year Comments . ................... . ...... . .       29
+
+Management's Corrective Action Plan .......... ... . .. ......... . ... .. ...... .     30
+
+[[page 4]]
+INTRODUCTORY SECTION
+
+[[page 5]]
+                           INDUSTRIAL DEVELOPMENT BOARD
+
+                             of the CITY of WESTMORELAND
+
+
+                                    Board Members
+
+                                     June 30, 2024
+
+
+
+
+Andy Leath                                           Board Member
+
+Mary Gail Anderson                                   Board Member
+
+Stephen Bell                                         Board Member
+
+Fredia Carter                                        Board Member
+
+Larry Meadors                                        Board Member
+
+Tony Bentle                                          Board Member
+
+Jacqueline Robertson                                 Board Member
+
+
+Management:
+
+
+Meredith Kendall-Jenkins                             City Recorder, CMFO Candidate
+
+[[page 6]]
+FINANCIAL SECTION
+
+[[page 7]]
+                            .JOHN             R.     POOLE,               CPA
+                               CERTIFIED PUBLIC ACCOUNTANT
+
+1 34 NORTHLAKE DRIVE                                                                       (615) 822-4177
+HENDERSONVILLE, TN 37075
+
+
+
+
+                                           Independent Auditor's Report
+
+      Board of Directors
+      Industrial Development Board of the City of Westmoreland
+      Westmoreland, Tennessee
+
+                                  Report on the Audit of the Financial Statements
+
+      Opinions
+      I have audited the accompanying financial statements of the governmental activities and the major fund of
+      the Industrial Development Board of the City of Westmoreland (the "Board"), a component unit of the
+      City of Westmoreland, Tennessee as of and for the year ended June 30, 2024, and the related notes to the
+      financial statements, which collectively comprise the Board's basic financial statements as listed in the
+      table of contents.
+
+     In my opinion, the financial statements referred to above present fairly, in all material respects, the
+     respective financial position of the governmental activities and the major fund of the Board as of June 30,
+     2024, and the respective budgetary comparison for the General Fund and the respective changes in
+     financial position for the year then ended in accordance with accounting principles generally accepted in
+     the United States of America.
+
+     Basis for Opinions
+     I conducted my audit in accordance with auditing standards generally accepted in the United States of
+     America and the standards applicable to financial audits contained in the Government Auditing Standards,
+     issued by the Comptroller General of the United States. My responsibilities under those standards are
+     further described in the Auditor's Responsibilities for the Audit of the Financial Statements section of my
+     report. I am required to be independent of the Board and to meet my other ethical responsibilities, in
+     accordance with the relevant ethical requirements relating to my audit. I believe that the audit evidence I
+     have obtained is sufficient and appropriate to provide a basis for my audit opinions.
+
+     Responsibilities of Management for the Financial Statements
+     Management is responsible for the preparation and fair presentation of the financial statement in
+     accordance with accounting principles genera lly accepted in the United States of America, and for the
+     design implementation. and maintenance of internal control relevant to the preparation and fair
+     presentation of financial statements that are free from material misstatement, whether due to fraud or error.
+
+     In preparing the financial statements, management is required to evaluate whether there are conditions or
+     events, considered in the aggregate, that raise substantial doubt about the Board's ability to continue as a
+     going concern for twelve months beyond the :financial statement date, including any currently known
+     information that may raise substantial doubt shortly thereafter.
+
+[[page 8]]
+ Auditor's Responsibilities for the Audit ofthe Financial Statements
+ My objectives are to obtain reasonable assurance about whethe1· the financial statements as a whole are
+ free from material misstatement, whether due to fraud or error and to issue an auditor s report that includes
+ my opinions. Reasonable assurance is a high level of assurance but is not absolute assurance and therefore
+  is not a guarantee that an audit conducted in accordance with generally accepted auditing standards and
+ Government Auditing Standards will always detect a material misstatement when it exists. The risk of not
+ detecting a material misstatement resulting from fraud is higher tban for one resulting from error, as fraud
+ may involve collusion, fotgery, intentional omissions misrepresentations, or the override of internal
+ control. Misstatements are considered material if there is a sub tantial likelihood that indivi.dually or in
+ the aggregate, they would influence the judgement made by a reasonable user based on the financial
+ statements.
+
+ In perfonning an audit in accordance with generally accepted auditing standards and Government Auditing
+ Standards, I:
+
+     •!• Exercise professional judgment and maintain professional skepticism throughout the audit.
+     •!• Identify and assess the risks of material misstatement of the .financial statements, whether due to
+          fraud or error, and design and perform audit procedures responsive to those risks. Such procedures
+          include examining, on a test basis, evidence regarding the amounts and disclosures in the financial
+          statements.
+    •!• Obtain an understanding of internal control relevant to the audit in order to design audit procedures
+         that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the
+         effectiveness of the Board's internal control. Accordingly, no such opinion is expressed.
+    •!• Evaluate the appropriateness of accounting policies used and the reasonableness of significant
+         accounting estimates made by management, as well as evaluate the overall presentation of the
+         financial statements.
+    •!• Conclude whether, in my judgment, there are conditions or events, considered in the aggregate,
+         that raise substantial doubt about the Board's ability to continue as a going concern for a reasonable
+         period oftime.
+
+I am required to communicate with those charged with governance regarding, among other matters, the
+planned scope and timing of the audit, significant audit findings, and certain internal control-related matters
+that I identified during the audit.
+
+Required Supplementary Information
+Accounting principles generally accepted in the United States of America require that the Required
+  upplementary Information, which includes Management's Discussion and Analysis, be presented to
+supplement the basic fi nancial statements. Such information is the responsibility of management and,
+although not a part of the basic financial statements, is required by the Governmental Accounting Standards
+Board who considers it to be an essential part of financial reporting for placing the basic financial
+statements in an appropriate operational, economic, or historical context. I have applied certain limited
+procedures to the required supplementary information in accordance with auditing tandard generally
+accepted in the United Stat s of America, which consisted of inquiries of management about the methods
+of preparing the information and comparing the information for consistency with management's responses
+to my inqu.iries, the basic :financial statements and other knowledge I obta ined during my audit oflhe basic
+financial statements. I do not express an opinion or provide any assurance on the information because the
+
+
+                                                      2
+
+[[page 9]]
+ limited procedures do not provide us with sufficient evidence to express an opinion or provide any
+ assurance.
+
+ Supplementary Information
+  My audit was conducted for the purpose of forming opinions on tb financial statements that collectively
+ comprise the Board's basic financial statements. The supplementary information section, as listed in the
+ table of contents, is presented for purposes of additional analysis and is not a required part of the basic
+ financial statements. Such information is the responsibility of management and was derived from and
+ relates directly to the underlying accounting and other records used to _prepare the basic fmancial
+ statements. The information has been subjected to the auditing procedures applied in the audit of the basic
+ financial statements and certain additional procedures, including comparing and reconciling such
+ information directly to the underlying accounting and other records used to prepare the basic financial
+ statements or to the basic financial statements themselves, and other additional procedures in accordance
+ with auditing standards generally accepted in the United States of America. In my opinion, the
+ supplementary information is fairly stated in all material respects in relation to the basic financial
+ statements as a whole.
+
+ Other Information -Introductory Section
+
+Management is responsible for the Introductory Section included in the annual report. The Introductory
+Section, as listed in the table of contents, does not include the basic financial statements and my auditor's
+report thereon. My opinion on the basic financial statements does not cover the Introductory Section, and
+I do not express an opinion or any other assurance thereon.
+
+In connection with my audit ofthc basic financial statements, my responsibility is to read the Introductory
+Section and consider whether a material inconsistency exists between the Introductory Section and basic
+financial statements, or the Introductory Section otherwise appears to be materially misstated. If, based on
+the work performed, I conclude that an uncorrected material misstatement of the Introductory Section
+exists, I am required to describe it in my report.
+
+Other Reporting Required by Government Auditing Standards
+In accordance with Government Auditing Standards, I have also issued my report dated November 30,
+2024, on my consideration of the Board's internal control over financial reporting and on my tests of its
+compliance with certain provisions of laws, regulations, contracts and grant agreements and other matters.
+The purpose of that report is solely to describe the scope of my testing of internal control over financial
+reporting and compliance and the results of that testing, and not to provide an opinion on the effectiveness
+of the Board's internal control over financial reporting or on compliance. That report is an integral part of
+an audit performed in accordance with Government Auditing Standards in considering the Board's internal
+control over financial reporting and compliance.
+
+
+
+
+November 30, 2024
+
+
+
+                                                     3
+
+[[page 10]]
+MANAGEMENT'S
+DISCUSSION AND
+   ANALYSIS
+
+[[page 11]]
+                  Industrial Development Board of the City of Westmoreland
+
+                             Management's Discussion and Analysis
+
+ As management of the Industrial Development Board of the City of Westmoreland, (the Board)
+ we offer readers of the Board's financial statements this narrative overview and analysis of the
+ financial activities of the Board for the fiscal year ended June 30, 2024. The analysis focuses on
+ significant financial position, budget changes and variances from the budget, and specific issues
+ relat d to funds and the economic factors affecting the Board.
+
+Management's Discussion and Analysis (MD&A) focuses on current year activities and resulting
+changes.
+
+Financial Highlights:
+
+The assets of the Industrial Development Board of the City of Westmoreland exceeded its
+liabilities at the close of the most recent fiscal year by $572,538. The Board s total net position
+increased by $193,496 during the current year, primarily as a result of higher interest income
+revenues offset by decreased expenses including depreciation of$33,596.
+
+Overview of the Financial Statements:
+
+The Statement of Net position presents information on all the Board's assets and liabilities, with
+the difference between the two reported as net position. Over time, increases or decreases in net
+position may serve as a useful indicator of whether the financial position of the Board is improving
+or deteriorating.
+
+The Statement ofRevenues, Expenses and Changes in Net Position presents information showing
+how the Board's net position changed during the most recent flsca1 year. All changes in net position
+are reported as soon as the underlying event giving rise to th change occurs, regardless of the
+timing of related cash flows. Tlms, rev nues and expenses are reported in this statement for some
+items that will only result in cash flows in future fiscal periods.
+
+The basic financial statements can be found on pages 8-9 of this report. The notes provide
+additional information that is essential to a full understanding ofthe data provided in the financial
+statements. The notes to the financial statements can be found on pages 16-20 of this report.
+
+
+
+
+                                                 4
+
+[[page 12]]
+ Financial Analysis of the Financial Statements
+
+ As noted earlier, net position may serve over time as a useful indicator of the Board's financial
+ position. In the case ofthe Industrial Development Board of the City of Westmoreland, the ending
+ net position was $572,538.
+
+ By far the largest portion of the Board's assets reflects its investment in capital assets. The Board
+ uses these capital assets to provide services to its customers; consequently, these assets are not
+ available for future spending. Although the Board's investment in its capital assets is reported net
+ of related debt, it should be noted that the resources needed to repay this debt must be provided
+ from other sources, since the capital assets themselves cannot be used to liquidate these liabilities.
+
+ Industrial Development Board of the City of Westmoreland's Net Position- 2024
+
+ Current assets                        $    285,538
+ Capital assets, net                        500,181
+        Total assets                        785.719
+
+Liabilities                                 213,181
+
+Net position:
+Net investment in capital assets            287 000
+                Unrestricted                285.538
+Total net position                     $    .512.,538
+
+
+Industrial Development Board of the City of Westmoreland's Net Position- 2023
+
+Current assets                         $   124 059
+Capital assets, net                        498.762
+       Total assets                        622,821
+
+Liabilities                                243.779
+
+Net position:
+Net investment in capital assets           256,82
+                Unrestricted               122.219
+Total net position                     $   372,042
+
+
+
+
+                                                  5
+
+[[page 13]]
+ Capital Assets
+
+ The Industrial Development Board of the City ofWestmoreland's investment in capital assets from
+ its activities at June 30, 2024, amounts to $500,181 (net of accumulated depreciation). This
+ investment in capital assets is in communications equipment and vehicles.
+
+                                                    2024                        2023
+Capital assets                                    854.091                      8J 9.076
+Less accumulated depreciation                    (353,910)                    (320.314)
+Net Capital Assets                                500.181                     128_.762
+
+Additional information on the Industrial Development Board of the City of Westmoreland's capital
+assets can be found in the notes to the financial statements section of this report.
+
+Long-term Debt
+
+The Board has one loan outstanding totaling $213,181, which was used for the purchase of the
+facility and to make improvements. All loans are paying as scheduled.
+
+Economic Factors and Next Year's Budget and Rates
+
+In the 2024-_025 budget Board revenues are budgeted to increase from the 2023-2024 budget
+year primarily due to increases in rental income. All of these factms were considered in preparing
+the Board' s budg t for the 2024-2025 fiscal year.
+
+Requests for Information
+
+This financial report is designed to provide a general overview ofthe Board's finances for all those
+with an interest in the Board's finances. Questions concerning any of the information provided in
+this report or requests for additional financial information should be addressed to:
+
+
+
+Industrial Development Board ofthe City of Westmoreland
+P. 0. Box 8
+Westmoreland, TN. 37186
+
+
+
+
+                                                6
+
+[[page 14]]
+BASIC FINANCIAL
+  STATEMENTS
+
+[[page 15]]
+                                             INDUSTRIAL DEVELOPMENT BOARD of the CITY OF WESTMORELAND
+                                                                  Statement of Net Position
+                                                                        June 30, 2024
+
+
+
+
+Assets                                                                                                      Total
+
+Cash and cash equivalents                                          $113,876                                $113,876
+
+Certificate of deposit                                              155,169                                 155,169
+
+Prepaid insurance                                                    16,493                                  16,493
+
+Capital assets, net of accumulated depreciation                     500,181                                 500,181
+
+         Total Assets                                              $785,719                                $785,719
+
+Liabilities
+Accounts payable                                                            0                                       0
+Long term debt:
+  Due in less than a year                                            34,195                                  34,195
+  Due in more than a year                                           178,986                                 178,986
+       Total Liabilities                                            213,181                                 213,181
+
+Net Position:
+  Net investment in capital assets                                   287,000                                287,000
+  Unrestricted                                                       285,538                                285,538
+      Total Net Position                                           $572,538                                $572,538
+
+
+
+
+                                                         See accompanying notes to financial statements.
+
+
+
+
+                                                                        8
+
+[[page 16]]
+                                     INDUSTRIAL DEVELOPMENT BOARD ofthe CITY OF WESTMORELAND
+
+                                                               Statement of Activities
+
+                                                         For the Year Ended June 30,2024
+
+
+
+
+                                                                      Program Revenues         Net (Expenses) Revenue and
+                                                                                                  Changes in Net Position
+                                                                    Operating             Capital
+. Function/Programs                                     Charges for Grants and         Grants and     Governmental
+                                            Expenses     Services Contributions       Contributions     Activities           Total
+
+  General government - Industrial Park        120,656      258,260             0           50,438         188,042           188,042
+       Total Governmental Activities          120,656      258,260             0           50,438         188,042           188,042
+
+
+
+                                           General Revenues:
+                                                       Interest income                                       5,454            5,454
+                                                                 Total general revenues                      5,454            5,454
+
+
+
+                                           Changes in net position                                         193,496          193,496
+
+                                           Net position- beginning of year                                 379,042          379,042
+
+                                           Net position- ending of year                                    572,538          572,538
+
+
+
+
+                                                                      See accompanying notes to financial statements.
+                                                                               9
+
+[[page 17]]
+FUND FINANCIAL
+  STATEMENTS
+
+[[page 18]]
+                      INDUSTRIAL DEVELOPMENT BOARD of the CITY OF WESTMORELAND
+
+                                                        Balance Sheet
+
+                                                        General Fund
+
+                                                        June 30, 2024
+
+
+                                                                                                 Operating
+                                                                                                   Fund
+
+
+
+Cash and cash equivalents                                                                    $      113,876
+
+Certificate of deposit                                                                              155,169
+
+Prepaid insurance                                                                                    16,493
+
+       Total Assets                                                                          $     285,538
+
+Liabilities and Fund Balance
+
+Liabilities:
+  Accounts payable
+       Total Liabilities
+
+
+
+ Fund balance:
+   Non-spendable                                                                                    16,493
+   Unassigned                                                                                      269,045
+     Total Fund Balance                                                                            285,538
+
+      Total Liabilities and Fund Balance                                                    $      285,538
+
+
+
+
+             The notes accompanying the financial statements are an integral part of these financial statements.
+
+
+
+
+                                                            11
+
+[[page 19]]
+         INDUSTRIAL DEVELOPMENT BOARD of the CITY OF WESTMORELAND
+
+                Reconciliation of the Balance Sheet to the Statement of Net Position
+                                      of Government Activities
+
+                                            June 30, 2024
+
+
+Amounts reported for fund balance - total governmental funds                           $    285,538
+
+
+     Amounts reported for governmental activities in the statement of net
+     position are different because the operating funds do not report:
+
+        Capital assets                                                                      500 18 1
+
+        Long-term debt                                                                     (2 13 J 81 )
+
+
+Net position of governmental activities                                                $   572,538
+
+
+
+
+                            See accompanying notes to financial statements.
+
+
+
+
+                                                            12
+
+[[page 20]]
+                   INDUSTRIAL DEVELOPMENT BOARD ofthe CITY OF WESTMORELAND
+
+                                                   Governmental Fund
+                            Statement of Revenues, Expenditures and Changes in Fund Balances
+
+                                             For the Year Ended June 30,2024
+
+
+
+
+Revenues:
+  Rental and activities income                                                       $ 258,260
+  Interest income                                                                        5,454
+  Donations- City                                                                       50,438
+    Total Revenues                                                                     314,152
+
+Expenditures:
+  Utilities                                                                              1,702
+  Administration                                                                         4,500
+  Repairs                                                                               34,954
+  Supplies                                                                               6,144
+  Professional services                                                                  1,767
+  Insurance                                                                             16,313
+  Debt service                                                                          50,438
+  Capital outlay                                                                        35,015
+     Total Expenditures                                                                150,833
+
+      Excess (deficiency) ofRevenues
+       over Expenditures                                                               163.319
+
+
+
+Fund Balance, Beginning of year                                                        122,219
+
+Fund Balance, End of year                                                              285,538
+
+
+
+
+                            See accompanying notes to financial statements.
+
+
+
+
+                                                          13
+
+[[page 21]]
+                  INDUSTRIAL DEVELOPMENT BOARD of the CITY OF WESTMORELAND
+
+              Reconciliation of the Statement of Revenues, Expenditures and Changes in Fund Balance
+                                 of Governmental Fund to the Statement of Activities
+
+                                            For the Year Ended June 30, 2024
+
+
+
+Net change in fund balances- total governmental funds :                                            $   163,319
+
+
+
+      Amounts reported for governmental activities in the statement of net
+      position are different because:
+
+
+
+      Operating funds report capital outlays as expenditures. However, in the statement
+       of activities the cost of those assets is allocated over their estimated useful lives and
+       reported as depreciation expense.
+         Acquisition of capital assets                                                                  35,015
+         Depreciation expense                                                                          (33,596)
+
+       Expenses in the operating funds that reduce long-term liabilities are not reported
+        in the statement.
+          Principal payments                                                                           28,758
+
+
+Change in net position of governmental activities                                                  $   193 496
+
+
+
+                            See accompanying notes to fmancial statements.
+
+
+
+
+                                                              14
+
+[[page 22]]
+NOTES TO THE FINANCIAL
+     STATEMENTS
+
+[[page 23]]
+                            Industrial Development Board of the City of Westmoreland
+
+                                             Notes to Financial Statements
+
+                                                      June 30, 2024
+
+ (1) Summarv of Significant Accounting Policies
+
+ The Industrial Development Board of the City of Westmoreland (Board) consists of members appointed by City of
+ Westmoreland and Sumner County, Tennessee. As an agency for these governmental entities, the Board has been
+ delegated th authority to develop, operate and maintain an industrial park for th benefit of the community. The
+ Board was incorporated to receive and administer donated and loan funds for construction of buil.dings in the
+ industrial park. The Board began to operate significantly in 2010.
+
+ The accounting policies of the Industrial Development Board of the City of Westmoreland conform to generally
+ accepted accolmting principles as applicable to governments. The following is a summary of the more significant
+ policies.
+
+Reporting E ntitv:
+Governmental Accounting Standards Board (GASB) Statement Number 14 "The Financial Reporting Entity"
+requires that financial statements present the reporting entity which consists of the primary government and
+''Component Unit" organizations for which the primary government is financially accountable and any other
+"Component Unit'' organizations for which t he nature aod significance of their relationship with the primary
+government are such that exclusion, could cause the Board's general pmpose financial statements to be misleading.
+There was no component unit requiring blended or discrete presentation Llllder the requirements of GASB Statement
+Number 14.                           -
+
+Government- Wide and Fund Financial Statements
+The Government-wide financial statements, the statement of Net Position and the statement of activities report
+information on all of the financial activities ofthe Board.
+
+The statement of activities demonstrates the degree to which the direct expenses of a given function or segment are
+offset by program revenues. Direct expenses are those that are clearly identifiable with a specific ftmction or -segment.
+Program revenues include (i) charges to customers or applicants who purchase use or directly benefit fi·om goods
+ ervices or privileges provided b a given function or segment and (ii) grants and contributions that ate restTicted to
+meeting the operational or capital rcqu ircments of a_particular function or segment.
+
+Measurement focus, Basis of Accounti.ng, and Fi nancial Statement Presentation
+The govenm10nt-wide financial statements are reported using the economic resources measurement focus and the
+accrual basis of accounting. Revenues are recorded when earned and exp nses are recorded when a liability is
+incurred, regardless of the timing of related cash flows. Grants and similar items are recognized as revenue as soon
+as all eligibility requirements imposed by the provider have been met.
+
+Governmental fund revenues are reported using the current financial resources measurement focus and tbe modified
+accrual basis of accounting. Revenues are recognized as soon as they become both measurable and collectable within
+the current period or soon enough thereafter to be used to pay liabilities of the current period. Expenditures are
+recorded genera lly when a liabiJit is incu rred, as under accrual accounting. However, debt service expenditures, as
+well as expenditures related to compensated absences and claims and judgments are recorded only when payment is
+due.
+
+
+
+
+                                                          16
+
+[[page 24]]
+                            Industrial Development Board of the City of Westmoreland
+
+                                              Notes to Financial Statements
+
+                                                      June 30, 2024
+
+ (1) Summary of Significant Accounting Policies, Continued
+
+ The Board reports the following major fund:
+
+ General (Operating) Fund - The General (Operating) Fund is the general operating fund of the Board. It is used to
+ account for all financial resources of the general government except those required to be accounted for in another
+ fund.
+
+ Cash and Cash Equivalents
+ Cash and cash equivalents consist primarily of checking accounts and a money market account. When both restricted
+ and unrestricted resources are available for use, it is the Board's policy to use restricted resources first, then
+ unrestricted resources as they are needed. When unrestricted funds are used the Board uses committed, assigned then
+ unassigned funds.
+
+Capita l Assets
+Capital assets, which include property, plant and equipment, and infrastructure assets consisting of certain
+improvements other than buildings are reported in the applicable governmental activities columns in the government-
+wide financial statements. Capital assets are defined by the Board as assets with an individual cost of $2,000 and an
+estimated useful life in excess of three years. All capital assets are valued at historical cost or estimated useful life in
+excess of three years. Donated capitaJ assets are valued at their estimated fair value on the date donated. The costs of
+normal maintenance and repairs that do not add to the value of the asset or materially extend asset lives are not
+capitalized. Depreciation is provided over the estimated useful lives using the straight-line method.
+
+The estimated useful lives are as follows:
+
+        Land improvements                                               10-15 years
+        Buildings                                                       25-40 years
+        Machinery and Equipment                                          5-10 years
+
+Budget and Budgetary Accounting
+The Board is not legally required to adopt a budget; therefore, no budget comparison is presented in these financial
+statements.
+
+Estimate
+The _preparation of financial statements in conformity with generally accepted accounting principles requires
+management to make estimates and assumptions that affect the reported amounts of assets and liabiLities at the date
+of the financial statements and the reported amounts of re enues and expenses during the r porting period . Actual
+results could differ from those estimates.
+
+Net Position Flow Assumption                    1
+
+Sometimes the government will fund outlays for a particular purpose from both restricted and unrestricted re ources .
+111 order to calcu lat the amounts to r pmt as restricted - net position and unrestricted - net position in the
+government-wide financial statements, a flow assumption must be made about the order in which the resources are
+considered to be applied. It is the Board's policy to consider restricted -net position to have been depleted before
+unrestricted -net position is applied.
+
+
+
+                                                           17
+
+[[page 25]]
+                            Industrial Development Board of the City of Westmoreland
+
+                                             Notes to Financial Statements
+
+                                                      June 30, 2024
+
+ (1)     Summary of Significant Accounth1g Policies, Continued
+
+ Credit Risk
+ Financial instruments that potentially subject the Board to significant concentrations of credit risk consist principally
+ of cash and cash equivalents. The Board places its cash with federally-insured financial institutions or institutions
+ participating in the State collateral pool.
+
+ Deferred Outtlows/J nflows of Resources
+ In addition to assets, the Statem nt of Net Position will sometimes report a separate section for deferred outflows of
+ resources. This separate financial statement element, deferred outflows of resources, represents a consumption of net
+ position that applies to a future period(s) and so will not be recognized as an outflow of resources
+ (expense/expenditure) until then. The goverrunent has no jtems that qualify for reporting in this category.
+
+ In addition to liabilities, the Statement of Net Position will sometime report a separate section for defen·ed inflows
+ of resources. This separate financial statement element, deferred inflows of resources, represents an acquisition of
+ net position thal applies to a future pcriod(s) and so will not be recognized as an inflow of resources (revenue) w1til
+ that time. These amounts are deferred and recognized as an inflow of resources in the peliod that the amounts become
+ available. The government has no items that qualify for reporting in this category.
+
+ Fund Balance
+ The Board implemented GASB 54 which addresses issues related to how fund balances are reported. Fund balances
+ are now reported in the following manner:
+
+Nonspendable Fund Balance- This classification includes amounts that are (a) not in spendable form, or (b) legally
+or contractually required to be maintained intact. The "not in spendable form" criterion includes terms that are not
+expected to be converted to cash, for example: inventories, prepaid amounts, and long-term notes receivable.
+
+Restricted Fund Balance - This classification includes amounts that are restricted for specific purposes stipulated by
+external resource providers, constitutionally or through enabling legislation. Restrictions may effectively b changed
+or lifted with the consent of resource providers.
+
+Committed Fund Balance - This classification includes amounts that can only be used for the specific pW'poses
+determined by a formal action of the Board's highest level of decision-making authority. Commitments may be
+changed or lifted only by the Board taking the same formal action that imposed the constraint originally (for example:
+ordinance).
+
+Assigned Fund Balance- This classification included amounts intended to be used by the Board for specific purposes
+that'are neither restricted nor committed. The Board and its designee, the Recorder, have the authority to assign
+amounts to be used for specific purposes. Assigned amounts also include all residual amounts in governmental funds
+(except negative amounts) that are not classified as nonspendable, restricted, or committed.
+
+Unassigned Fund Balance - This fund balance is the residual classification for the general fund. It is also used to
+report negative fund balances in other governmental funds.
+
+In circumstances when an expenditure is made for a purpose for which amounts are available in multiple fund balance
+classifications, fund balance is depleted in the order of restricted, committed, assigned, and unassigned.
+
+
+                                                          18
+
+[[page 26]]
+                             Industrial Development Board of the City of Westmoreland
+
+                                               Notes to Financial Statements
+
+                                                       June 30, 2024
+
+
+ (2)     Cash and Cash Equivalents
+
+  The Board is authorized to invest funds in Federal treasury bills and notes, State of Tennessee Local Government
+  Investment Pool and financial institution demand deposit accounts and certificates of deposit. Deposits in financial
+  institutions are required by State Statute to be secured and collateralized by the institutions. The Board has deposit
+  po licies to minimize custodial credit risks. All deposits with financial institutions must be secured by one of two
+ methods. One method Lnvolves financial institutions that participate in the bank collateral pool administered by the
+ state treasurer. Participating banks determine the aggregate balance of their public fund accounts for the State of
+ Tennessee and its political subdivisions. The amount of collateral required to secure these public deposits must equal
+ at least I 05 percent of the average daily balance of public deposits held . Collateral securities required to be pledged
+ by the participating banks to protect their public fund accounts w·e pledged to the state treasurer on behalfoftbe bank
+ collateral pool. The securities pledged to protect t hese accounts are pledged in the aggregate rather than against each
+ account. The members ofthe pool may b required by agreement to pay an ass(!Ssmentto cover any deficiency. Under
+ this additional assessment agreement, public fund accounts covered by the pool are considered to be insured for
+ purposes of credit risk disclosure.
+
+For deposits with financial institutions that do not participate in the bank collateral pool, state statutes require that all
+deposits be collateralized with collateral whose market value is equal to 105 percent of th uninsured amount of the
+deposits. The collateral must be placed by the depository bank in an escrow account in a second bank for the benefit
+of the board. The Board's deposits with financial institutions are fully insured or collateralized by securities held in
+the Board's name. Additionally, the deposit accounts are covered by the Federal Depository Insurance Coverage
+(FDIC).
+
+
+(3)     Capital Assets
+
+A summary of changes in general capital assets as presented in the governmental activities column of the government-
+wide financial statements is as follows:
+
+                                         Balance                                                  Balance
+                                       July L 2023          Additions         Deletions         June 30, 2024
+Buildings                                350,000                                                  350,000
+Improvements                             469,076                                                  504,091
+           Total                         819,076                                                  854,091
+
+       Accumulated depreciation         (320,314)                                                 (353,910)
+
+            Capital assets - net        498.762                                                    500.181
+
+All assets of the Board are being depreciated. Depreciation expense was $33,596 for the fiscal year end. Accumulated
+depreciation was $151,667 for the industrial building, $202,243 for improvements.
+
+
+
+
+                                                            19
+
+[[page 27]]
+                               Industrial Development Board of the City of Westmoreland
+
+                                                Notes to Financial Statements
+
+                                                       June 30, 2024
+
+ (4)       Long-Term Debt
+
+ A summary of changes in long-term debt as presented in the government-wide financial statements is as follows:
+
+                                      Balance                                             Balance          Due Within
+  Notes Payable:                    Jul 1, 2023        Additions       Retirements     June 30, 2024        One Year
+
+
+       Building Loan                $     241,939       $              $   28,758       $    213,181        $   34,195
+                       Total        $     241 ,939      $              $   28,758       $    213,181        $   34 195
+
+ The proceeds of the loan were for the purchase of the building and to make improvements to the building. The above
+ loan payable contains provisions that in the event of default, the lender can use any remedy allowed by state or federal
+ law.
+
+Principal and interest requirements to maturity on all outstanding loans and obligations as of June 30, 2024 are as
+follows:
+
+           Year Endimr                  Principal           Interest
+               2025                      34,195              7,565
+               2026                      35,649              6,111
+               2027                      37,164              4,596
+               2028                      38,743              3,017
+              2029                       40,930                830
+              2030                       26,500                313
+              Total                     213.181             ~
+
+(5)       Commitments and Contingencie~
+
+Economic Dependen~.;y
+
+The Board obtains a substantial amount of funds from few entities. A significant reduction in the level of such support,
+if this were to occur, might affect the Board's ability to carry out its programs and activities.
+
+Litigation:
+
+There are no pending lawsuits in which the Board is involved which are significant to the financial statements.
+
+(6)       Hisk Management
+
+The Board carries commercial insurunce For the majority of risks of loss, including general liability, property and
+casualty workers' compensation and environmental. Settled claims from these risks have not exceeded commercial
+insurance coverage in any of the past Ull"ee fiscal years.
+
+
+
+
+                                                             20
+
+[[page 28]]
+SUPPLEMENTAL
+ INFORMATION
+
+[[page 29]]
+                   INDUSTRIAL DEVELOPMENT BOARD of the CITY OF WESTMORELAND
+
+                                Schedule of Cash and Cash Equivalents
+                                              All Funds
+
+                                            June 30, 2024
+
+
+                                                                              Carrying
+                                                                               Value
+
+General Fund:
+  Checking                                                                    $113,876
+  Certificate of deposit                                                       155,169
+     Total General Fund                                                        269,045
+
+
+     Total -All funds                                                         $269,045
+
+
+
+
+                                              22
+
+[[page 30]]
+       INDUSTRIAL DEVELOPMENT BOARD of the CITY OF WESTMORELAND
+
+                        Schedule of Debt Service Requirements
+
+                                      June 30, 2024
+
+
+                                                            Total        Total
+            BUILDING LOAN
+Year       Principal    Interest                           Principal     Interest
+
+2025   $     34,195           7,565                             34,195           7,565
+2026         35,649           6,111                             35,649           6,111
+2027         37,164           4,596                             37,164           4,596
+2028         38,743           3,017                             38,743           3,017
+2029         40,930             830                             40,930             830
+2030         26,500             313                             26,500             313
+
+       $    213,181          22,432                           213,181        22,432
+
+
+
+
+                                                      23
+
+[[page 31]]
+                          INDUSTRIAL DEVELOPMENT BOARD of the CITY OF WESTMORELAND
+
+                                  Schedule of Changes in Long-tenn Debt by Individual Issue
+
+                                                        June 30, 2024
+
+                                                                                                                                      Paid and/or
+                                         Original                             Date             Last                          Issued    Matured      Refunded
+                                         Amount            Interest            of             Maturity    Outstanding        During     During       During    Outstanding
+                                         of Issue            Rate             Issue            Date        7/l/2023          Period     Period       Period     6/30/2024
+
+Governmental Activities
+
+NOTES PAYABLE
+
+  Building Loan                           550,000               6.50%         2010            12/1/2029   $   241 ,939                $ 28,758                 $   213,181
+
+Total Notes Payable                                                                                       $   241,939    $            $ 28,758      $          $   213,181
+
+
+
+
+                                                                                               24
+
+[[page 32]]
+ COMPLIANCE AND
+INTERNAL CONTROL
+
+[[page 33]]
+                              .JOHN           R.     POOLE,               CPA
+                                CERTIFIED PUBLIC ACCOUNTANT
+
+1 34 NORTHLAKE DRIVE                                                                      (61 5) 822-41 77
+HENDERSONVILLE, TN         37075
+
+
+
+
+       INDEPENDENT AUDITOR'S REPORT ON INTERNAL CONTROL OVER FINANCIAL
+     REPORTING AND ON COMPLIANCE AND OTHER MATTER BASED ON AN AUDIT OF
+                      FINANCIAL STATEMENTS PERFORlVIED
+              IN ACCORDANCE 'WITH GOVERNMENT AUDITING STANDARDS
+
+   Board of Directors
+   Industrial Development Board of the City of Westmoreland
+   Westmoreland, Tennessee
+
+  I have audited the financial statements of the governmental activities and the major fund in accordance with
+  auditing standards generally accepted in the United States of America and the standards applicable to
+  financial audits contained in Government Auditing Standards, issued by the Comptroller General of the
+  United States, the financial statements of the Industrial Development Board of the City of Westmoreland
+  a component unit of the City of Westmoreland, as of and for the year ended June 30, 2024, and the related
+  notes to the financial statements, which collectively comprise the Industrial Development Board of the City
+  of Westmoreland's basic financia l statements, and have is ued a report thereon dated November 30 2024.
+
+  lntemal Control Over Financial Reporting
+
+  In planning and performing my audit of the financial statements, I considered the Industrial Development
+  Board of the City of Westmoreland's internal control over financial reporting (internal control) as a basis
+  for designing the audit procedures that are appropriate in the circumstances for the purpose of expressing
+  an opinion on the financial statements, but not for the purpose of expressing an opinion on the effectiveness
+  of the Industrial Development Board of the City ofWestmoreland's internal control. Accordingly , I do not
+  express an opinion on the effectiveness of the Industrial Development Board of the City of Westmoreland's
+  internal control.
+
+  A deficiency in intemal control e ists when the design or operation of a control does not allow management
+  or employees in the normal course of performing their assigned functions, to prevent or detect and c01tect
+  misstatements on a tim ly basis. A material weakness is a deficiency or combination of deficiencies in
+  internal control such that there is a reasonable possibility that a material misstatement of the entity s
+  financial statements will not be prevented or detected and corrected on a timely basis. A significant
+  deficiency is a deficiency or a combination of deficiencies, in internal control that is less severe than a
+  material weakness, yet important enough to merit attention by those charged with governance.
+
+  My cons ideration of the internal control was for the limited purpose described in the preceding paragraph
+  and was not designed to identify all deficiencies in internal control that might be material weaknesses or
+  significant deliciencies and therefore, mat rial weaknesses or significant deficiencies may exist that were
+  not identified. 1 did identify certain deficiencies in internal control, d scribed in the a companying Schedule
+  of Findings and Responses as item 2024-001 that I consider to be a material weakness.
+
+
+
+
+                                                       26
+
+[[page 34]]
+Compliance and Other Matters
+As part of obtaining reasonable assmance about whether the Industrial Development Board of the City of
+Westmoreland's financial statements are fTee of material misstatement, I perfonned tests of its compliance
+with certain provisions of laws, regulations, contracts and grant agreements, noncompliance with which
+could have a direct and material effect on the determination of the financial statement amounts. However,
+providing an opinion on compliance with those provisions was not an objective of the audit and,
+accordingly, I do not express such an opinion. The results of the tests disclosed no instances of
+noncompliance or other matters that are required to be repmted under Government Auditing Standard .
+
+Response to Finding
+The Industrial Development Board of the City of Westmoreland ' s re ponse to the finding identi-fied in the
+audit is described in the Schedule of Findings and Responses. The IndustTial Development Board of the
+City of Westmoreland's response was not subjected to the auditing procedures applied in the audit of the
+financial statements and, accordingly, I express no opinion on it.
+
+Pu:mose of This Report
+The purpose of this report is solely to describe the scope of the testing of internal control and compliance
+and the result of that testing, and not to provide an opinion on the effectiveness of the entity 's internal
+control or on compliance. This report is an integral part of an audit performed in accordance with
+Government Auditing Standards in considering the entity s internal control and compliance. Accordingly ,
+this communication is not suitable for any other purpose.
+
+
+
+
+November 30, 2024
+
+
+
+
+                                                   27
+
+[[page 35]]
+                        Industrial Development Board of the City of Westmoreland
+
+                                   Schedule of Findings and Responses
+
+                                              June 30, 2024
+
+
+2024-001 - Separation of Duties
+
+       Condition: The Industrial Development Board of the City of Westmoreland currently has one
+       employee that works in performing the majority of the accounting functions for the Board. Due to
+       only having one employee performing the accounting transactions there is currently an inadequate
+       segregation of duties.
+
+      Criteria: Generally accepted accounting principles require that accounting functions be adequately
+      segregated to ensure that the internal accounting controls are effective.
+
+      Cause: The Board has a limited number of office employees to provide for a proper division of
+      duties.
+
+      Effect: The risk of enors and irregularities occurring and not being detected in a timely manner
+      along with the possibility of fraud or misappropriation of assets increases when accounting functions
+      are not adequately segregated.
+
+      Recommendation: For adequate separation of duties, the employee who wlites receipts, prepares
+      and makes bank deposits, or writes checks should neither reconcile bank statements nor post to the
+      cash receipts and disbursements journals.
+
+      Response: "We agree that the staff size will not allow the Board to segregate duties to the optimum
+      level desired. There is only one employee working in the depru1ment so it is virtually impossible to
+      segregate duties unless more staff could be hired and due to the finances of the Boru·d, we could not
+      financially hire additional office help."
+
+
+
+
+                                                  28
+
+[[page 36]]
+                         Industrial Development Board of the City ofWestmoreland
+
+                              Schedule of Disposition of Prior Year Comments
+
+                                                 June 30, 2024
+
+
+
+
+Finding Numb>'!r                    Finding Title                           Status
+
+  2023 - 00 L                      Separation of Duties                    Repeated
+
+
+The original finding number was 2011-001 . The current year finding number is 2024-001.
+
+
+
+
+                                                      29
+
+[[page 37]]
+                                          City of Westmoreland
+                                                1001 Park Street • P.O. Box 8
+                                                  Westmoreland, TN 37186
+                                                                                                Phone: 615.644.3382
+                                                                                                 Fax: 615.644.3950
+
+
+
+
+                               Management's Corrective Action Plan
+
+Audit period: June 30, 2024
+
+The findings from the June 30, 2024, Schedule ofFindings and Responses are discussed below.
+
+2024-001 Segregation of Duties (Internal Control)
+
+       Contact person: Meredith Kendall-Jenkins
+
+       Planned Corrective Action: We agree that the staff size will not allow the Board to segregate duties
+       to the optimum level desired. There is only one employee working in the department so it is virtually
+      .impossible to segregate duties unless more staff could be hired and due to the finances of our small
+      town, we could not financially hire additional office help."
+
+      Anticipated Complc;:tion Date: At the current time, due to our size, we do not believe we can fully
+      segregate these duties. We will continue to improve and strengthen our internal controls, but we
+      cannot give a definite date.
+
+
+
+
+                                                      30
+                                               westmorelandtn.gov
+                     "The City of Westmoreland is an equal opportunity provider and employer"

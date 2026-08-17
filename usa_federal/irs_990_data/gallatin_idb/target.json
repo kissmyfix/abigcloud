@@ -1,0 +1,276 @@
+{
+  "year": 2020,
+  "form": "990-EZ",
+  "ein": "38-4171308",
+  "initial_return": true,
+  "beg_assets": 102948,
+  "end_assets": 88304,
+  "gross_rev": 100048,
+  "prog_rev": 100048,
+  "prof_fees": 39586,
+  "itemized_exp": [
+    {
+      "label": "Payments in lieu of Taxes Pilot to Summer County",
+      "amount": 69549
+    },
+    {
+      "label": "Legal",
+      "amount": 5557
+    }
+  ],
+  "books_care": "Preston Stark, 132 West Main Street, Gallatin, TN 37066",
+  "signed_by": "Preston Stark",
+  "sign_title": "Contracted Board Administrator",
+  "preparer": "J Michael Patterson",
+  "preparer_addr": "8609 Belle Mina Way, Knoxville, TN 37923",
+  "audit_flags": [
+    "Name misspelled on form: 'Developement'",
+    "Purpose misspelled on form: 'developement'",
+    "Schedule O misspells the county: 'Summer County'",
+    "Initial return checked, yet beginning net assets are $102,948",
+    "Part III program services ($70,548 to Sumner County/Beretta/Bradford) cannot be reconciled with Schedule O's line 16 breakdown ($69,549 all to 'Summer County' plus $5,557 legal)",
+    "Two of the three largest program service accomplishments are payments to private for-profit corporations"
+  ]
+}
+{
+  "year": 2021,
+  "form": "990",
+  "ein": "38-4171308",
+  "initial_return": true,
+  "beg_assets": 88304,
+  "end_assets": 98131,
+  "gross_rev": 145425,
+  "prog_rev": 145425,
+  "prof_fees": null,
+  "itemized_exp": [
+    {
+      "label": "Legal",
+      "amount": 18096
+    },
+    {
+      "label": "Accounting",
+      "amount": 750
+    },
+    {
+      "label": "Other fees for services",
+      "amount": 3966
+    },
+    {
+      "label": "Insurance",
+      "amount": 1204
+    },
+    {
+      "label": "Property taxes",
+      "amount": 107488
+    },
+    {
+      "label": "Lawn care Industrial Park",
+      "amount": 5211
+    },
+    {
+      "label": "Public notice",
+      "amount": 87
+    }
+  ],
+  "books_care": "Preston Stark, 132 W Main St, Gallatin, TN 37066, (615) 992-5588",
+  "signed_by": "Preston Stark",
+  "sign_title": "Board Administrator",
+  "preparer": "Joe Osterfeld CPA",
+  "preparer_addr": "PO Box 807, Columbia, TN 38402-0807",
+  "audit_flags": [
+    "Initial return checked for a second consecutive year",
+    "Year of formation reported as 2020",
+    "Part III line 4a misspells 'county' as 'couty' and names the county as Gallatin",
+    "Part III line 4a misspells 'expenses' as 'expeses'",
+    "Chair's given name spelled 'Allan' here and 'Allen' on the 2020 filing",
+    "Prior-year total expenses restated as $114,690; the 2020 filing itself reported $114,692",
+    "Largest expense is $107,488 of 'Property taxes' against $123,537 of 'Pilot payments' revenue",
+    "Schedule O states the board reviews the Form 990 only after it is filed",
+    "Part VI line 11a answers Yes (board given a complete copy before filing) while Schedule O on the same return states the board reviews it only after filing"
+  ]
+}
+{
+  "year": 2022,
+  "form": "990",
+  "ein": "38-4171308",
+  "initial_return": false,
+  "beg_assets": 98131,
+  "end_assets": 187602,
+  "gross_rev": 334268,
+  "prog_rev": 334268,
+  "prof_fees": null,
+  "itemized_exp": [
+    {
+      "label": "Legal",
+      "amount": 15627
+    },
+    {
+      "label": "Accounting",
+      "amount": 400
+    },
+    {
+      "label": "Advertising and promotion",
+      "amount": 683
+    },
+    {
+      "label": "Office expenses",
+      "amount": 269
+    },
+    {
+      "label": "Occupancy",
+      "amount": 8890
+    },
+    {
+      "label": "Insurance",
+      "amount": 2408
+    },
+    {
+      "label": "PROPERTY TAXES",
+      "amount": 141791
+    },
+    {
+      "label": "PAYMENT SUMNER COUNTY SCHOOL",
+      "amount": 74622
+    },
+    {
+      "label": "FEES",
+      "amount": 107
+    }
+  ],
+  "books_care": "PRESTON STARK, 132 W MAIN STREET, GALLATIN, TN 37066, (615) 992-5588",
+  "signed_by": "PRESTON STARK",
+  "sign_title": "BOARD ADMINISTR",
+  "preparer": null,
+  "preparer_addr": "114 Canfield Place A-7, Hendersonville, TN 37075",
+  "audit_flags": [
+    "Name misspelled on form: 'DEVELOPMNET'",
+    "'City of' dropped from the organization name, leaving 'OF THE GALLATIN TN'",
+    "Mission misspells 'ADMINSTRATION' and 'PAYMNETS'",
+    "Mission names the county as Gallatin, now as an explicit parenthetical: 'THE COUNTY (GALLATIN)'",
+    "Mission statement replaced entirely versus 2021, yet Part III lines 2 and 3 are both answered No",
+    "Accounting method changed from cash to accrual versus 2021",
+    "First appearance of a 'PAYMENT SUMNER COUNTY SCHOOL' expense line",
+    "Part III line 4a still describes the program as 'RECRUIT AND FACILITATE INDUSTRIAL DEVELOPMENT', contradicting the mission line on the same return",
+    "Additional Data misprints 'TH ECITY'",
+    "Board member surname spelled 'ASSANTTE'; the 2020 and 2021 filings spell it 'Assante'",
+    "Zero Forms 1096 filed",
+    "Part VI line 11a answers Yes (board given a complete copy before filing) while Schedule O on the same return states the board reviews it only after filing"
+  ]
+}
+{
+  "year": 2023,
+  "form": "990",
+  "ein": "38-4171308",
+  "initial_return": false,
+  "beg_assets": 187602,
+  "end_assets": 904342,
+  "gross_rev": 1796648,
+  "prog_rev": 1796648,
+  "prof_fees": null,
+  "itemized_exp": [
+    {
+      "label": "Accounting",
+      "amount": 4641
+    },
+    {
+      "label": "Office expenses",
+      "amount": 1755
+    },
+    {
+      "label": "Occupancy",
+      "amount": 9384
+    },
+    {
+      "label": "Insurance",
+      "amount": 1204
+    },
+    {
+      "label": "PILOT FEES DISTRIBUTED",
+      "amount": 155475
+    },
+    {
+      "label": "PAYMENT SUMNER COUNTY SCHOOL",
+      "amount": 901080
+    },
+    {
+      "label": "FEES",
+      "amount": 3032
+    },
+    {
+      "label": "MISCELLANEOUS",
+      "amount": 3337
+    }
+  ],
+  "books_care": "PRESTON STARK, 132 W MAIN STREET, GALLATIN, TN 37066, (615) 992-5588",
+  "signed_by": "PRESTON STARK",
+  "sign_title": "BOARD ADMINISTR",
+  "preparer": null,
+  "preparer_addr": "114 Canfield Place A-7, Hendersonville, TN 37075",
+  "audit_flags": [
+    "Part III lines 2 and 3 are both left blank, neither Yes nor No",
+    "Expense line renamed from 'PROPERTY TAXES' to 'PILOT FEES DISTRIBUTED' versus 2022",
+    "Received $1,758,136 in PILOT payments and distributed $155,475; retained $716,740, taking net assets from $187,602 to $904,342",
+    "Board size dropped from 9 to 8",
+    "Part III line 4a still describes the program as 'RECRUIT AND FACILITATE INDUSTRIAL DEVELOPMENT', contradicting the mission line on the same return",
+    "Additional Data misprints 'TH ECITY'",
+    "Zero Forms 1096 filed",
+    "Part VI line 11a answers Yes (board given a complete copy before filing) while Schedule O on the same return states the board reviews it only after filing"
+  ]
+}
+{
+  "year": 2024,
+  "form": "990",
+  "ein": "38-4171308",
+  "initial_return": false,
+  "beg_assets": 904342,
+  "end_assets": 148027,
+  "gross_rev": 2242221,
+  "prog_rev": 2242221,
+  "prof_fees": null,
+  "itemized_exp": [
+    {
+      "label": "Management",
+      "amount": 12000
+    },
+    {
+      "label": "Office expenses",
+      "amount": 1766
+    },
+    {
+      "label": "Occupancy",
+      "amount": 6364
+    },
+    {
+      "label": "Insurance",
+      "amount": 1204
+    },
+    {
+      "label": "PILOT FEES DISTRIBUTED",
+      "amount": 2291692
+    },
+    {
+      "label": "PAYMENT SUMNER COUNTY SCHOOL",
+      "amount": 640457
+    },
+    {
+      "label": "CONSULTING FEES",
+      "amount": 45000
+    },
+    {
+      "label": "MISCELLANEOUS",
+      "amount": 53
+    }
+  ],
+  "books_care": "PRESTON STARK, 132 W MAIN STREET, GALLATIN, TN 37066, (615) 992-5588",
+  "signed_by": "PRESTON STARK",
+  "sign_title": "BOARD ADMINISTRATOR",
+  "preparer": null,
+  "preparer_addr": "114 Canfield Place A-7, Hendersonville, TN 37075",
+  "audit_flags": [
+    "$45,000 consulting fees and $12,000 management fees reported with zero Forms 1096 filed",
+    "Distributed $2,291,692 in PILOT fees against $2,210,996 received, drawing net assets down from $904,342 to $148,027",
+    "Schedule O misspells 'AVALIBLE'",
+    "Part VI line 11a answered No: the board is not given the return before filing (2021-2023 answered Yes)",
+    "Allan Ramsey drops from Chair to board member; Neil Burgess becomes Chair"
+  ]
+}

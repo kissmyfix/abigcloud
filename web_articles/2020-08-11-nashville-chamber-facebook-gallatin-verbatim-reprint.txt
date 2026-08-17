@@ -1,0 +1,24 @@
+SOURCE: Nashville Area Chamber of Commerce (posted as a "blog" entry)
+HEADLINE: Facebook to Build $800 Million Data Center in Gallatin, Tennessee
+DATE: August 11, 2020
+URL: https://www.nashvillechamber.com/blog/facebook-to-build-800-million-data-center-in-gallatin-tennessee/
+RETRIEVED: 2026-08-17
+WHY SAVED: REPRINT #1. The state press release republished word for word, including the
+all-caps release headline, the bulleted release summary lines, the "NASHVILLE, Tenn. --"
+dateline, and the "QUOTES" section header. No byline. No original reporting of any kind.
+FORENSIC NOTE: renders "energy- and water- efficient" with a stray space, matching the
+Business Facilities copy but NOT the tn.gov page -- suggesting both worked from the same
+emailed/distributed version rather than the web page.
+---
+[Full text as published: identical to the TNECD release saved alongside this file, with the
+complete untrimmed quotes from Lee, Rolfe, Peterson, Brown, Bradley, Haile, Lamberth and
+Weaver, closing with: "For more information, follow the Gallatin Data Center page on
+Facebook: www.Facebook.com/GallatinDataCenter."]
+
+Key verbatim paragraph:
+
+"The Facebook Gallatin Data Center will be among the most advanced, energy- and water-
+efficient data center facilities in the world. It will be supported by 100 percent renewable
+energy, will use 80 percent less water than the average, and, once completed, will be LEED
+Gold certified. Facebook has already partnered with the TVA to bring 220 MW of new solar
+energy to the Tennessee Valley to support Facebook's operations in the region."
