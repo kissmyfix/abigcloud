@@ -1,0 +1,1150 @@
+[[page 1]]
+ GALLATIN DEPARTMENT OF ELECTRICITY
+ELECTRIC DEVELOPMENT &
+ INFRASTRUCTURE POLICY
+
+[[page 2]]
+GDE COMBINED ELECTRIC POLICY - TABLE OF CONTENTS (2 PAGES)
+     * CLICK ON A SECTION TITLE TO JUMP TO A SPECIFIC SECTION. CLICK ON THE FOOTER TO RETURN TO THIS LIST. *
+
+            * CLICK ON ANY PURPLE TEXT WITHIN THE DOCUMENT TO JUMP TO A SPECIFIC REFERENCE. *
+
+
+GENERAL INFORMATION .......................................................................................................... 4
+  PURPOSE ...................................................................................................................... 4
+  DISCLAIMER................................................................................................................... 4
+  LARGE LOAD CUSTOMER DISCLAIMER (5MW AND ABOVE) ........................................................ 4
+  SCOPE ......................................................................................................................... 4
+  ADHERENCE TO GDE POLICIES AND PROCEDURES .................................................................. 5
+DEVELOPMENT PROCESS ........................................................................................................ 6
+  DEVELOPER REQUIREMENTS .............................................................................................. 6
+  CONSTRUCTION ............................................................................................................. 6
+  APARTMENTS/ MULTI-UNIT DWELLINGS/ MULTI-SERVICE BUILDINGS ........................................... 7
+  MODULAR AND MANUFACTURED HOMES .............................................................................. 7
+  GDE POLE SETTING SPECIFICATIONS ................................................................................... 7
+  COST ........................................................................................................................... 8
+  OWNERSHIP/REPAIRS ...................................................................................................... 9
+  EMERGENCIES / ACTS OF GOD ......................................................................................... 10
+SECONDARY TERMINATION ENCLOSURES ........................................................................... 11
+DECORATIVE STREET LIGHTING ............................................................................................ 12
+  APPROVED LIGHT FIXTURES ................................................................................................ 12
+  STANDARDS ................................................................................................................. 13
+  OVERVIEW................................................................................................................... 13
+  PROCEDURE TO HAVE LIGHTS ENERGIZED ............................................................................ 13
+  BILLING ...................................................................................................................... 13
+APPROVED METER BASES ..................................................................................................... 14
+  SELF-CONTAINED METER BASES ....................................................................................... 14
+  INSTRUMENT RATED METER BASES .................................................................................... 14
+  PEDESTAL SERVICE ENTRANCE ......................................................................................... 14
+  METER BASE SPECIFICATIONS & NOTES .............................................................................. 15
+  ELECTRIC UTILITY ROOMS ............................................................................................... 16
+TEMPORARY ELECTRIC SERVICE ........................................................................................... 17
+  TEMPORARY BOARD SPECIFICATIONS ................................................................................. 17
+  TEMPORARY BOARD COSTS ............................................................................................. 17
+
+
+                                     ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                                          2 of 34
+
+[[page 3]]
+TRANSFORMER CLEARANCE AND FIRE BARRIER WALL ...................................................... 18
+  MINIMUM CLEARANCE REQUIREMENTS ............................................................................... 18
+  FIRE-RESISTANT BARRIER REQUIREMENTS ........................................................................... 18
+SPECIFICATIONS .................................................................................................................... 19
+  GDE UNDERGROUND PRIMARY/SECONDARY SPECIFICATIONS ................................................. 19
+  GDE UNDERGROUND SERVICE SPECIFICATIONS................................................................... 20
+  GDE DECORATIVE LIGHT SPECIFICATIONS .......................................................................... 21
+  GDE DECORATIVE LIGHT INSPECTIONS .............................................................................. 21
+REFERENCES .......................................................................................................................... 22
+  GALLATIN DEPARTMENT OF ELECTRICITY PLANNING COMMENTS ............................................... 22
+  GDE FINAL CONDUIT INSPECTION CHECKLIST ..................................................................... 24
+  LABEL – LABELING FOR MULTI-METERED INSTALLATIONS ....................................................... 25
+  UG TB – UNDERGROUND TEMPORARY BOARD SERVICE DIAGRAM ............................................. 26
+  UMT-1 – TRANSFORMER CLEARANCE REQUIREMENTS FOR PAD-MOUNT TRANSFORMER................. 27
+  SL-01 – DECORATIVE STREET LIGHT FOOTING DETAIL ............................................................ 28
+  UGSECV – SECONDARY VAULT ....................................................................................... 29
+  UMF-1P – TRANSFORMER GROUND SLEEVE DETAIL SINGLE PHASE DIAGRAM.............................. 30
+  UPV-1P & UPV-3P – PRIMARY VAULT GROUND SLEEVE DETAIL SINGLE & THREE PHASE DRAWING . 31
+  UDIST – UNDERGROUND DISTRIBUTION SYSTEM .................................................................. 32
+  USEC – UNDERGROUND SECONDARY CONDUIT SYSTEM ....................................................... 33
+  UM-3P – CONCRETE PAD DETAIL THREE PHASE PAD MOUNTED TRANSFORMER DRAWING ............. 34
+
+
+
+
+                                       ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                                           3 of 34
+
+[[page 4]]
+GENERAL INFORMATION
+PURPOSE
+   * THE PURPOSE OF THIS DOCUMENT IS TO PROVIDE AND ESTABLISH GUIDELINES FOR THE DESIGN, CONSTRUCTION,
+     AND/OR RELOCATION OF FACILITIES UNDER GALLATIN DEPARTMENT OF ELECTRICITY’S (GDE’S) OVERSIGHT. *
+
+
+DISCLAIMER
+This communication is provided for informational purposes only and does not constitute a guarantee,
+commitment, or binding obligation by the Gallatin Department of Electricity (“GDE”) to provide electric
+service within any specific timeframe. The availability and timing of service are dependent, in part, upon
+generation and transmission infrastructure owned and operated by the Tennessee Valley Authority
+("TVA"), over which GDE has no control.
+
+Additionally, electric system capacity, planning, and operations are subject to change due to the dynamic
+nature of maintaining and operating an electrical distribution network, including but not limited to system
+loading, infrastructure constraints, regulatory requirements, and unforeseen conditions.
+
+Accordingly, GDE makes no representation or warranty regarding the timing of when service may become
+available and expressly reserves all rights in this regard.
+
+LARGE LOAD CUSTOMER DISCLAIMER (5MW AND ABOVE)
+    * LARGE LOAD CUSTOMERS (THOSE WITH EXPECTED LOADS  5MW) MUST INDEPENDENTLY COORDINATE AND
+ COMMUNICATE DIRECTLY WITH TVA REGARDING LOAD SERVICING CAPABILITIES, COSTS, AND PROJECTED TIMELINES. *
+
+Any prospective customer requesting electric service of 5 MW or greater shall be solely responsible for
+independently verifying and confirming the capabilities, costs, and projected timelines of the Tennessee
+Valley Authority (“TVA”) through direct communication with TVA.
+
+The Gallatin Department of Electricity (“GDE”) makes no representation or warranty, express or implied,
+regarding TVA’s ability to provide service, nor the timing or cost associated therewith. By proceeding with
+a service request, the customer agrees to assume all risks associated with TVA’s planning, approvals,
+and construction processes, and further agrees to indemnify, defend, and hold GDE harmless from and
+against any and all claims, damages, losses, or liabilities arising out of or related to delays, changes in
+cost, or other modifications to service availability attributable to TVA.
+
+SCOPE
+This document covers GDE’s full design process for both commercial and residential development.
+
+The policies, procedures, and requirements outlined in this document apply to all property owners,
+developers, contractors, subcontractors, and third parties involved with the design, construction, and
+relocation of (and/or provision of access to) GDE facilities.
+
+Note: If you are looking for a high-level (not-comprehensive) description of requirements for the City Planning review
+process, see “Gallatin Department of Electricity Planning Comments” on pgs. 22-23.
+
+
+
+
+                                   ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                                   4 of 34
+
+[[page 5]]
+ADHERENCE TO GDE POLICIES AND PROCEDURES
+* COMPLIANCE WITH THE REQUIREMENTS OUTLINED IN THIS POLICY IS MANDATORY AND IS STRICTLY ENFORCED. *
+
+GDE’s policies and procedures must be adhered to by all involved parties throughout the design,
+construction, and operational phases.
+
+Failure to comply with this policy may result in rejection of the owner’s or developer’s/contractor’s
+electrical infrastructure and/or a delay in project approval or utility service connection. If GDE rejects any
+part of the electrical infrastructure, the customer or developer/contractor must replace or re-install the
+rejected items to GDE’s satisfaction and must do so at their own expense.
+
+Note: Compliance with GDE requirements does not exempt customer from adherence to all applicable building/ fire
+codes and standards.
+
+
+
+
+                                 ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                              5 of 34
+
+[[page 6]]
+DEVELOPMENT PROCESS
+DEVELOPER REQUIREMENTS
+                 * THE DEVELOPER IS RESPONSIBLE FOR ENSURING THE COMPLETION OF EACH OF THE
+           FOLLOWING ACTION ITEMS FOR ALL CONSTRUCTION PROJECTS (COMMERCIAL OR RESIDENTIAL). *
+
+    Submitting a City-of-Gallatin approved FMDP CAD site file utilizing the Tennessee State Plane
+     Coordinate system to the GDE Engineering Department
+    Providing a detailed load sheet to GDE Engineering Department
+    Requesting an electrical layout from GDE
+    Paying any required costs (aid to construction, relocation, etc.)
+    Providing and installing all ditching and conduit
+    Transporting and placing all required ground sleeves per GDE specifications
+    Pouring all pads (if required) per GDE specs
+    Calling GDE for inspection of all ditching and conduit
+    Backfilling ditches one foot and placing GDE supplied, red marking tape
+    E-mailing pictures of GDE supplied, red marking tape after installation
+    Completing backfill of ditches
+    Completing, signing, and returning the GDE Final Conduit Inspection Checklist
+    Scheduling a final inspection by GDE
+   Note: For a full description of all requirements, see the Specifications section, pgs. 19-21, and the GDE Final
+   Conduit Inspection Checklist, pg. 24.
+
+CONSTRUCTION
+            * ALL METER BASES SHALL BE GDE APPROVED METER BASES. ALL METER BASE LOCATIONS MUST
+        BE APPROVED BY GDE’S ENGINEERING DEPARTMENT. REFER TO PGS. 14-16 FOR MORE INFORMATION. *
+
+The use of underground (UG) electric facilities is required in all new commercial and residential
+developments and for all new commercial and residential electric services unless specifically waived by
+the GDE Engineering Department. Provisions shall be made by the developer to loop feed each primary
+line where practical, as determined by GDE’s Engineering Department.
+
+Exceptions may be granted to use overhead (OH) for major feeder lines on a case-by-case basis. All
+exceptions will be provided in writing; no verbal exceptions will be given. Overhead lines require a 30’
+clear easement (15’ from either center line of pole, or from nearest phase, if it is a 3-phase line) provided
+by the developer/owner.
+
+Underground service conductors that are installed on GDE poles will require standoff brackets, be all
+aluminum, and limited to 2 runs and a maximum of 750kcmils. No compressed conductors may be used.
+GDE will assist in installing the conductor up the pole. GDE labor costs during this time onsite will be paid
+by the customer/developer.
+
+
+
+
+                                  ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                                  6 of 34
+
+[[page 7]]
+APARTMENTS/ MULTI-UNIT DWELLINGS/ MULTI-SERVICE BUILDINGS
+Multi-unit buildings/ dwellings and buildings with multiple services shall have meter bases numbered to
+GDE specifications. See Labeling for Multi-Metered Installations, pg. 25, for more information.
+
+Multi-gang meter bases must be approved by GDE’s Metering Department. Meter troughs will not be
+allowed. See Secondary Termination Enclosures, pg. 11, for more information.
+
+MODULAR AND MANUFACTURED HOMES
+     Modular Home – House that comes in more than one piece and is assembled on a lot
+     Manufactured Home – Prefabricated house with axles, manufactured in a factory, that is
+        transported and installed on a lot (commonly referred to as a “trailer” or “mobile home”)
+
+Services to modular/ manufactured homes will be underground. Overhead service to risers or service
+poles will only be allowed if they have been pre-approved by the GDE Engineering Department. The
+service poles must meet GDE’s specifications as well as all current National Electrical Code (NEC) and
+National Electric Safety Code (NESC) requirements. See GDE Pole Setting Specifications, below, for
+more information.
+
+Meter bases may only be mounted on modular/ manufactured homes that have a permanent foundation
+(tongue removed, if applicable) and are certified by the manufacturer that the building is rated for such an
+installation. Homes not meeting these requirements will have underground services to a meter pedestal*
+no more than 20 feet from the building.
+
+*Meter pedestal must be approved by GDE Metering Department. See pgs. 14-16 for more information.
+
+GDE POLE SETTING SPECIFICATIONS
+When setting poles, holes should be backfilled with dirt or other suitable material and should be
+adequately tamped.
+
+  Pole Height (in feet)        Set Depth (in feet)
+            25                         5.5
+            30                         5.5
+            35                          6
+
+
+
+
+                                ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                        7 of 34
+
+[[page 8]]
+COST
+               *AID TO CONSTRUCTION COSTS AND FEES ARE SUBJECT TO CHANGE WITHOUT NOTICE.
+                 PLEASE CONTACT THE GDE ENGINEERING DEPARTMENT FOR UPDATED COSTS. *
+
+Aid to construction costs are as follows:
+     COMMERCIAL
+        •   $45 per linear foot of underground/overhead feeder
+        •   Plus 75% of the transformer cost
+        •   Plus $200 per connected KW
+     RESIDENTIAL
+        •   Single-family - $3,850 per lot
+        •   Apartments - $1,350 per unit (single phase) or full cost of construction (three phase)
+        •   Extensions over 150 feet – additional $15/ft for each foot over 150’
+            (Ex: Single-family extension of 175ft → $3,850+($15/ft*25ft) = $3,850+$375 = $4,225 total)
+     TEMPORARY BOARDS
+        •   $100 temporary board fee
+        •   $400 to install a transformer to feed a temporary board
+
+Developments needing more than 200 amps on the distribution lines, as determined by GDE, will require
+payment of an additional aid to construction cost. This will be calculated per job and will consist of the
+full cost of materials and labor.
+
+The developer shall be responsible for the cost of any line extension required to serve a development.
+Extension costs may include, but are not limited to, any expenses related to:
+   • Acquiring easements
+   • Clearing the right-of-way (if needed)
+   • Construction labor and materials necessary to extend current line to the proposed development
+
+Any cost associated with a development that is above and beyond the GDE standard construction shall
+be at the expense of the developer. Examples include but are not limited to requirements for back-feed or
+redundant service, use of below-grade switchgear, etc.
+
+GDE will maintain ownership of all primary infrastructures, such as wires and transformers, and will be
+responsible for any replacement costs unless a separate ownership agreement is established, in writing,
+between GDE and the owner.
+
+ * ALL COSTS RELATED TO THE AID TO CONSTRUCTION MUST BE PAID IN FULL BY THE DEVELOPER PRIOR TO GDE PLACING
+   ANY MATERIAL ORDERS FOR THE PROJECT. SOME MATERIALS CAN HAVE LEAD TIMES OF 52+ WEEKS. PLEASE ENSURE
+       TIMELY PAYMENT TO AVOID DELAYS IN THE ORDERING PROCESS AND TO KEEP THE PROJECT ON SCHEDULE. *
+
+
+
+
+                               ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                        8 of 34
+
+[[page 9]]
+OWNERSHIP/REPAIRS
+        * GDE RESERVES THE RIGHT, AT ITS SOLE DISCRETION, TO DISCONNECT ELECTRIC SERVICE AND REQUIRE
+       THE CUSTOMER TO UPGRADE/UPDATE ANY CUSTOMER-OWNED METERING EQUIPMENT IF IT IS DETERMINED
+          BY GDE THAT SUCH EQUIPMENT IS FAULTY/ MALFUNCTIONING/ OTHERWISE PRESENTING A POTENTIAL
+           SAFETY HAZARD, OR IF THE EQUIPMENT IS NOT LABELED PROPERLY OR NOT READILY ACCESSIBLE. *
+
+
+GDE will provide and install UG primary wire, transformers, primary connections, and standard above-
+ground switching cabinets. GDE will own all primary equipment & material (unless a separate agreement
+is established, in writing, between GDE and the owner).
+   •   For Commercial Customers – GDE owns and maintains* service wire and service connections on
+       OH services. GDE does not own, locate/mark (TN811 Call Before You Dig), maintain, or repair
+       commercial UG service conduits or cables.
+   •   For Residential Customers – GDE will provide, install, own, and maintain all service wire for UG
+       services that are 400 Amps and below**.
+   Note: The size and number of customer-owned service conductors must be submitted to GDE for review, and written
+   approval from GDE must be received prior to installation. This approval is required for both residential and
+   commercial projects. If customer-owned service connectors are installed before (or without) receiving prior approval
+   from GDE, the developer/owner will be responsible for the cost of any required changes/corrections.
+
+The Developer/Owner will provide and install all service conduits. Risers, meter bases/ CT cabinets/ Tap
+boxes/ etc. are the customer’s responsibility to supply, maintain, and repair. Maintenance includes
+performing any tree trimming for OH services. For residential, the customer will own everything past the
+service connections for OH service. All OH service installations must be approved by GDE’s Engineering
+Department. A 30’ clear path (15’ from either center line of pole, or from nearest phase, if it is a 3-phase
+line) will be required for all OH services.
+    • For Commercial UG Services – Customer will provide, install, own, maintain, and locate all
+      service conduits and service wire that are necessary to serve their facilities/ development.
+    • For Residential and Multi-tenant UG Services
+          o 400 Amps and Below – Customer will own and maintain service conduits
+          o More than 400 Amps – Customer will provide, install, own, maintain, and locate all service
+             conduits and service wire
+           Note: Multi-tenant developments will be required to provide, install, own, and maintain conduit and service
+           wire to all buildings in the development if any one of the buildings exceeds the 400 Amp service size. GDE
+           will not mix GDE service wire and customer service wire in these developments.
+
+The customer will be required to relocate, at their expense, any meter bases with obstructed access or
+that have been enclosed by porches, decks, patios, fences, walls, screens, etc…. Customers will be
+required to re-label any multi-ganged meter bases found to be labeled incorrectly (See Labeling for Multi-
+Metered Installations, pg. 25).
+
+GDE will determine when direct buried service wire must be replaced. Customers with direct buried
+service wire in need of replacement will be responsible for all conduits and ditch work. Upon receipt of
+written notice from GDE, the customer shall promptly undertake and complete all required upgrades in
+compliance with applicable GDE requirements as well as NEC/ NESC requirements. Failure to complete
+required upgrades during the allotted time provided by GDE will result in termination of service until work
+has been completed.
+
+
+
+                                 ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                                 9 of 34
+
+[[page 10]]
+Reconnection of service shall occur only after the required upgrades have been completed and have
+passed a Gallatin Codes Department electric inspection. Commercial and residential customers
+changing out meter bases, risers, service entrance wires, or doing any major electrical work will be
+required to update service to GDE specs, pass any required Gallatin Codes Department electric
+inspections, as well as meet all current NEC and NESC requirements.
+
+*GDE’s maintenance of service wire and service connections on overhead services does not include tree trimming.
+** For residential, the service size is determined by the sum of all the meter bases on a building.
+
+EMERGENCIES / ACTS OF GOD
+   * GDE RESERVES THE RIGHT, AT ITS SOLE DISCRETION, TO RESTORE ELECTRIC SERVICE TO AFFECTED CUSTOMERS
+     AS SOON AS POSSIBLE IN THE EVENT OF AN ACT OF GOD (UNFORESEEN EVENT) OR AN EVENT DEEMED TO BE AN
+   EMERGENCY RECONNECT BY THE GALLATIN CODES DEPARTMENT THAT RESULTS IN THE DISRUPTION OF ELECTRIC
+ SERVICE. IN THESE CASES, SERVICE MAY BE RESTORED EVEN BEFORE THE COMPLETION OF ELECTRICAL INSPECTIONS. *
+
+
+Written notice must be provided to GDE by the Gallatin Codes Department that they deem an event to be
+an emergency.
+
+To expedite reconnection, affected customers and property owners are required to sign a “Release of
+Liability” form provided by GDE.
+
+In signing the “Release of Liability”, the following conditions are acknowledged and accepted:
+     GDE is authorized to reconnect electricity without waiting for electrical inspections
+
+     The customer and property owner understand the potential risks associated with immediate
+        reconnection and agrees to indemnify and hold harmless GDE from any liability, damage, or injury
+        (including injury to third-party guests or invitees of customer and property owner) that may result
+        from the reconnection of electricity before inspections
+     The customer and property owner will promptly arrange for all necessary electrical inspections
+        and repairs to ensure compliance with local codes and safety standards
+     The customer and property owner understand that an inspection by the Gallatin Codes
+        Department must take place within three (3) business days following reconnection of electrical
+        service or GDE reserves the right to disconnect service
+    Note: If the customer and property owner are not the same person, then both parties are required to sign the
+    “Release of Liability” form.
+
+
+
+
+                                  ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                                10 of 34
+
+[[page 11]]
+SECONDARY TERMINATION ENCLOSURES
+             * A DISCONNECT IS ALLOWED IN FRONT OF THE TERMINATION ENCLOSURE. A DISCONNECT
+                 IS NOT ALLOWED BETWEEN THE TERMINATION ENCLOSURE AND THE METER BASE. *
+
+
+GDE will not connect to any new troughs. Secondary termination enclosures (provided by the customer)
+will be used on all new services that require multiple meters where ganged meter bases are not used.
+Existing troughs shall be replaced with secondary termination enclosures when adding new load,
+upgrading service, adding a new service, or replacing GDE’s line-side conductors.
+
+For disconnect/ reconnect purposes, each individual service cable in the termination cabinet shall be
+labeled by unit number, suite number, or space number. The labeling must be approved by GDE’s
+Engineering Department. All conductors shall be routed behind the termination cabinet busbars.
+
+Enclosures are the property of the customer. GDE requires these enclosures to be locked with a GDE
+lock. A GDE employee will unlock the enclosure for the customer when necessary and/or upon request.
+
+The following tables show acceptable part numbers for termination enclosures. Any enclosure not listed
+below must be approved by GDE’s Engineering Department.
+
+
+                 CMC (Connector Manufacturing Company) Wall Mounted Three Phase
+                                                             Dimensions (in)       U.L. Listed Amp Rating
+Catalogue Number      Max Wire Size    # Cond. per Phase
+                                                            W      D        H       Copper      Aluminum
+    LWTE21-500          500 kcmil             21            32       16       51     3800          3100
+    LWTE14-750          750 kcmil             14            32       16       51     3325          2695
+   LWTE14-1000          1000 kcmil            14            32       16       51     3815          3115
+
+
+
+                                      Milbank Multi-Position Tap Box
+                                                               Dimensions (in)
+Catalogue Number      Max Wire Size    # Cond. per Phase                           U.L. Listed Amp Rating
+                                                             W       D        H
+  UAP6094-O-NES         500 kcmil             16            25 /8
+                                                               5
+                                                                    16       43             3000
+  UAP6095-O-NES         500 kcmil             22            32 5/8  16       43             4000
+  UAP6096-O-NES         1000 kcmil            14           25 /16
+                                                              15
+                                                                    16       51             3300
+
+
+
+
+                               ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                        11 of 34
+
+[[page 12]]
+DECORATIVE STREET LIGHTING
+                        * GDE WILL ONLY DESIGN AND SERVICE DECORATIVE STREET LIGHTING FOR AREAS WITH UNDERGROUND
+                      ELECTRIC PRIMARY AND CITY ROADS. IF THE ROAD IS PRIVATE, GDE WILL NOT DESIGN OR SERVICE ANY STREET
+                         LIGHTING. PRIVATE ROAD STREET LIGHTING WILL BE METERED ACCORDING TO GDE SPECIFICATIONS. *
+
+
+APPROVED LIGHT FIXTURES
+                                     * ALL DECORATIVE LIGHT FIXTURES MUST BE PURCHASED THROUGH GDE. *
+                                              * SUMMARY IS FOR INFORMATIONAL PURPOSES ONLY. *
+
+                                 DESIGN                                          SPECIFICATIONS
+
+                                                     Series: WAE3 Washington Postlite LED3
+                                                     Housing: Enhanced – Hinged Door, Black
+OPTION A - Deluxe
+
+
+
+
+                                                     Trim: SK – Spike Finial, Black
+                                                     Optics: GL3 – Glass, Type III
+                                                     LED Info: P30 – 8,100 Nominal Lumens, Color Temp 40K – 4000K CCT
+                                                     Voltage: MVOLT – Auto-Sensing 120-277V 56/60Hz
+                                                     Input Watts: 56
+                                                     Lumens per Watt: 145
+                                                     Control Options: A0 – Field Adjustable Output
+                                                     Control Options: NEMA Twistlock Dimming Photocontrol Receptacle - 7 pin
+
+
+                                                     Series: GPD3 Granville Premier LED3
+                                                     Housing: Modern – Swing Open Design, Black
+OPTION B - Standard
+
+
+
+
+                                                     Trim: (no finial)
+                                                     Optics: GL3 – Glass, Type III
+                                                     LED Info: P30 – 8,800 Nominal Lumens, Color Temp 40K – 4000K CCT
+                                                     Voltage: MVOLT – Auto-Sensing 120-277V 56/60Hz
+                                                     Input Watts: 57
+                                                     Lumens per Watt: 154
+                                                     Control Options: A0 – Field Adjustable Output
+                                                     Control Options: NEMA Twistlock Dimming Photocontrol Receptacle - 7 pin
+
+
+                                                     Series: GVD3 Granville Classic Utility LED3
+                                                     Housing: Modern – Swing Open Design, Black
+OPTION C - Low-Cost
+
+
+
+
+                                                     Trim: (no finial)
+                                                     Optics: GL3 – Glass, Type III
+                                                     LED Info: P30 – 8,400 Nominal Lumens, Color Temp 40K – 4000K CCT
+                                                     Voltage: MVOLT – Auto-Sensing 120-277V 56/60Hz
+                                                     Input Watts: 57
+                                                     Lumens per Watt: 148
+                                                     Control Options: A0 – Field Adjustable Output
+                                                     Control Options: NEMA Twistlock Dimming Photocontrol Receptacle - 7 pin
+
+
+
+
+                                                ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                        12 of 34
+
+[[page 13]]
+STANDARDS
+GDE’s Engineering Department will design and show the street lighting layout on GDE’s conduit plan.
+
+The following general standards will be followed for the street lighting design:
+   • A light will be placed at all public street intersections, roundabouts, and 90˚turns
+   • A light will be placed in all cul-de-sacs
+   • Standard spacing between lights will be approximately 300’ with a max spacing of 400’
+   • Public alleys in residential neighborhoods will not have public street lighting provided
+
+OVERVIEW
+The developer is responsible for the installation of all lights, foundations, conduit, and wire. The
+developer may choose a fixture style from one of the GDE-approved lighting options. The developer will
+provide GDE with one (1) spare decorative streetlight for each fifty (50) installed.
+
+The cost of the lights will be charged as an aid to construction cost. This cost must be paid before GDE
+will order any material. Decorative lights may be picked up by the developer once they have been received
+by GDE’s warehouse.
+
+The developer will be financially responsible for any repairs that are needed for a period of one (1) year
+after the light is energized. The City of Gallatin will assume financial responsibility for any repairs needed
+past the first year following energization of the light.
+
+PROCEDURE TO HAVE LIGHTS ENERGIZED
+Prior to being energized, decorative streetlights must:*
+     Pass a Gallatin Codes Department electrical inspection
+     Meet GDE’s Decorative Light Specifications
+     Pass GDE’s Decorative Light Inspections
+    *See GDE Decorative Light Specifications and GDE Decorative Light Inspections, pg.21, for more information.
+
+BILLING
+Lights are billed according to GDE’s Outdoor Lighting Rate. After inspections have been completed, the
+developer or HOA may have the lights turned on and begin to utilize the outdoor lighting. The lights will be
+billed monthly to the developer or HOA until lights are converted to the City of Gallatin account.
+
+Lights in residential developments will be converted to the City of Gallatin account once a permanent
+resident has service turned on to a house that feeds from the same transformer as the decorative light.
+
+For commercial developments, the lights will be converted to the City of Gallatin account once the
+commercial building has been energized in the final tenant’s name.
+
+The developer or HOA may elect not to energize the decorative streetlights until the lights have been
+converted to the City of Gallatin account.
+
+
+
+
+                                ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                            13 of 34
+
+[[page 14]]
+APPROVED METER BASES
+                            * NON-APPROVED METER BASES WILL NOT BE ENERGIZED BY GDE *
+                                   * ALL METERS MUST HAVE A MINIMUM RATING OF 200 AMPS. *
+
+SELF-CONTAINED METER BASES
+               Size*         Type             Millbank           Durham              Siemens           Eaton
+               200 Amp           OH       U7021-DL-TG-BL             RS213N          UAT37HQU4       UTRS202BCH
+SINGLE PHASE
+
+
+
+
+               200 Amp           UG           U1980-D-BL          UTRS223A     UAS8 / UAS9 / HQW4    UTRS223ACH
+               225 Amp    HOUSE MOD                ---                 ---          WCL204081T1RJ           ---
+               320 Amp           OH            U1079-R-BL              ---             HQST 4        UTH4300TCH
+               320 Amp           UG      U1797-0-K3L-K2L-BL            ---          HQDSW / SWD 4    UTH43369UCH
+               320 Amp      OH / UG             U2448-X              H4330T              ---         UTH4330TCH
+
+               200 Amp      OH / UG            U7423-RXL             H7213T            HQND5                ---
+               200 Amp      OH / UG           U9701-RRL-BL             ---          HQST 7 / HQW 7          ---
+THREE PHASE
+
+
+
+
+               225 Amp     MODULE                  ---                 ---          WCL2040B2T1RJ           ---
+               225 Amp     MODULE                  ---                 ---          WCL2442B3T1RJ           ---
+               320 Amp      OH / UG             U2120-X          UT-H7330-U            HQST 7               ---
+               320 Amp      OH / UG             U2594-X                ---          HQDSW / SWD 7           ---
+               600 Amp    OH / UG         U4667-XT-9506           ---        (K-7T) 9817-9506      CH9506K7
+                     * Multi-ganged, stacked bases, or module bases may be approved on a case-by-case basis. *
+
+INSTRUMENT RATED METER BASES
+          Size           Phase        Terminals          Millbank       Durham         Siemens       Eaton
+     20 Amp*             Single           8              UC7235-RL       R6821-8K          ---        ---
+
+   20 Amp**              Three           13               These meter bases must be purchased from GDE.
+                                                             Contact ghooge@gdetn.com for purchase.
+*8 Terminal base requires an automatic bypass switch.
+**13 Terminal base requires a Durham #1058 or Millbank #TS10-0111 (10 Pole) test switch
+**13 Terminal base must be pre-wired with test switch
+
+PEDESTAL SERVICE ENTRANCE
+           Size          Terminals       Midwest
+     200 Amp                  4          R281C1P6H
+
+
+
+
+                                          ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                             14 of 34
+
+[[page 15]]
+METER BASE SPECIFICATIONS & NOTES
+                  * GDE MUST HAVE UNOBSTRUCTED ACCESS TO THE METER BASE. *
+        * METER MAY NOT BE IN AN AREA CLOSED OFF BY A PORCH, DECK, PATIO, FENCE, WALL, SCREEN, ETC… *
+
+  METER BASES
+  1. Meters should be steel construction and UL approved (with label).
+  2. Meter location must be approved by GDE’s Engineering Department.
+  3. Meter shall be surface mounted and on a permanent structure controlled by the customer.
+  4. Meter may not be in an area closed off by a porch, deck, patio, fence, wall, screen, etc…
+  5. GDE must have unobstructed access to the meter base.
+  6. There must be a six (6) foot clearance from any obstruction in front of the meter base.
+  7. Single and horizontal mounted gang bases shall be mounted five feet six inches (5’6”) from final
+     grade to center of meter opening.
+  8. Vertical mounted gang bases:
+         a. Shall be six (6) feet from final grade to center of top meter opening.
+         b. Shall have a three (3) foot minimum from final grade to center of bottom meter opening.
+  9. When facing the meter, the GDE service wire will enter the left side of the meter base, and
+     customer load wires will exit the right side of the meter base.
+  10. Meters must be installed to NEC requirements.
+  11. Instrument rated bases shall have the ability to be shorted (for meter removal).
+  12. For any service that will be 600 Amps or higher, advanced notice must be given to GDE’s Meter
+     Department. Notice may be given via phone call (615-527-7006) or e-mail (ghooge@gdetn.com).
+  Note: All multi-ganged meter bases must be labeled per Labeling for Multi-Metered Installations, see pg. 25). For
+  additional information on installations, reference the Meter Installations Page on our website.
+
+  INSTRUMENT TRANSFORMERS
+  1. All CT’s and PT’s will be provided by GDE.
+  2. Single phase cabinets must be steel or aluminum construction (36”x36”x12”) with a ¾” plywood
+     backing for mounting of instrument transformers.
+  3. Three phase cabinets must be steel or aluminum construction (48”x48”x12”) with a ¾” plywood
+     backing for mounting of instrument transformers.
+  4. CT cabinets must have provisions for a padlock.
+  5. There must not be any conduit through the top of the CT cabinet.
+  6. The electrician must provide:
+         a. Single Phase – 5 wires (black, red, brown, orange, white)
+         b. Three Phase – 7 wires (black, red, blue, brown, orange, yellow, white)
+  7. Marking tape will not be used on wires.
+  8. All CT and PT wires that are 100’ or fewer will be #12 stranded copper conductors. Distances over
+     100’ require approval from GDE.
+
+      * Questions? Contact GDE’s Meter Department at (615) 527-7006 or ghooge@gdetn.com. *
+
+
+
+
+                                ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                               15 of 34
+
+[[page 16]]
+ELECTRIC UTILITY ROOMS
+                   * FAILURE TO MEET THE ELECTRIC UTILITY ROOM REQUIREMENTS (AS
+               DETERMINED BY GDE) WILL RESULT IN A DISCONNECT OF ELECTRIC SERVICE *
+
+GDE will allow electric meters to be placed inside of a building in an electric utility room provided that all
+clearances and requirements are met. See Approved Meter Bases, pg. 14, and Meter Base Specifications &
+Notes, pg. 15. for more information.
+
+Customer must obtain approval for the use of an electric utility room to house the meters. Approvals will
+only be provided by GDE in writing; no verbal approvals will be given.
+
+Additional requirements for electric utility rooms are detailed below.
+
+   REQUIREMENTS
+   1. The room must be on the ground level and be located on an exterior wall of the building.
+   2. The entrance to the electrical utility room must be in a publicly accessible area.
+   3. GDE personnel must have 24/7, unobstructed access to the electrical utility room.
+   4. A sign reading “Electrical Utility Room” must be installed on the exterior of the door to the (all)
+       electrical utility room(s).
+   5. If a building has more than one electric utility room, a map of all electric utility room locations for
+       the building must be placed on the inside of the door to each electrical utility room.
+   6. The entrance door to the electric utility room must be a minimum size of two feet eight inches by
+       six feet eight inches (2’8” x 6’8”), and the ceiling height must be a minimum of eight (8) feet.
+   7. The electric utility room must be well lit; Lights shall be controlled by a motion activated light
+       switch located adjacent to the door leading into the electric utility room.
+   8. The electric utility room must be used solely for housing GDE metering equipment; It may not be
+       used for storage of any kind.
+   9. There must be a six (6) foot clearance from any obstruction in front of the meter base.
+   10. If having the meters located inside of the building causes any issues with GDE’s Advanced
+       Metering Infrastructure, the building owner will work with GDE to make any corrections or
+       additions necessary to remedy the situation.
+   11. Any necessary corrections or additions must meet GDE’s approval, and the building owner will be
+       responsible for the cost of any such required corrections or additions.
+
+* NOTE: Detailed drawings of the proposed electric utility room must be submitted to GDE for approval. *
+
+
+
+
+                                  ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                        16 of 34
+
+[[page 17]]
+TEMPORARY ELECTRIC SERVICE
+              * AID-TO-CONSTRUCTION COSTS AND FEES ARE SUBJECT TO CHANGE WITHOUT NOTICE.
+             PLEASE CONTACT THE GDE ENGINEERING DEPARTMENT FOR UPDATED COST ESTIMATES. *
+
+TEMPORARY BOARD SPECIFICATIONS
+     LOCATION, LABELING, AND INSPECTION
+        •   The location of the temporary board must be approved by GDE’s Engineering Department
+            prior to installation
+        •   Temporary boards must be clearly labeled with the address and lot number of the property
+        •   A temporary board must pass an electrical inspection conducted by the Gallatin Codes
+            Department each time it is installed or relocated
+     FEED REQUIREMENTS:
+        •   Temporary boards must be fed underground (see UG TB, pg. 26)
+        •   The post and braces for the temporary board must be installed rigidly in the ground and
+            buried to a minimum depth of two (2) feet
+        •   Overhead feeds must be approved by the GDE Engineering Department and have the
+            following additional requirements:
+              o The temporary board must include braces or guys that adequately support the overhead
+                 service conductors and the weight of a 250lb person on a ladder leaned against the
+                 temporary board
+              o The temporary board must include an eyebolt attachment for GDE’s service
+                 conductors, and the attachment point and ground clearance to the service wire must
+                 comply with the NEC and NESC
+              o The overhead temporary board should not be installed more than 100 feet from the pole
+                 that has been approved by GDE to feed the temporary service
+     REMOVAL OF TEMPORARY BOARDS:
+        •   Customers or contractors should contact GDE for the disconnection and/or removal of the
+            meter and service wires when they no longer need the temporary board
+        •   Customers or contractors must not remove a temporary board until the meter and service
+            wires have been disconnected and/or removed by GDE
+
+TEMPORARY BOARD COSTS
+A fee will be charged for each temporary board. This fee only covers the installation and removal of the
+service wire. Meter service charges and deposits are not included in this fee. Additional charges will apply
+for extra trips or work beyond the standard scope.
+
+Additional costs will apply for any transformers that need to be installed to feed a temporary board or for
+any overhead services that have temporary boards requiring more than 100 feet of overhead service wire
+and/or any temporary construction by GDE. The total installation and removal costs must be paid by the
+customer before work begins.
+
+
+
+
+                               ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                        17 of 34
+
+[[page 18]]
+TRANSFORMER CLEARANCE AND FIRE BARRIER WALL
+  * A TRANSFORMER PAD WILL NEVER BE INSTALLED LESS THAN THREE (3) FEET FROM ANY BUILDING OR STRUCTURE. *
+           FAILURE TO COMPLY WITH THIS POLICY MAY RESULT IN THE REJECTION OF SITE LAYOUT DURING PLAN
+          REVIEW, A REQUIREMENT FOR RE-INSTALLATION AT THE CUSTOMER/ CONTRACTOR’S EXPENSE, AND/OR
+       A DELAY IN PROJECT APPROVAL OR UTILITY SERVICE CONNECTION. COMPLIANCE WITH GDE REQUIREMENTS
+        DOES NOT EXEMPT CUSTOMER FROM ADHERENCE TO APPLICABLE BUILDING/ FIRE CODES AND STANDARDS.
+
+MINIMUM CLEARANCE REQUIREMENTS
+There must be a ten (10) foot clear, level path in front of the transformer. There must be three (3) feet of
+level clearance on each side and on the back of the transformer. Transformer doors must face away from
+all adjacent walls and fire barrier walls, including screen walls.
+      COMBUSTIBLE STRUCTURES
+        • Combustible buildings and surfaces (e.g., houses, garages, wood-framed walls) must meet
+           GDE’s requirements for transformer spacing.*
+        • The clearance distance* “A” must be measured from the nearest point of the transformer to
+           the nearest point of the structure and/or egress feature
+        • A ten (10) foot clearance and a clear path must always be maintained on the front side (door
+           side) of the transformer
+      NON-COMBUSTIBLE STRUCTURES
+       If the following conditions are met, transformers may be installed closer than the standard
+       clearance. They must still meet the three (3) foot minimum clearance.*
+          • The exposed wall is constructed to 3-hour fire-rated standards (as determined by the Gallatin
+             Codes Department. Codes must provide written fire-rating standards approval to GDE.)
+          • There is no exposure to combustible eaves, siding, or trim
+          • Any door, window, or air intake within the clearance* is protected by a 3-hour fire-rating
+          *See UMT-1, pg. 27, for more information.
+
+FIRE-RESISTANT BARRIER REQUIREMENTS
+When the required clearance between the transformer and any combustible materials cannot be met due
+to design limitations or site constraints, a fire-resistant barrier must be installed between the
+transformer and the building. The fire-resistant barrier wall and access to the transformer must remain
+code-compliant and serviceable. Barrier walls are owned and maintained by the property owner. Failure
+to maintain barrier walls may result in a disconnection of electric service.
+      ACCEPTABLE FIRE-RESISTANT BARRIERS MUST:
+        • Be free-standing and made of non-combustible materials.
+        • Qualify as a 4-hour firewall, constructed of one of the following materials:
+              o Solid concrete block (CMU)              o Steel
+              o Reinforced concrete                     o Eight-inch (8”) brick
+        • Completely shield* any combustible structure or wall openings from direct exposure to
+           the transformer
+        • Allow for equipment replacement or upgrade (i.e., clearance should accommodate potential
+           variations in transformer size).
+        *See UMT-1, pg. 27, for more information.
+
+
+
+
+                               ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                         18 of 34
+
+[[page 19]]
+SPECIFICATIONS
+GDE UNDERGROUND PRIMARY/SECONDARY SPECIFICATIONS
+
+                                 INSPECTION REQUIREMENTS
+              ALL WORK SHALL BE PERFORMED IN ACCORDANCE WITH GDE'S APPROVED CONDUIT DRAWINGS AND
+               DETAILS. CONDUIT MUST BE INSPECTED AND APPROVED PRIOR TO THE BACKFILLING OF THE DITCH.
+
+           Primary Conduit
+               • Minimum installation depth: 48 inches
+               • Minimum horizontal separation from communications conduits: 12 inches
+               • Minimum vertical separation from other utilities at crossings: 12 inches
+               • Minimum separation when paralleled with other utilities: 60 inches
+
+           Secondary Conduit
+               • Minimum installation depth: 30 inches (or 24 inches for decorative street lighting)
+               • Minimum horizontal and vertical separation from other utilities: 12 inches
+
+           Elbow Requirements
+               • Secondary 3” Sch. 80: 24-inch radius for 90-degree elbows
+ CONDUIT       • Primary 3” Galvanized Conduit: 24-inch radius for 90-degree elbows
+               • Primary 4” Galvanized Conduit: 36-inch radius for 90-degree elbows
+
+           Backfill Specifications
+               • Backfill material must be free of any substances that may damage the conduit
+               • If clean backfill is unavailable, #67 gravel must be used as an alternative
+               • GDE supplied, red marking tape shall be installed over the first 12” of backfill.
+               Note: Pictures may be e-mailed for marking tape inspection.
+
+           Damaged Conduit Note
+           Any conduit that is damaged prior to wire installation must be repaired or replaced by the developer.
+
+           Coordination with GDE
+           All conduit installation within existing GDE equipment must be coordinated with GDE for approval
+           and proper execution.
+                     THE GDE FINAL CONDUIT INSPECTION CHECKLIST (PG. 24) MUST BE COMPLETED,
+  FINAL
+                    SIGNED, AND RETURNED TO GDE BEFORE THE FINAL INSPECTION WILL BE SCHEDULED.
+
+
+
+
+                            ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                                 19 of 34
+
+[[page 20]]
+GDE UNDERGROUND SERVICE SPECIFICATIONS
+These specifications only apply to GDE owned service wire. GDE does not inspect customer owned
+service wire. Customer owned service wire should be inspected by the Gallatin Codes Department.
+
+All construction work shall adhere to the standards set forth by the Occupational Safety and Health
+Administration (OSHA).
+
+                                      INSPECTION REQUIREMENTS
+                           ALL INSPECTION REQUIREMENTS MUST BE MET, AND GRADING MUST BE WITHIN
+                        THREE (3) INCHES OF FINAL GRADE BEFORE REQUESTING AN INSPECTION FROM GDE.
+
+                  • Trench shall be free from construction debris and large, sharp rocks that could potentially
+                    damage the conduit or impede construction
+  TRENCH          • Backfill material must be free of any substances that may damage the conduit
+                      → If clean backfill is not available, #67 gravel must be used as an alternative
+                  Note: Conduit installations shall be inspected prior to backfilling the ditch.
+
+                  • Conduit
+                          o Must be installed in a straight line (direct and uninterrupted path) from GDE’s
+                            secondary vault to the meter base
+                                  ▪    A maximum of two (2) 24-inch radius, 90, Sch. 80 PVC elbows may be used
+                                       for each conduit run
+                                  ▪    Additional elbows or sharper turns must have written approval from GDE
+                          o Must not be located under any permanent structures
+                          o Minimum installation depth of 30 inches
+ CONDUIT                  o A Minimum Separation of 12 inches (both horizontal and vertical) must be
+                              maintained between all conduit and any other utilities (except AT&T/Comcast
+                              service drops, which may be closer)
+                          o 200-400 Amp Services must use 3” Sch. 40 PVC
+                          o Services above 400 Amps will be inspected by Gallatin Codes Department since
+                            the customer will provide, install, and own the service wire
+                          o Above Ground Conduit must be Sch. 80 PVC
+                  • Pull Strings must be installed on all conduit runs
+                  • Expansion Joints are required below the meter base on all services
+
+   METER          • Must meet GDE’s meter base requirements (see pgs. 14-15 for more information)
+   BASE           • Must be installed per NEC code requirements
+
+                  • Must have two (2) ground rods installed with the following criteria:
+  GROUND                 o Spaced six (6) feet apart
+ ROD/WIRE                o Driven in undisturbed soil
+                  Note: This ground wire requirement is in addition to the NEC Code’s ufer grounding requirements
+
+
+
+
+                               ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                               20 of 34
+
+[[page 21]]
+GDE DECORATIVE LIGHT SPECIFICATIONS
+
+     MATERIAL                                         GDE SPECIFICATIONS
+      Conduit           1” sch. 40 PVC (unless otherwise specified) with 24” radius elbows
+ Decorative Fixtures    *See Approved Light Fixtures (pg. 12)
+  Decorative Pole       *See Approved Light Fixtures (pg. 12)
+      Lamps             *See Approved Light Fixtures (pg. 12)
+     Photocell          *See Approved Light Fixtures (pg. 12)
+                        NEMA listed THHN/THWN copper, 600V, 90C
+     Conductor
+                        #12, #4, or #6 AWG (must maintain less than 5% voltage drop from source)
+  Pole Base Fuses &
+                        Fuse link with fuse installed required in pole base.
+     Fuse Blocks
+
+GDE DECORATIVE LIGHT INSPECTIONS
+Note: The decorative light inspections outlined below are completed by GDE (not by the Gallatin Codes
+Department) unless otherwise noted.
+
+  INSPECTION                                             REQUIREMENTS
+                    Conduit will be inspected by GDE prior to backfilling ditch. All work shall be performed to
+                    GDE’s specifications (see GDE Underground Primary/Secondary Specifications, pg. 19).
+                       • 24” depth with 12” minimum separation (vertical & horizontal) from any other utilities
+                       • Backfill must be soil free of material that may damage conduit (#67 gravel may be
+     Conduit                used for backfill)
+                       • Any conduit that is damaged prior to the lights being energized must be replaced by
+                            the developer
+                       • All conduit installed in existing GDE equipment must be coordinated with GDE
+
+                    Footing must be built to GDE specifications (See SL-01, pg. 28). Poles shall not be installed
+                    until the second inspection is complete.
+     Footing            •   First Inspection – Shall be scheduled after rebar, anchor bolts, ground wire, and
+                            ground rods are installed. Must be scheduled before concrete has been poured.
+                        •   Second Inspection – Shall be scheduled after concrete has been poured
+
+                    NOTE: LIGHTS MUST PASS A CITY CODES ELECTRICAL INSPECTION BEFORE THE FINAL GDE
+                    INSPECTION CAN BE SCHEDULED.
+                        •   ALL WIRING, CONNECTORS, AND FUSES ARE INSTALLED
+      FINAL
+                        •   POLE IS PLUMB, LEVEL, AND SECURELY MOUNTED
+                        •   FIXTURE IS ORIENTED CORRECTLY WITH THE STREET (THE EMBOSSED “STREET SIDE”
+                            MARKING ON THE FIXTURE MUST BE TURNED TOWARD THE STREET)
+
+
+
+
+                              ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                                  21 of 34
+
+[[page 22]]
+REFERENCES
+GALLATIN DEPARTMENT OF ELECTRICITY PLANNING COMMENTS
+
+1. PURPOSE
+These comments establish high-level guidelines for developers to use regarding the design, construction,
+and relocation of facilities under the Gallatin Department of Electricity’s (GDE’s) oversight for the City
+Planning review process. It also addresses the responsibilities of developers, including compliance with
+GDE policies, payment schedules, and access requirements, to ensure smooth project execution and the
+maintenance of GDE’s operational standards. This document is not a comprehensive list of
+requirements. Please refer to the GDE Electric Development & Infrastructure Policy for a detailed description
+of policy and procedural information.
+
+2. SCOPE
+These planning comments apply to all developers, contractors, and third parties involved with the design,
+construction, and relocation of (and/or providing GDE employees access to) GDE facilities.
+
+3. PLANNING COMMENTS
+  3.1 ADHERENCE TO GDE POLICIES AND PROCEDURES
+       • All developers, contractors, and associated parties must comply with and adhere to GDE’s
+         established policies and procedures throughout the entirety of the design, construction, and
+         operational phases
+       • Compliance with GDE policies and procedures is mandatory for approval of any design,
+         construction, or relocation plans and will be strictly enforced
+
+  3.2 FACILITY DESIGN APPROVAL
+       • GDE will design the layout for its facilities based on operational needs and industry standards
+       • Before GDE’s facility design process can start, a City of Gallatin (COG)-approved FMDP CAD
+          site file utilizing the Tennessee State Plane Coordinate System must be submitted by the
+          developer to GDE’s Engineering Department for review
+       • A detailed load sheet will be required for GDE to complete the facility design
+       • No design work will begin until the COG-approved FMDP CAD site file utilizing the Tennessee
+          State Plane Coordinate System has been received and approved by GDE
+
+  3.3 PAYMENT OF CONSTRUCTION AID COSTS
+       • All costs related to the aid to construction must be paid in full by the developer prior to GDE
+         placing any material orders for the project
+       • Some materials can have lead times of 52+ weeks. As such, the developer must ensure timely
+         payment to avoid delays in the ordering process and to keep the project on schedule
+
+  3.4 RELOCATION OF EXISTING FACILITIES
+       • Any of GDE’s existing facilities that need to be relocated as part of the development project will
+          be relocated at the developer’s expense
+       • These expenses include, but are not limited to, the cost of dismantling, transporting/
+          relocating, and reassembling existing GDE facilities
+
+
+
+                               ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                         22 of 34
+
+[[page 23]]
+  3.5 MAINTENANCE OF ACCESS TO GDE FACILITIES  .
+      • GDE must be granted access to all its facilities during the design, construction, and
+          operational phases of any project
+      • The access provided must meet GDE’s approval
+      • The developer is responsible for covering any costs associated with providing approved access
+          to GDE facilities
+      • Access requirements will be reviewed as part of GDE’s facility design process to ensure that
+          operational access will not be impeded at any stage of the project
+
+  3.6 RIGHTS OF WAY AND EASEMENTS
+       • Any rights-of-way and easements needed for the development will be at the developer’s
+          expense. This includes but is not limited to roads, drives, gates, etc.
+       • The developer is responsible for obtaining all necessary rights-of-way and easements that will
+          be required for the project
+       • Any costs incurred by GDE in facilitating access or reviewing easements will be reimbursed to
+          GDE by the developer
+
+4. ROLES AND RESPONSIBILITIES
+   •   Developer:
+         o Submit a COG-approved FMDP CAD site file utilizing the Tennessee State Plane Coordinate
+             System for GDE’s Engineering Department to review and use in beginning facility design
+         o Submit a detailed load sheet to GDE’s Engineering Department
+         o Pay all aid to construction in advance of any material orders
+         o Assume financial responsibility for any relocation of GDE facilities
+         o Ensure GDE’s access needs are met, and assume any associated costs incurred in
+             providing approved access
+   •   GDE:
+          o   Begin facility design once the COG-approved FMDP CAD site file utilizing the Tennessee
+              State Plane Coordinate System has been received and reviewed
+          o   Ensure timely material ordering upon receipt of full payment of Aid to Construction costs
+          o   Coordinate and communicate relocation requirements to the developer as needed
+          o   Ensure that its access requirements are included in the facility design review process
+
+5. COMPLIANCE AND CONSEQUENCES
+   •   Developers must comply with all aspects of these comments, including following all other GDE
+       policies and procedures as defined in the GDE Electric Development & Infrastructure Policy
+   •   Failure to meet these requirements may result in delays to the project/project approvals,
+       withholding of material orders, and/or increases in project cost
+   •   Any costs incurred by GDE due to non-compliance will be charged back to the developer
+
+
+
+
+                              ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                       23 of 34
+
+[[page 24]]
+GDE FINAL CONDUIT INSPECTION CHECKLIST
+       GALLATIN DEPARTMENT OF ELECTRICITY
+            P.O. BOX 1555  135 JONES STREET
+               GALLATIN, TENNESSEE 37066
+          (615) 452-5152  FAX: (615) 452-6060
+               www.gallatinelectric.com
+
+                GDE FINAL CONDUIT INSPECTION CHECKLIST
+   This checklist is to assist developers in ensuring compliance with the requirements for a GDE final conduit
+ inspection. This list is subject to change without notice. Please ensure the requirements have been met before
+   signing and dating. All specifications can be found in the GDE Electric Development & Infrastructure Policy.
+      This form must be completed and returned to GDE before a final conduit inspection will be scheduled.
+   1. Property pins installed and labeled
+
+   2. Curbs installed
+
+   3. Grade within 6” of final grade from back of utility easement to curb
+
+   4. All conduits installed per Conduit Layout design (provided by GDE Engineering Department)
+
+   5. All GDE conduit and ground sleeves installed in utility easement
+
+   6. All secondary vaults installed per UGSECV – Secondary Vault (pg. 29)
+
+   7. Ground sleeves installed per
+       → UMF-1P – Transformer Ground Sleeve Detail Single Phase Diagram (pg. 30)
+       → UPV-1P/ UPV-3P – Primary Vault Ground Sleeve Detail Single & Three Phase Drawing (pg. 31)
+       → UM-3P – Concrete Pad Detail Three Phase Pad Mounted Transformer Drawing (pg. 34)
+        7a. Must have 10’ clear and level path in front
+        7b. Must have 3’ clear and level path on each side and around the back
+        7c. Must be installed 4” above grade per UMF-1P (pg. 30), UPV-1P/ UPV-3P (pg. 31), and UM-3P (pg. 34)
+        7d. Ground sleeves level
+        7e. Conduits cut 12” below top of ground sleeve
+        7f. Conduits arranged in ground sleeve per UMF-1P (pg. 30), UPV-1P/ UPV-3P (pg. 31), and UM-3P (pg. 34)
+        7g. No trash inside of ground sleeve
+   8. Conduits arranged per UDIST – Underground Distribution System (pg. 32) spec for underground primary
+       construction or USEC - Underground Secondary Conduit System (pg. 33) spec for overhead
+       primary construction
+        8a. 26” minimum spacing between GDE 3” secondary conduit and communications conduits
+        8b. 18” minimum spacing between GDE ground sleeve and communications conduits on underground
+           primary construction
+        8c. 24” minimum spacing between pole and GDE 3” secondary conduit on overhead primary construction
+   9. 1800lb minimum pull tape/ mule tape in all conduits with 6’ tail on each end
+
+
+  Note: Any work done to unstop, repair, etc. after final inspection will be billed to developer at full cost.
+
+
+      Print: ________________________________ Sign: ________________________________ Date: _______________
+
+                                 ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY                              24 of 34
+
+[[page 25]]
+LABEL – LABELING FOR MULTI-METERED INSTALLATIONS
+
+
+
+
+                         ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY   25 of 34
+
+[[page 26]]
+UG TB – UNDERGROUND TEMPORARY BOARD SERVICE DIAGRAM
+
+
+
+
+                       ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY   26 of 34
+
+[[page 27]]
+UMT-1 – TRANSFORMER CLEARANCE REQUIREMENTS FOR PAD-MOUNT TRANSFORMER
+
+
+
+
+                       ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY    27 of 34
+
+[[page 28]]
+SL-01 – DECORATIVE STREET LIGHT FOOTING DETAIL
+
+
+
+
+                         ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY   28 of 34
+
+[[page 29]]
+UGSECV – SECONDARY VAULT
+
+
+
+
+                      ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY   29 of 34
+
+[[page 30]]
+UMF-1P – TRANSFORMER GROUND SLEEVE DETAIL SINGLE PHASE DIAGRAM
+
+
+
+
+                        ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY   30 of 34
+
+[[page 31]]
+UPV-1P & UPV-3P – PRIMARY VAULT GROUND SLEEVE DETAIL SINGLE & THREE PHASE DRAWING
+
+
+
+
+                        ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY         31 of 34
+
+[[page 32]]
+UDIST – UNDERGROUND DISTRIBUTION SYSTEM
+
+
+
+
+                       ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY   32 of 34
+
+[[page 33]]
+USEC – UNDERGROUND SECONDARY CONDUIT SYSTEM
+
+
+
+
+                      ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY   33 of 34
+
+[[page 34]]
+UM-3P – CONCRETE PAD DETAIL THREE PHASE PAD MOUNTED TRANSFORMER DRAWING
+
+
+
+
+                       ELECTRIC DEVELOPMENT & INFRASTRUCTURE POLICY       34 of 34

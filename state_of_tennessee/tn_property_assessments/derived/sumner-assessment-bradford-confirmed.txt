@@ -1,0 +1,178 @@
+[[page 1]]
+                                                                                                                                                          Search   Glossary Help   Fact Sheet   GIS Parcel Data
+
+
+                                           Return to Results                                                                    GIS Map             PDF
+
+
+
+
+                                           Parcel Details                                           County Information
+
+
+                                           SUMNER COUNTY, TN | TAX YEAR 2026                        County Number:             Reappraisal Year:
+                                                                                                    083                        2024
+
+
+                                             Property Owner and Mailing Address                     Property Location
+
+
+                                             January 1 Owner                                        Address: COMMERCE WAY 195
+                                             IFR LAND LLC
+                                             10875 CHICAGO DRIVE                                       Control            Group:     Parcel:
+                                             ZEELAND MI 49464                                          Property                Special
+                                                                                                       Map:                         Identiﬁer:
+                                                                                                       Interest:
+                                                                                                       112                109.00             000
+
+
+
+                                             Value Information                                      Subdivision Data
+
+
+                                             Land Market Value:                 $996,900            Subdivision: GALLATIN INDUSTRIAL
+
+                                             Improvement Value:                $1,758,200
+                                                                                                       Plat         Plat       Block:      Lot: 2
+                                             Total Market Appraisal:           $2,755,100
+                                                                                                       Book:        Page:
+                                             Assessment Percentage:                     40%            23           103
+
+                                             Assessment:                       $1,102,040
+
+                                                                                                    Additional Information
+
+
+                                                                                                    PLAT: 23 PAGE: 103 BLOCK: LOT: 2
+                                                                                                    SUBD: GALLATIN INDUSTRIAL CTR
+
+
+
+                                             General Information
+
+
+                                             Class: 09 - Industrial
+                                             City #: 278                                          City: GALLATIN
+
+                                             Special Service District 1:                          Special Service District 2:
+
+                                             District: 02                                         Neighborhood: G40
+
+                                             Number of buildings: 1                               Number of mobile homes:
+
+                                             Utilities - Water/Sewer: 01 - PUBLIC /               Utilities - Electricity: 01 - PUBLIC
+                                             PUBLIC
+                                                                                                  Zoning:
+                                             Utilities - Gas/Gas Type: 00 - NONE
+
+
+
+                                             Building Information - Commercial
+
+
+                                             Building #: 1
+                                             Improvement Type: 44 - LIGHT MFG                     Actual Year Built: 2007
+
+                                             Quality: 1 - AVERAGE                                 Business Living Area: 50000
+                                             Foundation: 03 - SPREAD FOOTING                      Floor System: 01 - SLAB ON GRADE
+
+                                             Roof Framing: 06 - STEEL TRUSS/                      Roof Cover/Deck: 13 - PREFIN METAL
+                                             PURLINS                                              CRIMPED
+
+                                             Cabinet/Millwork: 03 - AVERAGE                       Floor Finish: 01 - CONCRETE FINISH
+
+                                             Interior Finish: 01 - UNFINISHED                     Paint/Decor: 03 - AVERAGE
+
+                                             Bath Tile: 00 - NONE                                 Electrical: 03 - AVERAGE
+                                             Shape:                                               Structural Frame: 05 - RIGID FRAME
+
+                                             Heat and AC: 01 - UNIT HEATER                        Plumbing Fixtures: 12
+
+                                                  Interior/Exterior Areas
+
+
+                                                                Square       Exterior
+                                                   Type           Feet       Wall
+
+                                                   44 -         46,500 19 - PREFIN
+                                                   LIGHT               METAL
+                                                   MFG                 CRIMPED
+
+                                                   OFA -         3,500 19 - PREFIN
+                                                   Ofﬁce -             METAL
+                                                   Average             CRIMPED
+
+
+
+
+                                                  Commercial Features
+
+
+                                                   Type               Units
+
+
+
+
+                                                  Building Sketch:
+
+
+
+
+                                             Outbuildings & Yard Items
+
+
+                                              Building/Card#           Type                                    Description              Area/Units
+
+                                              1                        ASP - ASPHALT PAVING             60                                 21,000
+                                                                            Division of Property Assessments
+                                              1                        CNC - CONCRETE PAVING                   36                            2,800
+
+                                              1                               Comptroller
+                                                                       CNC - CONCRETE     of the Treasury9
+                                                                                       PAVING                                              26,000
+
+
+                                                                                        State of Tennessee
+                                             Sale Information
+
+
+                                              Sale Date              Price    Book      Page   Vacant/         Type                Qualiﬁcation
+Our Mission: Make Government Work Better                                                       Improved        Instrument
+
+[[page 2]]
+ 4/30/2024             $0    6362   303   I-            QC -             -
+                                          IMPROVED      QUITCLAIM
+                                                        DEED
+
+ 4/13/2016             $0    4297   654   I-            QC -             -
+                                          IMPROVED      QUITCLAIM
+                                                        DEED
+
+ 1/19/2016      $1,950,000   4243   328   I-            -                L - LIMITED
+                                          IMPROVED
+
+ 3/23/2006        $72,000    2470   852   V - VACANT    WD -             F - TAX
+                                                        WARRANTY         EXEMPT SALE
+                                                        DEED
+
+ 1/29/2002             $0     231   451 V - VACANT      -                -
+
+
+
+
+Land Information
+
+
+Deed Acres: 0                  Calculated Acres: 8.37         Total Land Units: 8.37
+
+ Land Code                                                  Soil Class            Units
+
+ 16 - IND PARK                                                                     8.37
+
+
+
+
+Parcel Photos
+
+
+  Zoom

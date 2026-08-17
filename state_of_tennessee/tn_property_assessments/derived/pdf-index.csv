@@ -1,0 +1,11 @@
+text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+ParcelDetails-8_15_2026-083135M+A+01200+000.txt,ParcelDetails-8_15_2026-083135M+A+01200+000.pdf,DIGITAL,2,7137,3568,0.0,extraction authoritative,Skia/PDF m106
+ParcelDetails-8_3_2026-083135M+A+01200+000.txt,ParcelDetails-8_3_2026-083135M+A+01200+000.pdf,DIGITAL,2,7137,3568,0.0,extraction authoritative,Skia/PDF m106
+ParcelDetails-8_3_2026-083135M+A+01300+000.txt,ParcelDetails-8_3_2026-083135M+A+01300+000.pdf,DIGITAL,2,7440,3720,0.0,extraction authoritative,Skia/PDF m106
+sumner-assessment-beretta.txt,sumner-assessment-beretta.pdf,DIGITAL,2,9953,4976,0.0,extraction authoritative,Skia/PDF m106
+sumner-assessment-bradford-confirmed.txt,sumner-assessment-bradford-confirmed.pdf,DIGITAL,2,8963,4482,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)
+sumner-assessment-bradford.txt,sumner-assessment-bradford.pdf,DIGITAL,2,7523,3762,0.0,extraction authoritative,Skia/PDF m106
+sumner-assessment-preston-stark.txt,sumner-assessment-preston-stark.pdf,DIGITAL,2,7517,3758,0.0,extraction authoritative,Skia/PDF m106
+sumner-assessment-tva.txt,sumner-assessment-tva.pdf,DIGITAL,2,3914,1957,0.0,extraction authoritative,Skia/PDF m106
+sumner-assessment-woolhawk.txt,sumner-assessment-woolhawk.pdf,DIGITAL,7,17339,2477,0.0,extraction authoritative,Skia/PDF m106
+unknown-assessment.txt,unknown-assessment.pdf,DIGITAL,2,7523,3762,0.0,extraction authoritative,Skia/PDF m106

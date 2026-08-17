@@ -1,0 +1,746 @@
+[[page 1]]
+ANNUAL DEBT REPORTING MEMO
+
+To:            Industrial Development Board Contact
+From:          Sheila Reed, Director
+               Division of Local Government Finance
+Date:          September 23, 2025
+Subject:       FY 2025 – Request for Annual IDB Information - Outstanding Debt and Contacts
+               Tenn. Code Ann. § 7-53-304
+
+
+Thank you for partnering with us as we gather important information for Tennessee’s industrial
+development boards. Our online submission process enables us to prepopulate the information you
+input last year into this year’s form. Please be sure to use the enclosed Steps to Annual IDB
+Report Submission when you complete the form. Following is other helpful information.
+
+Reporting Deadline
+You have 90 calendar days from the close of your IDB’s fiscal year to complete the information;
+however, we encourage earlier reporting when possible.
+
+IDBs With No Debt
+If your IDB has no outstanding debt, including no conduit debt, the annual reporting is still
+required. Once you access the online form on our website you will need to update general
+information about your IDB.
+
+Required Notice for Defaults, Covenant Violations, and Credit Rating Downgrades
+IDBs are required to file a notice of default on any of its debt obligations within fifteen (15) days
+of the default. Any debt covenant violations or credit rating downgrades must be reported within
+ten (10) days. Reporting requirements and forms that comply with requirements of the Tennessee
+State Funding Board are available on our website at: tncot.cc/idb.
+
+Questions
+If you need assistance with your submission, you may contact Alex Lucas, Data Specialist, at
+Alex.Lucas@cot.tn.gov.
+
+
+Enclosures:    Steps to Annual IDB Report Submission
+               FY 2024 Statewide Listing of Direct and Conduit IDB Debt Issues Outstanding
+
+[[page 2]]
+Steps to Annual IDB Report Submission
+
+  1. Access the online form on our website at tncot.cc/idb
+
+  2. Click on the button labeled: Complete Annual IDB Report then:
+          • Choose your entity name from the 1st drop-down menu.
+          • Choose fiscal year end 2025 from the 2nd drop-down menu.
+          • Check the confirm box; then click the continue button.
+
+
+
+
+  3. Update changes to contact information:
+         • board members;
+         • authorized representative (the individual completing the form); and
+         • legal counsel and financial advisor.
+
+  4. Update debt information:
+          • If your IDB has no debt, click:
+          • If your IDB has debt (direct or conduit): Add and enter information for new
+              debt obligations by clicking            .
+                 o For existing debt, update amounts in the “Outstanding at FYE” field.
+
+
+
+
+  5. From the IDB Report and Overview Submission Page
+          •   Click:            at the bottom of the page to ensure we receive your
+              information.
+
+[[page 3]]
+APPENDIX B                                                                                                  Fiscal Year 2024
+                                                                                                Tennessee Industrial Development Boards
+                                                                           Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                                             Outstanding
+                                                                         Debt           Original Issue                                                                                                             Maturity
+  Entity Name                                                                                                 Amount           Debt Name / Series Year
+                                                                         Type             Amount                                                                                                                    Date
+                                                                                                              Reported
+
+
+Anderson County
+ IDB of the City of Oak Ridge                                           Conduit     $      154,360,000   $     84,492,000   Lease Revenue Bonds, Series 2005                                                      12/15/2032
+ IDB of the City of Oak Ridge                                           Conduit     $       10,165,000   $     10,165,000   Social Multifamily Tax-Exempt Mortgage Backed Bonds, Series 2022                      07/01/2039
+ IDB of the City of Oak Ridge                                           Conduit     $       27,700,000   $     15,288,000   Demand Bonds, Series 2010                                                             09/01/2038
+ IDB of Anderson County, Tennessee                                       Direct     $          450,000   $        267,972   Tax Increment Revenue Note (David Jones Business Park Development), Series 2017       05/01/2032
+ IDB of Anderson County, Tennessee                                       Direct     $          350,000   $        350,000   Tax Increment Revenue Note (David Jones Business Park Development), Series 2022       09/15/2037
+ IDB of Anderson County, Tennessee                                       Direct     $        1,000,000   $        882,492   Tax Increment Revenue Note (VRL Hotels 5 LLC Project), Series 2019                    05/01/2031
+ IDB of Anderson County, Tennessee                                       Direct     $          550,000   $        495,000   Tax Increment Revenue Note (STNL Development Area), Series 2019                       05/01/2041
+ IDB of Anderson County, Tennessee                                       Direct     $        1,250,000   $      1,174,083   Tax Increment Revenue Note (The Glen Alpine Economic Development Area), Series 2020   04/30/2041
+ IDB of the City of Oak Ridge                                            Direct     $       13,000,000   $     11,738,962   Tax Increment Revenue Note, Series 2016                                               12/31/2036
+Bedford County
+ IDB of the City of Shelbyville                                        No Debt
+Benton County
+ IDB of the County of Benton                                           No Debt
+Bledsoe County
+ Bledsoe County Industrial Development Corporation                     No Debt
+ IDB of the City of Pikeville                                          No Debt
+Blount County
+ IDB of Blount County and the Cities of Alcoa and Maryville            Conduit      $       32,300,000   $      5,180,000   Maryville Civic Arts Center Project                                                   06/01/2036
+ IDB of Blount County and the Cities of Alcoa and Maryville            Conduit      $          650,000   $        650,000   Revenue Bond (Foothills Publix Project) Series 2022                                   04/01/2032
+ IDB of Blount County and the Cities of Alcoa and Maryville            Conduit      $       12,000,000   $      7,703,796   Industrial Revenue Notes (Project Pearl) Series 2020A & B Issued 2021                 03/01/2044
+ IDB of Blount County and the Cities of Alcoa and Maryville             Direct      $        5,000,000   $      4,661,071   R&D Park Note                                                                         05/01/2056
+ IDB of Blount County and the Cities of Alcoa and Maryville             Direct      $        5,000,000   $      4,840,320   R&D Park Note                                                                         05/01/2056
+ IDB of Blount County and the Cities of Alcoa and Maryville             Direct      $        5,000,000   $      4,992,143   R&D Park Note                                                                         05/01/2056
+ IDB of Blount County and the Cities of Alcoa and Maryville             Direct      $        5,000,000   $      4,969,769   R&D Park Note                                                                         05/01/2056
+ IDB of the City of Alcoa, Tennessee                                   No Debt
+Bradley County
+ IDB of the County of Bradley and the City of Cleveland, Tennessee     Conduit      $      225,000,000   $ 225,000,000      Revenue Bond (Maytag Project) Series 2010                                             12/01/2033
+ IDB of the County of Bradley and the City of Cleveland, Tennessee     Conduit      $       41,000,000   $ 41,000,000       Recovery Zone Facility Revenue Bonds Series 2010                                      12/01/2035
+ IDB of the City of Cleveland                                          No Debt
+Campbell County
+ IDB of Campbell County, Tennessee                                     No Debt
+Cannon County
+ Cannon County IDB                                                     No Debt
+Carroll County
+ IDB of the Town of Huntingdon                                          Direct      $          522,633   $        384,539   Capital Outlay Notes, Series 2013                                                     11/15/2023
+ IDB of the Town of Huntingdon                                          Direct      $        2,005,547   $      1,760,201   Capital Outlay Notes, Series 2020                                                     12/15/2025
+ Industrial Board of the Town of Bruceton, Tennessee                   No Debt
+ IDB of the County of Carroll                                          No Debt
+ IDB of the Town of Trezevant, Tennessee                               No Debt
+ IDB of the City of McKenzie                                            Direct      $          600,000   $        564,264   Building Purchase 2023                                                                02/28/2038
+ IDB of the City of McKenzie                                            Direct      $          355,585   $        355,635   Building Purchase 2023 #2                                                             05/26/2024
+Carter County
+ Carter County IDB                                                      No Debt
+ IDB of the City of Elizabethton, Tennessee                             No Debt
+ IDB of the City of Johnson City, Tennessee                          Refer to Washington County
+Cheatham County
+ IDB of Cheatham County                                                No Debt
+
+[[page 4]]
+APPENDIX B                                                                                       Fiscal Year 2024
+                                                                                     Tennessee Industrial Development Boards
+                                                                Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                                  Outstanding
+                                                              Debt          Original Issue                                                                                                       Maturity
+  Entity Name                                                                                      Amount           Debt Name / Series Year
+                                                              Type            Amount                                                                                                              Date
+                                                                                                   Reported
+
+
+Chester County
+ IDB of the City of Henderson                                Conduit    $        7,500,000    $      5,347,877   FHU Educational Facilities Bond 2016                                           03/15/2038
+ IDB of the City of Henderson                                Conduit    $       10,000,000    $     10,000,000   Arvin Sango Bonds                                                              12/31/2042
+ IDB of the City of Henderson                                Conduit    $        4,000,000    $      2,735,532   FHU Educational Facilities Bond 2023                                           12/01/2034
+Claiborne County
+ Claiborne County Economic and Community Development Board   No Debt
+ IDB of the Town of New Tazewell                             No Debt
+Clay County
+ The Joint IDB of Celina and Clay County                     Direct     $          215,000    $        192,744   JIDB of Celina & Clay County 2016                                              08/11/2056
+Cocke County
+ IDB of the City of Newport and Cocke County, Tennessee      Direct     $        1,050,000    $      1,050,000   Industrial Revenue Bond (Industrial Park Project); 2020                        07/31/2050
+ IDB of the City of Newport and Cocke County, Tennessee      Direct     $          223,822    $        185,334   Tax Increment Revenue Note (Sugar Cove Wastewater Project); 2017               06/30/2025
+Coffee County
+ Industrial Board of Coffee County, Tennessee, Inc.          No Debt
+ Tullahoma IDB                                               No Debt
+Crockett County
+ IDB of the City of Alamo, Tennessee                         No Debt
+ IDB of Crockett County, Tennessee                           No Debt
+ IDB of the City of Friendship                               No Debt
+Cumberland County
+ IDB of Cumberland County, Tennessee                         No Debt
+ IDB of the Counties of Cumberland, Morgan & Roane, TN       No Debt
+Davidson County
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       10,000,000    $   2,333,340      Tax-Exempt Adjustable Mode Exempt Facilities Revenue Bonds Series 2001         08/25/2031
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        4,000,000    $   1,440,000      Revenue Bonds Series 2008                                                      03/25/2033
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       22,554,000    $   7,518,000      Variable Rate Demand Multifamily Housing Revenue Refunding Bonds Series 2004   07/25/2034
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       50,000,000    $ 29,999,997       Life Point Series 2012                                                         01/30/2042
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        7,151,214    $     178,793      Mortgage Revenue Bonds Series 1985                                             11/21/2025
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $      102,000,000    $ 22,666,662       Variable Rate Revenue Bonds Series 2004                                        12/01/2031
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       31,440,000    $   4,716,000      Variable Rate Revenue Bonds Series 2007                                        12/01/2027
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        9,535,000    $     953,500      Country Music Foundation Project Series 2015B                                  05/01/2025
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       23,000,000    $   4,181,811      Variable Rate Demand Revenue Bonds Series 2006                                 07/06/2028
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       14,205,000    $   3,788,000      Multifamily Housing Revenue Refunding Bonds Series 2002                        07/15/2032
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        4,750,000    $   1,425,006      Variable Rate Demand Multifamily Housing Revenue Refunding Bonds Series 2003   03/01/2033
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        1,750,000    $   1,531,250      Multifamily Housing Revenue Refunding Note Series 2021A                        07/01/2037
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        9,995,000    $           -      Mortgage Revenue Bonds Series 1984                                             07/01/2024
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        5,000,000    $           -      Revenue Refunding Bond 2014 Series A                                           12/24/2026
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        6,075,000    $     607,500      Revenue Bonds, Series A 1984                                                   07/22/2024
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       23,275,000    $ 17,150,000       Multifamily Housing Revenue Note Taxable Series 2018A                          07/01/2037
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        3,000,000    $   1,080,000      Revenue Bonds Series 2008                                                      03/25/2033
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       23,200,000    $ 12,373,337       Country Music Foundation 2010                                                  02/23/2040
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        6,375,194    $     159,374      Mortgage Revenue Bonds Series 1985                                             01/22/2025
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        1,400,000    $     210,000      Educational Facilities Revenue Bonds Series 2007                               12/13/2027
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $      260,000,000    $ 129,999,996      Industrial Development Bond 2012                                               12/11/2042
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        2,270,000    $           -      Multi-family Housing Revenue Bonds Series 1998                                 12/25/2027
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       10,000,000    $   7,000,002      Wonton Food Revenue Bonds                                                      12/31/2045
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        6,000,000    $   4,666,666      Multifamily Housing Revenue Refunding Note Series 2019A                        07/01/2037
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $      280,000,000    $ 98,000,000       Industrial Development Revenue Note Series 2010A                               12/28/2030
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       30,000,000    $ 14,400,000       Educational Facilities Revenue Bonds Series 2010                               12/15/2035
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $       22,149,749    $ 16,320,867       Mutlifamily Housing Revenue Note Taxable Series 2018B                          07/01/2037
+ IDB of Metropolitan Nashville and Davidson County           Conduit    $        2,375,000    $   1,187,500      Operation Stand Down Series 2014                                               05/01/2034
+
+[[page 5]]
+APPENDIX B                                                                                   Fiscal Year 2024
+                                                                                 Tennessee Industrial Development Boards
+                                                            Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                             Outstanding
+                                                         Debt            Original Issue                                                                                                             Maturity
+  Entity Name                                                                                 Amount            Debt Name / Series Year
+                                                         Type              Amount                                                                                                                    Date
+                                                                                              Reported
+
+
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        3,761,899     $      94,065    Mortgage Revenue Bonds Series 1985                                                    06/21/2025
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        4,000,000     $     320,000    Industrial Development Revenue Bonds Series 2001                                      02/23/2026
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        8,075,000     $   3,229,995    Multifamily Housing Revenue Refunding Bonds Series 2006                               07/19/2036
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        3,300,000     $     745,153    Multifamily Housing Revenue Refunding Bonds Series 2000A                              01/24/2031
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       16,500,000     $   4,203,566    Variable Rate Revenue Bonds Series A 2003                                             12/31/2033
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        3,425,000     $     342,492    Multi-Family Housing Revenue Bonds Series 1997                                        07/24/2027
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       13,265,000     $   7,074,667    Revenue Refunding Bonds Series 2003                                                   07/01/2033
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       13,400,000     $     335,000    Multifamily Housing Revenue Bonds Series 1985                                         12/13/2025
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       19,985,000     $   5,995,494    Variable Rate Demand Multifamily Housing Revenue Bonds Series 2003                    11/23/2033
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        8,328,266     $           -    Revenue Refunding Bond 2014 Series C                                                  12/24/2026
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       43,000,000     $ 35,833,333     Multifamily Note 2021                                                                 12/01/2039
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $      225,000,000     $ 136,956,522    Industrial Development Revenue Bonds Series 2014                                      07/01/2037
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       40,000,000     $ 14,000,000     Industrial Develpment Revenue Note Series 2010B                                       12/28/2030
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       10,000,000     $           -    Revenue Refunding Bond 2014 Series B                                                  12/24/2026
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       13,250,000     $     331,250    Multifamily Housing Revenue Bonds Series 1985                                         12/13/2025
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        3,400,000     $   2,040,003    Revenue Refunding Bond 2012                                                           02/27/2042
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        2,205,000     $     147,000    Multifamily Housing Revenue Refunding Bonds Series 1996A                              09/24/2026
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       30,000,000     $ 18,000,000     Life Point Series 2012                                                                01/30/2042
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        2,900,000     $   1,649,566    Revenue Bond Series 2010                                                              12/05/2041
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        4,600,000     $     836,362    Variable Rate Demand Revenue Bonds Series 2006                                        10/19/2028
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        8,540,000     $     853,992    Variable Rate Demand Multifamily Housing Revenue Refunding Bonds, Series A 1997       04/10/2027
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        1,725,000     $     934,375    Subordinate Multifamily Housing Rev Bonds (Preserve at Highland Ridge Project) 2018   11/01/2030
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        2,915,000     $     194,325    Multifamily Housing Revenue Refunding Bonds Series 1996A                              10/23/2026
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        3,500,000     $   1,866,663    Revenue Bond 2010                                                                     11/01/2040
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        8,500,000     $     212,500    Mortgage Revenue Bonds Series 1985                                                    04/21/2025
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       10,129,163     $     241,153    Multifamily Housing Revenue Bonds 1983                                                04/20/2025
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       14,000,000     $   3,360,000    Variable Rate Demand Revenue Bonds Series 2005                                        10/06/2030
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        8,195,000     $   1,912,160    Multifamily Mortgage Revenue Refunding Bonds Series 2001A                             02/13/2031
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        9,105,000     $   5,463,000    Multifamily Housing Revenue Bonds Series 2008                                         02/19/2048
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       30,000,000     $ 13,200,000     Revenue Refunding Bonds                                                               12/15/2035
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       57,000,000     $ 34,200,000     Revenue Refunding Bond 2012                                                           05/01/2042
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        6,716,460     $   3,582,112    Educational Facilities Revenue Bond Series 2010                                       06/07/2040
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $       11,160,000     $   6,696,000    Variable Rate Demand Revenue Bonds Series 2008                                        02/01/2048
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        6,620,000     $     882,659    Multi-Family Housing Revenue Refunding Bonds Series 1998                              06/23/2028
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $      100,000,000     $ 60,000,003     HCA Series 2012                                                                       06/12/2042
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $      100,000,000     $ 60,000,003     HCA Series 2012                                                                       06/12/2042
+ IDB of Metropolitan Nashville and Davidson County      Conduit      $        6,645,000     $   2,215,000    Multifamily Housing Revenue Refunding Bonds Series 2004                               02/23/2034
+ IDB of Metropolitan Nashville and Davidson County       Direct      $        3,500,000     $   3,500,000    900 at Cleveland Park Project II Supplemental Multifamily Note (2024)                 12/01/2039
+ IDB of Metropolitan Nashville and Davidson County       Direct      $       11,900,000     $ 11,900,000     Cumberland Heights Foundation, Inc. Revenue Bond, Series 2024                         03/26/2031
+ IDB of Metropolitan Nashville and Davidson County       Direct      $       11,349,400     $ 10,214,460     Subordinated Special Assessment Capital Appreciation Revenue Bonds Series 2021C       06/01/2051
+ IDB of Metropolitan Nashville and Davidson County       Direct      $       18,845,000     $ 16,960,500     Senior Special Assessment Revenue Bonds Series 2021A                                  06/01/0051
+ IDB of Metropolitan Nashville and Davidson County       Direct      $       21,935,000     $ 13,690,831     Bellevue Tax Increment Revenue Bonds                                                  06/01/2038
+ IDB of Metropolitan Nashville and Davidson County       Direct      $       12,688,561     $ 10,958,302     Senior Special Assessment Revenue Capital Appreciation Revenue Bonds Series 2021B     06/01/2043
+ IDB of the City of Berry Hill, Tennessee               No Debt
+ IDB of the City of Goodlettsville                      No Debt
+Decatur County
+ IDB of the County of Decatur, Tennessee                No Debt
+ Decaturville IDB                                       No Debt
+ IDB of the City of Parsons, Tennessee                  No Debt
+ IDB of the Town of Scotts Hill, Tennessee           Inactive - no current board, no debt
+
+[[page 6]]
+APPENDIX B                                                                                              Fiscal Year 2024
+                                                                                            Tennessee Industrial Development Boards
+                                                                       Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                                           Outstanding
+                                                                    Debt            Original Issue                                                                               Maturity
+  Entity Name                                                                                               Amount          Debt Name / Series Year
+                                                                    Type              Amount                                                                                      Date
+                                                                                                            Reported
+
+
+DeKalb
+  IDB of DeKalb County, Tennessee                                  No Debt
+  IDB of the City of Smithville, Tennessee                         No Debt
+Dickson
+  IDB of the County of Dickson                                     No Debt
+Dyer
+  IDB of Dyer County                                               Conduit      $        3,000,000     $      2,457,408   Tax Increment Revenue Note                            03/31/2037
+  IDB of the Town of Newbern, Tennessee                            No Debt
+Fayette
+  The Fayette County IDB of Fayette County, Tennessee              Conduit      $        3,350,000     $      1,677,317   Revenue Bond, Series 2014 (Fayette Academy Project)   08/08/2029
+Fentress
+  IDB of Fentress County, Inc.                                     No Debt
+Franklin
+  Tullahoma IDB                                                 Refer to Coffee County
+  IDB of Franklin County                                           No Debt
+  IDB of the Town of Decherd, Tennessee                         Not active; being disolved
+Gibson
+  City of Trenton Economic and IDB                                 Conduit      $          221,164     $              -   Van Can 2017                                          02/10/2026
+  City of Trenton Economic and IDB                                  Direct      $          149,490     $              -   General 2017                                          01/08/2023
+  City of Trenton Economic and IDB                                  Direct      $          361,332     $        361,332   Silgan                                                07/01/2025
+  City of Trenton Economic and IDB                                  Direct      $        1,750,000     $              -   Van Can 2011                                          01/01/2026
+  IDB of the City of Bradford, TN                                  No Debt
+  IDB of the City of Dyer                                          No Debt
+  IDB of Gibson County, Tennessee                                  No Debt
+  IDB of the City of Humboldt, Tennessee                           No Debt
+  IDB of the City of Milan, Tennessee                              No Debt
+  IDB of the City of Rutherford, Tennessee                         No Debt
+Giles
+  IDB of the City of Pulaski and Giles County                      Conduit      $          962,343     $              -   PGI Investments (2016)                                09/22/2035
+  IDB of the City of Pulaski and Giles County                      Conduit      $          775,000     $        327,297   Avenue at Giles (2015)                                04/01/2035
+  IDB of the City of Pulaski and Giles County                      Conduit      $        5,225,000     $      3,281,907   Twin City Fan (2015)                                  03/19/2025
+  IDB of the City of Pulaski and Giles County                      Conduit      $        1,000,000     $        765,294   Integrity Injection Mold (2022)                       05/04/2032
+  IDB of the City of Pulaski and Giles County                      Conduit      $        1,469,418     $              -   PGI Investments (2017)                                07/21/2027
+  IDB of the City of Pulaski and Giles County                      Conduit      $        4,800,000     $      4,394,705   Integrity Mold (2021)                                 03/29/2042
+  IDB of the City of Pulaski and Giles County                      Conduit      $          600,000     $        110,406   Saargummi (2011)                                      07/01/2026
+  IDB of the City of Pulaski and Giles County                      Conduit      $          580,000     $        417,469   Avenue at Giles (2018)                                04/01/2035
+  IDB of the City of Pulaski and Giles County                      Conduit      $          500,000     $              -   PGI Investments (2017)                                07/21/2027
+  IDB of the City of Pulaski and Giles County                      Conduit      $        3,021,000     $              -   PGI Investments (Lease/Purchase) 2015                 09/21/2035
+  IDB of the Town of Ardmore, Tennessee                             Direct      $          350,000     $              -   Line of Credit Issued 2016                            02/09/2026
+Grainger
+  IDB of Grainger County, Tennessee                                No Debt
+Greene
+  IDB of the Town of Greeneville and Greene County, Tennessee       Direct      $            300,000   $        256,387   Tax Increment Revenue Note (Series 2021)              10/07/2031
+  IDB of the Town of Greeneville and Greene County, Tennessee       Direct      $            200,000   $        132,168   Tax Increment Revenue Note (Series 2019)              01/01/2030
+  IDB of the Town of Greeneville and Greene County, Tennessee       Direct      $            200,000   $        166,789   Tax Increment Revenue Note (Series 2020)              07/08/2030
+  Tusculum-Greeneville-Greene County, Tennessee IDB                No Debt
+Grundy
+  IDB of Grundy County                                             No Debt
+Hamblen
+  IDB of the City of Morristown, Tennessee                          Direct      $        2,803,000     $      2,803,000   Tax Increment Revenue Note 2022                       04/30/2034
+  IDB of the City of Morristown, Tennessee                          Direct      $        1,725,000     $      1,075,700   Tax Increment Revenue Note 2014                       08/20/2035
+
+[[page 7]]
+APPENDIX B                                                                                              Fiscal Year 2024
+                                                                                            Tennessee Industrial Development Boards
+                                                                       Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                                           Outstanding
+                                                                    Debt            Original Issue                                                                                                                  Maturity
+  Entity Name                                                                                               Amount          Debt Name / Series Year
+                                                                    Type              Amount                                                                                                                         Date
+                                                                                                            Reported
+
+
+ IDB of the City of Morristown, Tennessee                           Direct      $          4,660,000   $        602,589   Tax Increment Revenue Note 2015                                                          04/30/2030
+ IDB of the City of Morristown, Tennessee                           Direct      $          1,000,000   $      1,000,000   Tax Increment Revenue Note 2022                                                          04/30/2033
+ IDB of the City of Morristown, Tennessee                           Direct      $          1,750,000   $        536,046   Tax Increment Revenue Note 2015                                                          04/30/2031
+ IDB of the City of Morristown, Tennessee                           Direct      $          1,100,000   $        440,000   Tax Increment Revenue Note 2010                                                          04/01/2031
+ IDB of the City of Morristown, Tennessee                           Direct      $          2,500,000   $      1,365,221   Tax Increment Revenue Note 2013                                                          03/31/2034
+ IDB of the City of Morristown, Tennessee                           Direct      $          3,500,000   $      1,236,768   Tax Increment Revenue Note 2014                                                          05/01/2034
+Hamilton
+ IDB of the City of Chattanooga, Tennessee                         Conduit      $        6,900,000     $     694,651      YMCA 2020                                                                                12/01/2026
+ IDB of the City of Chattanooga, Tennessee                         Conduit      $        3,500,000     $   2,464,252      139 Partners dba Evergreen Real Estate - MLK Blvd Ext - Riverwalk - Pinnacle Bank 2018   12/10/2036
+ IDB of the City of Chattanooga, Tennessee                         Conduit      $        4,000,000     $   3,985,232      East Chattanooga Rising (Nippon Paint Automotive Company) - Tubman Site 2020             12/31/2040
+ IDB of the City of Chattanooga, Tennessee                         Conduit      $        9,089,045     $   8,619,332      Black Creek Mountain 2013                                                                12/31/2031
+ IDB of the City of Chattanooga, Tennessee                         Conduit      $      200,000,000     $ 200,000,000      Blue Cross Blue Shield 2023                                                              01/01/2028
+ IDB of Hamilton County                                            Conduit      $       16,000,000                        Tennessee Aquarium - Series 2020A & Series 2020B                                         01/01/2036
+ IDB of the City of Chattanooga, Tennessee                          Direct      $        9,900,000     $      8,754,000   North Access Road Plan Area Tax Increment Revenue Note                                   05/01/2047
+ IDB of the City of Chattanooga, Tennessee                          Direct      $       28,200,000     $      5,145,000   2018C IDB Revenue Refunding 2010 Bonds Taxable                                           10/01/2024
+ IDB of the City of Chattanooga, Tennessee                          Direct      $       32,235,000     $     24,544,000   2018A IDB Revenue Refunding 2007 Bonds                                                   10/01/2028
+ IDB of the City of East Ridge                                     No Debt
+Hancock
+ Hancock County IDB                                                No Debt
+Hardeman
+ IDB of the City of Bolivar, Tennessee                             No Debt
+ IDB of the County of Hardeman, Tennessee                          No Debt
+ IDB of the City of Middleton                                      No Debt
+Hardin
+ Savannah Industrial Development Corporation                       No Debt
+ Adamsville-McNairy County IDB                                  Refer to McNairy County
+Hawkins
+ The IDB of the City of Kingsport, Tennessee                    Refer to Sullivan County
+ Hawkins County IDB                                                No Debt
+ Phipps Bend Joint Venture                                         No Debt
+ The IDB of the City of Kingsport, Tennessee                    Refer to Sullivan County
+Haywood
+ IDB of Brownsville, Tennessee                                     No Debt
+ IDB of the City of Brownsville and Haywood County, Tennessee      No Debt
+Henderson
+ IDB of the Town of Scotts Hill, Tennessee                      Refer to Decatur County
+ Lexington IDB                                                      Direct      $       950,000        $        559,404   Promissory Note First Bank, 2010                                                         05/31/2026
+Henry
+ IDB of the City of McKenzie                                    Refer to Carroll County
+ IDB of the City of Paris, Tennessee                               Conduit       $        998,420      $        334,874   Eurotranciatura 2020                                                                     06/14/2026
+ IDB of the City of Paris, Tennessee                               Conduit       $      2,777,767      $        277,767   Tax Increment Revenue Note - Paris Crossing 2024                                         06/12/2044
+ IDB of the City of Paris, Tennessee                               Conduit       $        754,000      $        566,749   Eurotranciatura East 2022-1                                                              03/01/2027
+ IDB of the City of Paris, Tennessee                               Conduit       $        146,000      $         66,661   Eurotranciatura East Equipment 2022-2                                                    03/01/2027
+Hickman
+ IDB of the Town of Centerville                                    No Debt
+ IDB of the County of Hickman                                      No Debt
+Houston
+ IDB of Erin                                                       No Debt
+Humphreys
+ IDB of Humphreys County, TN                                       No Debt
+
+[[page 8]]
+APPENDIX B                                                                                             Fiscal Year 2024
+                                                                                           Tennessee Industrial Development Boards
+                                                                      Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                                         Outstanding
+                                                                   Debt            Original Issue                                                                                                              Maturity
+  Entity Name                                                                                             Amount          Debt Name / Series Year
+                                                                   Type              Amount                                                                                                                     Date
+                                                                                                          Reported
+
+
+Jackson
+  IDB of the County of Jackson                                    No Debt
+Jefferson
+  IDB of the City of Jefferson City                                Direct      $         1,140,000   $        633,334   APPLACHIAN ELECTRIC 2019                                                              06/11/2029
+  IDB of the City of Jefferson City                                Direct      $           285,000   $        165,919   APPLACHIAN ELECTRIC-2 2019                                                            07/11/2029
+  IDB of Jefferson County, Tennessee                              No Debt
+  IDB of the Town of White Pine                                   No Debt
+Johnson
+  IDB of the County of Johnson County, Tennessee                  No Debt
+Knox
+  The IDB of Knox County                                          Conduit      $         2,300,000   $        830,000   The Change Center, Series 2017, 7/31/2017                                             07/31/2022
+  The IDB of Knox County                                          Conduit      $        15,000,000   $        337,900   Knoxville Zoological Gardens, Inc., Series 2019, 8/23/2019                            09/05/2024
+  The IDB of Knox County                                          Conduit      $         5,500,000   $      3,542,612   Young Men's Christian Assoc. of ETN, Series 2019, 8/16/2019                           08/16/2034
+  The IDB of Knox County                                          Conduit      $        47,100,000   $     47,100,000   Tompaul Knoxville LLC, Series 2022 Green Bonds                                        12/01/2052
+  IDB of the City of Knoxville                                    Conduit      $         4,250,000   $              -   The IDB of the City of Knoxville                                                      12/01/2046
+  The IDB of Knox County                                           Direct      $         2,000,000   $      1,920,000   Tax Increment Revenue Note, Series 2019A, 11/12/2019                                  04/01/2038
+  The IDB of Knox County                                           Direct      $           500,000   $        500,000   Tax Increment Revenue Note, Series 2019B, 11/12/2019                                  04/01/2038
+  The IDB of Knox County                                           Direct      $         2,507,841   $        545,923   Tax Increment Revenue Note, Series 2020, 12/22/2020                                   10/05/2027
+  IDB of the City of Knoxville for the Downtown Cinema, Inc.       Direct      $         4,250,000   $              -   The IDB of the City of Knoxville for the Downtown Cinema, Inc.                        12/01/2046
+Lake
+  IDB of Lake County, Tennessee                                   No Debt
+  IDB of the City of Tiptonville                                  No Debt
+Lauderdale
+  IDB of the City of Ripley                                       Conduit      $         4,830,000   $              -   GO Lease Rental Rev Bonds, Series 2009                                                12/01/2023
+  IDB of the City of Ripley                                       Conduit      $         1,600,000   $        829,795   Loan Agreement, Series 2012                                                           02/08/2031
+  IDB of the Town of Halls                                        No Debt
+  IDB of Lauderdale County, Tennessee                             No Debt
+Lawrence
+  IDB of the City of Lawrenceburg                                 Conduit      $         3,000,000   $      2,131,710   $3,000,000 Industrial Development Revenue Board (Booker Assets TN, Inc) Series 2019   04/01/2034
+  IDB of the City of Lawrenceburg                                  Direct      $         1,032,300   $        909,406   TIF Note (Best Western Hotel Plus Project) Series 2021                                05/01/2041
+  IDB of the City of Loretto, Tennessee                           No Debt
+Lewis
+  IDB of the City of Hohenwald                                     Direct      $          905,000    $        753,238   BRS Offroad 2021                                                                      05/05/2036
+  IDB of the City of Hohenwald                                     Direct      $          358,915    $        197,026   Real Estate - Forrest Ave, 2012                                                       12/05/2032
+Lincoln
+  IDB of the Town of Ardmore, Tennessee                        Refer to Giles County
+  Fayetteville-Lincoln County IDB                                  Direct       $          850,000   $              -   Tax Increment Revenue Note (Series 2015 A & Series 2015 B)                            04/01/2028
+  Fayetteville-Lincoln County IDB                                  Direct       $        2,590,000   $      2,129,880   Industrial Revenue Bond (Industrial Park Project) Series 2021                         12/30/2031
+Loudon
+  IDB of the City of Loudon, Tennessee                            Conduit      $         5,000,000   $        805,000   Loudon Garden Multifamily Housing Bonds, 8/22/2022                                    08/01/2027
+  IDB of the City of Loudon, Tennessee                            Conduit      $       250,000,000   $              -   Revenue Bond, Series 2017                                                             12/31/2026
+  IDB of the City of Lenoir City, Tennessee                       No Debt
+  IDB of Loudon County                                            No Debt
+Macon
+  IDB of Macon County, Tennessee                               Newly Created IDB
+  IDB of the City of Lafayette, Tennessee                        No Debt
+Madison
+  IDB of the City of Jackson                                      Conduit      $         4,500,000   $      4,500,000   Bobrick Washroom Equipment 2020                                                       09/01/2049
+  IDB of the City of Jackson                                      Conduit      $         5,550,000   $        665,652   Tax Increment Revenue Note (The Columns III Project) 2024                             05/01/2039
+  IDB of the City of Jackson                                      Conduit      $         9,000,000   $      1,000,000   BICC Capital Project 1991 (Issued 2001)                                               02/12/2025
+  Jackson Downtown Revenue Finance Corporation                    No Debt
+
+[[page 9]]
+APPENDIX B                                                                                                   Fiscal Year 2024
+                                                                                                 Tennessee Industrial Development Boards
+                                                                            Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                                                Outstanding
+                                                                         Debt            Original Issue                                                                                          Maturity
+  Entity Name                                                                                                    Amount          Debt Name / Series Year
+                                                                         Type              Amount                                                                                                 Date
+                                                                                                                 Reported
+
+
+Marion
+ IDB of South Pittsburg                                              Inactive - no current board, no debt
+ IDB of Marion County                                                   No Debt
+Marshall
+ Lewisburg IDB                                                          Conduit      $       25,000,000     $     25,000,000   Revenue Bonds Series 2003                                        07/01/2033
+ Lewisburg IDB                                                          Conduit      $       18,000,000     $     18,000,000   Revenue Refunding Bonds Series 2012                              07/02/2035
+ IDB of the Town of Cornersville, Tennessee                             No Debt
+Maury
+ The IDB of Maury County, Tennessee                                     Conduit      $      5,800,000       $        722,951   UST TIF Note 2/26/15                                             02/26/2035
+ The IDB of Maury County, Tennessee                                      Direct      $      4,000,000       $      2,025,000   Industrial Revenue Bond Series 2018                              06/01/2029
+ IDB of the City of Columbia, Tennessee                                 No Debt
+ IDB of the City of Mount Pleasant                                      No Debt
+ IDB of the City of Spring Hill, Tennessee                           Refer to Williamson County
+McMinn
+ IDB of McMinn County                                                   Conduit      $          800,000     $        800,000   Tax Increment Financing Note - 2016                              02/01/2039
+ IDB of McMinn County                                                   Conduit      $        9,383,150     $      7,334,864   Revenue Refunding Bond - 2012                                    04/01/2036
+ IDB of McMinn County                                                    Direct      $        1,695,900     $        737,100   Armstrong Promissory Note - 2017                                 07/12/2027
+McNairy
+ Adamsville-McNairy County IDB                                          No Debt
+ Selmer-McNairy County IDB                                               Direct      $        1,756,242     $              -   HOME BANKING CO 2014                                             04/01/2028
+ Selmer-McNairy County IDB                                               Direct      $        1,000,000     $              -   PICKWICK ELECTRIC COOP NOTE PAYABLE 2014                         02/25/2024
+ Selmer-McNairy County IDB                                               Direct      $        2,000,000     $      1,593,558   TVA NOTE PAYABLE, SERIES 2019                                    11/15/2034
+ Selmer-McNairy County IDB                                               Direct      $        1,148,312     $        838,431   CENTRAL BANK NOTE PAYABLE 2020                                   01/31/2032
+Meigs
+ IDB of Meigs County and the City of Decatur                            No Debt
+Monroe
+ Monroe County Industrial Development Bond Board                        No Debt
+ IDB of the City of Sweetwater                                          No Debt
+Montgomery
+ The IDB of the County of Montgomery                                    Conduit      $       12,280,000     $              -   Multifamily Note (Ramblewood Apartments Project), Series 2022    10/01/0039
+ The IDB of the County of Montgomery                                    Conduit      $       30,000,000     $              -   Bridgestone Metalpha, Series A-2012                              12/31/2025
+ The IDB of the County of Montgomery                                    Conduit      $       80,000,000     $              -   Hankook Tire, Series A-2016                                      05/26/2024
+ The IDB of the County of Montgomery                                    Conduit      $       30,000,000     $              -   Hankook Tire, Series A-2014                                      12/10/2024
+ The IDB of the County of Montgomery                                    Conduit      $      150,000,000     $              -   AtlasBX America Corp., Series A-2018                             09/28/2028
+ The IDB of the County of Montgomery                                    Conduit      $      150,000,000     $              -   Hankook Tire, Series A-2015                                      11/19/2024
+ The IDB of the County of Montgomery                                    Conduit      $       55,000,000     $              -   Bridgestone Metalpha, Series B-2012                              12/31/2025
+ The IDB of the County of Montgomery                                    Conduit      $        5,000,000     $              -   Shiloh Project, Series A-2014                                    12/31/2023
+ The IDB of the County of Montgomery                                     Direct      $        3,675,596     $      4,028,459   Office Complex Note Payable - 2020                               12/08/2042
+ The IDB of the County of Montgomery                                     Direct      $       18,500,000     $     18,500,000   Industrial Revenue Note (Industrial Park Project), Series 2021   06/01/2042
+Moore
+ No Active IDB
+Morgan
+ Morgan County Economic Development Board, Inc.                          Direct      $        2,700,000     $      2,442,427   Sales Tax Increment Revenue Note 2022                            11/14/2029
+ Morgan County Economic Development Board, Inc.                          Direct      $        2,300,000     $      2,300,000   Sales Tax Increment Revenue Note 2024                            03/10/2031
+ Morgan County Economic Development Board, Inc.                          Direct      $        1,000,000     $        672,393   Commercial Promissory Note 2021                                  12/01/2030
+Obion
+ IDB of the City of Union City, Tennessee                               Conduit      $        3,500,000     $      3,138,325   TIF-GAM                                                          04/30/2039
+ IDB of the City of Union City, Tennessee                               Conduit      $        1,600,000     $      1,600,000   Gopal 2018                                                       01/01/2035
+ IDB of the City of Union City, Tennessee                               Conduit      $        3,250,000     $        325,000   MIA-Note 1 Building                                              12/01/2023
+ Industrial Development Corporation of the Town of Troy, Tennessee       Direct      $          404,543     $        127,622   First Citizens Bank Note #217871                                 12/05/2026
+ Industrial Development Corporation of the Town of Troy, Tennessee       Direct      $        1,007,474     $        432,445   First Citizens Bank note #227737                                 01/29/2025
+
+[[page 10]]
+APPENDIX B                                                                                                  Fiscal Year 2024
+                                                                                                Tennessee Industrial Development Boards
+                                                                           Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                                              Outstanding
+                                                                         Debt           Original Issue                                                                                                             Maturity
+  Entity Name                                                                                                  Amount          Debt Name / Series Year
+                                                                         Type             Amount                                                                                                                    Date
+                                                                                                               Reported
+
+
+  IDB of the City of Union City, Tennessee                              Direct      $           400,000   $         40,000   MIA -operating                                                                       12/01/2023
+  IDB of the Town of Obion                                             No Debt
+  IDB of the City of South Fulton, Tennessee, Inc.                     No Debt
+Overton
+  Industrial Development Authority of Overton County                   No Debt
+Perry
+  IDB of Perry County, Tennessee                                        Direct      $        1,200,000    $        250,000   NYX, Inc. Roof 2013                                                                  06/01/2027
+Pickett
+  IDB of Pickett County                                                No Debt
+Polk
+  Polk County Industrial Economic Development Corporation              No Debt
+Putnam
+  IDB of the City of Cookeville                                        No Debt
+Rhea
+  IDB of the City of Dayton                                            No Debt
+  IDB of Rhea County, Tennessee                                        No Debt
+Roane
+  IDB of the City of Oak Ridge                                       Refer to Anderson County
+  IDB of the City of Harriman, Tennessee                                No Debt
+  IDB of Roane County                                                   No Debt
+  IDB of the City of Rockwood                                           No Debt
+Robertson
+  IDB of Robertson County                                              No Debt
+  IDB of the City of Springfield, Tennessee                            No Debt
+  IDB of the City of White House, Tennessee                            No Debt
+Rutherford
+  IDB of Rutherford County                                             Conduit      $       10,000,000    $        110,016   Revenue Bond Series 2013                                                             07/01/2023
+  IDB of the City of La Vergne                                         No Debt
+  IDB of the Town of Smyrna                                            No Debt
+Scott
+  IDB of Scott County                                                  Conduit      $        1,400,000    $      1,036,238   J&M Grading Division , LLC 2015                                                      04/30/2036
+  IDB of Scott County                                                  Conduit      $        1,010,000    $        979,861   Thompson Medical Clinic 2020                                                         01/01/2041
+  IDB of the Town of Oneida, Tennessee                                 No Debt
+  Winfield IDB                                                         No Debt
+Sequatchie
+  IDB of the City of Dunlap                                             Direct      $           160,000   $        125,429   Mountain Valley Bank 2020                                                            12/01/2029
+  IDB of the County of Sequatchie                                       Direct      $           500,000   $        500,000   SVEC Red Leg Loan 2023                                                               09/30/2043
+  IDB of the County of Sequatchie                                       Direct      $           500,000   $        500,000   SETD Revolving Loan Fund 2023                                                        09/30/2035
+Sevier
+  IDB of Pigeon Forge                                                  Conduit      $        2,000,000    $      1,367,404   Revenue Bonds, Series 2015                                                           01/27/2035
+  IDB of the City of Sevierville, Tennessee                            Conduit      $        2,025,000    $        951,433   Revenue Bonds, Series 2015                                                           02/28/2031
+  IDB of the County of Sevier, Tennessee                               No Debt
+Shelby
+  IDB of the City of Bartlett, Tennessee                                Conduit     $       18,250,000    $      7,714,961   Series 2023A Obligation 2023                                                         10/15/2026
+  IDB of the City of Bartlett, Tennessee                                Conduit     $       20,000,000    $      2,886,413   Series 2023B Obligation 2023                                                         09/15/2026
+  IDB of the City of Lakeland, Tennessee                                Conduit     $       13,000,000    $      2,062,501   Lakeland Gateway Ashmont Project 2023                                                11/27/2046
+  IDB of the City of Lakeland, Tennessee                                Conduit     $        9,750,000    $      9,750,000   Relating to Lakeland Town Center 2022                                                11/17/2034
+  Economic Development Growth Engine IDB - Memphis & Shelby County      Conduit     $        5,005,000    $              -   Subordinate Tax Increment Revenue Bonds, Series 2017D (Graceland Project) Taxable    07/01/2030
+  Economic Development Growth Engine IDB - Memphis & Shelby County      Conduit     $       25,000,000    $              -   EDGE Direct Note Obligation (EPPF Project) Series 2016B                              06/01/2045
+  Economic Development Growth Engine IDB - Memphis & Shelby County      Conduit     $       24,375,000    $              -   EDGE Subordinate Tax Increment Rev Bonds, Series 2017C (Graceland Project) Taxable   07/01/2045
+  Economic Development Growth Engine IDB - Memphis & Shelby County      Conduit     $       23,000,000    $              -   Tax Increment Revenue Note (The Legacy at Countrywood Project 11/10/2022             11/10/2044
+
+[[page 11]]
+APPENDIX B                                                                                                  Fiscal Year 2024
+                                                                                                Tennessee Industrial Development Boards
+                                                                           Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                                               Outstanding
+                                                                         Debt           Original Issue                                                                                                                     Maturity
+  Entity Name                                                                                                   Amount            Debt Name / Series Year
+                                                                         Type             Amount                                                                                                                            Date
+                                                                                                                Reported
+
+
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $     8,000,000     $              -     Tax Increment Revenue Note (Poplar Corridor Business District) 8/1/23                        08/02/2033
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $    25,000,000     $              -     EDGE Direct Note Obligation (EPPF Project) Series 2016A                                      06/01/2045
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $     7,375,000     $              -     EDGE Revenue Refunding Bond, Series 2019 (YMCA Projects)                                     03/01/2029
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $    19,140,000     $              -     EDGE Economic Development Bonds (City of Memphis Project) Series 2021A                       04/01/2041
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $    34,300,000     $              -     EDGE TDZ Revenue Refunding Bonds, Series 2017C (Federally Taxable)                           06/01/2046
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $     6,000,000     $              -     Non-Revolving Facility for TIF ImprovementsThrough UNDC Promissory Note 9/30/21              12/31/2033
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $    40,490,000     $              -     EDGE Senior Tax Increment Revenue Bonds, Series 2017A (Graceland Project) Tax Exempt         07/01/2046
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $    69,635,000     $              -     Revenue Bonds, Series 2021 (Federally Taxable) (Liberty Park Project)                        12/01/2051
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $     2,282,250     $              -     EDGE Special Project Rev Obligation, Series 2014 (Serenity Recovery Centers, Inc. Project)   02/24/2035
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $    10,000,000     $              -     Subordinate Tax Increment Revenue Bonds, Series 2017E (Graceland Project) Taxable            07/01/2044
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $     5,115,000     $              -     Economic Development Bonds (City of Memphis Project) Series 2021B (Federally Taxable)        04/01/2028
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $    24,430,000     $              -     Senior Tax Increment Revenue Bonds, Series 2017B (Graceland Project) Taxable                 07/01/2045
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $    87,725,000     $              -     EDGE TDZ Revenue Refunding Bonds, Series 2017B                                               11/01/2030
+  Economic Development Growth Engine IDB - Memphis & Shelby County     Conduit      $    36,215,000     $              -     TDZ Revenue Refunding Bonds, Series 2017A                                                    11/01/2046
+  Memphis Center City Revenue Finance Corporation                      Conduit      $        340,700    $        68,140      Qualified Energy Conservation Bonds, 2015C                                                   01/05/2024
+  Memphis Center City Revenue Finance Corporation                      Conduit      $     8,316,000     $    2,494,800       Qualified Energy Conservation Bonds, 2015A                                                   01/05/2025
+  Memphis Center City Revenue Finance Corporation                      Conduit      $    11,000,000     $    9,629,276       Tax-Exempt Revenue Bonds                                                                     06/01/2026
+  Memphis Center City Revenue Finance Corporation                      Conduit      $     2,015,300     $       404,060      Qualified Energy Conservation Bonds, 2015B                                                   01/05/2024
+  IDB of the City of Millington                                        Conduit      $     2,404,985     $    2,404,985       FRC TIF Note 2 2023                                                                          03/31/2043
+  IDB of the City of Millington                                        Conduit      $     3,516,320     $    3,516,320       FRC TIF Note 1 2022                                                                          03/21/2043
+  IDB of the City of Millington                                        Conduit      $     3,800,000     $    3,007,126       Shoppes of Millington Farms 2017                                                             05/01/2037
+  Memphis Center City Revenue Finance Corporation                       Direct      $    20,250,000     $ 14,898,750         Series 2021 Direct Note Obligation DMA Projects                                              12/01/2028
+  Memphis Center City Revenue Finance Corporation                       Direct      $    17,925,000     $ 11,105,000         Sports Facility Revenue Bonds (Stadium Project) 2014A                                        02/01/2029
+  Memphis Center City Revenue Finance Corporation                       Direct      $     5,720,000     $    2,730,000       Sports Facility Revenue Bonds (Stadium Project) 2014B                                        02/01/2030
+  Memphis Center City Revenue Finance Corporation                       Direct      $    19,750,000     $ 13,398,750         Series 2021 Direct Note Obligation DMA Projects                                              12/02/2028
+  IDB of the City of Arlington                                         No Debt
+  IDB of the Town of Collierville, Tennessee                           No Debt
+  IDB of the City of Germantown, Tennessee                             No Debt
+  Piperton IDB                                                         No Debt
+  Depot Redevelopment Corporation of Memphis and Shelby County       Reported with Economic Development Growth Engine IDB - Memphis & Shelby County
+  IDB of the City of Memphis and County of Shelby, Tennessee         Reported with Economic Development Growth Engine IDB - Memphis & Shelby County
+Smith
+  IDB of Smith County                                                   No Debt
+Stewart
+  IDB of Stewart-Houston Counties                                        Direct     $        1,334,821     $      1,385,721    Interloan with Stewart Houston Industrial Park Board                                       05/13/2026
+  IDB of the Town of Dover, Tennessee                                   No Debt
+  IDB of Stewart County                                                 No Debt
+Sullivan
+  The IDB of the City of Kingsport, Tennessee                            Direct     $      3,500,000       $        973,430    2024 - Dental Clinic                                                                       12/01/2029
+  The IDB of the City of Kingsport, Tennessee                            Direct     $      6,640,000       $      5,845,737    2020 - Anita's Foods Loan                                                                  06/15/2030
+  The IDB of the City of Kingsport, Tennessee                            Direct     $      4,000,000       $      3,288,731    2013 - General Shale Loan                                                                  12/30/2023
+  The IDB of the City of Kingsport, Tennessee                            Direct     $      1,800,000       $        469,000    2019 - Miracle Field Loan                                                                  07/15/2030
+  The IDB of the City of Kingsport, Tennessee                            Direct     $        800,000       $        778,600    2024 - RCAM Loan                                                                           09/01/2033
+  IDB of the City of Johnson City, Tennessee                         Refer to Washington County
+  The IDB of the City of Kingsport, Tennessee                           Conduit     $      8,500,000       $      8,500,000    2020 - Multifamily Housing Revenue Bond                                                    12/31/2023
+  The IDB of the City of Kingsport, Tennessee                           Conduit     $     11,050,000       $     11,050,000    2009 - Multifamily Housing Revenue Bond                                                    07/31/2049
+  The IDB of the City of Bristol, Tennessee                             Conduit     $     91,085,000       $     91,085,000    Series 2016A CIB State Sales Tax Revenue Bonds                                             12/01/2043
+  The IDB of the City of Bristol, Tennessee                             Conduit     $      3,680,000       $      2,825,000    Series 2016B Subordinate Direct Placement Tax Increment Revenue Bonds                      06/01/2035
+  The IDB of the City of Bristol, Tennessee                             Conduit     $     30,020,000       $     24,970,000    Tax Increment Revenue Bonds (Pinnacle Project) Series 2016 dated November 30, 2016         06/01/2035
+  The IDB of the City of Bristol, Tennessee                             Conduit     $     29,515,400       $     16,370,546    2016B CAB State Sales Tax Revenue Bonds                                                    12/01/2043
+  IDB of the County of Sullivan                                         No Debt
+
+[[page 12]]
+APPENDIX B                                                                             Fiscal Year 2024
+                                                                           Tennessee Industrial Development Boards
+                                                      Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                          Outstanding
+                                                   Debt            Original Issue                                                                                                       Maturity
+  Entity Name                                                                              Amount             Debt Name / Series Year
+                                                   Type              Amount                                                                                                              Date
+                                                                                           Reported
+
+
+Sumner
+  IDB of the City of Goodlettsville            Refer to Davidson County
+  IDB of the City of White House, Tennessee    Refer to Robertson County
+  City of Hendersonville IDB                      Conduit      $    13,300,000        $     12,022,794      $13,300,000 Multifamily Note (Governmental Waterview Apartments Project)   03/01/2033
+  City of Hendersonville IDB                      Conduit      $      5,925,000       $      4,925,000      5,925,000 Multifamily Bond (Hickory Pointe Apartments)                     12/01/2025
+  IDB of the City of Portland, Tennessee          Conduit      $        327,000       $              -      Tractor Supply 2018                                                        01/01/2033
+  IDB of the City of Portland, Tennessee          Conduit      $    25,500,000        $              -      Shoals LLC & Shoals Technologies 2011                                      01/01/2026
+  IDB of the City of Portland, Tennessee          Conduit      $    26,500,000        $              -      Kyowa America 2012                                                         01/01/2025
+  IDB of the City of Portland, Tennessee          Conduit      $      7,000,000       $              -      Stevison Ham Company 2017                                                  01/01/2028
+  IDB of the City of Portland, Tennessee          Conduit      $    50,000,000        $              -      SIF Portland LLC & RB Distribution 2018                                    01/01/2028
+  IDB of the City of Westmoreland                  Direct      $        119,933       $              -      Project Stitch Loan                                                        09/07/2022
+  IDB of the City of Westmoreland                  Direct      $         97,930       $              -      Improvements Loan-2017                                                     10/19/2022
+  IDB of the City of Westmoreland                  Direct      $        550,000       $        238,818      Building Loan                                                              12/01/2029
+  Gallatin IDB                                    No Debt
+  IDB of the County of Sumner                     No Debt
+Tipton
+  IDB of the Town of Covington, Tennessee         Conduit      $       49,500,000     $     11,206,961      US Cold Storage - Series 2014                                              12/31/2023
+  IDB of the Town of Covington, Tennessee         Conduit      $       30,342,242     $     10,032,670      Unilever, Series 2014-1                                                    12/31/2024
+  IDB of the Town of Covington, Tennessee         Conduit      $        7,500,000     $      7,500,000      Charms 1992 Bonds - 1992                                                   06/01/2027
+  IDB of the County of Tipton                     No Debt
+Trousdale
+  Hartsville/Trousdale County IDB                 No Debt
+Unicoi
+  IDB of Unicoi County, Tennessee                  Direct      $          600,000     $        542,345      Tax Increment Revenue Note (Series 2019)                                   04/01/2036
+Union
+  IDB of the County of Union, Tennessee           No Debt
+Van Buren
+  IDB of the City of Spencer, Tennessee           No Debt
+  Van Buren IDB                                   No Debt
+Warren
+  IDB of McMinnville-Warren County                Conduit      $           875,000    $        760,000      Nonrecourse Hunt Properties                                                04/15/2039
+  IDB of McMinnville-Warren County                Conduit      $         3,205,000    $              -      Housing Urban Bond 2009                                                    11/20/2049
+  IDB of McMinnville-Warren County                 Direct      $         1,670,763    $        943,672      Caney Fork Electric 2019                                                   07/01/2029
+  IDB of McMinnville-Warren County                 Direct      $           300,000    $              -      Caney Fork Electric Coop 2014                                              07/01/2024
+  IDB of McMinnville-Warren County                 Direct      $         1,870,000    $        936,991      TVA 2014                                                                   10/15/2034
+  IDB of McMinnville-Warren County                 Direct      $         2,000,000    $              -      Caney Fork Electric Coop 2014                                              07/01/2024
+  IDB of McMinnville-Warren County                 Direct      $         1,200,000    $        471,514      TVA 2014                                                                   10/15/2029
+Washington
+  IDB of the City of Johnson City, Tennessee      Conduit       $       5,943,525     $                 -   Promissory Note 2022                                                       12/01/2053
+  IDB of Jonesborough                          Inactive - no current board, no debt
+  IDB of the County of Washington, Tennessee      No Debt
+Wayne
+  IDB of the City of Collinwood                   No Debt
+  IDB of Wayne County, Tennessee                  No Debt
+  IDB of the City of Waynesboro, Tennessee        No Debt
+Weakley
+  IDB of the City of McKenzie                  Refer to Carroll County
+  IDB of the City of Greenfield                   Conduit       $         292,500     $        119,277      Loan for Industry - Hwy 45                                                 01/23/2029
+  IDB of Weakley County                            Direct       $         738,338     $        121,027      TVA Loan-2007                                                              08/03/2025
+  IDB of the City of Dresden                      No Debt
+  IDB of the City of Martin                       No Debt
+
+[[page 13]]
+APPENDIX B                                                                           Fiscal Year 2024
+                                                                         Tennessee Industrial Development Boards
+                                                    Annual Debt Report - Direct and Conduit Debt Issues Outstanding - T.C.A. § 7-53-304
+
+
+                                                                                        Outstanding
+                                                 Debt            Original Issue                                                                                                                       Maturity
+  Entity Name                                                                            Amount             Debt Name / Series Year
+                                                 Type              Amount                                                                                                                              Date
+                                                                                         Reported
+
+
+White
+ IDB of White County, Tennessee                 Conduit      $        1,400,000     $        306,994      Promissory Note, Series 2007                                                               02/10/2027
+ IDB of the Town of Sparta, Tennessee           No Debt
+Williamson
+ IDB of the City of Spring Hill, Tennessee      No Debt
+ IDB of Williamson County                       Conduit       $      98,000,000     $     58,877,884      Industrial Development Rev Note, Series A (Lampo Project); Issued on October 31, 2017      01/01/2034
+ IDB of Williamson County                       Conduit       $       2,285,716     $        928,572      Educational Facilities Rev Refunding Bond (Currey Ingram Academy Project) Series 2022B     07/31/2025
+ IDB of Williamson County                       Conduit       $      40,000,000     $     38,182,470      Educational Facilities Revenue Note (St. Michael Academy Project) Series 2022B             07/01/2029
+ IDB of Williamson County                       Conduit       $      49,936,000     $     49,936,000      Multifamily Housing Revenue Bonds (Wood Duck Court Apartments) Series 2023                 05/01/2042
+ IDB of Williamson County                       Conduit       $       1,751,524     $      1,751,524      Educational Facilities Rev Refunding Bond (Currey Ingram Academy Project) Series 2022C     07/31/2035
+ IDB of Williamson County                       Conduit       $         985,000     $              -      Educational Facilities Rev Refunding Bond (Currey Ingram Academy Project) Series 2022A     12/31/2023
+ IDB of Williamson County                       Conduit       $      15,000,000     $     14,430,775      Ed Facilities Revenue Bond (Grace Christian Academy of Leipers Fork Project) Series 2021   06/01/2043
+ IDB of the City of Fairview                 Inactive - no current board, no debt
+ IDB of the City of Franklin                    No Debt
+Wilson
+ IDB of Wilson County                           Conduit      $        5,534,000     $                 -   Revenue Bond (Goodwill Industries of Middle TN, Inc. Project), Series 2023                 03/01/2038
+ IDB of Wilson County                           Conduit      $       10,000,000     $                 -   Kenwal 2007                                                                                04/26/2024
+ IDB of the City of Mt. Juliet                  No Debt

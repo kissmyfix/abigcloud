@@ -1,0 +1,5 @@
+text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+621800512_202406_990_2025022423118506.txt,621800512_202406_990_2025022423118506-ocr.pdf,OCR_SCAN,35,184714,5278,1.0,verify figures against page image,GeneratePDFs.exe
+621800512_202506_990_2026031123993329.txt,621800512_202506_990_2026031123993329-ocr.pdf,OCR_SCAN,34,186297,5479,1.0,verify figures against page image,GeneratePDFs.exe
+Gallatin Shalom Zone Inc - Full Filing - Nonprofit Explorer - ProPublica.txt,Gallatin Shalom Zone Inc - Full Filing - Nonprofit Explorer - ProPublica.pdf,DIGITAL,41,184402,4498,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)
+Gallatin Shalomdd Zone Inc - Full Filing - Nonprofit Explorer - ProPublica.txt,Gallatin Shalomdd Zone Inc - Full Filing - Nonprofit Explorer - ProPublica.pdf,DIGITAL,40,134725,3368,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)

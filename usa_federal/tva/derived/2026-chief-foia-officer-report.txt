@@ -1,0 +1,579 @@
+[[page 1]]
+Section I: FOIA Leadership and Applying the Presumption of Openness
+
+The guiding principle underlying the Department of Justice’s (DOJ) 2022 FOIA Guidelines is
+the presumption of openness. The Guidelines also highlight the importance of agency
+leadership in ensuring effective FOIA administration. Please answer the following
+questions about FOIA leadership at your agency and describe the steps your agency has
+taken to ensure that the presumption of openness is being applied to all decisions
+involving the FOIA.
+
+A. Leadership Support for FOIA
+
+   1. The FOIA requires each agency to designate a Chief FOIA Officer who is a senior
+      official at the Assistant Secretary or equivalent level. See 5 U.S.C. § 552(j)(1)
+      (2018). Is your agency’s Chief FOIA Officer at or above this level? Yes.
+
+   2. Please provide the name and title of your agency’s Chief FOIA Officer.
+
+      Rebecca Tolene, Executive Vice President and General Counsel
+
+   3. What steps has your agency taken to incorporate FOIA into its core mission? For
+      example, has your agency incorporated FOIA milestones into its strategic plan
+
+      TVA’s mission is to serve the people of the Tennessee Valley. TVA’s business
+      model is based on partnerships with the region’s citizens, communities and
+      local power companies. Public input, public participation, and the sharing of
+      information are foundational to TVA’s development and implementation of
+      strategic plans and policy decisions. TVA is committed to transparency with the
+      public in all that we do. This includes public participation in integrated resource
+      planning, public meetings of the TVA Board of Directors, listening sessions with
+      the public, two federally chartered advisory councils, working groups and task
+      forces with stakeholder members, community and neighborhood meetings in
+      local communities, public participation through processes under the National
+      Environmental Policy Act, and ﬁnancial reporting and ﬁlings with the U.S.
+      Securities and Exchange Commission, in addition to compliance with the
+      Freedom of Information Act.
+
+B. Presumption of Openness
+
+   4. DOJ's 2022 FOIA Guidelines provides that “agencies should confirm in response
+      letters to FOIA requesters that they have considered the foreseeable harm standard
+      when reviewing records and applying FOIA exemptions.” Does your agency provide
+      such confirmation in its response letters? Yes.
+
+[[page 2]]
+   5. In some circumstances, agencies may respond to a requester that it can neither
+      confirm nor deny the existence of requested records if acknowledging the existence
+      of records would harm an interest protected by a FOIA exemption. This is
+      commonly referred to as a Glomar response. If your agency tracks Glomar
+      responses, please provide:
+
+          a. the number of times your agency issued a full or partial Glomar response
+             during Fiscal Year (FY) 2025 (please separate full and partial Glomar
+             responses if possible);
+
+                   i. TVA did not issue any Glomar responses in FY 2025.
+
+          b. the number of times a Glomar response was issued by exemption during FY
+             2025 (e.g., Exemption 7(C) – 20 times, Exemption 1 – 5 times).
+
+                   i. TVA did not issue any Glomar responses in FY 2025.
+
+   6. Optional -- If there are any other initiatives undertaken by your agency to ensure that
+      the presumption of openness is being applied, please describe them here.
+
+       All records responsive to FOIA requests undergo thorough review to maximize
+       disclosure of information. Internal agency materials subject to Exemption 5 are
+       withheld only when a determination of foreseeable harm has been made.
+
+Section II: Ensuring Fair and Effective FOIA Administration
+
+DOJ's 2022 FOIA Guidelines provide that “[e]nsuring fair and effective FOIA administration
+requires . . . proper training, and a full understanding of FOIA obligations by the entire
+agency workforce.” The Guidelines reinforce longstanding guidance to “work with FOIA
+requesters in a spirit of cooperation.” DOJ also “urge[s] agency Chief FOIA Officers to
+undertake comprehensive review of all aspects of their agency’s FOIA administration” as
+part of ensuring fair and effective FOIA administration.
+
+A. FOIA Training
+
+   1. The FOIA directs agency Chief FOIA Officers to ensure that FOIA training is offered
+      to agency personnel. See 5 U.S.C. § 552(a)(j)(2)(F). Please describe the efforts your
+      agency has undertaken to ensure proper FOIA training is made available and used
+      by agency personnel.
+
+       During FY25, TVA’s FOIA professionals completed both virtual and in-person
+       training sessions provided by the Office of Information Policy. In addition, the
+       FOIA team hosted an informational webinar accessible to all agency personnel.
+
+[[page 3]]
+  2. Did your FOIA professionals, or other personnel at your agency with FOIA
+     responsibilities, attend substantive FOIA training during the reporting period, such
+     as training provided by the Department of Justice? Yes.
+
+  3. If yes, please provide a brief description of the type of training attended or
+     conducted and the topics covered.
+
+     TVA hosted an on-site, in-person training provided by the Department of
+     Justice. Topics covered included Achieving Transparency Through Proactive
+     Disclosures, FOIA Procedural Requirements, FOIA Exemptions Overview and
+     the FOIA and Privacy Act Interface.
+
+  4. Please provide an estimate of the percentage of your FOIA professionals and staff
+     with FOIA responsibilities who attended substantive FOIA training during this
+     reporting period. 100%
+
+  5. OIP has directed agencies to “take steps to ensure that all of their FOIA
+     professionals attend substantive FOIA training at least once throughout the year.” If
+     your response to the previous question is that less than 80% of your FOIA
+     professionals attended training, please explain your agency’s plan to ensure that all
+     FOIA professionals receive or attend substantive FOIA training during the next
+     reporting year. N/A
+
+  6. Describe any efforts your agency has undertaken to inform non-FOIA professionals
+     of their obligations under the FOIA. In particular, please describe how often and in
+     what formats your agency provides FOIA training or briefings to non-FOIA staff, and
+     if senior leaders at your agency received a briefing on your agency’s FOIA resources,
+     obligations and expectations during the FOIA process.
+
+     TVA’s FOIA Response Team conducted an informational FOIA webinar that was
+     open to all agency personnel. Additionally, individual and small group training
+     was provided periodically to TVA leaders, record custodians and other non-
+     FOIA professionals by the FOIA Officer and TVA’s FOIA support attorneys.
+
+B. Outreach
+
+  7. As part of the standard request process, do your FOIA professionals proactively
+     contact requesters concerning complex or voluminous requests in an effort to
+     clarify or narrow the scope of the request so requesters can receive responses
+     more quickly? Please describe any such outreach or dialogue and, if applicable,
+     any specific examples.
+
+[[page 4]]
+      When a request cannot be processed within the simple track, TVA notifies the
+      requester of the unusual circumstances and seeks an opportunity to discuss
+      potential modifications that would allow for quicker processing.
+
+   8. Outside of the standard request process or routine FOIA Liaison or FOIA Requester
+      Service Center interactions, did your FOIA professionals engage in any outreach or
+      dialogue with the requester community or open government groups regarding your
+      administration of the FOIA? For example, did you proactively contact frequent
+      requesters, host FOIA-related conference calls with open government groups, or
+      provide FOIA training to members of the public? Please describe any such outreach
+      or dialogue and, if applicable, any specific examples of how this dialogue has led to
+      improvements in your agency’s FOIA administration.
+
+      TVA uses multiple methods of outreach to communicate with stakeholders and
+      the communities we serve. We utilize a regional external relations and
+      communications model to leverage all areas of TVA to gain insights from and
+      bring value to external stakeholders. These include customers, communities,
+      elected officials, economic development stakeholders, public interest groups
+      and civic organizations, some of whom make FOIA requests. TVA is dedicated to
+      working with its stakeholders to proactively provide information and listen to
+      feedback on TVA actions and issues of interest, including engaging in dialogue
+      with non-governmental organizations, among others, to help explain TVA’s
+      determinations on their requests and to provide explanatory information on TVA
+      actions.
+
+   9. The FOIA Improvement Act of 2016 requires additional notification to requesters
+      about the services provided by the agency’s FOIA Public Liaison. Please provide an
+      estimate of the number of times requesters sought assistance from your agency’s
+      FOIA Public Liaison during Fiscal Year 2025 (please provide a total number or an
+      estimate of the number for the agency overall).
+
+      10-15 times (estimated)
+
+C. Other Initiatives
+
+   10. Has your agency evaluated the allocation of agency personnel resources needed to
+       respond to current and anticipated FOIA demands? If so, please describe what
+       changes your agency has or will implement.
+
+      TVA completed a comprehensive, cross-functional review of its FOIA program
+      including an assessment of the existing programmatic state, a review of the
+      organizational structure, alignment of legal support, benchmarking of similar
+      agencies, and the use of technology. A business case proposal for the redesign
+      of the FOIA program was approved which led to programmatic changes that
+
+[[page 5]]
+       established a dedicated FOIA Response Team to improve timeliness of
+       responses and reduce the backlog of FOIA requests.
+
+   11. How does your agency use data or processing metrics to ensure efficient
+       management of your FOIA workload? For example, case management reports, staff
+       processing statistics, etc. In addition, please specifically highlight any data
+       analysis methods or technologies used.
+
+       In addition to the quarterly and annual statistical reports required by FOIA, the
+       FOIA Officer distributes a weekly report to the Chief FOIA Officer and other key
+       personnel. This report provides an overview of new requests received and a
+       summary of the requests that were completed. TVA’s primary measure is
+       response time and back log, which is analyzed through our case management
+       system.
+
+   12. Optional -- If there are any other initiatives undertaken by your agency to ensure fair
+       and effective FOIA administration, please describe them here.
+
+       TVA engaged in an Request for Proposal (RFP) to secure a new case
+       management system which utilizes new technologies to help improve
+       efficiencies in FOIA processing.
+
+Section III: Proactive Disclosures
+
+DOJ's 2022 FOIA Guidelines emphasize that “proactive disclosure of information is
+... fundamental to the faithful application of the FOIA.” The Guidelines direct agencies to
+post “records online quickly and systematically in advance of any public request” and
+reiterate that agencies should post records “in the most useful, searchable, and open
+formats possible.”
+
+   1. Please describe what steps your agency takes to identify, track, and post (a)(2)
+      proactive disclosures.
+
+       The FOIA Officer routinely reviews TVA’s FOIA Reading Room and updates it with
+       new information as it becomes available.
+
+   2. Does your agency post logs of its FOIA requests? No.
+
+   3. If so, what information is contained in the logs? N/A
+
+   4. Are they posted in CSV format? If not, what format are they posted in? N/A
+
+[[page 6]]
+5. Please provide a link to the page where any FOIA logs are posted. If applicable,
+   please provide component links. N/A
+
+6. Provide examples of any material (with links) that your agency has proactively
+   disclosed during the past reporting year, including records that have been
+   requested and released three or more times in accordance with 5 U.S.C. §
+   552(a)(2)(D).
+
+   TVA did not have any material that was requested and released three or more
+   times in accordance with 5 U.S.C. § 552(a)(2)(D).
+
+   Information that was proactively disclosed includes, but is not limited to, the
+   following:
+
+       a. TVA Board of Directors meetings agendas, presentations, recaps,
+          streaming video, approved resolutions and other Board resources -
+          Board of Directors
+
+       b. TVA’s 2025 Integrated Resource Plan process - Integrated Resource Plan
+
+       c. TVA Financial reports - TVA - SEC Filings
+
+       d. TVA Strategic Plan - Strategic Plan
+
+7. Please provide a link (or component links, if applicable) where your agency routinely
+   posts its frequently requested records.
+
+       a. Reading Room
+
+       b. Reports
+
+       c. Board of Directors
+
+8. Beyond posting new material, is your agency taking steps to make the posted
+   information more useful to the public, especially to the community of individuals
+   who regularly access your agency’s website? If yes, please provide examples of
+   such improvements, such as steps taken to post information in open and machine-
+   readable formats. If your agency is not taking steps to make posted information
+   more useful, please explain why.
+
+   We are committed to ensuring that the external TVA website is accessible to all
+   users, including those with special needs, and we are continuously
+   implementing improvements to increase accessibility. In 2023, TVA began
+   applying User Interface / User Experience (UI/UX) design research and
+
+[[page 7]]
+      principles to further engage our audiences and accelerate improvements
+      targeting their needs.
+
+   9. Does your proactive disclosure process or system involve any collaboration with
+      agency staff outside the FOIA office, such as IT or data personnel? If so, describe
+      this interaction.
+
+      TVA’s FOIA Response Team collaborates with internal business units to identify
+      and prepare proactive disclosures related to FOIA. Additionally, TVA’s
+      Communications organization supports other TVA units in reviewing and
+      publishing information on the agency’s website (www.tva.com).
+
+   10. Optional -- Please describe the best practices used to improve proactive
+       disclosures and any challenges your agency faces in this area.
+
+      The FOIA Response Team regularly engages with internal business units to
+      emphasize the importance of proactive disclosure and its role in promoting
+      transparency and compliance.
+
+Section IV: Steps Taken to Make Better Use of Technology
+
+A key component of FOIA administration is using technology to make information available
+to the public and to gain efficiency in FOIA processing. DOJ's 2022 FOIA
+Guidelines emphasize the importance of making FOIA websites easily navigable and
+complying with the FOIA.gov interoperability requirements. Please answer the following
+questions to describe how your agency is using technology to improve its FOIA
+administration and the public's access to information.
+
+   1. Has your agency reviewed its FOIA-related technological capabilities to identify
+      resources needed to respond to current and anticipated FOIA demands?
+
+      Yes. We participated in a Request for Proposal (RFP) process to acquire a new
+      case management system designed to leverage advanced technologies and
+      enhance efficiency.
+
+   2. Please briefly describe any new types of technology your agency uses to support
+      your FOIA program.
+
+      In 2025, TVA acquired a new case management system to streamline the
+      administration of our FOIA program.
+
+   3. Does your agency currently use any technology to automate request intake,
+      customer service, or record processing? For example, does your agency use
+      artificial intelligence or other tools to conduct searches or make redactions? If so,
+
+[[page 8]]
+      please describe and, if possible, estimate how much time and financial resources
+      are saved since implementing the technology?
+
+      TVA is currently evaluating opportunities to utilize technology to automate
+      record processing, including Artiﬁcial Intelligence (AI).
+
+   4. OIP issued guidance in 2017 encouraging agencies to regularly review their FOIA
+      websites to ensure that they contain essential resources and are informative and
+      user-friendly. Has your agency reviewed its FOIA website(s) during the reporting
+      period to ensure it addresses the elements noted in the guidance? Yes.
+
+   5. Did all four of your agency's quarterly reports for Fiscal Year 2025 appear on
+      FOIA.gov? Yes.
+
+   6. If your agency did not successfully post all quarterly reports on FOIA.gov, please
+      explain why and provide your agency’s plan for ensuring that such reporting is
+      successful in Fiscal Year 2026. N/A
+
+   7. The FOIA Improvement Act of 2016 requires all agencies to post the raw statistical
+      data used to compile their Annual FOIA Reports. Please provide the link to this
+      posting for your agency’s Fiscal Year 2024 Annual FOIA Report and, if available, for
+      your agency’s Fiscal Year 2025 Annual FOIA Report.
+
+      Freedom of Information Act Reports Annual Report Data
+
+   8. In February 2019, DOJ and OMB issued joint Guidance establishing interoperability
+      standards to receive requests from the National FOIA Portal on FOIA.gov. Are all
+      components of your agency in compliance with the guidance? Yes.
+
+   9. Optional -- Please describe your agency best practices in better utilizing technology
+      and any challenges your agency faces in this area.
+
+      In 2025, TVA acquired a new case management system to streamline the
+      administration of our FOIA program, and we are currently evaluating
+      opportunities to leverage Artificial Intelligence (AI) to enhance communication
+      with requesters and assist in the record management process.
+
+Section V: Steps Taken to Remove Barriers to Access, Improve Timeliness in
+Responding to Requests, and Reduce Backlogs
+
+DOJ's 2022 FOIA Guidelines instruct agencies “to remove barriers to requesting and
+accessing government records and to reduce FOIA processing backlogs.” Please answer
+the following questions to describe how your agency is removing barriers to access,
+improving timeliness in responding to requests, and reducing FOIA backlogs.
+
+[[page 9]]
+A. Remove Barriers to Access
+
+   1. Has your agency established alternative means of access for any categories of first-
+      party requested records, outside of the typical FOIA or Privacy Act process?
+
+      Some ﬁrst-party requests may be made directly to agency record holders.
+
+   2. If yes, please provide examples. If no, please indicate why not. Please also indicate
+      if you do not know.
+
+      TVA has established processes for Privacy Act requests as detailed in 18 CFR
+      Part 1301 and processes through which individuals may request information
+      related to them, such as employment or personnel records. Additionally, TVA
+      provides a dedicated process for requesters to obtain 26a permits directly
+      through the Public Land Information Center (PLIC).
+
+   3. Please describe any other steps your agency has taken to remove barriers to
+      accessing government information.
+
+      In its role as regulator, TVA has established a Complaint Resolution Process
+      that serves as a dispute resolution resource to address issues or complaints
+      between local power companies and their customers.
+
+B. Timeliness
+
+   4. For Fiscal Year 2025, what was the average number of days your agency reported for
+      adjudicating requests for expedited processing? Please see Section VIII.A. of your
+      agency's Fiscal Year 2025 Annual FOIA Report. 9.75
+
+   5. If your agency's average number of days to adjudicate requests for expedited
+      processing was more than ten calendar days, according to Section VIII.A. of your
+      agency's Fiscal Year 2025 Annual FOIA Report, please describe the steps your
+      agency will take to ensure that requests for expedited processing are adjudicated
+      within ten calendar days or less. N/A
+
+   6. Does your agency utilize a separate track for simple requests? Yes.
+
+   7. If your agency uses a separate track for simple requests, according to Annual FOIA
+      Report section VII.A, was the agency overall average number of days to process
+      simple requests twenty working days or fewer in Fiscal Year 2025? Yes.
+
+   8. If not, did the simple track average processing time decrease compared to the
+      previous Fiscal Year? N/A
+
+[[page 10]]
+  9. Please provide the percentage of requests processed by your agency in Fiscal Year
+     2025 that were placed in your simple track. Please use the following calculation
+     based on the data from your Annual FOIA Report: (processed simple requests from
+     Section VII.C.1) divided by (requests processed from Section V.A.) x 100. 78%
+
+  10. If your agency does not track simple requests separately, was the average number
+      of days to process all non-expedited requests twenty working days or fewer? N/A
+
+C. Backlogs
+
+Backlogged Requests
+
+  11. If your agency had a backlog of requests at the close of Fiscal Year 2025, according
+      to Annual FOIA Report Section XII.D.2, did that backlog decrease as compared with
+      the backlog reported at the end of Fiscal Year 2024? No.
+
+  12. If not, according to Annual FOIA Report Section XII.D.1, did your agency process
+      more requests during Fiscal Year 2025 than it did during Fiscal Year 2024? Yes.
+
+  13. If your agency’s request backlog increased during Fiscal Year 2025, please explain
+      why and describe the causes that contributed to your agency not being able to
+      reduce its backlog. When doing so, please also indicate if any of the following were
+      contributing factors:
+
+         a. An increase in the number of incoming requests – Yes.
+         b. A loss of staff – Yes.
+         c. An increase in the complexity of the requests received (if possible, please
+            provide examples or briefly describe the types of complex requests
+            contributing to your backlog increase) – Yes. Requests received are
+            significantly technical in nature requiring intensive SME and legal
+            consultation.
+         d. Litigation – Yes.
+         e. Any other reasons – please briefly describe or provide examples when
+            possible – N/A
+
+  14. If you had a request backlog, please report the percentage of requests that make up
+      the backlog out of the total number of requests received by your agency in Fiscal
+      Year 2025. Please use the following calculation based on data from your Annual
+      FOIA Report: (backlogged requests from Section XII.A) divided by (requests
+      received from Section V.A) x 100. This number can be greater than 100%. If your
+      agency has no request backlog, please answer with “N/A.” 43.9%
+
+[[page 11]]
+Backlogged Appeals
+
+   15. If your agency had a backlog of appeals at the close of Fiscal Year 2025, according
+       to Section XII.E.2 of the Annual FOIA Report, did that backlog decrease as
+       compared with the backlog reported at the end of Fiscal Year 2024? N/A
+
+   16. If not, according to section XII.E.1 of the Annual FOIA Report, did your agency
+       process more appeals during Fiscal Year 2025 than it did during Fiscal Year 2024?
+       N/A
+
+   17. If your agency’s appeal backlog increased during Fiscal Year 2025, please explain
+       why and describe the causes that contributed to your agency not being able to
+       reduce its backlog. When doing so, please also indicate if any of the following were
+       contributing factors: N/A
+
+          a. An increase in the number of incoming appeals – N/A
+          b. A loss of staff – N/A
+          c. An increase in the complexity of the requests received (if possible, please
+             provide examples or briefly describe the types of complex requests
+             contributing to your backlog increase) – N/A
+          d. Litigation – N/A
+          e. Any other reasons – please briefly describe or provide examples when
+             possible – N/A
+
+   18. If you had an appeal backlog, please report the percentage of appeals that make up
+       the backlog out of the total number of appeals received by your agency in Fiscal
+       Year 2025. Please use the following calculation based on data from your Annual
+       FOIA Report: (backlogged appeals from Section XII.A) divided by (appeals received
+       from Section VI.A) x 100. This number can be greater than 100%. If your agency did
+       not receive any appeals in Fiscal Year 2025 and/or has no appeal backlog, please
+       answer with "N/A." N/A
+
+D. Backlog Reduction Plans
+
+   19. In the 2025 guidelines for Chief FOIA Officer Reports, any agency with a backlog of
+       over 1000 requests in Fiscal Year 2024 was asked to provide a plan for achieving
+       backlog reduction in the year ahead. Did your agency implement a backlog
+       reduction plan last year? If so, describe your agency’s efforts in implementing this
+       plan and note if your agency was able to achieve backlog reduction in Fiscal Year
+       2025? N/A.
+
+   20. If your agency had a backlog of more than 1,000 requests in Fiscal Year 2025,
+       please explain your agency’s plan to reduce this backlog during Fiscal Year 2026.
+       N/A.
+
+[[page 12]]
+E. Reducing the Age of Requests, Appeals, and Consultations
+
+Ten Oldest Requests
+
+   21. In Fiscal Year 2025, did your agency close the ten oldest pending perfected
+       requests that were reported in Section VII.E. of your Fiscal Year 2024 Annual FOIA
+       Report? No.
+
+   22. If no, please provide the number of these requests your agency was able to close by
+       the end of the fiscal year, as listed in Section VII.E of your Fiscal Year 2025 Annual
+       FOIA Report. If you had less than ten total oldest requests to close, please indicate
+       that. Six.
+
+   23. Beyond working on the ten oldest requests, please describe any steps your agency
+       took to reduce the overall age of your pending requests.
+
+      TVA completed a comprehensive, cross-functional review of its FOIA program
+      including an assessment of the existing programmatic state, a review of the
+      organizational structure, alignment of legal support, benchmarking of similar
+      agencies, and the use of technology. A business case proposal for the redesign
+      of the FOIA program was approved which led to programmatic changes that
+      established a dedicated FOIA Response Team to improve timeliness of
+      responses and reduce the backlog of FOIA requests.
+
+Ten Oldest Appeals
+
+   24. In Fiscal Year 2025, did your agency close the ten oldest appeals that were reported
+       pending in Section VI.C.5 of your Fiscal Year 2024 Annual FOIA Report? N/A
+
+   25. If no, please provide the number of these appeals your agency was able to close by
+       the end of the fiscal year, as listed in Section VII.C.(5) of your Fiscal Year 2024
+       Annual FOIA Report. If you had less than ten total oldest appeals to close, please
+       indicate that. N/A
+
+   26. Beyond working on the ten oldest appeals, please describe any steps your agency
+       took to reduce the overall age of your pending appeals. N/A
+
+Ten Oldest Consultations
+
+   27. In Fiscal Year 2025, did your agency close the ten oldest consultations that were
+       reported pending in Section XII.C. of your Fiscal Year 2024 Annual FOIA Report? N/A
+
+   28. If no, please provide the number of these consultations your agency was able to
+       close by the end of the fiscal year, as listed in Section XII.C. of your Fiscal Year 2024
+
+[[page 13]]
+      Annual FOIA Report. If you had less than ten total oldest consultations to close,
+      please indicate that. N/A
+
+Additional Information Regarding Ten Oldest
+
+   29. If your agency did not close its ten oldest pending requests, appeals, or
+       consultations, please explain why and provide a plan describing how your agency
+       intends to close those “ten oldest” requests, appeals, and consultations during
+       Fiscal Year 2026.
+
+      At the start of FY26, TVA successfully closed the oldest request and plans to
+      resolve the remaining three oldest requests during the fiscal year. These
+      outstanding requests are highly complex and are currently undergoing
+      comprehensive legal and subject matter expert review.
+
+F. Additional Information about FOIA Processing
+
+   30. Were any requests at your agency the subject of FOIA litigation during the reporting
+       period? If so, please describe the impact on your agency’s overall FOIA request
+       processing and backlog. If possible, please indicate:
+
+          a. The number and nature of requests subject to litigation
+          b. Common causes leading to litigation
+          c. Any other information to illustrate the impact of litigation on your overall
+             FOIA administration
+
+      In 2024, TVA was named in six FOIA lawsuits following an unprecedented surge
+      in requests—both in volume and complexity—far exceeding the normal,
+      predictable workload. Despite diligent efforts, TVA was unable to process
+      these requests within the statutory timeframes outlined in 5 U.S.C. §
+      552(a)(6)(A) using existing resources.
+
+      Consequently, five of the lawsuits, all filed by the same plaintiff on separate
+      subject matters, were based on constructive exhaustion of administrative
+      remedies.
+
+      In response, TVA undertook a comprehensive redesign of its FOIA program to
+      better manage the increased demand and reduce backlog. As of 2025, four
+      lawsuits remain pending.

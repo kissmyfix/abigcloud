@@ -1,0 +1,9 @@
+text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+2015-pilot-sumner.txt,2015-pilot-sumner.pdf,DIGITAL,1,10500,10500,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)
+2016-pilot-sumner.txt,2016-pilot-sumner.pdf,DIGITAL,15,433118,28875,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
+2017-pilot-sumner.txt,2017-pilot-sumner.pdf,DIGITAL,1,28424,28424,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
+2018-pilot-sumner.txt,2018-pilot-sumner.pdf,DIGITAL,1,38025,38025,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
+2019-pilot-sumner.txt,2019-pilot-sumner.pdf,DIGITAL,1,42208,42208,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
+2020-pilot-sumner.txt,2020-pilot-sumner.pdf,DIGITAL,1,53498,53498,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
+2021-pilot-sumner.txt,2021-pilot-sumner.pdf,DIGITAL,2,67633,33816,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
+2022-pilot-sumner.txt,2022-pilot-sumner.pdf,DIGITAL,1,42957,42957,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)

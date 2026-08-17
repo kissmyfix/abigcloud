@@ -1,0 +1,143 @@
+[[page 1]]
+                                               CITY OF GALLATIN
+                                         DEPARTMENT OF ELECTRICITY
+                       Rates Summary Sheet December 1, 2016 through December 31, 2016
+     Summer Months                       Winter Months               Transition Months
+     June, July, August,               December, January,            October, November,
+        September                       February, March                  April, May
+RESIDENTIAL                                                                                             BASE     FUEL     EFFECTIVE
+                                                                                                        RATE     COST       RATE
+Customer Charge                                                                               $13.55
+
+Summer kWh                                                                                              6.869¢     TBA          TBA
+Winter kWh                                                                                              6.555¢   2.335¢       8.890¢
+Transition Month kWh                                                                                    6.359¢     TBA          TBA
+GENERAL POWER                                                                                           BASE     FUEL     EFFECTIVE
+                                                                                                        RATE     COST       RATE
+GSA 1 - Less than 50 kW and not more than 15,000 kWh
+Customer Charge                                                                               $16.60
+Summer kWh                                                                                              8.072¢     TBA          TBA
+Winter kWh                                                                                              7.758¢   2.317¢      10.075¢
+Transition Month kWh                                                                                    7.562¢     TBA          TBA
+                                                                                                        BASE     FUEL     EFFECTIVE
+                                                                                                        RATE     COST       RATE
+GSA 2 - >50 – 1, 000 kW or less than 50 kW w/energy usage over 15,000 kWh
+Customer Charge                                                                               $40.00
+Demand 0 – 50 kW                                                                                                           No Charge
+Summer Demand >50 – 1,000 kW                                                                                                  $10.12
+Winter Demand >50 – 1,000 kW                                                                                                   $9.19
+Transition Month Demand >50 – 1,000 kW                                                                                         $9.19
+Summer First 15,000 kWh                                                                                 7.361¢     TBA          TBA
+Winter First 15,000 kWh                                                                                 7.048¢   2.317¢       9.365¢
+Transition Month First 15,000 kWh                                                                       6.851¢     TBA          TBA
+Summer addl. kWh >15,000                                                                                4.451¢     TBA          TBA
+Winter addl. kWh >15,000                                                                                4.144¢   2.297¢       6.441¢
+Transition Month addl. kWh >15,000                                                                      4.014¢     TBA          TBA
+                                                                                                        BASE     FUEL     EFFECTIVE
+                                                                                                        RATE     COST       RATE
+GSA 3 - >1,000 – 5,000 kW
+Customer Charge                                                                               $150.00
+Summer Demand 0 – 1,000 kW                                                                                                    $10.15
+Winter Demand 0 – 1,000 kW                                                                                                     $9.24
+Transition Month Demand 0 – 1,000 kW                                                                                           $9.24
+Summer Demand 1,000 – 5,000 kW                                                                                                $14.09
+Winter Demand 1,000 – 5,000 kW                                                                                                $13.16
+Transition Month Demand 1,000 – 5,000 kW                                                                                      $13.16
+Summer kWh                                                                                              4.448¢     TBA          TBA
+Winter kWh                                                                                              4.144¢   2.297¢       6.441¢
+Transition Month kWh                                                                                    4.013¢     TBA          TBA
+Plus an additional $14.09 per kW during Summer months and $13.16 per kW during Winter and
+Transition months for each kW, if any, of the amount by which the customer’s billing demand
+exceeds the higher of 2,500 kW or its contract demand.
+
+[[page 2]]
+CITY OF GALLATIN
+DEPARTMENT OF ELECTRICITY
+Rates Summary Sheet December 1, 2016 through December 31, 2016
+Page 2
+
+  Summer Months           Winter Months      Transition Months
+  June, July, August,   December, January,   October, November,
+     September           February, March         April, May
+GENERAL POWER CONTINUE                                                      BASE    FUEL     EFFECTIVE
+                                                                            RATE    COST       RATE
+SGSB Demands from 5,001 – 15,000 kW
+Customer Charge                                                   $1,500
+Summer Demand 5,000 – 15,000 kW                                                                 $19.92
+Winter Demand 5,000 – 15,000 kW                                                                 $16.75
+Transition Month Demand 5,000 – 15,000 kW                                                       $13.62
+Summer kWh                                                                 3.018¢     TBA         TBA
+Winter kWh                                                                 2.565¢   2.262¢      4.827¢
+Transition Month kWh                                                       2.463¢     TBA         TBA
+                                                                            BASE    FUEL     EFFECTIVE
+                                                                            RATE    COST       RATE
+
+MSB Demands greater than 5,000 kW
+Customer Charge                                                   $1,500
+Onpeak Summer Demand >5,000                                                                      $9.74
+Onpeak Winter Demand >5,000                                                                      $8.83
+Onpeak Transition Month Demand >5,000                                                            $8.83
+Max Demand                                                                                       $2.16
+Offpeak Excess of Contract Demand
+Summer                                                                                           $9.74
+Winter                                                                                           $8.83
+Transition                                                                                       $8.83
+Onpeak Summer kWh                                                          5.491¢     TBA         TBA
+Onpeak Winter kWh                                                          4.406¢   2.262¢      6.668¢
+Onpeak Transition Month kWh                                                3.409¢     TBA         TBA
+Offpeak Summer kWh First 200 HUD                                           3.113¢     TBA         TBA
+Offpeak Summer kWh Next 200 HUD                                            0.288¢     TBA         TBA
+Additional HUD                                                             0.045¢     TBA         TBA
+Offpeak Winter kWh First 200 HUD                                           3.326¢   2.262¢      5.588¢
+Offpeak Winter kWh Next 200 HUD                                            0.288¢   2.262¢      2.550¢
+Additional HUD                                                             0.045¢   2.262¢      2.307¢
+Offpeak Transition kWh First 200 HUD                                       3.409¢     TBA         TBA
+Offpeak Transition kWh Next 200 HUD                                        0.288¢     TBA         TBA
+Additional HUD                                                             0.045¢     TBA         TBA
+
+[[page 3]]
+   CITY OF GALLATIN
+   DEPARTMENT OF ELECTRICITY
+   Rates Summary Sheet December 1, 2016 through December 31, 2016
+   Page 3
+
+   Summer Months                    Winter Months                  Transition Months
+  June, July, August,             December, January,               October, November,
+     September                     February, March                     April, May
+GENERAL POWER CONTINUE                                                                                    BASE     FUEL     EFFECTIVE
+                                                                                                          RATE     COST       RATE
+
+MSD Demands greater than 25,000 kW
+Customer Charge                                                                                  $1,500
+Onpeak Summer Demand                                                                                                            $9.74
+Onpeak Winter Demand                                                                                                            $8.83
+Onpeak Transition Demand                                                                                                        $8.83
+Max Demand                                                                                                                      $1.54
+Offpeak Excess of Contract Demand
+Summer                                                                                                                          $9.74
+Winter                                                                                                                          $8.83
+Transition                                                                                                                      $8.83
+Onpeak Summer kWh                                                                                         5.169¢     TBA         TBA
+Onpeak Winter kWh                                                                                         4.082¢   2.262¢      6.344¢
+Onpeak Transition Month kWh                                                                               3.084¢     TBA         TBA
+Offpeak Summer kWh First 200 HUD                                                                          2.790¢     TBA         TBA
+Offpeak Summer kWh Next 200 HUD                                                                           0.261¢     TBA         TBA
+Additional HUD                                                                                            0.206¢     TBA         TBA
+Offpeak Winter kWh First 200 HUD                                                                          3.001¢   2.262¢      5.263¢
+Offpeak Winter kWh Next 200 HUD                                                                           0.261¢   2.262¢      2.523¢
+Additional HUD                                                                                            0.206¢   2.262¢      2.468¢
+Offpeak Transition kWh First 200 HUD                                                                      3.084¢     TBA         TBA
+Offpeak Transition kWh Next 200 HUD                                                                       0.261¢     TBA         TBA
+Additional HUD                                                                                            0.206¢     TBA         TBA
+Facilities Rental Charge (applies to SGSB, MSB, MSD)
+There shall be no facilities rental charge under this rate schedule for delivery at bulk
+transmission voltage levels of 161 kV or higher. For delivery at less than 161 kV, there shall
+be added to the customer’s bill a facilities rental charge. This charge shall be $.36 per kW
+per month except for delivery at voltages below 46 kV, in which case the charge shall be $.93
+per kW per month for the first 10,000 kW and $.73 per kW per month for the excess over
+10,000 kW.
+OUTDOOR LIGHTING
+Summer kWh                                                                                                4.680¢     TBA         TBA
+Winter kWh                                                                                                4.367¢   2.335¢      6.702¢
+Transition Month kWh                                                                                      4.172¢     TBA         TBA
+    SEE SPECIFIC RATE SCHEDULE FOR MORE DETAILS

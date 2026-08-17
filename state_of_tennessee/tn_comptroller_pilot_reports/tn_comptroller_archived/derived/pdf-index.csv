@@ -1,0 +1,10 @@
+text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+2014-pilot.txt,2014-pilot.pdf,DIGITAL,20,275537,13777,0.0,extraction authoritative,Acrobat Distiller 10.0.0 (Windows)
+2015-pilot.txt,2015-pilot.pdf,DIGITAL,25,269087,10763,0.0,extraction authoritative,Microsoft® Excel® 2013
+2016-pilot.txt,2016-pilot.pdf,DIGITAL,15,433118,28875,0.0,extraction authoritative,Microsoft® Excel® 2013
+2017-pilot.txt,2017-pilot.pdf,DIGITAL,10,397424,39742,0.0,extraction authoritative,Microsoft® Excel® 2016
+2018-pilot.txt,2018-pilot.pdf,DIGITAL,12,426971,35581,0.0,extraction authoritative,Microsoft® Excel® for Office 365
+2019-pilot.txt,2019-pilot.pdf,DIGITAL,12,456897,38075,0.0,extraction authoritative,Adobe PDF Library 20.6.66
+2020-pilot.txt,2020-pilot.pdf,DIGITAL,10,471440,47144,0.0,extraction authoritative,Adobe PDF Library 20.13.98
+2021-pilot.txt,2021-pilot.pdf,DIGITAL,9,393676,43742,0.0,extraction authoritative,Microsoft® Excel® for Microsoft 365
+2022-pilot.txt,2022-pilot.pdf,DIGITAL,11,419381,38126,0.0,extraction authoritative,Adobe PDF Library 22.3.58

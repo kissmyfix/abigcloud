@@ -1,0 +1,49 @@
+[[page 1]]
+                       OUTDOOR LIGHTING RATE - PART B
+                             Effective June 1, 2019
+                  Summer Months Include – June, July, August & September
+                Winter Months Include – December, January, February & March
+                 Transition Months Include – October, November, April & May
+
+   Type of               Rated Facility        kWh        Sub            +Pole    Total With
+   Fixture               kWh Charge           Charge      Total          Rental      FCA
+
+   73 LED
+     Summer kWh             27       $6.97    $ 1.81      $8.78          $2.00    $10.78
+     Winter kWh             27       $6.97    $ 1.73      $8.70          $2.00    $10.70
+     Transition kWh         27       $6.97    $ 1.64      $8.61          $2.00    $10.61
+   113 LED
+     Summer kWh             41      $10.95 $2.65          $13.70         $2.00    $15.70
+     Winter kWh             41      $10.95 $2.74          $13.69         $2.00    $15.69
+     Transition kWh         41      $10.95 $2.49          $13.44         $2.00    $15.44
+   100 HPS
+     Summer kWh             42       $4.24    $ 2.82      $ 7.06         $2.00    $ 9.06
+     Winter kWh             42       $4.24    $ 2.81      $ 7.05         $2.00    $ 9.05
+     Transition kWh         42       $4.24    $ 2.55      $ 6.79         $2.00    $ 8.79
+   150 HPS
+     Summer kWh             63       $5.77    $ 4.23      $ 10.00        $2.00    $12.00
+     Winter kWh             63       $5.77    $ 4.21      $ 9.98         $2.00    $11.98
+     Transition kWh         63       $5.77    $ 3.83      $ 9.60         $2.00    $11.60
+   175 MV
+     Summer kWh             70       $2.75    $ 4.69      $ 7.44         $2.00    $ 9.44
+     Winter kWh             70       $2.75    $ 4.68      $ 7.43         $2.00    $ 9.43
+     Transition kWh         70       $2.75    $ 4.25      $ 7.00         $2.00    $ 9.00
+   250 HPS
+     Summer kWh            105       $5.93    $ 7.04      $12.97         $2.00    $14.97
+     Winter kWh            105       $5.93    $ 7.02      $12.95         $2.00    $14.95
+     Transition kWh        105       $5.93    $ 6.38      $12.31         $2.00    $14.31
+   400 HPS
+     Summer kWh            165       $5.94    $11.07      $17.01         $2.00    $19.01
+     Winter kWh            165       $5.94    $11.03      $16.97         $2.00    $18.97
+   Transition kWh          165       $5.94    $10.03      $15.97         $2.00    $17.97
+
+INSTALLATION CHARGES:
+
+$235.00 - Service Charge for installation of new outdoor light fixture
+
+$175.00 - Service Charge to change from HPS to LED fixture
+
+$435.00 Service Charge for setting pole
+Plus any additional charges for rock hole
+
+$100.00 – Install Service to Temporary Board

@@ -1,0 +1,62 @@
+[[page 1]]
+                                                                              Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                              Jan 1 Owner                                           Current Owner                                      COMMERCE WAY 195
+                                                          IFR LAND LLC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                   Ctrl Map:     Group:      Parcel:    PI:      SI:
+                                                          10875 CHICAGO DRIVE                                                                                      112                       109.00              000
+                                                          ZEELAND MI 49464
+Value Information                                                                                               Commercial Building #: 1
+Land Market Value:                       $996,900                                                               Improvement Type:                                  Actual Year Built:
+Improvement Value:                     $1,758,200                                                               44 - LIGHT MFG                                     2007
+Total Market Appraisal:                $2,755,100                                                               Quality:                                           Business Living Area:
+Assessment Percentage:                       40%                                                                1 - AVERAGE                                        50000
+Assessment:                            $1,102,040                                                               Foundation:                                        Floor System:
+Subdivision Data                                                                                                03 - SPREAD FOOTING                                01 - SLAB ON GRADE
+Subdivision:                                                                                                    Roof Framing:                                      Roof Cover/Deck:
+GALLATIN INDUSTRIAL                                                                                             06 - STEEL TRUSS/PURLINS                           13 - PREFIN METAL CRIMPED
+Plat Book:                   Plat Page:                   Block:                         Lot:                   Cabinet/Millwork:                                  Floor Finish:
+23                           103                                                         2                      03 - AVERAGE                                       01 - CONCRETE FINISH
+Additional Information                                                                                          Interior Finish:                                   Paint/Decor:
+PLAT: 23 PAGE: 103 BLOCK: LOT: 2 SUBD: GALLATIN INDUSTRIAL CTR                                                  01 - UNFINISHED                                    03 - AVERAGE
+General Information                                                                                             Bath Tiles:                                        Electrical:
+Class: 09 - Industrial                                    City: GALLATIN                                        00 - NONE                                          03 - AVERAGE
+City #: 278                                               Special Service District 2:                           Shape:                                             Structural Frame:
+Special Service District 1:                               Neighborhood: G40                                     Heat and AC:                                       05 - RIGID FRAME
+District: 02                                              Number of Mobile Homes:                               01 - UNIT HEATER                                   Plumbing Fixtures:
+Number of Buildings: 1                                    Utilities - Electricity: 01 - PUBLIC                                                                     12
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC             Zoning:                                               Building Sketch                                    Interior/Exterior Areas
+Utilities - Gas/Gas Type: 00 - NONE                                                                                                                                                   Square
+Outbuildings & Yard Items                                                                                                                                           Type              Feet       Exterior Wall
+Long OutBuilding & Yard Items list on subsequent pages                                                                                                              44 - LIGHT            46,500 19 - PREFIN METAL
+Sale Information                                                                                                                                                    MFG                          CRIMPED
+Long Sale Information list on subsequent pages
+                                                                                                                                                                    OFA - Office -         3,500 19 - PREFIN METAL
+Land Information                                                                                                                                                    Average                      CRIMPED
+Deed Acres: 0                        Calculated Acres: 8.37                Total Land Units: 8.37
+Land Code                                           Soil Class                                        Units                                                        Commercial Features
+
+16 - IND PARK                                                                                          8.37                                                         Type                       Units
+
+[[page 2]]
+Outbuildings & Yard Items
+Building #                    Type                                                             Description                         Area/Units
+
+1                             ASP - ASPHALT PAVING                                             60                                     21,000
+
+1                             CNC - CONCRETE PAVING                                            36                                      2,800
+
+1                             CNC - CONCRETE PAVING                                            9                                      26,000
+
+
+Sale Information
+Sale Date                        Price      Book      Page Vacant/Improved   Type Instrument                 Qualification
+
+4/30/2024                            $0     6362       303 I - IMPROVED      QC - QUITCLAIM DEED             -
+
+4/13/2016                            $0     4297       654 I - IMPROVED      QC - QUITCLAIM DEED             -
+
+1/19/2016                   $1,950,000      4243       328 I - IMPROVED      -                               L - LIMITED
+
+3/23/2006                     $72,000       2470       852 V - VACANT        WD - WARRANTY DEED              F - TAX EXEMPT SALE
+
+1/29/2002                            $0      231       451 V - VACANT        -                               -

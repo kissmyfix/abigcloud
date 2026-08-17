@@ -1,0 +1,4 @@
+text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+BusinessDetails-1.txt,BusinessDetails-1.pdf,DIGITAL,4,10135,2534,0.0,extraction authoritative,Kendo UI PDF Generator
+BusinessDetails-2.txt,BusinessDetails-2.pdf,DIGITAL,4,10135,2534,0.0,extraction authoritative,Kendo UI PDF Generator
+BusinessDetails-4.txt,BusinessDetails-4.pdf,DIGITAL,5,12536,2507,0.0,extraction authoritative,Kendo UI PDF Generator

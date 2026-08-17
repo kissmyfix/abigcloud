@@ -1,0 +1,20 @@
+text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+2016-dec.txt,2016-dec.pdf,DIGITAL,3,13500,4500,0.0,extraction authoritative,Microsoft® Word 2013
+2016-jan.txt,2016-jan.pdf,DIGITAL,3,13498,4499,0.0,extraction authoritative,Microsoft® Word 2013
+2016-june.txt,2016-june.pdf,DIGITAL,3,13485,4495,0.0,extraction authoritative,Microsoft® Word 2013
+2017-june.txt,2017-june.pdf,DIGITAL,3,13485,4495,0.0,extraction authoritative,Microsoft® Word 2013
+2017-march.txt,2017-march.pdf,DIGITAL,3,13488,4496,0.0,extraction authoritative,Microsoft® Word 2013
+2018-june.txt,2018-june.pdf,DIGITAL,3,14790,4930,0.0,extraction authoritative,Microsoft® Word 2016
+2019-jan.txt,2019-jan.pdf,DIGITAL,3,15166,5055,0.0,extraction authoritative,Microsoft® Word for Office 365
+2019-june.txt,2019-june.pdf,DIGITAL,1,2744,2744,0.0,extraction authoritative,Microsoft® Word for Office 365
+2019-may.txt,2019-may.pdf,DIGITAL,3,14785,4928,0.0,extraction authoritative,Microsoft® Word for Office 365
+2020-june.txt,2020-june.pdf,DIGITAL,4,16377,4094,0.0,extraction authoritative,Microsoft® Word for Microsoft 365
+2021-june.txt,2021-june.pdf,DIGITAL,4,16368,4092,0.0,extraction authoritative,Microsoft® Word for Microsoft 365
+2022-june.txt,2022-june.pdf,DIGITAL,4,16367,4092,0.0,extraction authoritative,Microsoft® Word for Microsoft 365
+2023-june.txt,2023-june.pdf,DIGITAL,4,16367,4092,0.0,extraction authoritative,Microsoft® Word for Microsoft 365
+2024-june.txt,2024-june.pdf,DIGITAL,4,16367,4092,0.0,extraction authoritative,Microsoft® Word for Microsoft 365
+2025-june.txt,2025-june.pdf,DIGITAL,4,24473,6118,0.0,extraction authoritative,Microsoft® Excel® for Microsoft 365
+2025-march-nes.txt,2025-march-nes.pdf,DIGITAL,2,8856,4428,0.0,extraction authoritative,CreationDate:    Fri Apr 18 07:01:21 2025 CDT
+2026-june.txt,2026-june.pdf,DIGITAL,4,24519,6130,0.0,extraction authoritative,Microsoft® Excel® for Microsoft 365
+2026-may-nes.txt,2026-may-nes.pdf,DIGITAL,2,8084,4042,0.0,extraction authoritative,CreationDate:    Wed Jun 17 20:29:43 2026 CDT
+2026-outdoor.txt,2026-outdoor.pdf,DIGITAL,1,2897,2897,0.0,extraction authoritative,Microsoft® Word for Microsoft 365

@@ -1,0 +1,769 @@
+[[page 1]]
+                                                     TENNESSEE VALLEY AUTHORITY
+                                                Freedom of Information Act Annual Report
+                                                 October 1, 2024 to September 30, 2025
+
+
+I.    BASIC INFORMATION REGARDING REPORT
+      1.     Name, title, address, and telephone number of person(s) to be contacted with questions about the report.
+             Whitney Carter
+             FOIA Officer
+             Tennessee Valley Authority
+             400 W. Summit Hill Drive (WT 7D)
+             Knoxville, TN 37902-1401
+             (865) 632-6945
+             foia@tva.gov
+      2.     Electronic address for report on the TVA website.
+             https://www.tva.com/information/freedom-of-information/freedom-of-information-act-reports
+      3.     How to obtain a copy of the report in paper form.
+             Contact Whitney Carter at the above address, telephone number or email address.
+II.   MAKING A FOIA REQUEST
+      For basic information about how to make a FOIA request, visit our website at https://www.tva.com/information/freedom-of-
+      information.
+      1.     Names, addresses, and telephone numbers of all individual agency components and offices that receive FOIA requests.
+
+[[page 2]]
+             FOIA requests to TVA should be submitted through the public access link at https://paltva.efoia-host.com/. Inquires may be
+             emailed to foia@tva.gov.
+       2.    Provide a brief description of why some requests are not granted and an overview of certain general categories of the agency's
+             records to which the FOIA exemptions apply.
+             Some FOIA requests are not granted because there are no responsive documents or the responsive documents fall within one or
+             more FOIA exemptions and are not appropriate for discretionary release.
+             The primary reason requests are not granted is to protect private personal information that would foreseeably harm an interest
+             protected under the privacy provisions of FOIA exemption 6.
+             Other categories of information maintained by TVA that are generally not disclosed include confidential or privileged commercial
+             and financial information submitted by an outside source that is protected under FOIA exemption 4 and internal information that
+             is protected by the privileges under FOIA exemption 5.
+       3.    Provide a functional electronic link to agency FOIA regulations, including the agency's fee schedule. (NOTE: Agency FOIA
+             Regulations were formerly listed at Section XI of the human-readable version of the Report).
+             https://www.govinfo.gov/content/pkg/FR-2017-09-01/pdf/2017-18626.pdf
+
+III.   ACRONYMS, DEFINITIONS, AND EXEMPTIONS
+       1.    Agency-specific acronyms or other terms.
+             TVA is the Tennessee Valley Authority
+       2.    Definitions of terms used in this Report:
+             a.      Administrative Appeal - a request to a federal agency asking that it review at a higher administrative level a FOIA
+                     determination made by the agency at the initial request level.
+             b.      Average Number - the number obtained by dividing the sum of a group of numbers by the quantity of numbers in the
+                     group. For example, of 3, 7, and 14, the average number is 8.
+             c.      Backlog - the number of requests or administrative appeals that are pending at an agency at the end of the fiscal year
+                     that are beyond the statutory time period for a response.
+             d.      Component - for agencies that process requests on a decentralized basis, a “component” is an entity, also sometimes
+                     referred to as an Office, Division, Bureau, Center, or Directorate, within the agency that processes FOIA requests. The
+
+[[page 3]]
+     FOIA now requires that agencies include in their Annual FOIA Report data for both the agency overall and for each
+     principal component of the agency.
+e.   Consultation - the procedure whereby the agency responding to a FOIA request first forwards a record to another agency
+     for its review because that other agency has an interest in the document. Once the agency in receipt of the consultation
+     finishes its review of the record, it responds back to the agency that forwarded it. That agency, in turn, will then respond
+     to the FOIA requester.
+f.   Exemption 3 Statute - a federal statute that exempts information from disclosure and which the agency relies on to
+     withhold information under subsection (b)(3) of the FOIA.
+g.   FOIA Request - a FOIA request is generally a request to a federal agency for access to records concerning another person
+     (i.e., a “third-party” request), or concerning an organization, or a particular topic of interest. FOIA requests also include
+     requests made by requesters seeking records concerning themselves (i.e., “first-party” requests) when those requesters
+     are not subject to the Privacy Act, such as non-U.S. citizens. Moreover, because all first-party requesters should be
+     afforded the benefit of both the access provisions of the FOIA as well as those of the Privacy Act, FOIA requests also
+     include any first-party requests where an agency determines that it must search beyond its Privacy Act “systems of
+     records” or where a Privacy Act exemption applies, and the agency looks to FOIA to afford the greatest possible access.
+     All requests which require the agency to utilize the FOIA in responding to the requester are included in this Report. In
+     addition, a FOIA request includes records referred to the agency for processing and direct response to the requester. It
+     does not, however, include records for which the agency has received a consultation from another agency.
+     (Consultations are reported separately in Section XII of this Report.)
+h.   Full Grant - an agency decision to disclose all records in full in response to a FOIA request.
+i.   Full Denial - an agency decision not to release any records in response to a FOIA request because the records are exempt
+     in their entireties under one or more of the FOIA exemptions, or because of a procedural reason, such as when no
+     records could be located.
+j.   Median Number - the middle, not average, number. For example, of 3, 7, and 14, the median number is 7.
+k.   Multi-Track Processing - a system in which simple requests requiring relatively minimal review are placed in one
+     processing track and more voluminous and complex requests are placed in one or more other tracks. Requests granted
+     expedited processing are placed in yet another track. Requests in each track are generally processed on a first in/first out
+     basis.
+                    i.    Expedited Processing - an agency will process a FOIA request on an expedited basis when a
+                          requester satisfies the requirements for expedited processing as set forth in the statute and in
+                          agency regulations.
+
+[[page 4]]
+                                  ii.    Simple Request - a FOIA request that an agency using multi-track processing places in its fastest
+                                         (non-expedited) track based on the low volume and/or simplicity of the records requested.
+                                  iii.   Complex Request - a FOIA request that an agency using multi-track processing places in a slower
+                                         track based on the high volume and/or complexity of the records requested.
+            l.      Partial Grant/Partial Denial - in response to a FOIA request, an agency decision to disclose portions of the records and to
+                    withhold other portions that are exempt under the FOIA, or to otherwise deny a portion of the request for a procedural
+                    reason.
+            m.      Pending Request or Pending Administrative Appeal - a request or administrative appeal for which an agency has not
+                    taken final action in all respects.
+            n.      Perfected Request - a request for records which reasonably describes such records and is made in accordance with
+                    published rules stating the time, place, fees (if any) and procedures to be followed.
+            o.      Processed Request or Processed Administrative Appeal - a request or administrative appeal on which an agency has
+                    taken final action in all respects.
+            p.      Range in Number of Days - the lowest and highest number of days to process requests or administrative appeals.
+            q.      Time Limits - the time period in the statute for an agency to respond to a FOIA request (ordinarily twenty working days
+                    from receipt of a perfected FOIA request).
+3.   Description of the nine FOIA exemptions:
+            a.      Exemption 1: classified national defense and foreign relations information
+            b.      Exemption 2: internal agency rules and practices
+            c.      Exemption 3: information that is prohibited from disclosure by another federal law
+            d.      Exemption 4: trade secrets and other confidential business information
+            e.      Exemption 5: inter-agency or intra-agency communications that are protected by legal privileges
+            f.      Exemption 6: information involving matters of personal privacy
+            g.       Exemption 7: records or information compiled for law enforcement purposes, to the extent that the production of
+            those records (A) could reasonably be expected to interfere with enforcement proceedings, (B) would deprive a person of a right
+            to a fair trial or an impartial adjudication, (C) could reasonably be expected to constitute an unwarranted invasion of personal
+
+[[page 5]]
+privacy, (D) could reasonably be expected to disclose the identity of a confidential source, (E) would disclose techniques and
+procedures for law enforcement investigations or prosecutions, or would disclose guidelines for law enforcement investigations
+or prosecutions, or (F) could reasonably be expected to endanger the life or physical safety of any individual
+h.     Exemption 8: information relating to the supervision of financial institutions
+i.     Exemption 9: geological information on wells
+
+[[page 6]]
+3. Agency Component Abbreviations
+
+
+
+        Component
+                                                    Component Name
+        Abbreviation
+  TVA                       Tennessee Valley Authority
+
+
+
+IV. Exemption 3 Statutes
+                                                                                 Total
+                                                                                Number
+                                                                    Number of
+                                                                                   of
+                                                                       Times
+                      Type of                                                    Times
+                                                           Agency /    Relied
+     Statute        Information         Case Citation                            Relied
+                                                          Component    upon
+                      Withheld                                                   upon
+                                                                    by Agency /
+                                                                                   by
+                                                                    Component
+                                                                                Agency
+                                                                                Overall
+  41 U.S.C. §    Contractor           Sinkfield v. HUD,   TVA
+  4702           proposals that are   No. 10-885, 2012
+  (formerly at   in the possession    U.S. Dist. LEXIS
+  41 U.S.C. §    or control of an     35233, at *13-15
+  253b(m)(1))    executive agency     (S.D. Ohio Mar.
+                 and that have not    15, 2012);
+                 been set forth or    Hornbostel v.                          3        3
+                 incorporated by      U.S. Dep't of the
+                 reference into       Interior, 305 F.
+                 contracts            Supp. 2d 21, 30
+                                      (D.D.C. 2003),
+                                      summary
+                                      affirmance
+                                      granted, No. 03-
+
+[[page 7]]
+                                      5257, 2004 WL
+                                      1900562 (D.C.
+                                      Cir. Aug. 25,
+                                      2004).
+  16 U.S.C. §   Information           Hornbostel v.           TVA
+  470hh         pertaining to the     U.S. Dep't of the
+                nature and            Interior, 305 F.
+                location of certain   Supp. 2d 21, 29-
+                archaeological        30 (D.D.C. 2003),
+                resources             summary
+                                      affirmance
+                                      granted, No. 03-
+                                      5257, 2004 WL                                    1          1
+                                      1900562 (D.C.
+                                      Cir. Aug. 25,
+                                      2004); Starkey v.
+                                      U.S. Dep't of the
+                                      Interior, 238 F.
+                                      Supp. 2d 1188,
+                                      1192-94 (S.D. Cal.
+                                      2002).
+
+
+
+V.A. FOIA REQUESTS -- RECEIVED, PROCESSED AND PENDING FOIA REQUESTS
+                           Number of                                                  Number of
+                                              Number of              Number of
+                            Requests                                                   Requests
+                                               Requests               Requests
+  Agency / Component      Pending as of                                              Pending as of
+                                               Received               Processed
+                               Start                                                      End
+                                             in Fiscal Year         in Fiscal Year
+                          of Fiscal Year                                             of Fiscal Year
+  TVA                                  67                  289                 218              138
+  AGENCY OVERALL                       67                  289                 218              138
+
+[[page 8]]
+  After reviewing its database, TVA updated the number of requests pending at the start of the
+  Fiscal Year.
+V.B.(1). DISPOSITION OF FOIA REQUESTS -- ALL PROCESSED REQUESTS
+
+
+
+                                                                       Number of Full Denials Based on Reasons Other than Exemptions
+                         Number
+                            of      Number of
+              Number                                         All Records                                         Improper
+   Agency /               Partial   Full Denials                                                    Records                                           Other
+               of Full                                       Referred to                Fee-                       FOIA          Not
+  Component              Grants /    Based on        No                     Request                   not                                Duplicate   *Explain
+              Grants                                           Another                 Related                    Request       Agency                          TOTAL
+                          Partial   Exemptions     Records                 Withdrawn              Reasonably                             Request     in Chart
+                                                             Component                 Reason                    for Other      Record
+                         Denials                                                                   Described                                          Below
+                                                              or Agency                                           Reason
+
+  TVA              44         72              4        37             0           12        17             15               8       0           9          0      218
+
+   AGENCY
+                   44         72              4        37             0           12        17             15               8       0           9          0      218
+   OVERALL
+
+
+
+
+V.B.(2). DISPOSITION OF FOIA REQUESTS -- "OTHER" REASONS FOR "FULL DENIALS BASED ON REASONS OTHER THAN EXEMPTIONS"
+
+
+
+                                                                                            Number
+                                                                                            of Times
+                                                                                            "Other"
+     Agency /             Description of "Other" Reasons for Denials from
+                                                                                            Reason              TOTAL
+    Component                                Chart B(1)
+                                                                                              Was
+                                                                                             Relied
+                                                                                             Upon
+  TVA                    N/A                                                                           0                0
+        AGENCY
+                                                                                                                        0
+        OVERALL
+
+[[page 9]]
+V.B.(3). DISPOSITION OF FOIA REQUESTS -- NUMBER OF TIMES EXEMPTIONS APPLIED
+
+
+
+   Agency / Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex.
+  Component 1    2   3   4   5   6 7(A) 7(B) 7(C) 7(D) 7(E) 7(F) 8 9
+  TVA           0   0    4     9         19    61      0           0     6       0          3      1    0        0
+   AGENCY
+                0   0    4     9         19    61      0           0     6       0          3      1    0        0
+   OVERALL
+
+
+
+
+VI.A. ADMINISTRATIVE APPEALS OF INITIAL DETERMINATIONS OF FOIA REQUESTS -- RECEIVED, PROCESSED, AND PENDING ADMINISTRATIVE
+APPEALS
+
+
+
+                     Number of                                                                   Number of
+                                               Number of                Number of
+                       Appeals                                                                     Appeals
+     Agency /                                    Appeals                  Appeals
+                    Pending as of                                                               Pending as of
+    Component                                   Received                 Processed
+                         Start                                                                       End
+                                              in Fiscal Year           in Fiscal Year
+                    of Fiscal Year                                                              of Fiscal Year
+  TVA                                0                         1                        1                        0
+     AGENCY
+                                     0                         1                        1                        0
+     OVERALL
+
+[[page 10]]
+VI.B. DISPOSITION OF ADMINISTRATIVE APPEALS -- ALL PROCESSED APPEALS
+
+
+
+                                                                                Number of
+                                        Number Partially
+                     Number                                Number Completely     Appeals
+    Agency /                          Affirmed & Partially
+                   Affirmed on                             Reversed/Remanded    Closed for       TOTAL
+   Component                          Reversed/Remanded
+                     Appeal                                     on Appeal         Other
+                                           on Appeal
+                                                                                 Reasons
+  TVA                         1                       0                     0                0           1
+    AGENCY
+                              1                       0                     0                0           1
+    OVERALL
+
+
+
+
+VI.C.(1). REASONS FOR DENIAL ON APPEAL -- NUMBER OF TIMES EXEMPTIONS APPLIED
+
+
+
+   Agency / Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex. Ex.
+  Component 1    2   3   4   5   6 7(A) 7(B) 7(C) 7(D) 7(E) 7(F) 8 9
+  TVA          0     0    0       1     0    0    0       0   0    0    0       0   0   0
+   AGENCY
+               0     0    0       1     0    0    0       0   0    0    0       0   0   0
+   OVERALL
+
+
+
+
+VI.C.(2). REASONS FOR DENIAL ON APPEAL -- REASONS OTHER THAN EXEMPTIONS
+
+[[page 11]]
+                                                                                                    Appeal
+                                                                                                    Based
+                    Records
+                                                   Records  Improper         Duplicate             Solely on  Other
+                    Referred              Fee-                         Not              Request
+   Agency /   No                Request              not     Request         Request               Denial of *Explain
+                    at Initial           Related                      Agency                in
+  Component Records            Withdrawn         Reasonably for Other           or                 Request   in chart
+                    Request              Reason                       Record           Litigation
+                                                  Described Reasons           Appeal                  for     below
+                     Level
+                                                                                                  Expedited
+                                                                                                  Processing
+  TVA               0         0             0         0            0            0       0   0   0          0       0
+   AGENCY
+                    0         0             0         0            0            0       0   0   0          0       0
+   OVERALL
+
+
+
+
+VI.C.(3). REASONS FOR DENIAL ON APPEAL -- "OTHER" REASONS
+
+
+
+                                                                   Number of
+                                                                     Times
+     Agency /       Description of "Other" Reasons for Denial on    "Other"
+                                                                                    TOTAL
+    Component                  Appeal from Chart C(2)               Reason
+                                                                   Was Relied
+                                                                     Upon
+  TVA              N/A                                                      0           0
+     AGENCY
+                                                                                        0
+     OVERALL
+
+[[page 12]]
+VI.C.(4). RESPONSE TIME FOR ADMINISTRATIVE APPEALS
+
+
+
+     Agency /       Median Number            Average         Lowest Number        Highest Number
+    Component          of Days            Number of Days        of Days               of Days
+  TVA                              30                   30                   30                30
+     AGENCY
+     OVERALL                       30                   30                   30                30
+
+
+
+
+VI.C.(5). TEN OLDEST PENDING ADMINISTRATIVE APPEALS
+
+
+
+                           10th
+   Agency /                                                                                 Oldest
+                          Oldest    9th     8th   7th    6th     5th   4th    3rd     2nd
+  Component                                                                                 Appeal
+                          Appeal
+                Date of
+                Appeal      N/A N/A N/A N/A N/A N/A N/A N/A N/A                               N/A
+                Number
+                of Days
+  TVA           Pending       0         0     0     0        0     0     0        0     0       0
+   AGENCY       Date of
+   OVERALL      Appeal      N/A N/A N/A N/A N/A N/A N/A N/A N/A                               N/A
+
+[[page 13]]
+              Number
+              of Days
+              Pending       0     0       0   0        0   0    0        0    0        0
+
+
+
+
+VII.A. FOIA REQUESTS -- RESPONSE TIME FOR ALL PROCESSED PERFECTED REQUESTS
+
+
+
+                            SIMPLE                                  COMPLEX                       EXPEDITED PROCESSING
+   Agency / Median Average Lowest Highest Median Average Lowest Highest Median Average Lowest Highest
+  Component Number Number Number Number Number Number Number Number Number Number Number Number
+            of Days of Days of Days of Days of Days of Days of Days of Days of Days of Days of Days of Days
+  TVA              19    17.99        1           68       68   124.44             1       477   12   11.67      11      12
+   AGENCY
+   OVERALL         19    17.99        1           68       68   124.44             1       477   12   11.67      11      12
+
+
+
+
+VII.B. PROCESSED REQUESTS -- RESPONSE TIME FOR PERFECTED REQUESTS IN WHICH INFORMATION WAS GRANTED
+
+
+
+                            SIMPLE                                  COMPLEX                       EXPEDITED PROCESSING
+   Agency / Median Average Lowest Highest Median Average Lowest Highest Median Average Lowest Highest
+  Component Number Number Number Number Number Number Number Number Number Number Number Number
+            of Days of Days of Days of Days of Days of Days of Days of Days of Days of Days of Days of Days
+  TVA              19    17.89        1           68       92   146.45            25       477   12   11.67      11      12
+
+[[page 14]]
+   AGENCY
+   OVERALL           19        17.89       1       68       92   146.45       25       477   12    11.67   11   12
+
+
+
+
+VII.C. PROCESSED SIMPLE REQUESTS -- RESPONSE TIME IN DAY INCREMENTS
+
+
+
+               <1- 21-  41-  61-  81- 101- 121- 141- 161- 181- 201- 301-
+   Agency /                                                               401+
+               20   40   60   80  100 120 140 160 180 200 300 400              TOTAL
+  Component                                                               Days
+              Days Days Days Days Days Days Days Days Days Days Days Days
+  TVA          107        36       4   1       0    0   0        0    0   0        0     0   0    148
+   AGENCY
+               107        36       4   1       0    0   0        0    0   0        0     0   0    148
+   OVERALL
+
+
+
+
+VII.C. PROCESSED COMPLEX REQUESTS -- RESPONSE TIME IN DAY INCREMENTS
+
+
+
+               <1- 21-  41-  61-  81- 101- 121- 141- 161- 181- 201- 301-
+   Agency /                                                               401+
+               20   40   60   80  100 120 140 160 180 200 300 400              TOTAL
+  Component                                                               Days
+              Days Days Days Days Days Days Days Days Days Days Days Days
+  TVA            1        10       6   6       4    3   2        0    0   0        1     3   4    40
+   AGENCY
+                 1        10       6   6       4    3   2        0    0   0        1     3   4    40
+   OVERALL
+
+[[page 15]]
+VII.C. PROCESSED REQUESTS GRANTED EXPEDITED PROCESSING -- RESPONSE TIME IN DAY INCREMENTS
+
+
+
+               <1- 21-  41-  61-  81- 101- 121- 141- 161- 181- 201- 301-
+   Agency /                                                               401+
+               20   40   60   80  100 120 140 160 180 200 300 400              TOTAL
+  Component                                                               Days
+              Days Days Days Days Days Days Days Days Days Days Days Days
+  TVA            3        0    0    0      0    0      0      0    0    0       0   0       0       3
+   AGENCY
+                 3        0    0    0      0    0      0      0    0    0       0   0       0       3
+   OVERALL
+
+
+
+
+VII.D. PENDING REQUESTS -- ALL PENDING PERFECTED REQUESTS
+
+
+
+                          SIMPLE                    COMPLEX            EXPEDITED PROCESSING
+   Agency /         Median Average          Median Average          Median Average
+  Component Number Number Number Number Number Number Number Number Number
+            Pending                 Pending                 Pending
+                    of Days of Days         of Days of Days         of Days of Days
+  TVA                98       96   98.73       28      450    461.50        1       7           7
+   AGENCY
+   OVERALL           98       96   98.73       28      450    461.50        1       7           7
+
+
+
+
+VII.E. PENDING REQUESTS -- TEN OLDEST PENDING PERFECTED REQUESTS
+
+[[page 16]]
+                            10th
+   Agency /                                                                                                  Oldest
+                           Oldest   9th      8th     7th        6th      5th       4th      3rd       2nd
+  Component                                                                                                 Request
+                          Request
+                Date of     2024- 2024- 2024- 2024- 2024- 2024- 2023- 2023- 2023-                             2023-
+                Receipt     04-19 03-27 02-05 01-16 01-11 01-08 12-21 12-21 12-21                             11-22
+               Number
+               of Days
+  TVA          Pending       359    375      411      425       427       430         440   440       440      459
+                Date of     2024- 2024- 2024- 2024- 2024- 2024- 2023- 2023- 2023-                             2023-
+                Receipt     04-19 03-27 02-05 01-16 01-11 01-08 12-21 12-21 12-21                             11-22
+   AGENCY
+   OVERALL     Number
+               of Days
+               Pending       359    375      411      425       427       430         440   440       440      459
+
+
+
+
+VIII.A. REQUESTS FOR EXPEDITED PROCESSING
+
+
+
+                                                                                        Number
+                                                    Median             Average
+                                                                                       Adjudicated
+     Agency /         Number        Number         Number of          Number of
+                                                                                       Within Ten
+    Component         Granted       Denied          Days to            Days to
+                                                                                        Calendar
+                                                   Adjudicate         Adjudicate
+                                                                                          Days
+  TVA                           3            5              9.5                9.75               7
+     AGENCY
+     OVERALL                    3            5              9.5                9.75               7
+
+[[page 17]]
+VIII.B. Requests for Fee Waiver
+
+
+
+                                                               Median Number          Average
+      Agency /            Number
+                                          Number Denied          of Days to       Number of Days
+     Component            Granted
+                                                                 Adjudicate        to Adjudicate
+  TVA                                 2                 0                56.5                 56.5
+        AGENCY
+        OVERALL                       2                 0                56.5                 56.5
+
+
+
+
+  IX. FOIA Personnel and Costs
+
+
+
+                                  PERSONNEL                                       COSTS
+                                    Number of       Total
+     Agency /       Number of
+                                    "Equivalent    Number                       Litigation-
+    Component        "Full-Time                                  Processing
+                                     Full-Time     of "Full-                     Related      Total Costs
+                       FOIA                                        Costs
+                                       FOIA       Time FOIA                        Costs
+                    Employees"
+                                    Employees"      Staff"
+  TVA                         1            0.00        1.00      284815.00      154566.00     439381.00
+
+[[page 18]]
+   AGENCY
+   OVERALL                  1          0.00        1.00    284815.00   154566.00   439381.00
+
+
+
+
+X. Fees Collected for Processing Requests
+
+
+
+                    Total Amount
+   Agency /                            Percentage of
+                       of Fees
+  Component                             Total Costs
+                      Collected
+TVA                             0.00          0.0000
+      AGENCY
+      OVERALL                   0.00          0.0000
+
+
+
+
+XI.A. Number of Times Subsection (C) Used
+
+
+
+    Agency /
+                     Number of Times Subsection Used
+   Component
+TVA                                                    0
+AGENCY OVERALL                                         0
+
+[[page 19]]
+  XI.B. Number of Subsection (A)(2) Postings
+
+
+
+                       Number of         Number of
+      Agency /       Records Posted    Records Posted
+     Component        by the FOIA       by Program
+                         Office            Offices
+  TVA                             26                43
+        AGENCY
+        OVERALL                   26                43
+
+
+
+
+XII.A. Backlogs of FOIA Requests and Administrative Appeals
+
+
+
+                       Number of         Number of
+                      Backlogged         Backlogged
+     Agency /
+                     Requests as of     Appeals as of
+    Component
+                      End of Fiscal     End of Fiscal
+                         Year               Year
+  TVA                            127                    0
+      AGENCY
+      OVERALL                    127                    0
+
+[[page 20]]
+XII.B. CONSULTATIONS ON FOIA REQUESTS -- RECEIVED, PROCESSED, AND PENDING CONSULTATIONS
+
+
+
+                     Number of                                                    Number of
+                                                              Number of
+                   Consultations                                                Consultations
+                                                            Consultations
+                   Received from        Number of                               Received from
+                                                            Received from
+                   Other Agencies      Consultations                            Other Agencies
+                                                           Other Agencies
+     Agency /        that were         Received from                              that were
+                                                               that were
+    Component      Pending at the     Other Agencies                            Pending at the
+                                                             Processed by
+                    Agency as of      During the Fiscal                          Agency as of
+                                                              the Agency
+                        Start              Year                                      End
+                                                           During the Fiscal
+                    of the Fiscal                                                of the Fiscal
+                                                                 Year
+                        Year                                                         Year
+  TVA                           0                    5                    5                  0
+     AGENCY
+                                0                    5                    5                  0
+     OVERALL
+
+
+
+
+XII.C. CONSULTATIONS ON FOIA REQUESTS -- TEN OLDEST CONSULTATIONS RECEIVED FROM OTHER AGENCIES AND PENDING AT THE AGENCY
+
+
+
+   Agency /            10th Oldest                                                             Oldest
+                                        9th   8th    7th     6th   5th    4th    3rd   2nd
+  Component            Consultation                                                          Consultation
+  TVA           Date           N/A N/A N/A N/A N/A N/A N/A N/A N/A                                   N/A
+
+[[page 21]]
+                  Number
+                  of Days             0      0     0         0     0      0         0      0     0           0
+                   Date             N/A N/A N/A N/A N/A N/A N/A N/A N/A                                    N/A
+   AGENCY
+   OVERALL        Number
+                  of Days             0      0     0         0     0      0         0      0     0           0
+
+
+
+
+XII.D.(1). COMPARISON OF NUMBERS OF REQUESTS FROM PREVIOUS AND CURRENT ANNUAL REPORT -- REQUESTS RECEIVED AND
+PROCESSED
+
+
+
+                                                                       NUMBER OF REQUESTS
+                          NUMBER OF REQUESTS RECEIVED
+                                                                          PROCESSED
+                                                                    Number                 Number
+     Agency /              Number             Number
+                                                                   Processed              Processed
+    Component          Received During    Received During
+                                                                  During Fiscal          During Fiscal
+                       Fiscal Year from   Fiscal Year from
+                                                                 Year from Last           Year from
+                          Last Year's     Current Annual
+                                                                 Year's Annual          Current Annual
+                        Annual Report          Report
+                                                                    Report                  Report
+  TVA                              262                 289                    264                    218
+        AGENCY
+        OVERALL                    262                 289                    264                    218
+
+
+
+
+XII.D.(2). COMPARISON OF NUMBERS OF REQUESTS FROM PREVIOUS AND CURRENT ANNUAL REPORT -- BACKLOGGED REQUESTS
+
+[[page 22]]
+                     Number of
+                                           Number of
+                     Backlogged
+                                           Backlogged
+                    Requests as of
+     Agency /                             Requests as of
+                   End of the Fiscal
+    Component                            End of the Fiscal
+                      Year from
+                                        Year from Current
+                   Previous Annual
+                                          Annual Report
+                       Report
+  TVA                             34                  127
+        AGENCY
+        OVERALL                   34                  127
+
+
+
+
+XII.E.(1). COMPARISON OF NUMBERS OF ADMINISTRATIVE APPEALS FROM PREVIOUS AND CURRENT ANNUAL REPORT -- APPEALS RECEIVED
+AND PROCESSED
+
+
+
+                   NUMBER OF APPEALS RECEIVED             NUMBER OF APPEALS PROCESSED
+                                                                Number           Number
+                      Number               Number
+     Agency /                                                  Processed        Processed
+                  Received During      Received During
+    Component                                                 During Fiscal    During Fiscal
+                  Fiscal Year from     Fiscal Year from
+                                                             Year from Last     Year from
+                     Last Year's       Current Annual
+                                                             Year's Annual    Current Annual
+                   Annual Report            Report
+                                                                Report            Report
+  TVA                             8                  1                    9                1
+        AGENCY
+        OVERALL                   8                  1                    9                1
+
+[[page 23]]
+XII.E.(2). COMPARISON OF NUMBERS OF ADMINISTRATIVE APPEALS FROM PREVIOUS AND CURRENT ANNUAL REPORT -- BACKLOGGED
+APPEALS
+
+
+
+                      Number of            Number of
+                     Backlogged           Backlogged
+     Agency /     Appeals as of End    Appeals as of End
+    Component     of the Fiscal Year   of the Fiscal Year
+                   from Previous         from Current
+                   Annual Report        Annual Report
+  TVA                              0                    0
+  AGENCY
+  OVERALL                          0                    0

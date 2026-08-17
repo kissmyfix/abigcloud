@@ -1,0 +1,47 @@
+[[page 1]]
+                                                                                 Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Gibson (027)                                                 Jan 1 Owner                                           Current Owner                                      MCKNIGHT RD
+                                                             IDB GIBSON COUNTY, TN
+Tax Year 2026 | Reappraisal 2024                                                                                                                                      Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                             C/O TYSON FARMS, INC                                                                                     165                  001.06          001
+                                                             2200 W DON TYSON PKWY
+                                                             SPRINGDALE AR 72762
+Value Information
+Land Market Value:                             $3,800
+Improvement Value:                                 $0
+Total Market Appraisal:                        $3,800
+Assessment Percentage:                            0%
+Assessment:                                        $0
+Additional Information
+COUNTY PORTION- NORTH ACCESS RD.
+General Information
+Class: 01 - County                                           City:
+City #:                                                      Special Service District 2: 000
+Special Service District 1: 294                              Neighborhood: H05
+District: 03                                                 Number of Mobile Homes: 0
+Number of Buildings: 0                                       Utilities - Electricity: 00 - NONE
+Utilities - Water/Sewer: 12 - NONE / NONE                    Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                        Type            Description                                         Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                            Calculated Acres:                   Total Land Units: 2.67
+Land Code                                           Soil Class                                            Units
+
+70 - EXEMPT                                                                                                 2.67
+
+[[page 2]]
+Sale Information
+Sale Date             Price   Book   Page Vacant/Improved   Type Instrument       Qualification
+
+12/17/2018              $0    1031   1204                   QC - QUITCLAIM DEED   -
+
+9/6/2018           $569,162   1028   1751 V - VACANT        WD - WARRANTY DEED    P - MULTIPLE PARCELS
+
+1/31/2014               $0     984    882                   QC - QUITCLAIM DEED   -
+
+3/18/2005          $142,620    846    225 V - VACANT        WD - WARRANTY DEED    F - TAX EXEMPT SALE
