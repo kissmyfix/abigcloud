@@ -1,0 +1,7 @@
+text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+idb2020.txt,idb2020-ocr.pdf,OCR_SCAN,8,37876,4734,1.0,verify figures against page image,GeneratePDFs.exe
+idb2021.txt,idb2021-ocr.pdf,OCR_SCAN,15,99616,6641,1.0,verify figures against page image,GeneratePDFs.exe
+idb2022.txt,idb2022-ocr.pdf,OCR_SCAN,20,123241,6162,1.0,verify figures against page image,GeneratePDFs.exe
+idb2023.txt,idb2023-ocr.pdf,OCR_SCAN,20,121318,6066,1.0,verify figures against page image,GeneratePDFs.exe
+idb2024.txt,idb2024.pdf,DIGITAL,17,174800,10282,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)
+irs-search-results.txt,irs-search-results.pdf,DIGITAL,3,5996,1999,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)

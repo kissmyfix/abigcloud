@@ -17,13 +17,17 @@ Run `python3 files/bin/verify-990.py` from anywhere.
 
 ## This is a transcription, not a parse
 
-**Read this before trusting any figure.** `idb2020` through `idb2023` are
-image-only PDFs with no text layer, and this machine has no OCR installed. Those
-four filings were read by eye. Only `idb2024.pdf` has machine-readable text (a
-ProPublica visual render).
+**Updated 2026-08-17: the four hand-read filings are now OCR'd.** `idb2020`
+through `idb2023` are image-only PDFs and were originally read by eye, because
+this machine had no OCR at the time. It does now (tesseract 5.5 / ocrmypdf 16.7),
+and `files/bin/pdf-extract.py` has produced page-anchored text for all four in
+`derived/`. Spot-checked against the transcription: the figures agree, including
+the "Summer County 69549" line on the 2020 Form 990-EZ Part I Line 16, and the
+2024 `PILOT FEES DISTRIBUTED 2,291,692` line with no recipient named.
 
-That is a real weakness and the verification is built around it rather than
-around a parser:
+The original weakness and the verification built around it are kept below,
+because the checks are still what proves the dataset, and OCR of a scanned form
+is itself evidence to be read rather than trusted:
 
 - **A, internal arithmetic.** Each filing's own lines must close: revenue and
   expense itemizations sum to their totals, expense columns sum across, revenue
