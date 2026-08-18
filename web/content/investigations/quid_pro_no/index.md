@@ -1,20 +1,19 @@
 ---
 title: 'Quid-Pro-NO!'
-description: 'How every level of government has failed Tennesseans and the steps our leaders took to keep those failures hidden.'
+<!-- @c does this need updating since making our h2 changes? -->description: 'How every level of government has failed Tennesseans and the steps our leaders took to keep those failures hidden.'
 draft: false
-pubDate: '2026-08-17'
+<!-- @c is there a mechanism in astro to allow for noting an updatedDate? -->pubDate: '2026-08-17'
 ---
 
 # **Quid-Pro-*NO!***
 
-## How every level of government has failed Tennesseans and the steps elected leaders took to keep those failures hidden
+## How every level of government has failed Tennesseans and the steps elected leaders took to keep those failures secret
 
 ---
 
 > ![Andy and Red, The Shawshank Redemption](./andy.png)
 > “He’s got ***scams*** you haven’t even dreamed of. ***Kickbacks*** on his ***kickbacks***. There’s a ***river of dirty money*** running through this place.” \
 > **Andy Dufresne**, *The Shawshank Redemption*
-
 ---
 
 ## Intro
@@ -25,13 +24,15 @@ But what if you aren’t reading the ramblings of a madman right now?
 
 Can you spare 10 minutes?
 
-What if for the first time ever crazy internet guy delivers on his click-bait headline? What happens when someone comes along without a teaser or agenda? When that person doesn’t ask you to subscribe or “hit that like button“?
+What if for the first time ever crazy internet guy delivers on his click-bait headline? What happens when someone comes along without a teaser or an agenda? When that person doesn’t ask you to subscribe or “hit that like button“?
 
-And just…. presents the facts as he understands them…
+> And just…. presents the facts as he understands them…
 
 How many times have we been told some politician or agency did something shady? How many of us have felt that flash of outrage, and then... nothing? No follow-up. No conclusion. Just the next headline pushing the last one out of the public conversation?
+
 <!-- @c I'm adding this comment just so I remember why I did the below and what I want to ask claude later... I did this in order for our css on the live site to place the below into our callout box design. 1, did I do this correctly, and second, is there anyway we can work the live site's look and feel into our livemd server we've made? Right now, the only way I have to see the end result is to commit and push to GitHub which feels less than optimal to the workflow we've established. -->
-> ### Have we not become conditioned to a predictable pattern by now? Something similar to:
+
+> #### Have we not become conditioned to a predictable pattern by now? Something similar to:
 > 1. Accusation gets made
 > 2. Outrage ensues
 > 3. Silence. Deafening silence.
@@ -45,27 +46,31 @@ Because it does affect people. It affects me. It affects you. It affects every T
 
 I've felt everything from being that crazy meme guy holding a cigarette in one hand pointing to a nonsensical bulletin board with the other to being a potential Pulitzer prize winning investigative journalist while researching this. I'll let you decide which.
 
-## Part 1: The Simple Question That Wasn't
+---
+
+## The Simple Question That Was Until it Wasn't
 
 About a 30 minute drive north outside of Nashville there exists a single facility that has been quietly growing since construction began in 2020.
 
 Long before data centers became the latest hot button issue I watched while silently wondering why no one else was talking about or even seemed to care about what was happening all around us.
 
-I’m referring to the mega artificial intelligence data center owned by Meta in Gallatin, TN. The single facility capable of drawing roughly 300 megawatts, the equivalent power demands as [every single home in Nashville combined](/faq/#scale-reference-card).
+I’m referring to the mega artificial intelligence data center owned by Meta in <!-- @c would adding a wikipedia link to Gallatin's wiki page be advisable here? -->Gallatin, TN. The single facility capable of drawing roughly 300 megawatts, the equivalent power demands as [every single home in Nashville combined](/faq/#scale-reference-card).
 
 The thing is absolutely massive!
 
 And not just the scale of it but the everything else around it happening simultaneously.
 
-From the TVA's [$1.1 billion overhaul of the Gallatin Steam Plant](/sources/web_articles/2013-04-07-timesfreepress-tva-1b-gallatin-steam-plant-upgrade.txt) to [a major water pipeline being buried running uphill](/sources/podcasts/transcripts/growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis.txt) and everything in between.
+From the TVA's [$1.1 billion overhaul of the Gallatin Steam Plant](/sources/web_articles/2013-04-07-timesfreepress-tva-1b-gallatin-steam-plant-upgrade.txt), [a major water pipeline being buried running uphill](/sources/podcasts/transcripts/growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis.txt), and everything else this investigation touches on, the scale and scope is honestly mind boggling.<!-- @c made some adjustments to the previous statement -->
 
-The TVA did catch some heat through all of this. Of course, having a sudden appetite for the seizure of private property through eminent domain will do that. Country artist John Rich took up both fights, first in [Cheatham County](/sources/web_articles/2025-09-03-justthenews-john-rich-tva-cheatham-eminent-domain.txt), where a 900 megawatt gas plant would have swallowed 6,000 acres of farmland and some 500 homes, and then in [Gallatin](/sources/web_articles/2026-02-20-wsmv-tva-pauses-gallatin-transmission-line-gregory-farm.txt), where a proposed transmission line would have cut straight across a farm the same family has worked since the Revolutionary War.
+<!-- @c just a note to remember to ask claude if enlarging my cursor within the mdlive editor is possible as I keep losing it and it's a mild annoyance -->
+
+The TVA did catch some heat through all of this. Of course, having a sudden appetite for the seizure of private property through eminent domain will do that. Country artist John Rich took up both fights, first in [Cheatham County](/sources/web_articles/2025-09-03-justthenews-john-rich-tva-cheatham-eminent-domain.txt), where a 900 megawatt gas plant would have swallowed 6,000 acres of farmland and some 500 homes<!-- @c are we positive about this acreage and homes claim? Those numbers seem much larger than I remember them being -->, and then in [Gallatin](/sources/web_articles/2026-02-20-wsmv-tva-pauses-gallatin-transmission-line-gregory-farm.txt), where a proposed transmission line would have cut straight across a farm the same family has worked since the Revolutionary War.
 
 But for the most part, all of this was happening at once, in the same area, with little to no outside coverage. What coverage there was came out of the state's own press release, and I mean that literally: the [Nashville Area Chamber of Commerce](/sources/web_articles/2020-08-11-nashville-chamber-facebook-gallatin-verbatim-reprint.txt), [Tennessee Lookout](/sources/web_articles/2020-08-12-tennessee-lookout-gallatin-lands-facebook.txt) and [Business Facilities](/sources/web_articles/2020-08-business-facilities-facebook-800m-tennessee.txt) all ran the same paragraphs, word for word, unquoted and unattributed, within hours of each other.
 
 Then, more recently, the larger public began taking notice. Admit it, some of y’all got big mad when the outrage finally arrived. However sideways that anger was aimed.
 
-I won’t spend the time here re-hashing [the DC Blox deal](/sources/web_articles/2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer.txt). And honestly I’m a bit biased in where I rank the two stories, but the zoo angle just never sat quite right with me.
+I won’t spend the time here re-hashing [the DC Blox deal](/sources/web_articles/2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer.txt)<!-- @c in source links such as this one we need to work out a workflow which renders them on the site under the same look and feel of our overall live site. something like how the items under the "Reference" tab adhere to -->. And honestly I’m a bit biased in where I rank the two stories, but the zoo angle just never sat quite right with me.
 
 The whole thing felt manufactured and misplaced. Both sides of it.
 
