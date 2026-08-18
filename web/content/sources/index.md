@@ -52,4 +52,5 @@ Where a document was captured from a page that has since changed or gone behind 
   <span class="src-meta">WSMV 4 Nashville, February 20, 2026, 8:57 AM CST · `2026-02-20-wsmv-tva-pauses-gallatin-transmission-line-gregory-farm.txt`</span>
 - [What is DC BLOX? Developer behind data center near Nashville Zoo has faced pushback elsewhere](/sources/web_articles/2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer.txt)  
   <span class="src-meta">The Tennessean (Nashville), Updated July 9, 2026 · `2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer.txt`</span>
+- [report-gallatin-idb-leon.pdf](/sources/web_articles/report-gallatin-idb-leon.pdf)
 

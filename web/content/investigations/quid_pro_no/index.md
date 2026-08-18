@@ -81,23 +81,29 @@ And I picked the Meta facility in Gallatin as my test case for a few reasons:
 
 Have [the promises made](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf) been kept?
 
-The short answer is yes. The promises were kept. Technically. And that "technically" is where the entire story lives.
+The short answer is yes. The promises were kept. Technically. And that "technically" is where this entire story lives.
 
 It wasn't that the talking points were wrong. It's that they were engineered. Every word chosen carefully enough to survive a fact-check while completely misrepresenting what was actually happening.
 
-If you've ever bought a used car from a guy who told you it "runs great" while knowing the transmission had six months left, you know the feeling:
+If you've ever bought a used car from a guy who slapped the hood and said it "runs great" while knowing the transmission was about to go kaput, you know the feeling:
 
-It's not a lie. \
-It's worse than a lie. \
-A lie can be caught.
+It's not a *lie*. \
+It's ***worse*** than a lie. \
+A lie can be *caught*.
 
 This stuff is built to hold up under scrutiny while meaning something entirely different than what you heard.
 
-So I ask you this. When do omissions and half truths become lies? When does carefully crafted phrasing become deceit?
+My questions were reformed once I realized the framing itself was the trick. No longer was I asking "are data centers good or bad?".
 
-For myself (once I realized the framing itself was the trick) my question changed. It wasn't "are data centers good or bad?" anymore. It became: Why is everyone in on this? Why are state and local officials from both parties bending over backwards to twist words into new meanings? Why are they taking that political risk? What could possibly make every level of government line up behind the same carefully crafted narrative for corporations that are worth trillions and do not need the help?
+My questions became: \
+Why is seemingly everyone in on this? \
+Why are state and local officials from both parties bending over backwards to twist words into new meanings? \
+Why are those officials taking that political risk? \
+What could possibly make every level of government line up behind the same carefully crafted narrative for corporations that are worth trillions and do not need the help?
 
-Finding the answers is when things started getting interesting.
+I was mostly left just asking myself the  ***"WHY???"*** behind it all.
+
+Finding *those* answers is when things started getting interesting.
 
 ### A Legal Loophole from 1955
 
@@ -107,31 +113,31 @@ Here's the short version.
 
 Back in 1955, during a national economic boom, landing a large manufacturer could set a small city up for decades. One big factory meant stable jobs, stable tax revenue, and the budget certainty needed for planned growth. City leaders were willing to sweeten the deal to attract those companies.
 
-The problem was Tennessee's constitution. [Article II, Section 28](/reference/the-title-transfer-mechanism/) requires that all property in the state be taxed. No exceptions, period. Section 29 goes further, and says cities and counties are explicitly prohibited from lending their credit or giving financial favors to private corporations. A city couldn't just hand Goodyear a tax break. It would be unconstitutional.
+The problem was Tennessee's constitution. [Article II, Section 28](/reference/the-title-transfer-mechanism/) requires that all property in the state be taxed. No exceptions, period. Section 29 goes further, and says cities and counties are explicitly prohibited from lending their credit or giving financial favors to private corporations. A city couldn't just hand Goodyear or Ford Motor Company a tax break. It would be unconstitutional.
 
 So instead of changing the constitution, lawmakers built a workaround. [The Industrial Development Corporations Act](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf) let cities create a separate public board, an [Industrial Development Board](/reference/what-is-an-idb/), or IDB for short.
 
 The IDB owns the industrial property instead of the company. And since the IDB is technically a public entity, [its land is tax-exempt](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-305-tax-exemption-pilot.pdf). No constitutional violation. The board then leases that land back to the company, and instead of property taxes, the company pays the board whatever the two sides negotiate. That negotiated payment is the [PILOT — Payment In Lieu Of Taxes](/reference/what-is-a-pilot/).
 
-A structure built in 1955 for factories that employed thousands, now being used to shelter trillion-dollar tech companies that employ "up to 100+".
+A structure built in 1955 for factories that employed thousands, now being used to shelter trillion-dollar tech companies that employ <!-- @c add a source link here back to the employment claim -->"up to 100+".
 
 ### The Unicorn
 
-When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement, [wrapped in an NDA](/sources/podcasts/transcripts/fenton-on-podcast-full.txt) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
+When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement,<!-- @c we need to technically bring in the Project Skillet deal Gallatin had previously lost out on to Huntsville just a year or so prior to Facebook coming back under the Project Woolhak codename. Also, make a not to your memory files here if it doesn't already exist for the Project Skillet reference point and also this: when searching our source files for "Project Woolhawk" mentions we need to remember that it is often referred to as "Project Wool Hawk" in some sources. Notice the one vs two word break there.  --> [wrapped in an NDA](/sources/podcasts/transcripts/fenton-on-podcast-full.txt) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set. <!-- @c somewhere, here maybe? we need to bring in the closest thing to what the actual facebook/Gallatin PILOT terms looked like. If I remember correctly it can be found in one of the gallatin council meeting notes right around the year 2020 -->
 
-But the wall wasn't just secrecy. It was structural. The Gallatin IDB had evolved into something I can only describe as a legal hybrid — claiming to be a public agency when it needed tax-exempt status while operating like a private corporation when it needed to avoid transparency. Having it both ways.
+But the wall wasn't just secrecy. It was structural. The Gallatin IDB had evolved into something I can only describe as a legal hybrid claiming to be a public agency when it needed tax-exempt status while operating like a private corporation when it needed to avoid transparency.<!-- @c need to link the source evidence here and posibly expand on this paragraph here showing the intent. the most damning example that comes to my mind was found in a council meeting when the City of Gallatin basically said (paraphrasing here is by me) "Oh, That IDB? Yea, they're their own thing and we as a city have no control or say in anything they do" this however directly contradicts everything we've come to learn about what an IDB is and how the statute allowing their formations came to be --> Having it both ways.
 
-And it was having it both ways in ways that nobody else in Tennessee was. I pulled every PILOT filing I could find through the state comptroller. Woolhawk first appears in the 2021 report, and by 2022 it is listed on ten parcels worth $24,019,345. [Against all of it, the county column reports nothing](/sources/state_of_tennessee/tn_comptroller_pilot_reports/sumner_county/derived/woolhawk-pilot-reporting.md) — two of those cells hold an explicit zero, the other eight are blank. The city column comes to $5,539. In the same table, in the same county, SOLON, LLC is listed on $3,527,000 of property, one seventh the value, and reports $6,382 to the county alone. The entire point of a PILOT is that it's a payment. It's in the name.
+And it was having it both ways in ways that nobody else in Tennessee was. I pulled every PILOT filing I could find through the state comptroller. Woolhawk first appears in the 2021 report, and by 2022 it is listed on ten parcels worth $24,019,345. [Against all of it, the county column reports no payments being made from Meta to the county](/sources/state_of_tennessee/tn_comptroller_pilot_reports/sumner_county/derived/woolhawk-pilot-reporting.md). As for what Meta reports making PILOT payments to the city, that column comes to<!-- @c this amount feels off. actually, I'm not too happy with the phrasing of this entire paragraph and we need to discuss some changes here. Pause here and discuss --> $5,539. In the same table, in the same county, SOLON, LLC is listed on $3,527,000 of property, one seventh the value, and reports $6,382 to the county alone. The entire point of a PILOT is that it's a payment. It's in the name.<!-- @c again just restating my own thinking here. the preceeding paragraph here is a hard read and needs reworked -->
 
-Then I looked at the federal filings. Of the [roughly 400 Industrial Development Boards on file with Tennessee's Secretary of State business entity search portal](/sources/state_of_tennessee/tn_sos_filings/derived/idb-count-method.md), Gallatin's is the only one filing with the IRS as a 501(c)(4) — a "social welfare" organization. That's the designation used by advocacy groups and dark money nonprofits. [Only eight file a 990 at all](/sources/usa_federal/irs_990_data/derived/tn-idb-subsections.md), and the other seven split between 501(c)(3) and 501(c)(6). Not a regional quirk. Not a gray area. The only one.
+Then I looked at the federal filings. Of the [roughly 400 Industrial Development Boards on file with Tennessee's Secretary of State business entity search portal](/sources/state_of_tennessee/tn_sos_filings/derived/idb-count-method.md), Gallatin's is the only one filing with the IRS as a 501(c)(4). Or, put another way, Gallatin is the only IDB in Tennessee who files a federal form 990 with the IRS as a "social welfare" organization.<!-- @c edited the previous sentence, check me on my verbage please --> <!-- @c this next sentence reads a bit inflammatory. Are we sure of our claim saying 501(c)(4) orgs are used by "dark money nonprofits". and if we are, what does that loook like in practice? what seperates a 501(c)(4) org from a 501(c)(3 or 6) org? and when would an accountant choose one over the other two? remember the comparable contrasts here. Gallatin IDB only 501(c)(4) org in our whole story. So, I'd ask what even is a c4 org in other examples, then we have 501(c)(3) orgs such as the Shalom Zone and Gallatin Day Care Centers. are c3 orgs the standard nonprofit designation used? lastly, the c6 orgs such as the handful of other Tennessee IDBs who do file 990s. why are they using 6 while Gallatin uses 4 while other non profits seem to use 3? -->That's the designation used by advocacy groups and dark money nonprofits. [Only eight file a 990 at all](/sources/usa_federal/irs_990_data/derived/tn-idb-subsections.md), and the other seven split between 501(c)(3) and 501(c)(6). Not a regional quirk. Not a gray area. The only one.
 
-A tax-exempt entity reporting nothing to its own county while filing under a federal tax status that no other IDB in the state uses. That's not a coincidence. That's a choice.
+A tax-exempt entity reporting nothing to its own county<!-- @c I don't believe it would be the IDBs job to report anything to the county here. PILOT payments are self reported to the comptroller via the corporations who have such agreements with IDBs in Tennessee. This would indicate it being metas job to report the monies it pays each to the county and to the city with whome its agreements lie.  --> while filing under a federal tax status that no other IDB in the state uses. That's not a coincidence. That's a choice.
 
 ### The First Filing
 
-The choice to file with the IRS at all appears to have been forced. The Gallatin IDB was [chartered in 1994, administratively dissolved in 2012, then reinstated in early 2013](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf) when companies like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 — twenty-six years — there are no public federal filings.
+The choice to file with the IRS at all appears to have been forced. The Gallatin IDB was [chartered in 1994, administratively dissolved in 2012, then reinstated in early 2013](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf) when companies<!-- @c i don't want to delve too deeply into the Beretta or Bradford deals here, but lets pin them for potential later angles or article pieces as they are importanat. also, lets at the very least find a weblink we can attach here which summarizes the berretta deal at the very least. we do have lots of content for each within our source files already --> like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 there are no public federal filings.<!-- @c although we may not have federal filings from these years, we do have the comptroller reported payments which expand on the suspicious way the Gallatin IDB seems to have always operated under. Things like Bradford's payments always and only being reported as "RENT"(which would in turn have ment every single one of their payments NEVER experienced oversight or scrutinty) and that Beretta in fact never reported a single payment EVER should lead us and our readers to a safe assumption that Gallatin has long held a different policy mindset when it comes to their PILOT negotiation tactics. Our article hinges on the idea that it was most likely Meta themselves and by extension their attornies who disapproved of Gallatin's off-book handling and the legalities behind their methods forcing Gallatin to reexamine its practices if they wanted to land Facebook this time(remember Project Skillet was lost). this is also where several things which support this theory all converge. The SB708, the land grap, the UT president change, the original 990 filing, Preston Stark's placement on both the IDB and Shalom boardlist among others -->
 
-Then Meta shows up. And Meta's lawyers, being the lawyers of a trillion-dollar corporation, presumably have expectations about doing business with a counterparty that exists on paper. My working theory — supported by the timeline — is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal. They may have even learned that lesson the hard way in 2017, when Gallatin lost the earlier iteration of this deal — Project Skillet — to Alabama.
+<!-- @c ok, I now see we do touch on some of my previous comment, but i'm leaving it as added context -->Then Meta shows up. And Meta's lawyers, being the lawyers of a trillion-dollar corporation, presumably have expectations about doing business with a counterparty that exists on paper. My working theory <!-- @c remember to kill all emdashes -->— supported by the timeline — is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal. They may have even learned that lesson the hard way in 2017, when Gallatin lost the earlier iteration of this deal — Project Skillet —<!-- @c emdashes are evil --> to Alabama.
 
 So they filed. But they couldn't file honestly, because an honest filing would mean explaining twenty-six years of unreported activity. So [the first 990](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf), signed on November 14, 2021 by Preston Stark, is marked as an "initial return" — the box a body checks the first year it exists. On the same form, the year opens with $102,948 already in the bank. A quarter century of history erased with a checkbox, and the money from those years still sitting there.
 
@@ -145,9 +151,9 @@ If you Google how PILOTs and IDBs work in Tennessee, one of the first things you
 
 Leon's report is remarkable because she lays out the entire playbook and frames it as good governance. Some highlights:
 
-She admits the Woolhawk PILOT agreement was deliberately written to be more ambiguous about fund distribution than every prior agreement. Not accidentally vague. Consciously rewritten to give the IDB discretionary control over where money goes, departing from a 35/65 city-county split that had been standard for over a decade.
+She admits the Woolhawk PILOT agreement was deliberately written to be more ambiguous about fund distribution than every prior agreement. Not accidentally vague. In [her words](/sources/web_articles/report-gallatin-idb-leon.pdf), Facebook's agreement was "different from previous contracts and left more ambiguity concerning the exact distribution of funds." The board could have kept splitting the money as it always had, about 35% to Gallatin and 65% to Sumner County with 60% of the county's share going to schools. It chose discretion instead.
 
-She admits the IDB was sitting on over a million dollars in accumulated PILOT payments that hadn't been distributed. Her recommendation isn't to send it where it's supposed to go. It's to keep it — funding daycare facilities reserved for "industry partners," workforce training programs, land acquisition. An unelected board controlling what should be public tax revenue and spending it on projects that serve corporate interests.
+She admits the IDB is sitting on over a million dollars in accumulated PILOT payments that haven't been distributed, and notes that number "will only increase." Her recommendation isn't to send it where it's supposed to go. It's to keep it. The board had already put over $600,000 into a new daycare whose operator "agreed to reserve slots exclusively for industry partners." The rest she'd steer toward workforce training and buying industrial land, so the city isn't "at the mercy of private owners for site selection." An unelected board controlling what should be public tax revenue and spending it on projects that serve corporate interests.
 
 She identifies an "anti-growth coalition" on the Sumner County Commission and Gallatin City Council as a threat. Elected officials who wanted to manage public spending differently are the enemy. The quiet part out loud: we rewrote the agreement so that elected representatives couldn't direct these funds.
 
@@ -249,16 +255,3 @@ But if you walk down to the campus today, the windows are dark.
 The money moved. The state laws were altered. The 990 revenues spiked exponentially. The administrator successfully signed off on both sides of the transactional loop.
 
 And the daycare center has yet to open.
-
-## The Takeaway: A Masterclass in Systemic Insulation
-
-My take on your investigation is that you have mapped the perfect anatomy of modern corporate-municipal extraction.
-
-This isn't old-school, back-alley political bribery where someone stuffs cash into a briefcase. It is far more dangerous because it is completely sanitized by design.
-
-1. **The State** passes bills like SB 708 to create legally unassailable tax sanctuaries.
-2. **The City** creates a legal hybrid (the IDB) that acts like a public entity for tax breaks but hides like a private corporation to evade transparency.
-3. **The Operator** sets up a closed financial loop where public grant dollars are authorized by the board he administers, transferred to a charity where he controls the treasury, and shielded by a heartwarming narrative of helping local children.
-
-They insulated themselves so heavily from standard public accountability that they forgot one variable: the receipts. By following the paper trail from the State Capitol to the IRS filings, you didn’t just find a conflict of interest — you found the exact mechanism they use to swap public wealth for corporate favor.
-
