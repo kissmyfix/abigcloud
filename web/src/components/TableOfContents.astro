@@ -1,0 +1,97 @@
+---
+/*
+ * Sticky table of contents with scrollspy, plus a reading-progress bar and
+ * click-to-copy anchors on every heading.
+ *
+ * Long-form investigations are read on one page, not paginated: pagination
+ * breaks in-page search, splits the canonical URL a reader would cite, and
+ * hides how much evidence there actually is. Navigation is what makes the
+ * length tolerable, so this gives the reader position, remaining distance,
+ * and a link to any single section.
+ *
+ * Opt in per page with `toc: true` in frontmatter.
+ *
+ * The list is built from the DOM rather than from the markdown AST because
+ * Astro already generates the heading ids, so the rendered page is the one
+ * source of truth for what is actually on it.
+ */
+---
+
+<div class="reading-progress" aria-hidden="true"><span></span></div>
+
+<nav class="toc" aria-label="Table of contents" hidden>
+	<p class="toc-title">Contents</p>
+	<button class="toc-toggle" aria-expanded="false">Contents</button>
+	<ol></ol>
+</nav>
+
+<script>
+	const prose = document.querySelector('.prose');
+	const nav = document.querySelector('.toc');
+	if (prose && nav) {
+		const list = nav.querySelector('ol');
+		const headings = [...prose.querySelectorAll('h2[id], h3[id]')].filter(
+			(h) => h.textContent.trim().length < 80,   // skip the deck/subtitle
+		);
+
+		if (headings.length >= 3) {
+			nav.hidden = false;
+			for (const h of headings) {
+				const li = document.createElement('li');
+				li.className = h.tagName === 'H3' ? 'lvl-3' : 'lvl-2';
+				const a = document.createElement('a');
+				a.href = '#' + h.id;
+				a.textContent = h.textContent.trim();
+				li.append(a);
+				list.append(li);
+
+				// a quiet anchor beside the heading itself
+				const link = document.createElement('a');
+				link.className = 'heading-anchor';
+				link.href = '#' + h.id;
+				link.setAttribute('aria-label', 'Link to this section');
+				link.textContent = '#';
+				h.append(link);
+			}
+
+			// scrollspy: the last heading to cross the top quarter of the viewport wins
+			const links = [...list.querySelectorAll('a')];
+			const mark = (id) => {
+				for (const a of links) a.classList.toggle('current', a.hash === '#' + id);
+			};
+			const seen = new Map();
+			const io = new IntersectionObserver(
+				(entries) => {
+					for (const e of entries) seen.set(e.target.id, e.isIntersecting);
+					const visible = headings.filter((h) => seen.get(h.id));
+					if (visible.length) mark(visible[0].id);
+				},
+				{ rootMargin: '-10% 0px -70% 0px' },
+			);
+			for (const h of headings) io.observe(h);
+
+			// mobile: the list collapses behind a button
+			const toggle = nav.querySelector('.toc-toggle');
+			toggle.addEventListener('click', () => {
+				const open = nav.classList.toggle('open');
+				toggle.setAttribute('aria-expanded', String(open));
+			});
+			list.addEventListener('click', () => {
+				nav.classList.remove('open');
+				toggle.setAttribute('aria-expanded', 'false');
+			});
+		}
+
+		// reading progress across the article body only, not the whole document
+		const bar = document.querySelector('.reading-progress span');
+		const update = () => {
+			const top = prose.offsetTop;
+			const span = prose.offsetHeight - window.innerHeight;
+			const done = span > 0 ? (window.scrollY - top) / span : 0;
+			bar.style.transform = `scaleX(${Math.min(1, Math.max(0, done))})`;
+		};
+		update();
+		addEventListener('scroll', update, { passive: true });
+		addEventListener('resize', update);
+	}
+</script>

@@ -472,3 +472,156 @@ main.landing > table {
 	.src-prov dt { padding-top: 0.9em; }
 	.src-body { font-size: 12px; padding: 18px 16px; }
 }
+
+/* ---- Callout colour variants ---------------------------------------------
+   The palette tokens (teal, gold, blue, green, red) were defined in both
+   themes but only the red accent was ever used. These put the rest to work.
+
+   Named by intent, not by colour, so a page does not have to be re-edited if
+   the palette changes: .is-finding, .is-caution, .is-context, .is-verified.
+   Colour aliases are provided because the author writes these by hand.
+
+   Usage, on a blockquote or an .info-box:
+       <div class="info-box is-finding"> ... </div>
+       > **Label**
+       > body                      <- plain blockquote, unchanged, red accent
+*/
+.is-finding,  .is-red    { --cal-bg: var(--red-bg);   --cal-line: var(--accent); --cal-label: var(--red-text); }
+.is-context,  .is-blue   { --cal-bg: var(--blue-bg);  --cal-line: #2f6fb0;       --cal-label: #1c4f85; }
+.is-caution,  .is-gold   { --cal-bg: var(--gold-bg);  --cal-line: var(--gold);   --cal-label: var(--gold-text); }
+.is-verified, .is-green  { --cal-bg: var(--green-bg); --cal-line: #1c8a5c;       --cal-label: var(--green-text); }
+.is-source,   .is-teal   { --cal-bg: #e8f3f1;         --cal-line: var(--teal);   --cal-label: #0a4f43; }
+
+:root:not([data-theme="light"]) .is-context, :root:not([data-theme="light"]) .is-blue { --cal-line: #5b9bd8; --cal-label: #9cc4ea; }
+:root:not([data-theme="light"]) .is-verified, :root:not([data-theme="light"]) .is-green { --cal-line: #35b57e; --cal-label: #7fd9ae; }
+:root:not([data-theme="light"]) .is-source, :root:not([data-theme="light"]) .is-teal { --cal-bg: #06231f; --cal-label: #6fd8c4; }
+:root[data-theme="dark"] .is-context, :root[data-theme="dark"] .is-blue { --cal-line: #5b9bd8; --cal-label: #9cc4ea; }
+:root[data-theme="dark"] .is-verified, :root[data-theme="dark"] .is-green { --cal-line: #35b57e; --cal-label: #7fd9ae; }
+:root[data-theme="dark"] .is-source, :root[data-theme="dark"] .is-teal { --cal-bg: #06231f; --cal-label: #6fd8c4; }
+
+blockquote[class*="is-"] {
+	background: var(--cal-bg);
+	border-left-color: var(--cal-line);
+}
+blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-label); }
+
+.info-box[class*="is-"] {
+	background: var(--cal-bg);
+	border-color: color-mix(in srgb, var(--cal-line) 35%, transparent);
+	border-left: 3px solid var(--cal-line);
+	border-radius: 0 8px 8px 0;
+}
+.info-box[class*="is-"] h3 { color: var(--cal-label); }
+
+/* ---- Table of contents, reading progress, heading anchors ----------------
+   A long investigation stays on one page. These make the length navigable:
+   where am I, how much is left, and how do I link to just this bit. */
+.reading-progress {
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	height: 3px;
+	z-index: 60;
+	pointer-events: none;
+}
+.reading-progress span {
+	display: block;
+	height: 100%;
+	background: var(--accent);
+	transform: scaleX(0);
+	transform-origin: 0 50%;
+}
+
+.toc {
+	font-family: var(--font-sans);
+	font-size: 13px;
+	line-height: 1.45;
+}
+.toc-title { display: none; }
+.toc ol { list-style: none; margin: 0; padding: 0; }
+.toc li { margin: 0; }
+.toc a {
+	display: block;
+	padding: 5px 12px;
+	color: var(--ink3);
+	text-decoration: none;
+	border-left: 2px solid var(--border);
+}
+.toc a:hover { color: var(--ink); background: var(--bg2); }
+.toc a.current {
+	color: var(--accent);
+	border-left-color: var(--accent);
+	font-weight: 600;
+}
+.toc .lvl-3 a { padding-left: 26px; font-size: 12.5px; }
+
+/* Wide screens have room beside the column, so the list parks there and
+   follows the reader down. */
+@media (min-width: 1180px) {
+	.toc {
+		position: fixed;
+		top: 120px;
+		left: max(16px, calc(50% - 640px));
+		width: 230px;
+		max-height: 70vh;
+		overflow-y: auto;
+		z-index: 20;
+	}
+	.toc-title {
+		display: block;
+		margin: 0 0 8px 12px;
+		font-size: 10px;
+		letter-spacing: 0.18em;
+		text-transform: uppercase;
+		color: var(--ink3);
+	}
+	.toc-toggle { display: none; }
+}
+
+/* Narrow screens get a pinned button instead, so it never eats reading width. */
+@media (max-width: 1179px) {
+	.toc {
+		position: fixed;
+		right: 16px;
+		bottom: 76px;
+		z-index: 40;
+		text-align: right;
+	}
+	.toc-toggle {
+		font: inherit;
+		font-weight: 600;
+		padding: 9px 14px;
+		border-radius: 999px;
+		border: 1px solid var(--border2);
+		background: var(--pane, var(--bg2));
+		color: var(--ink);
+		cursor: pointer;
+		box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+	}
+	.toc ol {
+		display: none;
+		margin-bottom: 8px;
+		max-height: 55vh;
+		overflow-y: auto;
+		background: var(--bg2);
+		border: 1px solid var(--border);
+		border-radius: 8px;
+		padding: 6px 0;
+		text-align: left;
+		min-width: 240px;
+	}
+	.toc.open ol { display: block; }
+}
+
+.heading-anchor {
+	margin-left: 0.4em;
+	color: var(--ink3);
+	opacity: 0;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 0.7em;
+	transition: opacity 0.15s;
+}
+h2:hover .heading-anchor, h3:hover .heading-anchor, .heading-anchor:focus { opacity: 0.65; }
+
+/* An anchored jump must not land under the sticky header. */
+.prose h2[id], .prose h3[id] { scroll-margin-top: 90px; }

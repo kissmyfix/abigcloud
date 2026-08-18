@@ -45,14 +45,3 @@ The individual consumer. The morning Instagram poster. The humble meme warrior.
 
 >This is not anti-AI. This is not anti-progress. This is a demand for transparency about pace, consent, and the fundamental questions surrounding the sudden and seemingly insatiable demand for unfathomable amounts of energy and computational power. What is driving this demand? Where does it come from? And where does it end?
 >What this project examines is whether the luxury of time still exists, or whether we are pushing ahead at speeds in which time can no longer protect. What happens to us if there is no time for overcoming our own mistakes?
-
-| Section | What It Covers |
-|---|---|
-| [National](/national/) | The 4.4% figure, the growth trajectory, and who is actually driving the buildout. |
-| [TVA](/tva/) | The 18% misquote, the largest capital program in TVA history, and eminent domain on a 239-year-old farm. |
-| [Tennessee](/tennessee/) | Meta Gallatin, xAI Memphis, Fisk University, and Hendersonville. |
-| [Costs and Benefits](/costs_and_benefits/) | Who bears the cost of building for data centers, and what the community actually gets back. |
-| [Investigations](/investigations/) | Long-form work into specific deals. Currently Quid-Pro-NO! |
-| [Reference](/reference/) | Plain-language explainers, the falsehoods ledger, and open threads. |
-| [FAQ](/faq/) | What a data center is, how to read a megawatt figure, and what is still unverified. |
-| [About](/about/) | Who is writing this, and how the work gets verified. |

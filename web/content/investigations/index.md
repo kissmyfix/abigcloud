@@ -1,33 +1,43 @@
 ---
-title: 'Quid-Pro-NO!'
+title: 'Investigations'
 description: 'Long-form work into specific deals, specific documents, and the people who signed them.'
 ---
-# **Quid-Pro-*NO!***
+# **Asking *Questions***
 
-## **How every level of government is failing Tennesseans and how far those holding office will go while doing it.**
+## The rest of this site explains ***what*** is happening. This is where a single deal gets taken ***apart***, *document* by *document*.
 
-**What are half truths and omissions if not lies? Are they spin for personal gain? Greed? Does it really matter?**
+Everywhere else on this site works outward from the general to the particular. A capacity figure, a rate case, a statewide trend. **An investigation runs the other direction.** It starts with one deal, in one town, and follows it until the paper runs out.
 
-For me at least, it started the way everything else has in the months I have been trying to wrap my head around it all. An Industrial Development Board that at every turn is walking a line I am not convinced can be successfully straddled. The line separating a government agency beholden to oversight and a corporation unbound by rule or moral is surprisingly thin. Plus, they have got help. A state legislature willing to amend the tax code in the midst of NDA agreements and secret negotiations. A university trust designation cleared through political relationships. PILOT agreements written with intentional ambiguity to concentrate financial discretion in an appointed board. Federal filings fabricated to create a paper identity that should not exist. And the entire time, every politician, every PR team, and every media outlet repeating the same talking points, consistent, bipartisan, positive, while the actual structure ensured that a trillion-dollar corporation's tax obligations were minimized and the money that did flow was controlled by people nobody elected.
+That means slower work and a narrower subject. It also means the claims can be checked line by line, which is the only thing that makes any of it worth reading.
+
+> **These are not stories about one evil villain.**
+>
+> They are about intent, and about reason. They are about every safeguard, every check, and every balance this country was built on failing the people they were built to protect.
+>
+> Because whether it is incompetence or deliberate malice, the result is the same. *We the People lose.*
+
+## Published
+
+<div class="info-box is-finding">
+
+### Quid-Pro-NO!
+
+**Meta, Gallatin, and the Industrial Development Board.** A $1.5 billion data center, a board that says it answers to nobody, half a billion dollars of property assessed at zero, and a county column on a state form that has never had a number in it.
 
 **[Read Part 1: The Simple Question That Wasn't →](/investigations/quid_pro_no/)**
 
-*Still being verified. Parts 2 and beyond are in progress.*
+*Part 1 is published and still being verified in places. Parts 2 and beyond are in progress.*
 
-### Reference
-
-Every claim is sourced from public records, state filings, federal tax documents, property assessments, legislative archives, and the participants' own words. Every citation in the article opens the actual document, and all of them are listed in [the source index](/sources/). Check it yourself.
-
-The machinery this investigation runs into constantly, explained plainly.
-
-[What is an IDB?](/reference/what-is-an-idb/) · [What is a PILOT?](/reference/what-is-a-pilot/) · [The title-transfer mechanism](/reference/the-title-transfer-mechanism/) · [501(c)(4) vs. instrumentality](/reference/501c4-vs-instrumentality/)
-<div class="info-box">
-The rest of this site explains what is happening. This is where a specific deal gets taken apart, document by document.
-
-These are not stories about one evil villain we have all come to expect. They are about intent and reason. They are stories about every safeguard, every check, and every balance America was born from failing the very people they were made to protect.
 </div>
 
->**Because whether it be incompetence or deliberate malice, the result is the same.**\
-> **We the People lose.**
+## How these are sourced
 
+Every claim traces to a public record. State filings, federal tax documents, property assessments, legislative archives, council packets, and the participants' own words on the record.
 
+**Every citation in an investigation opens the actual document.** Not a summary of it, not a link to a paywall. The file itself, listed in [the source index](/sources/). Check it yourself, and tell me where I am wrong.
+
+## The machinery, explained plainly
+
+These pieces run into the same structures over and over. If a term stops you, start here.
+
+[What is an IDB?](/reference/what-is-an-idb/) · [What is a PILOT?](/reference/what-is-a-pilot/) · [The title-transfer mechanism](/reference/the-title-transfer-mechanism/) · [501(c)(4) vs. instrumentality](/reference/501c4-vs-instrumentality/)
