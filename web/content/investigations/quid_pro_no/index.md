@@ -129,13 +129,13 @@ A tax-exempt entity reporting nothing to its own county while filing under a fed
 
 ### The First Filing
 
-The choice to file with the IRS at all appears to have been forced. The Gallatin IDB was chartered in 1994, administratively dissolved in 2012, then reinstated in early 2013 when companies like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 — twenty-six years — there are no public federal filings.
+The choice to file with the IRS at all appears to have been forced. The Gallatin IDB was [chartered in 1994, administratively dissolved in 2012, then reinstated in early 2013](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf) when companies like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 — twenty-six years — there are no public federal filings.
 
 Then Meta shows up. And Meta's lawyers, being the lawyers of a trillion-dollar corporation, presumably have expectations about doing business with a counterparty that exists on paper. My working theory — supported by the timeline — is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal. They may have even learned that lesson the hard way in 2017, when Gallatin lost the earlier iteration of this deal — Project Skillet — to Alabama.
 
-So they filed. But they couldn't file honestly, because an honest filing would mean explaining twenty-six years of unreported activity. So the first 990, filed in late 2021, is marked as an "initial return" with a formation year of 2020. A quarter century of history erased with a checkbox.
+So they filed. But they couldn't file honestly, because an honest filing would mean explaining twenty-six years of unreported activity. So [the first 990](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf), signed on November 14, 2021 by Preston Stark, is marked as an "initial return" — the box a body checks the first year it exists. On the same form, the year opens with $102,948 already in the bank. A quarter century of history erased with a checkbox, and the money from those years still sitting there.
 
-And the filing itself is a mess. Part III lists Beretta and Bradford — the tenants making PILOT payments in — as beneficiaries who received money out. Schedule O, in the same document with the same signature, tells a completely different story: $69,549 to "Summer County" (their typo, not mine — it's Sumner). The two sections disagree on amounts by $999, disagree on recipients entirely, and disagree on the direction the money flowed.
+And the filing itself is a mess. [Part III](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf) lists "Fees in lieu of taxes paid to Sumner County Tennessee $17,474.00 Beretta $39,919.00, and Bradford $13,155.00" — the tenants making PILOT payments in, written up as beneficiaries who received money out. Schedule O, in the same document with the same signature, tells a completely different story: $69,549 to "Summer County" (their typo, not mine — it's Sumner). Part III adds to $70,548. Schedule O says $69,549. The two sections disagree by exactly $999, disagree on recipients entirely, and disagree on the direction the money flowed.
 
 That's not an accounting error. That's someone filling in a form about activity they can't document because it was never meant to be documented.
 

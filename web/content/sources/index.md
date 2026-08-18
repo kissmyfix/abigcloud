@@ -27,12 +27,14 @@ Where a document was captured from a page that has since changed or gone behind 
 
 ## County and city records
 
+- [1994-2026-idb-gallatin.pdf](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf)
 - [Meta's Gallatin Data Center (company fact sheet)](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf)  
   <span class="src-meta">Meta · `metas-gallatin-data-center.pdf`</span>
 
 ## Federal filings
 
 - [tn-idb-subsections.md](/sources/usa_federal/irs_990_data/derived/tn-idb-subsections.md)
+- [idb2020.pdf](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf)
 
 ## News coverage
 
