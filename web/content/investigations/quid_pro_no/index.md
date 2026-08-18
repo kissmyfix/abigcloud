@@ -117,15 +117,15 @@ A structure built in 1955 for factories that employed thousands, now being used 
 
 ### The Unicorn
 
-When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement, wrapped in an NDA and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
+When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement, [wrapped in an NDA](/sources/podcasts/transcripts/fenton-on-podcast-full.txt) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
 
 But the wall wasn't just secrecy. It was structural. The Gallatin IDB had evolved into something I can only describe as a legal hybrid — claiming to be a public agency when it needed tax-exempt status while operating like a private corporation when it needed to avoid transparency. Having it both ways.
 
-And it was having it both ways in ways that nobody else in Tennessee was. I pulled every PILOT filing I could find through the state comptroller. The Gallatin IDB was reporting $0 in payments to the county, year after year. The entire point of a PILOT is that it's a payment. It's in the name. But the reports showed nothing.
+And it was having it both ways in ways that nobody else in Tennessee was. I pulled every PILOT filing I could find through the state comptroller. Woolhawk first appears in the 2021 report, and by 2022 it is listed on ten parcels worth $24,019,345. [Against all of it, the county column reports nothing](/sources/state_of_tennessee/tn_comptroller_pilot_reports/sumner_county/derived/woolhawk-pilot-reporting.md) — two of those cells hold an explicit zero, the other eight are blank. The city column comes to $5,539. In the same table, in the same county, SOLON, LLC is listed on $3,527,000 of property, one seventh the value, and reports $6,382 to the county alone. The entire point of a PILOT is that it's a payment. It's in the name.
 
 Then I looked at the federal filings. Of the [roughly 400 Industrial Development Boards on file with Tennessee's Secretary of State business entity search portal](/sources/state_of_tennessee/tn_sos_filings/derived/idb-count-method.md), Gallatin's is the only one filing with the IRS as a 501(c)(4) — a "social welfare" organization. That's the designation used by advocacy groups and dark money nonprofits. [Only eight file a 990 at all](/sources/usa_federal/irs_990_data/derived/tn-idb-subsections.md), and the other seven split between 501(c)(3) and 501(c)(6). Not a regional quirk. Not a gray area. The only one.
 
-A tax-exempt entity reporting zero payments to its own county while filing under a federal tax status that no other IDB in the state uses. That's not a coincidence. That's a choice.
+A tax-exempt entity reporting nothing to its own county while filing under a federal tax status that no other IDB in the state uses. That's not a coincidence. That's a choice.
 
 ### The First Filing
 

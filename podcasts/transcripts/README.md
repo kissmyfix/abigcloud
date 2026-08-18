@@ -5,9 +5,12 @@ Machine transcriptions of the audio in `podcasts/mp3s/`, so episodes can be sear
 quoted, and cited by passage instead of by timestamp hunting.
 
 ## Contents
-24 `.txt` files, one per episode, named to match the source `.mp3` exactly so the pair is
-obvious. Two exceptions carry the Fenton interview: `fenton-on-podcast-full.txt` and
-`fenton-on-podcast-relevant.txt`, the second being a narrowed extract of the first. Every
+23 `.txt` files, one per episode, named to match the source `.mp3` exactly so the pair is
+obvious. One exception: the Fenton interview is `fenton-on-podcast-full.txt`. A narrowed
+keyword extract of it also existed and was deleted 2026-08-18 — it had cut the passage
+where Fenton names the Project Skillet NDA, which is one of the things the article cites
+him for. Narrowing a transcript to save context was solving a problem that did not exist;
+quote from the full transcript. Every
 transcript here was slugified alongside its mp3 on 2026-07-29; the publisher-titled
 duplicate of `fenton-on-podcast-full.txt` was byte-identical and deleted that day. Old names
 are recoverable from `podcasts/manifest.csv`.
