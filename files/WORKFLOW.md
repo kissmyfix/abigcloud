@@ -152,3 +152,34 @@ draft.
 
 Local build output lives in `web/dist/` and is gitignored — it is rebuilt every time and
 is never the source of anything.
+
+---
+
+## Process gotchas that have already cost time
+
+**Stopping the dev server.** `pkill -f "astro dev"` does not work — the running process is
+`node .../astro/bin/astro.mjs`, so the pattern never matches. Astro also refuses to start a
+second server and reports `HTTP 500` while the stale one holds the port, which looks like a
+build error and is not. Use its own command:
+
+    cd web && npx astro dev stop
+
+**The dev server does not survive a directory move.** It resolves `node_modules` from where
+it was started. Anything that relocates `web/` leaves it serving 500s from a path that no
+longer exists. Restart it after any restructuring, and check `:4321` returns 200 before
+assuming the site is broken.
+
+**Never wait on a job with `pgrep -f <name>`.** `pgrep -f` matches full command lines
+including the waiting shell's own, so a loop like
+
+    until ! pgrep -f pdf-extract; do sleep 10; done
+
+finds itself, concludes the job is still running, and spins forever. Two of these were left
+orphaned on 2026-08-17. Capture the PID at launch and wait on that instead.
+
+**Backgrounding from a shell that also greps for the thing it started** has the same
+failure. `pkill -f markserv` issued from a command line containing the word `markserv`
+kills the shell that issued it (exit 144).
+
+**Ports in use:** `:8080` mdlive, `:4321` Astro dev. Check with
+`ss -lntp | grep -E '8080|4321'`.
