@@ -1,23 +1,81 @@
-# www/
+# www/ — where the websites live
 
-## Purpose
-Home of the actual website root directories — the deployable/servable artifacts of this investigation, as opposed to the working data and drafts that live everywhere else in the project.
+Read this before touching anything in here. There are several site codebases and only
+one of them is live. The names used to lie about that; they don't any more.
 
-## Contents
-- `SITE_PLAN.md` — **read this first for any site work**: the locked 2026-07-06 decisions for the combined-site rebuild (stack, schema, two-axis architecture, pipeline, security posture, phases)
-- `abigcloud_v2/` — the active rebuild: Astro static site, local git repo, own README with repo mechanics. Phase 1 (verbatim migration) + step-2 wiki skin complete; supersedes the tracker and, at deploy time, `abigcloud.com/`
-- `sumner_pilot_tracker_v2/` — the Sumner County PILOT tracker, the active data-driven build (slated to be superseded by the rebuild's dossier/wiki phase)
-- `abigcloud.com/` — a local working copy of the live investigation site, for reference now and direct editing later
-- `idb_comparisons` - a single page for cycling through the IDB data by year and create comparisons from the data.
+---
 
-## Source Type
-**Output Artifact** — these are what the investigation produces for public consumption, not source material for it.
+## The one that is live
 
-## Handling Instructions
-- Don't treat anything here as a source of facts — every figure traces back to a source directory elsewhere in the project (`state_of_tennessee/tn_comptroller_pilot_reports/`, `state_of_tennessee/tn_property_assessments/`, `usa_federal/irs_990_data/`, etc.)
-- Frameworks, build steps, and tooling are all on the table when they serve the site — the constraint is that Brandon can explain the stack (he'll learn what he doesn't know yet), not that tooling is forbidden. Don't pre-reject an approach to protect a "no build step" rule; propose the best tool for the job and note what it adds
-- Keep deployed output self-contained and document any build step in the subdirectory's README (what generates what, and the command to run)
-- `abigcloud.com/` is a snapshot of the live site as of when it was copied in, not necessarily current — re-pull from the live site before assuming it's up to date
+**It is not in this directory.** The live abigcloud.com is at `abigcloud/web/` in the
+project root.
 
-## Notes
-Created July 2026 when the Sumner PILOT tracker moved out of `visualizations/` (a drafts folder) into a proper site-root structure. `abigcloud.com/` was added at the same time in anticipation of future work on the main site, not because anything here needed it today.
+```
+~/Documents/data_center_research/abigcloud/web/
+```
+
+- Repo: `github.com/kissmyfix/abigcloud`
+- Deploy: `git push origin main`. A GitHub Action builds it and publishes to GitHub Pages.
+- Publish an article: `npm run publish` first, which regenerates the article and the
+  source index from the research tree, then push.
+
+This is the merged site: general data-center coverage (Tennessee, TVA, National, Costs
+& Benefits) plus an Investigations section that hosts the deep dives. Quid-Pro-NO is the
+only deep dive so far.
+
+**Its repo used to be called `quid-pro-no`.** It was renamed at the merge, which is why
+the old name still redirects and why the two names seemed like two things. They are one
+thing.
+
+---
+
+## What is in here
+
+### `wiki-prototype/`  *(was `abigcloud_v2` — renamed 2026-08-17)*
+
+The unshipped second half of the plan. Thirteen commits, **no git remote**, never
+deployed. It exists only on this disk and the backup drives.
+
+It is not a newer version of the live site. It is a different kind of thing: the live
+site publishes prose, this one turns the investigation into **data you can navigate**.
+
+- `src/data/investigation/records.ts` — 27 typed records (the IDB, entities, people,
+  institutions) with relations between them
+- `src/data/investigation/events.json` — 42 timeline events in two lanes, SAID vs PAPER
+- Generated dossier pages per entity: `/investigation/gallatin-idb/`, `/beretta/`,
+  `/bradford/`, `/archer/`, `/bradley-llp/`, `/city-of-gallatin/`, `/ata-retail/`
+- Draft-gated, so none of it publishes unless a flag is flipped
+
+The old name implied it superseded the live site. It doesn't and probably never will as
+a whole site. The open question is whether this dossier layer gets rebuilt *into* the
+live site, or retired. See `SITE_PLAN.md`.
+
+### `site-archive-v1/`  *(was `abigcloud.com` — renamed 2026-08-17)*
+
+The original single-page site, from when this project was a general data-center deep
+dive and before the Quid-Pro-NO investigation existed. Kept as a record of where the
+work started. Plus four older `index.*` snapshots. Nothing here is deployed.
+
+### `sumner_pilot_tracker_v2/`
+
+The Sumner County PILOT tracker, a data-driven build. Superseded in intent by the
+dossier layer above, not yet retired.
+
+### `idb_comparisons/`, `idb_990_dashboard/`
+
+Single-purpose pages for cycling through IDB data by year and building comparisons.
+Prototypes.
+
+---
+
+## The short version
+
+| Directory | What it is | Live? |
+|---|---|---|
+| `abigcloud/web/` *(project root, not here)* | The site. Prose, topics, investigations. | **Yes** |
+| `www/wiki-prototype/` | The investigation as navigable data. Unfinished. | No |
+| `www/site-archive-v1/` | Where the project started. | No |
+| `www/sumner_pilot_tracker_v2/` | PILOT data tracker. | No |
+| `www/idb_comparisons/`, `www/idb_990_dashboard/` | Prototypes. | No |
+
+One site is deployed. Everything in `www/` is either history or a prototype.

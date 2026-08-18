@@ -119,7 +119,7 @@ Gallatin IDB record itself.
 ## Phases
 
 1. **Migrate current live abigcloud.com verbatim** to the Astro pipeline — current
-   public content only (re-pull from live first; the local `www/abigcloud.com/` copy may
+   public content only (re-pull from live first; the local `www/site-archive-v1/` copy may
    be stale). Proves the pipeline end-to-end at zero stakes. Ships.
 2. **The wiki/dossier buildout** — schema content, IDB dossier first as the locked
    template (template-before-replicate rule), then the 11 entities, tree + graph nav.
@@ -134,7 +134,7 @@ Gallatin IDB record itself.
 
 ## Status
 
-- **Scaffolded 2026-07-06:** `www/abigcloud_v2/` — minimal Astro (Node upgraded 20→22 via
+- **Scaffolded 2026-07-06:** `www/wiki-prototype/` — minimal Astro (Node upgraded 20→22 via
   NodeSource for Astro 5), local git repo on `main`, dev server LAN-bound
   (`npm run dev` → http://192.168.1.6:4321), build verified. Environment fix along the
   way: removed `nosymfollow` from the Documents and Coding mounts (it broke npm's
