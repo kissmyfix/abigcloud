@@ -68,7 +68,7 @@ But for the most part, all of this was happening at once, in the same area, with
 
 Then, more recently, the larger public began taking notice. Admit it, some of y’all got big mad when the outrage finally arrived. However sideways that anger was aimed.
 
-I won’t spend the time here re-hashing [the DC Blox deal](/sources/2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer/)<!-- @c in source links such as this one we need to work out a workflow which renders them on the site under the same look and feel of our overall live site. something like how the items under the "Reference" tab adhere to -->. And honestly I’m a bit biased in where I rank the two stories, but the zoo angle just never sat quite right with me.
+I won’t spend the time here re-hashing [the DC Blox deal](/sources/2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer/). And honestly I’m a bit biased in where I rank the two stories, but the zoo angle just never sat quite right with me.
 
 The whole thing felt manufactured and misplaced. Both sides of it.
 
@@ -119,37 +119,79 @@ The problem was Tennessee's constitution. [Article II, Section 28](/reference/th
 
 So instead of changing the constitution, lawmakers built a workaround. [The Industrial Development Corporations Act](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf) let cities create a separate public board, an [Industrial Development Board](/reference/what-is-an-idb/), or IDB for short.
 
-The IDB owns the industrial property instead of the company. And since the IDB is technically a public entity, [its land is tax-exempt](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-305-tax-exemption-pilot.pdf). No constitutional violation. The board then leases that land back to the company, and instead of property taxes, the company pays the board whatever the two sides negotiate. That negotiated payment is the [PILOT — Payment In Lieu Of Taxes](/reference/what-is-a-pilot/).
+The IDB owns the industrial property instead of the company. And since the IDB is technically a public entity, [its land is tax-exempt](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-305-tax-exemption-pilot.pdf). No constitutional violation. The board then leases that land back to the company, and instead of property taxes, the company pays the board whatever the two sides negotiate. That negotiated payment is the [PILOT, Payment In Lieu Of Taxes](/reference/what-is-a-pilot/).
 
-A structure built in 1955 for factories that employed thousands, now being used to shelter trillion-dollar tech companies that employ <!-- @c add a source link here back to the employment claim -->"up to 100+".
+A structure built in 1955 for factories that employed thousands, now being used to shelter trillion-dollar tech companies that employ ["approximately 100"](/sources/2020-08-12-tnecd-press-release-facebook-gallatin/).
 
 ### The Unicorn
 
-When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement,<!-- @c we need to technically bring in the Project Skillet deal Gallatin had previously lost out on to Huntsville just a year or so prior to Facebook coming back under the Project Woolhak codename. Also, make a not to your memory files here if it doesn't already exist for the Project Skillet reference point and also this: when searching our source files for "Project Woolhawk" mentions we need to remember that it is often referred to as "Project Wool Hawk" in some sources. Notice the one vs two word break there.  --> [wrapped in an NDA](/sources/fenton-on-podcast-full/) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set. <!-- @c somewhere, here maybe? we need to bring in the closest thing to what the actual facebook/Gallatin PILOT terms looked like. If I remember correctly it can be found in one of the gallatin council meeting notes right around the year 2020 -->
+When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement. Gallatin had already courted this company once, under the codename Project Skillet, and watched it go to Huntsville. GEDA's own account is that Project Skillet ["morphed into Project Wool Hawk"](/sources/web_articles/report-gallatin-idb-bates.pdf) - same company, new name, back knocking on the door. When it returned it came [wrapped in an NDA](/sources/fenton-on-podcast-full/) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
 
-But the wall wasn't just secrecy. It was structural. The Gallatin IDB had evolved into something I can only describe as a legal hybrid claiming to be a public agency when it needed tax-exempt status while operating like a private corporation when it needed to avoid transparency.<!-- @c need to link the source evidence here and posibly expand on this paragraph here showing the intent. the most damning example that comes to my mind was found in a council meeting when the City of Gallatin basically said (paraphrasing here is by me) "Oh, That IDB? Yea, they're their own thing and we as a city have no control or say in anything they do" this however directly contradicts everything we've come to learn about what an IDB is and how the statute allowing their formations came to be --> Having it both ways.
+The closest thing to those terms on the public record is [Resolution R2005-24](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/), put before the council on May 12, 2020. Woolhawk, LLC, a Delaware limited liability company, would pay a flat $1,000,000 a year for the first building and less for every building after it, $750,000 for the second, $550,000 by the sixth. Twenty years of abatement on each. Until the first building is finished, the payment is the taxes on the raw land as it was zoned before.
 
-And it was having it both ways in ways that nobody else in Tennessee was. I pulled every PILOT filing I could find through the state comptroller. Woolhawk first appears in the 2021 report, and by 2022 it is listed on ten parcels worth $24,019,345. [Against all of it, the county column reports no payments being made from Meta to the county](/sources/woolhawk-pilot-reporting/). As for what Meta reports making PILOT payments to the city, that column comes to<!-- @c this amount feels off. actually, I'm not too happy with the phrasing of this entire paragraph and we need to discuss some changes here. Pause here and discuss --> $5,539. In the same table, in the same county, SOLON, LLC is listed on $3,527,000 of property, one seventh the value, and reports $6,382 to the county alone. The entire point of a PILOT is that it's a payment. It's in the name.<!-- @c again just restating my own thinking here. the preceeding paragraph here is a hard read and needs reworked -->
+That is what was presented. Whether it is what was signed, nobody outside the deal can say. 
 
-Then I looked at the federal filings. Of the [roughly 400 Industrial Development Boards on file with Tennessee's Secretary of State business entity search portal](/sources/idb-count-method/), Gallatin's is the only one filing with the IRS as a 501(c)(4). Or, put another way, Gallatin is the only IDB in Tennessee who files a federal form 990 with the IRS as a "social welfare" organization.<!-- @c edited the previous sentence, check me on my verbage please --> <!-- @c this next sentence reads a bit inflammatory. Are we sure of our claim saying 501(c)(4) orgs are used by "dark money nonprofits". and if we are, what does that loook like in practice? what seperates a 501(c)(4) org from a 501(c)(3 or 6) org? and when would an accountant choose one over the other two? remember the comparable contrasts here. Gallatin IDB only 501(c)(4) org in our whole story. So, I'd ask what even is a c4 org in other examples, then we have 501(c)(3) orgs such as the Shalom Zone and Gallatin Day Care Centers. are c3 orgs the standard nonprofit designation used? lastly, the c6 orgs such as the handful of other Tennessee IDBs who do file 990s. why are they using 6 while Gallatin uses 4 while other non profits seem to use 3? -->That's the designation used by advocacy groups and dark money nonprofits. [Only eight file a 990 at all](/sources/tn-idb-subsections/), and the other seven split between 501(c)(3) and 501(c)(6). Not a regional quirk. Not a gray area. The only one.
+But the wall wasn't just secrecy. It was structural. The Gallatin IDB had evolved into something I can only describe as a legal hybrid claiming to be a public agency when it needed tax-exempt status while operating like a private corporation when it needed to avoid transparency. Having it both ways.
 
-A tax-exempt entity reporting nothing to its own county<!-- @c I don't believe it would be the IDBs job to report anything to the county here. PILOT payments are self reported to the comptroller via the corporations who have such agreements with IDBs in Tennessee. This would indicate it being metas job to report the monies it pays each to the county and to the city with whome its agreements lie.  --> while filing under a federal tax status that no other IDB in the state uses. That's not a coincidence. That's a choice.
+The city says so itself, in writing, in its own audited books. Buried in the notes of the [2023 annual financial report](/sources/1688-2023-c-gallatin-rpt-cpa811-12-21-23/) is a section called Related Organizations, and it says the city's "accountability for these organizations does not extend beyond making the appointments," that the city "does not provide funding," and that it "cannot impose its will upon the operations" of the IDB.
+
+That IDB? Not ours. We just name the people on it.
+
+Except the statute that let Gallatin create the thing says the opposite. It calls the board "a public instrumentality of such municipality," and that phrase is not decoration. It is the reason the property is tax exempt in the first place.
+
+I pulled every PILOT filing the state comptroller has. Then I pulled the parcel itself.
+
+It's one parcel. About 500 acres.
+
+And Meta doesn't own it. The Industrial Development Board of the City of Gallatin does.
+
+The state says that land and everything standing on it is worth [$519,189,800](/sources/state_of_tennessee/tn_property_assessments/lates-meta-parcel-assessment.pdf). It also says the assessed value is zero.
+
+Both of those are true at the same time, and neither one is a mistake. The board owns the title, so the property is exempt, so there is nothing left to tax.
+
+That's what the name is supposed to cover. Payment In Lieu Of Tax. The property comes off the rolls, and instead of the taxes nobody can collect anymore, the company pays something. That payment is the trade.
+
+Meta paid the city [$1,821,846](/sources/woolhawk-pilot-reporting/) last year.
+
+The county's column on that same form is blank, and it has been blank every year since 2022.
+
+There is half a billion dollars of property sitting in Sumner County and the county has never reported collecting a dollar against it.
+
+Then I looked at the federal filings.
+
+Tennessee has [roughly 400 Industrial Development Boards on file with the Secretary of State](/sources/idb-count-method/). [Eight of them file a 990 at all](/sources/tn-idb-subsections/), and seven of those eight file as a 501(c)(3) or a 501(c)(6).
+
+Gallatin files as a 501(c)(4).
+
+The difference isn't cosmetic. A 501(c)(3) is the standard charity, the one where your donation is deductible and political activity is tightly limited. That's what the Shalom Zone is, and the Gallatin daycare. A 501(c)(6) is a business league, the chamber of commerce category, and it's the obvious fit for a board whose whole job is recruiting industry. That's where the other IDBs sit.
+
+A [501(c)(4) is a social welfare organization](/reference/501c4-vs-instrumentality/). Civic leagues and advocacy groups. It can lobby without limit, it can spend on politics, and it never has to say who paid for any of it. That last part is why the category turns up in every story ever written about dark money.
+
+Not a regional quirk. Not a gray area. The only one.
+
+A board holding half a billion dollars of exempt property for a company that reports paying the county nothing, while filing under a federal tax status no other IDB in the state uses. That's not a coincidence. That's a choice.
 
 ### The First Filing
 
-The choice to file with the IRS at all appears to have been forced. The Gallatin IDB was [chartered in 1994, administratively dissolved in 2012, then reinstated in early 2013](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf) when companies<!-- @c i don't want to delve too deeply into the Beretta or Bradford deals here, but lets pin them for potential later angles or article pieces as they are importanat. also, lets at the very least find a weblink we can attach here which summarizes the berretta deal at the very least. we do have lots of content for each within our source files already --> like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 there are no public federal filings.<!-- @c although we may not have federal filings from these years, we do have the comptroller reported payments which expand on the suspicious way the Gallatin IDB seems to have always operated under. Things like Bradford's payments always and only being reported as "RENT"(which would in turn have ment every single one of their payments NEVER experienced oversight or scrutinty) and that Beretta in fact never reported a single payment EVER should lead us and our readers to a safe assumption that Gallatin has long held a different policy mindset when it comes to their PILOT negotiation tactics. Our article hinges on the idea that it was most likely Meta themselves and by extension their attornies who disapproved of Gallatin's off-book handling and the legalities behind their methods forcing Gallatin to reexamine its practices if they wanted to land Facebook this time(remember Project Skillet was lost). this is also where several things which support this theory all converge. The SB708, the land grap, the UT president change, the original 990 filing, Preston Stark's placement on both the IDB and Shalom boardlist among others -->
+The choice to file with the IRS at all appears to have been forced. The Gallatin IDB was [chartered in 1994, administratively dissolved in 2012, then reinstated in early 2013](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf) when companies like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 there are no public federal filings.
 
-<!-- @c ok, I now see we do touch on some of my previous comment, but i'm leaving it as added context -->Then Meta shows up. And Meta's lawyers, being the lawyers of a trillion-dollar corporation, presumably have expectations about doing business with a counterparty that exists on paper. My working theory <!-- @c remember to kill all emdashes -->— supported by the timeline — is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal. They may have even learned that lesson the hard way in 2017, when Gallatin lost the earlier iteration of this deal — Project Skillet —<!-- @c emdashes are evil --> to Alabama.
+That doesn't mean there's nothing to look at. The state's PILOT reporting covers those years, and it shows a board that has always done this its own way.
 
-So they filed. But they couldn't file honestly, because an honest filing would mean explaining twenty-six years of unreported activity. So [the first 990](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf), signed on November 14, 2021 by Preston Stark, is marked as an "initial return" — the box a body checks the first year it exists. On the same form, the year opens with $102,948 already in the bank. A quarter century of history erased with a checkbox, and the money from those years still sitting there.
+[Bradford](/sources/woolhawk-pilot-reporting/) has been on the Gallatin IDB's books since 2016. Every year it files, it reports its payments in the column marked RENT. The PILOT columns, city and county both, sit empty. Rent isn't a payment in lieu of tax. It doesn't get looked at the way a PILOT gets looked at.
 
-And the filing itself is a mess. [Part III](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf) lists "Fees in lieu of taxes paid to Sumner County Tennessee $17,474.00 Beretta $39,919.00, and Bradford $13,155.00" — the tenants making PILOT payments in, written up as beneficiaries who received money out. Schedule O, in the same document with the same signature, tells a completely different story: $69,549 to "Summer County" (their typo, not mine — it's Sumner). Part III adds to $70,548. Schedule O says $69,549. The two sections disagree by exactly $999, disagree on recipients entirely, and disagree on the direction the money flowed.
+[Beretta](/sources/2014-01-29-tnecd-beretta-gallatin-manufacturing-announcement/) is stranger. The state announced it in January 2014, $45 million and 300 jobs in the Gallatin Industrial Park. It shows up in the county's PILOT reporting exactly twice, in 2015 and 2016, and the 2016 payment field reads NO INFO. After that it stops appearing at all. Not a reduced payment. Not a disputed one. It never reported paying anything, and then it stopped being asked.
+
+Then Meta shows up. And Meta's lawyers, being the lawyers of a trillion-dollar corporation, presumably have expectations about doing business with a counterparty that exists on paper. My working theory, supported by the timeline, is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal. They may have even learned that lesson the hard way in 2017, when Gallatin lost the earlier iteration of this deal, Project Skillet, to Alabama.
+
+So they filed. But they couldn't file honestly, because an honest filing would mean explaining twenty-six years of unreported activity. So [the first 990](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf), signed on November 14, 2021 by Preston Stark, is marked as an "initial return", the box a body checks the first year it exists. On the same form, the year opens with $102,948 already in the bank. A quarter century of history erased with a checkbox, and the money from those years still sitting there.
+
+And the filing itself is a mess. [Part III](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf) lists "Fees in lieu of taxes paid to Sumner County Tennessee $17,474.00 Beretta $39,919.00, and Bradford $13,155.00", the tenants making PILOT payments in, written up as beneficiaries who received money out. Schedule O, in the same document with the same signature, tells a completely different story: $69,549 to "Summer County" (their typo, not mine, it's Sumner). Part III adds to $70,548. Schedule O says $69,549. The two sections disagree by exactly $999, disagree on recipients entirely, and disagree on the direction the money flowed.
 
 That's not an accounting error. That's someone filling in a form about activity they can't document because it was never meant to be documented.
 
 ### The Confession That Doesn't Know It's Confessing
 
-If you Google how PILOTs and IDBs work in Tennessee, one of the first things you'll find is a capstone project by a woman named Lilibeth Leon. It's polished. It looks academic. And its author was an employee of the Gallatin Economic Development Agency — working directly under the man who negotiated the Meta deal.
+If you Google how PILOTs and IDBs work in Tennessee, one of the first things you'll find is a capstone project by a woman named Lilibeth Leon. It's polished. It looks academic. And its author was an employee of the Gallatin Economic Development Agency, working directly under the man who negotiated the Meta deal.
 
 Leon's report is remarkable because she lays out the entire playbook and frames it as good governance. Some highlights:
 
@@ -163,11 +205,11 @@ She wrote a confession and turned it in for a grade.
 
 ### The Operator
 
-The man behind all of it is James Fenton, who served roughly twelve years as Executive Director of the Gallatin Economic Development Agency. Before Gallatin, six years doing economic development in Cheatham County. He signed the NDA for Project Skillet in 2017. And in July 2018 — two months after Woolhawk negotiations began — he moved the IDB's registered agent from the City Attorney's office to his own agency.
+The man behind all of it is James Fenton, who served roughly twelve years as Executive Director of the Gallatin Economic Development Agency. Before Gallatin, six years doing economic development in Cheatham County. He signed the NDA for Project Skillet in 2017. And in July 2018, two months after Woolhawk negotiations began, he moved the IDB's registered agent from the City Attorney's office to his own agency.
 
 Read that again. The person negotiating the deal moved legal oversight of the deal away from the independent city attorney and into his own shop. At the exact moment it mattered most.
 
-Fenton did a victory-lap podcast interview with a local Republican group where he narrated the whole saga like a war story — assembling 800 acres from private owners, maneuvering around a university president who tried to say no (that president was replaced by Tennessee's former Economic Development Commissioner, who said yes), calling in a state senator and mayors to resolve a utility dispute three weeks before announcement.
+Fenton did a victory-lap podcast interview with a local Republican group where he narrated the whole saga like a war story, assembling 800 acres from private owners, maneuvering around a university president who tried to say no (that president was replaced by Tennessee's former Economic Development Commissioner, who said yes), calling in a state senator and mayors to resolve a utility dispute three weeks before announcement.
 
 In the entire interview, he never says Woolhawk. Never says PILOT. Never says abatement. Never says IDB. And he closes with: "We didn't give them anything. They paid for everything."
 
@@ -175,13 +217,13 @@ Every word technically true. Every word designed to obscure what actually happen
 
 ### The Shadow and the Stage
 
-You might wonder where public accountability enters this picture. After all, Tennessee law requires IDBs to hold public meetings, post agendas, and keep minutes. If you go to gallatintn.gov, you'll find a well-designed, modern government website. Every department, every agency, every board — meetings, minutes, contacts, all of it.
+You might wonder where public accountability enters this picture. After all, Tennessee law requires IDBs to hold public meetings, post agendas, and keep minutes. If you go to gallatintn.gov, you'll find a well-designed, modern government website. Every department, every agency, every board, meetings, minutes, contacts, all of it.
 
 Except one.
 
 Click "Economic Development" in the sidebar and you land on GEDA's polished external website. That's the stage. But GEDA isn't the entity signing PILOT agreements. GEDA isn't the tax-exempt body that technically owns the land. That's the IDB. And to find the IDB, you have to go back, click "Boards & Commissions," and scroll to a listing that gives you nothing but a list of names and term expiration dates. No meeting minutes. No agendas. No records of the deals they've approved. Nothing.
 
-The IDB — the entity making multi-million dollar, multi-decade financial commitments on behalf of an entire city — is a ghost on its own government's website.
+The IDB, the entity making multi-million dollar, multi-decade financial commitments on behalf of an entire city, is a ghost on its own government's website.
 
 Oh, and one detail I love: every other board on that site lists its own standalone meeting time. The IDB doesn't. It shares its Monday 4:30 PM slot with one other board. Same time. Same room. Same list of members. Two names for the same group of people, depending on which hat they need that minute.
 
@@ -189,11 +231,11 @@ Oh, and one detail I love: every other board on that site lists its own standalo
 
 Follow the 990 filings from 2020 to 2024 and you watch a story unfold in numbers.
 
-2020 — the fabricated origin. $100K in revenue, contradictory figures, tenants listed as beneficiaries. 2021 — the first real filing. $145K in revenue. Biggest expense: $107K in property taxes. A tax-exempt entity whose largest line item is the thing it exists to not pay. No audit. The board admits it doesn't review the 990 before filing. 2022 — revenue doubles to $334K. The mission statement gets rewritten but they check "No" on significant changes. An independent audit is suddenly claimed. The first school payment appears: $74K. 2023 — the Woolhawk money arrives. Revenue explodes to $1.8 million. School payment jumps to $901K. But net assets balloon from $187K to $904K. The board is hoarding.
+2020, the fabricated origin. $100K in revenue, contradictory figures, tenants listed as beneficiaries. 2021, the first real filing. $145K in revenue. Biggest expense: $107K in property taxes. A tax-exempt entity whose largest line item is the thing it exists to not pay. No audit. The board admits it doesn't review the 990 before filing. 2022, revenue doubles to $334K. The mission statement gets rewritten but they check "No" on significant changes. An independent audit is suddenly claimed. The first school payment appears: $74K. 2023, the Woolhawk money arrives. Revenue explodes to $1.8 million. School payment jumps to $901K. But net assets balloon from $187K to $904K. The board is hoarding.
 
-Then 2024. Revenue hits $2.2 million. Expenses hit $3 million. The IDB dumps $2.29 million in a single line item called "PILOT fees distributed" — and names no recipient. School payment drops $260K from the prior year with no explanation. New line items appear from nowhere: $45,000 in consulting fees and $12,000 in management fees, both to unnamed parties. Net assets collapse from $904K to $148K. And the filing is signed in August — months ahead of the November pattern established every prior year.
+Then 2024. Revenue hits $2.2 million. Expenses hit $3 million. The IDB dumps $2.29 million in a single line item called "PILOT fees distributed" and names no recipient. School payment drops $260K from the prior year with no explanation. New line items appear from nowhere: $45,000 in consulting fees and $12,000 in management fees, both to unnamed parties. Net assets collapse from $904K to $148K. And the filing is signed in August, months ahead of the November pattern established every prior year.
 
-They accumulated. They hoarded. And then they flushed it — to people and entities they won't name on a federal form.
+They accumulated. They hoarded. And then they flushed it, to people and entities they won't name on a federal form.
 
 ### The Same Dollars, Three Stories
 
@@ -201,7 +243,7 @@ One last detail before I leave you to sit with all of this.
 
 When Meta's deal was first announced, the press release touted "$1.4M+ in direct funding to Sumner County area schools and nonprofits." Great headline. Generous company.
 
-The 2023 IDB filing shows $901K to Sumner County Schools. The 2024 filing shows $640K. That's $1.54 million — close enough to the $1.4 million promise to call it fulfilled.
+The 2023 IDB filing shows $901K to Sumner County Schools. The 2024 filing shows $640K. That's $1.54 million, close enough to the $1.4 million promise to call it fulfilled.
 
 But those aren't donations. That's PILOT money flowing through the structure. Money Meta owes under the agreement. The IDB's legally required distribution to schools repackaged in a press release as corporate philanthropy. The same dollars counted once as a statutory obligation and again as a generous gift.
 
@@ -209,7 +251,7 @@ The community heard generosity. Leon's report called it compliance. The IRS fili
 
 ---
 
-Part 2 will follow the money upward — through the state mechanisms that are supposed to catch exactly this, and into the federal structures that make it possible. The Gallatin IDB isn't just a local story. It's a case study in what happens when every safeguard fails at once.
+Part 2 will follow the money upward, through the state mechanisms that are supposed to catch exactly this, and into the federal structures that make it possible. The Gallatin IDB isn't just a local story. It's a case study in what happens when every safeguard fails at once.
 
 Or maybe, when they're designed to.
 
@@ -217,7 +259,7 @@ Or maybe, when they're designed to.
 
 The messy 2020 IRS filing wasn’t just a localized scramble to satisfy Meta’s corporate lawyers. It was the bottom end of a pipeline that had been meticulously greased at the state capitol just one year prior.
 
-Remember the 1955 workaround? It protected real estate — the land and the bricks. But a data center isn't a traditional factory. The value isn’t in the concrete shell; it is in the multi-billion-dollar matrix of servers, cooling infrastructure, and supercomputers inside. Under the old rules, leasing that hyper-expensive personal tech hardware still carried massive property tax risks.
+Remember the 1955 workaround? It protected real estate, the land and the bricks. But a data center isn't a traditional factory. The value isn’t in the concrete shell; it is in the multi-billion-dollar matrix of servers, cooling infrastructure, and supercomputers inside. Under the old rules, leasing that hyper-expensive personal tech hardware still carried massive property tax risks.
 
 Enter Senate Bill 708, quietly passed by the Tennessee General Assembly on April 18, 2019, and signed by Governor Bill Lee.
 
@@ -232,11 +274,11 @@ The timing is not a coincidence. State lawmakers actively sharpened a 64-year-ol
 
 When the Gallatin IDB finally checked that "initial return" box on its first 990 in late 2021 to legitimize itself for Meta, a new name appeared on the paperwork: Preston Stark.
 
-Stark wasn’t an elected city councilman. He was installed as the IDB's Board Administrative Manager — the gatekeeper of the records, the agendas, and the tax-abatement paperwork.
+Stark wasn’t an elected city councilman. He was installed as the IDB's Board Administrative Manager, the gatekeeper of the records, the agendas, and the tax-abatement paperwork.
 
 But as it turns out, 2020 was a busy year for Stark's ledger-keeping.
 
-At the exact same time he took the reins of the IDB's brand-new federal tax trail, Stark's name quietly appeared on the board roster of a local, grassroots non-profit: The Gallatin Shalom Zone. His title? Treasurer. His subtitle on their directory? "City of Gallatin" — a direct contradiction to the city's loud legal insistence that the IDB has "no government standing."
+At the exact same time he took the reins of the IDB's brand-new federal tax trail, Stark's name quietly appeared on the board roster of a local, grassroots non-profit: The Gallatin Shalom Zone. His title? Treasurer. His subtitle on their directory? "City of Gallatin", a direct contradiction to the city's loud legal insistence that the IDB has "no government standing."
 
 Suddenly, the non-profit's financial books caught fire.
 

@@ -57,6 +57,7 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 | `files/bin/` | Every project script — PDF extraction and profiling, whisper transcription, Comptroller CSV builders and verifiers, the parcel-assessment parser. Run with `files/venv/bin/python`. |
 | `.claude/agents/` | Subagent definitions. `archive-researcher.md` sweeps large `derived/` documents and returns line-anchored quotes, keeping the raw text out of the main conversation. |
 | `memory/` | Working memory. **Gitignored — private.** `MEMORY.md` (theories/findings), `master-reference-w5h.md`, `PINBOARD.md`, `TIMELINE.md` (two-lane evidence timeline), `UNICORN.md`, `brandon-schema.md`, `site-data-salvage/`. |
+| `memory/brandon-voice-notes.md` | Every `@c` annotation Brandon wrote into the draft, verbatim, resolved and open alike. Voice reference and his reasoning in his own words. Never cleaned up; a note deleted from the draft stays here. |
 | `memory/site-data-salvage/` | Rescued from the deleted prototype: `records.ts` (27 entity records), `events.json` (42 timeline events), `SITE_PLAN-archived.md` (the wiki design). Compiled artifacts, not sources. |
 | `angles/` | Article raw material: theory narratives, framings, rebuttals in reserve, the citation worklist. **Gitignored** — pre-publication strategy, withheld pending the AI-disclosure rewrite. |
 | `monologues/` | Brandon's pen: personal writing, old drafts, voice reference. **Nothing reads from it.** Not part of any pipeline. **Gitignored.** Do not edit unless directed there. |
