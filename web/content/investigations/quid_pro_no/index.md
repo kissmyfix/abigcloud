@@ -5,7 +5,7 @@ draft: false
 pubDate: '2026-08-17'
 ---
 
-# Quid-Pro-NO!
+# **Quid-Pro-*NO!***
 
 ## How every level of government has failed Tennesseans and the steps elected leaders took to keep those failures hidden
 
