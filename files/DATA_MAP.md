@@ -1,5 +1,8 @@
 # DATA_MAP.md
-## Project directory index — abigcloud.com / Quid-Pro-NO
+## Project directory index — abigcloud.com
+
+*abigcloud.com covers data centers broadly, focused on Middle Tennessee. Quid-Pro-NO
+(Meta / Gallatin / the IDB) is one deep dive hosted on it, not the site's purpose.*
 
 *Rewritten 2026-08-17 against the tree as it actually exists. The previous version
 described `www/`, five site codebases, and a repo named `quid-pro-no`. None of that is
