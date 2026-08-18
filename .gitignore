@@ -36,3 +36,13 @@ CLAUDE.md
 files/voice-and-method-web.md
 files/ai-toolchain-changelog.md
 angles/
+
+# --- Scratch and editor droppings. These regrow; keep them out for good. ---
+tmp/
+*.bak
+*.whoops
+*.orig
+*.old
+*~
+*.swp
+*.astro.index
