@@ -20,11 +20,16 @@ Where a document was captured from a page that has since changed or gone behind 
   <span class="src-meta">Tennessee Code Annotated · `tca-7-53-302-corporate-powers.pdf`</span>
 - [T.C.A. § 7-53-305 — Tax exemption and payments in lieu of taxes](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-305-tax-exemption-pilot.pdf)  
   <span class="src-meta">Tennessee Code Annotated · `tca-7-53-305-tax-exemption-pilot.pdf`</span>
+- [idb-count-method.md](/sources/state_of_tennessee/tn_sos_filings/derived/idb-count-method.md)
 
 ## County and city records
 
 - [Meta's Gallatin Data Center (company fact sheet)](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf)  
   <span class="src-meta">Meta · `metas-gallatin-data-center.pdf`</span>
+
+## Federal filings
+
+- [tn-idb-subsections.md](/sources/usa_federal/irs_990_data/derived/tn-idb-subsections.md)
 
 ## News coverage
 
