@@ -7,7 +7,7 @@ pubDate: '2026-08-17'
 
 # Quid-Pro-NO!
 
-## How every level of government has failed Tennesseans and the steps our leaders took to keep those failures hidden
+## How every level of government has failed Tennesseans and the steps elected leaders took to keep those failures hidden
 
 ---
 
@@ -30,13 +30,12 @@ What if for the first time ever crazy internet guy delivers on his click-bait he
 And just…. presents the facts as he understands them…
 
 How many times have we been told some politician or agency did something shady? How many of us have felt that flash of outrage, and then... nothing? No follow-up. No conclusion. Just the next headline pushing the last one out of the public conversation?
-
-Have we not become conditioned to a predictable pattern by now? Something similar to:
-
-1. Accusation gets made
-2. Outrage ensues
-3. Silence. Deafening silence.
-4. Profit?
+<!-- @c I'm adding this comment just so I remember why I did the below and what I want to ask claude later... I did this in order for our css on the live site to place the below into our callout box design. 1, did I do this correctly, and second, is there anyway we can work the live site's look and feel into our livemd server we've made? Right now, the only way I have to see the end result is to commit and push to GitHub which feels less than optimal to the workflow we've established. -->
+> ### Have we not become conditioned to a predictable pattern by now? Something similar to:
+> 1. Accusation gets made
+> 2. Outrage ensues
+> 3. Silence. Deafening silence.
+> 4. Profit?
 
 If you're anything like me you've probably stopped expecting anything to actually come of anything ever. I know I have. That's exactly why this story exists. It's why it lives here and why I'm not handing what I'm about to present to a newsroom or an institution. I'm hosting it here. For real people. Because I think the reason these things never reach a conclusion is that they always end up in the hands of someone with a reason to let them die quietly.
 
