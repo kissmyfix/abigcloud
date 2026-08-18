@@ -84,8 +84,14 @@ if (!ARTICLES.length) {
 /** Reference explainers that already exist as pages on this site. */
 const REFERENCE_PAGES = new Set(['what-is-an-idb', 'what-is-a-pilot', 'the-title-transfer-mechanism', '501c4-vs-instrumentality']);
 
-const LINK_RE = /\[([^\]]*)\]\((\.\.\/[^)\s]+)\)/g;
-const IMG_RE = /!\[([^\]]*)\]\((\.\.\/[^)\s]+)\)/g;
+// A citation can be written two ways:
+//   @/web_articles/foo.txt   -- from the research archive root. Works in ANY file,
+//                               including site pages under content/. Preferred.
+//   ../web_articles/foo.txt  -- filesystem-relative, only meaningful in a draft under
+//                               monologues/, where it is clickable in Brandon's editor.
+const LINK_RE = /\[([^\]]*)\]\(((?:\.\.|@)\/[^)\s]+)\)/g;
+const IMG_RE = /!\[([^\]]*)\]\(((?:\.\.|@)\/[^)\s]+)\)/g;
+const stripPrefix = (target) => target.replace(/^(?:\.\.|@)\//, '');
 
 let copied = 0;
 let optimised = 0;
@@ -120,7 +126,7 @@ function rewrite(md) {
 	// it sits beside the page and goes through Astro's optimiser like every other
 	// image on the site — otherwise an 841KB PNG lands at the top of the article.
 	md = md.replace(IMG_RE, (whole, alt, target) => {
-		const rel = target.replace(/^\.\.\//, '');
+		const rel = stripPrefix(target);
 		if (rel.startsWith('visualizations/')) {
 			const abs = resolve(RESEARCH, rel);
 			if (!existsSync(abs)) {
@@ -143,7 +149,7 @@ function rewrite(md) {
 
 	md = md.replace(LINK_RE, (whole, text, target) => {
 		if (whole.startsWith('!')) return whole;             // already handled
-		const rel = target.replace(/^\.\.\//, '');
+		const rel = stripPrefix(target);
 
 		// reference explainer that lives on this site as its own page
 		const m = rel.match(/^reference\/([^/]+)\.md$/);
@@ -197,6 +203,40 @@ for (const article of ARTICLES) {
 	console.log(`published: ${article.name} -> ${relative(WEB, article.dest)}`);
 }
 
+/* ---- site pages -------------------------------------------------------- */
+/* Drafts are not the only thing that cites documents. An About page, an explainer,
+   a topic page may all want to point at the archive. Any page written with @/ gets
+   the same treatment: document copied in, link rewritten. Pages with no citations
+   are left untouched. */
+
+function rewriteSitePages(dir) {
+	for (const name of readdirSync(dir, { withFileTypes: true })) {
+		const full = join(dir, name.name);
+		if (name.isDirectory()) { rewriteSitePages(full); continue; }
+		if (!name.name.endsWith('.md')) continue;
+		if (full === generatedSourceIndex) continue;      // regenerated below anyway
+		const before = readFileSync(full, 'utf8');
+		if (!/\]\(@\//.test(before)) continue;             // nothing to do
+		currentDest = full;
+		const after = rewrite(before);
+		if (after !== before) {
+			writeFileSync(full, after, 'utf8');
+			console.log(`citations rewritten: ${relative(WEB, full)}`);
+		}
+	}
+}
+
+const generatedSourceIndex = join(WEB, 'content', 'sources', 'index.md');
+rewriteSitePages(join(WEB, 'content'));
+{
+	const home = join(WEB, 'index.md');
+	if (existsSync(home) && /\]\(@\//.test(readFileSync(home, 'utf8'))) {
+		currentDest = home;
+		writeFileSync(home, rewrite(readFileSync(home, 'utf8')), 'utf8');
+		console.log('citations rewritten: index.md');
+	}
+}
+
 /* ---- source index page -------------------------------------------------- */
 /* Every document the article cites, listed on one page, so a reader can browse
    the evidence without hunting through the prose for links. */
@@ -243,8 +283,28 @@ function prettify(relPath) {
 	return null;
 }
 
-const cited = [...new Set(rewrites.map(([from]) => from.replace(/^\.\.\//, '')))]
-	.filter((p) => !p.startsWith('reference/') && !p.startsWith('/') && !p.startsWith('http') && !p.startsWith('visualizations/'));
+/* The index must reflect what the site actually links, not what this run happened to
+   rewrite. A page whose @/ links were converted on an earlier run contains no @/ any
+   more, so its citations would silently drop out. Scan the built content for
+   /sources/ links instead, and union that with this run's rewrites. */
+function linkedSources(dir, found = new Set()) {
+	for (const e of readdirSync(dir, { withFileTypes: true })) {
+		const full = join(dir, e.name);
+		if (e.isDirectory()) { linkedSources(full, found); continue; }
+		if (!e.name.endsWith('.md')) continue;
+		if (full === generatedSourceIndex) continue;   // it lists them all; reading it
+		                                               // back would make the index immortal
+		for (const m of readFileSync(full, 'utf8').matchAll(/\]\(\/sources\/([^)\s#]+)\)/g)) {
+			found.add(decodeURIComponent(m[1]));
+		}
+	}
+	return found;
+}
+
+const cited = [...new Set([
+	...rewrites.map(([from]) => stripPrefix(from)),
+	...linkedSources(join(WEB, 'content')),
+])].filter((p) => !p.startsWith('reference/') && !p.startsWith('/') && !p.startsWith('http') && !p.startsWith('visualizations/'));
 
 const byGroup = {};
 for (const p of cited.sort()) {
