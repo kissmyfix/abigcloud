@@ -123,7 +123,7 @@ But the wall wasn't just secrecy. It was structural. The Gallatin IDB had evolve
 
 And it was having it both ways in ways that nobody else in Tennessee was. I pulled every PILOT filing I could find through the state comptroller. The Gallatin IDB was reporting $0 in payments to the county, year after year. The entire point of a PILOT is that it's a payment. It's in the name. But the reports showed nothing.
 
-Then I looked at the federal filings. Of the [423 Industrial Development Boards in Tennessee](/sources/state_of_tennessee/tn_sos_filings/derived/idb-count-method.md), Gallatin's is the only one filing with the IRS as a 501(c)(4) — a "social welfare" organization. That's the designation used by advocacy groups and dark money nonprofits. [Only eight file a 990 at all](/sources/usa_federal/irs_990_data/derived/tn-idb-subsections.md), and the other seven split between 501(c)(3) and 501(c)(6). Not a regional quirk. Not a gray area. The only one.
+Then I looked at the federal filings. Of the [roughly 400 Industrial Development Boards on file with Tennessee's Secretary of State business entity search portal](/sources/state_of_tennessee/tn_sos_filings/derived/idb-count-method.md), Gallatin's is the only one filing with the IRS as a 501(c)(4) — a "social welfare" organization. That's the designation used by advocacy groups and dark money nonprofits. [Only eight file a 990 at all](/sources/usa_federal/irs_990_data/derived/tn-idb-subsections.md), and the other seven split between 501(c)(3) and 501(c)(6). Not a regional quirk. Not a gray area. The only one.
 
 A tax-exempt entity reporting zero payments to its own county while filing under a federal tax status that no other IDB in the state uses. That's not a coincidence. That's a choice.
 

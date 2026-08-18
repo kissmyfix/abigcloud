@@ -1,6 +1,8 @@
 # How many Industrial Development Boards are there in Tennessee?
 
-**423**, by the count described below. Recorded 2026-08-17.
+**Roughly 400** — 423 by the count described below, stated as "roughly 400" in the article
+because the register is a moving target and the argument does not turn on the exact figure.
+Recorded 2026-08-17.
 
 ## There is no official number
 
@@ -26,6 +28,9 @@ named. Real examples from the IRS filer list alone show four different construct
 - `Industrial Development Board` *(Mc Kenzie, no place name at all)*
 
 Counting the union of those variations gives **423** registered entities.
+
+The article says "roughly 400" rather than 423, because the register changes as entities
+are formed and dissolved, and because the point does not depend on the precise number.
 
 ## What the number is and is not
 
