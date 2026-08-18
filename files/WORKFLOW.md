@@ -17,7 +17,7 @@ nothing to keep alive.
 
 ## Editing: mdlive
 
-    files/venv/bin/python files/bin/mdlive.py monologues/quid-pro-no.md 8080
+    files/venv/bin/python files/bin/mdlive.py web/content/investigations/quid_pro_no/index.md 8080
 
 Then open **http://localhost:8080**. Source left, rendered preview right, saves as he types.
 
@@ -79,65 +79,45 @@ documents go, because a PDF must be served byte-for-byte.
 
     cd web && npm run publish && git push
 
-`npm run publish` is `node scripts/build-article.mjs && astro build`.
+`npm run publish` is `node scripts/build-citations.mjs && astro build`.
 
-### `scripts/build-article.mjs`, in order
+### `scripts/build-citations.mjs`
 
-1. **Finds drafts.** Scans `monologues/` for any `.md` containing a `<!-- publish -->`
-   block. Filenames are fluid; nothing is hard-coded.
+Every page is edited directly under `content/`. Nothing is generated from a draft, so the
+script has exactly one job: make citations work.
 
-       <!-- publish
-            to: investigations/quid_pro_no
-            title: Quid-Pro-NO!
-            description: ...
-            date: 2026-08-17
-            draft: false
-       -->
-
-   `to:` is the path under `content/`, so it becomes the URL.
-
-2. **Rewrites citations.** `@/web_articles/foo.txt` means "from the research archive
-   root". The script copies that document into `web/public/sources/` and rewrites the link
-   to `/sources/web_articles/foo.txt`. Works in a draft **and in any site page**.
-   `../foo.txt` also works inside `monologues/`, where it is clickable in mdlive.
-
-3. **Handles images by kind.** A screenshot of a filing is evidence and is copied
-   byte-for-byte. A decorative image goes through Astro's optimiser instead — that is the
-   difference between an 841KB PNG and a 57KB WebP at the top of the article.
-
-4. **Strips `@c` notes** so unresolved author notes cannot ship.
-
-5. **Rebuilds `/sources/`** by scanning what the site actually links, not what this run
-   rewrote. This matters: the `@/` rewrite is one-way, so a page converted on an earlier
-   run has no `@/` left in it.
-
-6. **Exits non-zero if a cited document is missing**, so a broken citation cannot ship
+1. **Resolves `@/` citations** on every page under `content/` and on the homepage.
+   `@/web_articles/foo.txt` means "from the research archive root". The document is copied
+   into `web/public/sources/` and the link rewritten to `/sources/web_articles/foo.txt`.
+2. **Handles images by kind.** A screenshot of a filing is evidence and is copied
+   byte-for-byte. A decorative image goes through Astro's optimiser instead — the
+   difference between an 841KB PNG and a 57KB WebP at the top of an article.
+3. **Strips `@c` notes** so unresolved author notes cannot ship.
+4. **Rebuilds `/sources/`** by scanning what the site actually links, not what this run
+   rewrote. The `@/` rewrite is one-way, so a page converted on an earlier run has no `@/`
+   left in it. The generated index is excluded from its own scan, or entries would become
+   immortal.
+5. **Exits non-zero if a cited document is missing**, so a broken citation cannot ship
    silently.
 
 ### Then `git push`
 
-`.github/workflows/deploy.yml` runs on every push to `main`: checks out only
-`web` (sparse checkout, so the archive is not downloaded), runs `npm ci` and
-`npm run build`, and publishes `dist/` to GitHub Pages. The custom domain comes from
-`web/public/CNAME`. Takes about a minute.
+`.github/workflows/deploy.yml` runs on every push to `main`: checks out only `web`
+(sparse checkout, so the archive is not downloaded), runs `npm ci` and `npm run build`,
+and publishes `dist/` to GitHub Pages. The custom domain comes from `web/public/CNAME`.
+Takes about a minute.
 
----
-
-## Editing a site page rather than the article
-
-Same command, **different source of truth** — this is the one real trap:
+### Where each page lives
 
 | Page | Edit this |
 |---|---|
-| The article | `monologues/quid-pro-no.md` (the draft) |
-| About, FAQ, TVA, a topic page | `web/content/<path>.md` directly |
+| The article | `web/content/investigations/quid_pro_no/index.md` |
+| About, FAQ, TVA, a topic page | `web/content/<path>.md` |
 | Homepage | `web/index.md` |
 
-**Anything under a draft's `to:` path is regenerated on every publish.** Hand-editing
-`content/investigations/quid_pro_no/index.md` will be silently overwritten. Edit the
-draft.
-
----
+`monologues/` is Brandon's pen — personal writing, old drafts, voice reference. **Nothing
+reads from it.** A draft pipeline that published from there was removed 2026-08-17: one
+directory cannot be both the source you edit and the output that overwrites you.
 
 ## When something breaks
 

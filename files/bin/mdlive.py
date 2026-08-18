@@ -31,9 +31,20 @@ preview, so rendering needs a network connection; editing and saving do not.
 """
 import http.server, socketserver, os, sys, json, urllib.parse, mimetypes, tempfile
 
-MD   = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else "final.md")
+MD   = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else "README.md")
 PORT = int(sys.argv[2]) if len(sys.argv) > 2 else 8080
-ROOT = os.path.dirname(os.path.dirname(MD))
+
+def _find_root(start):
+    """The project root is where .git lives. Inferring it from the opened file's
+    depth broke the moment a file moved; this does not."""
+    d = os.path.dirname(start)
+    while d != "/":
+        if os.path.isdir(os.path.join(d, ".git")):
+            return d
+        d = os.path.dirname(d)
+    return os.path.dirname(os.path.dirname(start))
+
+ROOT = _find_root(MD)
 
 SKIP = {".git", "node_modules", "dist", ".astro", "venv", "__pycache__",
         ".remember", "derived", "saved_sites"}

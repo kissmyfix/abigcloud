@@ -10,8 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "publish": "node scripts/build-article.mjs && astro build",
-    "watch": "node scripts/watch-article.mjs & astro dev --host"
+    "publish": "node scripts/build-citations.mjs && astro build",
+    "watch": "node scripts/watch-content.mjs & astro dev --host"
   },
   "dependencies": {
     "@astrojs/mdx": "^7.0.5",

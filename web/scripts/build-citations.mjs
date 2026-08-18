@@ -1,21 +1,27 @@
 #!/usr/bin/env node
 /**
- * build-article.mjs — publish a draft from the research tree onto the site.
+ * build-citations.mjs — resolve archive citations and rebuild the source index.
  *
- * The draft in the research tree uses filesystem-relative links, e.g.
- *   [$1.1 billion overhaul](../web_articles/2013-04-07-timesfreepress-....txt)
- * so Brandon can click them in his local editor. Those paths mean nothing to a
- * visitor. This script is the bridge: it copies every cited document into
- * web/public/sources/ and rewrites the link to a public URL, so a reader who
- * clicks a citation lands on the actual document without leaving the site.
+ * Every page on this site is edited directly under content/. There are no drafts and
+ * no generated pages; what you edit is what ships. This script does one job: it turns
+ * citations into working links.
  *
- * Two rules:
- *   ../reference/foo.md  -> /reference/foo/   (a page that already exists here)
- *   ../anything/else.pdf -> /sources/anything/else.pdf  (copied in)
+ * Write a citation as @/ followed by a path in the research archive:
  *
- * Absolute URLs pass through untouched.
+ *     [the 2013 Times Free Press piece](@/web_articles/2013-04-07-timesfreepress-....txt)
  *
- * Usage: node scripts/build-article.mjs
+ * On publish, the document is copied into public/sources/, the link is rewritten to
+ * /sources/..., and the page is listed at /sources/. The rewrite is one-way and edits
+ * the page in place, which is why the index is rebuilt by scanning what the site
+ * actually links rather than what this run happened to change.
+ *
+ * Decorative images (visualizations/) are routed through Astro's optimiser instead of
+ * being copied raw. Evidence images are copied byte-for-byte, because a screenshot of
+ * a filing has to be the actual file.
+ *
+ * Exits non-zero if a citation points at a document that does not exist.
+ *
+ * Usage: node scripts/build-citations.mjs      (npm run publish runs it, then builds)
  */
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join, resolve, relative } from 'node:path';
@@ -26,69 +32,13 @@ const WEB = resolve(HERE, '..');
 const RESEARCH = resolve(WEB, '..');            // ~/Documents/data_center_research
 const PUBLIC_SOURCES = join(WEB, 'public', 'sources');
 
-/**
- * Drafts are discovered, not hard-coded. Any markdown file under monologues/ that
- * carries a publish directive gets published. Rename or add files freely; nothing
- * here needs editing.
- *
- * Put this anywhere in the draft (an HTML comment, so it is invisible in the
- * rendered preview and stripped from the published copy):
- *
- *   <!-- publish
- *        to: investigations/quid_pro_no
- *        title: Quid-Pro-NO!
- *        description: How every level of government has failed Tennesseans...
- *        date: 2026-08-17
- *        draft: false
- *   -->
- *
- * `to:` is the path under content/, so it becomes the URL. Everything else is
- * frontmatter for the site page.
- */
-const DRAFTS_DIR = join(RESEARCH, 'monologues');
-const PUBLISH_RE = /<!--\s*publish\s*\n([\s\S]*?)-->/;
-
-function findDrafts() {
-	if (!existsSync(DRAFTS_DIR)) return [];
-	const out = [];
-	for (const name of readdirSync(DRAFTS_DIR)) {
-		if (!name.endsWith('.md')) continue;
-		const src = join(DRAFTS_DIR, name);
-		const m = PUBLISH_RE.exec(readFileSync(src, 'utf8'));
-		if (!m) continue;
-		const fm = {};
-		let to = null;
-		for (const line of m[1].split('\n')) {
-			const kv = line.match(/^\s*([a-z]+)\s*:\s*(.+?)\s*$/i);
-			if (!kv) continue;
-			if (kv[1].toLowerCase() === 'to') to = kv[2].replace(/^\/+|\/+$/g, '');
-			else fm[kv[1]] = kv[2] === 'true' ? true : kv[2] === 'false' ? false : kv[2];
-		}
-		if (!to) {
-			console.error(`  ! ${name} has a publish block with no "to:" — skipped`);
-			continue;
-		}
-		if (fm.date) { fm.pubDate = fm.date; delete fm.date; }
-		if (fm.draft === undefined) fm.draft = false;
-		out.push({ src, dest: join(WEB, 'content', to, 'index.md'), frontmatter: fm, name });
-	}
-	return out;
-}
-
-const ARTICLES = findDrafts();
-if (!ARTICLES.length) {
-	console.error(`No drafts found. Add a <!-- publish ... --> block to a file in ${relative(RESEARCH, DRAFTS_DIR)}/`);
-	process.exitCode = 1;
-}
-
 /** Reference explainers that already exist as pages on this site. */
 const REFERENCE_PAGES = new Set(['what-is-an-idb', 'what-is-a-pilot', 'the-title-transfer-mechanism', '501c4-vs-instrumentality']);
 
-// A citation can be written two ways:
-//   @/web_articles/foo.txt   -- from the research archive root. Works in ANY file,
-//                               including site pages under content/. Preferred.
-//   ../web_articles/foo.txt  -- filesystem-relative, only meaningful in a draft under
-//                               monologues/, where it is clickable in Brandon's editor.
+// A citation is written @/ followed by a path in the research archive:
+//   @/web_articles/foo.txt
+// ../ is still accepted so older pages keep working, but @/ is the form to use --
+// ../ means a real relative path inside content/ and is ambiguous there.
 const LINK_RE = /\[([^\]]*)\]\(((?:\.\.|@)\/[^)\s]+)\)/g;
 const IMG_RE = /!\[([^\]]*)\]\(((?:\.\.|@)\/[^)\s]+)\)/g;
 const stripPrefix = (target) => target.replace(/^(?:\.\.|@)\//, '');
@@ -172,42 +122,9 @@ function yamlValue(v) {
 	return typeof v === 'string' ? `'${v.replace(/'/g, "''")}'` : String(v);
 }
 
-for (const article of ARTICLES) {
-	if (!existsSync(article.src)) {
-		console.error(`SKIP (no source): ${article.src}`);
-		continue;
-	}
-	currentDest = article.dest;
-	let body = readFileSync(article.src, 'utf8');
-
-	body = body.replace(PUBLISH_RE, '');          // directive is for the build, not the reader
-
-	// strip any leftover author notes before publishing
-	const notes = body.match(/<!--\s*@c[\s\S]*?-->/g) || [];
-	if (notes.length) {
-		console.warn(`  ! ${notes.length} unresolved @c note(s) stripped from published copy`);
-		body = body.replace(/<!--\s*@c[\s\S]*?-->\n?/g, '');
-	}
-
-	body = rewrite(body);
-
-	const fm =
-		'---\n' +
-		Object.entries(article.frontmatter)
-			.map(([k, v]) => `${k}: ${yamlValue(v)}`)
-			.join('\n') +
-		'\n---\n\n';
-
-	mkdirSync(dirname(article.dest), { recursive: true });
-	writeFileSync(article.dest, fm + body.trimStart() + '\n', 'utf8');
-	console.log(`published: ${article.name} -> ${relative(WEB, article.dest)}`);
-}
-
-/* ---- site pages -------------------------------------------------------- */
-/* Drafts are not the only thing that cites documents. An About page, an explainer,
-   a topic page may all want to point at the archive. Any page written with @/ gets
-   the same treatment: document copied in, link rewritten. Pages with no citations
-   are left untouched. */
+/* ---- resolve citations on every page ----------------------------------- */
+/* Any page written with @/ gets the same treatment: document copied in, link
+   rewritten in place. Pages with no citations are left untouched. */
 
 function rewriteSitePages(dir) {
 	for (const name of readdirSync(dir, { withFileTypes: true })) {
