@@ -12,9 +12,6 @@ files/prompt_log/
 files/venv/
 **/__pycache__/
 *.pyc
-www/*/node_modules/
-www/*/dist/
-www/*/.astro/
 
 # --- Large binaries: too big for git, published elsewhere if at all ---
 podcasts/mp3s/
@@ -26,7 +23,6 @@ Thumbs.db
 
 # --- Nested repositories with their own remotes; not content of this repo ---
 abigcloud/
-www/wiki-prototype/
 
 # --- Pulled 2026-08-17, pending the AI-disclosure policy update ---
 # Not secret; withheld deliberately. These are agent-operating files and
