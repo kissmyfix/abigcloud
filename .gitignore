@@ -26,7 +26,7 @@ Thumbs.db
 
 # --- Nested repositories with their own remotes; not content of this repo ---
 abigcloud/
-www/abigcloud_v2/
+www/wiki-prototype/
 
 # --- Pulled 2026-08-17, pending the AI-disclosure policy update ---
 # Not secret; withheld deliberately. These are agent-operating files and

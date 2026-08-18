@@ -1,7 +1,11 @@
-# SITE_PLAN.md — The Combined abigcloud.com Rebuild
-*Decisions locked 2026-07-06 (soundboard session). This file is the source of truth for
-the site work; a future agent starting site work reads this first. Edit freely — like
-everything else, AI drafted it, Brandon owns it.*
+# SITE_PLAN.md — the plan for `www/wiki-prototype/`
+*Decisions locked 2026-07-06 (soundboard session). Edit freely — like everything else,
+AI drafted it, Brandon owns it.*
+
+> **Read `www/README.md` first.** This file plans the **wiki-prototype**, which has never
+> been deployed. It is **not** the plan for the live site. The live abigcloud.com is
+> `abigcloud/web/` in the project root and it ships by `git push`. Nothing below describes
+> how the live site works today.
 
 ---
 
