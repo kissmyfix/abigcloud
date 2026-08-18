@@ -77,6 +77,15 @@ documents go, because a PDF must be served byte-for-byte.
 
 ## Publishing
 
+    files/bin/ship.sh "what changed"
+
+That is the whole cycle: publish, commit, push, wait for the GitHub Action, then confirm
+the live pages serve 200. It exits non-zero and names the stage that failed. Add
+`-v "some phrase"` to also assert that a specific string reached the live article, or
+`--dry-run` to build and commit without pushing.
+
+Underneath it is still the two commands, if you want them by hand:
+
     cd web && npm run publish && git push
 
 `npm run publish` is `node scripts/build-citations.mjs && astro build`.
@@ -127,6 +136,7 @@ directory cannot be both the source you edit and the output that overwrites you.
 | A page vanished from the site | `draft: true` in its frontmatter, or the build failed. |
 | Build fails naming a page | Missing `title` or `description` in frontmatter. |
 | Edits do not reach the site | Published but not pushed, or the Action failed. Check the repo's Actions tab. |
+| Build fails on a missing `description`/`title` that is plainly there | A `<!-- @c -->` note is sitting on a frontmatter line, so the key is part of the comment. Annotations go in the body, never in the YAML. |
 | A citation 404s | The document was never copied. Confirm the `@/` path matches a real file. |
 | PDF will not preview on GitHub | GitHub's viewer, not the file. Use Download or Raw. |
 

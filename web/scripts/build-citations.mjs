@@ -24,7 +24,7 @@
  * Usage: node scripts/build-citations.mjs      (npm run publish runs it, then builds)
  */
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, readdirSync } from 'node:fs';
-import { dirname, join, resolve, relative } from 'node:path';
+import { dirname, join, resolve, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -43,6 +43,41 @@ const LINK_RE = /\[([^\]]*)\]\(((?:\.\.|@)\/[^)\s]+)\)/g;
 const IMG_RE = /!\[([^\]]*)\]\(((?:\.\.|@)\/[^)\s]+)\)/g;
 const stripPrefix = (target) => target.replace(/^(?:\.\.|@)\//, '');
 
+/* A cited text document gets a real page on the site — /sources/fenton-on-podcast-full/ —
+   rendered in the site's own layout instead of dumping the reader onto a raw .txt in the
+   browser's default font. The untouched file is still copied into public/sources/ and
+   linked from that page, because "exactly as it was filed" is the promise the sources
+   page makes and a styled page is not the file. PDFs cannot be inlined and keep pointing
+   at the file itself. */
+const isText = (relPath) => /\.(txt|md)$/i.test(relPath);
+const slugOf = (relPath) =>
+	relPath.split('/').pop().replace(/\.(txt|md)$/i, '')
+		.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+/* slug -> archive path, so a /sources/<slug>/ link can be resolved back to the document
+   it renders. Filled as documents are published and reused by the index builder. */
+const bySlug = new Map();
+
+function sourceUrl(relPath) {
+	if (!isText(relPath)) return '/sources/' + relPath.split('/').map(encodeURIComponent).join('/');
+	let slug = slugOf(relPath);
+	// two archives can hold the same filename; keep the first and qualify the second
+	if (bySlug.has(slug) && bySlug.get(slug) !== relPath) {
+		slug = slugOf(relPath.split('/').slice(-2).join('-'));
+	}
+	bySlug.set(slug, relPath);
+	return '/sources/' + slug + '/';
+}
+
+/* Write only when the bytes actually change. The content watcher watches the same
+   directory this script writes into, so an unconditional write is a feedback loop:
+   generate -> watcher fires -> generate. */
+function writeIfChanged(path, text) {
+	if (existsSync(path) && readFileSync(path, 'utf8') === text) return false;
+	writeFileSync(path, text, 'utf8');
+	return true;
+}
+
 let copied = 0;
 let optimised = 0;
 let currentDest = '';
@@ -59,7 +94,7 @@ function publishSource(relPath) {
 	mkdirSync(dirname(out), { recursive: true });
 	copyFileSync(abs, out);
 	copied++;
-	return '/sources/' + relPath.split('/').map(encodeURIComponent).join('/');
+	return sourceUrl(relPath);
 }
 
 const SITE = 'https://abigcloud.com';
@@ -144,6 +179,58 @@ function rewriteSitePages(dir) {
 }
 
 const generatedSourceIndex = join(WEB, 'content', 'sources', 'index.md');
+const generatedSourceDir = join(WEB, 'content', 'sources');
+
+/* Slugs must resolve on every run, not only the run that first published a document.
+   Walk what has already been copied into public/sources/ and register it, so a page
+   that was converted to /sources/<slug>/ on an earlier run still maps back. */
+function warmRegistry(dir, base = dir) {
+	if (!existsSync(dir)) return;
+	for (const e of readdirSync(dir, { withFileTypes: true })) {
+		const full = join(dir, e.name);
+		if (e.isDirectory()) { warmRegistry(full, base); continue; }
+		const rel = relative(base, full).split(sep).join('/');
+		if (isText(rel)) sourceUrl(rel);
+	}
+}
+warmRegistry(PUBLIC_SOURCES);
+
+/* Citations written before source pages existed point straight at the raw file.
+   Move them onto the page. One-way, like the @/ rewrite above. */
+function migrateFileLinks(dir) {
+	for (const e of readdirSync(dir, { withFileTypes: true })) {
+		const full = join(dir, e.name);
+		if (e.isDirectory()) {
+			if (full === generatedSourceDir) continue;   // generated, and its download
+			migrateFileLinks(full);                      // links must stay file links
+			continue;
+		}
+		if (!e.name.endsWith('.md')) continue;
+		const before = readFileSync(full, 'utf8');
+		const after = before.replace(/\]\(\/sources\/([^)\s#]+\.(?:txt|md))\)/gi,
+			(whole, p) => {
+				const rel = decodeURIComponent(p);
+				return existsSync(join(PUBLIC_SOURCES, rel)) ? `](${sourceUrl(rel)})` : whole;
+			});
+		if (after !== before) {
+			writeFileSync(full, after, 'utf8');
+			console.log(`source links moved to pages: ${relative(WEB, full)}`);
+		}
+	}
+}
+migrateFileLinks(join(WEB, 'content'));
+{
+	const home = join(WEB, 'index.md');
+	if (existsSync(home)) {
+		const b = readFileSync(home, 'utf8');
+		const a = b.replace(/\]\(\/sources\/([^)\s#]+\.(?:txt|md))\)/gi, (whole, p) => {
+			const rel = decodeURIComponent(p);
+			return existsSync(join(PUBLIC_SOURCES, rel)) ? `](${sourceUrl(rel)})` : whole;
+		});
+		if (a !== b) writeFileSync(home, a, 'utf8');
+	}
+}
+
 rewriteSitePages(join(WEB, 'content'));
 {
 	const home = join(WEB, 'index.md');
@@ -212,7 +299,10 @@ function linkedSources(dir, found = new Set()) {
 		if (full === generatedSourceIndex) continue;   // it lists them all; reading it
 		                                               // back would make the index immortal
 		for (const m of readFileSync(full, 'utf8').matchAll(/\]\(\/sources\/([^)\s#]+)\)/g)) {
-			found.add(decodeURIComponent(m[1]));
+			const token = decodeURIComponent(m[1]);
+			// a page link is /sources/<slug>/ — map it back to the document it renders
+			const asSlug = token.replace(/\/$/, '');
+			found.add(bySlug.has(asSlug) ? bySlug.get(asSlug) : token);
 		}
 	}
 	return found;
@@ -222,6 +312,68 @@ const cited = [...new Set([
 	...rewrites.map(([from]) => stripPrefix(from)),
 	...linkedSources(join(WEB, 'content')),
 ])].filter((p) => !p.startsWith('reference/') && !p.startsWith('/') && !p.startsWith('http') && !p.startsWith('visualizations/'));
+
+/* One page per cited text document, rendered in the site's own layout. The body goes
+   inside <pre> rather than being parsed as markdown: a transcript line starting with #
+   is not a heading, an audit containing < is not a tag, and a Comptroller table only
+   survives as fixed-width text. Escaped, verbatim, with the untouched file one click
+   away. */
+const esc = (t) => t.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+const yamlQuote = (t) => "'" + String(t).replace(/'/g, "''") + "'";
+
+function splitProvenance(text) {
+	// headered captures start KEY: value, then a --- rule, then the document
+	const m = text.match(/^((?:[A-Z][A-Z ]+:[\s\S]*?)\n)---\n/);
+	if (!m) return [[], text];
+	const meta = [];
+	for (const line of m[1].split('\n')) {
+		const kv = line.match(/^([A-Z][A-Z ]+):\s*(.*)$/);
+		if (kv) meta.push([kv[1], kv[2].trim()]);
+		else if (meta.length && line.trim()) meta[meta.length - 1][1] += ' ' + line.trim();
+	}
+	return [meta, text.slice(m[0].length).replace(/^\n+/, '')];
+}
+
+let pages = 0;
+function writeSourcePage(relPath) {
+	const abs = resolve(RESEARCH, relPath);
+	if (!existsSync(abs) || !isText(relPath)) return;
+	const slug = sourceUrl(relPath).replace(/^\/sources\/|\/$/g, '');
+	const raw = readFileSync(abs, 'utf8');
+	const [meta, body] = splitProvenance(raw);
+	const d = describe(relPath) || prettify(relPath);
+	// a derived .md carries its own name in its first heading; better than the filename
+	const h1 = raw.match(/^#\s+(.+)$/m);
+	const title = d ? d[0] : (h1 ? h1[1].trim() : relPath.split('/').pop());
+	const desc = d && d[1] ? d[1] : 'Source document cited in the investigation.';
+	const fileUrl = '/sources/' + relPath.split('/').map(encodeURIComponent).join('/');
+
+	let md = `---\ntitle: ${yamlQuote(title)}\ndescription: ${yamlQuote(desc)}\n---\n\n`;
+	md += `# **${esc(title)}**\n\n`;
+	md += `<p class="src-back"><a href="/sources/">All sources</a></p>\n\n`;
+	if (meta.length) {
+		md += '<dl class="src-prov">\n';
+		for (const [k, v] of meta) {
+			const val = /^https?:\/\//.test(v)
+				? `<a href="${esc(v)}" rel="nofollow noopener">${esc(v)}</a>` : esc(v);
+			md += `<dt>${esc(k.toLowerCase())}</dt><dd>${val}</dd>\n`;
+		}
+		md += '</dl>\n\n';
+	}
+	md += `<p class="src-file"><a href="${fileUrl}" download>Download the original file</a>`
+	    + ` &middot; <code>${esc(relPath.split('/').pop())}</code></p>\n\n`;
+	if (/\.md$/i.test(relPath)) {
+		// already markdown — render it, same as any reference page
+		md += body.replace(/^#\s+.+$/m, '').trimStart() + '\n';
+	} else {
+		md += `<pre class="src-body">${esc(body.trimEnd())}</pre>\n`;
+	}
+
+	const out = join(generatedSourceDir, slug + '.md');
+	mkdirSync(dirname(out), { recursive: true });
+	if (writeIfChanged(out, md)) pages++;
+}
+for (const p of cited) writeSourcePage(p);
 
 const byGroup = {};
 for (const p of cited.sort()) {
@@ -240,7 +392,7 @@ let idx =
 for (const [group, paths] of Object.entries(byGroup)) {
 	idx += `## ${group}\n\n`;
 	for (const p of paths) {
-		const url = '/sources/' + p.split('/').map(encodeURIComponent).join('/');
+		const url = sourceUrl(p);
 		const d = describe(p) || prettify(p);
 		const name = p.split('/').pop();
 		idx += d
@@ -252,10 +404,11 @@ for (const [group, paths] of Object.entries(byGroup)) {
 
 const idxPath = join(WEB, 'content', 'sources', 'index.md');
 mkdirSync(dirname(idxPath), { recursive: true });
-writeFileSync(idxPath, idx, 'utf8');
+writeIfChanged(idxPath, idx);
 console.log(`published: ${relative(WEB, idxPath)} (${cited.length} documents)`);
 
 console.log(`  ${copied} source file(s) copied into public/sources/`);
+console.log(`  ${pages} source page(s) rendered into content/sources/`);
 console.log(`  ${optimised} image(s) routed through the asset pipeline`);
 console.log(`  ${rewrites.length} link(s) rewritten`);
 if (missing.length) {

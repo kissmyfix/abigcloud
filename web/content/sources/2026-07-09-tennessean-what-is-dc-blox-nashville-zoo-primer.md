@@ -1,0 +1,60 @@
+---
+title: 'What is DC BLOX? Developer behind data center near Nashville Zoo has faced pushback elsewhere'
+description: 'The Tennessean (Nashville), Updated July 9, 2026'
+---
+
+# **What is DC BLOX? Developer behind data center near Nashville Zoo has faced pushback elsewhere**
+
+<p class="src-back"><a href="/sources/">All sources</a></p>
+
+<dl class="src-prov">
+<dt>source</dt><dd>The Tennessean (Nashville)</dd>
+<dt>headline</dt><dd>What is DC BLOX? Developer behind data center near Nashville Zoo has faced pushback elsewhere</dd>
+<dt>byline</dt><dd>Peter Burditt</dd>
+<dt>date</dt><dd>Updated July 9, 2026</dd>
+<dt>url</dt><dd><a href="https://www.yahoo.com/news/us/articles/dc-blox-developer-behind-data-120210402.html" rel="nofollow noopener">https://www.yahoo.com/news/us/articles/dc-blox-developer-behind-data-120210402.html</a></dd>
+<dt>retrieved</dt><dd>2026-08-17</dd>
+<dt>provenance note</dt><dd>Captured via automated fetch and rendered to text. Re-verify quotes against the live page before publication.</dd>
+<dt>why saved</dt><dd>Single reliable primer on the DC Blox / Nashville Zoo fight, used in Quid-Pro-NO at "I won't spend the time here re-hashing the DC Blox deal." Chosen because it covers the company, the Nashville dispute, and DC BLOX's record of opposition in other states, rather than just the August 2026 lawsuit.</dd>
+</dl>
+
+<p class="src-file"><a href="/sources/web_articles/2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer.txt" download>Download the original file</a> &middot; <code>2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer.txt</code></p>
+
+<pre class="src-body">DC BLOX is an Atlanta-based digital infrastructure company established in 2014 that develops
+and operates data centers and fiber networks across the Southeast. The firm describes itself
+as a "vertically integrated digital infrastructure provider" focused on delivering essential
+digital infrastructure throughout the region.
+
+The company achieved a significant milestone in 2016 when it raised $15 million and opened its
+first data center in Atlanta. As of mid-July 2026, DC BLOX had accumulated $1.415 billion in
+funding.
+
+DC BLOX currently operates facilities across ten southeastern locations, including sites in
+Alabama (Birmingham, Huntsville, Montgomery), Georgia (Douglas and Rockdale counties), Florida
+(Palm Coast), South Carolina (Greenville/Spartanburg, Myrtle Beach, North Augusta), and
+Tennessee (Chattanooga).
+
+Nashville residents have united against a proposed 69,220-square-foot data center on 23 acres
+adjacent to Nashville Zoo property. Concerns center on potential noise, environmental
+pollution, elevated electricity costs, and impacts on zoo operations.
+
+DC BLOX claims the project would generate "$1.9 billion in capital investment in Davidson
+County" plus job creation and tax revenue. However, Mayor Freddie O'Connell dismissed the
+company's statements as "inaccurate, wishful thinking that is divorced from reality."
+
+The Metro Nashville Council advanced regulatory legislation in July 2026 to restrict data
+center development, while city officials explored using eminent domain to acquire the property
+instead.
+
+This controversy isn't unique. DC BLOX faced similar resistance in Lowndes County, Georgia,
+where residents formed "Lowndes Citizens Against Data Centers" to oppose a proposed 720-acre
+facility. In Indianapolis, the company reduced its project scope by approximately 35 percent
+after community pushback.
+
+---
+LATER DEVELOPMENTS (not in this article, noted for the timeline):
+- Aug 4-5, 2026: Metro Council voted 27-5 to authorize negotiation or eminent domain
+  acquisition of the 23.5-acre site at 648 Grassmere Park, purchased by DC BLOX for $23M in July.
+- Aug 11-12, 2026: DC BLOX filed suit against Metro in federal court over the moratorium.
+- A petition opposing the project drew roughly 600,000 signatures; Brad Paisley among the
+  public opponents.</pre>

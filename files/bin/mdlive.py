@@ -98,7 +98,11 @@ PAGE = r"""<!doctype html>
  #left{border-right:1px solid var(--rule);display:flex;background:var(--pane)}
  #gut{flex:0 0 3.6em;text-align:right;padding:14px 8px 40vh 0;color:var(--mut);
       font:13px/1.7 ui-monospace,Menlo,monospace;user-select:none;background:var(--code)}
+ /* the caret is easy to lose in a wall of prose, so the gutter says where it is */
+ #gut .cur{color:var(--acc);font-weight:700;background:var(--pane);
+      box-shadow:inset 2px 0 0 var(--acc)}
  #ed{flex:1;border:0;outline:0;resize:none;background:var(--pane);color:var(--fg);
+     caret-color:var(--acc);
      padding:14px 14px 40vh;font:13px/1.7 ui-monospace,Menlo,monospace;
      white-space:pre-wrap;overflow-wrap:break-word;overflow:hidden}
  #mirror{position:absolute;visibility:hidden;pointer-events:none;left:-9999px;top:0;
@@ -175,6 +179,12 @@ function gutter(lines){
   gut.innerHTML=[...mirror.children].map((d,i)=>
     '<div style="height:'+d.offsetHeight+'px">'+(i+1)+'</div>').join('');
 }
+function curline(){
+  // which logical line is the caret on — count newlines before it
+  const n=(ed.value.slice(0,ed.selectionStart).match(/\n/g)||[]).length;
+  const kids=gut.children;
+  for(let i=0;i<kids.length;i++) kids[i].classList.toggle('cur',i===n);
+}
 function render(){
   const t=ed.value;
   // render block by block so every rendered chunk knows its source line
@@ -191,6 +201,7 @@ function render(){
     +(t.trim()?t.trim().split(/\s+/).length:0)+' words';
   autosize();
   gutter(lines);
+  curline();
   anchors();
   // images change block heights once they load — remeasure when they do
   right.querySelectorAll('img').forEach(im=>{
@@ -257,8 +268,8 @@ ed.addEventListener('input',()=>{
   dirty=true; render();
   clearTimeout(saveT); saveT=setTimeout(save,600);
 });
-ed.addEventListener('keyup',showPos);
-ed.addEventListener('click',showPos);
+ed.addEventListener('keyup',()=>{showPos();curline()});
+ed.addEventListener('click',()=>{showPos();curline()});
 ed.addEventListener('keydown',e=>{
   if((e.ctrlKey||e.metaKey) && e.key==='/'){          // insert a note for Claude
     e.preventDefault();

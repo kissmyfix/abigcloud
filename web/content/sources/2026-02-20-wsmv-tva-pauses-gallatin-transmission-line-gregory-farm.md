@@ -1,0 +1,55 @@
+---
+title: '''We are listening'': TVA pauses Gallatin transmission line amid outcry from historic farm, country star'
+description: 'WSMV 4 Nashville, February 20, 2026, 8:57 AM CST'
+---
+
+# **'We are listening': TVA pauses Gallatin transmission line amid outcry from historic farm, country star**
+
+<p class="src-back"><a href="/sources/">All sources</a></p>
+
+<dl class="src-prov">
+<dt>source</dt><dd>WSMV 4 Nashville</dd>
+<dt>headline</dt><dd>'We are listening': TVA pauses Gallatin transmission line amid outcry from historic farm, country star</dd>
+<dt>byline</dt><dd>Chasity Maynard</dd>
+<dt>date</dt><dd>February 20, 2026, 8:57 AM CST</dd>
+<dt>url</dt><dd><a href="https://www.wsmv.com/2026/02/20/we-are-listening-tva-pauses-gallatin-transmission-line-amid-outcry-historic-farm-country-star/" rel="nofollow noopener">https://www.wsmv.com/2026/02/20/we-are-listening-tva-pauses-gallatin-transmission-line-amid-outcry-historic-farm-country-star/</a></dd>
+<dt>retrieved</dt><dd>2026-08-17</dd>
+<dt>provenance note</dt><dd>Captured via automated fetch and rendered to text. Treat quotes as accurate-but-unverified until checked against the live page or an archived HTML copy.</dd>
+<dt>why saved</dt><dd>TVA eminent domain, story two of two. Gallatin / Sumner County, Feb 2026, Gregory Family Farm, John Rich's second campaign against TVA. This is the transmission corridor on the north side of Gallatin -- the same side of town as the Meta campus. FOLLOW-UP: By March 2026 TVA abandoned the Gregory route entirely and said it would "more closely follow existing rights of way." Not yet pulled in.</dd>
+</dl>
+
+<p class="src-file"><a href="/sources/web_articles/2026-02-20-wsmv-tva-pauses-gallatin-transmission-line-gregory-farm.txt" download>Download the original file</a> &middot; <code>2026-02-20-wsmv-tva-pauses-gallatin-transmission-line-gregory-farm.txt</code></p>
+
+<pre class="src-body">The Tennessee Valley Authority announced this week that it has hit the brakes on plans for a
+new transmission line in Gallatin. The utility provider reported on Thursday that it is
+pausing "reliability improvement work for a new transmission line" in north Gallatin because
+it wants to "learn more."
+
+The move comes after community pushback on a proposal to run a transmission line across a
+multi-generational farm, with Nashville-based country musician John Rich joining local voices
+opposing the idea.
+
+The Gregory Family Farm, which the family says has operated since the Revolutionary War era,
+stated on Facebook: "THIS is what we want to save. THIS is what we don't want TVA's power line
+to destroy. Children learning, playing, growing, and thriving."
+
+The farm noted that "TVA has publicly stated they weren't aware of any opposition and didn't
+know this route would cut through a historic family farm and children's educational programs.
+We believe that. But now you do know."
+
+The farm started a petition that received more than 2,500 signatures as of Friday morning.
+
+Over the weekend, Rich posted a video supporting the Gregory Family Farm's resistance. The TVA
+stated: "We've launched a new initiative to ensure community voices are heard as we work on
+projects that deliver reliable, affordable electricity to the areas that need it most."
+
+The TVA's new task force includes longtime farmers, landowners, farm association members,
+electric co-op representatives serving rural areas, and union members. Rich declined an
+invitation to co-chair the task force, though the TVA said his input remains welcome.
+
+Rich shared on X (formerly Twitter) that the TVA was created in 1933 as a "Federal Energy
+Company," giving it federal protections that other energy companies don't possess.
+
+On Thursday, TVA stated it remains "focused on supporting the Administration's energy
+dominance goals as we work on projects to meet the ever-growing demand for electricity from
+people across the region."</pre>

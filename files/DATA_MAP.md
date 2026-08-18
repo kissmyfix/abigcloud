@@ -52,7 +52,9 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 | `files/` | Project plumbing: this map, the README template, `bin/` (all project scripts), `venv/` (their Python environment). |
 | `files/WORKFLOW.md` | **How writing reaches the site**: mdlive, what Astro does, the publish pipeline, and what to check when it breaks. |
 | `files/bin/mdlive.py` | Brandon's browser markdown editor. |
+| `files/bin/ship.sh` | **Publishing, in one command.** Build, commit, push, wait on the Action, confirm the live pages serve 200. Use it instead of running the steps by hand. |
 | `files/bin/` | Every project script — PDF extraction and profiling, whisper transcription, Comptroller CSV builders and verifiers, the parcel-assessment parser. Run with `files/venv/bin/python`. |
+| `.claude/agents/` | Subagent definitions. `archive-researcher.md` sweeps large `derived/` documents and returns line-anchored quotes, keeping the raw text out of the main conversation. |
 | `memory/` | Working memory. **Gitignored — private.** `MEMORY.md` (theories/findings), `master-reference-w5h.md`, `PINBOARD.md`, `TIMELINE.md` (two-lane evidence timeline), `UNICORN.md`, `brandon-schema.md`, `site-data-salvage/`. |
 | `memory/site-data-salvage/` | Rescued from the deleted prototype: `records.ts` (27 entity records), `events.json` (42 timeline events), `SITE_PLAN-archived.md` (the wiki design). Compiled artifacts, not sources. |
 | `angles/` | Article raw material: theory narratives, framings, rebuttals in reserve, the citation worklist. **Gitignored** — pre-publication strategy, withheld pending the AI-disclosure rewrite. |

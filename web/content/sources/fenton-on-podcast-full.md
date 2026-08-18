@@ -1,0 +1,757 @@
+---
+title: 'Transcript: Fenton on podcast full'
+description: 'Whisper transcript of the episode audio'
+---
+
+# **Transcript: Fenton on podcast full**
+
+<p class="src-back"><a href="/sources/">All sources</a></p>
+
+<p class="src-file"><a href="/sources/podcasts/transcripts/fenton-on-podcast-full.txt" download>Download the original file</a> &middot; <code>fenton-on-podcast-full.txt</code></p>
+
+<pre class="src-body">[00:00:22.10 --&gt; 00:00:24.34] Welcome to Growing Pains, a podcast of the Sumner County
+[00:00:24.34 --&gt; 00:00:26.06] Republican Freedom Caucus, where
+[00:00:26.06 --&gt; 00:00:29.54] we explore the challenges of a thriving Sumner County.
+[00:00:29.54 --&gt; 00:00:32.44] Today's guest, former executive director
+[00:00:32.44 --&gt; 00:00:34.90] of the Gallatin Economic Development Agency,
+[00:00:34.90 --&gt; 00:00:36.38] is James Fenton.
+[00:00:36.38 --&gt; 00:00:37.86] Thank you for being here, James.
+[00:00:37.86 --&gt; 00:00:39.74] Thank you for inviting me.
+[00:00:39.74 --&gt; 00:00:41.50] Well, I haven't seen you in a while.
+[00:00:41.50 --&gt; 00:00:43.98] So this is a great excuse to catch up with you.
+[00:00:43.98 --&gt; 00:00:46.06] And I know that you have some wisdom
+[00:00:46.06 --&gt; 00:00:47.34] to share for this audience.
+[00:00:47.34 --&gt; 00:00:50.82] So I really appreciate you making the trek all the way
+[00:00:50.82 --&gt; 00:00:52.06] back to Gallatin again.
+[00:00:53.06 --&gt; 00:00:54.74] You served for more than a decade.
+[00:00:54.74 --&gt; 00:00:56.18] How long were you with EDA?
+[00:00:56.18 --&gt; 00:00:56.86] About 12 years.
+[00:00:56.86 --&gt; 00:00:57.98] 12 years.
+[00:00:57.98 --&gt; 00:00:59.38] 12 years.
+[00:00:59.38 --&gt; 00:01:03.62] Really recognized statewide for your impact and your results
+[00:01:03.62 --&gt; 00:01:05.86] that you had in various roles.
+[00:01:05.86 --&gt; 00:01:07.90] And I know, I thought this was interesting.
+[00:01:07.90 --&gt; 00:01:10.02] I looked at your LinkedIn, and I love a couple of things
+[00:01:10.02 --&gt; 00:01:10.78] I read there.
+[00:01:10.78 --&gt; 00:01:13.54] One that says, and I don't think this is totally still.
+[00:01:13.54 --&gt; 00:01:16.94] Well, you're mostly retired, right?
+[00:01:16.94 --&gt; 00:01:19.26] Got a couple of fingers in the pot still.
+[00:01:19.26 --&gt; 00:01:21.10] Still working on some projects.
+[00:01:21.22 --&gt; 00:01:25.02] So creating new opportunities is your header.
+[00:01:25.02 --&gt; 00:01:27.34] And I think that's, yeah, your spirit
+[00:01:27.34 --&gt; 00:01:30.54] is one that is not going to just retire and sail off
+[00:01:30.54 --&gt; 00:01:35.66] into the, well, maybe you will sail, but not forever.
+[00:01:35.66 --&gt; 00:01:36.94] And over your time in Gallatin,
+[00:01:36.94 --&gt; 00:01:38.26] I love that it shows you worked
+[00:01:38.26 --&gt; 00:01:42.46] for the most business-friendly city in Middle Tennessee.
+[00:01:42.46 --&gt; 00:01:44.46] And Gallatin is a really friendly place,
+[00:01:44.46 --&gt; 00:01:46.66] but I appreciate that specific call out.
+[00:01:46.66 --&gt; 00:01:48.70] And I do know it's true from many that
+[00:01:48.70 --&gt; 00:01:50.42] are investors in this region.
+[00:01:50.46 --&gt; 00:01:53.02] Gallatin is a very business-friendly community.
+[00:01:53.02 --&gt; 00:01:53.86] It really is.
+[00:01:53.86 --&gt; 00:01:55.10] That's one of the reasons that brought me here
+[00:01:55.10 --&gt; 00:01:58.62] in the first place, just because of doing some research,
+[00:01:58.62 --&gt; 00:02:00.70] just discovering exactly what the CEA had done
+[00:02:00.70 --&gt; 00:02:02.38] really to prepare for the future.
+[00:02:02.38 --&gt; 00:02:04.34] It's so important for a community.
+[00:02:05.38 --&gt; 00:02:07.34] A company's not going to invest in a community
+[00:02:07.34 --&gt; 00:02:09.94] unless that community has already invested in itself.
+[00:02:09.94 --&gt; 00:02:13.50] And it was evident that Gallatin was investing in itself.
+[00:02:13.50 --&gt; 00:02:14.66] Oh, that's awesome.
+[00:02:14.66 --&gt; 00:02:16.22] That's exactly where I wanted to start.
+[00:02:16.22 --&gt; 00:02:17.54] Because I know you spent,
+[00:02:17.54 --&gt; 00:02:18.98] how many years in Cheatham County,
+[00:02:18.98 --&gt; 00:02:20.58] you were director?
+[00:02:20.58 --&gt; 00:02:23.26] Six years before I came here.
+[00:02:23.26 --&gt; 00:02:25.34] And then you had that awesome reverse commute.
+[00:02:25.34 --&gt; 00:02:27.06] I remember the one time you set up your GoPro
+[00:02:27.06 --&gt; 00:02:29.78] on your dash to show how glorious it is
+[00:02:29.78 --&gt; 00:02:31.86] to drive from anywhere else in Nashville
+[00:02:31.86 --&gt; 00:02:33.54] to Gallatin on a daily basis.
+[00:02:33.54 --&gt; 00:02:35.66] And so you had a great gig,
+[00:02:35.66 --&gt; 00:02:38.38] but I did want to explore that some,
+[00:02:38.38 --&gt; 00:02:40.62] because finding yourself here,
+[00:02:42.06 --&gt; 00:02:44.14] you must have, you did your research
+[00:02:44.14 --&gt; 00:02:47.78] and you knew that there was something here to...
+[00:02:47.78 --&gt; 00:02:49.78] Yeah, I knew my predecessor that worked here.
+[00:02:49.78 --&gt; 00:02:51.78] And he and I had several conversations
+[00:02:51.78 --&gt; 00:02:53.50] when he mentioned that he was leaving.
+[00:02:53.50 --&gt; 00:02:55.10] That's when I began doing some research,
+[00:02:55.10 --&gt; 00:02:57.38] finding out maybe this would be a good move for me.
+[00:02:57.38 --&gt; 00:03:00.34] And it clearly proved to be a great move for me.
+[00:03:00.34 --&gt; 00:03:03.38] I'm so thankful I had the opportunity to serve here.
+[00:03:03.38 --&gt; 00:03:05.02] All right, we'll probably come back
+[00:03:05.02 --&gt; 00:03:06.82] to that conversation a little bit more,
+[00:03:06.82 --&gt; 00:03:09.54] but let's do a little education for listeners
+[00:03:09.54 --&gt; 00:03:11.06] that just might not understand
+[00:03:11.06 --&gt; 00:03:13.30] if they hear economic development,
+[00:03:13.30 --&gt; 00:03:16.10] they think of ribbon cuttings and just celebrations.
+[00:03:16.10 --&gt; 00:03:20.18] But talk about the work that the public never sees
+[00:03:20.18 --&gt; 00:03:23.46] that really drives those outcomes.
+[00:03:23.46 --&gt; 00:03:24.58] That's economic development.
+[00:03:24.58 --&gt; 00:03:25.82] So economic development,
+[00:03:25.82 --&gt; 00:03:28.86] we really have three main goals that you need to achieve.
+[00:03:28.86 --&gt; 00:03:30.50] First is to learn your community,
+[00:03:30.50 --&gt; 00:03:33.14] find out who and what,
+[00:03:33.14 --&gt; 00:03:34.70] and what truly makes that city,
+[00:03:34.70 --&gt; 00:03:36.46] we had strengths so that you can sell those.
+[00:03:36.46 --&gt; 00:03:38.18] You have to put together a good story
+[00:03:38.18 --&gt; 00:03:40.14] to be able to sell the community.
+[00:03:40.14 --&gt; 00:03:43.10] And second, you have to have excellent,
+[00:03:43.10 --&gt; 00:03:46.58] well, excellent relationships outside of the city.
+[00:03:46.58 --&gt; 00:03:48.78] You have to know the site consultants,
+[00:03:48.78 --&gt; 00:03:50.22] you have to know the engineering firms,
+[00:03:50.22 --&gt; 00:03:51.34] you have to know the brokers,
+[00:03:51.34 --&gt; 00:03:53.50] you have to know all the people that might be involved
+[00:03:53.50 --&gt; 00:03:55.74] and know when a company is looking to move.
+[00:03:55.74 --&gt; 00:03:57.70] So that's important,
+[00:03:57.70 --&gt; 00:03:59.30] but it's also really important
+[00:03:59.30 --&gt; 00:04:03.46] to have a really good relationship
+[00:04:03.46 --&gt; 00:04:05.22] with your existing businesses.
+[00:04:05.22 --&gt; 00:04:07.34] That probably should have been number two for me,
+[00:04:07.34 --&gt; 00:04:08.46] to have a good relationship,
+[00:04:08.46 --&gt; 00:04:10.06] to know the people that are here
+[00:04:10.06 --&gt; 00:04:12.74] so that you can help them if they have a problem,
+[00:04:12.74 --&gt; 00:04:13.90] if they need a stop sign,
+[00:04:13.90 --&gt; 00:04:15.62] or if they have water problems, whatever
+[00:04:15.62 --&gt; 00:04:16.46] you need to be able to.
+[00:04:16.46 --&gt; 00:04:19.42] And they're also often aware of other companies
+[00:04:19.42 --&gt; 00:04:22.22] that might be looking to CEO, sit down and talk.
+[00:04:22.22 --&gt; 00:04:23.42] They know what's going on.
+[00:04:23.42 --&gt; 00:04:25.86] So if you have a good relationship with those people,
+[00:04:25.86 --&gt; 00:04:27.10] then you have a better chance
+[00:04:27.10 --&gt; 00:04:30.10] of getting on track with somebody who's here.
+[00:04:30.10 --&gt; 00:04:31.14] In fact, one of the companies
+[00:04:31.14 --&gt; 00:04:33.70] we recruited from upstate New York,
+[00:04:33.70 --&gt; 00:04:36.30] I went up and visited them during that process.
+[00:04:36.30 --&gt; 00:04:39.18] And they told me I was the first person
+[00:04:39.18 --&gt; 00:04:41.74] from anybody, from their city,
+[00:04:41.74 --&gt; 00:04:45.46] from anybody that had ever come to their facility.
+[00:04:45.46 --&gt; 00:04:47.22] And they'd been there for 70 years.
+[00:04:47.22 --&gt; 00:04:49.30] And it's one of the reasons they ended up coming here
+[00:04:49.30 --&gt; 00:04:51.86] is because we paid attention to them
+[00:04:51.86 --&gt; 00:04:52.94] and cared about them.
+[00:04:52.94 --&gt; 00:04:54.22] That makes a big difference.
+[00:04:54.22 --&gt; 00:04:55.86] And relationships really do.
+[00:04:56.82 --&gt; 00:04:57.86] I didn't want to cut you off.
+[00:04:57.86 --&gt; 00:04:58.70] Were you gonna?
+[00:04:58.70 --&gt; 00:05:01.10] No, that's, I mean, because, you know,
+[00:05:01.10 --&gt; 00:05:02.46] we rely on site consultants,
+[00:05:02.46 --&gt; 00:05:04.58] but we also have really strong partnerships
+[00:05:04.58 --&gt; 00:05:07.70] with Tennessee ECD at the state.
+[00:05:07.70 --&gt; 00:05:10.10] They brought a lot of the projects to us
+[00:05:10.10 --&gt; 00:05:11.30] and also TVA.
+[00:05:11.30 --&gt; 00:05:15.58] TVA ended up being just an incredibly important partnership
+[00:05:15.58 --&gt; 00:05:16.42] that we have.
+[00:05:16.42 --&gt; 00:05:17.74] So all of those mixed together
+[00:05:17.74 --&gt; 00:05:20.66] and to have a city like Gallatin
+[00:05:20.66 --&gt; 00:05:22.94] that supports the economic development
+[00:05:22.94 --&gt; 00:05:24.54] to go make those relationships,
+[00:05:24.54 --&gt; 00:05:25.94] I think that's part of why the city
+[00:05:25.94 --&gt; 00:05:30.06] was so successful during the tenure that was here.
+[00:05:30.06 --&gt; 00:05:30.90] Got it.
+[00:05:30.90 --&gt; 00:05:32.22] You mentioned something
+[00:05:32.22 --&gt; 00:05:34.30] and I just don't want to forget to come back to it.
+[00:05:34.30 --&gt; 00:05:36.86] So I want to, something that I didn't realize
+[00:05:36.86 --&gt; 00:05:39.30] was part of that economic development equation.
+[00:05:39.66 --&gt; 00:05:41.14] Not only you mentioned the relationships
+[00:05:41.14 --&gt; 00:05:42.22] with the existing business,
+[00:05:42.22 --&gt; 00:05:44.86] but the opportunity to develop
+[00:05:44.86 --&gt; 00:05:47.22] those existing investments.
+[00:05:47.22 --&gt; 00:05:49.62] And that's a, I don't know if you know offhand
+[00:05:49.62 --&gt; 00:05:51.90] the percentages, but an existing business
+[00:05:51.90 --&gt; 00:05:53.70] contributes significantly often
+[00:05:53.70 --&gt; 00:05:56.66] to that total development and investment.
+[00:05:56.66 --&gt; 00:05:59.14] I think it was something like 70% of all jobs
+[00:05:59.14 --&gt; 00:06:00.54] created in a community
+[00:06:00.54 --&gt; 00:06:03.06] traditionally come from existing industries.
+[00:06:03.06 --&gt; 00:06:04.58] So if you weren't there with them,
+[00:06:04.58 --&gt; 00:06:06.22] helping them, encouraging them,
+[00:06:06.22 --&gt; 00:06:08.34] making them feel successful,
+[00:06:08.34 --&gt; 00:06:09.90] helping them be successful,
+[00:06:09.90 --&gt; 00:06:11.14] then they aren't going to expand.
+[00:06:11.14 --&gt; 00:06:12.54] And I think a classic example
+[00:06:12.54 --&gt; 00:06:15.66] is what just happened here in Gallatin.
+[00:06:15.66 --&gt; 00:06:18.70] You've got a new 500,000 square foot facility
+[00:06:18.70 --&gt; 00:06:20.74] that's been put up from an existing company
+[00:06:20.74 --&gt; 00:06:21.58] that's moved there.
+[00:06:21.58 --&gt; 00:06:23.30] The Simpson Strong Tie example, yeah.
+[00:06:23.30 --&gt; 00:06:24.74] Let's definitely give them a shout out.
+[00:06:24.74 --&gt; 00:06:28.98] I love that their leadership saw all the potential
+[00:06:28.98 --&gt; 00:06:30.54] that they invested here initially,
+[00:06:30.54 --&gt; 00:06:32.54] but it's remarkable.
+[00:06:32.54 --&gt; 00:06:33.42] I don't know if you've,
+[00:06:33.42 --&gt; 00:06:34.94] I know you haven't been in Gallatin recently,
+[00:06:34.94 --&gt; 00:06:36.66] but you probably haven't been over near there.
+[00:06:37.66 --&gt; 00:06:39.06] I will drive by before I go home.
+[00:06:39.06 --&gt; 00:06:40.66] I think we should go on a little field trip
+[00:06:40.66 --&gt; 00:06:41.50] when we finish up.
+[00:06:41.50 --&gt; 00:06:43.26] That might be a good idea.
+[00:06:43.26 --&gt; 00:06:48.26] So, okay, what would you say has really changed
+[00:06:48.34 --&gt; 00:06:51.90] in Gallatin over the past decade plus
+[00:06:51.90 --&gt; 00:06:53.86] that made it so attractive?
+[00:06:53.86 --&gt; 00:06:56.06] And you were saying you saw those things
+[00:06:56.06 --&gt; 00:06:58.02] when you were researching your job opportunity
+[00:06:58.02 --&gt; 00:07:00.22] to come here in the first place.
+[00:07:00.22 --&gt; 00:07:01.26] What were some of those things
+[00:07:01.26 --&gt; 00:07:03.86] that really had started to shift?
+[00:07:03.86 --&gt; 00:07:07.10] There was a mentality that stayed intact,
+[00:07:07.10 --&gt; 00:07:09.26] that wanted the growth to occur,
+[00:07:09.26 --&gt; 00:07:10.70] that wanted those jobs here.
+[00:07:10.70 --&gt; 00:07:14.74] And I think that's something that a prospect
+[00:07:14.74 --&gt; 00:07:18.14] that's looking and talking can pick up in a heartbeat.
+[00:07:18.14 --&gt; 00:07:19.78] And they read the newspapers.
+[00:07:19.78 --&gt; 00:07:20.90] If they're thinking of coming here,
+[00:07:20.90 --&gt; 00:07:22.18] they read the newspapers.
+[00:07:22.18 --&gt; 00:07:24.18] They do their research.
+[00:07:24.18 --&gt; 00:07:25.70] And if there's a lot of infighting,
+[00:07:25.70 --&gt; 00:07:27.38] if there's a lot of negativity
+[00:07:27.38 --&gt; 00:07:30.58] towards what they're trying to accomplish, they won't come.
+[00:07:30.58 --&gt; 00:07:34.94] I mean, the process is we would normally,
+[00:07:34.94 --&gt; 00:07:37.06] if we don't track down the company ourselves,
+[00:07:37.06 --&gt; 00:07:39.62] we get an RFI, which is request for information.
+[00:07:39.62 --&gt; 00:07:43.02] And then we fill this out and send it back.
+[00:07:43.02 --&gt; 00:07:46.70] And it's usually the person sitting at the front desk
+[00:07:46.70 --&gt; 00:07:47.54] that goes through them all.
+[00:07:47.54 --&gt; 00:07:50.14] And if they don't hit the check marks,
+[00:07:50.14 --&gt; 00:07:53.18] it goes in the round file cabinet.
+[00:07:53.18 --&gt; 00:07:54.94] And so you really don't have a choice.
+[00:07:54.94 --&gt; 00:07:57.18] But once you get through the first step or so,
+[00:07:57.18 --&gt; 00:07:59.74] and then they start doing their research.
+[00:08:00.06 --&gt; 00:08:01.90] And if there is anything
+[00:08:01.90 --&gt; 00:08:04.50] that's really not something they can live with,
+[00:08:04.50 --&gt; 00:08:07.06] then they're not gonna be coming here.
+[00:08:07.06 --&gt; 00:08:09.62] And the consistent growth,
+[00:08:09.62 --&gt; 00:08:12.46] which I know a lot of people are upset with,
+[00:08:12.46 --&gt; 00:08:15.30] but that was part of what made this possible
+[00:08:15.30 --&gt; 00:08:18.86] because we continued to attract the workforce.
+[00:08:18.86 --&gt; 00:08:19.70] I mean, when I was here,
+[00:08:19.70 --&gt; 00:08:23.26] I had one of the companies pulled Mayor Brown aside
+[00:08:23.26 --&gt; 00:08:25.22] and said, would you tell Fenton to quit it?
+[00:08:25.22 --&gt; 00:08:26.58] Quit bringing companies here,
+[00:08:26.58 --&gt; 00:08:29.50] because they were having trouble finding employees.
+[00:08:30.10 --&gt; 00:08:32.06] And so the consistent growth that we've experienced
+[00:08:32.06 --&gt; 00:08:35.02] has allowed those companies to continue to thrive.
+[00:08:35.02 --&gt; 00:08:35.86] Consistent.
+[00:08:35.86 --&gt; 00:08:37.46] And I think that's an important point
+[00:08:37.46 --&gt; 00:08:40.58] that you're making and maybe not driving home though,
+[00:08:40.58 --&gt; 00:08:43.34] that consistency and that stability.
+[00:08:44.66 --&gt; 00:08:46.58] There's communities that are experiencing
+[00:08:46.58 --&gt; 00:08:49.50] the kind of growth that is just debilitating.
+[00:08:49.50 --&gt; 00:08:51.14] Whereas I think what we have here,
+[00:08:51.14 --&gt; 00:08:54.62] although it does create true growing pains,
+[00:08:54.62 --&gt; 00:08:57.86] as our podcast title acknowledges,
+[00:08:57.86 --&gt; 00:09:00.06] although it creates some of those challenges,
+[00:09:00.06 --&gt; 00:09:03.82] it has been a very steady growth and it has been receptive.
+[00:09:03.82 --&gt; 00:09:06.30] And I think you had made the comment
+[00:09:06.30 --&gt; 00:09:08.10] that could easily be taken out of context
+[00:09:08.10 --&gt; 00:09:09.78] that our leaders wanted growth.
+[00:09:10.74 --&gt; 00:09:13.06] What they want is that opportunity, right?
+[00:09:13.06 --&gt; 00:09:14.18] And that in the workforce.
+[00:09:14.18 --&gt; 00:09:15.50] Thank you for correcting that, yeah.
+[00:09:15.50 --&gt; 00:09:16.34] No, that's, I think-
+[00:09:16.34 --&gt; 00:09:18.82] It wasn't that they necessarily wanted this much growth,
+[00:09:18.82 --&gt; 00:09:23.18] but understood there is no stasis in a community.
+[00:09:23.18 --&gt; 00:09:25.22] You're either growing or you're dying.
+[00:09:25.22 --&gt; 00:09:26.06] Yeah.
+[00:09:26.66 --&gt; 00:09:30.38] You can stay where you are for a while,
+[00:09:30.38 --&gt; 00:09:34.42] but the cost of fire trucks and police cars
+[00:09:34.42 --&gt; 00:09:37.58] and water infrastructure, all that stuff keeps increasing.
+[00:09:37.58 --&gt; 00:09:39.82] And so if you don't have growth to keep up with that,
+[00:09:39.82 --&gt; 00:09:40.86] to pay for that,
+[00:09:40.86 --&gt; 00:09:45.30] then a large burden falls on the people that are there.
+[00:09:45.30 --&gt; 00:09:46.90] You can't just close the doors.
+[00:09:46.90 --&gt; 00:09:47.94] And what's interesting,
+[00:09:47.94 --&gt; 00:09:50.14] I had one person come into my office once,
+[00:09:51.26 --&gt; 00:09:53.58] moved from out of state and said,
+[00:09:53.58 --&gt; 00:09:55.54] well, I was able to sell my house for enough.
+[00:09:55.98 --&gt; 00:09:56.82] I was able to come here,
+[00:09:56.82 --&gt; 00:09:57.90] and this is their words,
+[00:09:57.90 --&gt; 00:10:00.74] buy a mansion on six acres.
+[00:10:00.74 --&gt; 00:10:02.10] And I had enough money left over,
+[00:10:02.10 --&gt; 00:10:03.58] so I bought seven acres around me
+[00:10:03.58 --&gt; 00:10:06.18] to keep people from moving in close.
+[00:10:06.18 --&gt; 00:10:08.30] So that's someone that just moved here.
+[00:10:08.30 --&gt; 00:10:10.50] And that was a close the door
+[00:10:10.50 --&gt; 00:10:11.42] and behind them kind of thing.
+[00:10:11.42 --&gt; 00:10:14.58] And that, a community cannot sustain itself
+[00:10:14.58 --&gt; 00:10:16.50] with that kind of a thought process.
+[00:10:16.50 --&gt; 00:10:17.34] Right.
+[00:10:17.34 --&gt; 00:10:18.86] I'm gonna go back to the fund.
+[00:10:18.86 --&gt; 00:10:21.34] Because let's talk about,
+[00:10:21.34 --&gt; 00:10:22.90] you really have,
+[00:10:22.90 --&gt; 00:10:24.66] I know you have a lot of feathers in your cap
+[00:10:24.66 --&gt; 00:10:28.18] from your time in your professional career
+[00:10:28.18 --&gt; 00:10:29.94] and in Gallatin specifically.
+[00:10:29.94 --&gt; 00:10:31.90] Project Skillet.
+[00:10:31.90 --&gt; 00:10:34.50] I don't know if that's how you think back to it,
+[00:10:34.50 --&gt; 00:10:36.78] but that's, it was my first exposure.
+[00:10:36.78 --&gt; 00:10:41.26] So, sitting as a new rookie county commissioner
+[00:10:41.26 --&gt; 00:10:44.34] and not really understanding a lot
+[00:10:44.34 --&gt; 00:10:47.74] about the world of economic development.
+[00:10:47.74 --&gt; 00:10:49.94] And so I really distinctly remember
+[00:10:49.94 --&gt; 00:10:51.70] the first time I was exposed
+[00:10:51.70 --&gt; 00:10:56.62] to what really became a massive investment
+[00:10:56.62 --&gt; 00:10:57.54] in this community.
+[00:10:57.54 --&gt; 00:11:00.66] So let's kind of go back and talk about it.
+[00:11:00.66 --&gt; 00:11:04.94] What made that project so interesting, so complicated?
+[00:11:04.94 --&gt; 00:11:07.18] I mean, you can go in a lot of different directions.
+[00:11:07.18 --&gt; 00:11:12.18] So Project Skillet was 2016,
+[00:11:12.46 --&gt; 00:11:15.14] is when we first introduced to that project.
+[00:11:15.14 --&gt; 00:11:19.86] And it was a company that TVA had brought to us.
+[00:11:19.90 --&gt; 00:11:22.10] It was interesting because like at the beginning,
+[00:11:22.10 --&gt; 00:11:23.14] I think in August,
+[00:11:23.14 --&gt; 00:11:25.94] I had a couple of folks that work in the office
+[00:11:25.94 --&gt; 00:11:27.86] go do a presentation to TVA.
+[00:11:27.86 --&gt; 00:11:29.62] Cause thinking through what we thought
+[00:11:29.62 --&gt; 00:11:31.66] that would be a good place for a data center.
+[00:11:31.66 --&gt; 00:11:33.98] And so they went and presented to TVA
+[00:11:33.98 --&gt; 00:11:36.18] and then three months later,
+[00:11:36.18 --&gt; 00:11:38.94] we were signing an NDA with Project Skillet,
+[00:11:38.94 --&gt; 00:11:42.02] which eventually went to Birmingham, Alabama.
+[00:11:42.02 --&gt; 00:11:43.06] It disappeared.
+[00:11:43.06 --&gt; 00:11:44.70] But then two or three months later,
+[00:11:44.70 --&gt; 00:11:46.66] they were back knocking on the doors.
+[00:11:46.66 --&gt; 00:11:49.98] Now they purchased 800 plus acres.
+[00:11:49.98 --&gt; 00:11:51.54] None of it was city owned.
+[00:11:51.54 --&gt; 00:11:54.58] So there was a complicated process
+[00:11:54.58 --&gt; 00:11:56.46] to get landowners put together.
+[00:11:56.46 --&gt; 00:11:59.94] And amongst that property was a large farm
+[00:11:59.94 --&gt; 00:12:02.86] that was in a trust,
+[00:12:02.86 --&gt; 00:12:04.30] which had to be amended.
+[00:12:04.30 --&gt; 00:12:08.58] And that process took 61 votes.
+[00:12:09.46 --&gt; 00:12:11.74] 61 people had to vote on this.
+[00:12:11.74 --&gt; 00:12:13.74] 24 of them were county commissioners.
+[00:12:13.74 --&gt; 00:12:15.66] Right, as it turned out,
+[00:12:15.66 --&gt; 00:12:18.90] it was gonna go to University of Tennessee
+[00:12:20.34 --&gt; 00:12:22.62] for agricultural experimentation.
+[00:12:22.62 --&gt; 00:12:25.22] And that one word I think is really what saved
+[00:12:25.22 --&gt; 00:12:26.74] this whole process for us.
+[00:12:28.18 --&gt; 00:12:30.54] And I sat down with the president of UT
+[00:12:30.54 --&gt; 00:12:32.90] was in Di Pietro,
+[00:12:32.90 --&gt; 00:12:33.94] sat down and had lunch.
+[00:12:33.94 --&gt; 00:12:35.82] And he says, we do that all time.
+[00:12:35.82 --&gt; 00:12:37.94] We've even got somebody on staff that sells.
+[00:12:37.94 --&gt; 00:12:40.26] And then he wrote back to me in a couple of weeks
+[00:12:40.26 --&gt; 00:12:42.10] and said, sorry,
+[00:12:42.10 --&gt; 00:12:45.30] somebody has had their eyes on that for quite a while.
+[00:12:45.82 --&gt; 00:12:47.34] So it was, you know, at that point,
+[00:12:47.34 --&gt; 00:12:50.02] it was a possibility of the whole thing going sideways.
+[00:12:50.02 --&gt; 00:12:54.62] However, through a lot of conversations,
+[00:12:54.62 --&gt; 00:12:56.82] as it turned out, Randall Boyd,
+[00:12:56.82 --&gt; 00:12:59.38] who was commissioner of economic development for Tennessee
+[00:12:59.38 --&gt; 00:13:02.14] was now president of UT.
+[00:13:02.14 --&gt; 00:13:04.14] They had just reduced the size of their board.
+[00:13:04.14 --&gt; 00:13:06.74] And one of our elected officials had had the chance
+[00:13:06.74 --&gt; 00:13:08.86] to interview all of them before they got selected.
+[00:13:08.86 --&gt; 00:13:11.70] And so there were a lot of connections there.
+[00:13:11.70 --&gt; 00:13:14.90] The board of trustees eventually did sign off
+[00:13:15.46 --&gt; 00:13:19.62] and say that you could sell that property.
+[00:13:19.62 --&gt; 00:13:20.78] So that was step one.
+[00:13:20.78 --&gt; 00:13:22.74] That was step one.
+[00:13:22.74 --&gt; 00:13:24.98] So if UT didn't take it,
+[00:13:24.98 --&gt; 00:13:28.42] then it was to go, I think it was to the county.
+[00:13:28.42 --&gt; 00:13:33.02] Yes, to the county for agricultural experimentation,
+[00:13:33.02 --&gt; 00:13:36.38] which meant investing hundreds of thousands of dollars
+[00:13:36.38 --&gt; 00:13:39.78] in equipment and people and all that kind of stuff.
+[00:13:39.78 --&gt; 00:13:42.26] If it would just been pure agriculture,
+[00:13:42.26 --&gt; 00:13:44.10] they could lease the land out
+[00:13:44.34 --&gt; 00:13:46.54] and had, you know, a revenue stream.
+[00:13:46.54 --&gt; 00:13:49.50] But because it was for experimentation,
+[00:13:49.50 --&gt; 00:13:52.14] it would have taken a lot of investment
+[00:13:52.14 --&gt; 00:13:54.30] for the county to actually do that with it.
+[00:13:54.30 --&gt; 00:13:57.82] And so that's when I was in front of you folks.
+[00:13:58.74 --&gt; 00:14:00.54] One at a time, I'm sure.
+[00:14:00.54 --&gt; 00:14:02.26] Well, at least I know I had a-
+[00:14:02.26 --&gt; 00:14:03.30] Both a lot of folks.
+[00:14:03.30 --&gt; 00:14:07.30] And there was a little different genetic makeup then
+[00:14:07.30 --&gt; 00:14:10.42] than there is now, which allowed it to move forward.
+[00:14:10.42 --&gt; 00:14:11.78] I think we got 14 votes.
+[00:14:11.78 --&gt; 00:14:14.18] We only needed 13 to make it.
+[00:14:14.18 --&gt; 00:14:16.26] And there were a couple of extensions, that kind of stuff.
+[00:14:16.26 --&gt; 00:14:18.58] So, I mean, but overall, they did say that.
+[00:14:18.58 --&gt; 00:14:21.02] And then there was a third party involved
+[00:14:21.02 --&gt; 00:14:22.78] and it was to go to the church,
+[00:14:24.30 --&gt; 00:14:26.46] again, for agricultural experimentation.
+[00:14:26.46 --&gt; 00:14:28.86] And there had been things occurring
+[00:14:28.86 --&gt; 00:14:31.86] that I wasn't aware of with that trust over the years.
+[00:14:31.86 --&gt; 00:14:33.50] They were not necessarily,
+[00:14:33.50 --&gt; 00:14:37.58] when I first walked in there in a receptive mood,
+[00:14:37.58 --&gt; 00:14:39.50] but again, through the conversation,
+[00:14:40.22 --&gt; 00:14:42.74] talking through what it meant for the community
+[00:14:42.74 --&gt; 00:14:44.90] and some remuneration for them,
+[00:14:44.90 --&gt; 00:14:49.22] then we finally got all parties to sign off.
+[00:14:49.22 --&gt; 00:14:52.42] And the actual thing that almost took it down
+[00:14:52.42 --&gt; 00:14:56.02] less than three weeks before we announced is,
+[00:14:57.22 --&gt; 00:14:58.18] I don't know if you know,
+[00:14:58.18 --&gt; 00:15:02.98] but our utility laws in this state are very, very unique
+[00:15:02.98 --&gt; 00:15:05.58] and every utility has their little fiefdom.
+[00:15:05.58 --&gt; 00:15:08.50] And the property they wanted to put the building on
+[00:15:08.50 --&gt; 00:15:11.06] was in another utility district.
+[00:15:11.90 --&gt; 00:15:16.90] And that utility district used less water per day,
+[00:15:17.02 --&gt; 00:15:18.46] the entire district,
+[00:15:18.46 --&gt; 00:15:21.70] than a meadow was going to need possibly in one day.
+[00:15:22.62 --&gt; 00:15:26.78] And so they were unable, but we supply them.
+[00:15:26.78 --&gt; 00:15:28.66] So through a lot of conversation
+[00:15:28.66 --&gt; 00:15:30.38] and actually a board meeting
+[00:15:30.38 --&gt; 00:15:32.18] where our state senator was there,
+[00:15:32.18 --&gt; 00:15:34.82] the commissioner of economic development was there,
+[00:15:34.82 --&gt; 00:15:36.50] mayors were there, I mean, it was,
+[00:15:36.78 --&gt; 00:15:38.86] and they finally agreed to it.
+[00:15:38.86 --&gt; 00:15:40.94] So that, but that was like three weeks
+[00:15:40.94 --&gt; 00:15:41.90] before the announcement.
+[00:15:41.90 --&gt; 00:15:44.66] I did not, I did not recall that for sure or,
+[00:15:44.66 --&gt; 00:15:45.50] and I-
+[00:15:45.50 --&gt; 00:15:46.32] Very close to not happening,
+[00:15:46.32 --&gt; 00:15:48.50] but I finally worked everything out.
+[00:15:48.50 --&gt; 00:15:53.50] And in all honesty with the way
+[00:15:53.50 --&gt; 00:15:55.62] there is a lot of pressure and pushback
+[00:15:55.62 --&gt; 00:15:59.42] against large data centers in the United States right now,
+[00:15:59.42 --&gt; 00:16:01.50] because they're popping up everywhere
+[00:16:01.50 --&gt; 00:16:04.58] and consuming such a great amount of power
+[00:16:04.58 --&gt; 00:16:07.26] and water and those kinds of things.
+[00:16:07.26 --&gt; 00:16:10.86] Again, 10 years ago, it was a great idea.
+[00:16:10.86 --&gt; 00:16:13.58] And it turned out to be a real big positive thing
+[00:16:13.58 --&gt; 00:16:15.22] for this community.
+[00:16:15.22 --&gt; 00:16:18.14] The largest revenue stream in the county
+[00:16:18.14 --&gt; 00:16:21.34] and they've been very generous to the community.
+[00:16:21.34 --&gt; 00:16:24.18] And so I think it's very good.
+[00:16:24.18 --&gt; 00:16:27.34] Got in before the big push, the big rush.
+[00:16:27.34 --&gt; 00:16:28.50] Well, you're right,
+[00:16:28.50 --&gt; 00:16:31.50] because what Metta was talking about was long before.
+[00:16:31.50 --&gt; 00:16:34.94] I mean, like you said, back in 2016 and through 2019,
+[00:16:34.94 --&gt; 00:16:36.90] when it was finally fully approved,
+[00:16:37.82 --&gt; 00:16:42.18] we weren't talking about AI and the amount of data
+[00:16:42.18 --&gt; 00:16:44.94] and processing that is now on the horizon.
+[00:16:44.94 --&gt; 00:16:48.30] So it is, it's a very different situation.
+[00:16:51.02 --&gt; 00:16:55.14] It was an enormous investment and it's become even bigger.
+[00:16:55.14 --&gt; 00:16:57.74] And I don't have, I have a hard time,
+[00:16:57.74 --&gt; 00:16:58.74] I'm really good at math,
+[00:16:58.74 --&gt; 00:17:01.14] but I have a hard time remembering numbers, the specifics.
+[00:17:01.14 --&gt; 00:17:02.90] So like in this case with Metta,
+[00:17:02.90 --&gt; 00:17:06.86] their investment has, maybe not exponentially increased,
+[00:17:06.86 --&gt; 00:17:08.38] but it has increased significantly
+[00:17:08.38 --&gt; 00:17:11.82] from the original plan in 2019.
+[00:17:11.82 --&gt; 00:17:16.74] Why do you think that that investment continued to flourish
+[00:17:16.74 --&gt; 00:17:17.70] in that relationship?
+[00:17:17.70 --&gt; 00:17:20.22] Because as you said, they are a great community partner.
+[00:17:20.22 --&gt; 00:17:23.30] They are looking for every opportunity to invest back
+[00:17:23.30 --&gt; 00:17:26.46] in this community and the people that are here.
+[00:17:26.46 --&gt; 00:17:29.14] So what do you think has allowed it to continue
+[00:17:29.14 --&gt; 00:17:30.98] to be such a success?
+[00:17:31.86 --&gt; 00:17:34.98] I think it's the city's forward thinking and planning.
+[00:17:34.98 --&gt; 00:17:37.90] You know, we had excess capacity in the water system
+[00:17:37.90 --&gt; 00:17:39.94] and they invested millions of dollars.
+[00:17:39.94 --&gt; 00:17:43.70] They probably invested $17 million in our community.
+[00:17:43.70 --&gt; 00:17:46.38] We didn't have to give, we didn't give them,
+[00:17:46.38 --&gt; 00:17:47.22] you know, anything.
+[00:17:47.22 --&gt; 00:17:48.54] We didn't put anything in for them.
+[00:17:48.54 --&gt; 00:17:51.50] They paid for everything and upgraded our water system.
+[00:17:51.50 --&gt; 00:17:53.62] They put in roads for us, things like that.
+[00:17:53.62 --&gt; 00:17:55.66] So it was a fact that the city, again,
+[00:17:55.66 --&gt; 00:17:58.10] had their own utilities and were forward thinking.
+[00:17:58.10 --&gt; 00:17:59.54] I think it was just fortunate.
+[00:17:59.54 --&gt; 00:18:01.78] We had a power plant right down the road.
+[00:18:01.78 --&gt; 00:18:04.34] You know, that's, you know, there was a 161 KV line
+[00:18:04.34 --&gt; 00:18:05.70] running right through the middle of the property
+[00:18:05.70 --&gt; 00:18:06.70] they were purchasing.
+[00:18:06.70 --&gt; 00:18:09.10] So there was a lot of, you know, things like that.
+[00:18:09.10 --&gt; 00:18:10.54] What's a 161 KV line?
+[00:18:10.54 --&gt; 00:18:12.74] That's a big electric cord.
+[00:18:13.66 --&gt; 00:18:15.58] A lot of electricity running through the middle
+[00:18:15.58 --&gt; 00:18:17.46] of that facility out there.
+[00:18:17.46 --&gt; 00:18:20.18] And again, the neighbors, you know,
+[00:18:20.18 --&gt; 00:18:22.58] that came together and did sell them some land.
+[00:18:22.58 --&gt; 00:18:24.74] That was something.
+[00:18:24.74 --&gt; 00:18:27.42] And you know, when they started building,
+[00:18:27.42 --&gt; 00:18:32.42] they spent, I think, six months blasting twice a day
+[00:18:32.94 --&gt; 00:18:35.58] to create a big level spot out for them.
+[00:18:35.58 --&gt; 00:18:36.42] They, you know, they had,
+[00:18:36.42 --&gt; 00:18:38.78] they had a vision of all five or six buildings,
+[00:18:38.78 --&gt; 00:18:40.82] but you know, they were putting all that in
+[00:18:40.82 --&gt; 00:18:42.58] to begin with, but then just, you know,
+[00:18:42.58 --&gt; 00:18:43.98] could only commit, you know,
+[00:18:43.98 --&gt; 00:18:45.54] to the two buildings that they did.
+[00:18:45.54 --&gt; 00:18:46.86] But they have, again, continued
+[00:18:46.86 --&gt; 00:18:50.62] just because Gallatin's a great place.
+[00:18:52.10 --&gt; 00:18:54.02] I remember that time period
+[00:18:54.02 --&gt; 00:18:56.02] and there was a lot of communication.
+[00:18:56.62 --&gt; 00:18:58.70] You mentioned early in this conversation,
+[00:18:58.70 --&gt; 00:19:00.86] just the importance of relationships
+[00:19:00.86 --&gt; 00:19:04.86] and the importance of bringing the right people
+[00:19:04.86 --&gt; 00:19:05.70] to the table.
+[00:19:05.70 --&gt; 00:19:06.90] And even when residents, you know,
+[00:19:06.90 --&gt; 00:19:10.30] are gonna experience some discomfort,
+[00:19:10.30 --&gt; 00:19:13.38] helping navigate through those challenging situations
+[00:19:13.38 --&gt; 00:19:15.42] and knowing that the end game, you know,
+[00:19:15.42 --&gt; 00:19:16.98] creates an opportunity.
+[00:19:18.62 --&gt; 00:19:21.38] It's just, it's not something that is,
+[00:19:21.38 --&gt; 00:19:22.54] it happens overnight.
+[00:19:22.54 --&gt; 00:19:23.82] And it definitely doesn't happen
+[00:19:23.86 --&gt; 00:19:26.46] without a lot of thought and forethought
+[00:19:26.46 --&gt; 00:19:31.26] about how to make these situations really a win-win-win,
+[00:19:31.26 --&gt; 00:19:33.54] win-win-win for everyone involved.
+[00:19:33.54 --&gt; 00:19:37.02] And the companies involved in putting up the facility
+[00:19:37.02 --&gt; 00:19:39.70] and doing the blasting were extremely responsive.
+[00:19:39.70 --&gt; 00:19:43.90] I got all the phone calls complaining, you know,
+[00:19:43.90 --&gt; 00:19:46.10] and so they did a spectacular job
+[00:19:46.10 --&gt; 00:19:48.50] of putting monitors all around, went to people's houses.
+[00:19:48.50 --&gt; 00:19:50.46] If there was a complaint, there was a crack, whatever.
+[00:19:50.46 --&gt; 00:19:51.86] They showed up, they fixed it.
+[00:19:51.86 --&gt; 00:19:52.98] They didn't argue about it.
+[00:19:53.02 --&gt; 00:19:54.58] I mean, there was just,
+[00:19:54.58 --&gt; 00:19:57.22] and that was one of the conversations we had beforehand
+[00:19:57.22 --&gt; 00:19:58.34] because we knew this was gonna be
+[00:19:58.34 --&gt; 00:20:00.22] a long, invasive process.
+[00:20:00.22 --&gt; 00:20:02.90] And so we just made sure that there were steps in place
+[00:20:02.90 --&gt; 00:20:05.66] to make sure we addressed concerns that were out there.
+[00:20:05.66 --&gt; 00:20:07.10] I think that's one of the things
+[00:20:07.10 --&gt; 00:20:09.82] that I hope to accomplish through this podcast
+[00:20:09.82 --&gt; 00:20:14.82] is an ever-present acknowledgement
+[00:20:15.14 --&gt; 00:20:18.10] of the fact that there are consequences
+[00:20:18.10 --&gt; 00:20:23.10] and there is inconvenience that comes along the way
+[00:20:23.26 --&gt; 00:20:26.50] towards the opportunity that we are really searching for.
+[00:20:26.50 --&gt; 00:20:28.74] So when you've got strong leaders
+[00:20:28.74 --&gt; 00:20:31.18] who are thinking of the future of this community
+[00:20:31.18 --&gt; 00:20:33.62] and how you continue to create opportunity
+[00:20:33.62 --&gt; 00:20:36.62] for our families, for our children, for their families,
+[00:20:36.62 --&gt; 00:20:40.98] and create a place that people love to be and call home,
+[00:20:40.98 --&gt; 00:20:42.58] having that vision for the future,
+[00:20:42.58 --&gt; 00:20:44.94] it doesn't come without those inconveniences.
+[00:20:44.94 --&gt; 00:20:47.70] And I think it does all of us a little good
+[00:20:48.14 --&gt; 00:20:49.66] just to stop and acknowledge that
+[00:20:49.66 --&gt; 00:20:54.02] and be mindful because we can't get
+[00:20:54.02 --&gt; 00:20:56.06] to the end game without that.
+[00:20:56.06 --&gt; 00:20:56.90] Right, right.
+[00:20:56.90 --&gt; 00:21:00.82] And again, complaining about growth that was there
+[00:21:00.82 --&gt; 00:21:02.90] and apartment buildings that were consumed,
+[00:21:02.90 --&gt; 00:21:04.58] just make it very clear,
+[00:21:04.58 --&gt; 00:21:08.18] the city never pursued nor incentivized multifamily.
+[00:21:08.18 --&gt; 00:21:10.02] They came on their own.
+[00:21:10.02 --&gt; 00:21:12.02] But also along with that
+[00:21:12.02 --&gt; 00:21:14.10] came 20-some-odd new restaurants
+[00:21:14.98 --&gt; 00:21:18.22] that people enjoy and take advantage of nowadays
+[00:21:18.22 --&gt; 00:21:21.26] that they wouldn't have if that concentration
+[00:21:21.26 --&gt; 00:21:23.22] of population hadn't started to arise.
+[00:21:23.22 --&gt; 00:21:24.06] Let's talk about that.
+[00:21:24.06 --&gt; 00:21:27.06] I don't think I've been able to capture that
+[00:21:27.06 --&gt; 00:21:29.70] in any of our prior conversations.
+[00:21:29.70 --&gt; 00:21:33.50] There's certain thresholds that as a,
+[00:21:33.50 --&gt; 00:21:36.06] especially these bigger franchises or chains,
+[00:21:36.06 --&gt; 00:21:38.38] people might be looking forward to
+[00:21:38.38 --&gt; 00:21:40.86] some different restaurants that they hope come someday,
+[00:21:40.86 --&gt; 00:21:44.18] but they're not until we reach a certain threshold.
+[00:21:44.18 --&gt; 00:21:45.94] What are some of those factors?
+[00:21:45.94 --&gt; 00:21:47.10] Well, and it depends on what?
+[00:21:47.10 --&gt; 00:21:48.94] If you're looking at a fast food, that's one thing.
+[00:21:48.94 --&gt; 00:21:51.14] If you're looking at a nice restaurant,
+[00:21:51.14 --&gt; 00:21:55.22] I had requests constantly for a very nice restaurant,
+[00:21:55.22 --&gt; 00:21:57.82] but you look at the checklist they have,
+[00:21:57.82 --&gt; 00:21:59.62] they have to have 50,000 people
+[00:21:59.62 --&gt; 00:22:01.18] within a three mile radius.
+[00:22:01.18 --&gt; 00:22:02.14] Within a three.
+[00:22:02.14 --&gt; 00:22:03.54] You can't do that here in Gallatin
+[00:22:03.54 --&gt; 00:22:06.54] without everybody moving into the same place.
+[00:22:06.54 --&gt; 00:22:09.38] So, I mean, there are thresholds like that.
+[00:22:09.70 --&gt; 00:22:11.22] And I think we've gotten to it.
+[00:22:11.22 --&gt; 00:22:13.82] It was that 50,000 mark that really started
+[00:22:13.82 --&gt; 00:22:15.54] to really set things off.
+[00:22:15.54 --&gt; 00:22:17.42] But as we started getting closer to it
+[00:22:17.42 --&gt; 00:22:20.46] and we had shown a consistent growth pattern,
+[00:22:20.46 --&gt; 00:22:22.38] again, getting back to that consistency,
+[00:22:22.38 --&gt; 00:22:24.90] there weren't spikes, it was just a steady curve,
+[00:22:24.90 --&gt; 00:22:26.38] and it was leaning towards,
+[00:22:26.38 --&gt; 00:22:28.74] quickly towards that 50,000 mark.
+[00:22:28.74 --&gt; 00:22:33.14] Realized when I got here, started in July of 2012,
+[00:22:33.14 --&gt; 00:22:36.02] the city was 33,400.
+[00:22:36.02 --&gt; 00:22:36.86] Wow.
+[00:22:36.86 --&gt; 00:22:38.62] And now it's 52,000?
+[00:22:38.70 --&gt; 00:22:41.66] I think I just saw something that's north of 53.
+[00:22:41.66 --&gt; 00:22:42.50] Okay.
+[00:22:42.50 --&gt; 00:22:47.50] So yeah, you know, 20,000 people in 13 years, 14 years.
+[00:22:48.02 --&gt; 00:22:49.14] But again, it's been consistent.
+[00:22:49.14 --&gt; 00:22:49.98] But it's been steady.
+[00:22:49.98 --&gt; 00:22:51.70] It's been consistent, yeah, yeah.
+[00:22:51.70 --&gt; 00:22:53.14] Let's shift gears a little bit now.
+[00:22:53.14 --&gt; 00:22:55.58] We'll talk about the future of investment
+[00:22:55.58 --&gt; 00:22:59.38] and the opportunities that still are on the threshold
+[00:22:59.38 --&gt; 00:23:00.22] for Sumner County.
+[00:23:00.22 --&gt; 00:23:03.86] If you were to give leaders kind of a playbook,
+[00:23:03.86 --&gt; 00:23:06.22] what are some of the non-negotiables
+[00:23:06.22 --&gt; 00:23:11.22] that a community needs to make available
+[00:23:11.38 --&gt; 00:23:13.26] and make part of the conversation
+[00:23:13.26 --&gt; 00:23:16.42] to enable smart investment?
+[00:23:17.38 --&gt; 00:23:18.34] I think first as a whole,
+[00:23:18.34 --&gt; 00:23:20.58] the community needs to decide what direction
+[00:23:20.58 --&gt; 00:23:21.98] that they want to go.
+[00:23:21.98 --&gt; 00:23:24.86] There has to be a fairly common thought process occurring
+[00:23:24.86 --&gt; 00:23:27.02] so that everybody understands that's not,
+[00:23:27.02 --&gt; 00:23:30.10] and that doesn't mean everybody has to agree 100%
+[00:23:30.10 --&gt; 00:23:31.66] because some people are going to want to go over there
+[00:23:31.66 --&gt; 00:23:32.90] and some people are going to want to go over there.
+[00:23:32.90 --&gt; 00:23:34.58] But there has to be a general idea
+[00:23:34.62 --&gt; 00:23:37.90] that the entire community is moving towards.
+[00:23:37.90 --&gt; 00:23:41.38] I think second is the importance of the infrastructure,
+[00:23:41.38 --&gt; 00:23:42.48] of the utilities.
+[00:23:43.70 --&gt; 00:23:45.18] That has to be there obviously
+[00:23:45.18 --&gt; 00:23:47.78] or just won't function at all.
+[00:23:47.78 --&gt; 00:23:50.34] There's no place for people to go.
+[00:23:50.34 --&gt; 00:23:55.34] I think the permitting process can be difficult.
+[00:23:59.86 --&gt; 00:24:02.66] We are very fortunate here in Gallatin,
+[00:24:02.66 --&gt; 00:24:03.78] from the top to the bottom,
+[00:24:03.82 --&gt; 00:24:06.62] every department, everybody that works in those departments
+[00:24:07.70 --&gt; 00:24:09.02] knew what they were doing.
+[00:24:09.02 --&gt; 00:24:10.82] And that was one of the things that I was able to do
+[00:24:10.82 --&gt; 00:24:13.70] is to walk these prospects through this process
+[00:24:13.70 --&gt; 00:24:15.98] and they could sit down and understand, yes, here it is,
+[00:24:15.98 --&gt; 00:24:18.38] it's all written out, this is what you need to do.
+[00:24:18.38 --&gt; 00:24:20.34] And I think making that crystal clear
+[00:24:20.34 --&gt; 00:24:25.34] and as easy as possible without undue onus on companies
+[00:24:25.34 --&gt; 00:24:26.98] and some of that comes from the federal level,
+[00:24:26.98 --&gt; 00:24:29.94] some of that comes from the state level.
+[00:24:29.94 --&gt; 00:24:33.40] But making that process smooth is also good.
+[00:24:33.92 --&gt; 00:24:36.88] And again, the conversation has to be positive.
+[00:24:37.80 --&gt; 00:24:40.48] That's an important aspect to that.
+[00:24:40.48 --&gt; 00:24:43.56] Like I mentioned earlier, they do their research.
+[00:24:44.68 --&gt; 00:24:48.56] And I would get emails, well, what did this person say?
+[00:24:48.56 --&gt; 00:24:49.76] Did they mean that?
+[00:24:49.76 --&gt; 00:24:51.32] Is that really going to happen?
+[00:24:51.32 --&gt; 00:24:52.92] And I'd have to walk through the process
+[00:24:52.92 --&gt; 00:24:54.76] and find out if it was really going to happen
+[00:24:54.76 --&gt; 00:24:57.92] or if that was just somebody making a grandstand
+[00:24:57.92 --&gt; 00:24:58.76] or something.
+[00:24:58.76 --&gt; 00:24:59.72] That's an important, yeah.
+[00:24:59.72 --&gt; 00:25:02.20] There's been talk about our public meetings
+[00:25:02.32 --&gt; 00:25:06.16] and so there's a lot of ways for residents
+[00:25:06.16 --&gt; 00:25:08.20] and those future investors we're talking about right now,
+[00:25:08.20 --&gt; 00:25:11.36] right, to keep tabs on the tone
+[00:25:11.36 --&gt; 00:25:14.02] and the culture of a community.
+[00:25:14.02 --&gt; 00:25:14.86] So it is-
+[00:25:14.86 --&gt; 00:25:16.80] Yeah, putting them on TV
+[00:25:16.80 --&gt; 00:25:19.32] makes it accessible to everybody.
+[00:25:19.32 --&gt; 00:25:20.16] It does.
+[00:25:20.16 --&gt; 00:25:22.08] And you would be surprised how many people
+[00:25:22.08 --&gt; 00:25:24.36] that one person, the last person on that list,
+[00:25:24.36 --&gt; 00:25:28.08] that nobody recognizes who they're with.
+[00:25:28.08 --&gt; 00:25:31.20] But you mentioned making some of these processes
+[00:25:31.24 --&gt; 00:25:32.60] as smooth as possible.
+[00:25:32.60 --&gt; 00:25:35.66] And in many cases, having somebody like you
+[00:25:35.66 --&gt; 00:25:39.74] able to kind of handhold people or businesses
+[00:25:39.74 --&gt; 00:25:41.08] through that process is important.
+[00:25:41.08 --&gt; 00:25:44.32] But talk a little bit about just the importance
+[00:25:44.32 --&gt; 00:25:48.16] of things moving through a process on time.
+[00:25:48.16 --&gt; 00:25:51.16] There's investments that are made on the front end
+[00:25:51.16 --&gt; 00:25:54.06] that really depend on a thoughtful
+[00:25:54.06 --&gt; 00:25:58.00] and expeditious decision-making process.
+[00:25:58.00 --&gt; 00:26:01.52] And so sometimes you do see maybe grandstanding
+[00:26:01.52 --&gt; 00:26:05.52] or other behaviors that happen in these approval processes
+[00:26:05.52 --&gt; 00:26:08.80] that don't really understand what's at stake
+[00:26:08.80 --&gt; 00:26:09.88] and don't understand what...
+[00:26:09.88 --&gt; 00:26:11.40] Can you just talk a little bit about like,
+[00:26:11.40 --&gt; 00:26:12.90] have you seen some examples even
+[00:26:12.90 --&gt; 00:26:14.60] or something that you can refer to?
+[00:26:14.60 --&gt; 00:26:16.94] Mentioned at the beginning that a lot of people
+[00:26:16.94 --&gt; 00:26:18.92] think economic development is just ribbon cutting
+[00:26:18.92 --&gt; 00:26:20.36] and groundbreaking.
+[00:26:21.46 --&gt; 00:26:22.96] By the time you get to that,
+[00:26:24.28 --&gt; 00:26:25.56] 90% of the work's done.
+[00:26:25.56 --&gt; 00:26:27.20] All they have to do is build the building.
+[00:26:27.76 --&gt; 00:26:29.00] And it does take all that.
+[00:26:29.00 --&gt; 00:26:31.76] And when a company invests large amounts,
+[00:26:31.76 --&gt; 00:26:33.32] hundreds of millions of dollars sometimes,
+[00:26:33.32 --&gt; 00:26:35.34] tens of millions of dollars,
+[00:26:35.34 --&gt; 00:26:39.32] they put out a Gantt chart as far as how construction,
+[00:26:39.32 --&gt; 00:26:42.04] when they're gonna be up there betting on coming online
+[00:26:42.04 --&gt; 00:26:44.40] at this time so they can start making money again
+[00:26:44.40 --&gt; 00:26:46.32] or making more money and paying for this.
+[00:26:46.32 --&gt; 00:26:49.08] So anything in the middle of that process
+[00:26:49.08 --&gt; 00:26:51.48] that throws a real hiccup into it,
+[00:26:51.48 --&gt; 00:26:55.48] that impacts the bottom line of a company directly.
+[00:26:55.52 --&gt; 00:26:57.20] Because if you have to delay it for a month
+[00:26:57.20 --&gt; 00:27:00.48] because of whatever, somebody got upset
+[00:27:00.48 --&gt; 00:27:01.82] that they were doing such and such
+[00:27:01.82 --&gt; 00:27:03.54] and they got to stop, cease and desist
+[00:27:03.54 --&gt; 00:27:05.32] until we figure that out,
+[00:27:05.32 --&gt; 00:27:08.04] that has a tremendous impact on a community.
+[00:27:08.04 --&gt; 00:27:10.36] And just like during this ice storm,
+[00:27:10.36 --&gt; 00:27:13.16] when some of these small places had to shut down
+[00:27:13.16 --&gt; 00:27:14.00] for a week,
+[00:27:15.88 --&gt; 00:27:17.54] some are gonna have a difficult time recovering
+[00:27:17.54 --&gt; 00:27:21.80] just because that wasn't in their pro forma, so to speak.
+[00:27:21.80 --&gt; 00:27:25.44] That's major implications and it is,
+[00:27:25.44 --&gt; 00:27:29.00] it's hard to quantify that here as a theoretical,
+[00:27:29.00 --&gt; 00:27:32.66] but I do know that I've seen tens, hundreds of thousands,
+[00:27:32.66 --&gt; 00:27:35.44] maybe millions of dollars of just throwaway
+[00:27:35.44 --&gt; 00:27:36.56] when you've put a plan together
+[00:27:36.56 --&gt; 00:27:41.56] that gets stuck needlessly or just without a,
+[00:27:44.16 --&gt; 00:27:47.92] without a genuine interest in resolving that question
+[00:27:48.64 --&gt; 00:27:53.64] and just not respecting the opportunity that's at hand
+[00:27:53.92 --&gt; 00:27:55.16] and the investment that's being made
+[00:27:55.16 --&gt; 00:27:57.68] in bringing that opportunity forward.
+[00:27:57.68 --&gt; 00:27:59.56] It's just hard for most people
+[00:27:59.56 --&gt; 00:28:01.60] to wrap their head around it.
+[00:28:01.60 --&gt; 00:28:02.92] All right, let's try this.
+[00:28:02.92 --&gt; 00:28:04.72] I've never done this on one of my podcasts,
+[00:28:04.72 --&gt; 00:28:09.00] but I thought you have, like I said it in the beginning,
+[00:28:09.00 --&gt; 00:28:11.84] an intense amount of knowledge and wisdom in that brain.
+[00:28:11.84 --&gt; 00:28:14.64] So I'm gonna try a rapid fire round with you, okay?
+[00:28:14.64 --&gt; 00:28:16.16] Let's see if we can do this.
+[00:28:16.16 --&gt; 00:28:18.96] So no sentences, just, you know,
+[00:28:18.96 --&gt; 00:28:22.52] or maybe one sentence each, no big speeches on any of these.
+[00:28:22.52 --&gt; 00:28:24.12] The most underrated ingredient
+[00:28:24.12 --&gt; 00:28:27.36] in landing major projects is?
+[00:28:27.36 --&gt; 00:28:28.60] Personal relationships.
+[00:28:28.60 --&gt; 00:28:32.16] The biggest deal killer communities create for themselves?
+[00:28:32.16 --&gt; 00:28:33.88] Public discord.
+[00:28:33.88 --&gt; 00:28:37.16] The best reason to say no to a big project?
+[00:28:37.16 --&gt; 00:28:38.62] Wages.
+[00:28:38.62 --&gt; 00:28:39.76] Excellent.
+[00:28:39.76 --&gt; 00:28:41.30] Best reason to say yes?
+[00:28:41.30 --&gt; 00:28:42.72] Fits into the plan.
+[00:28:42.72 --&gt; 00:28:45.80] The difference between growth and smart growth?
+[00:28:46.76 --&gt; 00:28:47.60] That's gonna take more than a sentence.
+[00:28:47.60 --&gt; 00:28:50.36] You can have more than a sentence on that.
+[00:28:50.36 --&gt; 00:28:52.92] Smart growth truly means elected officials
+[00:28:52.92 --&gt; 00:28:54.76] understand that it's coming
+[00:28:54.76 --&gt; 00:28:57.30] and are making plans for that
+[00:28:57.30 --&gt; 00:28:59.12] so they don't get swallowed up and get behind.
+[00:28:59.12 --&gt; 00:29:00.42] Because once you get behind,
+[00:29:00.42 --&gt; 00:29:03.00] it's really, really difficult to get back ahead.
+[00:29:03.00 --&gt; 00:29:04.68] Some of the things that they've done here in Gallatin,
+[00:29:04.68 --&gt; 00:29:07.56] like synchronize all the stoplights throughout the town
+[00:29:07.56 --&gt; 00:29:08.90] so it makes traffic flow better,
+[00:29:08.90 --&gt; 00:29:11.08] things like that where they're able to get out ahead
+[00:29:11.08 --&gt; 00:29:13.94] and helps alleviate some of those growing pains.
+[00:29:13.94 --&gt; 00:29:15.16] Yeah.
+[00:29:15.16 --&gt; 00:29:17.84] Thank you for throwing that title right back in there.
+[00:29:17.84 --&gt; 00:29:20.12] All right, so we'll wrap it up with this.
+[00:29:20.12 --&gt; 00:29:22.72] What's your advice to the next generation of leaders
+[00:29:22.72 --&gt; 00:29:24.94] who want to do big things
+[00:29:26.00 --&gt; 00:29:29.00] but don't want to break their community in the process?
+[00:29:29.00 --&gt; 00:29:31.80] And I bet you've touched on a lot of this already.
+[00:29:31.80 --&gt; 00:29:33.36] I think one of the things
+[00:29:33.36 --&gt; 00:29:35.16] that Gallatin's actually doing right now
+[00:29:35.16 --&gt; 00:29:38.56] is thinking about growing up instead of growing out.
+[00:29:38.56 --&gt; 00:29:40.48] They're looking at redoing the downtown,
+[00:29:40.48 --&gt; 00:29:41.48] redoing City Hall,
+[00:29:41.48 --&gt; 00:29:44.40] putting up a large development downtown.
+[00:29:45.12 --&gt; 00:29:48.62] That kind of forward thinking
+[00:29:48.62 --&gt; 00:29:51.16] is going to help the downtown area thrive.
+[00:29:51.16 --&gt; 00:29:52.60] And when a downtown area thrives,
+[00:29:52.60 --&gt; 00:29:53.92] the rest of the community thrives.
+[00:29:53.92 --&gt; 00:29:57.84] So I like what Gallatin's looking at right now.
+[00:29:57.84 --&gt; 00:30:00.00] Yeah, well, and looking at it
+[00:30:00.00 --&gt; 00:30:01.48] doesn't mean we're committed.
+[00:30:01.48 --&gt; 00:30:02.38] No.
+[00:30:02.38 --&gt; 00:30:03.92] But I appreciate the due process
+[00:30:03.92 --&gt; 00:30:05.18] and I thank you.
+[00:30:06.68 --&gt; 00:30:08.04] That'll definitely be a topic
+[00:30:08.04 --&gt; 00:30:09.72] for another future podcast episode.
+[00:30:09.72 --&gt; 00:30:12.24] So thank you for teeing that up for next time.
+[00:30:12.24 --&gt; 00:30:14.04] Thanks for coming up to visit with us.
+[00:30:14.56 --&gt; 00:30:15.40] I really appreciate you.
+[00:30:15.40 --&gt; 00:30:16.24] Anytime.
+[00:30:16.24 --&gt; 00:30:17.48] I appreciate the invite.
+[00:30:17.48 --&gt; 00:30:18.32] Thanks.
+[00:30:18.32 --&gt; 00:30:19.16] Till next time.</pre>
