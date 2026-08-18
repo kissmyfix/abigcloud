@@ -1,25 +1,35 @@
----
-# Quid-Pro-NO!
----
-**How every level of government is failing Tennesseans and how far those holding office will go while doing it.**
-**What are half truths and omissions if not lies? Are they spin for personal gain? Greed? Does it really matter?**
----
-This isn't a story about one evil villian we've all come to expect. It's about intent and reason. It's my way of trying to do my small part in bringing to light something I feel my neighbors have the right to at the very least be aware of.that I you will come to   It's a story about every safeguard, every check, and balance America was born from failing the very people it was made to protect. Because whether it be incompetence or deliberate malice the result is the same. 
+# It's a Big Cloud
 
-We the People lose.
+**What is actually happening in Middle Tennessee, and why the story being told may not be complete.**
 
-And for me at least, it all started similar every things else has in the months I've been trying to wrap my head around it all.to An Industrial Development Board that at every turn is walking a line I'm not convinced can be successfully straddled. The line separating a government agency beholden to oversight and a corporation unbound by rule or moral is surprisingly thin. Plus, they've got help. A state legislature willing to amend the tax code in the midst of NDA agreements and secrecy.secret negotiations. A university trust designation cleared through political relationships. PILOT agreements written with intentional ambiguity to concentrate financial discretion in an appointed board. Federal filings fabricated to create a paper identity that shouldn't exist. And the entire time, every politician, every PR team, and every media outlet repeating the same talking points — consistent, bipartisan, positive — while the actual structure ensured that a trillion-dollar corporation's tax obligations were minimized and the money that did flow was controlled by people nobody elected.
-
-Every claim is sourced from public records, state filings, federal tax documents, property assessments, legislative archives, and the participants' own words. The evidence is organized below. Check it yourself.
+The site is at [abigcloud.com](https://abigcloud.com). This repository is the evidence behind it.
 
 ---
 
-| Part | Title | Summary |
-|------|-------|---------|
-| Part 1 *(in progress)* | **The Simple Question That Wasn't** | A Gallatin resident asks whether the promises made about Meta's data center were kept — and discovers a system engineered to make the question uncheckable. |
-| Part 2 *(forthcoming)* | **Where Were the Adults?** | Every layer of oversight that should have caught this — county, city, state legislature, comptroller, IRS, press — and the specific moment each one failed or was bypassed. |
+## Why This Repository Exists
 
-The evidence below is published now; the written parts land as they're finished.
+The source material behind this work is not linkable web content. It is meeting minutes, property assessments, federal tax filings, legislative archives, and audio recordings. Most of it exists as documents nobody has put online in any usable form.
+
+So it lives here, in the open. Every document an article cites is also published on the site itself, listed at [abigcloud.com/sources](https://abigcloud.com/sources/), so a citation opens the document rather than a footnote. The originals are in this repository, organised by jurisdiction. If a claim is made, the document behind it is one click away and you can read it yourself.
+
+Every document here is a public record or was obtained through lawful public channels. Nothing has been altered. Where documents came from public portals, the retrieval method and date are noted.
+
+This is not a legal filing. It is not a formal complaint. It is not affiliated with any political party, advocacy group, or media organization. It is one resident's attempt to answer a simple question, **have the promises been kept?**, using only public records and primary sources.
+
+If any claim is inaccurate, [open an issue](https://github.com/kissmyfix/abigcloud/issues). That is the point of putting it here.
+
+---
+
+
+## The Investigations
+
+| Investigation | Status |
+|---|---|
+| **[Quid-Pro-NO!](https://abigcloud.com/investigations/quid_pro_no/)** — Meta, Gallatin, the Industrial Development Board, and the PILOT structure | Part 1 published, in progress |
+
+The site covers data centers more broadly — TVA, ratepayer costs, the national picture,
+and other Middle Tennessee sites. Investigations are the deep dives; Quid-Pro-NO is the
+first one carried to any length.
 
 ---
 
