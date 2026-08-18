@@ -27,3 +27,14 @@ Thumbs.db
 # --- Nested repositories with their own remotes; not content of this repo ---
 abigcloud/
 www/abigcloud_v2/
+
+# --- Pulled 2026-08-17, pending the AI-disclosure policy update ---
+# Not secret; withheld deliberately. These are agent-operating files and
+# pre-publication working material, not evidence. Revisit each one when the
+# disclosure policy is rewritten and republish what belongs in the open.
+CLAUDE.md
+handoff.md
+.claude/
+files/voice-and-method-web.md
+files/ai-toolchain-changelog.md
+angles/
