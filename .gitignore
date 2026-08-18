@@ -31,7 +31,7 @@ abigcloud/web/node_modules/
 # pre-publication working material, not evidence. Revisit each one when the
 # disclosure policy is rewritten and republish what belongs in the open.
 CLAUDE.md
-handoff.md
+# handoff.md archived to memory/archive/ 2026-08-17
 .claude/
 files/voice-and-method-web.md
 files/ai-toolchain-changelog.md

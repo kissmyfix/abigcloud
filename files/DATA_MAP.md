@@ -108,7 +108,7 @@ The repo is public. These stay local:
 |---|---|
 | `monologues/`, `memory/`, `.remember/` | Working notes and drafts, not evidence |
 | `angles/` | Pre-publication strategy, including rebuttals held in reserve |
-| `CLAUDE.md`, `.claude/`, `handoff.md` | Agent operating instructions |
+| `CLAUDE.md`, `.claude/` | Agent operating instructions |
 | `files/voice-and-method-web.md` | Voice analysis built from private chat logs |
 | `podcasts/mp3s/`, `saved_sites/` | Large binaries; transcripts and text are published instead |
 | `abigcloud/web/{dist,node_modules,.astro}/` | Build output |

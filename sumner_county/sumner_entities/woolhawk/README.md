@@ -13,9 +13,10 @@ Working notes and findings on Woolhawk LLC (Meta Platforms) — one of the 11 co
 ## Handling Instructions
 - Not citable as fact on its own — it's our working analysis, cite the underlying primary source instead
 - Cross-check any figure here against the source document before using it in a draft
-- `www/sumner_pilot_tracker_v2/js/entities/woolhawk.js` is *generated* from this entity's memory (formatted for the tracker's rendering needs) — it is not a symlink and not automatically kept in sync. When this entity's memory changes in a way that should show up on the site, that file needs to be regenerated as an explicit step, same as it was written the first time.
+- ~~`www/sumner_pilot_tracker_v2/js/entities/woolhawk.js` is *generated* from this entity's memory (formatted for the tracker's rendering needs) — it is not a symlink and not automatically kept in sync. When this entity's memory changes in a way that should show up on the site, that file needs to be regenerated as an explicit step, same as it was written the first time.~~
+  > **The PILOT tracker was deleted 2026-08-17** along with the rest of `www/`. The generation step described below no longer applies; nothing is generated from this memory today. If a data-driven view is ever rebuilt, it should be generated at build time from the sources rather than hand-maintained. See `files/DATA_MAP.md`.
 
 ## Notes
-Directory created July 2026 as part of restructuring entity-specific memory out of a single flat project memory file and into per-entity homes, mirroring the tracker's own per-entity data organization. An earlier plan to symlink a `site/` subdirectory here into `www/` was dropped — symlinks proved unreliable in this environment, so the www/ copy is a plain generated file instead.
+Directory created July 2026 as part of restructuring entity-specific memory out of a single flat project memory file and into per-entity homes, mirroring the tracker's own per-entity data organization. (Historical note, the tracker is gone as of 2026-08-17.) An earlier plan to symlink a `site/` subdirectory here into `www/` was dropped — symlinks proved unreliable in this environment, so the www/ copy is a plain generated file instead.
 
 **Renamed 2026-07-29:** `Meta_s-Gallatin-Data-Center.pdf` is now `metas-gallatin-data-center.pdf`. Brandon's monologue drafts still cite the old name.

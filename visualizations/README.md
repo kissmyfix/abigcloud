@@ -1,3 +1,7 @@
+> **2026-08-17: `www/` was deleted.** Every path below pointing into `www/` is
+> historical. The Sumner PILOT tracker no longer exists in any form. The design-system
+> notes further down still hold and are worth keeping; the file locations do not.
+
 # visualizations/
 
 ## Purpose
