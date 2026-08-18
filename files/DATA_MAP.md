@@ -48,6 +48,7 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 | `web/` | **The live website.** Astro, deployed to GitHub Pages by an Action on push to `main`. Custom domain via `web/public/CNAME`. |
 | `web/content/` | **Every site page, edited directly.** Folder structure *is* URL structure: `content/tennessee/fisk.md` → `/tennessee/fisk/`. What you edit is what ships. |
 | `web/scripts/` | `build-citations.mjs` resolves `@/` citations and rebuilds the source index; `watch-content.mjs` re-runs it on save. |
+| `web/content/sources/` | **Generated, never hand-edited.** One page per cited text document, rendered in the site's layout: `.md` formatted, `.txt` verbatim in `<pre>`, PDFs skipped. Written by the publish step; a document appears here the first time a page cites it. |
 | `web/public/sources/` | **Generated, never hand-edited.** Cited documents copied in by the publish step so a reader clicking a citation gets the actual file. |
 | `files/` | Project plumbing: this map, the README template, `bin/` (all project scripts), `venv/` (their Python environment). |
 | `files/WORKFLOW.md` | **How writing reaches the site**: mdlive, what Astro does, the publish pipeline, and what to check when it breaks. |

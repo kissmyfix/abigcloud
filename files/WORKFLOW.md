@@ -102,11 +102,20 @@ script has exactly one job: make citations work.
    byte-for-byte. A decorative image goes through Astro's optimiser instead — the
    difference between an 841KB PNG and a 57KB WebP at the top of an article.
 3. **Strips `@c` notes** so unresolved author notes cannot ship.
-4. **Rebuilds `/sources/`** by scanning what the site actually links, not what this run
+4. **Renders a page per cited text document.** A citation used to drop the reader onto a
+   raw `.txt`. Now `@/podcasts/transcripts/fenton-on-podcast-full.txt` resolves to
+   `/sources/fenton-on-podcast-full/` — a real page in the site's layout, with the
+   provenance header as a card, a back-link, and a download link to the untouched file.
+   `.md` sources render as formatted markdown; `.txt` sources keep their body verbatim in
+   `<pre>`, because they are not markdown and formatting them would mangle them; `.pdf`
+   sources get no page and link straight to the file. The generated pages live in
+   `web/content/sources/` — **generated output, never hand-edited, never cited.** Links
+   still pointing at a raw file are migrated on the next publish.
+5. **Rebuilds `/sources/`** by scanning what the site actually links, not what this run
    rewrote. The `@/` rewrite is one-way, so a page converted on an earlier run has no `@/`
    left in it. The generated index is excluded from its own scan, or entries would become
    immortal.
-5. **Exits non-zero if a cited document is missing**, so a broken citation cannot ship
+6. **Exits non-zero if a cited document is missing**, so a broken citation cannot ship
    silently.
 
 ### Then `git push`
