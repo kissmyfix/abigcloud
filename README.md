@@ -158,34 +158,44 @@ Every document in this repository is a public record or was obtained through law
 ## Repo Structure
 
 ```
-quid-pro-no/
-├── README.md
-├── article/
-│   ├── part-1.md                          # The Simple Question That Wasn't
-│   └── part-2.md                          # Where Were the Adults? (forthcoming)
+abigcloud/
+├── abigcloud/web/                         # The website. abigcloud.com is built from here.
 ├── the_players/                           # Profiles of individuals in scope
 ├── podcasts/
-│   ├── mp3s/                              # Raw audio files
-│   ├── transcripts/                       # Whisper transcripts
+│   ├── transcripts/                       # 24 whisper transcripts, 13.2 hours of audio
 │   └── manifest.csv                       # Episode source tracking
 ├── sumner_county/
-│   ├── gallatin_idb_data/                 # IDB minutes, agendas, subject matter
+│   ├── gallatin_idb_data/                 # IDB minutes, agendas, SOS filing history
 │   ├── gallatin_council_meetings/         # City council PDFs from gallatintn.gov
-│   └── sumner_entities/                   # All PILOT entities 2015–2026, one dir each
-│       ├── woolhawk/
+│   └── sumner_entities/                   # All PILOT entities 2015-2026, one dir each
+│       ├── woolhawk/                      # Meta
 │       ├── beretta/
 │       ├── bradford/
-│       └── .../                           # Archer, ATA, Gap, NASG, Shoals, etc.
+│       └── .../                           # Archer, ATA, Gap, NASG, Shoals, Solon, etc.
 ├── state_of_tennessee/
-│   ├── tn_annotated_code/                 # T.C.A. statutory text
-│   ├── tn_comptroller_pilot_reports/      # State comptroller PILOT data
+│   ├── tn_annotated_code/                 # T.C.A. statutory text, SB 708
+│   ├── tn_comptroller_pilot_reports/      # State comptroller PILOT data by county
+│   ├── state_audits/                      # Comptroller audits, one dir per entity
 │   └── tn_property_assessments/           # Parcel viewer records
 ├── usa_federal/
-│   ├── irs_990_data/                      # Gallatin IDB 990s + Gibson County comps
+│   ├── irs_990_data/                      # Gallatin IDB 990s 2020-2024 + comparisons
 │   └── tva/                               # TVA in-lieu payments, power agreements
+├── web_articles/                          # News coverage, saved with full provenance
 ├── reference/                             # Plain-language glossary and explainers
-└── visualizations/                        # Comparison pages and data displays
+├── files/                                 # Scripts, the directory map, tooling
+└── visualizations/                        # Charts and images
 ```
+
+Most PDFs have a `derived/` folder beside them holding page-anchored text, so the archive
+is searchable rather than just downloadable. Anything saved from the web carries a header
+recording its source, original URL, archive copy, and retrieval date.
+
+**Reading the article:** [abigcloud.com/investigations/quid_pro_no/](https://abigcloud.com/investigations/quid_pro_no/).
+Every citation there opens the document itself, and they are all listed at
+[abigcloud.com/sources](https://abigcloud.com/sources/).
+
+**Browsing PDFs on GitHub:** GitHub's in-browser preview often fails on large files. Use
+"Download" or "Raw", or clone the repo.
 
 ---
 
