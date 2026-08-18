@@ -36,6 +36,10 @@
 
 		if (headings.length >= 3) {
 			nav.hidden = false;
+			// sits inside the column, after the title block, so it never has to be
+			// positioned against anything and cannot collide with the banner
+			const title = prose.querySelector('.title');
+			(title ? title.after(nav) : prose.prepend(nav));
 			for (const h of headings) {
 				const li = document.createElement('li');
 				li.className = h.tagName === 'H3' ? 'lvl-3' : 'lvl-2';
@@ -81,15 +85,6 @@
 				toggle.setAttribute('aria-expanded', 'false');
 			});
 		}
-
-		// the rail only appears once the banner is behind the reader
-		const banner = document.querySelector('main')?.previousElementSibling;
-		const heroBottom = () =>
-			banner instanceof HTMLElement ? banner.offsetTop + banner.offsetHeight - 80 : 200;
-		const showHide = () => nav.classList.toggle('past-hero', window.scrollY > heroBottom());
-		showHide();
-		addEventListener('scroll', showHide, { passive: true });
-		addEventListener('resize', showHide);
 
 		// reading progress across the article body only, not the whole document
 		const bar = document.querySelector('.reading-progress span');

@@ -554,76 +554,64 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 }
 .toc .lvl-3 a { padding-left: 26px; font-size: 12.5px; }
 
-/* Wide screens have room beside the column, so the list becomes a rail: a
-   full-height column of the layout rather than a card floating over it. It is
-   anchored to the left edge of the 840px measure, not to the viewport, so the
-   gap between rail and prose stays constant as the window changes. Needs
-   840 + 240 + gaps before it fits, hence the 1400px floor; below that the
-   pinned button takes over. Hidden until the hero is behind the reader. */
-@media (min-width: 1400px) {
-	.toc {
-		position: fixed;
-		top: 68px;
-		left: calc(50% - 420px - 288px);
-		width: 248px;
-		height: calc(100vh - 68px);
-		overflow-y: auto;
-		z-index: 20;
-		padding: 3.4em 24px 3em 0;
-		border-right: 1px solid var(--border);
-		background: var(--bg);
-		opacity: 0;
-		visibility: hidden;
-		transition: opacity 0.25s ease, visibility 0.25s;
-		scrollbar-width: thin;
-	}
-	.toc.past-hero { opacity: 1; visibility: visible; }
-	.toc-title {
-		display: block;
-		margin: 0 0 10px 12px;
-		font-size: 10px;
-		letter-spacing: 0.18em;
-		text-transform: uppercase;
-		color: var(--ink3);
-	}
-	.toc-toggle { display: none; }
+/* Inline, in the column, collapsed by default. A floating rail fought the
+   banner and the measure at every width; this cannot collide with anything
+   because it is part of the flow. */
+.toc {
+	margin: 2em 0 2.5em;
+	border: 1px solid var(--border);
+	border-left: 3px solid var(--accent);
+	border-radius: 0 8px 8px 0;
+	background: var(--bg2);
+	overflow: hidden;
 }
-
-/* Narrow screens get a pinned button instead, so it never eats reading width. */
-@media (max-width: 1399px) {
-	.toc {
-		position: fixed;
-		right: 16px;
-		bottom: 76px;
-		z-index: 40;
-		text-align: right;
-	}
-	.toc-toggle {
-		font: inherit;
-		font-weight: 600;
-		padding: 9px 14px;
-		border-radius: 999px;
-		border: 1px solid var(--border2);
-		background: var(--bg2);
-		color: var(--ink);
-		cursor: pointer;
-		box-shadow: 0 2px 10px rgba(0,0,0,0.18);
-	}
-	.toc ol {
-		display: none;
-		margin-bottom: 8px;
-		max-height: 55vh;
-		overflow-y: auto;
-		background: var(--bg2);
-		border: 1px solid var(--border);
-		border-radius: 8px;
-		padding: 6px 0;
-		text-align: left;
-		min-width: 250px;
-		box-shadow: 0 4px 18px rgba(0,0,0,0.18);
-	}
-	.toc.open ol { display: block; }
+.toc-title { display: none; }
+.toc-toggle {
+	display: block;
+	width: 100%;
+	text-align: left;
+	font: inherit;
+	font-family: var(--font-sans);
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: var(--accent);
+	background: none;
+	border: 0;
+	padding: 15px 20px;
+	cursor: pointer;
 }
+.toc-toggle::after {
+	content: " ▸";
+	display: inline-block;
+	transition: transform 0.15s;
+}
+.toc.open .toc-toggle::after { transform: rotate(90deg); }
+.toc ol {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 12px;
+	columns: 2;
+	column-gap: 28px;
+}
+.toc.open ol { display: block; }
+.toc li { margin: 0; break-inside: avoid; }
+.toc a {
+	display: block;
+	padding: 6px 20px;
+	color: var(--ink2);
+	text-decoration: none;
+	font-family: var(--font-sans);
+	font-size: 14px;
+	line-height: 1.4;
+	border-left: 2px solid transparent;
+}
+.toc a:hover { color: var(--ink); background: var(--bg3); }
+.toc a.current { color: var(--accent); border-left-color: var(--accent); font-weight: 600; }
+.toc .lvl-3 a { padding-left: 38px; font-size: 13.5px; }
+@media (max-width: 700px) { .toc ol { columns: 1; } }
 
 .heading-anchor {
 	margin-left: 0.4em;
