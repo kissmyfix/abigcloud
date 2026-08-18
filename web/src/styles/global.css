@@ -554,31 +554,33 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 }
 .toc .lvl-3 a { padding-left: 26px; font-size: 12.5px; }
 
-/* Wide screens have room beside the column, so the list parks there and
-   follows the reader down. It stays out of the way until the hero is behind
-   them: over a full-bleed banner it is unreadable, and a reader who has not
-   started yet has nothing to navigate. */
-@media (min-width: 1180px) {
+/* Wide screens have room beside the column, so the list becomes a rail: a
+   full-height column of the layout rather than a card floating over it. It is
+   anchored to the left edge of the 840px measure, not to the viewport, so the
+   gap between rail and prose stays constant as the window changes. Needs
+   840 + 240 + gaps before it fits, hence the 1400px floor; below that the
+   pinned button takes over. Hidden until the hero is behind the reader. */
+@media (min-width: 1400px) {
 	.toc {
 		position: fixed;
-		top: 96px;
-		left: max(16px, calc(50% - 655px));
-		width: 240px;
-		max-height: calc(100vh - 140px);
+		top: 68px;
+		left: calc(50% - 420px - 288px);
+		width: 248px;
+		height: calc(100vh - 68px);
 		overflow-y: auto;
 		z-index: 20;
-		padding: 14px 6px 14px 0;
+		padding: 3.4em 24px 3em 0;
+		border-right: 1px solid var(--border);
 		background: var(--bg);
-		border-radius: 8px;
 		opacity: 0;
 		visibility: hidden;
-		transform: translateY(-6px);
-		transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+		transition: opacity 0.25s ease, visibility 0.25s;
+		scrollbar-width: thin;
 	}
-	.toc.past-hero { opacity: 1; visibility: visible; transform: none; }
+	.toc.past-hero { opacity: 1; visibility: visible; }
 	.toc-title {
 		display: block;
-		margin: 0 0 8px 12px;
+		margin: 0 0 10px 12px;
 		font-size: 10px;
 		letter-spacing: 0.18em;
 		text-transform: uppercase;
@@ -588,7 +590,7 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 }
 
 /* Narrow screens get a pinned button instead, so it never eats reading width. */
-@media (max-width: 1179px) {
+@media (max-width: 1399px) {
 	.toc {
 		position: fixed;
 		right: 16px;
