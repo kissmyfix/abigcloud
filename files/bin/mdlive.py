@@ -1,0 +1,374 @@
+#!/usr/bin/env python3
+"""mdlive — Brandon's markdown editor.
+
+A browser editor for this project: source on the left, live preview on the right,
+saves to disk as you type. Built 2026-08-17 because VS Code was fighting him and
+he works in a terminal and a browser, not an IDE.
+
+    files/venv/bin/python files/bin/mdlive.py monologues/quid-pro-no.md 8080
+    # then open http://localhost:8080
+
+What it does that a plain editor does not:
+
+  * File picker in the toolbar lists every .md and .txt in the project, so any
+    file is one click away. The URL carries ?f=<path>, so tabs and bookmarks
+    work and two files can be open at once.
+  * Ctrl+/ inserts <!-- @c  --> at the cursor: a note to Claude that is invisible
+    in the rendered preview and stripped at publish time.
+  * "copy line ref" copies the selected lines with their numbers, to paste into
+    chat so Claude knows exactly which line is meant.
+  * Picks up changes Claude makes to the same file within half a second, without
+    clobbering unsaved edits: if the buffer is dirty it shows a "file changed on
+    disk" prompt instead of overwriting.
+  * Scroll sync is line-anchored, not proportional, so a tall image does not
+    throw the two panes out of alignment.
+
+Safety: it only resolves paths inside the project root and refuses anything
+outside it. It listens on all interfaces, so anything on the LAN can reach it.
+
+Requires nothing but Python 3 stdlib. marked.js is loaded from a CDN for the
+preview, so rendering needs a network connection; editing and saving do not.
+"""
+import http.server, socketserver, os, sys, json, urllib.parse, mimetypes, tempfile
+
+MD   = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else "final.md")
+PORT = int(sys.argv[2]) if len(sys.argv) > 2 else 8080
+ROOT = os.path.dirname(os.path.dirname(MD))
+
+SKIP = {".git", "node_modules", "dist", ".astro", "venv", "__pycache__",
+        ".remember", "derived", "saved_sites"}
+
+def listing():
+    """Every editable markdown file under the research tree, nearest first."""
+    out = []
+    for dirpath, dirnames, filenames in os.walk(ROOT):
+        dirnames[:] = [d for d in dirnames if d not in SKIP and not d.startswith(".")]
+        for fn in filenames:
+            if fn.endswith((".md", ".txt")) and not fn.startswith("."):
+                full = os.path.join(dirpath, fn)
+                rel = os.path.relpath(full, ROOT)
+                out.append({"rel": rel, "size": os.path.getsize(full)})
+    out.sort(key=lambda r: (r["rel"].count("/"), r["rel"]))
+    return out
+
+def resolve(rel):
+    """Map a client-supplied path to a real file inside ROOT, or None."""
+    if not rel:
+        return MD
+    full = os.path.normpath(os.path.join(ROOT, rel))
+    return full if full.startswith(ROOT) and os.path.isfile(full) else None
+
+PAGE = r"""<!doctype html>
+<html><head><meta charset="utf-8">
+<base href="__BASE__">
+<title>__NAME__</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+ :root{--bg:#faf9f7;--fg:#1c1b19;--mut:#6b675f;--rule:#e0ddd6;--acc:#8a5a2b;
+       --code:#f0eee9;--pane:#fff}
+ @media(prefers-color-scheme:dark){:root{--bg:#16151a;--fg:#e8e6e1;--mut:#96918a;
+       --rule:#2e2c33;--acc:#d9a066;--code:#1e1d23;--pane:#1a191f}}
+ *{box-sizing:border-box}
+ html,body{height:100%;margin:0}
+ body{background:var(--bg);color:var(--fg);display:flex;flex-direction:column;
+      font:15px/1.6 system-ui,sans-serif;overflow:hidden}
+ #bar{flex:0 0 36px;display:flex;align-items:center;gap:14px;padding:0 14px;
+      border-bottom:1px solid var(--rule);font:12px ui-monospace,Menlo,monospace;
+      color:var(--mut)}
+ #dot{width:7px;height:7px;border-radius:50%;background:#3fb950;transition:.2s}
+ #dot.hit{background:var(--acc);transform:scale(1.9)}
+ #dot.err{background:#f85149}
+ .grow{flex:1}
+ button{background:none;border:1px solid var(--rule);color:var(--mut);border-radius:4px;
+        padding:3px 9px;font:11px ui-monospace,monospace;cursor:pointer}
+ button:hover{color:var(--fg);border-color:var(--acc)}
+ #wrap{flex:1;display:flex;min-height:0}
+ #left,#right{flex:1;min-width:0;overflow:auto}
+ #left{border-right:1px solid var(--rule);display:flex;background:var(--pane)}
+ #gut{flex:0 0 3.6em;text-align:right;padding:14px 8px 40vh 0;color:var(--mut);
+      font:13px/1.7 ui-monospace,Menlo,monospace;user-select:none;background:var(--code)}
+ #ed{flex:1;border:0;outline:0;resize:none;background:var(--pane);color:var(--fg);
+     padding:14px 14px 40vh;font:13px/1.7 ui-monospace,Menlo,monospace;
+     white-space:pre-wrap;overflow-wrap:break-word;overflow:hidden}
+ #mirror{position:absolute;visibility:hidden;pointer-events:none;left:-9999px;top:0;
+     padding:0;font:13px/1.7 ui-monospace,Menlo,monospace;
+     white-space:pre-wrap;overflow-wrap:break-word}
+ #gut div{height:auto}
+ #right{position:relative;padding:22px 26px 40vh;font:16px/1.7 Charter,Georgia,serif;max-width:none}
+ #right .blk>*:first-child{margin-top:0}
+ #right h1,#right h2,#right h3{line-height:1.25;margin:1.6em 0 .5em}
+ #right img{max-width:100%;border-radius:4px}
+ #right blockquote{margin:1.2em 0;padding-left:1em;border-left:3px solid var(--acc);
+                   color:var(--mut)}
+ #right code{background:var(--code);padding:.15em .4em;border-radius:3px;font-size:.86em}
+ #right pre{background:var(--code);padding:1em;border-radius:6px;overflow-x:auto}
+ #right hr{border:0;border-top:1px solid var(--rule);margin:2em 0}
+ #right a{color:var(--acc)}
+ #note{color:var(--acc);cursor:pointer}
+ .hid{display:none}
+ #pick{background:var(--pane);color:var(--fg);border:1px solid var(--rule);
+       border-radius:4px;padding:3px 6px;max-width:44ch;
+       font:12px ui-monospace,Menlo,monospace;cursor:pointer}
+ #pick:hover{border-color:var(--acc)}
+</style></head>
+<body>
+<div id="bar">
+  <span id="dot"></span>
+  <select id="pick" title="open another file"></select>
+  <span id="meta"></span>
+  <span id="note" class="hid">file changed on disk — click to load</span>
+  <span class="grow"></span>
+  <span id="pos"></span>
+  <button id="ref">copy line ref</button>
+  <button id="view">preview only</button>
+</div>
+<div id="wrap">
+  <div id="left"><div id="gut"></div><textarea id="ed" spellcheck="false"></textarea>
+    <div id="mirror"></div></div>
+  <div id="right"></div>
+</div>
+<script>
+const ed=document.getElementById('ed'), right=document.getElementById('right'),
+      gut=document.getElementById('gut'), dot=document.getElementById('dot'),
+      note=document.getElementById('note'), meta=document.getElementById('meta'),
+      pos=document.getElementById('pos');
+let known=null, dirty=false, saveT=null, pending=null;
+let FILE=null;                       // path of the open file, relative to the tree root
+const pick=document.getElementById('pick');
+
+async function loadListing(){
+  const r=await (await fetch('/api/files')).json();
+  FILE = FILE || r.current;
+  pick.innerHTML = r.files.map(f=>
+    `<option value="${f.rel}"${f.rel===FILE?' selected':''}>${f.rel}</option>`).join('');
+}
+pick.onchange = async () => {
+  if(dirty) await save();            // never lose an unsaved edit on switch
+  FILE = pick.value;
+  known = null; pending = null;      // force a fresh load in the next tick
+  note.classList.add('hid');
+  history.replaceState(null,'','?f='+encodeURIComponent(FILE));
+  tick();
+};
+
+const mirror=document.getElementById('mirror');
+function autosize(){ ed.style.height='auto'; ed.style.height=ed.scrollHeight+'px'; }
+function gutter(lines){
+  // measure each logical line at the textarea's real content width so the
+  // number stays level with the first visual row of a wrapped line
+  const cs=getComputedStyle(ed);
+  mirror.style.width=(ed.clientWidth
+    - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight))+'px';
+  mirror.innerHTML=lines.map(l=>'<div>'+(l?l.replace(/[&<>]/g,
+    c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])):'&nbsp;')+'</div>').join('');
+  gut.innerHTML=[...mirror.children].map((d,i)=>
+    '<div style="height:'+d.offsetHeight+'px">'+(i+1)+'</div>').join('');
+}
+function render(){
+  const t=ed.value;
+  // render block by block so every rendered chunk knows its source line
+  const toks=marked.lexer(t);
+  let line=1, html='';
+  for(const tk of toks){
+    const sub=[tk]; sub.links=toks.links;
+    html+='<div class="blk" data-line="'+line+'">'+marked.parser(sub)+'</div>';
+    line+=(tk.raw.match(/\n/g)||[]).length;
+  }
+  right.innerHTML=html;
+  const lines=t.split('\n');
+  meta.textContent=lines.length+' lines · '
+    +(t.trim()?t.trim().split(/\s+/).length:0)+' words';
+  autosize();
+  gutter(lines);
+  anchors();
+  // images change block heights once they load — remeasure when they do
+  right.querySelectorAll('img').forEach(im=>{
+    if(!im.complete) im.addEventListener('load',anchors,{once:true});
+  });
+}
+let rt=null;
+window.addEventListener('resize',()=>{ clearTimeout(rt); rt=setTimeout(render,120); });
+
+// line-anchored scroll sync: both panes are mapped to source line numbers,
+// so a tall image on the right no longer throws everything below it off
+const leftPane=document.getElementById('left');
+let srcTop=[], blk=[];
+
+function anchors(){
+  const pad=parseFloat(getComputedStyle(ed).paddingTop)||0;
+  srcTop=[]; let y=pad;
+  for(const d of mirror.children){ srcTop.push(y); y+=d.offsetHeight; }
+  blk=[...right.querySelectorAll('.blk')]
+        .map(d=>({line:+d.dataset.line, top:d.offsetTop}));
+}
+function lerp(pairs, key, val, out){        // interpolate between two anchors
+  if(!pairs.length) return 0;
+  let lo=pairs[0], hi=pairs[pairs.length-1];
+  for(let i=0;i<pairs.length;i++){
+    if(pairs[i][key]<=val) lo=pairs[i];
+    if(pairs[i][key]>=val){ hi=pairs[i]; break; }
+  }
+  if(hi[key]===lo[key]) return lo[out];
+  return lo[out]+(hi[out]-lo[out])*((val-lo[key])/(hi[key]-lo[key]));
+}
+const yToLine=y=>{
+  let i=srcTop.findIndex(t=>t>y);
+  return (i<0?srcTop.length:i);            // 1-based line at this y
+};
+const lineToY=l=>srcTop[Math.max(0,Math.min(srcTop.length-1,l-1))]||0;
+
+let lock=0;
+function guard(fn){ if(Date.now()<lock) return; lock=Date.now()+60; fn(); }
+
+leftPane.addEventListener('scroll',()=>guard(()=>{
+  if(!blk.length) return;
+  right.scrollTop = lerp(blk,'line', yToLine(leftPane.scrollTop), 'top');
+}));
+right.addEventListener('scroll',()=>guard(()=>{
+  if(!blk.length) return;
+  const line = lerp(blk.map(b=>({top:b.top,line:b.line})),'top',right.scrollTop,'line');
+  leftPane.scrollTop = lineToY(Math.round(line));
+}));
+function lineOf(i){ return ed.value.slice(0,i).split('\n').length; }
+function showPos(){
+  const a=lineOf(ed.selectionStart), b=lineOf(ed.selectionEnd);
+  pos.textContent = a===b ? 'L'+a : 'L'+a+'–'+b;
+}
+async function save(){
+  dirty=false;
+  const body=ed.value;
+  const r=await fetch('/save?f='+encodeURIComponent(FILE),
+                      {method:'POST',headers:{'Content-Type':'text/plain'},body});
+  const j=await r.json(); known=j.mtime;
+  dot.classList.add('hit'); setTimeout(()=>dot.classList.remove('hit'),500);
+}
+ed.addEventListener('input',()=>{
+  dirty=true; render();
+  clearTimeout(saveT); saveT=setTimeout(save,600);
+});
+ed.addEventListener('keyup',showPos);
+ed.addEventListener('click',showPos);
+ed.addEventListener('keydown',e=>{
+  if((e.ctrlKey||e.metaKey) && e.key==='/'){          // insert a note for Claude
+    e.preventDefault();
+    const s=ed.selectionStart, t=ed.value;
+    const open='<!-- @c ', close=' -->';
+    ed.value=t.slice(0,s)+open+close+t.slice(s);
+    ed.selectionStart=ed.selectionEnd=s+open.length;
+    dirty=true; render(); clearTimeout(saveT); saveT=setTimeout(save,600);
+  }
+});
+document.getElementById('ref').onclick=()=>{
+  const lines=ed.value.split('\n');
+  const a=lineOf(ed.selectionStart), b=lineOf(ed.selectionEnd);
+  const out=[]; for(let i=a;i<=b;i++) out.push(i+': '+lines[i-1]);
+  navigator.clipboard.writeText(out.join('\n'));
+  pos.textContent='copied '+(a===b?'L'+a:'L'+a+'–'+b);
+};
+document.getElementById('view').onclick=e=>{
+  const l=document.getElementById('left');
+  const off=l.classList.toggle('hid');
+  e.target.textContent = off ? 'show editor' : 'preview only';
+};
+function load(txt,mt){ ed.value=txt; known=mt; dirty=false; render(); note.classList.add('hid'); }
+note.onclick=()=>{ if(pending){ load(pending.text,pending.mtime); pending=null; } };
+async function tick(){
+  try{
+    const s=await (await fetch('/state?f='+encodeURIComponent(FILE||'')
+                               +'&t='+Date.now())).json();
+    if(s.rel && s.rel!==FILE){ FILE=s.rel; }
+    if(s.base){ document.querySelector('base').href=s.base; }
+    if(s.rel){ document.title=s.rel.split('/').pop(); }
+    dot.classList.remove('err');
+    if(known===null){ load(s.text,s.mtime); return; }
+    if(s.mtime!==known){
+      if(dirty){ pending=s; note.classList.remove('hid'); }
+      else{
+        const y=document.getElementById('left').scrollTop, c=ed.selectionStart;
+        load(s.text,s.mtime);
+        document.getElementById('left').scrollTop=y;
+        ed.selectionStart=ed.selectionEnd=Math.min(c,ed.value.length);
+        dot.classList.add('hit'); setTimeout(()=>dot.classList.remove('hit'),700);
+      }
+    }
+  }catch(e){ dot.classList.add('err'); }
+}
+FILE = new URLSearchParams(location.search).get('f') || null;
+loadListing().then(()=>{ tick(); setInterval(tick,500); });
+window.addEventListener('beforeunload',e=>{ if(dirty){ save(); } });
+</script></body></html>"""
+
+
+class H(http.server.SimpleHTTPRequestHandler):
+    def log_message(self, *a): pass
+
+    def do_GET(self):
+        p = urllib.parse.urlparse(self.path).path
+        if p == "/":
+            base = "/files/" + os.path.relpath(os.path.dirname(MD), ROOT) + "/"
+            self._send((PAGE.replace("__BASE__", base)
+                            .replace("__NAME__", os.path.basename(MD))).encode(),
+                       "text/html; charset=utf-8")
+        elif p == "/api/files":
+            self._send(json.dumps({"files": listing(),
+                                   "current": os.path.relpath(MD, ROOT)}).encode(),
+                       "application/json")
+        elif p == "/state":
+            q = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
+            target = resolve((q.get("f") or [""])[0])
+            if not target:
+                self._send(json.dumps({"mtime": 0, "text": "# no such file"}).encode(),
+                           "application/json"); return
+            try:
+                st = os.stat(target)
+                d = {"mtime": st.st_mtime,
+                     "text": open(target, encoding="utf-8", errors="replace").read(),
+                     "rel": os.path.relpath(target, ROOT),
+                     "base": "/files/" + os.path.relpath(os.path.dirname(target), ROOT) + "/"}
+            except OSError as e:
+                d = {"mtime": 0, "text": f"# unreadable\n\n{e}"}
+            self._send(json.dumps(d).encode(), "application/json")
+        elif p.startswith("/files/"):
+            rel = urllib.parse.unquote(p[len("/files/"):])
+            full = os.path.normpath(os.path.join(ROOT, rel))
+            if not full.startswith(ROOT) or not os.path.isfile(full):
+                self.send_error(404); return
+            self._send(open(full, "rb").read(),
+                       mimetypes.guess_type(full)[0] or "application/octet-stream")
+        else:
+            self.send_error(404)
+
+    def do_POST(self):
+        u = urllib.parse.urlparse(self.path)
+        if u.path != "/save":
+            self.send_error(404); return
+        q = urllib.parse.parse_qs(u.query)
+        target = resolve((q.get("f") or [""])[0])
+        if not target:
+            self.send_error(404); return
+        n = int(self.headers.get("Content-Length", 0))
+        text = self.rfile.read(n).decode("utf-8")
+        fd, tmp = tempfile.mkstemp(dir=os.path.dirname(target), prefix=".mdlive-")
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            f.write(text)
+        os.replace(tmp, target)                   # atomic
+        self._send(json.dumps({"mtime": os.stat(target).st_mtime}).encode(),
+                   "application/json")
+
+    def _send(self, body, ctype):
+        self.send_response(200)
+        self.send_header("Content-Type", ctype)
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(body)
+
+
+class S(socketserver.ThreadingTCPServer):
+    allow_reuse_address = True
+    daemon_threads = True
+
+
+if __name__ == "__main__":
+    print(f"mdlive  file={MD}\n        root={ROOT}\n        http://localhost:{PORT}", flush=True)
+    S(("0.0.0.0", PORT), H).serve_forever()

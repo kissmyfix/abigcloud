@@ -50,11 +50,13 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 | `abigcloud/web/scripts/` | `build-article.mjs` publishes a draft from this tree onto the site and rewrites its citations; `watch-article.mjs` re-runs it on save. |
 | `abigcloud/web/public/sources/` | **Generated, never hand-edited.** Cited documents copied in by the publish step so a reader clicking a citation gets the actual file. |
 | `files/` | Project plumbing: this map, the README template, `bin/` (all project scripts), `venv/` (their Python environment). |
+| `files/WORKFLOW.md` | **How writing reaches the site**: mdlive, what Astro does, the publish pipeline, and what to check when it breaks. |
+| `files/bin/mdlive.py` | Brandon's browser markdown editor. |
 | `files/bin/` | Every project script — PDF extraction and profiling, whisper transcription, Comptroller CSV builders and verifiers, the parcel-assessment parser. Run with `files/venv/bin/python`. |
 | `memory/` | Working memory. **Gitignored — private.** `MEMORY.md` (theories/findings), `master-reference-w5h.md`, `PINBOARD.md`, `TIMELINE.md` (two-lane evidence timeline), `UNICORN.md`, `brandon-schema.md`, `site-data-salvage/`. |
 | `memory/site-data-salvage/` | Rescued from the deleted prototype: `records.ts` (27 entity records), `events.json` (42 timeline events), `SITE_PLAN-archived.md` (the wiki design). Compiled artifacts, not sources. |
 | `angles/` | Article raw material: theory narratives, framings, rebuttals in reserve, the citation worklist. **Gitignored** — pre-publication strategy, withheld pending the AI-disclosure rewrite. |
-| `monologues/` | Brandon's pen. Drafts including `final.md`, the live article's source. **Gitignored.** Do not edit unless directed there. |
+| `monologues/` | Brandon's pen. Drafts; each declares its own destination in a `<!-- publish -->` block, so filenames are fluid. `quid-pro-no.md` is the live article's source. **Gitignored.** Do not edit unless directed there. |
 | `reference/` | Public-facing glossary — plain-language explainers. Several are published as site pages. |
 | `the_players/` | Profiles of individuals in scope, one flat `name.md` each. Documents live where they came from; each profile links to what concerns it. |
 | `sumner_county/` | City and county records. |

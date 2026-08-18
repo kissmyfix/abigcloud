@@ -1,0 +1,154 @@
+# WORKFLOW.md — how writing gets from Brandon's screen to abigcloud.com
+
+Written 2026-08-17. Brandon relies on this pipeline without wanting to learn Astro, and
+that is a reasonable division of labour — but only if it is written down. This file is
+that. It explains the machinery at the level needed to use it, fix it, and explain it.
+
+---
+
+## The one-paragraph version
+
+Everything is a markdown file. Brandon edits markdown in a browser editor. A build step
+turns markdown into a folder of plain HTML files. Those files get pushed to GitHub, and
+GitHub serves them as the website. There is no server running the site, no database, and
+nothing to keep alive.
+
+---
+
+## Editing: mdlive
+
+    files/venv/bin/python files/bin/mdlive.py monologues/quid-pro-no.md 8080
+
+Then open **http://localhost:8080**. Source left, rendered preview right, saves as he types.
+
+- **File picker** in the toolbar lists every `.md` and `.txt` in the project. The URL
+  carries `?f=<path>`, so two files can be open in two tabs.
+- **`Ctrl+/`** inserts `<!-- @c  -->` — a note to Claude, invisible in the preview and
+  stripped at publish time.
+- **"copy line ref"** copies selected lines with numbers, to paste into chat.
+- Claude's edits to the same file appear within half a second. If Brandon has unsaved
+  changes it shows "file changed on disk" rather than overwriting him.
+
+Stop it with `pkill -f mdlive`.
+
+## Live preview of the real site
+
+    cd abigcloud/web && npm run watch
+
+Runs two things at once: a watcher on `monologues/` that republishes on every save, and
+Astro's dev server on **http://localhost:4321**. Edit in mdlive on :8080, watch the actual
+site update on :4321.
+
+Stop it with `pkill -f "astro dev"`.
+
+---
+
+## What Astro actually does
+
+Astro is a **static site generator**. It reads content files and writes a folder of plain
+HTML. That is the whole idea. Three rules cover everything here:
+
+**1. Folder structure is the URL.**
+
+    web/content/tennessee/fisk.md        ->  abigcloud.com/tennessee/fisk/
+    web/content/about/index.md           ->  abigcloud.com/about/
+    web/index.md                         ->  abigcloud.com/
+
+Move a file, the URL moves. There is no routing table to edit.
+
+**2. Every page needs frontmatter** — the block between `---` lines at the top:
+
+    ---
+    title: 'TVA'
+    description: 'One sentence, used for search results and link previews.'
+    ---
+
+`title` and `description` are required; the build fails by name if either is missing.
+Optional: `pubDate`, `draft: true` to keep a page out of the public build, `heroImage`.
+
+**3. `npm run build` writes `web/dist/`** — a folder of finished HTML, CSS and images.
+That folder *is* the website. Nothing else is needed to serve it.
+
+Images referenced from markdown get optimised automatically (resized, converted to WebP).
+Files placed in `web/public/` are copied through untouched — that is where cited source
+documents go, because a PDF must be served byte-for-byte.
+
+---
+
+## Publishing
+
+    cd abigcloud/web && npm run publish && git push
+
+`npm run publish` is `node scripts/build-article.mjs && astro build`.
+
+### `scripts/build-article.mjs`, in order
+
+1. **Finds drafts.** Scans `monologues/` for any `.md` containing a `<!-- publish -->`
+   block. Filenames are fluid; nothing is hard-coded.
+
+       <!-- publish
+            to: investigations/quid_pro_no
+            title: Quid-Pro-NO!
+            description: ...
+            date: 2026-08-17
+            draft: false
+       -->
+
+   `to:` is the path under `content/`, so it becomes the URL.
+
+2. **Rewrites citations.** `@/web_articles/foo.txt` means "from the research archive
+   root". The script copies that document into `web/public/sources/` and rewrites the link
+   to `/sources/web_articles/foo.txt`. Works in a draft **and in any site page**.
+   `../foo.txt` also works inside `monologues/`, where it is clickable in mdlive.
+
+3. **Handles images by kind.** A screenshot of a filing is evidence and is copied
+   byte-for-byte. A decorative image goes through Astro's optimiser instead — that is the
+   difference between an 841KB PNG and a 57KB WebP at the top of the article.
+
+4. **Strips `@c` notes** so unresolved author notes cannot ship.
+
+5. **Rebuilds `/sources/`** by scanning what the site actually links, not what this run
+   rewrote. This matters: the `@/` rewrite is one-way, so a page converted on an earlier
+   run has no `@/` left in it.
+
+6. **Exits non-zero if a cited document is missing**, so a broken citation cannot ship
+   silently.
+
+### Then `git push`
+
+`.github/workflows/deploy.yml` runs on every push to `main`: checks out only
+`abigcloud/web` (sparse checkout, so the archive is not downloaded), runs `npm ci` and
+`npm run build`, and publishes `dist/` to GitHub Pages. The custom domain comes from
+`web/public/CNAME`. Takes about a minute.
+
+---
+
+## Editing a site page rather than the article
+
+Same command, **different source of truth** — this is the one real trap:
+
+| Page | Edit this |
+|---|---|
+| The article | `monologues/quid-pro-no.md` (the draft) |
+| About, FAQ, TVA, a topic page | `abigcloud/web/content/<path>.md` directly |
+| Homepage | `abigcloud/web/index.md` |
+
+**Anything under a draft's `to:` path is regenerated on every publish.** Hand-editing
+`content/investigations/quid_pro_no/index.md` will be silently overwritten. Edit the
+draft.
+
+---
+
+## When something breaks
+
+| Symptom | Cause |
+|---|---|
+| Publish exits non-zero, names a file | A citation points at a document that is not there. Fix the path or add the document. |
+| A page vanished from the site | `draft: true` in its frontmatter, or the build failed. |
+| Build fails naming a page | Missing `title` or `description` in frontmatter. |
+| Edits do not reach the site | Published but not pushed, or the Action failed. Check the repo's Actions tab. |
+| A citation 404s | The document was never copied. Confirm the `@/` path matches a real file. |
+| PDF will not preview on GitHub | GitHub's viewer, not the file. Use Download or Raw. |
+
+Local build output lives in `web/dist/` and is gitignored — it is rebuilt every time and
+is never the source of anything.
