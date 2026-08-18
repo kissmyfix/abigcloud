@@ -1,0 +1,45 @@
+---
+import banner from '../../assets/banners/home-banner.jpg';
+import bannerNarrow from '../../assets/banners/home-banner-narrow.jpg';
+import Banner from '../components/Banner.astro';
+import BaseHead from '../components/BaseHead.astro';
+import BackToTop from '../components/BackToTop.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+// Landing page content. Edit web/index.md.
+import { Content as Readme } from '../../index.md';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<Banner wide={banner} narrow={bannerNarrow} />
+		<main class="landing">
+			<Readme />
+		</main>
+		<Footer />
+		<BackToTop />
+	</body>
+</html>
+
+<style>
+	/* Cover proportions from the v1 design: a light subtitle under the
+	   headline capped narrower still. h1 itself uses the site-wide style. */
+	.landing :global(h1 + p) {
+		font-size: 19px;
+		font-weight: 300;
+		line-height: 1.55;
+		color: var(--ink2);
+		max-width: 580px;
+		margin-bottom: 1.6em;
+	}
+	.landing :global(h1 + p strong) {
+		font-weight: 300;
+		color: var(--ink2);
+	}
+</style>

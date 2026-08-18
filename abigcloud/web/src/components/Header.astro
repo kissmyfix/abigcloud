@@ -1,0 +1,213 @@
+---
+import { SITE_WORDMARK } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+import ThemeToggle from './ThemeToggle.astro';
+
+const REPO = 'https://github.com/kissmyfix/abigcloud';
+---
+
+<header>
+	<nav>
+		<h2><a href="/">{SITE_WORDMARK}</a></h2>
+		<div class="internal-links" id="nav-links">
+			<HeaderLink href="/">Home</HeaderLink>
+			<HeaderLink href="/investigations/">Investigations</HeaderLink>
+			<HeaderLink href="/tennessee/">Tennessee</HeaderLink>
+			<HeaderLink href="/tva/">TVA</HeaderLink>
+			<HeaderLink href="/national/">National</HeaderLink>
+			<HeaderLink href="/costs_and_benefits/">Costs &amp; Benefits</HeaderLink>
+			<HeaderLink href="/reference/">Reference</HeaderLink>
+			<HeaderLink href="/sources/">Sources</HeaderLink>
+			<HeaderLink href="/faq/">FAQ</HeaderLink>
+			<HeaderLink href="/about/">About</HeaderLink>
+		</div>
+		<div class="social-links">
+			<ThemeToggle />
+			<a href={REPO} target="_blank" rel="noopener">
+				<span class="sr-only">Source documents on GitHub</span>
+				<svg viewBox="0 0 16 16" aria-hidden="true" width="24" height="24"
+					><path
+						fill="currentColor"
+						d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+					></path></svg
+				>
+			</a>
+			<button id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+				<span class="sr-only">Menu</span>
+				<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"
+					><path
+						d="M3 6h18M3 12h18M3 18h18"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"></path></svg
+				>
+			</button>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		position: sticky;
+		top: 0;
+		z-index: 50;
+		margin: 0;
+		padding: 0 var(--gutter);
+		background: var(--bg);
+		/* No border by default: the nav should read as the top of the page, not a
+		   stripe above it. A shadow appears only once you have scrolled past it. */
+		border-bottom: 1px solid transparent;
+		transition:
+			border-color 0.2s,
+			box-shadow 0.2s;
+	}
+	header.scrolled {
+		border-bottom-color: var(--border);
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+	}
+	h2 {
+		margin: 0;
+		font-family: var(--font-serif);
+		font-size: 30px;
+		white-space: nowrap;
+	}
+	h2 a {
+		color: var(--ink);
+		text-decoration: none;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1.5em;
+		flex-wrap: wrap;
+		min-height: var(--header-h);
+	}
+	.internal-links {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.internal-links a {
+		padding: 1.4em 0.75em;
+		color: var(--ink2);
+		border-bottom: 3px solid transparent;
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: 0.09em;
+		text-transform: uppercase;
+		white-space: nowrap;
+		transition: color 0.15s;
+	}
+	.internal-links a.active {
+		color: var(--ink);
+		border-bottom-color: var(--accent);
+	}
+	.social-links {
+		display: flex;
+		align-items: center;
+		gap: 0.7em;
+	}
+	.social-links a {
+		display: flex;
+		padding: 0;
+		border-bottom: none;
+		color: var(--ink3);
+	}
+	/* Hover only latches usefully on a pointer device. On touch it sticks after
+	   a tap and stays lit, which reads as a bug. */
+	@media (hover: hover) {
+		h2 a:hover,
+		.internal-links a:hover,
+		.social-links a:hover,
+		#nav-toggle:hover {
+			color: var(--accent);
+		}
+	}
+
+	#nav-toggle {
+		display: none;
+		align-items: center;
+		justify-content: center;
+		width: 44px;
+		height: 44px;
+		padding: 0;
+		border: none;
+		background: none;
+		color: var(--ink3);
+		cursor: pointer;
+	}
+
+	/*
+	  Below this width the nine links cannot fit on one row. Wrapping them makes
+	  a sticky block that eats a third of a phone screen, so they collapse behind
+	  the toggle instead and open as a full-width panel.
+	*/
+	@media (max-width: 900px) {
+		#nav-toggle {
+			display: flex;
+		}
+		h2 {
+			font-size: 17px;
+		}
+		nav {
+			gap: 0.5em;
+		}
+		.internal-links {
+			display: none;
+			/* order puts the panel below the bar rather than between the wordmark
+			   and the toggle that opens it. */
+			order: 3;
+			flex-basis: 100%;
+			flex-direction: column;
+			padding-bottom: 0.5em;
+			max-height: calc(100vh - var(--header-h));
+			overflow-y: auto;
+		}
+		header.nav-open .internal-links {
+			display: flex;
+		}
+		/* 44px is the smallest reliably tappable target. */
+		.internal-links a {
+			display: flex;
+			align-items: center;
+			min-height: 44px;
+			padding: 0 0 0 0.6em;
+			border-bottom: 1px solid var(--border);
+			border-left: 3px solid transparent;
+		}
+		.internal-links a.active {
+			border-bottom-color: var(--border);
+			border-left-color: var(--accent);
+		}
+	}
+</style>
+
+<script is:inline>
+	(() => {
+		const header = document.querySelector('header');
+		if (!header) return;
+
+		const sync = () => header.classList.toggle('scrolled', window.scrollY > 8);
+		sync();
+		addEventListener('scroll', sync, { passive: true });
+
+		const toggle = header.querySelector('#nav-toggle');
+		const links = header.querySelector('#nav-links');
+		if (!toggle || !links) return;
+
+		const setOpen = (open) => {
+			header.classList.toggle('nav-open', open);
+			toggle.setAttribute('aria-expanded', String(open));
+		};
+		toggle.addEventListener('click', () =>
+			setOpen(toggle.getAttribute('aria-expanded') !== 'true')
+		);
+		links.addEventListener('click', (e) => {
+			if (e.target.closest('a')) setOpen(false);
+		});
+		/* Dragging the window back to desktop width must not leave the panel state
+		   behind, because at that width the links are always visible. */
+		matchMedia('(min-width: 901px)').addEventListener('change', () => setOpen(false));
+	})();
+</script>
