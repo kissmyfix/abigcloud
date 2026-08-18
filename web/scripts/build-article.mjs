@@ -23,7 +23,7 @@ import { fileURLToPath } from 'node:url';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const WEB = resolve(HERE, '..');
-const RESEARCH = resolve(WEB, '../..');            // ~/Documents/data_center_research
+const RESEARCH = resolve(WEB, '..');            // ~/Documents/data_center_research
 const PUBLIC_SOURCES = join(WEB, 'public', 'sources');
 
 /**

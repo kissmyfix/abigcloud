@@ -20,7 +20,7 @@ When directed to a directory, read its `README.md` before touching any file. If 
 specific file, read the directory `README.md` first, then the file.
 
 **Exempt from the README rule** — machine-generated directories nobody navigates by hand:
-`saved_sites/*_files/`, build output and dependencies (`abigcloud/web/dist/`, `.astro/`,
+`saved_sites/*_files/`, build output and dependencies (`web/dist/`, `.astro/`,
 `node_modules/`, `files/venv/`, `__pycache__/`), and empty directories. Also exempt:
 uniform per-entity subdirectories described by their parent, such as each
 `sumner_county/sumner_entities/<entity>/memory/`.
@@ -31,13 +31,13 @@ uniform per-entity subdirectories described by their parent, such as each
 
 Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second repo.
 
-- The website is **`abigcloud/web/`**. It is the *only* site; earlier versions and an
+- The website is **`web/`**. It is the *only* site; earlier versions and an
   unshipped prototype were deleted 2026-08-17.
 - Everything else in this tree is the research the site was built from.
 - The repo was called `quid-pro-no` before the two projects merged. GitHub still redirects
   the old name. It is one repo that was renamed, not two things.
 
-**Publishing:** `cd abigcloud/web && npm run publish && git push`. See "Site" below.
+**Publishing:** `cd web && npm run publish && git push`. See "Site" below.
 
 ---
 
@@ -45,10 +45,10 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 
 | Directory | What it is |
 |---|---|
-| `abigcloud/web/` | **The live website.** Astro, deployed to GitHub Pages by an Action on push to `main`. Custom domain via `web/public/CNAME`. |
-| `abigcloud/web/content/` | Site pages. Folder structure *is* URL structure: `content/tennessee/fisk.md` → `/tennessee/fisk/`. |
-| `abigcloud/web/scripts/` | `build-article.mjs` publishes a draft from this tree onto the site and rewrites its citations; `watch-article.mjs` re-runs it on save. |
-| `abigcloud/web/public/sources/` | **Generated, never hand-edited.** Cited documents copied in by the publish step so a reader clicking a citation gets the actual file. |
+| `web/` | **The live website.** Astro, deployed to GitHub Pages by an Action on push to `main`. Custom domain via `web/public/CNAME`. |
+| `web/content/` | Site pages. Folder structure *is* URL structure: `content/tennessee/fisk.md` → `/tennessee/fisk/`. |
+| `web/scripts/` | `build-article.mjs` publishes a draft from this tree onto the site and rewrites its citations; `watch-article.mjs` re-runs it on save. |
+| `web/public/sources/` | **Generated, never hand-edited.** Cited documents copied in by the publish step so a reader clicking a citation gets the actual file. |
 | `files/` | Project plumbing: this map, the README template, `bin/` (all project scripts), `venv/` (their Python environment). |
 | `files/WORKFLOW.md` | **How writing reaches the site**: mdlive, what Astro does, the publish pipeline, and what to check when it breaks. |
 | `files/bin/mdlive.py` | Brandon's browser markdown editor. |
@@ -113,6 +113,6 @@ The repo is public. These stay local:
 | `CLAUDE.md`, `.claude/` | Agent operating instructions |
 | `files/voice-and-method-web.md` | Voice analysis built from private chat logs |
 | `podcasts/mp3s/`, `saved_sites/` | Large binaries; transcripts and text are published instead |
-| `abigcloud/web/{dist,node_modules,.astro}/` | Build output |
+| `web/{dist,node_modules,.astro}/` | Build output |
 
 Withheld deliberately, not hidden — revisit each when the AI-disclosure policy is rewritten.

@@ -16,7 +16,7 @@ import { fileURLToPath } from 'node:url';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const WEB = resolve(HERE, '..');
-const RESEARCH = resolve(WEB, '../..');
+const RESEARCH = resolve(WEB, '..');
 const DRAFTS = join(RESEARCH, 'monologues');
 
 let timer = null;

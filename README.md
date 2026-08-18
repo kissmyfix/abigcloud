@@ -169,7 +169,7 @@ Every document in this repository is a public record or was obtained through law
 
 ```
 abigcloud/
-├── abigcloud/web/                         # The website. abigcloud.com is built from here.
+├── web/                         # The website. abigcloud.com is built from here.
 ├── the_players/                           # Profiles of individuals in scope
 ├── podcasts/
 │   ├── transcripts/                       # 24 whisper transcripts, 13.2 hours of audio

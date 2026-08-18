@@ -22,9 +22,9 @@ saved_sites/
 Thumbs.db
 
 # --- Site build output (the site's source is tracked; its build is not) ---
-abigcloud/web/dist/
-abigcloud/web/.astro/
-abigcloud/web/node_modules/
+web/dist/
+web/.astro/
+web/node_modules/
 
 # --- Pulled 2026-08-17, pending the AI-disclosure policy update ---
 # Not secret; withheld deliberately. These are agent-operating files and

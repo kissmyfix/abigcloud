@@ -33,7 +33,7 @@ Stop it with `pkill -f mdlive`.
 
 ## Live preview of the real site
 
-    cd abigcloud/web && npm run watch
+    cd web && npm run watch
 
 Runs two things at once: a watcher on `monologues/` that republishes on every save, and
 Astro's dev server on **http://localhost:4321**. Edit in mdlive on :8080, watch the actual
@@ -77,7 +77,7 @@ documents go, because a PDF must be served byte-for-byte.
 
 ## Publishing
 
-    cd abigcloud/web && npm run publish && git push
+    cd web && npm run publish && git push
 
 `npm run publish` is `node scripts/build-article.mjs && astro build`.
 
@@ -117,7 +117,7 @@ documents go, because a PDF must be served byte-for-byte.
 ### Then `git push`
 
 `.github/workflows/deploy.yml` runs on every push to `main`: checks out only
-`abigcloud/web` (sparse checkout, so the archive is not downloaded), runs `npm ci` and
+`web` (sparse checkout, so the archive is not downloaded), runs `npm ci` and
 `npm run build`, and publishes `dist/` to GitHub Pages. The custom domain comes from
 `web/public/CNAME`. Takes about a minute.
 
@@ -130,8 +130,8 @@ Same command, **different source of truth** — this is the one real trap:
 | Page | Edit this |
 |---|---|
 | The article | `monologues/quid-pro-no.md` (the draft) |
-| About, FAQ, TVA, a topic page | `abigcloud/web/content/<path>.md` directly |
-| Homepage | `abigcloud/web/index.md` |
+| About, FAQ, TVA, a topic page | `web/content/<path>.md` directly |
+| Homepage | `web/index.md` |
 
 **Anything under a draft's `to:` path is regenerated on every publish.** Hand-editing
 `content/investigations/quid_pro_no/index.md` will be silently overwritten. Edit the
