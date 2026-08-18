@@ -14,6 +14,8 @@ const content = defineCollection({
 			pubDate: z.coerce.date().optional(),
 			updatedDate: z.coerce.date().optional(),
 			draft: z.boolean().default(false),
+			// Long pages opt into the inline contents drawer and progress bar.
+			toc: z.boolean().default(false),
 			heroImage: z.optional(image()),
 			/* A taller crop of the same scene, served to phones. Optional. */
 			heroImageNarrow: z.optional(image()),

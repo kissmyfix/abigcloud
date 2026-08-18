@@ -2,6 +2,7 @@
 title: 'Quid-Pro-NO!'
 description: 'How every level of government has failed Tennesseans and the steps elected leaders took to keep those failures secret.'
 draft: false
+toc: true
 pubDate: '2026-08-17'
 updatedDate: '2026-08-18'
 ---
