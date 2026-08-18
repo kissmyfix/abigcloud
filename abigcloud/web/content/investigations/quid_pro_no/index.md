@@ -1,8 +1,8 @@
 ---
 title: 'Quid-Pro-NO!'
 description: 'How every level of government has failed Tennesseans and the steps our leaders took to keep those failures hidden.'
-pubDate: '2026-08-17'
 draft: false
+pubDate: '2026-08-17'
 ---
 
 # Quid-Pro-NO!

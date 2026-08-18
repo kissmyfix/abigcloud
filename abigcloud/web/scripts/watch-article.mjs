@@ -17,7 +17,7 @@ import { fileURLToPath } from 'node:url';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const WEB = resolve(HERE, '..');
 const RESEARCH = resolve(WEB, '../..');
-const DRAFT = join(RESEARCH, 'monologues', 'final.md');
+const DRAFTS = join(RESEARCH, 'monologues');
 
 let timer = null;
 let running = false;
@@ -38,10 +38,10 @@ publish('startup');
 
 // editors save by writing a temp file and renaming, so the watcher can fire
 // several times per save; debounce so we publish once
-watch(dirname(DRAFT), (_event, file) => {
-	if (file !== 'final.md') return;
+watch(DRAFTS, (_event, file) => {
+	if (!file || !file.endsWith('.md')) return;
 	clearTimeout(timer);
-	timer = setTimeout(() => publish('final.md changed'), 250);
+	timer = setTimeout(() => publish(`${file} changed`), 250);
 });
 
-process.stdout.write(`watching ${DRAFT}\n`);
+process.stdout.write(`watching ${DRAFTS}/*.md\n`);

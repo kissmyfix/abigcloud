@@ -17,7 +17,7 @@
  *
  * Usage: node scripts/build-article.mjs
  */
-import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, rmSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join, resolve, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -26,20 +26,60 @@ const WEB = resolve(HERE, '..');
 const RESEARCH = resolve(WEB, '../..');            // ~/Documents/data_center_research
 const PUBLIC_SOURCES = join(WEB, 'public', 'sources');
 
-/** Drafts to publish: source in the research tree -> page in the site. */
-const ARTICLES = [
-	{
-		src: join(RESEARCH, 'monologues', 'final.md'),
-		dest: join(WEB, 'content', 'investigations', 'quid_pro_no', 'index.md'),
-		frontmatter: {
-			title: 'Quid-Pro-NO!',
-			description:
-				'How every level of government has failed Tennesseans and the steps our leaders took to keep those failures hidden.',
-			pubDate: '2026-08-17',
-			draft: false,
-		},
-	},
-];
+/**
+ * Drafts are discovered, not hard-coded. Any markdown file under monologues/ that
+ * carries a publish directive gets published. Rename or add files freely; nothing
+ * here needs editing.
+ *
+ * Put this anywhere in the draft (an HTML comment, so it is invisible in the
+ * rendered preview and stripped from the published copy):
+ *
+ *   <!-- publish
+ *        to: investigations/quid_pro_no
+ *        title: Quid-Pro-NO!
+ *        description: How every level of government has failed Tennesseans...
+ *        date: 2026-08-17
+ *        draft: false
+ *   -->
+ *
+ * `to:` is the path under content/, so it becomes the URL. Everything else is
+ * frontmatter for the site page.
+ */
+const DRAFTS_DIR = join(RESEARCH, 'monologues');
+const PUBLISH_RE = /<!--\s*publish\s*\n([\s\S]*?)-->/;
+
+function findDrafts() {
+	if (!existsSync(DRAFTS_DIR)) return [];
+	const out = [];
+	for (const name of readdirSync(DRAFTS_DIR)) {
+		if (!name.endsWith('.md')) continue;
+		const src = join(DRAFTS_DIR, name);
+		const m = PUBLISH_RE.exec(readFileSync(src, 'utf8'));
+		if (!m) continue;
+		const fm = {};
+		let to = null;
+		for (const line of m[1].split('\n')) {
+			const kv = line.match(/^\s*([a-z]+)\s*:\s*(.+?)\s*$/i);
+			if (!kv) continue;
+			if (kv[1].toLowerCase() === 'to') to = kv[2].replace(/^\/+|\/+$/g, '');
+			else fm[kv[1]] = kv[2] === 'true' ? true : kv[2] === 'false' ? false : kv[2];
+		}
+		if (!to) {
+			console.error(`  ! ${name} has a publish block with no "to:" — skipped`);
+			continue;
+		}
+		if (fm.date) { fm.pubDate = fm.date; delete fm.date; }
+		if (fm.draft === undefined) fm.draft = false;
+		out.push({ src, dest: join(WEB, 'content', to, 'index.md'), frontmatter: fm, name });
+	}
+	return out;
+}
+
+const ARTICLES = findDrafts();
+if (!ARTICLES.length) {
+	console.error(`No drafts found. Add a <!-- publish ... --> block to a file in ${relative(RESEARCH, DRAFTS_DIR)}/`);
+	process.exitCode = 1;
+}
 
 /** Reference explainers that already exist as pages on this site. */
 const REFERENCE_PAGES = new Set(['what-is-an-idb', 'what-is-a-pilot', 'the-title-transfer-mechanism', '501c4-vs-instrumentality']);
@@ -134,6 +174,8 @@ for (const article of ARTICLES) {
 	currentDest = article.dest;
 	let body = readFileSync(article.src, 'utf8');
 
+	body = body.replace(PUBLISH_RE, '');          // directive is for the build, not the reader
+
 	// strip any leftover author notes before publishing
 	const notes = body.match(/<!--\s*@c[\s\S]*?-->/g) || [];
 	if (notes.length) {
@@ -152,7 +194,7 @@ for (const article of ARTICLES) {
 
 	mkdirSync(dirname(article.dest), { recursive: true });
 	writeFileSync(article.dest, fm + body.trimStart() + '\n', 'utf8');
-	console.log(`published: ${relative(WEB, article.dest)}`);
+	console.log(`published: ${article.name} -> ${relative(WEB, article.dest)}`);
 }
 
 /* ---- source index page -------------------------------------------------- */
