@@ -13,7 +13,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Only the site is needed to build the site. Without this the runner
+      # would clone the entire research archive on every deploy.
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: abigcloud/web
+          sparse-checkout-cone-mode: true
       - uses: actions/setup-node@v4
         with:
           node-version: 22
