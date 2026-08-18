@@ -541,12 +541,12 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 .toc li { margin: 0; }
 .toc a {
 	display: block;
-	padding: 5px 12px;
+	padding: 6px 12px;
 	color: var(--ink3);
 	text-decoration: none;
 	border-left: 2px solid var(--border);
 }
-.toc a:hover { color: var(--ink); background: var(--bg2); }
+.toc a:hover { color: var(--ink); background: var(--bg3); }
 .toc a.current {
 	color: var(--accent);
 	border-left-color: var(--accent);
@@ -555,17 +555,27 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 .toc .lvl-3 a { padding-left: 26px; font-size: 12.5px; }
 
 /* Wide screens have room beside the column, so the list parks there and
-   follows the reader down. */
+   follows the reader down. It stays out of the way until the hero is behind
+   them: over a full-bleed banner it is unreadable, and a reader who has not
+   started yet has nothing to navigate. */
 @media (min-width: 1180px) {
 	.toc {
 		position: fixed;
-		top: 120px;
-		left: max(16px, calc(50% - 640px));
-		width: 230px;
-		max-height: 70vh;
+		top: 96px;
+		left: max(16px, calc(50% - 655px));
+		width: 240px;
+		max-height: calc(100vh - 140px);
 		overflow-y: auto;
 		z-index: 20;
+		padding: 14px 6px 14px 0;
+		background: var(--bg);
+		border-radius: 8px;
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(-6px);
+		transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
 	}
+	.toc.past-hero { opacity: 1; visibility: visible; transform: none; }
 	.toc-title {
 		display: block;
 		margin: 0 0 8px 12px;
@@ -592,10 +602,10 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 		padding: 9px 14px;
 		border-radius: 999px;
 		border: 1px solid var(--border2);
-		background: var(--pane, var(--bg2));
+		background: var(--bg2);
 		color: var(--ink);
 		cursor: pointer;
-		box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+		box-shadow: 0 2px 10px rgba(0,0,0,0.18);
 	}
 	.toc ol {
 		display: none;
@@ -607,7 +617,8 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 		border-radius: 8px;
 		padding: 6px 0;
 		text-align: left;
-		min-width: 240px;
+		min-width: 250px;
+		box-shadow: 0 4px 18px rgba(0,0,0,0.18);
 	}
 	.toc.open ol { display: block; }
 }
