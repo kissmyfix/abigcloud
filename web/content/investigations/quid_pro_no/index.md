@@ -181,6 +181,8 @@ That doesn't mean there's nothing to look at. The state's PILOT reporting covers
 
 [Beretta](/sources/2014-01-29-tnecd-beretta-gallatin-manufacturing-announcement/) is stranger. The state announced it in January 2014, $45 million and 300 jobs in the Gallatin Industrial Park. It shows up in the county's PILOT reporting exactly twice, in 2015 and 2016, and the 2016 payment field reads NO INFO. After that it stops appearing at all. Not a reduced payment. Not a disputed one. It never reported paying anything, and then it stopped being asked.
 
+Which is its own story for another day, because the state had put [$8,000,000 of general obligation bond money through this same board](/sources/2014-06-12-cumulative-fiscal-note-2014-session/) to land that project.
+
 Then Meta shows up. And Meta's lawyers, being the lawyers of a trillion-dollar corporation, presumably have expectations about doing business with a counterparty that exists on paper. My working theory, supported by the timeline, is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal. They may have even learned that lesson the hard way in 2017, when Gallatin lost the earlier iteration of this deal, Project Skillet, to Alabama.
 
 So they filed. But they couldn't file honestly, because an honest filing would mean explaining twenty-six years of unreported activity. So [the first 990](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf), signed on November 14, 2021 by Preston Stark, is marked as an "initial return", the box a body checks the first year it exists. On the same form, the year opens with $102,948 already in the bank. A quarter century of history erased with a checkbox, and the money from those years still sitting there.
