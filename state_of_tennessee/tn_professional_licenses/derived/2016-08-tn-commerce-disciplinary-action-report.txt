@@ -14,6 +14,20 @@ WHY SAVED: Carries the disciplinary action behind the "Has Been Disciplined" ale
   Found by sweeping all 162 monthly reports published from January 2013 through
   July 2026. It is the only accountancy action against Poole in that entire span,
   and there is no action of any kind against Johnny P Young in the same span.
+  **The other 161 reports were deleted afterwards as scope creep — only this one
+  matters.** To reproduce the sweep: the reports live at
+  `tn.gov/content/dam/tn/commerce/documents/regboards/dar/<year>/DAR-<MM>.pdf`
+  (2013-2025) and `.../dar/2026/DAR-<MM>-2026.pdf`, and the Accountancy rows are
+  the lines beginning "Accountancy".
+
+  All five accountancy actions in this report, for context on what the board
+  treats as serious:
+
+      Rhonda Ilene Striplin | Birmingham, AL   | Holding a revoked license in another state | $1,000
+      Stewart & Wheeler, P.C.| Morristown, TN  | Due professional care | Pre-issuance review of next ERISA audit
+      John R Poole          | Hendersonville,TN| Due professional care | $500 Civil Penalty | 08/30/16
+      Chitwood and Chitwood | Chattanooga, TN  | Unlicensed firm | $1,000
+      Carlos Bosch          | Memphis, TN      | Peer Review | $4,000
 ---
 
                                                                DISCIPLINARY ACTION REPORT                                                                       Kevin.Walters@tn.gov

@@ -359,9 +359,9 @@ Same auditor. Same year. One framework asks questions and the other doesn't, and
 
 There's a last detail, and I want to be careful with it because it is smaller than it sounds. In August 2016, the Tennessee State Board of Accountancy [disciplined John R. Poole](/sources/2016-08-tn-commerce-disciplinary-action-report/) and fined him $500. His [license still carries the flag](/sources/2026-08-18-tn-accountancy-license-poole-john-russell/) today.
 
-Most accountancy discipline in Tennessee is paperwork. I read every monthly report the state published from 2013 through this summer, and in a typical month three of five actions are somebody who didn't answer a continuing-education letter.
+The board cited five accountants that month, and the categories tell you what it thinks is serious. One for holding a revoked license in another state. One for operating an unlicensed firm. One over peer review. And two for "due professional care."
 
-Poole's wasn't that. The category on his was "due professional care," which is the standard covering the quality of the work itself. The only other person cited for it that month was ordered to submit their next audit for outside review before releasing it.
+That last one is not a filing problem. It is the standard covering the quality of the work itself. The other person cited for it that month, a firm in Morristown, was ordered to submit its next audit for outside review before releasing it.
 
 I don't know what engagement it involved. The state's public report gives the category and the fine and nothing else, and I am not going to pretend it says more than that.
 
