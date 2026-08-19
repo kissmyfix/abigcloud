@@ -73,6 +73,7 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 | `state_of_tennessee/tn_annotated_code/` | Statutes (T.C.A.), plus SB 708 as introduced, as enacted, and its fiscal memo. |
 | `state_of_tennessee/tn_comptroller_pilot_reports/` | Comptroller PILOT reports by county. `sumner_county/derived/woolhawk-pilot-reporting.md` is the parsed finding. |
 | `state_of_tennessee/state_audits/` | Comptroller-filed annual audits, one directory per legal entity. |
+| `state_of_tennessee/tn_professional_licenses/` | State licence records for the CPAs who sign this investigation's documents. Poole (auditor of the Gallatin IDB, the HHFB and Westmoreland's IDB) carries a public **"Has Been Disciplined"** alert; Young prepares the IDB's and the Shalom Zone's 990s. Captured by hand — the state tool is behind a CAPTCHA. |
 | `state_of_tennessee/tn_property_assessments/` | Parcel records from the state viewer. |
 | `usa_federal/irs_990_data/` | IRS filings. `gallatin_idb/` holds 2020–2024 plus the verified dataset; `verify-990.py` checks it. |
 | `usa_federal/tva/` | TVA material. |

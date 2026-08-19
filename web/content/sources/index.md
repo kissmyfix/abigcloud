@@ -19,12 +19,15 @@ Where a document was captured from a page that has since changed or gone behind 
 ## State records and statutes
 
 - [1688-2023-c-gallatin-rpt-cpa811-12-21-23.txt](/sources/1688-2023-c-gallatin-rpt-cpa811-12-21-23/)
+- [11278-2025-c-gallatinidb-rpt-cpa517-3-25-26-rev1.txt](/sources/11278-2025-c-gallatinidb-rpt-cpa517-3-25-26-rev1/)
 - [2014-06-12-cumulative-fiscal-note-2014-session.txt](/sources/2014-06-12-cumulative-fiscal-note-2014-session/)
 - [T.C.A. § 7-53-302 — Corporate powers of an Industrial Development Board](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf)  
   <span class="src-meta">Tennessee Code Annotated · `tca-7-53-302-corporate-powers.pdf`</span>
 - [T.C.A. § 7-53-305 — Tax exemption and payments in lieu of taxes](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-305-tax-exemption-pilot.pdf)  
   <span class="src-meta">Tennessee Code Annotated · `tca-7-53-305-tax-exemption-pilot.pdf`</span>
 - [woolhawk-pilot-reporting.md](/sources/woolhawk-pilot-reporting/)
+- [2016-08-tn-commerce-disciplinary-action-report.txt](/sources/2016-08-tn-commerce-disciplinary-action-report/)
+- [2026-08-18-tn-accountancy-license-poole-john-russell.txt](/sources/2026-08-18-tn-accountancy-license-poole-john-russell/)
 - [lates-meta-parcel-assessment.pdf](/sources/state_of_tennessee/tn_property_assessments/lates-meta-parcel-assessment.pdf)
 - [idb-count-method.md](/sources/idb-count-method/)
 

@@ -170,6 +170,16 @@ A [501(c)(4) is a social welfare organization](/reference/501c4-vs-instrumentali
 
 Not a regional quirk. Not a gray area. The only one.
 
+So why pick the one that makes you stick out?
+
+I think you have to stop asking which status described them and start asking which one they could actually get. An Industrial Development Board ordinarily owes the IRS nothing at all, because it is treated as an arm of its city. But claiming that requires showing the city controls it, funds it, answers for it. Gallatin had spent years building a record that says the opposite, and their own auditors wrote it down.
+
+A 501(c)(3) means applying, waiting, and letting the IRS examine what you actually do. Hard to explain when the main thing you do is hand a tax break to a trillion-dollar company. A 501(c)(6) is for business leagues with members, and this board has none.
+
+A 501(c)(4) you can simply declare yourself to be. No application. No determination letter. No one at the IRS deciding whether "social welfare" fits. You notify them and you start filing.
+
+It wasn't chosen because it fit. It was chosen because it was the only federal existence they could grant themselves, on a deadline, without asking anyone's permission. The sore thumb was the price, and they paid it, because nobody reads an IDB's 990. Until somebody reads four hundred of them.
+
 A board holding half a billion dollars of exempt property for a company that reports paying the county nothing, while filing under a federal tax status no other IDB in the state uses. That's not a coincidence. That's a choice.
 
 ### The First Filing
@@ -192,6 +202,14 @@ And the filing itself is a mess. [Part III](/sources/usa_federal/irs_990_data/ga
 
 That's not an accounting error. That's someone filling in a form about activity they can't document because it was never meant to be documented.
 
+And every one of those filings carries the same name. Preston Stark signed the 2020 return as Contracted Board Administrator, and he signed 2021, 2022, 2023 and 2024 too.
+
+Look at what he signed. The line above the signature reads: "Under penalties of perjury, I declare that I have examined this return, including accompanying schedules and statements, and to the best of my knowledge and belief, it is true, correct, and complete."
+
+There are two promises in that sentence and only one of them is hedged. Whether it's accurate is limited to the best of his knowledge. That he read it is not.
+
+There's one more. The 2023 and 2024 filings both say the board's finances were reviewed by an outside auditor that year. I went looking for those audits. The only one that exists anywhere in the public record is for the year ending June 30, 2025, and it came out after both of those filings were signed.
+
 ### The Confession That Doesn't Know It's Confessing
 
 If you Google how PILOTs and IDBs work in Tennessee, one of the first things you'll find is a capstone project by a woman named Lilibeth Leon. It's polished. It looks academic. And its author was an employee of the Gallatin Economic Development Agency, working directly under the man who negotiated the Meta deal.
@@ -204,6 +222,18 @@ She admits the IDB is sitting on over a million dollars in accumulated PILOT pay
 
 She identifies an "anti-growth coalition" on the Sumner County Commission and Gallatin City Council as a threat. Elected officials who wanted to manage public spending differently are the enemy. The quiet part out loud: we rewrote the agreement so that elected representatives couldn't direct these funds.
 
+She admits, in one sentence, what the ambiguity was for. The new arrangement "left the Industrial Development Board responsible for deciding how much of the PILOT monies would be paid out to municipal governments and how much they would control."
+
+Read that twice. The board decides its own cut.
+
+And then there's the part I almost missed. She describes Facebook as approved for a five-year agreement, with buildings paying "for four years thereafter." The resolution the council actually approved says the first partial year plus twenty full tax years, for every building, with each building starting its own clock.
+
+She isn't wrong, exactly. The agreement raises the payment five percent on every five-year anniversary, so there is a five-year cycle in there if you go looking for one. There's also a seven-year investment test, and ten, thirteen, sixteen and twenty-year windows for later buildings. Six different numbers to pick from.
+
+She picked the smallest one. In the document arguing the board should keep the money, a five-year favor is a much easier thing to defend than a forty-year one.
+
+Her paper is dated August 29, 2024. The state filing where Meta's payments to the city jump from $168,226 to $1,202,500 was submitted twenty-five days later.
+
 She wrote a confession and turned it in for a grade.
 
 ### The Operator
@@ -211,6 +241,18 @@ She wrote a confession and turned it in for a grade.
 The man behind all of it is James Fenton, who served roughly twelve years as Executive Director of the Gallatin Economic Development Agency. Before Gallatin, six years doing economic development in Cheatham County. He signed the NDA for Project Skillet in 2017. And in July 2018, two months after Woolhawk negotiations began, he moved the IDB's registered agent from the City Attorney's office to his own agency.
 
 Read that again. The person negotiating the deal moved legal oversight of the deal away from the independent city attorney and into his own shop. At the exact moment it mattered most.
+
+But look at how the whole thing bookends.
+
+Fenton started at GEDA in July 2012. That December, the state administratively dissolved the Gallatin IDB, which is what happens when a board stops filing and stops meeting. In February 2013 it was brought back, and the address they gave the state was 132 West Main Street, listed as the City Attorney.
+
+Beretta was announced eleven months later.
+
+So the board wasn't revived because Gallatin needed oversight of anything. It was revived because somebody needed a mechanism, and eleven months later there was a deal running through it.
+
+Then in 2018 he moved it out of the City Attorney's office and into his own.
+
+Independent legal custody in at the start. Out at the moment it mattered.
 
 Fenton did a victory-lap podcast interview with a local Republican group where he narrated the whole saga like a war story, assembling 800 acres from private owners, maneuvering around a university president who tried to say no (that president was replaced by Tennessee's former Economic Development Commissioner, who said yes), calling in a state senator and mayors to resolve a utility dispute three weeks before announcement.
 
@@ -273,6 +315,44 @@ The text of the bill reveals the exact surgical strike:
 
 The timing is not a coincidence. State lawmakers actively sharpened a 64-year-old legal loophole to ensure Meta's massive server racks wouldn't owe a dime in local personal property taxes before Project Woolhawk ever went public.
 
+And once you see that one, you start seeing the rest of them.
+
+Gallatin didn't lose Project Skillet and move on. They lost it and found out exactly why. Every obstacle that killed the first attempt got removed before the second one arrived.
+
+The land wasn't assembled and none of it belonged to the city, so more than 800 acres got bought up quietly from private owners. A farm sat in a trust that couldn't be touched and a university president said no, so the trust was amended, the university's board was cut down, and a former state economic development commissioner became its president and said yes. The law still required a PILOT payment equal to the taxes that would have been owed, so Senate Bill 708 struck that requirement out. The company needed a counterparty that existed on paper, so the board filed with the IRS for the first time in twenty-six years. The city needed to not be on the hook for any of it, so its auditors wrote down that it cannot impose its will on a board it appoints.
+
+Six problems. Six answers. Every one of them arriving between the deal Gallatin lost and the deal Gallatin won.
+
+That's the part I can't explain away as coincidence. Not that a lot of things changed, but that the things that changed are shaped exactly like the things that went wrong last time.
+
+### Who Checks the Checkers
+
+There's one more question I kept coming back to. If a board is holding half a billion dollars of exempt property and moving nearly three million a year through it, who is looking at the books?
+
+One man, in the next town over.
+
+[John R. Poole, CPA](/sources/11278-2025-c-gallatinidb-rpt-cpa517-3-25-26-rev1/), a sole practitioner on Northlake Drive in Hendersonville, audits the Gallatin IDB. He also audits Gallatin's Health, Educational and Housing Facilities Board, which has the same nine directors, in the same order, and he signed both reports on the same day.
+
+He audits Westmoreland's Industrial Development Board too. Same state, same statute, same kind of board.
+
+Except he doesn't audit them the same way.
+
+Westmoreland's IDB is audited as a component unit of the City of Westmoreland, under the rules written for government. Those rules require a management discussion of the year's results, fund statements, and a formal Schedule of Findings where problems get written down.
+
+Gallatin's IDB is audited under the rules written for private nonprofits. None of that is required. There is no management discussion explaining why the board's net assets fell from $904,342 to $148,027 in a single year. There are no fund statements. And there is no Schedule of Findings, not because it came back clean, but because that section does not exist in this kind of report.
+
+Same auditor. Same year. One framework asks questions and the other doesn't, and Gallatin got the one that doesn't.
+
+There's a last detail, and I want to be careful with it because it is smaller than it sounds. In August 2016, the Tennessee State Board of Accountancy [disciplined John R. Poole](/sources/2016-08-tn-commerce-disciplinary-action-report/) and fined him $500. His [license still carries the flag](/sources/2026-08-18-tn-accountancy-license-poole-john-russell/) today.
+
+Most accountancy discipline in Tennessee is paperwork. I read every monthly report the state published from 2013 through this summer, and in a typical month three of five actions are somebody who didn't answer a continuing-education letter.
+
+Poole's wasn't that. The category on his was "due professional care," which is the standard covering the quality of the work itself. The only other person cited for it that month was ordered to submit their next audit for outside review before releasing it.
+
+I don't know what engagement it involved. The state's public report gives the category and the fine and nothing else, and I am not going to pretend it says more than that.
+
+But the board that couldn't be audited for thirty-one years eventually hired someone, and this is who they hired.
+
 ## Part 3: The Man with Two Ledgers
 
 When the Gallatin IDB finally checked that "initial return" box on its first 990 in late 2021 to legitimize itself for Meta, a new name appeared on the paperwork: Preston Stark.
@@ -282,6 +362,14 @@ Stark wasn’t an elected city councilman. He was installed as the IDB's Board A
 But as it turns out, 2020 was a busy year for Stark's ledger-keeping.
 
 At the exact same time he took the reins of the IDB's brand-new federal tax trail, Stark's name quietly appeared on the board roster of a local, grassroots non-profit: The Gallatin Shalom Zone. His title? Treasurer. His subtitle on their directory? "City of Gallatin", a direct contradiction to the city's loud legal insistence that the IDB has "no government standing."
+
+And there's a smaller thing sitting underneath that one.
+
+The Gallatin IDB's federal returns are prepared by John P Young PC, a one-man firm on Canfield Place in Hendersonville. So are the Gallatin Shalom Zone's. Same firm, same preparer number, same suite.
+
+So the board that hands out the money and the nonprofit that receives it share an accountant, and they share a board member, and that board member is the one signing the paying side's federal return under penalty of perjury.
+
+None of which is against any rule. Hendersonville is not a big place and one accountant can have a lot of local clients. It just means there was nobody in the room who wasn't already in the room.
 
 Suddenly, the non-profit's financial books caught fire.
 
