@@ -1,6 +1,6 @@
 # Answer key — what a cold read should conclude
 
-**Valid as of `f080196`, 2026-08-18.** Update this file *before* running the test, not
+**Valid as of `ff23b6b`, 2026-08-19.** Update this file *before* running the test, not
 after. A key written after seeing the report grades the report against itself and measures
 nothing.
 
@@ -63,5 +63,8 @@ Parts 2+ are in progress. What is sourced and what is not lives in
 
 **10. Known-and-accepted.** Several site topic sections are thin by choice, not oversight.
 The Sumner PILOT tracker was deleted with `www/` in commit `ebb3e4d` and is recoverable
-from git. Whether Project Skillet went to Huntsville or Birmingham is recorded as DISPUTED.
-A cold agent flagging these has read correctly; they are not defects.
+from git. Whether Project Skillet went to Huntsville or Birmingham is recorded as DISPUTED,
+Brandon says Huntsville and that outranks Fenton's podcast account. The Meta "$1.4M+" and
+the IDB's school payments are stated in the article as the same money; the documents do not
+settle that, and it is flagged in the worklist for Brandon's own pass. A cold agent
+flagging any of these has read correctly; they are not defects.
