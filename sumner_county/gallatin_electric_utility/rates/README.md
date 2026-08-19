@@ -6,13 +6,10 @@ history. This is the ratepayer-harm instrument: the question of whether ordinary
 carried infrastructure costs the Meta facility required.
 
 ## Contents
-19 rate-sheet PDFs, 2016 to 2026. Coverage is standardized on **June** wherever the June
+17 rate-sheet PDFs, 2016 to 2026. Coverage is standardized on **June** wherever the June
 sheet exists, so year-over-year comparisons hold; the off-month files (`2016-jan`,
 `2016-dec`, `2017-march`, `2019-jan`, `2019-may`) are where June was unavailable or where a
 mid-year change was captured.
-
-Two files are **NES**, not GDE: `2025-march-nes.pdf` and `2026-may-nes.pdf`. Different
-utility, different rates, different service territory. Do not mix them into a GDE series.
 
 `2026-outdoor.pdf` is outdoor lighting, a separate schedule.
 

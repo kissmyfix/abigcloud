@@ -14,7 +14,5 @@ text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
 2023-june.txt,2023-june.pdf,DIGITAL,4,16367,4092,0.0,extraction authoritative,Microsoft® Word for Microsoft 365
 2024-june.txt,2024-june.pdf,DIGITAL,4,16367,4092,0.0,extraction authoritative,Microsoft® Word for Microsoft 365
 2025-june.txt,2025-june.pdf,DIGITAL,4,24473,6118,0.0,extraction authoritative,Microsoft® Excel® for Microsoft 365
-2025-march-nes.txt,2025-march-nes.pdf,DIGITAL,2,8856,4428,0.0,extraction authoritative,CreationDate:    Fri Apr 18 07:01:21 2025 CDT
 2026-june.txt,2026-june.pdf,DIGITAL,4,24519,6130,0.0,extraction authoritative,Microsoft® Excel® for Microsoft 365
-2026-may-nes.txt,2026-may-nes.pdf,DIGITAL,2,8084,4042,0.0,extraction authoritative,CreationDate:    Wed Jun 17 20:29:43 2026 CDT
 2026-outdoor.txt,2026-outdoor.pdf,DIGITAL,1,2897,2897,0.0,extraction authoritative,Microsoft® Word for Microsoft 365
