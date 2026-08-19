@@ -339,7 +339,7 @@ Except he doesn't audit them the same way.
 
 Westmoreland's IDB is audited as a component unit of the City of Westmoreland, under the rules written for government. Those rules require a management discussion of the year's results, fund statements, and a formal Schedule of Findings where problems get written down.
 
-Gallatin's IDB is audited under the rules written for private nonprofits. None of that is required. There is no management discussion explaining why the board's net assets fell from $904,342 to $148,027 in a single year. There are no fund statements. And there is no Schedule of Findings, not because it came back clean, but because that section does not exist in this kind of report.
+Gallatin's IDB is audited under the rules written for private nonprofits. That report does test compliance and internal control, and it says the tests turned up nothing to report. But the management discussion is not required, so there is no explanation anywhere of why the board's net assets fell from $904,342 to $148,027 in a single year. There are no fund statements. And the board is never consolidated into the city's own books, where a reader would go looking for it.
 
 Same auditor. Same year. One framework asks questions and the other doesn't, and Gallatin got the one that doesn't.
 
