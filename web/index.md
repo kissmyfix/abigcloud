@@ -3,7 +3,7 @@ title: home
 description: abigcloud.com
 ---
 # **Seeking *Answers***
-## Does **time** still afford us the privilege of *mistake*? The **time** for *learning* should we mistep? The **time** for *correcting* mistake?
+## Does **time** still afford us the privilege of *mistake*? The **time** for *learning* from *mistake*? The **time** for *correcting* *mistake*?
 ### **What is actually happening in the A.I. race? Is the story being told the complete version?**
 What shapes everything that follows is a documented shift in how the people overseeing the approval and the building of this infrastructure, from our elected leaders, to top executives in tech, and even our favorite media sources are framing who is *responsible* for all of it.
 
@@ -26,7 +26,7 @@ The individual consumer. The morning Instagram poster. The humble meme warrior.
 > What are half truths and omissions? Is it spin for personal gain? Is it a lie? Does it matter?
 <div class="two-col">
 
-<div class="info-box">
+<div class="info-box is-verified">
 
 ### What this project IS
 
@@ -38,7 +38,7 @@ The individual consumer. The morning Instagram poster. The humble meme warrior.
 
 </div>
 
-<div class="info-box">
+<div class="info-box is-finding">
 
 ### What this project is NOT
 

@@ -65,4 +65,8 @@ any AI involvement. The archive is organized precisely so that the fastest way t
 this work is to read the same documents.
 
 ## Sources
-github
+
+The site, the archive tooling, and this policy are in one public repository:
+[github.com/kissmyfix/abigcloud](https://github.com/kissmyfix/abigcloud). Commits made
+with Claude's help carry a `Co-Authored-By` line, so the division of labour described
+above is checkable in the history rather than taken on trust.

@@ -648,3 +648,56 @@ h2:hover .heading-anchor, h3:hover .heading-anchor, .heading-anchor:focus { opac
 
 /* An anchored jump must not land under the sticky header. */
 .prose h2[id], .prose h3[id] { scroll-margin-top: 90px; }
+
+/* ---- Featured investigation ---------------------------------------------
+   The flagship piece needs one obvious way in from the landing page. A kicker
+   names what it is, the title carries the weight, one line says why to click,
+   and the whole block is the link target so there is no small hit area. */
+.feature {
+	display: block;
+	margin: 2.4em 0;
+	padding: 28px 32px 30px;
+	background: var(--bg2);
+	border: 1px solid var(--border);
+	border-left: 4px solid var(--accent);
+	border-radius: 0 10px 10px 0;
+	text-decoration: none;
+	color: inherit;
+	transition: background 0.15s, transform 0.15s;
+}
+.feature:hover { background: var(--bg3); transform: translateX(2px); }
+.feature-kicker {
+	display: block;
+	font-family: var(--font-sans);
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--accent);
+	margin-bottom: 10px;
+}
+.feature-title {
+	display: block;
+	font-family: var(--font-serif);
+	font-size: clamp(28px, 4vw, 40px);
+	line-height: 1.1;
+	color: var(--ink);
+	margin: 0 0 12px;
+}
+.feature-title em { font-style: italic; color: var(--accent); }
+.feature p { margin: 0 0 14px; color: var(--ink2); font-size: 1.02em; }
+.feature-cta {
+	display: inline-block;
+	font-family: var(--font-sans);
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	color: var(--accent);
+}
+.feature-status {
+	display: block;
+	margin-top: 12px;
+	font-family: var(--font-sans);
+	font-size: 12px;
+	color: var(--ink3);
+}
