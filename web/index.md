@@ -12,6 +12,15 @@ What shapes everything that follows is a documented shift in how the people over
 The individual consumer. The morning Instagram poster. The humble meme warrior.
 
 
+<a class="feature" href="/investigations/quid_pro_no/">
+<span class="feature-kicker">Featured investigation &middot; Part 1</span>
+<span class="feature-title">Quid-Pro-<em>NO!</em></span>
+<p>Meta built a $1.5 billion data center in Gallatin, Tennessee. The land is appraised at half a billion dollars and assessed at zero. The county's column on the state's own form has never had a number in it.</p>
+<span class="feature-cta">Read the investigation &rarr;</span>
+<span class="feature-status">Part 1 published. Still being verified in places. Parts 2 and beyond in progress.</span>
+</a>
+
+
 > **What do we believe in an era of mistrust?**
 >
 > What are half truths and omissions? Is it spin for personal gain? Is it a lie? Does it matter?

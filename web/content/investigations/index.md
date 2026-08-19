@@ -18,17 +18,13 @@ That means slower work and a narrower subject. It also means the claims can be c
 
 ## Published
 
-<div class="info-box is-finding">
-
-### Quid-Pro-NO!
-
-**Meta, Gallatin, and the Industrial Development Board.** A $1.5 billion data center, a board that says it answers to nobody, half a billion dollars of property assessed at zero, and a county column on a state form that has never had a number in it.
-
-**[Read Part 1: The Simple Question That Wasn't →](/investigations/quid_pro_no/)**
-
-*Part 1 is published and still being verified in places. Parts 2 and beyond are in progress.*
-
-</div>
+<a class="feature" href="/investigations/quid_pro_no/">
+<span class="feature-kicker">Part 1 &middot; Meta, Gallatin, and the Industrial Development Board</span>
+<span class="feature-title">Quid-Pro-<em>NO!</em></span>
+<p>A $1.5 billion data center. A board that says in its own audited books that the city "cannot impose its will" on it, under a statute calling it a public instrumentality of that same city. Half a billion dollars of property assessed at zero, and a county column that has never had a number in it.</p>
+<span class="feature-cta">Read Part 1: The Simple Question That Wasn't &rarr;</span>
+<span class="feature-status">Published and still being verified in places. Parts 2 and beyond are in progress.</span>
+</a>
 
 ## How these are sourced
 
