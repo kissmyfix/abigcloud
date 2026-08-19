@@ -53,6 +53,8 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 | `files/` | Project plumbing: this map, the README template, `bin/` (all project scripts), `venv/` (their Python environment). |
 | `files/WORKFLOW.md` | **How writing reaches the site**: mdlive, what Astro does, the publish pipeline, and what to check when it breaks. |
 | `files/bin/mdlive.py` | Brandon's browser markdown editor. |
+| `files/cold-read/` | **The cold read** — the test of whether this project explains itself to a session that starts with nothing. `PROTOCOL.md` (procedure and scoring), `prompt.md` (the ten questions, verbatim), `answer-key.md` (the agreed baseline, stamped with the commit it is valid for), `runs/` (one file per run). |
+| `files/bin/cold-read.sh` | Sets up a cold read: warns if the answer key is stale, stamps a run file, prints the agent prompt. `--check` to see whether the key has gone stale. |
 | `files/bin/whos-editing.sh` | Exits non-zero if mdlive has a given file open. Run it before any scripted edit to a content file; writing behind him races his autosave. |
 | `files/bin/ship.sh` | **Publishing, in one command.** Build, commit, push, wait on the Action, confirm the live pages serve 200. Use it instead of running the steps by hand. |
 | `files/bin/` | Every project script — PDF extraction and profiling, whisper transcription, Comptroller CSV builders and verifiers, the parcel-assessment parser. Run with `files/venv/bin/python`. |
