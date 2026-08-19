@@ -11,6 +11,9 @@
 #
 # Exit codes: 0 live and verified, 1 publish/build failed, 2 push failed,
 #             3 deploy failed or timed out, 4 live check failed.
+#
+# With `gh` installed and authenticated it reports WHY a deploy failed, not just
+# that it did. Without gh it still works, on the unauthenticated API, blind.
 
 set -uo pipefail
 
@@ -61,21 +64,52 @@ fi
 
 SHA="$(git rev-parse HEAD)"
 
-# 3. Wait for the Action. Public repo, so the API needs no token.
+# 3. Wait for the Action, and say why if it fails.
+#    Uses gh when it is installed: authenticated calls raise the API ceiling from
+#    60/hr to 5000, and only gh can read the job log. Without the log a failure
+#    reports "step 5 failed" and the build has to be reproduced locally to find
+#    out what broke, which cost an hour on 2026-08-18.
 say "waiting for deploy of ${SHA:0:8}"
 deadline=$(( SECONDS + DEPLOY_TIMEOUT ))
-conclusion=""
-while (( SECONDS < deadline )); do
-  json="$(curl -sf "$API?head_sha=$SHA&per_page=1")" || { sleep 10; continue; }
-  status="$(printf '%s' "$json"     | grep -m1 '"status"'     | cut -d'"' -f4)"
-  conclusion="$(printf '%s' "$json" | grep -m1 '"conclusion"' | cut -d'"' -f4)"
-  [[ "$status" == "completed" ]] && break
-  sleep 10
-done
+conclusion=""; run_id=""
+
+if command -v gh >/dev/null 2>&1; then
+  while (( SECONDS < deadline )); do
+    read -r run_id status conclusion <<<"$(gh run list --commit "$SHA" --limit 1 \
+      --json databaseId,status,conclusion \
+      --jq '.[0] | "\(.databaseId) \(.status) \(.conclusion)"' 2>/dev/null)"
+    [[ "$status" == "completed" ]] && break
+    sleep 10
+  done
+else
+  while (( SECONDS < deadline )); do
+    json="$(curl -sf "$API?head_sha=$SHA&per_page=1")" || { sleep 10; continue; }
+    status="$(printf '%s' "$json"     | grep -m1 '"status"'     | cut -d'"' -f4)"
+    conclusion="$(printf '%s' "$json" | grep -m1 '"conclusion"' | cut -d'"' -f4)"
+    [[ "$status" == "completed" ]] && break
+    sleep 10
+  done
+fi
+
 case "$conclusion" in
   success) ok "deploy succeeded" ;;
-  "")      die "no completed run for ${SHA:0:8} after ${DEPLOY_TIMEOUT}s — check the Actions tab" 3 ;;
-  *)       die "deploy concluded '$conclusion' — check the Actions tab" 3 ;;
+  ""|null) die "no completed run for ${SHA:0:8} after ${DEPLOY_TIMEOUT}s — check the Actions tab" 3 ;;
+  *)
+    printf '\033[31m FAIL\033[0m deploy concluded %s\n' "$conclusion" >&2
+    if command -v gh >/dev/null 2>&1 && [[ -n "$run_id" ]]; then
+      printf '\n  which step:\n' >&2
+      gh run view "$run_id" 2>&1 | sed -n '/JOBS/,$p' | sed 's/^/    /' >&2
+      job="$(gh run view "$run_id" --json jobs \
+             --jq '.jobs[] | select(.conclusion=="failure") | .databaseId' 2>/dev/null | head -1)"
+      if [[ -n "$job" ]]; then
+        printf '\n  what it said:\n' >&2
+        gh api "repos/kissmyfix/abigcloud/actions/jobs/$job/logs" 2>/dev/null \
+          | grep -iE 'error|failed|Required|Cannot|Missing' | tail -12 \
+          | sed 's/^[0-9T:.Z-]* //; s/\x1b\[[0-9;]*m//g; s/^/    /' >&2
+      fi
+      printf '\n  full log:  gh run view %s --log\n' "$run_id" >&2
+    fi
+    exit 3 ;;
 esac
 
 # 4. Confirm the live site actually serves it. Cache-bust so we are not reading
