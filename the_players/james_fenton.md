@@ -5,7 +5,7 @@ Former Executive Director of the Gallatin Economic Development Agency (GEDA), ~1
 ## Why he matters
 
 - Signed the 2017 NDA for Project Skillet (the deal that became Woolhawk/Meta).
-- **July 19, 2018**: IDB registered-agent control moved from the City Attorney's office to GEDA — his shop — two months after Woolhawk negotiations began. Flagged in `memory/MEMORY.md` as the potential smoking gun: independent legal oversight removed at the moment it mattered most.
+- **July 19, 2018**: the IDB's **address of record** moved from the City Attorney's office to GEDA, his shop. The SOS filing reads *"Principal Address 3 changed from: CITY ATTORNEY to: GALLATIN ECONOMIC DEVELOPMENT AGENCY."* **Corrected 2026-08-19: this previously said "registered-agent control," which is wrong.** The registered agent remained Susan High-McAuley until 7/12/2021, when it changed to Preston Stark. Two months into Woolhawk the mail moved; the agent moved three years later.
 - On-record quote (Data Center Knowledge): Meta "will become the largest revenue source in the county."
 
 ## From the Growing Pains interview (Sumner County Republican Freedom Caucus podcast; transcript: `podcasts/transcripts/fenton-on-podcast-full.txt`)

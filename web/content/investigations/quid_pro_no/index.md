@@ -238,9 +238,11 @@ She wrote a confession and turned it in for a grade.
 
 ### The Operator
 
-The man behind all of it is James Fenton, who served roughly twelve years as Executive Director of the Gallatin Economic Development Agency. Before Gallatin, six years doing economic development in Cheatham County. He signed the NDA for Project Skillet in 2017. And in July 2018, two months after Woolhawk negotiations began, he moved the IDB's registered agent from the City Attorney's office to his own agency.
+The man behind all of it is James Fenton, who served [roughly twelve years as Executive Director](/sources/fenton-on-podcast-full/) of the Gallatin Economic Development Agency. Before Gallatin, six years doing economic development in Cheatham County. He signed the NDA for Project Skillet, which he dates to 2016 and GEDA's own later account dates to 2017. And in July 2018, two months after Woolhawk negotiations began, the board's address of record moved out of the City Attorney's office and into his agency. [The state filing](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf) puts it plainly: Principal Address 3 changed from "CITY ATTORNEY" to "GALLATIN ECONOMIC DEVELOPMENT AGENCY."
 
-Read that again. The person negotiating the deal moved legal oversight of the deal away from the independent city attorney and into his own shop. At the exact moment it mattered most.
+Read that again. While he was negotiating the deal, the address where the board received its official mail stopped being the city attorney's office and became his. At the exact moment it mattered most.
+
+The registered agent itself stayed with the city attorney until July 2021, when it changed to Preston Stark.
 
 But look at how the whole thing bookends.
 
@@ -254,23 +256,27 @@ Then in 2018 he moved it out of the City Attorney's office and into his own.
 
 Independent legal custody in at the start. Out at the moment it mattered.
 
-Fenton did a victory-lap podcast interview with a local Republican group where he narrated the whole saga like a war story, assembling 800 acres from private owners, maneuvering around a university president who tried to say no (that president was replaced by Tennessee's former Economic Development Commissioner, who said yes), calling in a state senator and mayors to resolve a utility dispute three weeks before announcement.
+Fenton did a victory-lap podcast interview with a local Republican group where he narrated the whole saga like a war story, assembling [800 acres from private owners](/sources/fenton-on-podcast-full/), maneuvering around a university president who tried to say no (that president was replaced by Tennessee's former Economic Development Commissioner, who said yes), calling in a state senator and mayors to resolve a utility dispute three weeks before announcement.
 
-In the entire interview, he never says Woolhawk. Never says PILOT. Never says abatement. Never says IDB. And he closes with: "We didn't give them anything. They paid for everything."
+In [the entire interview](/sources/fenton-on-podcast-full/), he never says Woolhawk. Never says PILOT. Never says abatement. Never says IDB. And he closes with: "We didn't give them, you know, anything. We didn't put anything in for them. They paid for everything and upgraded our water system."
 
 Every word technically true. Every word designed to obscure what actually happened.
 
 ### The Shadow and the Stage
 
-You might wonder where public accountability enters this picture. After all, Tennessee law requires IDBs to hold public meetings, post agendas, and keep minutes. If you go to gallatintn.gov, you'll find a well-designed, modern government website. Every department, every agency, every board, meetings, minutes, contacts, all of it.
+You might wonder where public accountability enters this picture. After all, [Tennessee law requires IDBs to hold public meetings, post agendas, and keep minutes](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf).
 
-Except one.
+So go to gallatintn.gov and click through to [Boards and Commissions](/sources/saved_sites/gallatintn_gov/2026-08-19-gallatintn-boards-commissions.html). Fifteen of them. The Beer Board tells you it issues permits to sell beer and enforces the code. The Electric Power Board tells you it supervises the city's electric system. The Health, Educational and Housing Facilities Board tells you it finances facilities for low income families, the disabled, and the elderly. The Planning Commission tells you it meets the fourth Monday of the month at 5 p.m. in Council Chambers.
 
-Click "Economic Development" in the sidebar and you land on GEDA's polished external website. That's the stage. But GEDA isn't the entity signing PILOT agreements. GEDA isn't the tax-exempt body that technically owns the land. That's the IDB. And to find the IDB, you have to go back, click "Boards & Commissions," and scroll to a listing that gives you nothing but a list of names and term expiration dates. No meeting minutes. No agendas. No records of the deals they've approved. Nothing.
+Then click [Industrial Development Board](/sources/saved_sites/gallatintn_gov/2026-08-19-gallatintn-industrial-development-board.html).
+
+Eight names and the dates their terms expire.
+
+That's the entire page. No description of what the board is. No statement of what it does. Nothing about when it meets or where. The one board on that list holding title to half a billion dollars of property is the only one that doesn't tell you what it's for.
+
+While you're there, read the city's own note above the calendar: "There is not a comprehensive calendar that includes all of the committees or commissions listed on this page."
 
 The IDB, the entity making multi-million dollar, multi-decade financial commitments on behalf of an entire city, is a ghost on its own government's website.
-
-Oh, and one detail I love: every other board on that site lists its own standalone meeting time. The IDB doesn't. It shares its Monday 4:30 PM slot with one other board. Same time. Same room. Same list of members. Two names for the same group of people, depending on which hat they need that minute.
 
 ### Where the Money Goes
 

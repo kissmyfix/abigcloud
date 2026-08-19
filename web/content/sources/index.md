@@ -16,6 +16,11 @@ Where a document was captured from a page that has since changed or gone behind 
 - [Transcript: Growing pains exploring the challenges in a thriving sumner county the truth about growth in small cities with mayor mike callis](/sources/growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis/)  
   <span class="src-meta">Whisper transcript of the episode audio · `growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis.txt`</span>
 
+## Other
+
+- [2026-08-19-gallatintn-boards-commissions.html](/sources/saved_sites/gallatintn_gov/2026-08-19-gallatintn-boards-commissions.html)
+- [2026-08-19-gallatintn-industrial-development-board.html](/sources/saved_sites/gallatintn_gov/2026-08-19-gallatintn-industrial-development-board.html)
+
 ## State records and statutes
 
 - [1688-2023-c-gallatin-rpt-cpa811-12-21-23.txt](/sources/1688-2023-c-gallatin-rpt-cpa811-12-21-23/)
