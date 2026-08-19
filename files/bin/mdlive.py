@@ -74,6 +74,9 @@ PAGE = r"""<!doctype html>
 <base href="__BASE__">
 <title>__NAME__</title>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<link rel="stylesheet" href="/files/web/node_modules/@fontsource-variable/dm-sans/index.css">
+<link rel="stylesheet" href="/files/web/node_modules/@fontsource/dm-serif-display/400.css">
+<link rel="stylesheet" href="/files/web/node_modules/@fontsource/dm-serif-display/400-italic.css">
 <style>
  :root{--bg:#faf9f7;--fg:#1c1b19;--mut:#6b675f;--rule:#e0ddd6;--acc:#8a5a2b;
        --code:#f0eee9;--pane:#fff}
@@ -185,6 +188,36 @@ function curline(){
   const kids=gut.children;
   for(let i=0;i<kids.length;i++) kids[i].classList.toggle('cur',i===n);
 }
+/* The preview wears the real site stylesheet. It is loaded into a shadow root
+   attached to #right: the site's rules target body/:root/h1/blockquote, which
+   would otherwise restyle this editor's own toolbar and gutter. A shadow root
+   isolates both directions with no prefixing and no copy to drift.
+
+   Two rewrites are needed on the way in. The bare `@import '@fontsource...'`
+   specifiers are resolved by Vite at build time and mean nothing to a browser,
+   so they are stripped — the faces are linked in the head instead. And `:root`
+   does not match inside a shadow root, so it becomes `:host`, which is where
+   the palette variables have to live for the rules below them to see. */
+let shadow=null;
+async function siteStyles(){
+  const host=document.getElementById('right');
+  shadow=host.attachShadow({mode:'open'});
+  let css='';
+  try{
+    css=await (await fetch('/files/web/src/styles/global.css')).text();
+    css=css.replace(/^@import\s+['"][^'"]*['"];\s*$/gm,'')   // bare specifiers
+           .replace(/:root/g,':host');
+  }catch(e){ css=''; }
+  shadow.innerHTML='<style>'
+    +':host{display:block;background:var(--bg);color:var(--ink2);'
+    +'padding:28px 34px 40vh;box-sizing:border-box;min-height:100%}'
+    +'.prose{max-width:100%}'
+    +css
+    +'</style><div class="prose"></div>';
+  return shadow.querySelector('.prose');
+}
+let proseEl=null;
+
 function render(){
   const t=ed.value;
   // render block by block so every rendered chunk knows its source line
@@ -195,7 +228,7 @@ function render(){
     html+='<div class="blk" data-line="'+line+'">'+marked.parser(sub)+'</div>';
     line+=(tk.raw.match(/\n/g)||[]).length;
   }
-  right.innerHTML=html;
+  if(proseEl) proseEl.innerHTML=html; else right.innerHTML=html;
   const lines=t.split('\n');
   meta.textContent=lines.length+' lines · '
     +(t.trim()?t.trim().split(/\s+/).length:0)+' words';
@@ -204,7 +237,7 @@ function render(){
   curline();
   anchors();
   // images change block heights once they load — remeasure when they do
-  right.querySelectorAll('img').forEach(im=>{
+  (proseEl?proseEl:right).querySelectorAll('img').forEach(im=>{
     if(!im.complete) im.addEventListener('load',anchors,{once:true});
   });
 }
@@ -220,7 +253,7 @@ function anchors(){
   const pad=parseFloat(getComputedStyle(ed).paddingTop)||0;
   srcTop=[]; let y=pad;
   for(const d of mirror.children){ srcTop.push(y); y+=d.offsetHeight; }
-  blk=[...right.querySelectorAll('.blk')]
+  blk=[...(proseEl?proseEl:right).querySelectorAll('.blk')]
         .map(d=>({line:+d.dataset.line, top:d.offsetTop}));
 }
 function lerp(pairs, key, val, out){        // interpolate between two anchors
@@ -316,7 +349,9 @@ async function tick(){
   }catch(e){ dot.classList.add('err'); }
 }
 FILE = new URLSearchParams(location.search).get('f') || null;
-loadListing().then(()=>{ tick(); setInterval(tick,500); });
+siteStyles().then(el=>{ proseEl=el; }).finally(()=>{
+  loadListing().then(()=>{ tick(); setInterval(tick,500); });
+});
 window.addEventListener('beforeunload',e=>{ if(dirty){ save(); } });
 </script></body></html>"""
 
