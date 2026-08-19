@@ -67,4 +67,18 @@ These HTML pages are destined for abigcloud.com, so they're built to match its a
 
 The Sumner PILOT tracker started here as a single monolithic file (`sumner_pilot_tracker.html`), then got rebuilt as a data-driven version (`sumner_pilot_tracker_v2.html` + `tracker.css`/`tracker-data.js`/`tracker-render.js`) for the reasons described above (the design-system notes in this file still apply). Both the original and the interim v2 files that lived in this directory have been deleted — the original because it was fully superseded and hand-editing 1,200 divs was never worth returning to, the interim copies because they're now duplicates of the real thing.
 
-The live, actively-maintained version is at **`www/sumner_pilot_tracker_v2/`** — `index.html` + `css/tracker.css` + `js/county-data.js` + one `js/entities/` file per entity + `js/tracker-render.js`. See that directory's own README for specifics. This directory (`visualizations/`) is now just for draft/prototype work that hasn't graduated to the real site yet.
+**Status as of 2026-08-18: the tracker is not in the working tree.** It lived at
+`www/sumner_pilot_tracker_v2/` (`index.html` + `css/tracker.css` + `js/county-data.js` +
+one `js/entities/` file per entity + `js/tracker-render.js`) until `www/` was removed in
+commit `ebb3e4d`, "Delete www/ — five dead codebases generating confusion." Nothing on
+abigcloud.com replaces it yet.
+
+It is recoverable if it is wanted:
+
+    git show ebb3e4d^:www/sumner_pilot_tracker_v2/index.html
+
+Rebuilding it against the current site would mean porting it into `web/` as a page rather
+than restoring a standalone directory. That is an open decision, not a plan.
+
+This directory (`visualizations/`) is draft and prototype work that has not graduated to
+the site.

@@ -4,14 +4,18 @@ interface Props {
 }
 
 const { date } = Astro.props;
+
+/* A frontmatter date like '2026-08-17' parses as midnight UTC. Formatting that
+   in the build machine's local zone shifts it back a day anywhere west of
+   Greenwich, so the same commit rendered "Aug 17" in CI (UTC) and "Aug 16" on
+   Brandon's machine (CDT). Format in UTC and the printed date always matches
+   what the frontmatter says. */
+const printed = date.toLocaleDateString('en-us', {
+	year: 'numeric',
+	month: 'short',
+	day: 'numeric',
+	timeZone: 'UTC',
+});
 ---
 
-<time datetime={date.toISOString()}>
-	{
-		date.toLocaleDateString('en-us', {
-			year: 'numeric',
-			month: 'short',
-			day: 'numeric',
-		})
-	}
-</time>
+<time datetime={date.toISOString()}>{printed}</time>

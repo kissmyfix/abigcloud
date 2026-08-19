@@ -8,7 +8,7 @@ description: 'Who bears the cost of building for data centers, and what the comm
 
 > **The Harvard Law Finding**
 >
-> Electric utilities were historically granted exemptions from monopoly laws in exchange for capped profit percentages. A key provision: utilities are allowed to pass through costs of grid maintenance and upgrades to their full customer base. When a data center requires massive infrastructure investment, new transmission lines, substation upgrades, doubled capacity, that cost is distributed across every residential and commercial customer on the same grid. This mechanism is documented by Harvard Law research and is confirmed as real from Phase 1.
+> Electric utilities were historically granted exemptions from monopoly laws in exchange for capped profit percentages. A key provision: utilities are allowed to pass through costs of grid maintenance and upgrades to their full customer base. When a data center requires massive infrastructure investment, new transmission lines, substation upgrades, doubled capacity, that cost is distributed across every residential and commercial customer on the same grid. The mechanism is documented by Harvard Law research.
 
 | Figure | What It Measures |
 |---|---|
@@ -17,11 +17,11 @@ description: 'Who bears the cost of building for data centers, and what the comm
 | **HB 1847** | New TN law (signed May 7, 2026): 50+ MW centers must fund their own infrastructure |
 | **Stalled** | TVA data-center rate class, designed to protect ratepayers, after board firings |
 
-TVA has publicly stated it is a priority to ensure "serving new data centers does not create rate pressure on other electric customers." It has taken no binding action as of June 2026. The board effort to create a data-center rate class stalled after multiple board members were fired in early 2026. The state's legislative response, HB 1847, attempts to address this going forward but applies only to facilities drawing 50+ MW. Fisk's 30 MW proposal would not be covered.
+TVA has publicly stated it is a priority to ensure "serving new data centers does not create rate pressure on other electric customers." It has taken no binding action. The board effort to create a data-center rate class stalled after multiple board members were fired in early 2026. The state's legislative response, HB 1847, attempts to address this going forward but applies only to facilities drawing 50+ MW. Fisk's 30 MW proposal would not be covered.
 
 > **The Tax Incentive Ledger**
 >
-> 41+ states offer tax incentives specifically designed to attract data center development. Virginia's data center sales-tax exemption alone cost an estimated $1.6 billion in fiscal year 2025. Tennessee's estimated annual foregone state revenue from data center tax exemptions is ~$4.1 million, a figure that was flagged in Phase 1 as almost certainly too low given the scale of investment in the state and worth independent verification. Tennessee requires a $100 million investment and only 15 full-time jobs to qualify. Only about 15 states nationally require minimum job creation tied to incentives.
+> 41+ states offer tax incentives specifically designed to attract data center development. Virginia's data center sales-tax exemption alone cost an estimated $1.6 billion in fiscal year 2025. Tennessee's estimated annual foregone state revenue from data center tax exemptions is ~$4.1 million, a figure that looks almost certainly too low given the scale of investment in the state, and one worth verifying independently. Tennessee requires a $100 million investment and only 15 full-time jobs to qualify. Only about 15 states nationally require minimum job creation tied to incentives.
 
 ---
 
@@ -38,7 +38,7 @@ TVA has publicly stated it is a priority to ensure "serving new data centers doe
 
 > **The Brookings Finding**
 >
-> The most rigorous academic study available, roughly two weeks old as of June 2026. A study of 770 U.S. data center facilities across 93 counties from 2003 to 2024 found counties receiving their first large data center saw total private employment rise 4 to 5% over five to six years, construction employment up 11%, and information-sector employment up 22%. Wages rose 3 to 4%. These are real benefits. The critical caveat: industry-sponsored impact reports overstated those benefits by a factor of three compared to the properly controlled academic analysis. Both things can be true. There are real benefits, and the announced benefits are reliably exaggerated.
+> The most rigorous academic study available, published in 2026. A study of 770 U.S. data center facilities across 93 counties from 2003 to 2024 found counties receiving their first large data center saw total private employment rise 4 to 5% over five to six years, construction employment up 11%, and information-sector employment up 22%. Wages rose 3 to 4%. These are real benefits. The critical caveat: industry-sponsored impact reports overstated those benefits by a factor of three compared to the properly controlled academic analysis. Both things can be true. There are real benefits, and the announced benefits are reliably exaggerated.
 
 | Job Category | Typical Numbers (100 MW facility) |
 |---|---|

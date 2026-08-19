@@ -40,6 +40,10 @@ SKIP = re.compile(
     r"|^/"                           # site routes (/report/), not filesystem paths
     r"|^\.\./"                       # links out of the repo (GitHub ../../issues)
     r"|^(underscored_)?name\.md$"    # naming-scheme placeholders
+    r"|^~/"                          # paths outside the repo (~/.claude/...)
+    r"|^[a-z0-9.-]+\.(com|org|net|gov|io)(/|$)"   # bare hostnames, not paths
+    r"|\.\.\.\."                     # an elided example path (foo-....txt)
+    r"|^\./assets/name\."             # frontmatter example in web/README
 )
 
 
@@ -47,9 +51,9 @@ SKIP = re.compile(
 # the rename history this project deliberately keeps. Those names must not resolve.
 HISTORY = re.compile(
     r"formerly|renamed|w(as|ere) named|named for|filed for years as|previously"
-    r"|deleted|deduplicated|superseded|no longer|dissolved|disposable|retired"
+    r"|deleted|removed|deduplicated|superseded|no longer|dissolved|disposable|retired"
     r"|used to|old name|before they move|started here as|moved here"
-    r"|once called|one called",
+    r"|once called|one called|commit `?[0-9a-f]{7}|not in the working tree",
     re.I,
 )
 

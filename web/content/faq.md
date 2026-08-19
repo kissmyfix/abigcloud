@@ -52,7 +52,7 @@ What changed in the last 3 to 5 years is generative AI. Training and operating m
 
 ## Important Caveats
 
-**ACLU vs. NAACP.** The Memphis lawsuit is NAACP/SELC/Earthjustice. The Banner's attribution is incorrect.
+**Who is suing over xAI in Memphis.** The lawsuit was brought by the NAACP with the Southern Environmental Law Center and Earthjustice, not the ACLU. Some coverage has attributed it incorrectly.
 
 **Megawatt figures are contested.** Meta Gallatin is "500 MW" (solar capacity) and "~300 MW" (actual draw). Headlines conflate them. Always ask which number.
 
@@ -67,20 +67,3 @@ What changed in the last 3 to 5 years is generative AI. Training and operating m
 **$4.1M TN tax figure.** The Tennessee annual foregone revenue figure from data center exemptions is almost certainly too low given post-2020 buildout scale. Flagged for independent verification.
 
 **Self-generation gap.** Facilities generating their own power (like xAI's gas turbines) may not appear in utility consumption data, meaning the 4% national figure may understate true energy use.
-
----
-
-## Visualization Queue
-
-**These are the data stories that need to be shown, not told. Each one has an "aha" moment built into the numbers. The goal is to find the visual form that makes that moment unavoidable.**
-
-| Visual | The "Aha" Moment | Data Needed | Status |
-|---|---|---|---|
-| **The 100% Solar Illusion** | Meta claims solar; TVA grid is half fossil. Show physically where the electrons come from vs. where the RECs are credited. | Meta 300MW draw vs. TVA generation mix | Ready to Build |
-| **Meta vs. All of Nashville** | One building in Gallatin uses the same power as every home in Nashville. The bar should be so tall it requires scrolling. | 300MW / 214,000 Nashville homes / 20,033 Gallatin homes | Ready to Build |
-| **"Lost in Translation," the 18% Misquote** | Show three bars: 18% of industrial, 10% of total TVA, 4.4% national, and watch one story become three very different stories. | 18% / 10% / 4.4% | Ready to Build |
-| **Who Is TVA Really Building For** | 3,700 MW of new generation = essentially all of Tennessee. How much is for residents vs. data centers vs. industrial? | 3,700MW / 6M home equivalent / TN population | Ready to Build |
-| **TVA Board Firing Timeline vs. Rate Class Stall** | The board was changed; the policy protecting ratepayers died. Show the timeline side by side. | Board member names/dates + rate class timeline | Pending Thread Research |
-| **Eminent Domain Map** | Show TVA eminent domain actions 2020 to present mapped against data center facility locations. | Case locations + facility coordinates | Pending Thread Research |
-| **The Complete Ledger** | Full cost/benefit balance sheet: tax incentives given, permanent jobs created, infrastructure costs, rate increases. All in one place. | Multiple threads | Pending Multiple Threads |
-| **The Jobs Announcement Decoder** | Every announcement shows construction headcount. Show what that actually converts to in permanent employment, the 5:1 to 8:1 ratio. | Brookings data + specific facility examples | Ready to Build |

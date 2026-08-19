@@ -4,9 +4,9 @@ description: "Questions that remain unanswered, and the public records that woul
 ---
 
 # **Open Threads**
-**These are the questions that remain open as of June 2026. Each one has been identified as answerable through public records, primary sources, or documented reporting.**
+**These are the questions still open. Each one has been identified as answerable through public records, primary sources, or documented reporting, which is what separates an open thread from a hunch.**
 
-### National 4% Napkin Math Stress Test
+### Does the national 4% figure survive being added up from the bottom?
 
 Sum reported capacities of known hyperscale facilities nationally, convert to annual consumption, compare to LBNL's 176 TWh figure. If the bottom-up number materially exceeds the top-down figure, that discrepancy is itself one of the most important findings in the project. Remember: the LBNL figure excludes crypto mining and may exclude self-generation.
 
