@@ -41,6 +41,7 @@ SKIP = re.compile(
     r"|^\.\./"                       # links out of the repo (GitHub ../../issues)
     r"|^(underscored_)?name\.md$"    # naming-scheme placeholders
     r"|^~/"                          # paths outside the repo (~/.claude/...)
+    r"|^origin/"                     # git refs, not files
     r"|^[a-z0-9.-]+\.(com|org|net|gov|io)(/|$)"   # bare hostnames, not paths
     r"|\.\.\.\."                     # an elided example path (foo-....txt)
     r"|^\./assets/name\."             # frontmatter example in web/README
