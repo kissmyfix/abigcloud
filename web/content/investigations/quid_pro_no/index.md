@@ -300,9 +300,9 @@ They accumulated. They hoarded. And then they flushed it, to people and entities
 
 One last detail before I leave you to sit with all of this.
 
-When Meta's deal was first announced, the press release touted "$1.4M+ in direct funding to Sumner County area schools and nonprofits." Great headline. Generous company.
+When Meta's deal was first announced, the press release touted ["$1.4M+ in direct funding to Sumner County area schools and nonprofits."](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf) Great headline. Generous company.
 
-The 2023 IDB filing shows $901K to Sumner County Schools. The 2024 filing shows $640K. That's $1.54 million, close enough to the $1.4 million promise to call it fulfilled.
+The [2023 IDB filing](/sources/usa_federal/irs_990_data/gallatin_idb/idb2023.pdf) shows $901,080 to Sumner County Schools. The [2024 filing](/sources/usa_federal/irs_990_data/gallatin_idb/idb2024.pdf) shows $640,457. That's $1.54 million, close enough to the $1.4 million promise to call it fulfilled.
 
 But those aren't donations. That's PILOT money flowing through the structure. Money Meta owes under the agreement. The IDB's legally required distribution to schools repackaged in a press release as corporate philanthropy. The same dollars counted once as a statutory obligation and again as a generous gift.
 
@@ -345,13 +345,13 @@ There's one more question I kept coming back to. If a board is holding half a bi
 
 One man, in the next town over.
 
-[John R. Poole, CPA](/sources/11278-2025-c-gallatinidb-rpt-cpa517-3-25-26-rev1/), a sole practitioner on Northlake Drive in Hendersonville, audits the Gallatin IDB. He also audits Gallatin's Health, Educational and Housing Facilities Board, which has the same nine directors, in the same order, and he signed both reports on the same day.
+[John R. Poole, CPA](/sources/11278-2025-c-gallatinidb-rpt-cpa517-3-25-26-rev1/), a sole practitioner on Northlake Drive in Hendersonville, audits the Gallatin IDB. He also audits [Gallatin's Health, Educational and Housing Facilities Board](/sources/state_of_tennessee/state_audits/gallatin_hhfb/13682-2025-c-gallatinhhfb-rpt-cpa517-3-23-26.pdf), which has the same nine directors, in the same order, and he signed both reports on the same day.
 
-He audits Westmoreland's Industrial Development Board too. Same state, same statute, same kind of board.
+He audits [Westmoreland's Industrial Development Board](/sources/state_of_tennessee/state_audits/westmoreland_idb/12045-2025-c-westmorelandidb-rpt-cpa517-1-27-26.pdf) too. Same state, same statute, same kind of board.
 
 Except he doesn't audit them the same way.
 
-Westmoreland's IDB is audited as a component unit of the City of Westmoreland, under the rules written for government. Those rules require a management discussion of the year's results, fund statements, and a formal Schedule of Findings where problems get written down.
+Westmoreland's IDB is audited as a component unit of the City of Westmoreland, under the rules written for government. Those rules require a management discussion of the year's results, fund statements, and a formal Schedule of Findings where problems get written down. Westmoreland's carries one: finding 2025-001, separation of duties, a material weakness. The report notes the original finding number was 2011-001, meaning it has been written up every year for fourteen years.
 
 Gallatin's IDB is audited under the rules written for private nonprofits. That report does test compliance and internal control, and it says the tests turned up nothing to report. But the management discussion is not required, so there is no explanation anywhere of why the board's net assets fell from $904,342 to $148,027 in a single year. There are no fund statements. And the board is never consolidated into the city's own books, where a reader would go looking for it.
 

@@ -25,7 +25,9 @@ Where a document was captured from a page that has since changed or gone behind 
 ## State records and statutes
 
 - [1688-2023-c-gallatin-rpt-cpa811-12-21-23.txt](/sources/1688-2023-c-gallatin-rpt-cpa811-12-21-23/)
+- [13682-2025-c-gallatinhhfb-rpt-cpa517-3-23-26.pdf](/sources/state_of_tennessee/state_audits/gallatin_hhfb/13682-2025-c-gallatinhhfb-rpt-cpa517-3-23-26.pdf)
 - [11278-2025-c-gallatinidb-rpt-cpa517-3-25-26-rev1.txt](/sources/11278-2025-c-gallatinidb-rpt-cpa517-3-25-26-rev1/)
+- [12045-2025-c-westmorelandidb-rpt-cpa517-1-27-26.pdf](/sources/state_of_tennessee/state_audits/westmoreland_idb/12045-2025-c-westmorelandidb-rpt-cpa517-1-27-26.pdf)
 - [2014-06-12-cumulative-fiscal-note-2014-session.txt](/sources/2014-06-12-cumulative-fiscal-note-2014-session/)
 - [T.C.A. § 7-53-302 — Corporate powers of an Industrial Development Board](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf)  
   <span class="src-meta">Tennessee Code Annotated · `tca-7-53-302-corporate-powers.pdf`</span>
