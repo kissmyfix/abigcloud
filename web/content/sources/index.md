@@ -18,6 +18,7 @@ Where a document was captured from a page that has since changed or gone behind 
 
 ## Other
 
+- [2026-07-gallatin-civic-calendar.pdf](/sources/saved_sites/gallatintn_gov/2026-07-gallatin-civic-calendar.pdf)
 - [2026-08-19-gallatintn-boards-commissions.html](/sources/saved_sites/gallatintn_gov/2026-08-19-gallatintn-boards-commissions.html)
 - [2026-08-19-gallatintn-industrial-development-board.html](/sources/saved_sites/gallatintn_gov/2026-08-19-gallatintn-industrial-development-board.html)
 

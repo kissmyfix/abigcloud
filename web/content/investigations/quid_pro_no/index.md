@@ -278,6 +278,14 @@ While you're there, read the city's own note above the calendar: "There is not a
 
 The IDB, the entity making multi-million dollar, multi-decade financial commitments on behalf of an entire city, is a ghost on its own government's website.
 
+There is one place it does appear. The city publishes a monthly civic calendar, and on [the July 2026 calendar](/sources/saved_sites/gallatintn_gov/2026-07-gallatin-civic-calendar.pdf) every body in town gets its own line. City Court. Planning Commission work session. City Council. Economic Development Agency. Beer Board. Board of Zoning Appeals.
+
+The IDB doesn't get a line. It gets half of one:
+
+> Industrial Development Board & Health, Educational, and Housing Board
+
+One entry. Two boards. The same nine people, the same room, and whichever name the business in front of them requires.
+
 ### Where the Money Goes
 
 Follow the 990 filings from 2020 to 2024 and you watch a story unfold in numbers.
