@@ -4,7 +4,7 @@ description: 'Who is writing this, what it runs on, and why it will not tell you
 ---
 # **About**
 
-Hello. I'm Brandon Smith, a born and raised Nashville native who calls home to the Middle Tennessee region. And this is from where I am writing. Where most of this story is happening.
+Hello. I'm Brandon, a born and raised Nashville native who calls home to the Middle Tennessee region. And this is from where I am writing. Where most of this story is happening.
 
 I'm not a professional journalist and I don't work for an outlet. There is no sponsor, no party, no institution behind this work. I'm self-taught, depending on my own instincts and observations to guide this project, which runs on very dry and boring public records. Source materials are derived from local city council packets, IRS filings, state registries, utility documents, and the things officials say on the record.
 
