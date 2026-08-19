@@ -1,9 +1,35 @@
 ---
 title: 'Frequently Asked Questions'
-description: 'What a data center actually is, how to read a megawatt figure, what is still unverified, and what is being built next.'
+description: 'How AI is used here and where it is not, what a data center actually is, how to read a megawatt figure, and what is still unverified.'
 ---
 
 # **Frequently Asked Questions**
+## Is This Written by AI?
+
+**Yes, in part, and it is disclosed rather than hidden.**
+
+AI is used openly and heavily on this project as a drafting and analysis tool. It reads
+documents in volume, reconciles figures across filings, transcribes audio, and writes
+first versions of explainers, site pages, and data tooling.
+
+What it does not do is decide what is true, what matters, or what publishes. Every
+investigative question originated with Brandon, every editorial judgment is his, and
+**nothing publishes that he cannot explain himself, unaided, from the primary sources.**
+
+The reason that rule exists is worth stating plainly: an AI states a wrong thing in the
+same confident register as a right one. There is no tell. So the check cannot be "does it
+sound right," it has to be "does the document say it," and every document is published
+here in full at [Sources](/sources/) so you can run that check yourself.
+
+> **The whole policy, not a summary of it**
+>
+> The division of labor, what AI drafts freely, where it never holds the pen, and how
+> verification actually works: [How This Investigation Uses AI](/about/how-this-investigation-uses-ai/).
+> The AI's own account of what it is useful for and where it fails is on the
+> [About page](/about/).
+
+---
+
 ## What Is a Data Center?
 
 **A data center is a warehouse for computers.**

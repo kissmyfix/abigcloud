@@ -17,7 +17,7 @@ set -uo pipefail
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 SITE="https://abigcloud.com"
 API="https://api.github.com/repos/kissmyfix/abigcloud/actions/runs"
-DEPLOY_TIMEOUT=300   # seconds to wait for GitHub Actions
+DEPLOY_TIMEOUT=600   # seconds to wait for GitHub Actions (queued runs can be slow)
 LIVE_TIMEOUT=120     # seconds to wait for the CDN to serve the new build
 
 MSG=""; VERIFY=""; DRY=0
