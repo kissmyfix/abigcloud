@@ -35,11 +35,11 @@ Stop it with `pkill -f mdlive`.
 
     cd web && npm run watch
 
-Runs two things at once: a watcher on `monologues/` that republishes on every save, and
+Runs two things at once: `watch-content.mjs`, which re-runs the citation build when anything under `web/content/` changes, and
 Astro's dev server on **http://localhost:4321**. Edit in mdlive on :8080, watch the actual
 site update on :4321.
 
-Stop it with `pkill -f "astro dev"`.
+Stop it with `cd web && npx astro dev stop` — `pkill -f "astro dev"` does not work, for the reason under "Process gotchas" below.
 
 ---
 

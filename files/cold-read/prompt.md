@@ -5,6 +5,9 @@ Your ONLY task is to read the project's own orientation and rule files and repor
 you understand. Do NOT make any changes to any file. Do NOT run git commands that alter
 state. Read only.
 
+**Do not open anything under `files/cold-read/`.** That directory holds the grading key for
+this exercise and reading it invalidates the result.
+
 Start with these, then follow whatever pointers they give you:
 
 - `/home/brandon/Documents/data_center_research/CLAUDE.md`

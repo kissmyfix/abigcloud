@@ -1,6 +1,6 @@
 # Answer key — what a cold read should conclude
 
-**Valid as of `ff23b6b`, 2026-08-19.** Update this file *before* running the test, not
+**Valid as of `dfdc0f8`, 2026-08-19.** Update this file *before* running the test, not
 after. A key written after seeing the report grades the report against itself and measures
 nothing.
 
