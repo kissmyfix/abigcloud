@@ -16,12 +16,6 @@ Where a document was captured from a page that has since changed or gone behind 
 - [Transcript: Growing pains exploring the challenges in a thriving sumner county the truth about growth in small cities with mayor mike callis](/sources/growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis/)  
   <span class="src-meta">Whisper transcript of the episode audio · `growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis.txt`</span>
 
-## Other
-
-- [2026-07-gallatin-civic-calendar.pdf](/sources/saved_sites/gallatintn_gov/2026-07-gallatin-civic-calendar.pdf)
-- [2026-08-19-gallatintn-boards-commissions.html](/sources/saved_sites/gallatintn_gov/2026-08-19-gallatintn-boards-commissions.html)
-- [2026-08-19-gallatintn-industrial-development-board.html](/sources/saved_sites/gallatintn_gov/2026-08-19-gallatintn-industrial-development-board.html)
-
 ## State records and statutes
 
 - [1688-2023-c-gallatin-rpt-cpa811-12-21-23.txt](/sources/1688-2023-c-gallatin-rpt-cpa811-12-21-23/)
@@ -36,13 +30,18 @@ Where a document was captured from a page that has since changed or gone behind 
 - [woolhawk-pilot-reporting.md](/sources/woolhawk-pilot-reporting/)
 - [2016-08-tn-commerce-disciplinary-action-report.txt](/sources/2016-08-tn-commerce-disciplinary-action-report/)
 - [2026-08-18-tn-accountancy-license-poole-john-russell.txt](/sources/2026-08-18-tn-accountancy-license-poole-john-russell/)
-- [lates-meta-parcel-assessment.pdf](/sources/state_of_tennessee/tn_property_assessments/lates-meta-parcel-assessment.pdf)
+- [sumner-assessment-woolhawk.pdf](/sources/state_of_tennessee/tn_property_assessments/sumner-assessment-woolhawk.pdf)
 - [idb-count-method.md](/sources/idb-count-method/)
 
 ## County and city records
 
+- [2026-07-gallatin-civic-calendar.pdf](/sources/sumner_county/gallatin_council_meetings/2026-07-gallatin-civic-calendar.pdf)
+- [2026-08-19-gallatintn-boards-commissions.html](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-boards-commissions.html)
+- [2026-08-19-gallatintn-industrial-development-board.html](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-industrial-development-board.html)
 - [2020-05-12-r2005-24-woolhawk-pilot-terms.txt](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/)
 - [1994-2026-idb-gallatin.pdf](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf)
+- [report-gallatin-idb-bates.pdf](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-bates.pdf)
+- [report-gallatin-idb-leon.pdf](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-leon.pdf)
 - [Meta's Gallatin Data Center (company fact sheet)](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf)  
   <span class="src-meta">Meta · `metas-gallatin-data-center.pdf`</span>
 
@@ -75,6 +74,4 @@ Where a document was captured from a page that has since changed or gone behind 
   <span class="src-meta">WSMV 4 Nashville, February 20, 2026, 8:57 AM CST · `2026-02-20-wsmv-tva-pauses-gallatin-transmission-line-gregory-farm.txt`</span>
 - [What is DC BLOX? Developer behind data center near Nashville Zoo has faced pushback elsewhere](/sources/2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer/)  
   <span class="src-meta">The Tennessean (Nashville), Updated July 9, 2026 · `2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer.txt`</span>
-- [report-gallatin-idb-bates.pdf](/sources/web_articles/report-gallatin-idb-bates.pdf)
-- [report-gallatin-idb-leon.pdf](/sources/web_articles/report-gallatin-idb-leon.pdf)
 

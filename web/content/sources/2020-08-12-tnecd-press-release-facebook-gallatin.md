@@ -10,9 +10,11 @@ description: 'Tennessee Department of Economic and Community Development (offici
 <dl class="src-prov">
 <dt>source</dt><dd>Tennessee Department of Economic and Community Development (official press release)</dd>
 <dt>headline</dt><dd>Governor Lee, Commissioner Rolfe Announce Facebook to Build $800 Million Data Center in Gallatin</dd>
+<dt>byline</dt><dd>(none stated — institutional release, no author credited)</dd>
 <dt>date</dt><dd>Wednesday, August 12, 2020, 06:00am</dd>
 <dt>url</dt><dd><a href="https://www.tn.gov/ecd/news/2020/8/12/governor-lee--commissioner-rolfe-announce-facebook-to-build--800-million-data-center-in-gallatin.html" rel="nofollow noopener">https://www.tn.gov/ecd/news/2020/8/12/governor-lee--commissioner-rolfe-announce-facebook-to-build--800-million-data-center-in-gallatin.html</a></dd>
 <dt>mirror</dt><dd><a href="https://tnecd.com/news/governor-lee-commissioner-rolfe-announce-facebook-to-build-800-million-data-center-in-gallatin/" rel="nofollow noopener">https://tnecd.com/news/governor-lee-commissioner-rolfe-announce-facebook-to-build-800-million-data-center-in-gallatin/</a></dd>
+<dt>archive</dt><dd>(none — no Internet Archive capture found at retrieval)</dd>
 <dt>retrieved</dt><dd>2026-08-17</dd>
 <dt>provenance note</dt><dd>Captured via automated fetch, rendered to text. Quote wording should be re-verified against the live page before publication.</dd>
 <dt>why saved</dt><dd>THE ORIGIN DOCUMENT. This is the text that outlets reprinted verbatim. Compare the three reprints saved alongside it. Note the state issued it at 6:00am; Tennessee Lookout says the announcement "came just after midnight Wednesday."</dd>

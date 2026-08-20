@@ -1,12 +1,17 @@
 # It's a Big Cloud
 
-**What is actually happening in Middle Tennessee, and why the story being told may not be complete.**
+**Data centers are being built across Middle Tennessee. This is the record of what they
+cost, who agreed to it, and whether the promises were kept.**
 
 The site is at [abigcloud.com](https://abigcloud.com). This repository is the evidence behind it.
 
 ---
 
 ## Why This Repository Exists
+
+The site covers data centers: what they consume, what they are promised, and what the
+public gets back. TVA and the ratepayers who fund it, the national picture, and the
+Middle Tennessee sites in particular, from Gallatin to Memphis.
 
 The source material behind this work is not linkable web content. It is meeting minutes, property assessments, federal tax filings, legislative archives, and audio recordings. Most of it exists as documents nobody has put online in any usable form.
 
@@ -23,19 +28,21 @@ If any claim is inaccurate, [open an issue](https://github.com/kissmyfix/abigclo
 
 ## The Investigations
 
+Investigations are the deep dives, where one deal gets followed all the way down. More
+are coming. One has been carried to any real length so far.
+
 | Investigation | Status |
 |---|---|
 | **[Quid-Pro-NO!](https://abigcloud.com/investigations/quid_pro_no/)** — Meta, Gallatin, the Industrial Development Board, and the PILOT structure | Part 1 published, in progress |
-
-The site covers data centers more broadly — TVA, ratepayer costs, the national picture,
-and other Middle Tennessee sites. Investigations are the deep dives; Quid-Pro-NO is the
-first one carried to any length.
 
 ---
 
 ## The Evidence
 
-Everything below is a primary source document or public record. Nothing has been altered. Where documents were obtained through public portals, the retrieval method and date are noted. The repo is organized by jurisdiction — the same way the failures stack.
+Everything below is a primary source document or public record. Nothing has been altered. Where documents were obtained through public portals, the retrieval method and date are noted. The repo is organized by jurisdiction, the same way the failures stack.
+
+It leans heavily toward Quid-Pro-NO right now. That is a reflection of what has been
+worked so far, not of what the archive is for.
 
 ---
 
@@ -127,18 +134,6 @@ Raw audio (`mp3s/`), Whisper transcripts (`transcripts/`), and `manifest.csv` tr
 
 ---
 
-### `reference/` — Plain-Language Explainers
-
-Public-facing glossary in encyclopedia voice. Designed for the reader who lands here and doesn't know what an IDB is, what a PILOT agreement does, how a title-transfer tax exemption works, or why the difference between a 501(c)(4) and a § 115 instrumentality matters. This is the on-ramp.
-
----
-
-### `visualizations/` — The Receipts, Visualized
-
-Comparison pages, data displays, and interactive views built from the source data. Includes the IDB 990 comparison tool, PILOT filing breakdowns, and the "same dollars, three stories" side-by-side.
-
----
-
 ## Key Findings
 
 **The IDB is a unicorn.** One of 423 Industrial Development Boards in Tennessee. The only one filing as a 501(c)(4). The only one absent from the IRS Exempt Organizations master file. Self-declared tax status with a fabricated formation year.
@@ -154,14 +149,6 @@ Comparison pages, data displays, and interactive views built from the source dat
 **The land was assembled through political relationships.** 800 acres, partly held in a university trust. The UT president said no. His successor — the state's former Economic Development Commissioner — said yes. Fenton describes the whole sequence on a podcast like a war story.
 
 **Every safeguard either failed or was bypassed.** No public agendas. No posted minutes. No independent web presence. Ghost listing on the city website. Comptroller filings with no follow-up. Federal filings never verified by the IRS. Press coverage that never got past the press release.
-
----
-
-## What This Repo Is Not
-
-This is not a legal filing. It is not a formal complaint. It is not affiliated with any political party, advocacy group, or media organization. It is one resident's attempt to answer a simple question — **have the promises been kept?** — using only public records and primary sources.
-
-Every document in this repository is a public record or was obtained through lawful public channels. If any claim made in the article is inaccurate, [open an issue](../../issues). That's the point of putting it here.
 
 ---
 
@@ -191,9 +178,7 @@ abigcloud/
 │   ├── irs_990_data/                      # Gallatin IDB 990s 2020-2024 + comparisons
 │   └── tva/                               # TVA in-lieu payments, power agreements
 ├── web_articles/                          # News coverage, saved with full provenance
-├── reference/                             # Plain-language glossary and explainers
-├── files/                                 # Scripts, the directory map, tooling
-└── visualizations/                        # Charts and images
+└── files/                                 # Scripts, the directory map, tooling
 ```
 
 Most PDFs have a `derived/` folder beside them holding page-anchored text, so the archive
@@ -211,4 +196,14 @@ Every citation there opens the document itself, and they are all listed at
 
 ## License
 
-All original writing is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source documents are public records and retain their original terms. Attribution appreciated. Forks encouraged.
+Four categories, four different answers. Full terms in [`LICENSE`](LICENSE).
+
+| What | Terms |
+|---|---|
+| Original writing — the article, explainers, READMEs | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Original code — `files/bin/`, `web/src/`, `web/scripts/` | MIT |
+| Government records — audits, 990s, PILOT reports, council packets | Public records. No rights claimed. |
+| Third-party articles, transcripts, and saved pages | Copyright their publishers. Archived for reference, not licensed by this project. |
+
+Attribution appreciated. Forks encouraged. If you own something in the fourth category and
+want it removed, open an issue.

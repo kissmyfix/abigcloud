@@ -6,6 +6,9 @@ Federal 990 filings by the Industrial Development Board of the City of Gallatin,
 ## Contents
 - `gallatin_idb/` — all publicly available Gallatin IDB 990 filings, 2020 (990-EZ) through 2024, plus the IRS search-results capture. `idb2020.pdf` is the as-filed graphic print (formerly `idb2020-verbose-version.pdf`); a content-identical ProPublica re-render was deduplicated 2026-07-05 after verifying the Part III program-service text matched.
 - `gibson_county_idb/` — comparison filings from the only other TN IDB of comparable size that files 990s
+- `gallatin_shalom_zone/` — 990s for Gallatin Shalom Zone Inc., EIN 62-1800512, whose filings
+  are prepared by the same accountant as the IDB's. Moved into its own directory 2026-08-19
+  from four loose files in this one.
 - `irs_supporting_docs/` — IRS bulk financial-extract archives (2016–2024) and `irs990-501c-tn.png`, the ProPublica screenshot behind the eight-TN-IDBs count
 
 ## Source Type

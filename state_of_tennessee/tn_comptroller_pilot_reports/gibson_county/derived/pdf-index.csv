@@ -1,9 +1,0 @@
-text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
-2015-pilot-gibson.txt,2015-pilot-gibson.pdf,DIGITAL,25,269091,10764,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
-2016-pilot-gibson.txt,2016-pilot-gibson.pdf,DIGITAL,1,28167,28167,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
-2017-pilot-gibson.txt,2017-pilot-gibson.pdf,DIGITAL,1,40094,40094,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
-2018-pilot-gibson.txt,2018-pilot-gibson.pdf,DIGITAL,1,35156,35156,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
-2019-pilot-gibson.txt,2019-pilot-gibson.pdf,DIGITAL,1,41431,41431,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
-2020-pilot-gibson.txt,2020-pilot-gibson.pdf,DIGITAL,1,56636,56636,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
-2021-pilot-gibson.txt,2021-pilot-gibson.pdf,DIGITAL,1,44205,44205,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)
-2022-pilot-gibson.txt,2022-pilot-gibson.pdf,DIGITAL,2,83623,41812,0.0,extraction authoritative,cairo 1.18.4 (https://cairographics.org)

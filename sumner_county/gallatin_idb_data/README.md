@@ -4,7 +4,25 @@
 Official meeting records of the Industrial Development Board of the City of Gallatin, Tennessee — the entity at the center of the investigation.
 
 ## Contents
-Meeting minutes and agendas.
+Despite the directory name, there are **no meeting minutes or agendas here** — the board
+does not publish them, and that absence is itself a finding. What the directory holds is
+the board's corporate record and the three TCED capstone papers written by the people who
+ran the deal.
+
+- `1994-2026-idb-gallatin.pdf` — the Secretary of State corporate history, 1994 charter
+  through 2026. Dissolution, reinstatement, and every registered-agent change.
+- `report-gallatin-idb-leon.pdf` — Lilibeth Leon, *The Value in Strategically Distributing
+  PILOT Funds to Drive Economic Development Initiatives*, TCED capstone, August 29 2024.
+  The paper that argues for board discretion over PILOT distribution, written by a GEDA
+  employee after the Woolhawk agreement was signed.
+- `report-gallatin-idb-bates.pdf` — Rosemary Bates, *Problems Can Lead to Prosperity with a
+  Strategic Plan*, TCED capstone, March 2021. The earlier paper Leon's cites, establishing
+  the strategic-recruitment framing.
+- `report-gallatin-idb-isbell.pdf` — John C. Isbell, *Strategic Revision of the Sumner
+  County Joint Economic and Community Development Board*, TCED capstone.
+
+City Council and work-session packets, which is where IDB business surfaces in public, are
+in `../gallatin_council_meetings/`.
 
 ## Source Type
 **Primary Source**

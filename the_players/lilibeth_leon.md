@@ -25,11 +25,11 @@ inside the Gallatin IDB/GEDA orbit, managing Beretta's relationship directly.
 
 ## Sources on her
 
-- `web_articles/report-gallatin-idb-leon.pdf` — the capstone itself (primary).
-- `angles/leon-report-facts.md` — extracted facts, sourced to the report.
-- `angles/leon-statutory-exposure.md` — six statements mapped to the TN statutes they
+- `sumner_county/gallatin_idb_data/report-gallatin-idb-leon.pdf` — the capstone itself (primary).
+- ~~`angles/leon-report-facts.md`~~ — extracted facts, sourced to the report.
+- ~~`angles/leon-statutory-exposure.md`~~ — six statements mapped to the TN statutes they
   implicate, ranked by severity.
-- `angles/leon-exhibit-a.md` — the planned standalone-exhibit section spec.
+- ~~`angles/leon-exhibit-a.md`~~ — the planned standalone-exhibit section spec.
 
 ## Open questions
 

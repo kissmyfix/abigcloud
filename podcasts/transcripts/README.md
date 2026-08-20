@@ -5,8 +5,11 @@ Machine transcriptions of the audio in `podcasts/mp3s/`, so episodes can be sear
 quoted, and cited by passage instead of by timestamp hunting.
 
 ## Contents
-23 `.txt` files, one per episode, named to match the source `.mp3` exactly so the pair is
-obvious. One exception: the Fenton interview is `fenton-on-podcast-full.txt`. A narrowed
+24 `.txt` files. Twenty-three are one per episode, named to match the source `.mp3`
+exactly so the pair is obvious.
+`2026-tucker-carlson-oleary-utah-data-center-interview.txt` has no `.mp3` and no
+`manifest.csv` row: it came from a video interview and moved here from `web_articles/` on
+2026-08-19. One naming exception: the Fenton interview is `fenton-on-podcast-full.txt`. A narrowed
 keyword extract of it also existed and was deleted 2026-08-18 — it had cut the passage
 where Fenton names the Project Skillet NDA, which is one of the things the article cites
 him for. Narrowing a transcript to save context was solving a problem that did not exist;

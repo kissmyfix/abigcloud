@@ -15,9 +15,9 @@
  * the page in place, which is why the index is rebuilt by scanning what the site
  * actually links rather than what this run happened to change.
  *
- * Decorative images (visualizations/) are routed through Astro's optimiser instead of
- * being copied raw. Evidence images are copied byte-for-byte, because a screenshot of
- * a filing has to be the actual file.
+ * Evidence images are copied byte-for-byte, because a screenshot of a filing has to be
+ * the actual file. Decorative images live beside the page that uses them, under web/, and
+ * never pass through here.
  *
  * Exits non-zero if a citation points at a document that does not exist.
  *
@@ -79,7 +79,6 @@ function writeIfChanged(path, text) {
 }
 
 let copied = 0;
-let optimised = 0;
 let currentDest = '';
 const missing = [];
 const rewrites = [];
@@ -107,25 +106,10 @@ function rewrite(md) {
 	});
 
 	// Images. A screenshot of a filing is evidence and must be served byte-for-byte,
-	// so it goes to public/sources/ untouched. A decorative image is not evidence, so
-	// it sits beside the page and goes through Astro's optimiser like every other
-	// image on the site — otherwise an 841KB PNG lands at the top of the article.
+	// so it goes to public/sources/ untouched. Decorative images are not cited with @/ at
+	// all — they sit beside the page under web/ and Astro optimises them there.
 	md = md.replace(IMG_RE, (whole, alt, target) => {
 		const rel = stripPrefix(target);
-		if (rel.startsWith('visualizations/')) {
-			const abs = resolve(RESEARCH, rel);
-			if (!existsSync(abs)) {
-				missing.push(rel);
-				return whole;
-			}
-			const name = rel.split('/').pop();
-			const out = join(dirname(currentDest), name);
-			mkdirSync(dirname(out), { recursive: true });
-			copyFileSync(abs, out);
-			optimised++;
-			rewrites.push([target, './' + name]);
-			return `![${alt}](./${name})`;
-		}
 		const url = publishSource(rel);
 		if (!url) return whole;
 		rewrites.push([target, url]);
@@ -251,7 +235,6 @@ const GROUPS = {
 	sumner_county: 'County and city records',
 	usa_federal: 'Federal filings',
 	podcasts: 'Recorded interviews',
-	visualizations: 'Images',
 };
 
 function describe(relPath) {
@@ -311,7 +294,7 @@ function linkedSources(dir, found = new Set()) {
 const cited = [...new Set([
 	...rewrites.map(([from]) => stripPrefix(from)),
 	...linkedSources(join(WEB, 'content')),
-])].filter((p) => !p.startsWith('reference/') && !p.startsWith('/') && !p.startsWith('http') && !p.startsWith('visualizations/'));
+])].filter((p) => !p.startsWith('reference/') && !p.startsWith('/') && !p.startsWith('http'));
 
 /* One page per cited text document, rendered in the site's own layout. The body goes
    inside <pre> rather than being parsed as markdown: a transcript line starting with #
@@ -409,10 +392,47 @@ console.log(`published: ${relative(WEB, idxPath)} (${cited.length} documents)`);
 
 console.log(`  ${copied} source file(s) copied into public/sources/`);
 console.log(`  ${pages} source page(s) rendered into content/sources/`);
-console.log(`  ${optimised} image(s) routed through the asset pipeline`);
 console.log(`  ${rewrites.length} link(s) rewritten`);
 if (missing.length) {
 	console.error(`\n  MISSING (${missing.length}) — link left as-is:`);
 	for (const m of missing) console.error(`    ${m}`);
 	process.exitCode = 1;
+}
+
+/* The @/ rewrite above only copies documents it is asked to copy. A link already
+   written as /sources/... is assumed to have been copied on an earlier run, which is
+   true right up until someone edits one by hand to point somewhere else. Then the new
+   target was never copied and the page ships a 404, silently, because nothing above
+   looks at links that are already in their final form.
+
+   Found 2026-08-19, when a citation was repointed at a different archive file during a
+   rename and the build passed anyway. Check every /sources/ link that survived the
+   rewrite, and fail the publish the same way a missing @/ document does. */
+const deadSourceLinks = [];
+function checkSourceLinks(dir) {
+	for (const e of readdirSync(dir, { withFileTypes: true })) {
+		const full = join(dir, e.name);
+		if (e.isDirectory()) { checkSourceLinks(full); continue; }
+		if (!e.name.endsWith('.md')) continue;
+		const text = readFileSync(full, 'utf8');
+		for (const m of text.matchAll(/\]\(\/sources\/([^)\s#]+)\)/g)) {
+			const rel = decodeURIComponent(m[1]);
+			// A /sources/<slug>/ link resolves to a generated page, not a copied file.
+			if (rel.endsWith('/')) {
+				if (!existsSync(join(generatedSourceDir, rel.replace(/\/$/, '') + '.md')))
+					deadSourceLinks.push(`${relative(WEB, full)} -> /sources/${rel}`);
+				continue;
+			}
+			if (!existsSync(join(PUBLIC_SOURCES, rel)))
+				deadSourceLinks.push(`${relative(WEB, full)} -> /sources/${rel}`);
+		}
+	}
+}
+checkSourceLinks(join(WEB, 'content'));
+if (deadSourceLinks.length) {
+	console.error(`\n  DEAD /sources/ LINKS (${deadSourceLinks.length}) — target was never copied:`);
+	for (const d of deadSourceLinks) console.error(`    ${d}`);
+	process.exitCode = 1;
+} else {
+	console.log('  every /sources/ link resolves to a copied document or a generated page');
 }

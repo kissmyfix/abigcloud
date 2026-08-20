@@ -1,0 +1,146 @@
+---
+/*
+  Navigation between the parts of a multi-part piece, derived from the content
+  collection rather than written by hand. A page joins a series by setting
+  `series` and `part` in its frontmatter; this component finds its siblings,
+  orders them, and renders the position, the previous and next links, and the
+  full list of parts.
+
+  Nothing here is stored twice, so adding a part cannot leave another page
+  describing a series it is no longer a complete list of.
+*/
+import { getCollection } from 'astro:content';
+
+interface Props {
+	series: string;
+	part: number;
+}
+
+const { series, part } = Astro.props;
+
+/* Drafts stay out of the live series but remain visible while writing, the same
+   rule [...slug].astro uses when deciding which pages exist at all. */
+const parts = (
+	await getCollection(
+		'content',
+		({ data }) => data.series === series && (import.meta.env.DEV || !data.draft),
+	)
+).sort((a, b) => (a.data.part ?? 0) - (b.data.part ?? 0));
+
+const here = parts.findIndex((entry) => entry.data.part === part);
+const prev = here > 0 ? parts[here - 1] : undefined;
+const next = here >= 0 && here < parts.length - 1 ? parts[here + 1] : undefined;
+
+const label = (entry: (typeof parts)[number]) => entry.data.partTitle ?? entry.data.title;
+const href = (entry: (typeof parts)[number]) => `/${entry.id}/`;
+---
+
+{
+	parts.length > 1 && (
+		<nav class="series" aria-label="Parts of this investigation">
+			<p class="position">
+				Part {part} of {parts.length}
+			</p>
+
+			<div class="adjacent">
+				{prev ? (
+					<a class="step" href={href(prev)} rel="prev">
+						<span class="direction">Previous</span>
+						<span class="name">
+							Part {prev.data.part}. {label(prev)}
+						</span>
+					</a>
+				) : (
+					<span />
+				)}
+				{next && (
+					<a class="step forward" href={href(next)} rel="next">
+						<span class="direction">Next</span>
+						<span class="name">
+							Part {next.data.part}. {label(next)}
+						</span>
+					</a>
+				)}
+			</div>
+
+			<ol class="all">
+				{parts.map((entry) => (
+					<li aria-current={entry.data.part === part ? 'page' : undefined}>
+						{entry.data.part === part ? (
+							<span class="current">{label(entry)}</span>
+						) : (
+							<a href={href(entry)}>{label(entry)}</a>
+						)}
+					</li>
+				))}
+			</ol>
+		</nav>
+	)
+}
+
+<style>
+	.series {
+		margin: 3rem 0 1rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid var(--border2);
+	}
+	.position {
+		margin: 0 0 1rem;
+		font-size: 0.75em;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--ink3);
+	}
+	.adjacent {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+	}
+	.step {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		padding: 0.9rem 1.1rem;
+		border: 1px solid var(--border2);
+		border-radius: 8px;
+		text-decoration: none;
+		color: inherit;
+	}
+	.step:hover {
+		border-color: var(--ink3);
+	}
+	.step.forward {
+		text-align: right;
+	}
+	.direction {
+		font-size: 0.7em;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--ink3);
+	}
+	.name {
+		font-weight: 600;
+		line-height: 1.25;
+	}
+	.all {
+		margin: 1.75rem 0 0;
+		padding-left: 1.25rem;
+		font-size: 0.9em;
+		color: var(--ink3);
+	}
+	.all li {
+		margin: 0.35rem 0;
+	}
+	.all .current {
+		font-weight: 600;
+		color: var(--ink2);
+	}
+	@media (max-width: 34rem) {
+		.adjacent {
+			grid-template-columns: 1fr;
+		}
+		.step.forward {
+			text-align: left;
+		}
+	}
+</style>

@@ -1,0 +1,120 @@
+#!/usr/bin/env bash
+#
+# pre-commit — refuse a commit that would publish a private person's details, or that
+# would commit documentation pointing at files which do not exist.
+#
+# Why this exists: on 2026-08-17 four files carrying a private individual's name, home
+# address, utility account number and personal email addresses were committed and pushed
+# to a public repository, where they sat for two days. Removing them from the working
+# tree does not remove them from history, so the fix required rewriting history. This
+# hook exists so that never has to happen twice.
+#
+# It runs on `git commit`. `git commit --no-verify` skips it, deliberately — a gate you
+# cannot override is a gate people stop using. Skipping it is a decision, not an accident.
+#
+# Install: files/bin/install-hooks.sh
+set -uo pipefail
+
+REPO="$(git rev-parse --show-toplevel)"
+FAIL=0
+red()  { printf '\033[31m%s\033[0m\n' "$*" >&2; }
+warn() { printf '\033[33m%s\033[0m\n' "$*" >&2; }
+ok()   { printf '\033[32m%s\033[0m\n' "$*"; }
+
+# Staged, added-or-modified, text only. Deletions and binaries cannot leak a string.
+mapfile -t STAGED < <(git diff --cached --name-only --diff-filter=AM)
+TEXT=()
+for f in "${STAGED[@]}"; do
+	[ -f "$REPO/$f" ] || continue
+	grep -Iq . "$REPO/$f" 2>/dev/null && TEXT+=("$f")
+done
+
+# ---------------------------------------------------------------------------
+# 1. The deny list: exact strings that must never be committed.
+#
+# It lives at .git/pii-denylist, inside .git and therefore never committed itself,
+# because the file necessarily contains the very data it protects. One entry per line;
+# blank lines and lines starting with # are ignored. Matching is literal and
+# case-insensitive.
+#
+# Without the file the hook still runs its pattern checks below, so a fresh clone is
+# protected but less specifically. `files/bin/install-hooks.sh` explains how to seed it.
+# ---------------------------------------------------------------------------
+DENY="$REPO/.git/pii-denylist"
+if [ -s "$DENY" ] && [ ${#TEXT[@]} -gt 0 ]; then
+	while IFS= read -r term; do
+		[ -z "$term" ] && continue
+		case "$term" in \#*) continue ;; esac
+		hits=$(grep -Iiln -F -- "$term" "${TEXT[@]/#/$REPO/}" 2>/dev/null)
+		if [ -n "$hits" ]; then
+			red "BLOCKED: a deny-listed string appears in this commit."
+			while IFS= read -r h; do red "    ${h#$REPO/}"; done <<< "$hits"
+			FAIL=1
+		fi
+	done < "$DENY"
+fi
+
+# ---------------------------------------------------------------------------
+# 2. Patterns that are almost never legitimate in this archive.
+#
+# Deliberately narrow. The evidence archive is full of public officials' emails, business
+# addresses and dollar figures, all of which belong here — a gate that fires on those gets
+# switched off within a week and protects nothing. These fire on shapes that indicate a
+# credential or a private household record, not on public-record content.
+# ---------------------------------------------------------------------------
+if [ ${#TEXT[@]} -gt 0 ]; then
+	scan() { # name, regex
+		hits=$(grep -IEln -- "$2" "${TEXT[@]/#/$REPO/}" 2>/dev/null)
+		if [ -n "$hits" ]; then
+			red "BLOCKED: $1"
+			while IFS= read -r h; do red "    ${h#$REPO/}"; done <<< "$hits"
+			FAIL=1
+		fi
+	}
+	scan "looks like a private key"        '^-----BEGIN [A-Z ]*PRIVATE KEY-----'
+	scan "looks like an AWS access key"    '\bAKIA[0-9A-Z]{16}\b'
+	scan "looks like a GitHub token"       '\bgh[pousr]_[A-Za-z0-9]{36,}\b'
+	scan "looks like an Anthropic API key" '\bsk-ant-[A-Za-z0-9_-]{20,}\b'
+	scan "looks like a social security number" '\b[0-9]{3}-[0-9]{2}-[0-9]{4}\b'
+
+	# A household utility record: an account number label near a residential-looking
+	# address. Either alone is common in public filings; together they are the 2026-08-17
+	# incident's exact shape.
+	for f in "${TEXT[@]}"; do
+		if grep -Iqi -E 'account (#|no\.?|number)[: ]' "$REPO/$f" 2>/dev/null &&
+		   grep -Iq  -E '^[^|]*[0-9]{2,5} [A-Z][A-Za-z]+ (DR|CIR|LN|CT|RD|ST|AVE|WAY|BLVD|PL)\b' "$REPO/$f" 2>/dev/null; then
+			red "BLOCKED: account number beside a residential address — the 2026-08-17 shape"
+			red "    $f"
+			FAIL=1
+		fi
+	done
+fi
+
+# ---------------------------------------------------------------------------
+# 3. Documentation paths must resolve.
+#
+# Cheap, and it is the check that has repeatedly caught real drift: READMEs describing
+# files that were renamed or removed. Only runs when markdown is staged.
+# ---------------------------------------------------------------------------
+if printf '%s\n' "${STAGED[@]}" | grep -q '\.md$'; then
+	VERIFY="$REPO/files/venv/bin/python"
+	[ -x "$VERIFY" ] || VERIFY=python3
+	if [ -f "$REPO/files/bin/verify-docs-paths.py" ]; then
+		if ! out=$("$VERIFY" "$REPO/files/bin/verify-docs-paths.py" 2>&1); then
+			red "BLOCKED: documentation points at files that do not exist."
+			printf '%s\n' "$out" | grep -i missing >&2
+			red "  Fix the path, or mark it historical by striking it through: ~~\`old/path.pdf\`~~"
+			FAIL=1
+		fi
+	fi
+fi
+
+if [ "$FAIL" -ne 0 ]; then
+	red ""
+	red "Commit refused. Nothing has been committed."
+	warn "If this is a false positive and you are certain, commit with --no-verify."
+	exit 1
+fi
+
+ok "pre-commit: clean"
+exit 0

@@ -1,2 +1,5 @@
 text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
 1994-2026-idb-gallatin.txt,1994-2026-idb-gallatin.pdf,DIGITAL,5,12536,2507,0.0,extraction authoritative,Kendo UI PDF Generator
+report-gallatin-idb-bates.txt,report-gallatin-idb-bates.pdf,DIGITAL,15,27191,1813,0.0,extraction authoritative,Microsoft® Word for Microsoft 365
+report-gallatin-idb-isbell.txt,report-gallatin-idb-isbell.pdf,DIGITAL,19,34497,1816,0.0,extraction authoritative,Adobe PDF Library 26.1.183
+report-gallatin-idb-leon.txt,report-gallatin-idb-leon.pdf,DIGITAL,13,25744,1980,0.0,extraction authoritative,Adobe PDF Library 24.3.212

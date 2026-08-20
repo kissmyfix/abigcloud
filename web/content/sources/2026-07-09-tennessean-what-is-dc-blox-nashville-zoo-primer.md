@@ -13,6 +13,7 @@ description: 'The Tennessean (Nashville), Updated July 9, 2026'
 <dt>byline</dt><dd>Peter Burditt</dd>
 <dt>date</dt><dd>Updated July 9, 2026</dd>
 <dt>url</dt><dd><a href="https://www.yahoo.com/news/us/articles/dc-blox-developer-behind-data-120210402.html" rel="nofollow noopener">https://www.yahoo.com/news/us/articles/dc-blox-developer-behind-data-120210402.html</a></dd>
+<dt>archive</dt><dd>(none — no Internet Archive capture found at retrieval)</dd>
 <dt>retrieved</dt><dd>2026-08-17</dd>
 <dt>provenance note</dt><dd>Captured via automated fetch and rendered to text. Re-verify quotes against the live page before publication.</dd>
 <dt>why saved</dt><dd>Single reliable primer on the DC Blox / Nashville Zoo fight, used in Quid-Pro-NO at "I won't spend the time here re-hashing the DC Blox deal." Chosen because it covers the company, the Nashville dispute, and DC BLOX's record of opposition in other states, rather than just the August 2026 lawsuit.</dd>

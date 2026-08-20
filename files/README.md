@@ -10,6 +10,8 @@ investigation material; it is the machinery the investigation runs on.
 **Files**
 - `DATA_MAP.md` — the directory index for the whole project, and the navigation rule read
   at session start. Every directory gets one row. Update it whenever a directory or
+- `RESEARCH_SOURCES.md` — the external sites this investigation depends on, with the
+  URL pattern that actually reaches the useful page on each.
   notable top-level file is added.
 - `DIR_README_TEMPLATE.md` — the rigid template copied into any directory lacking a
   `README.md`. Purpose / Contents / Source Type / Handling Instructions / Notes.
@@ -19,10 +21,8 @@ investigation material; it is the machinery the investigation runs on.
 
 **Subdirectories**
 - `bin/` — project scripts: PDF extraction and profiling, whisper transcription, the
-  Comptroller PILOT/debt master-CSV builders and their verifiers, and the prompt-log hook.
+  Comptroller PILOT/debt master-CSV builders and their verifiers.
   See its own README for what each script does and its dependencies.
-- `prompt_log/` — append-only monthly capture of every session prompt, written by the
-  `UserPromptSubmit` hook. Chronology only; not citable, not voice reference.
 - `venv/` — the project's permanent Python environment (`pdfplumber`, `pandas`,
   `openpyxl`), ~215 MB. Scripts in `bin/` run against `files/venv/bin/python`, not system
   `python3`. Rebuild instructions in `bin/README.md`.
@@ -41,8 +41,9 @@ came from, not in this directory.
   Dashes in file names, underscores in directory names.
 - Run project scripts with `files/venv/bin/python`. System `python3` has none of the
   dependencies.
-- `prompt_log/` is append-only — never edit or correct past entries, and never add
-  unmarked AI text to them.
+- The prompt log moved out of here 2026-08-19. It is system-wide now, at
+  `~/.claude/prompt_log/<project>/`, written by a hook in `~/.claude/settings.json`.
+  Append-only: never edit past entries, never add unmarked AI text.
 - When a new directory is created anywhere in the project, add its row to `DATA_MAP.md`
   and copy `DIR_README_TEMPLATE.md` into it. Both, not one. Exempt: machine-generated
   directories nobody navigates by hand — browser-saved `*_files/` asset folders, build

@@ -11,6 +11,7 @@ description: 'Business Facilities Magazine, August 2020'
 <dt>source</dt><dd>Business Facilities Magazine</dd>
 <dt>headline</dt><dd>Facebook Building $800M Data Center In Tennessee</dd>
 <dt>dek</dt><dd>The social media giant's new data center will be supported by 100 percent renewable energy and create approximately 100 jobs in Gallatin, TN.</dd>
+<dt>byline</dt><dd>(none stated — institutional release, no author credited)</dd>
 <dt>date</dt><dd>August 2020</dd>
 <dt>url</dt><dd><a href="https://businessfacilities.com/facebook-building-800m-data-center-in-tennessee/" rel="nofollow noopener">https://businessfacilities.com/facebook-building-800m-data-center-in-tennessee/</a></dd>
 <dt>archive</dt><dd><a href="https://web.archive.org/web/20230601101038/https://businessfacilities.com/facebook-building-800m-data-center-in-tennessee/" rel="nofollow noopener">https://web.archive.org/web/20230601101038/https://businessfacilities.com/facebook-building-800m-data-center-in-tennessee/</a></dd>

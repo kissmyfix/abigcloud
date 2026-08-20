@@ -19,6 +19,7 @@ assessed values, ownership, and mailing addresses on file.
 | `sumner-assessment-*.pdf` | Source reports, one per parcel. |
 | `unknown-assessment.pdf` | Duplicate download of the Bradford parcel — see below. |
 | `sumner-assessment-bradford-confirmed.pdf` | Second, independent rendering of the Bradford parcel. Cross-check source, not parsed. |
+| `sumner-assessment-daycare-*.pdf` | The two Gallatin Day Care Centers parcels on Southpark Circle, 108 and 112. Not part of the four-parcel dataset below. |
 
 Regenerate from the project root with `python3 files/bin/parse-assessment.py`, then
 `python3 files/bin/verify-assessments.py`. Both resolve this directory from their own
@@ -137,3 +138,15 @@ They need pulling from the parcel viewer.
 **Sales rows are the assessor's, not deeds.** A `$0` price with a quitclaim
 instrument is a transfer, not a sale at zero. Cite the instrument type alongside
 any price.
+
+
+## Naming, 2026-08-19
+
+Four files were renamed to the `sumner-assessment-<subject>.pdf` convention. Three had
+kept the parcel viewer's own download names, which encode a download date and a parcel
+id with `+` characters in them (~~`ParcelDetails-8_3_2026-083135M+A+01200+000.pdf`~~) and say
+nothing about whose parcel it is. A fourth, ~~`lates-meta-parcel-assessment.pdf`~~, carried a
+typo and was content-identical to `sumner-assessment-woolhawk.pdf` from the same source
+and producer, so it was removed and the article citation repointed at the primary. A
+second download of the 112 Southpark parcel, byte-identical in text to the first, was
+removed at the same time.

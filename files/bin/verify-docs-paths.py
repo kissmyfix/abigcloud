@@ -16,10 +16,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 
-# Docs whose paths are load-bearing: the navigation layer a session reads to find things.
+# Docs whose paths matter: the navigation layer a session reads to find things, plus the
+# player profiles, which are dense sets of archive references and nothing else checks them.
+# The README glob runs four levels deep because entity, audit and derived directories live
+# that far down; stopping at two left 32 of them unchecked until 2026-08-19.
 DOCS = [ROOT / "CLAUDE.md", ROOT / "files" / "DATA_MAP.md", ROOT / "README.md"]
-DOCS += sorted(p for p in ROOT.glob("*/README.md"))
-DOCS += sorted(p for p in ROOT.glob("*/*/README.md"))
+for depth in ("*", "*/*", "*/*/*", "*/*/*/*"):
+    DOCS += sorted(p for p in ROOT.glob(f"{depth}/README.md")
+                   if "node_modules" not in p.parts and ".git" not in p.parts)
+DOCS += sorted(p for p in (ROOT / "the_players").glob("*.md") if p.name != "README.md")
+DOCS = sorted(set(DOCS))
 
 # A path-looking backtick span: has a slash or a known project file extension.
 BACKTICK = re.compile(r"`([^`\n]+)`")
@@ -59,24 +65,69 @@ HISTORY = re.compile(
 )
 
 
+# A line saying a file simply went away has no successor on it; nothing there resolves.
+# ~~`retired-name.pdf`~~ — struck through means "this path is not meant to resolve."
+STRUCK = re.compile(r"~~[^~]*~~")
+
+FROM = re.compile(r"\bfrom\b(?!.*\b(to|->)\b)", re.I)
+
+GONE = re.compile(r"\bdeleted\b|\bremoved\b|\bno longer\b|\bretired\b|\bnot in the working tree\b|\bdissolved\b", re.I)
+
+
+# On a history line, what separates the old name from the new one. Everything after the
+# last pivot is a live path and gets checked.
+PIVOT = re.compile(
+    r"->|\u2192"                       # old -> new
+    r"|\|"                            # table cell boundary: | was | is |
+    r"|\bis now\b|\bnow\b|\bnow at\b"
+    r"|\bmoved to\b|\bmoved here\b|\breplaced by\b|\bfolded into\b|\brenamed to\b",
+    re.I,
+)
+
+
 def candidates(text):
     """Yield (path, is_historical) for each path-looking span, judged by its line.
 
-    Prose wraps, so a name can sit on the line after the phrase that retires it
-    ("Moved here 2026-07-29 from\\n a local `x/bin/`"). Read both lines.
+    A line recording a rename mentions both the old name and the new one. Only the old
+    name is historical: it is the span that must not resolve. The pivot word is what
+    separates them ("previously X, now Y" / "X -> Y" / "was X, is Y"), so everything
+    before the last pivot on a history line is treated as historical and everything after
+    it is checked like any other path. A history line with no pivot is historical
+    throughout, which is the old behaviour and the right default for "deleted 2026-07-29".
     """
-    lines = text.splitlines()
-    for i, line in enumerate(lines):
-        window = (lines[i - 1] if i else "") + " " + line
-        historical = bool(HISTORY.search(window))
-        # A two-column old→new mapping row: the left cell is the retired name.
-        cells = [c.strip() for c in line.split("|")] if line.count("|") >= 3 else []
-        for m in BACKTICK.finditer(line):
-            raw = m.group(1).strip()
-            retired = any(c.startswith(f"`{raw}`") for c in cells[1:2])
-            yield raw, historical or retired
-        for m in MDLINK.finditer(line):
-            yield m.group(1).strip(), historical
+    section_historical = False
+    for line in text.split("\n"):
+        # A heading that announces history ("Renamed 2026-07-29 — old -> new") governs the
+        # rows beneath it, which carry no keyword of their own. Any other heading ends it.
+        if line.lstrip().startswith("#") or line.startswith("**Renamed") or line.startswith("**Deleted"):
+            section_historical = bool(HISTORY.search(line))
+        # An explicitly retired name is struck through: ~~`old-name.pdf`~~. It renders as
+        # struck-out text, which is what it means, and it removes any guessing from prose.
+        line_checked = STRUCK.sub(lambda m: " " * len(m.group(0)), line)
+        spans = [(m.start(), m.group(1)) for m in BACKTICK.finditer(line_checked)]
+        spans += [(m.start(), m.group(1)) for m in MDLINK.finditer(line_checked)]
+        spans.sort()
+        if not spans:
+            continue
+        if not (HISTORY.search(line) or section_historical):
+            for _, raw in spans:
+                yield raw, False
+            continue
+        # "renamed ... from X" puts the old name after the pivot, so a trailing "from"
+        # flips everything after it back to historical.
+        frm = FROM.search(line)
+        if frm:
+            for pos, raw in spans:
+                yield raw, pos > frm.start()
+            continue
+        if GONE.search(line) or (section_historical and not PIVOT.search(line)):
+            for _, raw in spans:
+                yield raw, True
+            continue
+        pivots = [m.end() for m in PIVOT.finditer(line)]
+        cut = pivots[-1] if pivots else len(line)
+        for pos, raw in spans:
+            yield raw, pos < cut
 
 
 def is_pathlike(s):
@@ -115,6 +166,9 @@ def main():
         seen = set()
         for raw, historical in candidates(text):
             s = raw.rstrip("/")
+            # A line-anchored reference (`files/bin/mdlive.py:373`) points at a real
+            # file; the line number is not part of the path. Drop it before resolving.
+            s = re.sub(r":\d+$", "", s)
             if not is_pathlike(s) or s in seen:
                 continue
             seen.add(s)

@@ -12,6 +12,11 @@ that changed. Filed here by source (the Secretary of State), not by who they are
   principal office 1100 Hatcher Lane, Columbia TN. Recovered 2026-07-29 from a superseded
   project copy where it sat under a mangled filename; a shorter download of the same record
   was discarded as a subset.
+- `gallatin-daycare-sos-entity-report.pdf` — SOS business detail for GALLATIN DAY CARE
+  CENTERS I & II INC., control no. 000264529. Nonprofit corporation, formed in Tennessee,
+  initial filing 4/2/1993, status *Active*. Moved here from the `state_of_tennessee/` root
+  on 2026-08-19, where it sat as ~~`BusinessDetails-1.pdf`~~; a byte-identical second download
+  of the same record was discarded.
 
 ## Source Type
 **Primary Source** — records filed with and published by the Tennessee Secretary of State.

@@ -3,6 +3,7 @@ HEADLINE: What is DC BLOX? Developer behind data center near Nashville Zoo has f
 BYLINE: Peter Burditt
 DATE: Updated July 9, 2026
 URL: https://www.yahoo.com/news/us/articles/dc-blox-developer-behind-data-120210402.html
+ARCHIVE: (none — no Internet Archive capture found at retrieval)
 RETRIEVED: 2026-08-17
 PROVENANCE NOTE: Captured via automated fetch and rendered to text. Re-verify quotes against
 the live page before publication.

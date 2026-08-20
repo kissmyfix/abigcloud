@@ -31,7 +31,22 @@ Primary statutory text of the Tennessee Code Annotated, plus the 2019 legislatio
 
 The Beretta reading of that entry — FastTrack Infrastructure Development Program, roll-call
 voted, a public appropriation and a different animal from the sealed Woolhawk PILOT — is in
-`sumner_county/sumner_entities/beretta/thinking.md`.
+~~`thinking.md`~~, moved out of the project 2026-08-19.
+
+**CTAS guidance** — pages saved from the County Technical Assistance Service
+(ctas.tennessee.edu), the UT Institute for Public Service arm that advises Tennessee county
+governments. Secondary to the statute and never a substitute for it, but it is what county
+officials are actually told the law means.
+
+| File | What it covers |
+|---|---|
+| `2026-06-27-ctas-2472-payment-in-lieu-of-tax-agreements.html` | CTAS-2472, PILOT agreements |
+| `2026-06-27-ctas-2472-payment-in-lieu-of-tax-agreements.pdf` | The same page as a CTAS-generated PDF print, carrying the cover letter and generation date the HTML does not. Moved here from the `state_of_tennessee/` root on 2026-08-19, where it sat as `pilot-tldr-utk.pdf` |
+| `2026-07-03-ctas-220-tva-in-lieu-of-tax-payments.html` | CTAS-220, TVA in-lieu-of-tax payments |
+| `2026-07-03-ctas-483-industrial-development-corporation-board-of-directors.html` | CTAS-483, IDB boards of directors |
+| `2026-07-03-ctas-2420-open-meetings-act-sunshine-law.html` | CTAS-2420, Open Meetings Act |
+| `2026-07-03-ctas-tax-increment-financing-agreements.html` | TIF agreements |
+| `2026-06-27-lexis-tennessee-code-unannotated-paw-document.html` | Lexis print of the unannotated code |
 
 `derived/` holds page-anchored `.txt` extractions of the PDFs, plus `pdf-index.csv`. The legislative history is already text and is a source in its own right, so it stays in this directory and is not duplicated into `derived/`.
 

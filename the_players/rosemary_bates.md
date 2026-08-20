@@ -23,6 +23,12 @@ past board chair of Gallatin Shalom Zone, stepping down roughly a year before 20
   `memory/MEMORY.md` (Shalom Zone / Gallatin Daycare entries), `memory/TIMELINE.md`
   `#bates` `#gdc` `#shalom-zone`.
 
+## Sources on her
+
+- FY2024/FY2025 City of Gallatin ACFRs (officials list) — `state_of_tennessee/state_audits/gallatin_city/`
+- Gallatin Shalom Zone FY2024–25 Form 990 (current board roster does not list her — consistent
+  with having rolled off) — `usa_federal/irs_990_data/`
+
 ## Open questions
 
 - Exact dates of her Shalom Zone board tenure and departure — not yet pulled from a primary
@@ -31,9 +37,3 @@ past board chair of Gallatin Shalom Zone, stepping down roughly a year before 20
   through a Google AI paraphrase, not read directly.
 - Any personnel or governance overlap between her and Children Are People (the nonprofit
   that dissolved in 2025 and transferred $1.5M to Shalom Zone) — not yet checked.
-
-## Sources on her
-
-- FY2024/FY2025 City of Gallatin ACFRs (officials list) — `state_of_tennessee/state_audits/gallatin_city/`
-- Gallatin Shalom Zone FY2024–25 Form 990 (current board roster does not list her — consistent
-  with having rolled off) — `usa_federal/irs_990_data/`

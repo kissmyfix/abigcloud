@@ -4,9 +4,15 @@
 Working profiles for the individuals, businesses, and entities relevant to the investigation.
 
 ## Contents
-One flat `name.md` per subject — `underscored_name.md`, matching the person. Each contains
-a description of the person or entity, their role in the story, and a **Sources on them**
-section pointing at the documents that concern them wherever those documents actually live.
+One flat `name.md` per subject — `underscored_name.md`, matching the person. Each opens with
+a one-paragraph identification, then **Why he/she matters**, then **Open questions**.
+
+Four of the eight also carry a **Sources on him/her** section pointing at the documents that
+concern them wherever those documents actually live: Assante, Leon, Stark, Bates. Fenton and
+Brown instead have a **From the Growing Pains interview** section, since a transcript is
+where most of what is known about them comes from. High-McAuley has neither and cites inline.
+`randy_boyd.md` has its own shape on purpose — it is a scope decision as much as a profile,
+and its **What this establishes and what it does not** section is the substance of it.
 
 **No subdirectories (decided 2026-07-29).** Three existed — Assante, Leon, Stark — and were
 removed. They failed twice over: the same newspaper page had to be stored twice because two
@@ -29,10 +35,17 @@ Synthesized profiles, not primary source documents. They combine facts from mult
 ## Handling Instructions
 - Use for quick orientation when a name appears in source documents
 - Cross-reference specific factual claims (dates, titles, job changes, affiliations) against primary sources before citing
-- These files are now the canonical characterizations — when two player files conflict, flag the discrepancy for Brandon, do not resolve independently
+- These files are now the canonical characterizations — when two player files conflict, flag the discrepancy for the author, do not resolve independently
 
 ## Notes
-Key figures in the investigation: James Fenton, Preston Stark, Rosemary Bates, Paige Brown, Allan Ramsey, Leonard Assante, Neil Burgess. Bradford Company is also in scope. Files exist so far for Assante, Leon, Stark, High-McAuley, Fenton, Brown, Randy Boyd, and Bates (Fenton and Brown created 2026-07-05 from the Growing Pains transcripts + council records; Assante, Leon, and Stark created 2026-07-29 when their directories were dissolved — drafted from existing sourced project files, not yet edited by Brandon; Bates created 2026-08-03 from the Shalom Zone/Gallatin Daycare thread, not yet edited by Brandon).
+Key figures in the investigation: James Fenton, Preston Stark, Lilibeth Leon, Rosemary Bates,
+Paige Brown, Leonard Assante, Susan High-McAuley, Randy Boyd. Bradford Company is also in
+scope. Profiles for Allan Ramsey and Neil Burgess were written 2026-08-19 from the 990
+Part VII listings and the FY2025 audit, which is the only place either man appears in this
+archive.
+
+Files exist for Assante, Leon, Stark, High-McAuley, Fenton, Brown, Boyd, Bates, Ramsey and
+Burgess. (Fenton and Brown created 2026-07-05 from the Growing Pains transcripts + council records; Assante, Leon, and Stark created 2026-07-29 when their directories were dissolved — drafted from existing sourced project files, not yet edited by Brandon; Bates created 2026-08-03 from the Shalom Zone/Gallatin Daycare thread, not yet edited by Brandon).
 
 **Filed 2026-07-29:** the Tennessee SOS record for PRESTON STARK, INC. (control
 no. 000438125) now lives at

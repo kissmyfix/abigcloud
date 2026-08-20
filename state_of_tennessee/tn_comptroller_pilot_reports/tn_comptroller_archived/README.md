@@ -32,7 +32,8 @@ of what was owed.
   column is empty in every filing, which is a stronger fact than a reported zero — the
   county payment was never stated at all.
 - These are the uncropped originals. The per-county sets in `../sumner_county/`,
-  `../hamilton_county/`, and `../gibson_county/` are crops of these same reports, so a
+  ~~`../hamilton_county/`~~, and ~~`../gibson_county/`~~ were crops of these same reports (moved
+  out of the project 2026-08-19), so a
   figure appearing in both is **not** independent corroboration.
 - The 2014–2015 layout is different and thinner: 15 columns instead of 19–20, no address,
   city, email, case number, or lease-begin field, and **counties identified by numeric

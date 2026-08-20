@@ -4,7 +4,10 @@ description: 'How every level of government has failed Tennesseans and the steps
 draft: false
 toc: true
 pubDate: '2026-08-17'
-updatedDate: '2026-08-18'
+updatedDate: '2026-08-19'
+series: 'quid_pro_no'
+part: 1
+partTitle: "The Simple Question That Wasn't"
 ---
 
 # **Quid-Pro-*NO!***
@@ -126,7 +129,7 @@ A structure built in 1955 for factories that employed thousands, now being used 
 
 ### The Unicorn
 
-When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement. Gallatin had already courted this company once, under the codename Project Skillet, and watched it go to Huntsville. GEDA's own account is that Project Skillet ["morphed into Project Wool Hawk"](/sources/web_articles/report-gallatin-idb-bates.pdf) - same company, new name, back knocking on the door. When it returned it came [wrapped in an NDA](/sources/fenton-on-podcast-full/) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
+When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement. Gallatin had already courted this company once, under the codename Project Skillet, and watched it go to Huntsville. GEDA's own account is that Project Skillet ["morphed into Project Wool Hawk"](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-bates.pdf) - same company, new name, back knocking on the door. When it returned it came [wrapped in an NDA](/sources/fenton-on-podcast-full/) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
 
 The closest thing to those terms on the public record is [Resolution R2005-24](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/), put before the council on May 12, 2020. Woolhawk, LLC, a Delaware limited liability company, would pay a flat $1,000,000 a year for the first building and less for every building after it, $750,000 for the second, $550,000 by the sixth. Twenty years of abatement on each. Until the first building is finished, the payment is the taxes on the raw land as it was zoned before.
 
@@ -146,7 +149,7 @@ It's one parcel. About 500 acres.
 
 And Meta doesn't own it. The Industrial Development Board of the City of Gallatin does.
 
-The state says that land and everything standing on it is worth [$519,189,800](/sources/state_of_tennessee/tn_property_assessments/lates-meta-parcel-assessment.pdf). It also says the assessed value is zero.
+The state says that land and everything standing on it is worth [$519,189,800](/sources/state_of_tennessee/tn_property_assessments/sumner-assessment-woolhawk.pdf). It also says the assessed value is zero.
 
 Both of those are true at the same time, and neither one is a mistake. The board owns the title, so the property is exempt, so there is nothing left to tax.
 
@@ -216,7 +219,7 @@ If you Google how PILOTs and IDBs work in Tennessee, one of the first things you
 
 Leon's report is remarkable because she lays out the entire playbook and frames it as good governance. Some highlights:
 
-She admits the Woolhawk PILOT agreement was deliberately written to be more ambiguous about fund distribution than every prior agreement. Not accidentally vague. In [her words](/sources/web_articles/report-gallatin-idb-leon.pdf), Facebook's agreement was "different from previous contracts and left more ambiguity concerning the exact distribution of funds." The board could have kept splitting the money as it always had, about 35% to Gallatin and 65% to Sumner County with 60% of the county's share going to schools. It chose discretion instead.
+She admits the Woolhawk PILOT agreement was deliberately written to be more ambiguous about fund distribution than every prior agreement. Not accidentally vague. In [her words](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-leon.pdf), Facebook's agreement was "different from previous contracts and left more ambiguity concerning the exact distribution of funds." The board could have kept splitting the money as it always had, about 35% to Gallatin and 65% to Sumner County with 60% of the county's share going to schools. It chose discretion instead.
 
 She admits the IDB is sitting on over a million dollars in accumulated PILOT payments that haven't been distributed, and notes that number "will only increase." Her recommendation isn't to send it where it's supposed to go. It's to keep it. The board had already put over $600,000 into a new daycare whose operator "agreed to reserve slots exclusively for industry partners." The rest she'd steer toward workforce training and buying industrial land, so the city isn't "at the mercy of private owners for site selection." An unelected board controlling what should be public tax revenue and spending it on projects that serve corporate interests.
 
@@ -266,9 +269,9 @@ Every word technically true. Every word designed to obscure what actually happen
 
 You might wonder where public accountability enters this picture. After all, [Tennessee law requires IDBs to hold public meetings, post agendas, and keep minutes](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf).
 
-So go to gallatintn.gov and click through to [Boards and Commissions](/sources/saved_sites/gallatintn_gov/2026-08-19-gallatintn-boards-commissions.html). Fifteen of them. The Beer Board tells you it issues permits to sell beer and enforces the code. The Electric Power Board tells you it supervises the city's electric system. The Health, Educational and Housing Facilities Board tells you it finances facilities for low income families, the disabled, and the elderly. The Planning Commission tells you it meets the fourth Monday of the month at 5 p.m. in Council Chambers.
+So go to gallatintn.gov and click through to [Boards and Commissions](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-boards-commissions.html). Fifteen of them. The Beer Board tells you it issues permits to sell beer and enforces the code. The Electric Power Board tells you it supervises the city's electric system. The Health, Educational and Housing Facilities Board tells you it finances facilities for low income families, the disabled, and the elderly. The Planning Commission tells you it meets the fourth Monday of the month at 5 p.m. in Council Chambers.
 
-Then click [Industrial Development Board](/sources/saved_sites/gallatintn_gov/2026-08-19-gallatintn-industrial-development-board.html).
+Then click [Industrial Development Board](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-industrial-development-board.html).
 
 Eight names and the dates their terms expire.
 
@@ -278,7 +281,7 @@ While you're there, read the city's own note above the calendar: "There is not a
 
 The IDB, the entity making multi-million dollar, multi-decade financial commitments on behalf of an entire city, is a ghost on its own government's website.
 
-There is one place it does appear. The city publishes a monthly civic calendar, and on [the July 2026 calendar](/sources/saved_sites/gallatintn_gov/2026-07-gallatin-civic-calendar.pdf) every body in town gets its own line. City Court. Planning Commission work session. City Council. Economic Development Agency. Beer Board. Board of Zoning Appeals.
+There is one place it does appear. The city publishes a monthly civic calendar, and on [the July 2026 calendar](/sources/sumner_county/gallatin_council_meetings/2026-07-gallatin-civic-calendar.pdf) every body in town gets its own line. City Court. Planning Commission work session. City Council. Economic Development Agency. Beer Board. Board of Zoning Appeals.
 
 The IDB doesn't get a line. It gets half of one:
 
@@ -313,94 +316,3 @@ The community heard generosity. Leon's report called it compliance. The IRS fili
 Part 2 will follow the money upward, through the state mechanisms that are supposed to catch exactly this, and into the federal structures that make it possible. The Gallatin IDB isn't just a local story. It's a case study in what happens when every safeguard fails at once.
 
 Or maybe, when they're designed to.
-
-## Part 2: The Modern Greasing of the Wheels
-
-The messy 2020 IRS filing wasn’t just a localized scramble to satisfy Meta’s corporate lawyers. It was the bottom end of a pipeline that had been meticulously greased at the state capitol just one year prior.
-
-Remember the 1955 workaround? It protected real estate, the land and the bricks. But a data center isn't a traditional factory. The value isn’t in the concrete shell; it is in the multi-billion-dollar matrix of servers, cooling infrastructure, and supercomputers inside. Under the old rules, leasing that hyper-expensive personal tech hardware still carried massive property tax risks.
-
-Enter Senate Bill 708, quietly passed by the Tennessee General Assembly on April 18, 2019, and signed by Governor Bill Lee.
-
-The text of the bill reveals the exact surgical strike:
-
-- **The Insertion:** It slipped the phrase "or instrumentality thereof" into Tennessee Code Annotated Section 67-5-502.
-- **The Hardware Shelter:** It explicitly mandated that any "leased personal property" or "sublessee's interest" routed through an IDB would be assessed "solely to such governmental entity and shall be subject to all applicable exemptions."
-
-The timing is not a coincidence. State lawmakers actively sharpened a 64-year-old legal loophole to ensure Meta's massive server racks wouldn't owe a dime in local personal property taxes before Project Woolhawk ever went public.
-
-And once you see that one, you start seeing the rest of them.
-
-Gallatin didn't lose Project Skillet and move on. They lost it and found out exactly why. Every obstacle that killed the first attempt got removed before the second one arrived.
-
-The land wasn't assembled and none of it belonged to the city, so more than 800 acres got bought up quietly from private owners. A farm sat in a trust that couldn't be touched and a university president said no, so the trust was amended, the university's board was cut down, and a former state economic development commissioner became its president and said yes. The law still required a PILOT payment equal to the taxes that would have been owed, so Senate Bill 708 struck that requirement out. The company needed a counterparty that existed on paper, so the board filed with the IRS for the first time in twenty-six years. The city needed to not be on the hook for any of it, so its auditors wrote down that it cannot impose its will on a board it appoints.
-
-Six problems. Six answers. Every one of them arriving between the deal Gallatin lost and the deal Gallatin won.
-
-That's the part I can't explain away as coincidence. Not that a lot of things changed, but that the things that changed are shaped exactly like the things that went wrong last time.
-
-### Who Checks the Checkers
-
-There's one more question I kept coming back to. If a board is holding half a billion dollars of exempt property and moving nearly three million a year through it, who is looking at the books?
-
-One man, in the next town over.
-
-[John R. Poole, CPA](/sources/11278-2025-c-gallatinidb-rpt-cpa517-3-25-26-rev1/), a sole practitioner on Northlake Drive in Hendersonville, audits the Gallatin IDB. He also audits [Gallatin's Health, Educational and Housing Facilities Board](/sources/state_of_tennessee/state_audits/gallatin_hhfb/13682-2025-c-gallatinhhfb-rpt-cpa517-3-23-26.pdf), which has the same nine directors, in the same order, and he signed both reports on the same day.
-
-He audits [Westmoreland's Industrial Development Board](/sources/state_of_tennessee/state_audits/westmoreland_idb/12045-2025-c-westmorelandidb-rpt-cpa517-1-27-26.pdf) too. Same state, same statute, same kind of board.
-
-Except he doesn't audit them the same way.
-
-Westmoreland's IDB is audited as a component unit of the City of Westmoreland, under the rules written for government. Those rules require a management discussion of the year's results, fund statements, and a formal Schedule of Findings where problems get written down. Westmoreland's carries one: finding 2025-001, separation of duties, a material weakness. The report notes the original finding number was 2011-001, meaning it has been written up every year for fourteen years.
-
-Gallatin's IDB is audited under the rules written for private nonprofits. That report does test compliance and internal control, and it says the tests turned up nothing to report. But the management discussion is not required, so there is no explanation anywhere of why the board's net assets fell from $904,342 to $148,027 in a single year. There are no fund statements. And the board is never consolidated into the city's own books, where a reader would go looking for it.
-
-Same auditor. Same year. One framework asks questions and the other doesn't, and Gallatin got the one that doesn't.
-
-There's a last detail, and I want to be careful with it because it is smaller than it sounds. In August 2016, the Tennessee State Board of Accountancy [disciplined John R. Poole](/sources/2016-08-tn-commerce-disciplinary-action-report/) and fined him $500. His [license still carries the flag](/sources/2026-08-18-tn-accountancy-license-poole-john-russell/) today.
-
-The board cited five accountants that month, and the categories tell you what it thinks is serious. One for holding a revoked license in another state. One for operating an unlicensed firm. One over peer review. And two for "due professional care."
-
-That last one is not a filing problem. It is the standard covering the quality of the work itself. The other person cited for it that month, a firm in Morristown, was ordered to submit its next audit for outside review before releasing it.
-
-I don't know what engagement it involved. The state's public report gives the category and the fine and nothing else, and I am not going to pretend it says more than that.
-
-But the board that couldn't be audited for thirty-one years eventually hired someone, and this is who they hired.
-
-## Part 3: The Man with Two Ledgers
-
-When the Gallatin IDB finally checked that "initial return" box on its first 990 in late 2021 to legitimize itself for Meta, a new name appeared on the paperwork: Preston Stark.
-
-Stark wasn’t an elected city councilman. He was installed as the IDB's Board Administrative Manager, the gatekeeper of the records, the agendas, and the tax-abatement paperwork.
-
-But as it turns out, 2020 was a busy year for Stark's ledger-keeping.
-
-At the exact same time he took the reins of the IDB's brand-new federal tax trail, Stark's name quietly appeared on the board roster of a local, grassroots non-profit: The Gallatin Shalom Zone. His title? Treasurer. His subtitle on their directory? "City of Gallatin", a direct contradiction to the city's loud legal insistence that the IDB has "no government standing."
-
-And there's a smaller thing sitting underneath that one.
-
-The Gallatin IDB's federal returns are prepared by John P Young PC, a one-man firm on Canfield Place in Hendersonville. So are the Gallatin Shalom Zone's. Same firm, same preparer number, same suite.
-
-So the board that hands out the money and the nonprofit that receives it share an accountant, and they share a board member, and that board member is the one signing the paying side's federal return under penalty of perjury.
-
-None of which is against any rule. Hendersonville is not a big place and one accountant can have a lot of local clients. It just means there was nobody in the room who wasn't already in the room.
-
-Suddenly, the non-profit's financial books caught fire.
-
-- **2019:** The Shalom Zone brought in a modest $87,799 in gifts and grants.
-- **2021:** As Meta cleared its final local hurdles, the non-profit's revenue tripled to $347,344.
-- **2023:** The ledger exploded to $1,190,673 in a single year.
-
-The person managing the public distribution process for the city's corporate recruitment was now the exact same person balancing the private receiving books for the area's premier "social welfare" shield.
-
-## Part 4: The Ghost Deliverable
-
-This isn't a victimless paper loop. To sell a trillion-dollar tech footprint to a skeptical public, you need a beautiful civic deliverable.
-
-The public was promised a magnificent outcome: a $1 million+ affordable childcare facility inside the historic Union High School campus, backed by a $550,000 grant directly from the Gallatin IDB. It was a public relations masterpiece. Meta got to take victory laps, the IDB got to claim they were serving the community, and the economic development teams boasted about satisfying childcare demands for incoming corporate partners.
-
-But if you walk down to the campus today, the windows are dark.
-
-The money moved. The state laws were altered. The 990 revenues spiked exponentially. The administrator successfully signed off on both sides of the transactional loop.
-
-And the daycare center has yet to open.

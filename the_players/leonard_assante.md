@@ -20,11 +20,11 @@ in Gallatin (per his own 2008 Tennessean byline).
 
 ## Sources on him
 
-- `web_articles/assante-quotes-in-tennesean.pdf` — "New lows in higher education,"
+- `web_articles/2008-12-14-tennessean-page-26-assante-quotes.pdf` — "New lows in higher education,"
   Tennessee Voices op-ed, *The Tennessean*, Sunday December 14, 2008, p. 27A. A critique of
   administrative bloat and Tennessee Board of Regents structure, written as a faculty
   member. Character insight, not investigation evidence.
-- `web_articles/December_14,_2008_(Page_26).pdf` — the full newspaper page carrying the
+- `web_articles/2008-12-14-tennessean-page-26-assante-quotes.pdf` — the full newspaper page carrying the
   same op-ed. Duplicate content of the above, different crop.
 - `state_of_tennessee/state_audits/gallatin_hhfb/README.md` and `gallatin_idb/` — board
   rosters as filed.

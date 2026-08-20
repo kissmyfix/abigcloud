@@ -5,7 +5,7 @@ A browser editor for this project: source on the left, live preview on the right
 saves to disk as you type. Built 2026-08-17 because VS Code was fighting him and
 he works in a terminal and a browser, not an IDE.
 
-    files/venv/bin/python files/bin/mdlive.py monologues/quid-pro-no.md 8080
+    files/venv/bin/python files/bin/mdlive.py web/content/faq.md 8080
     # then open http://localhost:8080
 
 What it does that a plain editor does not:
@@ -48,7 +48,7 @@ def _find_root(start):
 ROOT = _find_root(MD)
 
 SKIP = {".git", "node_modules", "dist", ".astro", "venv", "__pycache__",
-        ".remember", "derived", "saved_sites"}
+        ".remember", "derived"}
 
 def listing():
     """The pages of the website, and nothing else.

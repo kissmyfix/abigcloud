@@ -7,9 +7,11 @@ import BackToTop from '../components/BackToTop.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import SeriesNav from '../components/SeriesNav.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 
 interface Props {
+	title: string;
 	description: string;
 	pubDate?: Date;
 	updatedDate?: Date;
@@ -17,10 +19,24 @@ interface Props {
 	toc?: boolean;
 	heroImage?: ImageMetadata;
 	heroImageNarrow?: ImageMetadata;
+	/* Set both to place a page in a series; see SeriesNav.astro. */
+	series?: string;
+	part?: number;
+	partTitle?: string;
 }
 
-const { title, description, pubDate, updatedDate, draft, toc, heroImage, heroImageNarrow } =
-	Astro.props;
+const {
+	title,
+	description,
+	pubDate,
+	updatedDate,
+	draft,
+	toc,
+	heroImage,
+	heroImageNarrow,
+	series,
+	part,
+} = Astro.props;
 
 /* Pages without their own hero borrow the landing banner, so no page opens
    bare. Set heroImage in frontmatter to replace it. */
@@ -55,6 +71,7 @@ const bannerNarrow = heroImage ? heroImageNarrow : defaultBannerNarrow;
 						}
 					</div>
 					<slot />
+					{series && part && <SeriesNav series={series} part={part} />}
 				</div>
 			</article>
 		</main>

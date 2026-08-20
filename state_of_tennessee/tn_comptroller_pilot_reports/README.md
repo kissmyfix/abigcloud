@@ -5,12 +5,27 @@ PILOT reports filed with the Tennessee Comptroller — the official self-reporte
 
 ## Contents
 - `sumner_county/` — Sumner County PILOT reports, 2015–2022 PDFs + 2023–2025 ODS
-- `hamilton_county/` — Hamilton County (Chattanooga) comparison set, 2014–2025
-- `gibson_county/` — Gibson County comparison set (the other sizable 990-filing IDB), 2015–2025
+- ~~`hamilton_county/`~~ and ~~`gibson_county/`~~ — the peer comparison sets. **Moved out of
+  the project 2026-08-19**, along with ~~`build-hamilton-master.py`~~ and the Hamilton
+  master CSV. Several of those files are statewide reports saved under a county name, and at least one pair extracts to
+  byte-identical text, so the filenames do not describe the contents. The thread was parked
+  2026-08-17; see the PARKED section of ~~`angles/citation-worklist.md`~~. Re-pull from the
+  Comptroller before any direct Gibson or Hamilton comparison goes into print. The Gibson
+  **990** comparison is a separate, verified thread and stays at
+  `usa_federal/irs_990_data/gibson_county_idb/`.
 - `tn_comptroller_archived/` — statewide annual PILOT reports 2014–2025 + `idb_debt-reports.xlsx`
 - `2024-idb-annual-report.pdf`, `2025-idb-annual-debt-reporting-request.pdf` — loose Comptroller
-  IDB filings at this level (renamed to the project scheme 2026-07-29 from `FY2024IDBReport.pdf`
-  and `FY2025IDBAnnualDebtReportingRequest.pdf`)
+  IDB filings at this level. Renamed to the project scheme 2026-07-29; the old names, no longer
+  present, were ~~`FY2024IDBReport.pdf`~~ and ~~`FY2025IDBAnnualDebtReportingRequest.pdf`~~.
+- `2025-pilot-reporting.xlsx` — the Comptroller's 2025 PILOT reporting workbook, the
+  spreadsheet form the registry now publishes in place of the older PDFs.
+
+**Cleared 2026-08-19:** ~~`2018-pilot.pdf`~~ and ~~`2021-pilot.pdf`~~ also sat at this level and
+were second copies of reports held elsewhere. The 2018 file was text-identical to
+`sumner_county/2018-pilot-sumner.pdf` and was deleted. The 2021 file was text-identical to the
+Gibson 2021 report, which had already been removed from the project, so it followed. Neither
+matched the statewide report for its year in `tn_comptroller_archived/`, and neither fed
+`derived/tn-statewide-pilot-master-2014-2025.csv`, which is built from the archived set.
 - `comptroller-idb-debt-reporting-guidelines.pdf` — **Tennessee State Funding Board Guidelines,
   Debt Reporting by Industrial Development Boards**, 4 pages. The rules the filings in
   `tn_comptroller_archived/idb_debt-reports.xlsx` are made under: § 7-53-304 requires every IDB
@@ -29,4 +44,4 @@ PILOT reports filed with the Tennessee Comptroller — the official self-reporte
 - This is the most accessible plain-language proof that the $0 county payment was a choice, not an inevitability
 
 ## Notes
-This directory became the canonical PILOT-report home in July 2026 when the old root-level `pilot_data/` (byte-identical duplicates plus the derived CSVs now in `derived/`) was dissolved. Two more duplicates were cleared 2026-07-29: `IDB Annual Report Data.xlsx` (byte-identical to `tn_comptroller_archived/idb_debt-reports.xlsx`, which is the copy the build scripts read) and `SFBGuidelinesIDBDebtReporting.pdf` (byte-identical to the surviving `comptroller-idb-debt-reporting-guidelines.pdf`, which moved into this directory from the `state_of_tennessee/` root on 2026-07-29). The Comptroller's Best Interest Determination criteria (the standard Rosemary Bates' "we wanted low job numbers" quote contradicts) are still not in the project — open gap.
+This directory became the canonical PILOT-report home in July 2026 when the old root-level `pilot_data/` (byte-identical duplicates plus the derived CSVs now in `derived/`) was dissolved. Two more duplicates were cleared 2026-07-29: ~~`IDB Annual Report Data.xlsx`~~ (byte-identical to `tn_comptroller_archived/idb_debt-reports.xlsx`, which is the copy the build scripts read) and ~~`SFBGuidelinesIDBDebtReporting.pdf`~~ (byte-identical to the surviving `comptroller-idb-debt-reporting-guidelines.pdf`, which moved into this directory from the `state_of_tennessee/` root on 2026-07-29). The Comptroller's Best Interest Determination criteria (the standard Rosemary Bates' "we wanted low job numbers" quote contradicts) are still not in the project — open gap.

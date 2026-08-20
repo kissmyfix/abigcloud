@@ -736,7 +736,7 @@ def main():
         for raw in parse_pdf(DIR / src, year):
             out.append(finalize(raw, year, src))
 
-    src = "2023-2025-pilot-sumner.pdf.ods"
+    src = "2023-2025-pilot-sumner.ods"
     print(f"parsing {src}")
     for raw in parse_ods(DIR / src):
         out.append(finalize(raw, raw["_year"], src))

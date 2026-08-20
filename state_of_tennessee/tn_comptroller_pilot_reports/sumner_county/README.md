@@ -11,7 +11,7 @@ parsed from the source reports into one machine-readable file.
 | `files/bin/parse-sumner-pilot.py` | Regenerates the JSON from the source documents. |
 | `files/bin/verify-sumner-pilot.py` | Recounts every year straight from the source and prints ALL AGREE or the disagreement. |
 | `2015-…` – `2022-pilot-sumner.pdf` | Source PDFs, one per report year. |
-| `2023-2025-pilot-sumner.pdf.ods` | Source spreadsheet covering 2023, 2024, 2025. |
+| `2023-2025-pilot-sumner.ods` | Source spreadsheet covering 2023, 2024, 2025. |
 
 Regenerate from the project root with `python3 files/bin/parse-sumner-pilot.py`, then `python3 files/bin/verify-sumner-pilot.py`. Both resolve this directory from their own location, so they run from anywhere.
 

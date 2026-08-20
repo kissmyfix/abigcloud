@@ -16,7 +16,7 @@ the paperwork. He took the registered-agent role in the Woolhawk signing window.
   revenue, an unexplained $102,948 in opening assets, and a formation year claimed as 2020
   for a board chartered in 1994.
 - Listed as "Stark admin" on the FY2024 990 board roster.
-- Named in `angles/rent-mechanism.md` as an untraced destination: of $42.18M moving through
+- Named in ~~`angles/rent-mechanism.md`~~ as an untraced destination: of $42.18M moving through
   the tracked Sumner entities, 90.2% is rent to the IDB as landlord, and where it actually
   goes — IDB overhead, Stark's fees, or something else — has not been traced. Follow-up
   items 3 and 4 in that file are his.
@@ -28,9 +28,9 @@ the paperwork. He took the registered-agent role in the Woolhawk signing window.
 - `sumner_county/gallatin_idb_data/derived/1994-2026-idb-gallatin.txt` — the full SOS
   filing history, including the 2021-07-12 agent change.
 - `usa_federal/irs_990_data/gallatin_idb/idb2020.pdf` — the first 990, his signature.
-- `web_articles/stark-quotes-in-tennessean.pdf` and
-  `web_articles/November_16,_1983_(Page_18_of_.pdf` — *The Tennessean*, Wednesday November
-  16, 1983, p. 2-B. Same content, two crops. He is quoted in a piece touching annexation by
+- `web_articles/1983-11-16-tennessean-page-18-stark-quotes.pdf` — *The Tennessean*,
+  Wednesday November 16, 1983, p. 2-B. A byte-identical duplicate, previously
+  `November_16,_1983_(Page_18_of_.pdf`, was deleted 2026-07-29. He is quoted in a piece touching annexation by
   Hendersonville. **The OCR is poor and the quote is fragmentary — read the page image
   before using anything from it.** Identity match to the same Preston Stark is not
   established; a 1983 quote is 38 years before the IDB appointment.

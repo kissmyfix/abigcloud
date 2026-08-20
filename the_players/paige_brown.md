@@ -6,7 +6,7 @@ Mayor of Gallatin since 2014 (third term as of 2026). Former TV reporter/anchor-
 
 - **Family founded the IDB.** In her own words (Growing Pains interview): "people like my granddad **Walter Durham** formed the industrial development board" in the 1940s. The mayor of the city receiving the funneled PILOT proceeds is the founding family of the board doing the funneling — institutional continuity as bloodline.
 - Mayor's signature block on Resolution R2005-24 (May 2020), the Woolhawk PILOT delegation.
-- **September 8, 2020**: publicly announced "Project Woolhawk is Facebook," credited GEDA director James Fenton, the EDA board, and department heads (council minutes, `sumner_county/gallatin_council_meetings/2020-sept-gallain-meeting-woolhawk-mayor.pdf`).
+- **September 8, 2020**: publicly announced "Project Woolhawk is Facebook," credited GEDA director James Fenton, the EDA board, and department heads (council minutes, `sumner_county/gallatin_council_meetings/2020-09-15-city-council-agenda.pdf`).
 - GNRC: she explains it as one of nine state development districts — "through those development districts we get a lot of our funding" — and she chaired it. (See PINBOARD GNRC entry.)
 
 ## From the Growing Pains interview (transcript in `podcasts/transcripts/`)

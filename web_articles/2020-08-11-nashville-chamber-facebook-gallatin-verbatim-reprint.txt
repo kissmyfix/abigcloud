@@ -1,7 +1,9 @@
 SOURCE: Nashville Area Chamber of Commerce (posted as a "blog" entry)
 HEADLINE: Facebook to Build $800 Million Data Center in Gallatin, Tennessee
+BYLINE: (none stated — institutional release, no author credited)
 DATE: August 11, 2020
 URL: https://www.nashvillechamber.com/blog/facebook-to-build-800-million-data-center-in-gallatin-tennessee/
+ARCHIVE: (none — no Internet Archive capture found at retrieval)
 RETRIEVED: 2026-08-17
 WHY SAVED: REPRINT #1. The state press release republished word for word, including the
 all-caps release headline, the bulleted release summary lines, the "NASHVILLE, Tenn. --"

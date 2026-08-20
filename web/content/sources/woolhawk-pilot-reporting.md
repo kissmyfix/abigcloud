@@ -76,7 +76,7 @@ is the finding — a payment recorded in one system and absent from the other.
 
 ## 2023, 2024 and 2025 reports
 
-Extracted 2026-08-18 from `2023-2025-pilot-sumner.pdf.ods`, the comptroller's combined
+Extracted 2026-08-18 from `2023-2025-pilot-sumner.ods`, the comptroller's combined
 three-year workbook, which had not been read before. Column positions as labelled in the
 sheet header: EST VALUE, RENT, PILOT CITY, PILOT COUNTY, LH TAX.
 

@@ -6,7 +6,8 @@ Local and regional podcast episodes featuring the officials and boosters in scop
 ## Contents
 - `mp3s/` — source audio, named `show-episode-title` (slugified 2026-07-29 to the project
   convention: lowercase, dashes, no spaces)
-- `transcripts/` — faster-whisper text output, one .txt per episode, same stem as its mp3
+- `transcripts/` — faster-whisper text output, one .txt per episode, same stem as its mp3,
+  plus one video-sourced transcript with no mp3
 - `manifest.csv` — GUID-to-name mapping from the original downloads; its `new_filename`
   column is the current on-disk name
 

@@ -36,8 +36,12 @@ separates the ordinary IDB mechanism from what is specific to Gallatin.
 ## Notes
 Gibson files as a 501(c)(6). Gallatin filed as a 501(c)(4). The question of why that choice
 was available and what it required is worked in
-`reference/501c4-vs-instrumentality.md`, and the comparison here is the empirical half of
+`web/content/reference/501c4-vs-instrumentality.md`, and the comparison here is the empirical half of
 that argument.
 
-The matching PILOT registry filings are in
-`state_of_tennessee/tn_comptroller_pilot_reports/gibson_county/`. Read the two together.
+The matching PILOT registry filings were in
+~~`state_of_tennessee/tn_comptroller_pilot_reports/gibson_county/`~~ and were **moved out of
+the project 2026-08-19**. Some of those files are statewide reports saved under a county name and at least one pair
+extracts to byte-identical text, so the filenames do not describe the contents. Re-pull from
+the Comptroller before making a direct Gibson comparison in print. The 990 material in this
+directory is a separate, verified thread and is unaffected.

@@ -3,6 +3,7 @@ HEADLINE: 'We are listening': TVA pauses Gallatin transmission line amid outcry 
 BYLINE: Chasity Maynard
 DATE: February 20, 2026, 8:57 AM CST
 URL: https://www.wsmv.com/2026/02/20/we-are-listening-tva-pauses-gallatin-transmission-line-amid-outcry-historic-farm-country-star/
+ARCHIVE: (none — no Internet Archive capture found at retrieval)
 RETRIEVED: 2026-08-17
 PROVENANCE NOTE: Captured via automated fetch and rendered to text. Treat quotes as
 accurate-but-unverified until checked against the live page or an archived HTML copy.

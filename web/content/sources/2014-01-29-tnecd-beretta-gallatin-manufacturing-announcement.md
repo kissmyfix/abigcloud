@@ -10,8 +10,10 @@ description: 'Tennessee Department of Economic and Community Development, Januar
 <dl class="src-prov">
 <dt>source</dt><dd>Tennessee Department of Economic and Community Development</dd>
 <dt>headline</dt><dd>Haslam, Beretta USA Announce New Manufacturing Facility</dd>
+<dt>byline</dt><dd>(none stated — institutional release, no author credited)</dd>
 <dt>date</dt><dd>January 29, 2014</dd>
 <dt>url</dt><dd><a href="https://tnecd.com/news/haslam-beretta-usa-announce-new-manufacturing-facility/" rel="nofollow noopener">https://tnecd.com/news/haslam-beretta-usa-announce-new-manufacturing-facility/</a></dd>
+<dt>archive</dt><dd>(none — no Internet Archive capture found at retrieval)</dd>
 <dt>retrieved</dt><dd>2026-08-18 (direct fetch)</dd>
 <dt>why saved</dt><dd>The state's own announcement of the Beretta deal in the Gallatin Industrial Park, the recruitment that preceded Project Skillet and Project Woolhawk on the same land. Establishes $45 million investment and 300 jobs on the record in the state's voice. Beretta appears in the Comptroller's Sumner County PILOT reporting only in 2015 and 2016, and its 2016 payment field reads "NO INFO" - it never reported a payment.</dd>
 </dl>

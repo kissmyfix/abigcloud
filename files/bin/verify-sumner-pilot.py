@@ -80,7 +80,7 @@ def pdf_block_lines(year):
 def ods_rows():
     T = "{urn:oasis:names:tc:opendocument:xmlns:table:1.0}"
     root = ET.fromstring(zipfile.ZipFile(
-        DIR / "2023-2025-pilot-sumner.pdf.ods").read("content.xml"))
+        DIR / "2023-2025-pilot-sumner.ods").read("content.xml"))
     year, out = None, []
     for r in root.iter(T + "table-row"):
         cells = []

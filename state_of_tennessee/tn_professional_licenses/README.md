@@ -10,8 +10,10 @@ handle the audit and the federal filings of the Gallatin IDB.
 |---|---|---|
 | `2026-08-18-tn-accountancy-license-poole-john-russell.png` | John Russell Poole, CPA, licence 12353 | Independent auditor of the Gallatin IDB, the Gallatin HHFB, and the Westmoreland IDB. **Licence carries a public "Has Been Disciplined" alert.** |
 | `2026-08-18-tn-accountancy-license-young-johnny-p.png` | Johnny P Young, CPA, licence 4894 | Paid preparer of the Gallatin IDB's Forms 990 from FY2022 and of the Gallatin Shalom Zone's Forms 990 — both sides of a related-party flow. |
+| `2016-08-tn-commerce-disciplinary-action-report.pdf` | The state's monthly disciplinary report, August 2016 | The action behind Poole's alert: *"Accountancy \| John R Poole \| Hendersonville,TN \| Due professional care \| $500 Civil Penalty \| 08/30/16."* Found by sweeping all 162 monthly reports from January 2013 through July 2026; it is the only accountancy action against Poole in that span, and there is none of any kind against Young. The other 161 reports were deleted as scope creep. |
 
-`derived/` holds a field-for-field transcription of each, with provenance headers.
+`derived/` holds a field-for-field transcription of each screenshot with provenance headers,
+page-anchored text for the PDF, and `pdf-index.csv`.
 
 ## Source and how to reproduce
 

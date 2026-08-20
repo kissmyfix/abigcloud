@@ -14,6 +14,7 @@ description: 'Just The News, September 3, 2025'
 <dt>date</dt><dd>September 3, 2025</dd>
 <dt>url</dt><dd><a href="https://justthenews.com/government/local/country-music-stars-pressure-campaign-helped-save-tennessee-county-tvas-eminent" rel="nofollow noopener">https://justthenews.com/government/local/country-music-stars-pressure-campaign-helped-save-tennessee-county-tvas-eminent</a></dd>
 <dt>also ran</dt><dd>Tennessee Star, September 4, 2025</dd>
+<dt>archive</dt><dd>(none — no Internet Archive capture found at retrieval)</dd>
 <dt>retrieved</dt><dd>2026-08-17</dd>
 <dt>provenance note</dt><dd>Captured via automated fetch and rendered to text. Treat quotes as accurate-but-unverified until checked against the live page or an archived HTML copy.</dd>
 <dt>why saved</dt><dd>TVA eminent domain, story one of two. Cheatham County, ~Sept 2025, John Rich. Pairs with the Gallatin/Gregory Farm story (Feb 2026) as the two eminent-domain fights that put TVA under public pressure while the Meta buildout proceeded.</dd>

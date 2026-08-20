@@ -10,7 +10,6 @@ sibling directories. Nothing here is a filing — every file is output of a pars
 |---|---|---|---|
 | `tn-statewide-pilot-master-2014-2025.csv` | 13,630 | `files/bin/build-statewide-pilot-master.py` | **Current.** 81 counties with filings, 2014–2025 |
 | `tn-idb-debt-master-2021-2023.csv` | 1,273 | `files/bin/build-idb-debt-master.py` | **Current.** IDB debt reporting, 197 entities, 2021–2023 |
-| `hamilton-county-pilot-master-2014-2025.csv` | — | `files/bin/build-hamilton-master.py` | Superseded in scope; despite the filename it starts at **2016** (the builder has no 2014–2015 layout) |
 | `sumner_idb_master_2017-2025.csv` | — | `files/bin/parse-sumner-pilot.py` | **Known incomplete — do not cite. See below.** |
 | `sumner_county_totals_2016-2025.csv` | — | (rolled up from the Sumner master) | Inherits the Sumner master's gaps — re-derive before use |
 

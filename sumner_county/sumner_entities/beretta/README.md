@@ -5,6 +5,11 @@ Working notes and findings on Beretta USA Corp. — one of the 11 corporations w
 
 ## Contents
 - `memory/MEMORY.md` — the actual findings: timeline, promises made/kept, unanswered questions, anything we know about this entity. This is the source of truth, written in plain prose, general-purpose (not formatted for any particular use).
+Brandon's own working notes on this entity, ~~`thinking.md`~~ (the land chain of title and
+the 2014 state grant) and ~~`idb-beretta-deal.md`~~ (what the PILOT saved and what it was
+supposed to return), **removed from the project 2026-08-19**. They were reasoning in
+progress rather than evidence, and nothing in either was citable. The settled version of anything they contain
+belongs in `memory/MEMORY.md`.
 
 ## Source Type
 **Working Material** — this is our own analysis and notes, not a primary source. Always trace claims back to the real source documents: `state_of_tennessee/tn_comptroller_pilot_reports/` (PILOT filings), `state_of_tennessee/tn_property_assessments/` (assessor records), `usa_federal/irs_990_data/` (IDB's federal filings), `sumner_county/gallatin_idb_data/` (board minutes).

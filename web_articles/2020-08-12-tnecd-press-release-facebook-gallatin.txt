@@ -1,8 +1,10 @@
 SOURCE: Tennessee Department of Economic and Community Development (official press release)
 HEADLINE: Governor Lee, Commissioner Rolfe Announce Facebook to Build $800 Million Data Center in Gallatin
+BYLINE: (none stated — institutional release, no author credited)
 DATE: Wednesday, August 12, 2020, 06:00am
 URL: https://www.tn.gov/ecd/news/2020/8/12/governor-lee--commissioner-rolfe-announce-facebook-to-build--800-million-data-center-in-gallatin.html
 MIRROR: https://tnecd.com/news/governor-lee-commissioner-rolfe-announce-facebook-to-build-800-million-data-center-in-gallatin/
+ARCHIVE: (none — no Internet Archive capture found at retrieval)
 RETRIEVED: 2026-08-17
 PROVENANCE NOTE: Captured via automated fetch, rendered to text. Quote wording should be
 re-verified against the live page before publication.

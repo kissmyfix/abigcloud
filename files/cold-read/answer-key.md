@@ -1,8 +1,15 @@
 # Answer key — what a cold read should conclude
 
-**Valid as of `dfdc0f8`, 2026-08-19.** Update this file *before* running the test, not
-after. A key written after seeing the report grades the report against itself and measures
-nothing.
+**Valid as of `dfdc0f8`, 2026-08-19 — and stale.** The 2026-08-19 housekeeping pass
+restructured the tree after that commit and none of it is committed yet: `reference/` was
+deleted, `angles/` and Brandon's Beretta notes moved out of the project, `files/cold-read/`
+itself became gitignored, and the Shalom Zone 990s got their own directory. Items 3 and 9
+below were rewritten to match. **Do not run a cold read against this key until Brandon has
+confirmed it**, because a key he has not agreed to is only Claude's opinion of Claude's own
+documentation.
+
+Update this file *before* running the test, not after. A key written after seeing the
+report grades the report against itself and measures nothing.
 
 Answers here are the settled understanding Brandon and Claude agree on. The cold agent
 never sees this file.
@@ -21,8 +28,7 @@ project as "the IDB investigation" is wrong.
 
 **3. Structure.** One git repo (`github.com/kissmyfix/abigcloud`), one website (`web/`).
 Around it: a public evidence archive (statutes, audits, 990s, council packets, transcripts,
-player profiles) and a deliberately gitignored private layer — `monologues/`, `memory/`,
-`angles/`. Directory index is `files/DATA_MAP.md`.
+player profiles) and a private working layer that is not published — `memory/` inside the tree, and outside this project outside it, which holds `angles/` and everything else parked out of the project. Directory index is `files/DATA_MAP.md`.
 
 **4. Publishing.** Same process for both. Every page is edited directly under
 `web/content/`; what you edit is what ships. There are no drafts and nothing regenerates
@@ -58,7 +64,7 @@ github.com and may not say so, so fetch before pushing.
 
 **9. State of the work.** Part 1 is published and live, still being verified in places;
 Parts 2+ are in progress. What is sourced and what is not lives in
-`angles/citation-worklist.md`. Findings live in `memory/MEMORY.md` and
+~~`angles/citation-worklist.md`~~. Findings live in `memory/MEMORY.md` and
 `memory/TIMELINE.md`; leads in `memory/PINBOARD.md`.
 
 **10. Known-and-accepted.** Several site topic sections are thin by choice, not oversight.

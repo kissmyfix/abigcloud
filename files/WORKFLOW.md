@@ -1,6 +1,6 @@
-# WORKFLOW.md — how writing gets from Brandon's screen to abigcloud.com
+# WORKFLOW.md — how writing gets from the editor's screen to abigcloud.com
 
-Written 2026-08-17. Brandon relies on this pipeline without wanting to learn Astro, and
+Written 2026-08-17. This pipeline is relied on without anyone needing to learn Astro, and
 that is a reasonable division of labour — but only if it is written down. This file is
 that. It explains the machinery at the level needed to use it, fix it, and explain it.
 
@@ -8,7 +8,7 @@ that. It explains the machinery at the level needed to use it, fix it, and expla
 
 ## The one-paragraph version
 
-Everything is a markdown file. Brandon edits markdown in a browser editor. A build step
+Everything is a markdown file, edited in a browser editor. A build step
 turns markdown into a folder of plain HTML files. Those files get pushed to GitHub, and
 GitHub serves them as the website. There is no server running the site, no database, and
 nothing to keep alive.
@@ -19,15 +19,15 @@ nothing to keep alive.
 
     files/venv/bin/python files/bin/mdlive.py web/content/investigations/quid_pro_no/index.md 8080
 
-Then open **http://localhost:8080**. Source left, rendered preview right, saves as he types.
+Then open **http://localhost:8080**. Source left, rendered preview right, saves as you type.
 
 - **File picker** in the toolbar lists every `.md` and `.txt` in the project. The URL
   carries `?f=<path>`, so two files can be open in two tabs.
 - **`Ctrl+/`** inserts `<!-- @c  -->` — a note to Claude, invisible in the preview and
   stripped at publish time.
 - **"copy line ref"** copies selected lines with numbers, to paste into chat.
-- Claude's edits to the same file appear within half a second. If Brandon has unsaved
-  changes it shows "file changed on disk" rather than overwriting him.
+- Claude's edits to the same file appear within half a second. If the buffer has unsaved
+  changes it shows "file changed on disk" rather than overwriting them.
 
 Stop it with `pkill -f mdlive`.
 
@@ -129,13 +129,62 @@ Takes about a minute.
 
 | Page | Edit this |
 |---|---|
-| The article | `web/content/investigations/quid_pro_no/index.md` |
+| The article | `web/content/investigations/quid_pro_no/index.md` (Part 1) and `part-2.md`, `part-3.md`, `part-4.md` beside it |
 | About, FAQ, TVA, a topic page | `web/content/<path>.md` |
 | Homepage | `web/index.md` |
 
-`monologues/` is Brandon's pen — personal writing, old drafts, voice reference. **Nothing
-reads from it.** A draft pipeline that published from there was removed 2026-08-17: one
-directory cannot be both the source you edit and the output that overwrites you.
+## Writing a page
+
+**The folder is the URL.** There is no routing file to edit and no list of pages to
+register. Put a markdown file under `web/content/` and its path becomes its address.
+
+    web/content/tennessee/fisk.md            ->  /tennessee/fisk/
+    web/content/investigations/x/index.md    ->  /investigations/x/
+    web/content/investigations/x/part-2.md   ->  /investigations/x/part-2/
+
+`index.md` inside a folder is that folder's own page, which is why Part 1 of an
+investigation is `index.md` — it keeps the URL a reader may already have bookmarked.
+
+**Frontmatter** is the block between `---` lines at the top. `title` and `description` are
+required; every other field is optional and has a sane default. The schema that enforces
+this is `web/src/content.config.ts`, and a typo in a field name fails the build rather than
+shipping quietly.
+
+| Field | What it does |
+|---|---|
+| `title` | The `<title>` tag and what search results show. Not printed on the page — the page's own `#` heading does that |
+| `description` | The sentence under the title in search results and link previews |
+| `pubDate` / `updatedDate` | Printed under the title. Investigations are dated; standing reference pages are not |
+| `draft: true` | The page is **not built for the live site at all** — no URL, nothing in the sitemap. It still appears in local preview, flagged with a pill |
+| `toc: true` | Adds the floating Contents drawer and the reading-progress bar. The drawer hides itself below three headings, so setting it on a short page does nothing |
+| `heroImage` / `heroImageNarrow` | Replace the default banner. Narrow is the phone crop |
+| `series` / `part` / `partTitle` | Place the page in a multi-part piece. See below |
+
+**One `#` heading per page.** It is the page's real headline. Everything below it uses `##`
+and `###`, which is also what the Contents drawer is built from.
+
+### Adding a part to a multi-part piece
+
+Create the file next to the others and set three fields:
+
+```yaml
+series: 'quid_pro_no'     # the same slug on every part
+part: 5                   # its number
+partTitle: 'Short Name'   # what the navigation calls it
+```
+
+That is the whole operation. The "Part 5 of 5" label, the previous and next links, and the
+list of parts at the foot of **every** page in the series are all derived at build time by
+`web/src/components/SeriesNav.astro`, which reads the collection rather than a list anyone
+maintains. No other file is edited, so no two pages can disagree about what the series
+contains.
+
+The reason it is built this way: hand-written "next part" links are four separate facts that
+rot independently, which is the same failure as a README describing files that are not there.
+
+A draft pipeline that published from a `monologues/` directory was removed 2026-08-17: one
+directory cannot be both the source you edit and the output that overwrites you. That
+directory was removed from the project entirely on 2026-08-19.
 
 ## When something breaks
 
@@ -182,3 +231,32 @@ kills the shell that issued it (exit 144).
 
 **Ports in use:** `:8080` mdlive, `:4321` Astro dev. Check with
 `ss -lntp | grep -E '8080|4321'`.
+
+
+## Tooling on this machine
+
+*Moved here 2026-08-19 from `memory/site-work-conventions.md`, which put standing
+conventions in the findings directory.*
+
+**Spreadsheets: `pd.read_excel(path)` reads `.ods` directly.** `odfpy` was installed
+2026-08-18 into `files/venv`, so the Comptroller's `.ods` workbooks open the same way
+`.xlsx` does. Before that they had to be unzipped and parsed as raw XML by hand; do not
+write that code again. `libreoffice --headless --convert-to csv` is the fallback if a file
+is malformed.
+
+**Image tooling available:** ImageMagick 7 (`magick`, `identify`, `convert`), `exiftool`,
+`exifprobe`, `feh`, Python Pillow. **Not** installed: `cwebp`, `jpegoptim`, `chafa`.
+
+**Headless screenshots** of a running preview:
+
+    MOZ_HEADLESS=1 firefox --no-remote --new-instance --profile <dir> \
+      --window-size=W,H --screenshot <out.png> <url>
+
+A fresh profile directory is required or it hangs.
+
+**`web/tmp/`** was the shared drop point for source material — originals copied there rather
+than sending Claude to hunt for them. It is gitignored and no longer exists as of
+2026-08-19; recreate it if that workflow resumes.
+
+**"ELI5" is a global workflow, not a project one.** It lives in `~/.claude/CLAUDE.md` with
+pages under `~/.local/share/eli5/`. Never write eli5 pages into this repo.

@@ -5,12 +5,12 @@ Plain-text extractions of the PDF reports held in the parent directory, so long 
 can be searched and passages located quickly.
 
 ## Contents
-- `report-gallatin-idb-leon.txt` — Lilibeth Leon's TCED capstone, August 2024. The single
+- `report-gallatin-idb-leon.txt` — **moved 2026-08-19 to `sumner_county/gallatin_idb_data/derived/`.** Lilibeth Leon's TCED capstone, August 2024. The single
   most quoted document in the investigation. See `the_players/lilibeth_leon.md` and
-  `angles/leon-exhibit-a.md`.
-- `report-gallatin-idb-bates.txt` — the Bates capstone.
-- `report-gallatin-idb-isbell.txt` — the Isbell report.
-- `pilot-tldr-utk.txt` — the UT PILOT summary.
+  ~~`angles/leon-exhibit-a.md`~~.
+- `report-gallatin-idb-bates.txt` — **moved to `sumner_county/gallatin_idb_data/derived/`.** The Bates capstone.
+- `report-gallatin-idb-isbell.txt` — **moved to `sumner_county/gallatin_idb_data/derived/`.** The Isbell report.
+- `pilot-tldr-utk.txt` — **moved to `state_of_tennessee/tn_annotated_code/derived/` and renamed `2026-06-27-ctas-2472-payment-in-lieu-of-tax-agreements.txt`.** The CTAS PILOT guidance page.
 - `pdf-index.csv` — kind, pages, and trust rating per source file.
 
 ## Source Type

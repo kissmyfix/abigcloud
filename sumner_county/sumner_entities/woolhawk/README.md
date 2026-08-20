@@ -5,6 +5,11 @@ Working notes and findings on Woolhawk LLC (Meta Platforms) — one of the 11 co
 
 ## Contents
 - `memory/MEMORY.md` — the actual findings: timeline, promises made/kept, unanswered questions, anything we know about this entity. This is the source of truth, written in plain prose, general-purpose (not formatted for any particular use).
+- `2026-06-28-dpr-facebook-gallatin-data-center.html` — DPR Construction's project page for
+  the Gallatin build, saved 2026-06-28. The general contractor's own description of scope
+  and schedule. **Primary Source — Advocacy Material**, same handling as the Meta release:
+  it is a vendor marketing its work, useful for what it states about the build and its
+  timing, not for verification.
 - `metas-gallatin-data-center.pdf` — Meta's corporate press release describing the facility's stated community benefits (moved here when `meta_aka_woolhawk_llc/` was dissolved, July 2026). **Primary Source — Advocacy Material**: the subject's own framing, not verification. Cite it as Meta PR output; never treat its figures as verified without cross-referencing Comptroller/assessor/990 data. Its characterization of PILOT payments as community donations is a key rebuttal target — document the claim precisely before rebutting it (the social-security-withholding analogy in project memory was built to counter this framing).
 
 ## Source Type

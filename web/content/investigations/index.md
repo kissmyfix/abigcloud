@@ -23,7 +23,7 @@ That means slower work and a narrower subject. It also means the claims can be c
 <span class="feature-title">Quid-Pro-<em>NO!</em></span>
 <p>A $1.5 billion data center. A board that says in its own audited books that the city "cannot impose its will" on it, under a statute calling it a public instrumentality of that same city. Half a billion dollars of property assessed at zero, and a county column that has never had a number in it.</p>
 <span class="feature-cta">Read Part 1: The Simple Question That Wasn't &rarr;</span>
-<span class="feature-status">Published and still being verified in places. Parts 2 and beyond are in progress.</span>
+<span class="feature-status">Four parts, published and still being verified in places.</span>
 </a>
 
 ## How these are sourced

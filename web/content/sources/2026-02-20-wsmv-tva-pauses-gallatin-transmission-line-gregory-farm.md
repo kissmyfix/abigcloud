@@ -13,6 +13,7 @@ description: 'WSMV 4 Nashville, February 20, 2026, 8:57 AM CST'
 <dt>byline</dt><dd>Chasity Maynard</dd>
 <dt>date</dt><dd>February 20, 2026, 8:57 AM CST</dd>
 <dt>url</dt><dd><a href="https://www.wsmv.com/2026/02/20/we-are-listening-tva-pauses-gallatin-transmission-line-amid-outcry-historic-farm-country-star/" rel="nofollow noopener">https://www.wsmv.com/2026/02/20/we-are-listening-tva-pauses-gallatin-transmission-line-amid-outcry-historic-farm-country-star/</a></dd>
+<dt>archive</dt><dd>(none — no Internet Archive capture found at retrieval)</dd>
 <dt>retrieved</dt><dd>2026-08-17</dd>
 <dt>provenance note</dt><dd>Captured via automated fetch and rendered to text. Treat quotes as accurate-but-unverified until checked against the live page or an archived HTML copy.</dd>
 <dt>why saved</dt><dd>TVA eminent domain, story two of two. Gallatin / Sumner County, Feb 2026, Gregory Family Farm, John Rich's second campaign against TVA. This is the transmission corridor on the north side of Gallatin -- the same side of town as the Meta campus. FOLLOW-UP: By March 2026 TVA abandoned the Gregory route entirely and said it would "more closely follow existing rights of way." Not yet pulled in.</dd>

@@ -27,6 +27,6 @@ hand-edited. See the `derived/` convention in `files/DATA_MAP.md`.
 - Search here freely. Cite from the parent.
 
 ## Notes
-These four sections are the ones cited most often across `memory/`, `angles/`, and
-`reference/`. If a fifth becomes load-bearing, extract it rather than paraphrasing from
+These four sections are the ones cited most often across `memory/`, ~~`angles/`~~, and
+`web/content/reference/`. If a fifth becomes load-bearing, extract it rather than paraphrasing from
 memory.

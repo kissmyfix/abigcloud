@@ -4,8 +4,16 @@
 Gallatin City Council agendas, minutes, and related city documents pulled manually from gallatintn.gov — the public paper trail of what the council saw, said, and appropriated around the Woolhawk deal and the IDB.
 
 ## Contents
-23 PDFs + 1 text file, 2018–2026, named to the project scheme (`YYYY-MM-DD-body-type.pdf`,
-see `files/DATA_MAP.md`). What each document *is* and why it matters lives in
+24 PDFs + 1 text file, 2018–2026, named to the project scheme (`YYYY-MM-DD-body-type.pdf`,
+see `files/DATA_MAP.md`), plus six saved pages from the city's own site.
+
+The six `2026-08-19-gallatintn-*.html` captures are the city's Boards and Commissions
+listing and five of the individual board pages, saved the day the article's accountability
+section was sourced. They are what a resident actually sees when they go looking for the
+IDB, and the point of holding them is comparison: every other board's page says what the
+board does and when it meets. Saved as raw HTML, so the page is the record rather than a
+description of it. The city can edit these at any time, which is the whole reason to have
+a dated copy. What each document *is* and why it matters lives in
 `memory/MEMORY.md` (session blocks "2026-07-05" and "2026-07-29"). This file is the index
 and the handling rules.
 
@@ -51,7 +59,7 @@ Triaged 2026-07-05, extraction and index built 2026-07-29:
 
 ### Renamed 2026-07-29 — old → new
 
-Notes written before this date use the old names. Two byte-identical copies Brandon had
+Notes written before this date use the old names. Two byte-identical copies that had been
 prefixed as relevance flags (`important-…`, `the-most-importanat-yet-…`) were removed once
 what they were flagging was recorded in `memory/MEMORY.md`.
 
@@ -72,6 +80,84 @@ what they were flagging was recorded in `memory/MEMORY.md`.
 
 The three 2020 `-woolhawk-` names had months in them that were not the meeting date: those
 packets are the June 16, July 21, and September 15 meetings.
+
+### What the old filenames were telling us
+
+Everything in `sumner_county/gallatin_council_meetings/` was renamed to the project scheme
+(`YYYY-MM-DD-body-type.pdf`, see `files/DATA_MAP.md`). Three of the old names carried
+context that the scheme strips, so it is recorded here, pointed at the new filenames. The
+directory README holds the full old → new mapping.
+
+- **`the-most-importanat-yet-May 12 2020...` → `2020-05-12-council-committee-agenda.pdf`.**
+  Brandon flagged this as the most important document he had found at the time, and it is:
+  it is the packet containing **R2005-24, the Woolhawk PILOT terms** at printed pages 40–45.
+  The extract of those pages is `2020-05-12-r2005-24-woolhawk-pilot-terms.pdf`. The flagged
+  copy was byte-identical (md5 `e63a614c…`) and was deleted once this note existed.
+- **`important-June 09 2020...` → `2020-06-09-council-committee-agenda.pdf`.** Flagged for
+  the **524-acre annexation analysis** carrying the city's own Beretta tax math — $113,494
+  county vs $40,175 city on a $12.5M industrial property, the ~2.8x that shows the city knew
+  the county was the larger stakeholder. Byte-identical copy (md5 `ba962658…`), deleted.
+- **`gnrc-plan-2018.pdf` → `2018-06-19-city-council-agenda.pdf`.** The old name recorded why
+  it was downloaded (the GNRC regional plan) rather than what it is (a council agenda
+  packet). The GNRC plan is an attachment inside it starting around p.58. Its two "PILOT"
+  hits are a glossary entry defining "Pilot Study" — false positives, as originally called.
+- Also corrected while renaming: **`2022-budget.pdf` is not a budget.** It is the FY2022
+  Annual Comprehensive Financial Report → `2022-gallatin-annual-financial-report.pdf`.
+- **`woolhawk-terms.pdf` → `2020-05-12-r2005-24-woolhawk-pilot-terms.pdf`.** Old references
+  to `woolhawk-terms.pdf` anywhere in notes mean this file.
+
+### What each document actually is
+
+The 23 PDFs in `sumner_county/gallatin_council_meetings/` are now page-anchored text in
+`derived/`, indexed one row per document in **`derived/council-index.csv`** (date, body,
+pages, extraction class, whether it is quotable without checking the page image, md5,
+duplicates). Rebuild with `files/bin/build-council-index.py`, re-check with
+`verify-council-index.py`. The CSV is deliberately mechanical — nothing in it is a
+judgment. The judgments are here.
+
+**Only four documents are quotable straight from text**:
+`2019-gallatin-annual-financial-report.pdf`, `2022-gallatin-annual-financial-report.pdf`,
+`2020-05-12-r2005-24-woolhawk-pilot-terms.pdf`, `2026-07-meetings-public-notice.pdf`. Every
+other figure has to be read off the page image before it leaves the repo — including the
+six packets we OCR'd ourselves, which read cleanly and are still machine guesses.
+
+What the documents carry, by weight:
+
+- **`2020-05-12-r2005-24-woolhawk-pilot-terms.pdf`** — R2005-24, the PILOT terms (see the
+  2026-07-05 block above). Now provably an extract of the May 12 2020 work session packet:
+  its own footers read "05/12/2020 Council Work Session Agenda-Page 40" through 45, and
+  after OCR the packet's PDF pages line up 1:1 with the city's printed packet numbering, so
+  p.40 is p.40. Both facts are asserted in `verify-council-index.py`.
+- **The Woolhawk appropriations chain** — `2020-09-15`, `2020-10-06`, `2021-02-02`,
+  `2021-02-16`, `2022-04-19` city council agendas — the "Donations from Business -
+  Woolhawk" account 110-36710-256 spending, plus Brown's "Project Woolhawk is Facebook"
+  announcement.
+- **`2020-06-09-council-committee-agenda.pdf`** — the 524-acre annexation analysis with the
+  city's own Beretta tax math ($113,494 county vs $40,175 city).
+- **`2024-10-31-gallatin-city-hall-space-needs-assessment.pdf`** — the IDB-commissioned
+  Studio Eight assessment; the Project Phoenix predecessor.
+- **`2021-01-12-council-committee-agenda.pdf`** — IDB reappointments (Assante, Wise,
+  six-year terms), presented by Fenton. **`2020-05-05`** — Woolhawk water/sewer contract,
+  one week before the PILOT resolution review. **`2022-05-17`** — $930K water + $1.99M
+  sewer on Woolhawk.
+- **`2023-03-07-city-council-agenda.pdf`** — carries the **February 7, 2023 City Council
+  Minutes** in full. Minutes, not an agenda. The 2026-07-05 triage called this an unreadable
+  image-only scan and set it aside; it is now readable and it is a minutes source.
+
+Trap worth remembering: the **2022-04-19 and 2022-05-17** packets have scanner-garbled
+mastheads ("April t9,2022", "May t7,2022"). Any parser that searches page 1 for a date
+finds the *approval-of-minutes* line instead and silently returns the previous meeting's
+date — 2022-04-05 and 2022-05-03. Both real dates were read off the rendered page image by
+hand on 2026-07-29 and are pinned as verifier anchors. The May 17 OCR also corrupts the
+meeting time to "5:00 pm"; the image says 6:00 pm.
+
+The 40 textless pages in `October 06 2020` are not an OCR failure — they are
+property-condition photo exhibits, checked by rendering them.
+
+---
+
+*Both sections moved here 2026-08-19 from `memory/MEMORY.md`, where they had been filed as
+dated session notes. They describe this directory, so they belong to it.*
 
 ## Source Type
 **Primary Source** — the city's own agendas, minutes, resolutions, budgets, and audits.

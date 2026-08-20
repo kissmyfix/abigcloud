@@ -1,11 +1,12 @@
 # The working directory and the public repo are the same tree. This file is the line
 # between them: everything here stays local. Evidence and reference material publish.
 
-# --- Private: Brandon's pen and Claude's working state, never published ---
-monologues/
+# --- Private: Claude's working state, never published ---
+# Brandon's pen (`monologues/`) and the developed article substance (`angles/`) both moved
+# out of the project on 2026-08-19, to ~/Documents/monologues/. Nothing here needs to
+# ignore them any more; they are not in the tree.
 memory/
 .remember/
-files/prompt_log/
 .claude/settings.local.json
 
 # --- Machine-generated / rebuildable ---
@@ -15,7 +16,6 @@ files/venv/
 
 # --- Large binaries: too big for git, published elsewhere if at all ---
 podcasts/mp3s/
-saved_sites/
 
 # --- OS noise ---
 .DS_Store
@@ -31,14 +31,12 @@ web/node_modules/
 # pre-publication working material, not evidence. Revisit each one when the
 # disclosure policy is rewritten and republish what belongs in the open.
 CLAUDE.md
-# handoff.md archived to memory/archive/ 2026-08-17
 .claude/
-files/voice-and-method-web.md
 files/ai-toolchain-changelog.md
-angles/
+files/cold-read/
 
 # --- Scratch and editor droppings. These regrow; keep them out for good. ---
-tmp/
+# Scratch belongs in ~/.claude/scratch/<project>/, outside the tree entirely.
 *.bak
 *.whoops
 *.orig
