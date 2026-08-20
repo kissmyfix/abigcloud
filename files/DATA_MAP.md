@@ -45,6 +45,8 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 
 | Directory | What it is |
 |---|---|
+| `README.md` | The repository's front door, and the only orientation file a stranger arriving from GitHub will read. It explains why the archive is public, then walks the evidence by jurisdiction. Public-facing: when a fact changes, this file has to change with it. |
+| `.remember/` | **Gitignored.** Session-continuity notes written by the Remember plugin, not by hand: `.remember/now.md` (the live buffer), plus dailies, a seven-day `recent`, rotated archives and a `core-memories` file beside it. Injected automatically at session start, so there is normally no reason to open it. Grep the rotated archives only when a question reaches further back than what was injected. Not evidence, and never cited. |
 | `web/` | **The live website.** Astro, deployed to GitHub Pages by an Action on push to `main`. Custom domain via `web/public/CNAME`. |
 | `web/content/` | **Every site page, edited directly.** Folder structure *is* URL structure: `content/tennessee/fisk.md` → `/tennessee/fisk/`. What you edit is what ships. |
 | `web/scripts/` | `build-citations.mjs` resolves `@/` citations and rebuilds the source index; `watch-content.mjs` re-runs it on save. |

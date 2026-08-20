@@ -40,15 +40,17 @@ worked so far, not of what the archive is for.
 
 ### `sumner_county/` — Where the Deal Lives
 
-**`gallatin_idb_data/`** — The IDB itself: meeting minutes, agendas (when they exist), and everything specific to the board that controls the money.
+**`gallatin_idb_data/`** — The IDB itself: its corporate history and the academic record of how it works. **There are no minutes and no agendas here, because the board does not publish any.** That absence is one of the findings, not a gap in this archive.
 
 | Key Document | What It Shows |
 |---|---|
+| TCED capstone papers (Bates, Isbell, Leon) | Three graduate papers on Gallatin's industrial recruitment, written by people inside it. The nearest thing to a public account of how the board operates. |
 | IDB corporate history (SOS) | Chartered 1994, dissolved 2012, reinstated 2013. Registered agent changed from City Attorney → GEDA July 2018, mid-negotiation. Preston Stark current registered agent and 990 filer. |
 | Woolhawk property assessment | $519M total appraised value. Assessment: **$0**. Six "Exceptional" commercial buildings on 512 acres. Land code: EXEMPT. |
-| IDB meeting notices | Shared Monday 4:30 PM slot with a twin board. Same members, two names, depending on which hat is needed. |
 
 **`gallatin_council_meetings/`** — City Council and work-session agendas from gallatintn.gov, 2019–2026. Key dates: May 12 and June 9, 2020 — the window around the land assembly closing at $8.27M (Book 5218, Page 424) and the quit-claim deeds transferring property into the IDB at $0.
+
+Also here: dated captures of the city's own Boards and Commissions pages, taken 2026-08-19. The Industrial Development Board and the Health, Educational and Housing Facilities Board are posted for the same Monday 4:30 PM slot — same members, two names, depending on which hat is needed.
 
 **`sumner_entities/`** — Every corporation with a Sumner County PILOT agreement, 2015–2026. One directory per entity, each with its own `memory/MEMORY.md`. Includes Beretta, Bradford, Archer, ATA Retail, Gap Inc, NASG, Shoals, Solon, Stev-Ham, Unipres. These are the comparators — how did normal PILOT agreements work before the Woolhawk deal rewrote the playbook?
 

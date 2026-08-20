@@ -115,16 +115,26 @@ PROMPT="$SANDBOX/.cold-read-prompt.md"
 sed "s|$REPO|$SANDBOX|g" "$DIR/prompt.md" > "$PROMPT"
 
 REPORT="${RUN%.md}-report.md"
+RAW="${RUN%.md}-raw.json"
 say "running the agent from inside the sandbox — a couple of minutes"
-( cd "$SANDBOX" && claude -p --permission-mode acceptEdits < "$PROMPT" ) > "$REPORT"
+
+# json rather than text: the run file asks for the agent's token spend, and that is the
+# only place the number exists. A subagent used to report it; a bare `claude -p` does not.
+( cd "$SANDBOX" && claude -p --permission-mode acceptEdits --output-format json < "$PROMPT" ) > "$RAW"
 status=$?
 rm -f "$PROMPT"
 
-if [[ $status -ne 0 || ! -s "$REPORT" ]]; then
-	warn "the agent returned nothing (exit $status) — see ${REPORT#$REPO/}"
+if [[ $status -ne 0 || ! -s "$RAW" ]]; then
+	warn "the agent returned nothing (exit $status) — see ${RAW#$REPO/}"
 	exit 1
 fi
+
+jq -r '.result' "$RAW" > "$REPORT"
+cost=$(jq -r '[.usage.input_tokens, .usage.output_tokens] | add // "?"' "$RAW" 2>/dev/null)
+turns=$(jq -r '.num_turns // "?"' "$RAW" 2>/dev/null)
+secs=$(jq -r '(.duration_ms // 0) / 1000 | floor' "$RAW" 2>/dev/null)
 say "report: ${REPORT#$REPO/}  ($(wc -w < "$REPORT") words)"
+say "cost:   ${cost} tokens, ${turns} turns, ${secs}s  — raw: ${RAW#$REPO/}"
 echo
 say "Now score it: compare against files/cold-read/answer-key.md, verify every"
 say "Q13 item by grep before acting, and fill in ${RUN#$REPO/}."
