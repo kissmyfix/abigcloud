@@ -536,7 +536,7 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 #toc-button {
 	position: fixed;
 	left: 50%;
-	bottom: calc(var(--gutter) + env(safe-area-inset-bottom, 0px));
+	bottom: calc(var(--gutter) + var(--footer-lift, 0px) + env(safe-area-inset-bottom, 0px));
 	z-index: 41;
 	display: flex;
 	align-items: center;
@@ -564,7 +564,7 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 .toc-drawer {
 	position: fixed;
 	left: 0; right: 0;
-	bottom: calc(var(--gutter) + 52px + env(safe-area-inset-bottom, 0px));
+	bottom: calc(var(--gutter) + 52px + var(--footer-lift, 0px) + env(safe-area-inset-bottom, 0px));
 	z-index: 42;
 	display: flex;
 	justify-content: center;

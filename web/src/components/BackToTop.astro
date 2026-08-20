@@ -25,7 +25,7 @@
 		   The safe-area inset keeps them clear of the iOS home indicator. */
 		position: fixed;
 		left: 50%;
-		bottom: calc(var(--gutter) + env(safe-area-inset-bottom, 0px));
+		bottom: calc(var(--gutter) + var(--footer-lift, 0px) + env(safe-area-inset-bottom, 0px));
 		z-index: 40;
 		display: flex;
 		align-items: center;
