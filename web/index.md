@@ -2,14 +2,14 @@
 title: home
 description: abigcloud.com
 ---
-
-# **Asking *Questions***
-## Does **time** still afford us the privilege of *mistake*? The **time** for learning from *mistake*? The **time** for correcting *mistake*?
 <a class="feature" href="/investigations/quid_pro_no/">
 <span class="feature-kicker">Featured investigation &middot; Part 1</span>
 <span class="feature-title">Quid-Pro-<em>NO!</em></span>
 <span class="feature-cta">Read the investigation &rarr;</span>
 </a>
+
+# **Asking *Questions***
+## Does **time** still afford us the privilege of *mistake*? The **time** for learning from *mistake*? The **time** for correcting *mistake*?
 
 ### **What is actually happening in the A.I. race? Is the story being told the complete version?**
 What shapes everything that follows is a documented shift in how the people overseeing the approval and the building of this infrastructure, from our elected leaders, to top executives in tech, and even our favorite media sources are framing who is **responsible** for all of it.
