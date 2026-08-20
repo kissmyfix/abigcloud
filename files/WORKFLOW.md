@@ -218,6 +218,8 @@ directory was removed from the project entirely on 2026-08-19.
 | `ship.sh` says `no Cloudflare credentials, skipping cache purge` | `~/.config/abigcloud/cf-purge` is missing or unreadable. Expected on any machine but Brandon's; the deploy still succeeded. |
 | Site returns 5xx and the header says `server: cloudflare` | The problem is between Cloudflare and GitHub, not in the build. Check SSL/TLS mode is still **Full (strict)** and that the apex A records still point at GitHub's four IPs. |
 | Site returns **530** | A proxied record points at a hostname that does not resolve. This is what a wrong CNAME target looks like; `www` did it for sixteen months pointing at `kissmyfix.github.com` instead of `.io`. |
+| `curl -A Googlebot` returns 403 while every other bot name returns 200 | **Not a block.** Cloudflare verifies Googlebot against Google's own IP ranges, so a claim to be Googlebot from any other address is rejected as spoofing. Confirmed 2026-08-20: Search Console's live fetch reported `Crawl allowed: Yes, Page fetch: Successful`. The only test that settles this is URL Inspection in Search Console, never a local `curl`. |
+| Search Console says a sitemap "Couldn't fetch" right after submission | Usually Google not having tried yet. It clears on its own. Verify the file separately: it should be valid XML served as `application/xml` with absolute `https://` URLs. |
 | Infinite redirect loop | SSL/TLS mode dropped to **Flexible**. Cloudflare talks to GitHub over HTTP, GitHub redirects to HTTPS, forever. Set it back to Full (strict). |
 
 Local build output lives in `web/dist/` and is gitignored — it is rebuilt every time and
