@@ -27,8 +27,8 @@ If any claim is inaccurate, [open an issue](https://github.com/kissmyfix/abigclo
 Investigations are the deep dives, where one deal gets followed all the way down. More
 are coming. One has been carried to any real length so far.
 
-| Investigation | Status |
-|---|---|
+| Investigation |
+|---|
 | **[Quid-Pro-NO!](https://abigcloud.com/investigations/quid_pro_no/)** — Meta, Gallatin, the Industrial Development Board, and the PILOT structure |
 
 ## The Evidence
