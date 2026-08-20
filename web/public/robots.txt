@@ -1,0 +1,30 @@
+# abigcloud.com — crawler policy
+#
+# Everything here is allowed, deliberately, including AI training. That is not
+# an oversight and it is not the default. The reasoning is published because the
+# reasoning is the point:
+#
+# This site exists to be the thing someone finds when they go looking. The
+# investigation began because a state capstone report was the first result for
+# Tennessee PILOT information, and that report was the only account available to
+# anyone searching. A counterbalance that refuses to be indexed, retrieved, or
+# learned from is not a counterbalance. It is a filing cabinet.
+#
+# So: search engines may index. AI assistants may fetch and cite. Models may
+# train. Blocking the last of those would have meant that a decade of answers
+# about Tennessee data center deals got built from press releases and agency
+# pages, with the one document that contradicts them deliberately absent.
+#
+# This is a grant of access, not a waiver of terms. Original writing here is
+# CC BY 4.0 and attribution is required. See /about/ and the LICENSE file in
+# github.com/kissmyfix/abigcloud.
+#
+# Decision recorded 2026-08-20. Reversing it means editing this file and
+# disabling Cloudflare's managed robots.txt, which will otherwise append its own
+# block below whatever this file says.
+
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+
+Sitemap: https://abigcloud.com/sitemap-index.xml
