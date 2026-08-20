@@ -64,7 +64,12 @@ else
   ok "committed: $MSG"
   if [[ $DRY -eq 1 ]]; then say "--dry-run: stopping before push"; exit 0; fi
   say "git push"
-  git push -q || die "push failed" 2
+  # Explicit remote and ref: a bare `git push` needs branch.<name>.merge to be
+  # set, and a fresh clone -- or a branch recreated by a history rewrite -- does
+  # not have it. That exits 128 after the commit has already been made, which
+  # leaves the work committed but unpushed and reads as "ship.sh is broken".
+  # HEAD pushes whatever branch is checked out to the same name on origin.
+  git push -q origin HEAD || die "push failed" 2
   ok "pushed"
 fi
 
