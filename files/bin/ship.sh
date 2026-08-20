@@ -136,6 +136,39 @@ case "$conclusion" in
     exit 3 ;;
 esac
 
+# 3b. Purge Cloudflare's cache. abigcloud.com is proxied as of 2026-08-20, so the
+#     edge holds the previous build's assets and a green deploy can still serve
+#     stale CSS and JS. Runs AFTER the deploy concludes -- purging before it lands
+#     just re-caches the old files.
+#
+#     Credentials live outside the repo in ~/.config/abigcloud/cf-purge, mode 600,
+#     holding CF_ZONE_ID and CF_API_TOKEN. The token is scoped to Cache Purge on
+#     this one zone and can do nothing else. Missing file means the purge is
+#     skipped, never that the deploy fails: a cold clone should still be able to
+#     ship without hunting for a credential.
+CF_CONF="$HOME/.config/abigcloud/cf-purge"
+if [[ -r "$CF_CONF" ]]; then
+  # shellcheck source=/dev/null
+  . "$CF_CONF"
+  if [[ -n "${CF_ZONE_ID:-}" && -n "${CF_API_TOKEN:-}" ]]; then
+    say "purging the Cloudflare cache"
+    purge="$(curl -s -X POST \
+      "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache" \
+      -H "Authorization: Bearer $CF_API_TOKEN" \
+      -H "Content-Type: application/json" \
+      --data '{"purge_everything":true}')"
+    if printf '%s' "$purge" | grep -q '"success":true'; then
+      ok "cache purged"
+    else
+      # Never fatal. A stale edge is a nuisance; a blocked publish is not.
+      printf '\033[33m  warn\033[0m cache purge failed, the edge may serve stale assets\n' >&2
+      printf '%s\n' "$purge" | sed 's/^/    /' >&2
+    fi
+  fi
+else
+  say "no Cloudflare credentials, skipping cache purge"
+fi
+
 # 4. Confirm the live site actually serves it. Cache-bust so we are not reading
 #    a stale copy — a browser cache has already faked a "not deployed" panic once.
 check() {
