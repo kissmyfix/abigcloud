@@ -214,9 +214,68 @@ directory was removed from the project entirely on 2026-08-19.
 | Build fails on a missing `description`/`title` that is plainly there | A `<!-- @c -->` note is sitting on a frontmatter line, so the key is part of the comment. Annotations go in the body, never in the YAML. |
 | A citation 404s | The document was never copied. Confirm the `@/` path matches a real file. |
 | PDF will not preview on GitHub | GitHub's viewer, not the file. Use Download or Raw. |
+| Deploy is green but the page still shows the old text or old styling | Cloudflare is serving a cached copy. `ship.sh` purges automatically; if it printed `cache purge failed`, run the purge by hand (below) or wait for the edge to expire. |
+| `ship.sh` says `no Cloudflare credentials, skipping cache purge` | `~/.config/abigcloud/cf-purge` is missing or unreadable. Expected on any machine but Brandon's; the deploy still succeeded. |
+| Site returns 5xx and the header says `server: cloudflare` | The problem is between Cloudflare and GitHub, not in the build. Check SSL/TLS mode is still **Full (strict)** and that the apex A records still point at GitHub's four IPs. |
+| Site returns **530** | A proxied record points at a hostname that does not resolve. This is what a wrong CNAME target looks like; `www` did it for sixteen months pointing at `kissmyfix.github.com` instead of `.io`. |
+| Infinite redirect loop | SSL/TLS mode dropped to **Flexible**. Cloudflare talks to GitHub over HTTP, GitHub redirects to HTTPS, forever. Set it back to Full (strict). |
 
 Local build output lives in `web/dist/` and is gitignored — it is rebuilt every time and
 is never the source of anything.
+
+---
+
+## Hosting, and why it is shaped this way
+
+*Reconstructed and written down 2026-08-20. It had never been recorded, and the reasoning
+existed only in Brandon's memory.*
+
+    reader → Cloudflare (proxy, TLS, cache, analytics) → GitHub Pages → this repo
+
+**Why GitHub Pages rather than the home server.** Earlier sites were self-hosted from
+`192.168.1.4` behind Cloudflare. This one is not, and the reason is the subject matter: a
+site self-hosted at home originates from a residential connection, and for a publication
+naming local officials and a Fortune 500 company, an origin leak is not "someone learns my
+IP," it is "someone learns roughly where the author lives." Cloudflare's proxy masks that,
+but pre-proxy DNS history is archived publicly, unproxied subdomains give it away, and
+direct-IP scanning finds origins routinely. GitHub Pages removes the question: the origin
+is GitHub's, there is no server of ours to compromise or patch, and a residential
+connection cannot be knocked offline to take the story down.
+
+The workflow reason is that the repo *is* the deployment. Push and it publishes, the
+evidence archive and the site are one public artifact, and Brandon can edit prose in
+github.com's web editor from anywhere and have it deploy itself.
+
+**Why Cloudflare is in front as of 2026-08-20.** Analytics, and specifically analytics with
+**no JavaScript in the reader's browser**. Cloudflare counts requests at the edge, so
+nothing runs on a reader's machine, nothing is there for a blocker to block, and the counts
+do not undercount. A beacon script was the alternative and was rejected for exactly that
+reason. Free CDN caching and automatic HTTP-to-HTTPS came along with it.
+
+**Do not enable Cloudflare's Real User Monitoring / Speed Insights.** It measures Core Web
+Vitals, which can only be measured inside the browser, so it reinstalls the beacon this
+setup exists to avoid. For performance numbers, run Lighthouse against the site yourself.
+
+**The DNS that has to stay true**, all on Cloudflare nameservers:
+
+| Record | Value | Proxied |
+|---|---|---|
+| `abigcloud.com` A ×4 | `185.199.108-111.153` (GitHub Pages) | yes |
+| `www` CNAME | `kissmyfix.github.io` — **`.io`, not `.com`** | yes |
+| MX ×3 | `route1/2/3.mx.cloudflare.net` (Email Routing, forward-only) | n/a |
+
+SSL/TLS mode must be **Full (strict)**. Anything less loops.
+
+**Purging the cache by hand**, if `ship.sh` could not:
+
+    . ~/.config/abigcloud/cf-purge
+    curl -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache" \
+      -H "Authorization: Bearer $CF_API_TOKEN" -H "Content-Type: application/json" \
+      --data '{"purge_everything":true}'
+
+That file is mode 600, outside the repo, and holds a token scoped to Cache Purge on this
+one zone and nothing else. It is also in `.git/pii-denylist`, so the pre-commit hook
+refuses any commit that carries it.
 
 ---
 
