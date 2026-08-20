@@ -54,23 +54,36 @@ if ! (cd web && npm run publish); then
 fi
 ok "built"
 
-# 2. Anything to send?
-if [[ -z "$(git status --porcelain)" ]]; then
-  say "nothing changed — checking what is already live"
-else
+# 2. Commit anything uncommitted.
+if [[ -n "$(git status --porcelain)" ]]; then
   git add -A
   git commit -q -m "$MSG" -m "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>" \
     || die "commit failed" 2
   ok "committed: $MSG"
-  if [[ $DRY -eq 1 ]]; then say "--dry-run: stopping before push"; exit 0; fi
-  say "git push"
+else
+  say "no uncommitted changes"
+fi
+
+[[ $DRY -eq 1 ]] && { say "--dry-run: stopping before push"; exit 0; }
+
+# 2b. Push if the branch is ahead. This is a DIFFERENT question from whether
+#     there were uncommitted changes, and conflating the two cost a run on
+#     2026-08-20: work committed by hand, then ship.sh saw a clean tree, decided
+#     there was nothing to send, skipped the push, and sat for ten minutes
+#     waiting on a deploy of a commit GitHub had never received.
+BR="$(git branch --show-current)"
+git fetch -q origin "$BR" 2>/dev/null || true
+AHEAD="$(git rev-list --count "origin/$BR..HEAD" 2>/dev/null || echo 1)"
+if [[ "$AHEAD" -gt 0 ]]; then
+  say "git push ($AHEAD commit(s) ahead)"
   # Explicit remote and ref: a bare `git push` needs branch.<name>.merge to be
   # set, and a fresh clone -- or a branch recreated by a history rewrite -- does
   # not have it. That exits 128 after the commit has already been made, which
   # leaves the work committed but unpushed and reads as "ship.sh is broken".
-  # HEAD pushes whatever branch is checked out to the same name on origin.
   git push -q origin HEAD || die "push failed" 2
   ok "pushed"
+else
+  say "already pushed — checking what is already live"
 fi
 
 SHA="$(git rev-parse HEAD)"
