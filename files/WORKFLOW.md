@@ -34,9 +34,19 @@ Then open **http://localhost:8080**. Source left, rendered preview right, saves 
 - Claude's edits to the same file appear within half a second. If the buffer has unsaved
   changes it shows "file changed on disk" rather than overwriting them.
 
-Stop it with `pkill -f 'bin/mdlive[.]py'`. **Not `pkill -f mdlive`** — that pattern also
-matches the shell command line that contains it, so it kills the shell running the pkill.
-It did exactly that on 2026-08-20. The bracket stops the pattern matching itself.
+Stop it by PID, in its own command, and never in the same line that restarts it:
+
+    pgrep -f 'bin/mdlive[.]py'      # find it
+    kill <pid>                      # then kill it
+
+**`pkill -f mdlive` kills the shell you typed it in.** `pkill -f` matches against whole
+command lines, and the shell running the pkill has "mdlive" in its own command line, so it
+matches itself. A bracket in the pattern (`'bin/mdlive[.]py'`) is the usual dodge and is
+**not enough here** — if the same command line also *starts* mdlive, as a kill-then-restart
+one-liner does, the literal path is present and the shell matches anyway. Both failures
+happened on 2026-08-20, the second one after the bracket had been written down as the fix.
+
+Two separate commands is the only version that always works.
 
 ## Live preview of the real site
 

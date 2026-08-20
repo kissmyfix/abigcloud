@@ -97,7 +97,7 @@ def resolve(rel):
     return full if full.startswith(ROOT) and os.path.isfile(full) else None
 
 PAGE = r"""<!doctype html>
-<html><head><meta charset="utf-8">
+<html lang="en-US"><head><meta charset="utf-8">
 <base href="__BASE__">
 <title>__NAME__</title>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -195,7 +195,14 @@ PAGE = r"""<!doctype html>
 </div>
 <div id="wrap" class="hid">
   <div id="left"><div id="gut"></div><div id="band"></div>
-    <textarea id="ed" spellcheck="false"></textarea>
+    <!-- The browser's own spellcheck, which this editor used to opt out of. Brandon
+         works entirely in a terminal, so mdlive is the only place he writes where a
+         spellchecker exists at all; switching it off removed the one free safety net he
+         had. Turned on 2026-08-20 at his request. lang="en-US" on <html> is what makes it
+         flag British spellings rather than accept them. The cost is squiggles under
+         paths, @/ citations and proper nouns; if that noise wins, set this back to
+         "false" rather than trying to fight it. -->
+    <textarea id="ed" spellcheck="true"></textarea>
     <div id="mirror"></div></div>
   <div id="right"></div>
 </div>
