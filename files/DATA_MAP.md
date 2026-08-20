@@ -147,7 +147,7 @@ The repo is public. These stay local:
 |---|---|
 | `memory/`, `.remember/` | Working notes, not evidence |
 | ~~`angles/`~~ | Pre-publication strategy, including rebuttals held in reserve. Removed from the project 2026-08-19 |
-| `CLAUDE.md`, `.claude/` | Agent operating instructions |
+| `CLAUDE.md`, `.claude/`, `files/cold-read/` | Agent operating instructions |
 | `podcasts/mp3s/` | Large binaries; transcripts are published instead |
 | `web/{dist,node_modules,.astro}/` | Build output |
 

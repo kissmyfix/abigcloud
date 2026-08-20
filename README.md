@@ -156,7 +156,7 @@ abigcloud/
 │   ├── transcripts/                       # 24 whisper transcripts, 13.2 hours of audio
 │   └── manifest.csv                       # Episode source tracking
 ├── sumner_county/
-│   ├── gallatin_idb_data/                 # IDB minutes, agendas, SOS filing history
+│   ├── gallatin_idb_data/                 # SOS filing history + capstone reports (no minutes)
 │   ├── gallatin_council_meetings/         # City council PDFs from gallatintn.gov
 │   └── sumner_entities/                   # All PILOT entities 2015-2026, one dir each
 │       ├── woolhawk/                      # Meta
