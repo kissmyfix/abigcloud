@@ -12,8 +12,7 @@ const REPO = 'https://github.com/kissmyfix/abigcloud';
 	</p>
 	<p class="repo-note">
 		Every citation opens the actual document. They are all listed at{' '}
-		<a href="/sources/">Sources</a>. Check it yourself.{' '}
-		<a href={REPO} target="_blank" rel="noopener" class="repo-icon"
+		<a href="/sources/">Sources</a>. Check it yourself.&nbsp;<a href={REPO} target="_blank" rel="noopener" class="repo-icon"
 			aria-label="Every source document, in the repository on GitHub">
 			<svg viewBox="0 0 16 16" aria-hidden="true" width="18" height="18" astro-icon="social/github"
 				><path
@@ -39,6 +38,10 @@ const REPO = 'https://github.com/kissmyfix/abigcloud';
 	}
 	.repo-note {
 		color: var(--ink3);
+		/* Wider than the copyright line above it: this sentence plus the inline
+		   repo icon runs a little past 44em and the icon was wrapping to a line
+		   of its own, which read as an orphan rather than as punctuation. */
+		max-width: 48em;
 	}
 	/* The repo link sits inline at the end of the sentence rather than in its own
 	   centred row, so the last line reads between two links: the sources index and
