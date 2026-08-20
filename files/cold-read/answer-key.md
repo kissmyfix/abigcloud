@@ -1,6 +1,6 @@
 # Answer key — what a cold read should conclude
 
-**Valid as of `dfdc0f8`, 2026-08-19 — and stale.** The 2026-08-19 housekeeping pass
+**Valid as of `2d0cc47`, 2026-08-19 — and stale.** The 2026-08-19 housekeeping pass
 restructured the tree after that commit and none of it is committed yet: `reference/` was
 deleted, `angles/` and Brandon's Beretta notes moved out of the project, `files/cold-read/`
 itself became gitignored, and the Shalom Zone 990s got their own directory. Items 3 and 9
