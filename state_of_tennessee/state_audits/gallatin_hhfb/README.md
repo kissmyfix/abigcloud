@@ -13,7 +13,7 @@ Audits of the Health, Educational and Housing Facilities Board of the City of Ga
 ## Handling Instructions
 - **OCR_SCAN.** Verify every figure against the page image before publishing it.
 - Cite printed page numbers, not `[[page N]]` markers. The Statement of Activities is printed page 5 = `[[page 11]]`.
-- Audited under **FASB not-for-profit standards**, identical in framework to `../gallatin_idb/`.
+- Audited under **FASB not-for-profit standards**, identical in framework to `state_of_tennessee/state_audits/gallatin_idb/`.
 
 ## Notes
 **FY2025 figures, arithmetic-verified:** PILOT revenue $74,829; total public support $80,561. Expenses $62,603, of which **$48,000 is a single line reading "Civitas"** — 77% of everything the board spent. Change in net assets +$17,958; net assets $93,997 → $111,955, including a $10,544 certificate of deposit.

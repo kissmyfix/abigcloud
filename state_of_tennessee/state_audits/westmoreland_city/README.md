@@ -2,7 +2,7 @@
 
 ## Purpose
 Annual audits of the City of Westmoreland, the municipal half of the Westmoreland control
-pair. Its Industrial Development Board is audited separately in `../westmoreland_idb/`, and
+pair. Its Industrial Development Board is audited separately in `state_of_tennessee/state_audits/westmoreland_idb/`, and
 the point of holding both is to see how a small Sumner County city and its IDB report
 against each other.
 

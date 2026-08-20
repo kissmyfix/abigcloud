@@ -20,6 +20,6 @@ Audits of the Industrial Development Board of the City of Gallatin — the entit
 
 **No breakdown of who paid the PILOT.** Individual companies do not appear.
 
-**Same nine directors as `../gallatin_hhfb/`,** in identical order, with both audits signed by the same auditor on the same day.
+**Same nine directors as `state_of_tennessee/state_audits/gallatin_hhfb/`,** in identical order, with both audits signed by the same auditor on the same day.
 
 Open leads: whether the $45,000 consulting line is the same payee as the HHFB's $48,000 "Civitas" line; prior-year audits to establish whether either is recurring.

@@ -10,10 +10,10 @@ as a deviation from statewide practice rather than an isolated observation.
 - `2014-pilot.pdf` … `2022-pilot.pdf` — nine annual reports as PDF tables, 9–25 pages each
 - `2023-pilot.xlsx`, `2024-pilot.xlsx`, `2025-pilot.xlsx` — the same report as spreadsheets
 - `idb_debt-reports.xlsx` — IDB debt reporting, three sheets (2021, 2022, 2023), parsed
-  into `../derived/tn-idb-debt-master-2021-2023.csv` — **1,273 rows, 197 entities** — by
+  into `state_of_tennessee/tn_comptroller_pilot_reports/derived/tn-idb-debt-master-2021-2023.csv` — **1,273 rows, 197 entities** — by
   `files/bin/build-idb-debt-master.py`, verified by `files/bin/verify-idb-debt-master.py`
 
-Parsed into `../derived/tn-statewide-pilot-master-2014-2025.csv` — **13,630 rows across 81
+Parsed into `state_of_tennessee/tn_comptroller_pilot_reports/derived/tn-statewide-pilot-master-2014-2025.csv` — **13,630 rows across 81
 of the 95 counties** (the other 14 filed no PILOT agreements in any of these years) — by
 `files/bin/build-statewide-pilot-master.py`, verified by
 `files/bin/verify-statewide-pilot-master.py`.
@@ -31,8 +31,8 @@ of what was owed.
   parser preserves the distinction rather than coercing blanks to zero. Woolhawk's county
   column is empty in every filing, which is a stronger fact than a reported zero — the
   county payment was never stated at all.
-- These are the uncropped originals. The per-county sets in `../sumner_county/`,
-  ~~`../hamilton_county/`~~, and ~~`../gibson_county/`~~ were crops of these same reports (moved
+- These are the uncropped originals. The per-county sets in `state_of_tennessee/tn_comptroller_pilot_reports/sumner_county/`,
+  ~~`state_of_tennessee/tn_comptroller_pilot_reports/hamilton_county/`~~, and ~~`state_of_tennessee/tn_comptroller_pilot_reports/gibson_county/`~~ were crops of these same reports (moved
   out of the project 2026-08-19), so a
   figure appearing in both is **not** independent corroboration.
 - The 2014–2015 layout is different and thinner: 15 columns instead of 19–20, no address,

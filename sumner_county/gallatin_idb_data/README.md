@@ -22,7 +22,7 @@ ran the deal.
   County Joint Economic and Community Development Board*, TCED capstone.
 
 City Council and work-session packets, which is where IDB business surfaces in public, are
-in `../gallatin_council_meetings/`.
+in `sumner_county/gallatin_council_meetings/`.
 
 ## Source Type
 **Primary Source**

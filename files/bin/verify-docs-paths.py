@@ -44,13 +44,11 @@ SKIP = re.compile(
     r"|YYYY|MM-DD"                   # filename-pattern templates, not filenames
     r"|^(python3?|bash|sh|files/venv)\b"
     r"|^/"                           # site routes (/report/), not filesystem paths
-    r"|^\.\./"                       # links out of the repo (GitHub ../../issues)
-    r"|^(underscored_)?name\.md$"    # naming-scheme placeholders
+    r"|(^|/)(underscored_)?name\.[a-z0-9]+$"   # naming-scheme placeholders (name.md, banners/name.jpg)
     r"|^~/"                          # paths outside the repo (~/.claude/...)
     r"|^origin/"                     # git refs, not files
     r"|^[a-z0-9.-]+\.(com|org|net|gov|io)(/|$)"   # bare hostnames, not paths
     r"|\.\.\.\."                     # an elided example path (foo-....txt)
-    r"|^\./assets/name\."             # frontmatter example in web/README
 )
 
 
@@ -179,6 +177,28 @@ def main():
             # to the doc's own directory, which is how directory READMEs read. A bare
             # filename counts if the project holds a file by that name anywhere —
             # READMEs routinely name a script or dataset without repeating its path.
+            # `..` is not allowed inside the project. A documentation path is either a
+            # bare filename in the doc's own directory or written from the project root,
+            # so every path has one reading, grep finds every mention of a document, and
+            # moving a README cannot silently break its own links. Paths that leave the
+            # repository entirely are GitHub-relative links (../../issues) and are fine.
+            #
+            # Skipping every `../` path wholesale used to hide both cases, which is how
+            # `web/README.md` claimed for months that article content lived in
+            # `../articles/`, a directory that never existed.
+            if s.startswith("../"):
+                target = (doc.parent / s).resolve()
+                try:
+                    root_rel = target.relative_to(ROOT)
+                except ValueError:
+                    historical_count += 1          # leaves the repo, not ours to check
+                    continue
+                failures.append((
+                    doc.relative_to(ROOT),
+                    f"{raw}  — write it from the project root: {root_rel}",
+                ))
+                continue
+
             if (
                 (ROOT / s).exists()
                 or (doc.parent / s).exists()

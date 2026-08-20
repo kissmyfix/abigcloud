@@ -94,6 +94,21 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 
 ## Project-wide conventions
 
+**Paths in documentation never climb out with a parent reference.**
+Write a bare filename for something in the same directory, or the full path from the project
+root for anything else. Never reach upward into a sibling directory.
+
+The point is that every path then has one reading, and that a grep for a document's path
+finds every mention of it rather than scattering them across a bare filename, an upward
+reference, and a partial path. It also means moving a README cannot silently break its own
+links. `files/bin/verify-docs-paths.py` enforces this and prints the root-relative rewrite
+for anything that breaks it.
+
+Links that leave the repository, such as a GitHub issues URL, are exempt: they are not paths
+into this tree. Adopted 2026-08-19, after `web/README.md` spent months pointing article
+content at a directory that never existed, because the checker skipped every upward path
+wholesale and so never looked.
+
 **`derived/` — machine-generated, regenerable, never hand-edited.**
 Any directory holding source documents may hold a `derived/`. Everything in it was produced
 by a script from the sources in its parent: page-anchored `.txt` from

@@ -15,7 +15,7 @@ Annual Comprehensive Financial Reports for the City of Gallatin — the governme
 
 ## Handling Instructions
 - Cite printed page numbers, not `[[page N]]` markers.
-- **Two different things are named "Industrial Development Board" in these records and they are not the same entity.** The city operates an *Industrial Development Board Fund* inside its own governmental funds, while the *Industrial Development Board of Gallatin, Tennessee* is a separate corporation filing its own audit (`../gallatin_idb/`). Never merge their figures or treat one's totals as the other's.
+- **Two different things are named "Industrial Development Board" in these records and they are not the same entity.** The city operates an *Industrial Development Board Fund* inside its own governmental funds, while the *Industrial Development Board of Gallatin, Tennessee* is a separate corporation filing its own audit (`state_of_tennessee/state_audits/gallatin_idb/`). Never merge their figures or treat one's totals as the other's.
 - The FY2022 excerpt records the city fund receiving "Payment in lieu from industry" of **$182,548 actual against $265,025 budgeted** — an order of magnitude below what the IDB corporation reports for FY2025. The relationship between the two PILOT streams is unresolved.
 
 ## Notes

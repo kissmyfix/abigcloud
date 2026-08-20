@@ -15,6 +15,6 @@ City of Portland audit — a third Sumner County data point, and the city whose 
 - Cite printed page numbers, not `[[page N]]` markers.
 
 ## Notes
-Portland's IDB was identified in the statewide IDB debt work as carrying the conduit debt behind the Sumner control group — see `../../tn_comptroller_pilot_reports/tn_comptroller_archived/README.md`. This audit is the city's, not the IDB's; the Portland IDB's own audit has not been obtained.
+Portland's IDB was identified in the statewide IDB debt work as carrying the conduit debt behind the Sumner control group — see `state_of_tennessee/tn_comptroller_pilot_reports/tn_comptroller_archived/README.md`. This audit is the city's, not the IDB's; the Portland IDB's own audit has not been obtained.
 
 Open lead: whether Portland's IDB is reported as a component unit of the city, which would make it a second in-county contrast to Gallatin alongside Westmoreland.
