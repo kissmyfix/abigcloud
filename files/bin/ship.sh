@@ -41,6 +41,12 @@ die()  { printf '\033[31m FAIL\033[0m %s\n' "$*" >&2; exit "$2"; }
 
 cd "$REPO" || exit 1
 
+# 0. Re-derive the note statuses in memory/brandon-voice-notes.md from the
+#    article. Never blocks: a stale marker is not a reason to refuse a publish.
+if [[ -f files/bin/sync-voice-notes.py ]]; then
+  files/venv/bin/python files/bin/sync-voice-notes.py || true
+fi
+
 # 1. Build. build-citations.mjs exits non-zero if a cited document is missing.
 say "npm run publish"
 if ! (cd web && npm run publish); then

@@ -125,13 +125,18 @@ PAGE = r"""<!doctype html>
  button:hover{color:var(--fg);border-color:var(--acc)}
  #wrap{flex:1;display:flex;min-height:0}
  #left,#right{flex:1;min-width:0;overflow:auto}
- #left{border-right:1px solid var(--rule);display:flex;background:var(--pane)}
+ #left{border-right:1px solid var(--rule);display:flex;background:var(--pane);position:relative}
  #gut{flex:0 0 3.6em;text-align:right;padding:14px 8px 40vh 0;color:var(--mut);
       font:13px/1.7 ui-monospace,Menlo,monospace;user-select:none;background:var(--code)}
  /* the caret is easy to lose in a wall of prose, so the gutter says where it is */
  #gut .cur{color:var(--acc);font-weight:700;background:var(--pane);
       box-shadow:inset 2px 0 0 var(--acc)}
- #ed{flex:1;border:0;outline:0;resize:none;background:var(--pane);color:var(--fg);
+ /* the band below is painted behind the textarea, so #ed cannot carry a
+    background of its own — #left supplies it for the whole pane */
+ #band{position:absolute;pointer-events:none;display:none;z-index:0;
+      background:var(--code);box-shadow:inset 2px 0 0 var(--acc)}
+ #ed{flex:1;border:0;outline:0;resize:none;background:transparent;color:var(--fg);
+     position:relative;z-index:1;
      caret-color:var(--acc);
      padding:14px 14px 40vh;font:13px/1.7 ui-monospace,Menlo,monospace;
      white-space:pre-wrap;overflow-wrap:break-word;overflow:hidden}
@@ -168,7 +173,8 @@ PAGE = r"""<!doctype html>
   <button id="view">preview only</button>
 </div>
 <div id="wrap">
-  <div id="left"><div id="gut"></div><textarea id="ed" spellcheck="false"></textarea>
+  <div id="left"><div id="gut"></div><div id="band"></div>
+    <textarea id="ed" spellcheck="false"></textarea>
     <div id="mirror"></div></div>
   <div id="right"></div>
 </div>
@@ -216,11 +222,22 @@ function gutter(lines){
   gut.innerHTML=[...mirror.children].map((d,i)=>
     '<div style="height:'+d.offsetHeight+'px">'+(i+1)+'</div>').join('');
 }
+const band=document.getElementById('band');
 function curline(){
   // which logical line is the caret on — count newlines before it
   const n=(ed.value.slice(0,ed.selectionStart).match(/\n/g)||[]).length;
   const kids=gut.children;
   for(let i=0;i<kids.length;i++) kids[i].classList.toggle('cur',i===n);
+  // the mirror has already measured every line to build the gutter, so the
+  // band's position and height come free — no second measuring pass
+  const m=mirror.children[n];
+  if(!m){ band.style.display='none'; return; }
+  const cs=getComputedStyle(ed);
+  band.style.top=(ed.offsetTop+parseFloat(cs.paddingTop)+m.offsetTop)+'px';
+  band.style.height=m.offsetHeight+'px';
+  band.style.left=ed.offsetLeft+'px';
+  band.style.width=ed.offsetWidth+'px';
+  band.style.display='block';
 }
 /* The preview wears the real site stylesheet. It is loaded into a shadow root
    attached to #right: the site's rules target body/:root/h1/blockquote, which
