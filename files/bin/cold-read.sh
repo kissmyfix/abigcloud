@@ -5,8 +5,14 @@
 # questions, and the gap between its answers and files/cold-read/answer-key.md is
 # the measurement. Full procedure and how to score it: files/cold-read/PROTOCOL.md
 #
-# This script does the bookkeeping. Claude spawns the agent, because a shell
-# cannot.
+# This script does the whole run. It builds the sandbox, then launches the agent
+# as its own `claude` process with the sandbox as its working directory.
+#
+# That last part is the control. A subagent spawned from a session rooted in the
+# real project inherits that session's context, so the harness has already put the
+# live CLAUDE.md in front of it — including the line naming which question is the
+# test. Pointing such an agent at a sandbox path changes what it reads, not what
+# it already knows. A separate process rooted in the sandbox has no such copy.
 #
 # It also builds the sandbox the agent is pointed at: a hardlinked mirror of the
 # project with files/cold-read/ removed. An earlier run was invalidated when the
@@ -14,7 +20,7 @@
 # because it had read the answers. Asking it not to look is not a control. The
 # key being absent from the tree it can see is.
 #
-#   files/bin/cold-read.sh          # start a run: stamp a file, print the prompt
+#   files/bin/cold-read.sh          # build the sandbox, run the agent, save its report
 #   files/bin/cold-read.sh --check  # is the answer key stale? which runs exist?
 #   files/bin/cold-read.sh --prompt # print the agent prompt and nothing else
 
@@ -102,10 +108,23 @@ fi
 sed -e "s/YYYY-MM-DD/$TODAY/" -e "0,/<sha>/s//$SHA/" -e "0,/<sha>/s//$key_sha/" \
 	"$DIR/runs/TEMPLATE.md" > "$RUN"
 say "run file: ${RUN#$REPO/}"
+
+# The prompt names the project by its real path. Inside the sandbox that path is
+# wrong, and a rewritten copy is what the agent is actually given.
+PROMPT="$SANDBOX/.cold-read-prompt.md"
+sed "s|$REPO|$SANDBOX|g" "$DIR/prompt.md" > "$PROMPT"
+
+REPORT="${RUN%.md}-report.md"
+say "running the agent from inside the sandbox — a couple of minutes"
+( cd "$SANDBOX" && claude -p --permission-mode acceptEdits < "$PROMPT" ) > "$REPORT"
+status=$?
+rm -f "$PROMPT"
+
+if [[ $status -ne 0 || ! -s "$REPORT" ]]; then
+	warn "the agent returned nothing (exit $status) — see ${REPORT#$REPO/}"
+	exit 1
+fi
+say "report: ${REPORT#$REPO/}  ($(wc -w < "$REPORT") words)"
 echo
-say "Spawn a general-purpose subagent with the prompt below, verbatim."
-say "It is pointed at the sandbox, not the project. Do not correct that path."
-say "Then score it against files/cold-read/answer-key.md, verify every Q13 item"
-say "by grep before acting, and fill in the run file."
-printf '\033[2m%s\033[0m\n' "────────────────────────────────────────────────────────"
-sed "s|/home/brandon/Documents/data_center_research|$SANDBOX|g" "$DIR/prompt.md"
+say "Now score it: compare against files/cold-read/answer-key.md, verify every"
+say "Q13 item by grep before acting, and fill in ${RUN#$REPO/}."
