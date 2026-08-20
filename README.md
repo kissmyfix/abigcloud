@@ -1,10 +1,7 @@
 # It's a Big Cloud
-## abigcloud.com
-
----
 
 **Data centers are being built across Middle Tennessee. This is the record of what they
-cost, who agreed to it, and whether the promises were kept.**
+cost, who agreed to it, and whether the promises made were kept.**
 
 The site is at [abigcloud.com](https://abigcloud.com). This repository is the evidence behind it.
 
@@ -12,22 +9,18 @@ The site is at [abigcloud.com](https://abigcloud.com). This repository is the ev
 
 ## Why This Repository Exists
 
-The site covers data centers: what they consume, what they are promised, and what the
-public gets back. TVA and the ratepayers who fund it, the national picture, and the
-Middle Tennessee sites in particular, from Gallatin to Memphis.
+The site covers data centers: what they consume, what their existence promised, and what the
+public gets back.
 
-The source material behind this work is not linkable web content. It is meeting minutes, property assessments, federal tax filings, legislative archives, and audio recordings. Most of it exists as documents nobody has put online in any usable form.
+The source material behind this work is not linkable web content. It is council meeting minutes, property assessments, federal tax filings, legislative archives, and audio recordings. Most of it exists as documents nobody has put online in any usable form.
 
-So it lives here, in the open. Every document an article cites is also published on the site itself, listed at [abigcloud.com/sources](https://abigcloud.com/sources/), so a citation opens the document rather than a footnote. The originals are in this repository, organised by jurisdiction. If a claim is made, the document behind it is one click away and you can read it yourself.
+So it lives here, in the open. Every document an article cites is also published on the site itself, listed at [abigcloud.com/sources](https://abigcloud.com/sources/), so a citation opens the document rather than a footnote. The originals are in this repository, organized by jurisdiction. If a claim is made, the document behind it is one click away and you can read it yourself.
 
 Every document here is a public record or was obtained through lawful public channels. Nothing has been altered. Where documents came from public portals, the retrieval method and date are noted.
 
 This is not a legal filing. It is not a formal complaint. It is not affiliated with any political party, advocacy group, or media organization. It is one resident's attempt to answer a simple question, **have the promises been kept?**, using only public records and primary sources.
 
 If any claim is inaccurate, [open an issue](https://github.com/kissmyfix/abigcloud/issues). That is the point of putting it here.
-
----
-
 
 ## The Investigations
 
@@ -36,9 +29,7 @@ are coming. One has been carried to any real length so far.
 
 | Investigation | Status |
 |---|---|
-| **[Quid-Pro-NO!](https://abigcloud.com/investigations/quid_pro_no/)** — Meta, Gallatin, the Industrial Development Board, and the PILOT structure | Part 1 published, in progress |
-
----
+| **[Quid-Pro-NO!](https://abigcloud.com/investigations/quid_pro_no/)** — Meta, Gallatin, the Industrial Development Board, and the PILOT structure |
 
 ## The Evidence
 
@@ -46,8 +37,6 @@ Everything below is a primary source document or public record. Nothing has been
 
 It leans heavily toward Quid-Pro-NO right now. That is a reflection of what has been
 worked so far, not of what the archive is for.
-
----
 
 ### `sumner_county/` — Where the Deal Lives
 
