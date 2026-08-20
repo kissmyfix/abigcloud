@@ -17,9 +17,15 @@
 
 <style>
 	button {
+		/* Centred, sitting just right of the midline with #toc-button to its
+		   left. The bottom-right corner is where dismissible page furniture
+		   lives -- chat widgets, cookie notices -- and readers have learned not
+		   to look there, so a reader who never went hunting never found these.
+		   Centred, they read as part of the page. Brandon's call, 2026-08-20.
+		   The safe-area inset keeps them clear of the iOS home indicator. */
 		position: fixed;
-		right: var(--gutter);
-		bottom: var(--gutter);
+		left: 50%;
+		bottom: calc(var(--gutter) + env(safe-area-inset-bottom, 0px));
 		z-index: 40;
 		display: flex;
 		align-items: center;
@@ -38,7 +44,7 @@
 		box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
 		opacity: 0;
 		visibility: hidden;
-		transform: translateY(8px);
+		transform: translate(6px, 8px);
 		transition:
 			opacity 0.2s,
 			transform 0.2s,
@@ -49,7 +55,7 @@
 	button.visible {
 		opacity: 1;
 		visibility: visible;
-		transform: translateY(0);
+		transform: translate(6px, 0);
 	}
 	@media (hover: hover) {
 		button:hover {

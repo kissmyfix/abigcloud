@@ -535,8 +535,8 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 
 #toc-button {
 	position: fixed;
-	right: calc(var(--gutter) + 92px);
-	bottom: var(--gutter);
+	left: 50%;
+	bottom: calc(var(--gutter) + env(safe-area-inset-bottom, 0px));
 	z-index: 41;
 	display: flex;
 	align-items: center;
@@ -555,16 +555,16 @@ blockquote[class*="is-"] > p:first-child > strong:only-child { color: var(--cal-
 	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
 	opacity: 0;
 	visibility: hidden;
-	transform: translateY(8px);
+	transform: translate(calc(-100% - 6px), 8px);
 	transition: opacity 0.2s, transform 0.2s, visibility 0.2s, color 0.15s, border-color 0.15s;
 }
-#toc-button.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+#toc-button.visible { opacity: 1; visibility: visible; transform: translate(calc(-100% - 6px), 0); }
 #toc-button.active, #toc-button:hover { color: var(--accent); border-color: var(--accent); }
 
 .toc-drawer {
 	position: fixed;
 	left: 0; right: 0;
-	bottom: calc(var(--gutter) + 52px);
+	bottom: calc(var(--gutter) + 52px + env(safe-area-inset-bottom, 0px));
 	z-index: 42;
 	display: flex;
 	justify-content: center;
@@ -694,6 +694,9 @@ h2:hover .heading-anchor, h3:hover .heading-anchor, .heading-anchor:focus { opac
 	letter-spacing: 0.06em;
 	color: var(--accent);
 }
+/* Unused as of 2026-08-20: the status line was taken off the home page card.
+   Kept deliberately, at Brandon's call, so the card can carry one again without
+   rebuilding the style. Not dead code. */
 .feature-status {
 	display: block;
 	margin-top: 12px;

@@ -8,6 +8,7 @@ description: abigcloud.com
 <a class="feature" href="/investigations/quid_pro_no/">
 <span class="feature-kicker">Featured investigation &middot; Part 1</span>
 <span class="feature-title">Quid-Pro-<em>NO!</em></span>
+<p>Appraised at half a billion. Assessed at zero.</p>
 <span class="feature-cta">Read the investigation &rarr;</span>
 </a>
 
