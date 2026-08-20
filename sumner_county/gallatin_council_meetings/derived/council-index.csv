@@ -21,4 +21,5 @@ source_pdf,text_file,text_source,header_date,header_date_source,filename_date,da
 2023-03-07-city-council-agenda.pdf,derived/ocr/2023-03-07-city-council-agenda-ocr.txt,ocrmypdf,2023-03-07,masthead,2023-03-07,yes,city_council,62,2,OCR_SCAN,verify,,b163852244ae275ede0590c01e9beaed
 2024-09-17-city-council-agenda.pdf,derived/ocr/2024-09-17-city-council-agenda-ocr.txt,ocrmypdf,2024-09-17,masthead,2024-09-17,yes,city_council,93,1,OCR_SCAN,verify,,38ab02a5e40667fc7f1656d0f756b074
 2024-10-31-gallatin-city-hall-space-needs-assessment.pdf,derived/2024-10-31-gallatin-city-hall-space-needs-assessment.txt,pdftotext,2024-10-31,masthead,2024-10-31,yes,other,133,0,OCR_SCAN,verify,,16dc943e365e5e78fd2fd4a5da902803
+2026-07-gallatin-civic-calendar.pdf,derived/2026-07-gallatin-civic-calendar.txt,pdftotext,UNPARSED,,2026-07-XX,check,other,1,0,DIGITAL,yes,,731b64b1258312df19c9806c02c14912
 2026-07-meetings-public-notice.pdf,derived/2026-07-meetings-public-notice.txt,pdftotext,2026-07-06,masthead,2026-07-XX,yes,public_notice,1,0,DIGITAL,yes,,a2362e11fa4b70d475688d4c91adc765

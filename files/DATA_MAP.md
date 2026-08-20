@@ -74,7 +74,7 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 | `the_players/` | Profiles of individuals in scope, one flat `name.md` each. Documents live where they came from; each profile links to what concerns it. |
 | `sumner_county/` | City and county records. |
 | `sumner_county/gallatin_idb_data/` | The IDB's Secretary of State corporate history and the three TCED capstone papers. No minutes or agendas exist; the board does not publish them. |
-| `sumner_county/gallatin_council_meetings/` | Council packets from gallatintn.gov, plus six dated captures of the city's own Boards and Commissions pages. |
+| `sumner_county/gallatin_council_meetings/` | Council packets from gallatintn.gov, plus six dated captures of the city's own Boards and Commissions pages. `derived/ocr/` holds re-OCR'd **text** for six scanned packets; the OCR'd PDFs were removed 2026-08-19 as 65 MB of duplicated page images, regenerable with `ocrmypdf`. |
 | `sumner_county/sumner_entities/` | One directory per company with a Sumner County PILOT, 2015–2026, each with its own `memory/MEMORY.md`. |
 | `state_of_tennessee/` | State records: statutes, comptroller filings, audits, SOS filings, licences, parcels. |
 | `state_of_tennessee/tn_annotated_code/` | Statutes (T.C.A.), plus SB 708 as introduced, as enacted, and its fiscal memo. |

@@ -19,9 +19,23 @@ and the handling rules.
 
 `derived/` holds the extraction, all regenerable, nothing hand-edited:
 - `derived/*.txt` — page-anchored text, `[[page N]]` at the top of each page. Cite the anchor.
-- `derived/ocr/` — six packets whose text layer covered only part of the document, re-OCR'd
-  with `ocrmypdf`, plus their text. The originals in this directory are the record and are
-  never modified. OCR'd text reads cleanly and is still a machine guess.
+- `derived/ocr/` — the text of six packets whose own text layer covered only part of the
+  document. They were re-OCR'd with `ocrmypdf` and this is the result. The originals in this
+  directory are the record and are never modified. OCR'd text reads cleanly and is still a
+  machine guess.
+
+  **The OCR'd PDFs themselves are not kept, and that is deliberate.** Running `ocrmypdf`
+  produces a second copy of the whole document — the same page images with a text layer
+  added — so those six PDFs came to 65 MB, a seventh of everything tracked, and every byte
+  of it duplicated a file sitting one directory up. Removed 2026-08-19. Nothing was lost:
+  the extracted text is here, the originals are the record and the citable artifact, and
+  `ocrmypdf` regenerates the intermediate from the original at any time. `pdf-index.csv`
+  in this directory names each original as the source, because that is what the text
+  traces back to.
+
+  This does **not** apply to the OCR'd PDFs elsewhere in the archive — the 990s, the
+  Shalom Zone filings, the two grand jury presentments. Those are named as the `source` in
+  their own `pdf-index.csv`, they are 1.4 MB in total, and they stay.
 - `derived/pdf-index.csv` — extraction class and text volume per file (`files/bin/pdf-extract.py`).
 - `derived/council-index.csv` — one row per document: date the city printed on it, date in the
   filename, whether those agree, meeting body, page count, textless pages, extraction class,
