@@ -19,6 +19,11 @@ nothing to keep alive.
 
     files/venv/bin/python files/bin/mdlive.py web/content/investigations/quid_pro_no/index.md 8080
 
+Opening `http://localhost:8080/` with no `?f=` lists every page under `web/content/` and
+waits for one to be picked; the file named on the command line is only the default for a
+`?f=` deep link. The picker in the toolbar switches files, and its "all files" entry
+returns to the list.
+
 Then open **http://localhost:8080**. Source left, rendered preview right, saves as you type.
 
 - **File picker** in the toolbar lists every `.md` and `.txt` in the project. The URL
@@ -29,7 +34,9 @@ Then open **http://localhost:8080**. Source left, rendered preview right, saves 
 - Claude's edits to the same file appear within half a second. If the buffer has unsaved
   changes it shows "file changed on disk" rather than overwriting them.
 
-Stop it with `pkill -f mdlive`.
+Stop it with `pkill -f 'bin/mdlive[.]py'`. **Not `pkill -f mdlive`** — that pattern also
+matches the shell command line that contains it, so it kills the shell running the pkill.
+It did exactly that on 2026-08-20. The bracket stops the pattern matching itself.
 
 ## Live preview of the real site
 
