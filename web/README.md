@@ -3,7 +3,7 @@
 The Astro site behind [abigcloud.com](https://abigcloud.com). Deployed to GitHub Pages
 by `.github/workflows/deploy.yml` on every push to `main`.
 
-Article content does not live here. It lives in `../articles/`, and the content
+Article content lives in `content/`, and the content
 collections in `src/content.config.ts` read it from there, so the same markdown
 renders on GitHub and on the site.
 
