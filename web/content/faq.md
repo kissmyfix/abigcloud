@@ -5,7 +5,7 @@ description: 'How AI is used here and where it is not, what a data center actual
 
 # **Frequently Asked Questions**
 ## Is This Written by AI?
-
+<!-- @c This is a test. This is only a test. Testing workflow scripts and processes -->
 **Yes, in part, and it is disclosed rather than hidden.**
 
 AI is used openly and heavily on this project as a drafting and analysis tool. It reads
@@ -16,7 +16,7 @@ What it does not do is decide what is true, what matters, or what publishes. Eve
 investigative question originated with Brandon, every editorial judgment is his, and
 **nothing publishes that he cannot explain himself, unaided, from the primary sources.**
 
-The reason that rule exists is worth stating plainly: an AI states a wrong thing in the
+The reason that rule exists is this: an AI states a wrong thing in the
 same confident register as a right one. There is no tell. So the check cannot be "does it
 sound right," it has to be "does the document say it," and every document is published
 here in full at [Sources](/sources/) so you can run that check yourself.
