@@ -156,6 +156,22 @@ PAGE = r"""<!doctype html>
  #right a{color:var(--acc)}
  #note{color:var(--acc);cursor:pointer}
  .hid{display:none}
+ /* #wrap sets display:flex on an id selector, which outranks .hid on its own */
+ #wrap.hid{display:none}
+ /* the landing view: no file is open until one is chosen here */
+ #home{flex:1;overflow:auto;padding:38px 40px 20vh}
+ #home h1{font:600 15px/1.4 ui-monospace,Menlo,monospace;color:var(--fg);
+      margin:0 0 4px}
+ #home p.sub{font:12px/1.5 ui-monospace,Menlo,monospace;color:var(--mut);
+      margin:0 0 26px}
+ #home .grp{font:11px/1 ui-monospace,Menlo,monospace;color:var(--mut);
+      text-transform:uppercase;letter-spacing:.08em;
+      margin:22px 0 7px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+ #home a{display:block;padding:6px 9px;margin:0 -9px;border-radius:4px;
+      font:13px/1.5 ui-monospace,Menlo,monospace;color:var(--fg);
+      text-decoration:none;cursor:pointer}
+ #home a:hover{background:var(--code);color:var(--acc)}
+ #home a .rel{color:var(--mut);font-size:11px;margin-left:10px}
  #pick{background:var(--pane);color:var(--fg);border:1px solid var(--rule);
        border-radius:4px;padding:3px 6px;max-width:44ch;
        font:12px ui-monospace,Menlo,monospace;cursor:pointer}
@@ -172,7 +188,12 @@ PAGE = r"""<!doctype html>
   <button id="ref">copy line ref</button>
   <button id="view">preview only</button>
 </div>
-<div id="wrap">
+<div id="home" class="hid">
+  <h1>web/content</h1>
+  <p class="sub">every page of the site. pick one to edit.</p>
+  <div id="homelist"></div>
+</div>
+<div id="wrap" class="hid">
   <div id="left"><div id="gut"></div><div id="band"></div>
     <textarea id="ed" spellcheck="false"></textarea>
     <div id="mirror"></div></div>
@@ -185,13 +206,14 @@ const ed=document.getElementById('ed'), right=document.getElementById('right'),
       pos=document.getElementById('pos');
 let known=null, dirty=false, saveT=null, pending=null;
 let FILE=null;                       // path of the open file, relative to the tree root
+let ALL=[], ticking=false;           // the listing, and whether the poll loop is up
 const pick=document.getElementById('pick');
 
 async function loadListing(){
   const r=await (await fetch('/api/files')).json();
-  FILE = FILE || r.current;
+  ALL = r.files;
   // one <optgroup> per directory, so the list reads like the tree on GitHub
-  let html='', seen=null;
+  let html='<option value="">— all files —</option>', seen=null;
   for(const f of r.files){
     if(f.group!==seen){ if(seen!==null) html+='</optgroup>';
       html+=`<optgroup label="${f.group}">`; seen=f.group; }
@@ -200,13 +222,45 @@ async function loadListing(){
   if(seen!==null) html+='</optgroup>';
   pick.innerHTML=html;
 }
-pick.onchange = async () => {
-  if(dirty) await save();            // never lose an unsaved edit on switch
-  FILE = pick.value;
-  known = null; pending = null;      // force a fresh load in the next tick
+/* The landing view. Opening the editor at / with no ?f= used to load whichever
+   file was named on the command line, which meant every reload dropped you back
+   into the same article whatever you were actually working on. Now / lists the
+   site and waits. A ?f= URL still opens straight into that file, so bookmarks
+   and the picker are unaffected. */
+function showHome(){
+  let html='', seen=null;
+  for(const f of ALL){
+    if(f.group!==seen){ html+=`<div class="grp">${f.group}</div>`; seen=f.group; }
+    html+=`<a data-rel="${f.rel}">${f.label}<span class="rel">${f.rel}</span></a>`;
+  }
+  document.getElementById('homelist').innerHTML=html;
+  document.getElementById('home').classList.remove('hid');
+  document.getElementById('wrap').classList.add('hid');
+  meta.textContent=''; pos.textContent='';
+}
+function openFile(rel){
+  FILE = rel;
+  known = null; pending = null;
   note.classList.add('hid');
   history.replaceState(null,'','?f='+encodeURIComponent(FILE));
+  document.getElementById('home').classList.add('hid');
+  document.getElementById('wrap').classList.remove('hid');
+  for(const o of pick.options) o.selected = (o.value===FILE);
   tick();
+  if(!ticking){ ticking=true; setInterval(tick,500); }
+}
+document.getElementById('homelist').addEventListener('click',e=>{
+  const a=e.target.closest('a[data-rel]');
+  if(a) openFile(a.dataset.rel);
+});
+pick.onchange = async () => {
+  if(dirty) await save();            // never lose an unsaved edit on switch
+  if(!pick.value){                   // "— all files —" goes back to the list
+    FILE=null; known=null; pending=null;
+    history.replaceState(null,'',location.pathname);
+    showHome(); return;
+  }
+  openFile(pick.value);
 };
 
 const mirror=document.getElementById('mirror');
@@ -401,7 +455,11 @@ async function tick(){
 }
 FILE = new URLSearchParams(location.search).get('f') || null;
 siteStyles().then(el=>{ proseEl=el; }).finally(()=>{
-  loadListing().then(()=>{ tick(); setInterval(tick,500); });
+  loadListing().then(()=>{
+    if(!FILE){ showHome(); return; }
+    document.getElementById('wrap').classList.remove('hid');
+    tick(); ticking=true; setInterval(tick,500);
+  });
 });
 window.addEventListener('beforeunload',e=>{ if(dirty){ save(); } });
 </script></body></html>"""
