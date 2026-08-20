@@ -252,6 +252,15 @@ nothing runs on a reader's machine, nothing is there for a blocker to block, and
 do not undercount. A beacon script was the alternative and was rejected for exactly that
 reason. Free CDN caching and automatic HTTP-to-HTTPS came along with it.
 
+**Where the numbers actually are: Cloudflare → Analytics & Logs → Traffic**, with a summary
+on the zone Overview. That is zone analytics, counted server-side at the edge, and it is
+what this arrangement produces.
+
+**The separate "Web Analytics" tab will always be empty, and that is correct.** It is a
+different product that works from a beacon script in the reader's browser, and we did not
+install one. An empty Web Analytics page is the setup working, not the setup broken. That
+confusion already cost an hour on 2026-08-20.
+
 **Do not enable Cloudflare's Real User Monitoring / Speed Insights.** It measures Core Web
 Vitals, which can only be measured inside the browser, so it reinstalls the beacon this
 setup exists to avoid. For performance numbers, run Lighthouse against the site yourself.
