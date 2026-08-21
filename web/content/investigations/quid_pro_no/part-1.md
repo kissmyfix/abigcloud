@@ -71,15 +71,17 @@ A structure built in 1955 for factories that employed thousands, now being used 
 
 ### The Unicorn
 
-When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement and had been initiated from the very beginning with secrecy in mind. And as a matter of doing business.
+When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement and had been initiated from the very beginning with secrecy in mind. 
 
-First, Gallatin had already courted this company once under the codename Project Skillet.
+*Secrecy come to find out is just a matter of doing business.*
+
+First, Gallatin had already courted Facebook once before under the codename Project Skillet.
 
 So we're already hitting some points to remember here:
 
 The company we all now know as Meta in our present day was at the time still publicly known as Facebook.
 
-Adding to that name change difference, Facebook creates shell companies registered in Delaware for it to operate incognito under while negotiating with your elected leaders.
+Adding to that mild confusion, Facebook (or Meta, your pick) creates shell companies registered in Delaware for it to operate incognito under while negotiating with your elected leaders.
 
 Par for the expected course so far. 
 
@@ -90,7 +92,7 @@ Par for the expected course so far.
 
 
 
-For our purposes here, we'll have two codename projects to keep up with. First as Project Skillet, then as Project Woolhawk. Both colliding in a frantic game of corporate musical chairs.  
+For our purposes here though, we'll have two codename projects to keep up with. First as Project Skillet, then as Project Woolhawk. Both colliding in a frantic game of corporate musical chairs.  
 
 In 2017 Gallatin could only watch as it seemingly lost its first attempt at landing the tech giant, watching as "Project Skillet" went down to Huntsville, Alabama.
 
@@ -100,38 +102,38 @@ The Gallatin Economic Development Agency's (GEDA) own [account](/sources/sumner_
 
 Same company, new name, back knocking on the door a year later.
 
-When it returned it came [prewrapped in an NDA](/sources/fenton-on-podcast-full/) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
+When it returned it came [prewrapped in an NDA](/sources/fenton-on-podcast-full/) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, ***the terms were already set***.
 
-**Speaking of PILOT terms....**
-
-The closest thing to those terms on the public record is [Resolution R2005-24](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/), put before the council on May 12, 2020. Woolhawk, LLC, a Delaware limited liability company, would pay a flat $1,000,000 for the first building and less for every building after it. 
-
-$750,000 for the second, $550,000 by the sixth.
-
-**Twenty** years of abatement on each.
+> **Speaking of PILOT terms for a moment....**
+>
+>The closest thing to those terms on the public record is [Resolution R2005-24](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/), put before the Gallatin City Council on May 12, 2020 as Woolhawk, LLC, a Delaware limited liability company, would pay a flat $1,000,000 for the first building and less for every building after it.
+>
+>$750,000 for the second, $550,000 by the sixth.\
+>
+>**Twenty** years of tax abatement on ***each***.
 
 Until the first building is finished, the payment is the taxes on the raw land as it was zoned before.
 
-That is what was presented. Whether it is what was signed, nobody outside the deal can say. 
+That is what was presented. Whether it is what was signed, nobody outside the deal can say for sure, but we can watch the ramp up in reported payments to verify the amounts one would expect under these type of terms.
 
-But the wall wasn't just secrecy. It was structural. The Gallatin IDB had evolved into something I can only describe as a legal hybrid claiming to be a public agency when it needed tax-exempt status while operating like a private corporation when it needed to avoid transparency. Having it both ways.
+But the wall wasn't *just* secrecy. It was ***structural***. The Gallatin IDB had evolved by this point into something I can only describe as a legal hybrid claiming to be a public agency when it needed tax-exemption status while operating like a private corporation when it needed to avoid transparency.
 
-> **Who doesn't Love having their cake and eating it too?**
+*Having it ***both*** ways.*
+
+> **Who **doesn't** Love having their **cake** and eating it too?**
 >
 > Gallatin says it most certainly does.\
 > In its own writing.\
 > In its own audited books. 
 >
->Buried in the notes of a [2023 annual financial report](/sources/1688-2023-c-gallatin-rpt-cpa811-12-21-23/) is a section called Related Organizations.\
+>Buried in the notes of a [2023 annual financial report](/sources/1688-2023-c-gallatin-rpt-cpa811-12-21-23/) is a section called *Related Organizations*.\
 >Under this section of the audit the city of Gallatin says this: 
 >
 >**"accountability for these organizations does not extend beyond making the appointments," that the city "does not provide funding," and that it "cannot impose its will upon the operations" of the IDB.**
 
-OH?! That IDB? Not ours. We just name the people on it.
+***OH?!*** That *IDB?* Not ours. We just name the people on it. *Is there a Problem?*
 
-Problem?
-
-Well, for starters, the statute that let Gallatin create the thing says the opposite. It calls industrial development boards "a public instrumentality of such municipality," and that phrase is not decoration. It is the ***ENTIRE*** reason the property is tax exempt in the first place.
+Well, for starters, the statute that let Gallatin (or any other municipality) create the thing in the first place says the opposite. It calls industrial development boards *"a public instrumentality of such municipality,"* and that phrase is not decoration. It is the ***ENTIRE*** reason the property is tax exempt in the first place.
 
 I pulled every PILOT filing the state comptroller has had reported to it across the state.
 
@@ -145,9 +147,12 @@ Then I pulled Meta's parcel in Gallatin itself.
 
 And Meta doesn't own it. The Industrial Development Board of the City of Gallatin does.
 
-The state says that land and everything standing on it is worth about a half a **BILLION** ([$519,189,800](/sources/state_of_tennessee/tn_property_assessments/sumner-assessment-woolhawk.pdf)) dollars. It also says the assessed value is zero.
+The assessor says that the land and everything standing on it is worth about a half a **BILLION** ([$519,189,800](/sources/state_of_tennessee/tn_property_assessments/sumner-assessment-woolhawk.pdf)) dollars. It also says the assessed value is zero dollars.
 
-Both of those are true at the same time, and neither one is a mistake. The board owns the title, so the property is exempt, so there is nothing left to tax.
+Both of those are true at the same time, and neither one is a mistake.\
+*Confusing* I know.\
+The board owns the title, so the property is exempt.\
+There is nothing left to tax.
 
 That's what the name in "PILOT" is supposed to cover. ***Payment In Lieu Of Tax***. The property comes off the rolls, and instead of the taxes nobody can collect anymore, the company pays something. That payment is the trade.
 
