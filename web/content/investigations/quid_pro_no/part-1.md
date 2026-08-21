@@ -147,25 +147,30 @@ And Meta doesn't own it. The Industrial Development Board of the City of Gallati
 
 The assessor says that the land and everything standing on it is worth about a half a **BILLION** ([$519,189,800](/sources/state_of_tennessee/tn_property_assessments/sumner-assessment-woolhawk.pdf)) dollars. It also says the assessed value is zero dollars.
 
-Both of those are true at the same time, and neither one is a mistake.\
+***Both of those are true at the same time, and neither one is a mistake.***\
 *Confusing* I know.\
 The board owns the title, so the property is exempt.\
 There is nothing left to tax.
 
-That's what the name in "PILOT" is supposed to cover. ***Payment In Lieu Of Tax***. The property comes off the rolls, and instead of the taxes nobody can collect anymore, the company pays something. That payment is the trade.
+That's what the name in "PILOT" is supposed to cover. ***Payment In Lieu Of Tax***. The property comes off the rolls, and instead of the taxes nobody can collect anymore, the company pays something else. That something else is the trade.
 
-Meta paid the city of Gallatin [$1,821,846](/sources/woolhawk-pilot-reporting/) last year. Through Gallatin's very own but not really theirs IDB first though of course.
+***Quid-Pro-Quo in theory if you will...***
 
-The county's column on that same form is blank, and it has been blank every year since the deal first began and "Woolhawk" begin reporting yearly payments to the state comptrollers office back in 2020.
+Meta paid the city of Gallatin [$1,821,846](/sources/woolhawk-pilot-reporting/) last year. Through Gallatin's very own except when it isn't IDB first though of course.
 
-***There is half a billion dollars of property sitting in Sumner County and the county has never reported collecting a dollar against it.***
+The county's column on that same form is blank, and it has been blank every year since the deal first began and "Woolhawk" begin reporting yearly payments to the state comptrollers office back in 2021.
 
-*Then I looked at the federal filings:*\
-Tennessee has roughly [400 Industrial Development Boards](/sources/idb-count-method/).\
-Only [Eight](/sources/tn-idb-subsections/) those ~400 file with the IRS at all.\
-Seven of those eight file as 501(c)(6) organizations.
+There is half a billion dollars of property sitting in Sumner County and the county has never reported collecting a dollar against it.
 
-***The eighth is Gallatin.***\
+**How Much Have your Own Property Taxes increased in This Time?**
+
+> **I then looked the the federal filings:**
+>
+>Tennessee has roughly [400 Industrial Development Boards](/sources/idb-count-method/).\
+>Only [Eight](/sources/tn-idb-subsections/) those ~400 file with the IRS at all.\
+>Seven of those eight file as 501(c)(6) organizations.
+>
+>***The eighth is the only outlier. The eighth is in Gallatin.***\
 *And Gallatin's IDB files as a 501(c)(4).*
 
 That difference is *NOT* cosmetic.

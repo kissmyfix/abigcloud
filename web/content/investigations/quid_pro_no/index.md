@@ -4,7 +4,7 @@ description: 'How every level of government has failed Tennesseans and the steps
 draft: false
 toc: true
 pubDate: '2026-08-17'
-updatedDate: '2026-08-19'
+updatedDate: '2026-08-21'
 series: 'quid_pro_no'
 partTitle: 'Introduction'
 ---
