@@ -32,8 +32,8 @@ const WEB = resolve(HERE, '..');
 const RESEARCH = resolve(WEB, '..');            // ~/Documents/data_center_research
 const PUBLIC_SOURCES = join(WEB, 'public', 'sources');
 
-/** Reference explainers that already exist as pages on this site. */
-const REFERENCE_PAGES = new Set(['what-is-an-idb', 'what-is-a-pilot', 'the-title-transfer-mechanism', '501c4-vs-instrumentality']);
+/** Explainers that already exist as pages on this site. */
+const EXPLAINER_PAGES = new Set(['what-is-an-idb', 'what-is-a-pilot', 'the-title-transfer-mechanism', '501c4-vs-instrumentality']);
 
 // A citation is written @/ followed by a path in the research archive:
 //   @/web_articles/foo.txt
@@ -120,10 +120,10 @@ function rewrite(md) {
 		if (whole.startsWith('!')) return whole;             // already handled
 		const rel = stripPrefix(target);
 
-		// reference explainer that lives on this site as its own page
-		const m = rel.match(/^reference\/([^/]+)\.md$/);
-		if (m && REFERENCE_PAGES.has(m[1])) {
-			const url = `/reference/${m[1]}/`;
+		// explainer that lives on this site as its own page
+		const m = rel.match(/^explainers\/([^/]+)\.md$/);
+		if (m && EXPLAINER_PAGES.has(m[1])) {
+			const url = `/explainers/${m[1]}/`;
 			rewrites.push([target, url]);
 			return `[${text}](${url})`;
 		}
@@ -294,7 +294,7 @@ function linkedSources(dir, found = new Set()) {
 const cited = [...new Set([
 	...rewrites.map(([from]) => stripPrefix(from)),
 	...linkedSources(join(WEB, 'content')),
-])].filter((p) => !p.startsWith('reference/') && !p.startsWith('/') && !p.startsWith('http'));
+])].filter((p) => !p.startsWith('explainers/') && !p.startsWith('/') && !p.startsWith('http'));
 
 /* One page per cited text document, rendered in the site's own layout. The body goes
    inside <pre> rather than being parsed as markdown: a transcript line starting with #
@@ -346,7 +346,7 @@ function writeSourcePage(relPath) {
 	md += `<p class="src-file"><a href="${fileUrl}" download>Download the original file</a>`
 	    + ` &middot; <code>${esc(relPath.split('/').pop())}</code></p>\n\n`;
 	if (/\.md$/i.test(relPath)) {
-		// already markdown — render it, same as any reference page
+		// already markdown — render it, same as any explainer page
 		md += body.replace(/^#\s+.+$/m, '').trimStart() + '\n';
 	} else {
 		md += `<pre class="src-body">${esc(body.trimEnd())}</pre>\n`;

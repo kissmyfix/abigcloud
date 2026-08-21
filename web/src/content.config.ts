@@ -10,7 +10,7 @@ const content = defineCollection({
 		z.object({
 			title: z.string(),
 			description: z.string(),
-			// Investigations are dated. Standing reference pages are not.
+			// Investigations are dated. Standing explainer pages are not.
 			pubDate: z.coerce.date().optional(),
 			updatedDate: z.coerce.date().optional(),
 			draft: z.boolean().default(false),
