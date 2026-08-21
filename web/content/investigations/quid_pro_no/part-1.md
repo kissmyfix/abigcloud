@@ -77,26 +77,24 @@ When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal s
 
 First, Gallatin had already courted Facebook once before under the codename Project Skillet.
 
-So we're already hitting some points to remember here:
+So we're already hitting some key points to remember here:
 
 The company we all now know as Meta in our present day was at the time still publicly known as Facebook.
 
-Adding to that mild confusion, Facebook (or Meta, your pick) creates shell companies registered in Delaware for it to operate incognito under while negotiating with your elected leaders.
+Adding to that mild annoyance, Facebook (or Meta, your pick) creates shell companies registered in Delaware for it to operate incognito under while negotiating with your elected leaders.
 
 Par for the expected course so far. 
 
 >**On a **personal** note here:**
 >
-> Gotta love the irony in a corporation such as Meta not ***just*** *demanding* but ***requiring*** privacy.\
-> *Hypocrisy* much anyone?
-
-
+> Gotta love the irony in a corporation such as Meta not *just asking* for but ***demanding*** privacy don't we?\
+> ***Hypocrisy*** much anyone?
 
 For our purposes here though, we'll have two codename projects to keep up with. First as Project Skillet, then as Project Woolhawk. Both colliding in a frantic game of corporate musical chairs.  
 
 In 2017 Gallatin could only watch as it seemingly lost its first attempt at landing the tech giant, watching as "Project Skillet" went down to Huntsville, Alabama.
 
-For the leaders of Gallatin, however, what seemed gone was not lost forever.
+*For the leaders of Gallatin, however, what seemed gone was not lost forever.*
 
 The Gallatin Economic Development Agency's (GEDA) own [account](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-bates.pdf) is that Project Skillet "morphed into Project Wool Hawk" after a furious exchange of information through September 2017.
 
@@ -106,7 +104,7 @@ When it returned it came [prewrapped in an NDA](/sources/fenton-on-podcast-full/
 
 > **Speaking of PILOT terms for a moment....**
 >
->The closest thing to those terms on the public record is [Resolution R2005-24](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/), put before the Gallatin City Council on May 12, 2020 as Woolhawk, LLC, a Delaware limited liability company, would pay a flat $1,000,000 for the first building and less for every building after it.
+>The closest thing to those terms on the public record is [Resolution R2005-24](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/), put before the Gallatin City Council on May 12, 2020 as Woolhawk, LLC, a Delaware limited liability company, who would pay a flat $1,000,000 for the first building and less for every building after it.
 >
 >$750,000 for the second, $550,000 by the sixth.\
 >
