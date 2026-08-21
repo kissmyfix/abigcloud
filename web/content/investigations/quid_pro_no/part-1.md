@@ -88,11 +88,15 @@ Par for the expected course so far.
 > Gotta love the irony in a corporation such as Meta not ***just*** *demanding* but ***requiring*** privacy.\
 > *Hypocrisy* much anyone?
 
-For our purposes here, we'll have two codename projects to keep up with. First in 2016 as Project Skillet. Then as Project Woolhawk beginning around 2017.  
 
-In 2016 Gallatin watched as it lost its first attempt in landing Meta/Facebook (Project Skillet) go to Huntsville.
 
-The Gallatin Economic Development Agency's (GEDA) own [account](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-bates.pdf) is that Project Skillet "morphed into Project Wool Hawk". 
+For our purposes here, we'll have two codename projects to keep up with. First as Project Skillet, then as Project Woolhawk. Both colliding in a frantic game of corporate musical chairs.  
+
+In 2017 Gallatin could only watch as it seemingly lost its first attempt at landing the tech giant, watching as "Project Skillet" went down to Huntsville, Alabama.
+
+For the leaders of Gallatin, however, what seemed gone was not lost forever.
+
+The Gallatin Economic Development Agency's (GEDA) own [account](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-bates.pdf) is that Project Skillet "morphed into Project Wool Hawk" after a furious exchange of information through September 2017.
 
 Same company, new name, back knocking on the door a year later.
 
@@ -149,33 +153,43 @@ That's what the name in "PILOT" is supposed to cover. ***Payment In Lieu Of Tax*
 
 Meta paid the city [$1,821,846](/sources/woolhawk-pilot-reporting/) last year.
 
-The county's column on that same form is blank, and it has been blank every year since 2022.
+The county's column on that same form is blank, and it has been blank every year since the deal first began and "Woolhawk" begin reporting yearly payments to the state comptrollers office back in 2020.
 
-There is half a billion dollars of property sitting in Sumner County and the county has never reported collecting a dollar against it.
+*There is half a billion dollars of property sitting in Sumner County and the county has never reported collecting a dollar against it.*
 
-Then I looked at the federal filings.
+**Then I looked at the federal filings.**\
+Tennessee has roughly [400 Industrial Development Boards](/sources/idb-count-method/).\
+Only [Eight](/sources/tn-idb-subsections/) those ~400 file with the IRS at all.\
+Seven of those eight file as 501(c)(6) organizations.
 
-Tennessee has [roughly 400 Industrial Development Boards on file with the Secretary of State](/sources/idb-count-method/). [Eight of them file a 990 at all](/sources/tn-idb-subsections/), and seven of those eight file as a 501(c)(3) or a 501(c)(6).
+***The eighth is Gallatin.***\
+*And Gallatin's IDB files as a 501(c)(4).*\
+The difference is *NOT* cosmetic.
 
-Gallatin files as a 501(c)(4).
-
-The difference isn't cosmetic. A 501(c)(3) is the standard charity, the one where your donation is deductible and political activity is tightly limited. That's what the Shalom Zone is, and the Gallatin daycare. A 501(c)(6) is a business league, the chamber of commerce category, and it's the obvious fit for a board whose whole job is recruiting industry. That's where the other IDBs sit.
+A 501(c)(6) is a business league, the chamber of commerce category, and it's the obvious fit for a board whose whole job is recruiting industry. That's where the other IDBs such as those found in Gibson and Hamilton counties fit in with their IRS filings.
 
 A [501(c)(4) is a social welfare organization](/explainers/501c4-vs-instrumentality/). Civic leagues and advocacy groups. It can lobby without limit, it can spend on politics, and it never has to say who paid for any of it. That last part is why the category turns up in every story ever written about dark money.
 
 Not a regional quirk. Not a gray area. The only one.
 
-So why pick the one that makes you stick out?
+So why pick the one that makes you stick out like a sore thumb?
 
-I think you have to stop asking which status described them and start asking which one they could actually get. An Industrial Development Board ordinarily owes the IRS nothing at all, because it is treated as an arm of its city. But claiming that requires showing the city controls it, funds it, answers for it. Gallatin had spent years building a record that says the opposite, and their own auditors wrote it down.
+I believe you have to stop asking which status described them and start asking which one they could actually get. And why they even needed to get an IRS designation to begin with.
 
-A 501(c)(3) means applying, waiting, and letting the IRS examine what you actually do. Hard to explain when the main thing you do is hand a tax break to a trillion-dollar company. A 501(c)(6) is for business leagues with members, and this board has none.
+An Industrial Development Board ordinarily owes the IRS nothing at all, because it is treated as an arm of its city. But claiming that requires showing the city controls it, funds it, answers for it. Gallatin had spent years building a record that says the opposite, and their own auditors wrote it down.
 
-A 501(c)(4) you can simply declare yourself to be. No application. No determination letter. No one at the IRS deciding whether "social welfare" fits. You notify them and you start filing.
+A 501(c)(3) means applying, waiting, and letting the IRS examine what you actually do. Hard to explain when the main thing you do is hand a tax break to a trillion-dollar company. A 501(c)(6) is for business leagues with active members. This board has none.
 
-It wasn't chosen because it fit. It was chosen because it was the only federal existence they could grant themselves, on a deadline, without asking anyone's permission. The sore thumb was the price, and they paid it, because nobody reads an IDB's 990. Until somebody reads four hundred of them.
+A 501(c)(4) you can simply declare *yourself* to be. No ***application***. No ***determination*** letter. *No one* at the IRS deciding whether "social welfare" fits. You notify them and you start filing.
 
-A board holding half a billion dollars of exempt property for a company that reports paying the county nothing, while filing under a federal tax status no other IDB in the state uses. That's not a coincidence. That's a choice.
+But it wasn't chosen *only* because it fit. It was *also* chosen because it was the only federal existence they could grant themselves, on a deadline, without asking anyone's permission. Sticking out like a sore thumb was the price they were willing to pay because nobody reads an IDB's 990. 
+
+***Until they do.***
+
+A board holding half a billion dollars of exempt property for a company that reports paying the county nothing, while filing under a federal tax status no other IDB in the state uses.\
+
+That's not a coincidence.\
+That's a choice.
 
 ### The First Filing
 
