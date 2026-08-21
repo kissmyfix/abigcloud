@@ -4,21 +4,21 @@ description: 'How every level of government has failed Tennesseans and the steps
 draft: false
 toc: true
 pubDate: '2026-08-17'
-updatedDate: '2026-08-19'
+updatedDate: '2026-08-21'
 series: 'quid_pro_no'
 part: 1
 partTitle: "The Simple Question That Wasn't"
 ---
 
-# **Quid-Pro-*NO!***
-
-## The Simple Question That *Was*. Until it *Wasn't*
-
-### Have the [promises](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf) that got made been kept?
-
-> **The short ***answer*** is yes. The ***promises*** were kept.**
+># **Quid-Pro-*NO!***
 >
-> **Technically.**
+>## The Simple Question That *Was*. Until it *Wasn't*
+>
+> ### Were the [promises](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf) made kept?
+
+ **The short ***answer*** is yes. The ***promises*** were kept.**
+
+ **Technically.**
 
 That technicality though is where this entire story lives. It wasn't that the talking points were wrong. The talking points are all perfectly crisp. It's that they were *engineered* and carefully *crafted*. Every word chosen carefully enough to survive a fact check. While completely misrepresenting what was actually happening.
 
