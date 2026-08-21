@@ -23,18 +23,22 @@ Where a document was captured from a page that has since changed or gone behind 
 - [11278-2025-c-gallatinidb-rpt-cpa517-3-25-26-rev1.txt](/sources/11278-2025-c-gallatinidb-rpt-cpa517-3-25-26-rev1/)
 - [12045-2025-c-westmorelandidb-rpt-cpa517-1-27-26.pdf](/sources/state_of_tennessee/state_audits/westmoreland_idb/12045-2025-c-westmorelandidb-rpt-cpa517-1-27-26.pdf)
 - [2014-06-12-cumulative-fiscal-note-2014-session.txt](/sources/2014-06-12-cumulative-fiscal-note-2014-session/)
+- [tca-7-53-301-board-of-directors.pdf](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-301-board-of-directors.pdf)
 - [T.C.A. § 7-53-302 — Corporate powers of an Industrial Development Board](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf)  
   <span class="src-meta">Tennessee Code Annotated · `tca-7-53-302-corporate-powers.pdf`</span>
 - [T.C.A. § 7-53-305 — Tax exemption and payments in lieu of taxes](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-305-tax-exemption-pilot.pdf)  
   <span class="src-meta">Tennessee Code Annotated · `tca-7-53-305-tax-exemption-pilot.pdf`</span>
+- [2024-idb-annual-report.pdf](/sources/state_of_tennessee/tn_comptroller_pilot_reports/2024-idb-annual-report.pdf)
 - [woolhawk-pilot-reporting.md](/sources/woolhawk-pilot-reporting/)
 - [2016-08-tn-commerce-disciplinary-action-report.txt](/sources/2016-08-tn-commerce-disciplinary-action-report/)
 - [2026-08-18-tn-accountancy-license-poole-john-russell.txt](/sources/2026-08-18-tn-accountancy-license-poole-john-russell/)
+- [sumner-assessment-beretta.pdf](/sources/state_of_tennessee/tn_property_assessments/sumner-assessment-beretta.pdf)
 - [sumner-assessment-woolhawk.pdf](/sources/state_of_tennessee/tn_property_assessments/sumner-assessment-woolhawk.pdf)
 - [idb-count-method.md](/sources/idb-count-method/)
 
 ## County and city records
 
+- [2020-05-12-r2005-24-woolhawk-pilot-terms.pdf](/sources/sumner_county/gallatin_council_meetings/2020-05-12-r2005-24-woolhawk-pilot-terms.pdf)
 - [2026-07-gallatin-civic-calendar.pdf](/sources/sumner_county/gallatin_council_meetings/2026-07-gallatin-civic-calendar.pdf)
 - [2026-08-19-gallatintn-boards-commissions.html](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-boards-commissions.html)
 - [2026-08-19-gallatintn-industrial-development-board.html](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-industrial-development-board.html)
@@ -53,6 +57,7 @@ Where a document was captured from a page that has since changed or gone behind 
 - [idb2022.pdf](/sources/usa_federal/irs_990_data/gallatin_idb/idb2022.pdf)
 - [idb2023.pdf](/sources/usa_federal/irs_990_data/gallatin_idb/idb2023.pdf)
 - [idb2024.pdf](/sources/usa_federal/irs_990_data/gallatin_idb/idb2024.pdf)
+- [irs990-501c-tn.png](/sources/usa_federal/irs_990_data/irs_supporting_docs/irs990-501c-tn.png)
 
 ## News coverage
 
