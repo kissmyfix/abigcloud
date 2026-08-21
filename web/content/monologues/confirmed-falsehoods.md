@@ -1,6 +1,7 @@
 ---
 title: "Confirmed Falsehoods and Half-Truths"
 description: "Specific published claims, checked against the primary record, with a verdict on each."
+draft: true
 ---
 
 # **Confirmed Falsehoods and Half-Truths**
