@@ -50,7 +50,7 @@ const bannerNarrow = heroImage ? heroImageNarrow : defaultBannerNarrow;
 	</head>
 	<body>
 		<Header />
-		{toc && <TableOfContents />}
+		<TableOfContents showDrawer={toc} />
 		<Banner wide={bannerWide} narrow={bannerNarrow} />
 		<main>
 			<article>
@@ -71,7 +71,7 @@ const bannerNarrow = heroImage ? heroImageNarrow : defaultBannerNarrow;
 						}
 					</div>
 					<slot />
-					{series && part && <SeriesNav series={series} part={part} />}
+					{series && <SeriesNav series={series} part={part} />}
 				</div>
 			</article>
 		</main>

@@ -13,7 +13,9 @@ import { getCollection } from 'astro:content';
 
 interface Props {
 	series: string;
-	part: number;
+	/* Omitted on the series' own landing page: it shows the full list of parts
+	   below with no position or prev/next, since it has no place in the order. */
+	part?: number;
 }
 
 const { series, part } = Astro.props;
@@ -38,30 +40,34 @@ const href = (entry: (typeof parts)[number]) => `/${entry.id}/`;
 {
 	parts.length > 1 && (
 		<nav class="series" aria-label="Parts of this investigation">
-			<p class="position">
-				Part {part} of {parts.length}
-			</p>
+			{part !== undefined && (
+				<p class="position">
+					Part {part} of {parts.length}
+				</p>
+			)}
 
-			<div class="adjacent">
-				{prev ? (
-					<a class="step" href={href(prev)} rel="prev">
-						<span class="direction">Previous</span>
-						<span class="name">
-							Part {prev.data.part}. {label(prev)}
-						</span>
-					</a>
-				) : (
-					<span />
-				)}
-				{next && (
-					<a class="step forward" href={href(next)} rel="next">
-						<span class="direction">Next</span>
-						<span class="name">
-							Part {next.data.part}. {label(next)}
-						</span>
-					</a>
-				)}
-			</div>
+			{(prev || next) && (
+				<div class="adjacent">
+					{prev ? (
+						<a class="step" href={href(prev)} rel="prev">
+							<span class="direction">Previous</span>
+							<span class="name">
+								{prev.data.part ? `Part ${prev.data.part}. ` : ''}{label(prev)}
+							</span>
+						</a>
+					) : (
+						<span />
+					)}
+					{next && (
+						<a class="step forward" href={href(next)} rel="next">
+							<span class="direction">Next</span>
+							<span class="name">
+								{next.data.part ? `Part ${next.data.part}. ` : ''}{label(next)}
+							</span>
+						</a>
+					)}
+				</div>
+			)}
 
 			<ol class="all">
 				{parts.map((entry) => (

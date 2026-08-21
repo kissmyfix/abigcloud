@@ -6,7 +6,7 @@ toc: true
 pubDate: '2026-08-17'
 updatedDate: '2026-08-19'
 series: 'quid_pro_no'
-
+partTitle: 'Introduction'
 ---
 
 # **Quid-Pro-*NO!***

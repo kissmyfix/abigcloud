@@ -2,7 +2,7 @@
 title: 'Quid-Pro-NO! Part 4: The Ghost Deliverable'
 description: 'A million-dollar childcare facility promised to the public, and the windows that are still dark.'
 draft: false
-toc: false
+toc: true
 pubDate: '2026-08-17'
 updatedDate: '2026-08-19'
 series: 'quid_pro_no'

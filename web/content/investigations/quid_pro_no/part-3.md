@@ -2,7 +2,7 @@
 title: 'Quid-Pro-NO! Part 3: The Man with Two Ledgers'
 description: 'The administrator who signs the federal filings for the board handing out the money, and for the nonprofit receiving it.'
 draft: false
-toc: false
+toc: true
 pubDate: '2026-08-17'
 updatedDate: '2026-08-19'
 series: 'quid_pro_no'
