@@ -50,7 +50,7 @@ Finding *those* answers is when things began to get interesting.
 
 In trying to answer the question about promised tax benefits, I fell into a world I didn't know existed. A world of Industrial Development Boards, PILOT agreements, and state statutes that most Tennesseans (me!) have probably never heard of.
 
-Here's the short version.
+#### Here's the short version.
 
 Back in 1955, during a national economic boom, landing a large manufacturer could set a small city up for decades. One big factory meant stable jobs, stable tax revenue, and the budget certainty needed for planned growth. City leaders were willing to sweeten the deal to attract those companies.
 
