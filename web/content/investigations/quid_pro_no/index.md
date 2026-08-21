@@ -27,9 +27,9 @@ I wasn't looking for this story. I say that upfront because what follows may sou
 
 But what if you aren’t reading the ramblings of a madman right now?
 
-Can you spare 10 minutes?
+Can you spare 30 minutes?
 
-What if for the first time ever crazy internet guy delivers on his click-bait headline? What happens when someone comes along without a teaser or an agenda? When that person doesn’t ask you to subscribe or “hit that like button“?
+What if for the first time ever crazy internet guy delivers on his clickbait headline? What happens when someone comes along without a teaser or an agenda? When that person doesn’t ask you to subscribe or “hit that like button“?
 
 > And just…. presents the facts as he understands them…
 
@@ -44,29 +44,33 @@ How many times have we been told some politician or agency did something shady? 
 
 If you're anything like me you've probably stopped expecting anything to actually come of anything ever. I know I have. That's exactly why this story exists. It's why it lives here and why I'm not handing what I'm about to present to a newsroom or an institution. I'm hosting it here. For real people. Because I think the reason these things never reach a conclusion is that they always end up in the hands of someone with a reason to let them die quietly.
 
-I'm asking you, the astute reader, for both your time and your concern. Time to understand this story, and concern for the people it affects.
+I'm asking you, the astute reader, for both your time and your concern. Your time to understand this story, and your concern for the people it affects.
 
-Because it does affect people. It affects me. It affects you. It affects every Tennessean.
+> **Because it does affect people. It affects me. It affects you. It affects every Tennessean.**
 
-I've felt everything from being that crazy meme guy holding a cigarette in one hand pointing to a nonsensical bulletin board with the other to being a potential Pulitzer prize winning investigative journalist while researching this. I'll let you decide which.
+I've felt everything from being that crazy meme; guy holding a cigarette in one hand and pointing to a nonsensical bulletin board behind him with the other to being a potential Pulitzer prize winning investigative journalist while researching this.
+
+I'll let you decide which.
 
 ---
 
 ## The Simple Question That Was Until it Wasn't
 
-About a 30 minute drive north outside of Nashville there exists a single facility that has been quietly growing since construction began in 2020.
+About a 30 minute drive north from Nashville there exists a single facility that has been quietly growing since its construction began in 2020.
 
 Long before data centers became the latest hot button issue I watched while silently wondering why no one else was talking about or even seemed to care about what was happening all around us.
 
-I’m referring to the mega artificial intelligence data center owned by Meta in Gallatin, TN. The single facility capable of drawing roughly 300 megawatts, the equivalent power demands as [every single home in Nashville combined](/faq/#scale-reference-card).
+I’m referring to the artificial intelligence data center owned by Meta in Gallatin, TN. The single facility capable of drawing roughly 300 megawatts, the equivalent power demands as [every single home in Nashville combined](/faq/#scale-reference-card).
 
-The thing is absolutely massive!
+> **The thing is absolutely massive!**
 
-And not just the scale of it but the everything else around it happening simultaneously.
+And not just the scale of it but the everything else happening simultaneously around it.
 
 From the TVA's [$1.1 billion overhaul of the Gallatin Steam Plant](/sources/2013-04-07-timesfreepress-tva-1b-gallatin-steam-plant-upgrade/), [a major water pipeline being buried running uphill](/sources/growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis/), to everything else this investigation touches on, the scale and scope is honestly mind boggling.
 
-The TVA did catch some heat through all of this. Of course, having a sudden appetite for the seizure of private property through eminent domain will do that. Country artist John Rich took up both fights, first in [Cheatham County](/sources/2025-09-03-justthenews-john-rich-tva-cheatham-eminent-domain/), where a 900 megawatt gas plant would have swallowed 6,000 acres of farmland and some 500 homes, according to Just The News, and then in [Gallatin](/sources/2026-02-20-wsmv-tva-pauses-gallatin-transmission-line-gregory-farm/), where a proposed transmission line would have cut straight across a farm the same family has worked since the Revolutionary War.
+> **Speaking of The <!-- @c mentions like "TVA" in this example would be a could place to link back to our out site's "TVA" section wouldn't it? Let me know your thoughts here. -->Tennessee Valley Authority...**
+
+The TVA did catch some heat through all of this. Of course, having a sudden appetite for the seizure of private property through eminent domain will do that. Country artist John Rich took up two fights recently, first in [Cheatham County](/sources/2025-09-03-justthenews-john-rich-tva-cheatham-eminent-domain/), where (according to news outlets such as *Just the News*) a 900 megawatt gas plant would have swallowed 6,000 acres of farmland and some 500 homes. Then in [Gallatin](/sources/2026-02-20-wsmv-tva-pauses-gallatin-transmission-line-gregory-farm/), where a proposed transmission line would have cut straight across a farm the same family has worked since the Revolutionary War.
 
 But for the most part, all of this was happening at once, in the same area, with little to no outside coverage. What coverage there was came out of the state's own press release, and I mean that literally: the [Nashville Area Chamber of Commerce](/sources/2020-08-11-nashville-chamber-facebook-gallatin-verbatim-reprint/), [Tennessee Lookout](/sources/2020-08-12-tennessee-lookout-gallatin-lands-facebook/) and [Business Facilities](/sources/2020-08-business-facilities-facebook-800m-tennessee/) all ran the same paragraphs, word for word, unquoted and unattributed, within hours of each other.
 
