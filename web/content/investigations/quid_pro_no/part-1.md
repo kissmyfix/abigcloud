@@ -156,20 +156,21 @@ There is nothing left to tax.
 
 That's what the name in "PILOT" is supposed to cover. ***Payment In Lieu Of Tax***. The property comes off the rolls, and instead of the taxes nobody can collect anymore, the company pays something. That payment is the trade.
 
-Meta paid the city [$1,821,846](/sources/woolhawk-pilot-reporting/) last year.
+Meta paid the city of Gallatin [$1,821,846](/sources/woolhawk-pilot-reporting/) last year. Through Gallatin's very own but not really theirs IDB first though of course.
 
 The county's column on that same form is blank, and it has been blank every year since the deal first began and "Woolhawk" begin reporting yearly payments to the state comptrollers office back in 2020.
 
-*There is half a billion dollars of property sitting in Sumner County and the county has never reported collecting a dollar against it.*
+***There is half a billion dollars of property sitting in Sumner County and the county has never reported collecting a dollar against it.***
 
-**Then I looked at the federal filings.**\
+*Then I looked at the federal filings:*\
 Tennessee has roughly [400 Industrial Development Boards](/sources/idb-count-method/).\
 Only [Eight](/sources/tn-idb-subsections/) those ~400 file with the IRS at all.\
 Seven of those eight file as 501(c)(6) organizations.
 
 ***The eighth is Gallatin.***\
-*And Gallatin's IDB files as a 501(c)(4).*\
-The difference is *NOT* cosmetic.
+*And Gallatin's IDB files as a 501(c)(4).*
+
+That difference is *NOT* cosmetic.
 
 A 501(c)(6) is a business league, the chamber of commerce category, and it's the obvious fit for a board whose whole job is recruiting industry. That's where the other IDBs such as those found in Gibson and Hamilton counties fit in with their IRS filings.
 
