@@ -56,9 +56,16 @@ Back in 1955, during a national economic boom, landing a large manufacturer coul
 
 The problem was Tennessee's constitution. [Article II, Section 28](/explainers/the-title-transfer-mechanism/) requires that all property in the state be taxed. No exceptions, period. Section 29 goes further, and says cities and counties are explicitly prohibited from lending their credit or giving financial favors to private corporations. A city couldn't just hand Goodyear or Ford Motor Company a tax break. It would be unconstitutional.
 
-So instead of changing the constitution, lawmakers built a workaround. [The Industrial Development Corporations Act](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf) let cities create a separate public board, an [Industrial Development Board](/explainers/what-is-an-idb/), or IDB for short.
+So instead of changing the constitution, lawmakers built a workaround. [The Industrial Development Corporations Act](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf) allowed for cities to create a separate ***PUBLIC*** board called an [Industrial Development Board](/explainers/what-is-an-idb/), or IDB for short.
 
-The IDB owns the industrial property instead of the company. And since the IDB is technically a public entity, [its land is tax-exempt](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-305-tax-exemption-pilot.pdf). No constitutional violation. The board then leases that land back to the company, and instead of property taxes, the company pays the board whatever the two sides negotiate. That negotiated payment is the [PILOT, Payment In Lieu Of Taxes](/explainers/what-is-a-pilot/).
+Under this workaround the IDB can now own the land under which a factory sits instead of the corporation. And since the IDB is ***technically*** a public entity, its land is [tax-exempt](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-305-tax-exemption-pilot.pdf).
+
+No constitutional violation. \
+Easy-peasy. No harm. No foul.
+
+This mechanism allows for the public IDB to then lease that land it now ***technically*** owns back to the corporation who plans to build their factory on top of it. Now, instead of traditional property taxes, the company will make payments under whatever terms is and the industrial development negotiated.
+
+Those negotiated payments are commonly referred to as a Payment In Lieu Of Tax agreement or just the [PILOT](/explainers/what-is-a-pilot/) agreement for short.
 
 A structure built in 1955 for factories that employed thousands, now being used to shelter trillion-dollar tech companies that employ ["approximately 100"](/sources/2020-08-12-tnecd-press-release-facebook-gallatin/).
 
