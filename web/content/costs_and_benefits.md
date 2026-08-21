@@ -3,21 +3,14 @@ title: 'Costs and Benefits'
 description: 'Who bears the cost of building for data centers, and what the community actually gets back. Both columns on one page.'
 ---
 
-# **Costs and Benefits**
-**The costs of building infrastructure for data centers are real. The question of who bears them is not abstract. It is a documented, legal mechanism, and the answer is frequently: the residential ratepayer.**
+# **Weighing *Costs***
+
 
 > **The Harvard Law Finding**
 >
 > Electric utilities were historically granted exemptions from monopoly laws in exchange for capped profit percentages. A key provision: utilities are allowed to pass through costs of grid maintenance and upgrades to their full customer base. When a data center requires massive infrastructure investment, new transmission lines, substation upgrades, doubled capacity, that cost is distributed across every residential and commercial customer on the same grid. The mechanism is documented by Harvard Law research.
 
-| Figure | What It Measures |
-|---|---|
-| **5.25%** | TVA wholesale power rate increase in 2024, the largest in 16 years |
-| **4.5%** | TVA base rate hike heading into 2026 |
-| **HB 1847** | New TN law (signed May 7, 2026): 50+ MW centers must fund their own infrastructure |
-| **Stalled** | TVA data-center rate class, designed to protect ratepayers, after board firings |
 
-TVA has publicly stated it is a priority to ensure "serving new data centers does not create rate pressure on other electric customers." It has taken no binding action. The board effort to create a data-center rate class stalled after multiple board members were fired in early 2026. The state's legislative response, HB 1847, attempts to address this going forward but applies only to facilities drawing 50+ MW. Fisk's 30 MW proposal would not be covered.
 
 > **The Tax Incentive Ledger**
 >

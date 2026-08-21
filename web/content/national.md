@@ -3,7 +3,7 @@ title: 'The National Picture'
 description: 'Data centers consumed 4.4% of U.S. electricity in 2023. The growth trajectory is the part that should concern anyone paying attention.'
 ---
 
-# **The National Picture**
+# **The *United* States**
 **Data centers consumed 4.4% of all U.S. electricity in 2023. That number is real and sourced. It is also the beginning of the story, not the end of it. The growth trajectory is the part that should concern anyone paying attention.**
 
 | Year | Data Center TWh | % of U.S. Total | Context |
