@@ -51,38 +51,5 @@ So I decided to do something that seemed simple. Figure out the real pros and co
 > Because it came in before the controversy it had flown mostly under the radar.\
 > It's a modern version to what the term "Data Center" has come to truly mean.
 
-## The Simple Question That *Was*. Until it *Wasn't*
-
-### Have the [promises](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf) that got made been kept?
-
-> **The short ***answer*** is yes. The ***promises*** were kept.**
->
-> **Technically.**
-
-That technicality though is where this entire story lives. It wasn't that the talking points were wrong. The talking points are all perfectly crisp. It's that they were *engineered* and carefully *crafted*. Every word chosen carefully enough to survive a fact check. While completely misrepresenting what was actually happening.
-
-If you've ever bought a car from the cliché idea of a used car salesman who slapped the hood and swore it *"runs great"* while ***knowing*** the transmission was about to go ***kaput***, you get the feeling.
-
->**It's ***technically*** not a lie.**
->
->It might be worse than a lie.\
->A lie can be *caught*.\
->This is much tougher.\
->It's deceptive. 
-
-And that's what this story builds from. The facts and narratives which were made to hold up under scrutiny while meaning something entirely different than what you **heard** with your own ears, **saw** with your own eyes, or **felt** within your own self.
-
-My original questions walking in were reformed once I realized this. The framing itself was the trick. No longer was I asking "are data centers good or bad?".
-
-> **My questions then became:**
->
-> Why is seemingly everyone in on this? \
-> Why are state and local officials from both parties bending over backwards to twist words into new meanings? \
-> Why are those officials taking that political risk? \
-> What could possibly make every level of government line up behind the same carefully crafted narrative for corporations that are worth trillions and do not need the help?
-
-I was mostly though left just asking myself the  ***"WHY???"*** behind it all.
-
-Finding *those* answers is when things started getting interesting.
 
 
