@@ -141,11 +141,11 @@ Then I pulled Meta's parcel in Gallatin itself.
 
 And Meta doesn't own it. The Industrial Development Board of the City of Gallatin does.
 
-The state says that land and everything standing on it is worth [$519,189,800](/sources/state_of_tennessee/tn_property_assessments/sumner-assessment-woolhawk.pdf). It also says the assessed value is zero.
+The state says that land and everything standing on it is worth about a half a **BILLION** ([$519,189,800](/sources/state_of_tennessee/tn_property_assessments/sumner-assessment-woolhawk.pdf)) dollars. It also says the assessed value is zero.
 
 Both of those are true at the same time, and neither one is a mistake. The board owns the title, so the property is exempt, so there is nothing left to tax.
 
-That's what the name is supposed to cover. Payment In Lieu Of Tax. The property comes off the rolls, and instead of the taxes nobody can collect anymore, the company pays something. That payment is the trade.
+That's what the name in "PILOT" is supposed to cover. ***Payment In Lieu Of Tax***. The property comes off the rolls, and instead of the taxes nobody can collect anymore, the company pays something. That payment is the trade.
 
 Meta paid the city [$1,821,846](/sources/woolhawk-pilot-reporting/) last year.
 
