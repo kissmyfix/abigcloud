@@ -15,43 +15,9 @@ partTitle: "The Simple Question That Wasn't"
 ## How every level of government has failed Tennesseans and the steps elected leaders took to keep those failures secret
 
 ---
-
 > ![Andy and Red, The Shawshank Redemption](./andy.png)
 > “He’s got ***scams*** you haven’t even dreamed of. ***Kickbacks*** on his ***kickbacks***. There’s a ***river of dirty money*** running through this place.” \
 > **Andy Dufresne**, *The Shawshank Redemption*
----
-
-## Intro
-
-I wasn't looking for this story. I say that upfront because what follows may sound like I’ve lost my ever loving mind. Which, to be fair? Totally possible.
-
-But what if you aren’t reading the ramblings of a madman right now?
-
-Can you spare 30 minutes?
-
-What if for the first time ever crazy internet guy delivers on his clickbait headline? What happens when someone comes along without a teaser or an agenda? When that person doesn’t ask you to subscribe or “hit that like button“?
-
-> And just…. presents the facts as he understands them…
-
-How many times have we been told some politician or agency did something shady? How many of us have felt that flash of outrage, and then... nothing? No follow-up. No conclusion. Just the next headline pushing the last one out of the public conversation?
-
-> **Have we not become conditioned to a predictable pattern by now? Something similar to:**
->
-> 1. Accusation gets made
-> 2. Outrage ensues
-> 3. Silence. Deafening silence.
-> 4. Profit?
-
-If you're anything like me you've probably stopped expecting anything to actually come of anything ever. I know I have. That's exactly why this story exists. It's why it lives here and why I'm not handing what I'm about to present to a newsroom or an institution. I'm hosting it here. For real people. Because I think the reason these things never reach a conclusion is that they always end up in the hands of someone with a reason to let them die quietly.
-
-I'm asking you, the astute reader, for both your time and your concern. Your time to understand this story, and your concern for the people it affects.
-
-> **Because it does affect people. It affects me. It affects you. It affects every Tennessean.**
-
-I've felt everything from being that crazy meme; guy holding a cigarette in one hand and pointing to a nonsensical bulletin board behind him with the other to being a potential Pulitzer prize winning investigative journalist while researching this.
-
-I'll let you decide which.
-
 ---
 
 ## The Simple Question That Was Until it Wasn't
@@ -60,13 +26,13 @@ About a 30 minute drive north from Nashville there exists a single facility that
 
 Long before data centers became the latest hot button issue I watched while silently wondering why no one else was talking about or even seemed to care about what was happening all around us.
 
-I’m referring to the artificial intelligence data center owned by Meta in Gallatin, TN. The single facility capable of drawing roughly 300 megawatts, the equivalent power demands as [every single home in Nashville combined](/faq/#scale-reference-card).
+I’m referring to the artificial intelligence data center owned by Meta in Gallatin, TN. The single facility capable of drawing roughly 300 megawatts of power. The equivalent energy demands as [every single home in Nashville combined](/faq/#scale-reference-card).
 
-> **The thing is absolutely massive!**
+> **In other words, this thing is absolutely massive!**
 
-And not just the scale of it but the everything else happening simultaneously around it.
+And not just the scale of it but the everything else happening simultaneously around it. Happening both within the community of Gallatin specifically and the state of Tennessee as a whole.
 
-From the TVA's [$1.1 billion overhaul of the Gallatin Steam Plant](/sources/2013-04-07-timesfreepress-tva-1b-gallatin-steam-plant-upgrade/), [a major water pipeline being buried running uphill](/sources/growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis/), to everything else this investigation touches on, the scale and scope is honestly mind boggling.
+From the TVA's [$1.1 billion overhaul of the Gallatin Steam Plant](/sources/2013-04-07-timesfreepress-tva-1b-gallatin-steam-plant-upgrade/), [a major water pipeline being buried running uphill](/sources/growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis/),<!-- @c I'll need you to link the source backing this new claim i'm stating here. should already be in our files either in the fenton podcast or perhaps a UT knoxville specific area. --> the University of Tennessee's internal power struggle, to everything else this investigation touches on, the scale and scope is honestly mind boggling.
 
 > **Speaking of The <!-- @c mentions like "TVA" in this example would be a could place to link back to our out site's "TVA" section wouldn't it? Let me know your thoughts here. -->Tennessee Valley Authority...**
 
