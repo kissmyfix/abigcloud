@@ -27,7 +27,7 @@ I’m referring to the artificial intelligence data center owned by Meta in Gall
 
 And not just the scale of the facility itself,  but also the everything else happening simultaneously around it. Happening both within the community of Gallatin specifically and the state of Tennessee as a whole.
 
-From the TVA's [$1.1 billion overhaul of the Gallatin Steam Plant](/sources/2013-04-07-timesfreepress-tva-1b-gallatin-steam-plant-upgrade/), [a major water pipeline being buried running uphill](/sources/growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis/),<!-- @c I'll need you to link the source backing this new claim I'm stating here. should already be in our files either in the Fenton podcast or perhaps a UT Knoxville specific area. --> the University of Tennessee's internal power struggle, and everything else this investigation touches on, the scale and scope is, quite frankly, mind boggling.
+From the [TVA's $1.1 billion dollar overhaul of the Gallatin Steam Plant](/sources/2013-04-07-timesfreepress-tva-1b-gallatin-steam-plant-upgrade/) to a [a major water pipeline being buried running uphill](/sources/growing-pains-exploring-the-challenges-in-a-thriving-sumner-county-the-truth-about-growth-in-small-cities-with-mayor-mike-callis/) <!-- @c I'll need you to link the source backing this new claim I'm stating here. should already be in our files either in the Fenton podcast or perhaps a UT Knoxville specific area. --> to the University of Tennessee's internal power struggle and everything in between that this investigation touches on, the scale and scope is, quite frankly, mind boggling.
 
 **Speaking of The Tennessee Valley Authority...**
 <!-- @c mentions like "TVA" in this example would be a good place to link back to our own site's "TVA" section wouldn't it? Let me know your thoughts here-->
@@ -41,13 +41,13 @@ This wasn't about noise complaints or saving the pandas. Not in my opinion that 
 
 The whole thing felt manufactured and misplaced. Both sides of it.
 
-So I decided to do something that seemed simple. Figure out the real pros and cons. The true community impact these facilities carry. Not by listening to either one of them, but by checking the receipts.
-
-> **I picked the Meta facility in Gallatin as my test case for a few reasons:**
+> **I selected the Meta facility in Gallatin here for a few reasons:**
 >
-> It has been running long enough to have trackable & verifiable data points.\
-> Because it came in before the controversy it had flown mostly under the radar.\
+> It is local to me and was therefore a known subject. \
+> It has been running long enough to have both trackable & verifiable data points.\
+> Because it came in before the controversy it has flown mostly under the radar.\
 > It's a modern version to what the term "Data Center" has come to truly mean.
 
+So I decided to do something that seemed simple. Discover the true community impact these facilities carry. Not by listening to either one side of the debate, but by checking the receipts.
 
-
+*Fully* **and** *thoroughly...*
