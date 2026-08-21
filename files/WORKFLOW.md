@@ -171,7 +171,7 @@ shipping quietly.
 |---|---|
 | `title` | The `<title>` tag and what search results show. Not printed on the page — the page's own `#` heading does that |
 | `description` | The sentence under the title in search results and link previews |
-| `pubDate` / `updatedDate` | Printed under the title. Investigations are dated; standing reference pages are not |
+| `pubDate` / `updatedDate` | Printed under the title. Investigations are dated; standing explainer pages are not |
 | `draft: true` | The page is **not built for the live site at all** — no URL, nothing in the sitemap. It still appears in local preview, flagged with a pill |
 | `toc: true` | Adds the floating Contents drawer and the reading-progress bar. The drawer hides itself below three headings, so setting it on a short page does nothing |
 | `heroImage` / `heroImageNarrow` | Replace the default banner. Narrow is the phone crop |
