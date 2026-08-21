@@ -10,13 +10,13 @@ part: 1
 partTitle: "The Simple Question That Wasn't"
 ---
 
-># **Quid-Pro-*NO!***
->
->## The Simple Question That *Was*. Until it *Wasn't*
->
-> ### Were the [promises](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf) made kept?
+# **Quid-Pro-*NO!***
 
- **The short ***answer*** is yes. The ***promises*** were kept.**
+## The Simple Question That *Was*. Until it *Wasn't*
+
+### Were the [promises](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf) made kept? 
+
+**The short ***answer*** is yes. The ***promises*** were kept.**
 
  **Technically.**
 
@@ -44,7 +44,7 @@ My original questions walking in were reformed once I realized this. The framing
 
 I was mostly though left just asking myself the  ***"WHY???"*** behind it all.
 
-Finding *those* answers is when things started getting interesting.
+Finding *those* answers is when things began to get interesting.
 
 ### A Legal Loophole from 1955
 
@@ -191,33 +191,74 @@ A board holding half a billion dollars of exempt property for a company that rep
 That's not a coincidence.\
 That's a choice.
 
-### The First Filing
+### The Plot Thickens
 
-The choice to file with the IRS at all appears to have been forced. The Gallatin IDB was [chartered in 1994, administratively dissolved in 2012, then reinstated in early 2013](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf) when companies like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 there are no public federal filings.
+*The choice to file with the IRS at all appears to have in fact been forced.*
 
-That doesn't mean there's nothing to look at. The state's PILOT reporting covers those years, and it shows a board that has always done this its own way.
+The [Gallatin IDB](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf), was first chartered in 1994, was then administratively dissolved in 2012, only to then get reinstated in early 2013 when companies like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 there are no public federal filings.
 
-[Bradford](/sources/woolhawk-pilot-reporting/) has been on the Gallatin IDB's books since 2016. Every year it files, it reports its payments in the column marked RENT. The PILOT columns, city and county both, sit empty. Rent isn't a payment in lieu of tax. It doesn't get looked at the way a PILOT gets looked at.
+That doesn't mean there's nothing to look at. The state's PILOT reporting covers those years, and it shows a board that has always operated under its own set of rules in its very own way. Well, since 2013 that is, more on the significance of that year in a moment.
 
-[Beretta](/sources/2014-01-29-tnecd-beretta-gallatin-manufacturing-announcement/) is stranger. The state announced it in January 2014, $45 million and 300 jobs in the Gallatin Industrial Park. It shows up in the county's PILOT reporting exactly twice, in 2015 and 2016, and the 2016 payment field reads NO INFO. After that it stops appearing at all. Not a reduced payment. Not a disputed one. It never reported paying anything, and then it stopped being asked.
+[Bradford](/sources/woolhawk-pilot-reporting/) has been on the Gallatin IDB's books since 2016. Every year it files, it reports its payments to the state comptroller's office as payments marked RENT. Both the PILOT to County and the PILOT to City payment columns report zero.
 
-Which is its own story for another day, because the state had put [$8,000,000 of general obligation bond money through this same board](/sources/2014-06-12-cumulative-fiscal-note-2014-session/) to land that project.
+Rent isn't a payment in lieu of tax. It doesn't get looked at the way a PILOT gets looked at.
 
-Then Meta shows up. And Meta's lawyers, being the lawyers of a trillion-dollar corporation, presumably have expectations about doing business with a counterparty that exists on paper. My working theory, supported by the timeline, is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal. They may have even learned that lesson the hard way in 2017, when Gallatin lost the earlier iteration of this deal, Project Skillet, to Alabama.
+[Beretta](/sources/2014-01-29-tnecd-beretta-gallatin-manufacturing-announcement/) is even more strange. The state announced it in January 2014 along with the PR campaign tagline citing "$45 million dollars invested by Beretta and 300 jobs created." Beretta's PILOT payments show up in the PILOT reporting twice as "NO INFO" in 2015 and 2016, and by 2016 Beretta stops appearing at all. 
 
-So they filed. But they couldn't file honestly, because an honest filing would mean explaining twenty-six years of unreported activity. So [the first 990](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf), signed on November 14, 2021 by Preston Stark, is marked as an "initial return", the box a body checks the first year it exists. On the same form, the year opens with $102,948 already in the bank. A quarter century of history erased with a checkbox, and the money from those years still sitting there.
+Not a reduced payment. Not a disputed one. It never reported paying anything, and then it stopped being asked.
 
-And the filing itself is a mess. [Part III](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf) lists "Fees in lieu of taxes paid to Sumner County Tennessee $17,474.00 Beretta $39,919.00, and Bradford $13,155.00", the tenants making PILOT payments in, written up as beneficiaries who received money out. Schedule O, in the same document with the same signature, tells a completely different story: $69,549 to "Summer County" (their typo, not mine, it's Sumner). Part III adds to $70,548. Schedule O says $69,549. The two sections disagree by exactly $999, disagree on recipients entirely, and disagree on the direction the money flowed.
+Which is its own story for another day, because the state had put eight million dollars ([$8,000,000](/sources/2014-06-12-cumulative-fiscal-note-2014-session/)) to land that project through general obligation bond money and flowing through this same board.
 
-That's not an accounting error. That's someone filling in a form about activity they can't document because it was never meant to be documented.
+Then Meta shows up. Along with Meta's lawyers. 
 
-And every one of those filings carries the same name. Preston Stark signed the 2020 return as Contracted Board Administrator, and he signed 2021, 2022, 2023 and 2024 too.
+Once would likely be safe in assuming lawyers of a trillion dollar corporation would presumably have expectations about doing business with a counterpart who exists on paper.
+
+My working theory, supported by the timeline, is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal. They may have even learned that lesson the hard way back in 2017, when Gallatin lost the earlier iteration of this deal, Project Skillet, to Alabama.
+
+*So. They filed.*
+
+They couldn't file honestly though because an honest filing would mean explaining twenty-six years of unreported activity.
+
+Which is why [the first 990](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf), signed on November 14, 2021 by Preston Stark (more on him later) is marked as an "initial return".
+
+*This is the box an organization checks the first year it exists.*
+
+On the same form, the year opens with $102,948 already in the bank. A quarter century of history erased with a checkbox, and the money from who knows where already in the bank.
+
+*Moreover, the filing itself is a mess.*
+
+>**[Part III](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf) lists verbatum (emphasis mine):**
+>
+>*Fees in lieu of taxes **paid to**:*\
+**Sumner County Tennessee** $17,474.00*\
+>***Beretta** $39,919.00*\
+>***Bradford** $13,155.00"*
+
+This is **NOT** possible.\
+The tenants making PILOT payments in, written up as beneficiaries who received money out.
+
+>**Schedule O, in the same document with the same signature, tells a completely different story:**
+>
+>$69,549 ***to*** "Summer County" (their typo, not mine, it's Sumner).\
+>The sum of Part III (payments received) adds to **$70,548**.\
+>The sum of Schedule O (payments made) adds to **$69,549**.
+
+The two sections disagree by exactly *$999* ***(felony territory anyone?)***.\
+They disagree on recipients entirely.\
+***AND*** they disagree on the direction the money flowed.\
+That's not an accounting error.
+
+That's someone filling in a form about activity they can't document because it was never meant to be documented.
+
+And every one of those filings carries the same name. Preston Stark signed the 2020 return as Contracted Board Administrator, and he later signed 2021, 2022, 2023 and 2024 as board director.
 
 Look at what he signed. The line above the signature reads: "Under penalties of perjury, I declare that I have examined this return, including accompanying schedules and statements, and to the best of my knowledge and belief, it is true, correct, and complete."
 
 There are two promises in that sentence and only one of them is hedged. Whether it's accurate is limited to the best of his knowledge. That he read it is not.
 
-There's one more. The 2023 and 2024 filings both say the board's finances were reviewed by an outside auditor that year. I went looking for those audits. The only one that exists anywhere in the public record is for the year ending June 30, 2025, and it came out after both of those filings were signed.
+But wait, there's one more!
+
+The 2023 and 2024 filings both say the board's finances were reviewed by an outside auditor that year. I went looking for those audits. The only one that exists anywhere in the public record is for the year ending June 30, 2025, and it came out after both of those filings were signed.
 
 ### The Confession That Doesn't Know It's Confessing
 
