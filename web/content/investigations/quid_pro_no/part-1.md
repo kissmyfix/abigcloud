@@ -83,14 +83,30 @@ Adding to that name change difference, Facebook creates shell companies register
 
 Par for the expected course so far. 
 
->**On a personal note here:**
+>**On a **personal** note here:**
 >
-> Gotta love the irony of a corporation such as Meta of demanding privacy.\
-> Hypocrisy much anyone?
+> Gotta love the irony in a corporation such as Meta not ***just*** *demanding* but ***requiring*** privacy.\
+> *Hypocrisy* much anyone?
 
-For our purposes here, we'll have two codename projects to keep up with. First in 2016 as Project Skillet. Then as Project Woolhawk beginning around 2017.  and watched as it lost that first attempt in landing Facebook  it go to Huntsville. GEDA's own account is that Project Skillet ["morphed into Project Wool Hawk"](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-bates.pdf) - same company, new name, back knocking on the door. When it returned it came [wrapped in an NDA](/sources/fenton-on-podcast-full/) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
+For our purposes here, we'll have two codename projects to keep up with. First in 2016 as Project Skillet. Then as Project Woolhawk beginning around 2017.  
 
-The closest thing to those terms on the public record is [Resolution R2005-24](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/), put before the council on May 12, 2020. Woolhawk, LLC, a Delaware limited liability company, would pay a flat $1,000,000 a year for the first building and less for every building after it, $750,000 for the second, $550,000 by the sixth. Twenty years of abatement on each. Until the first building is finished, the payment is the taxes on the raw land as it was zoned before.
+In 2016 Gallatin watched as it lost its first attempt in landing Meta/Facebook (Project Skillet) go to Huntsville.
+
+The Gallatin Economic Development Agency's (GEDA) own [account](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-bates.pdf) is that Project Skillet "morphed into Project Wool Hawk". 
+
+Same company, new name, back knocking on the door a year later.
+
+When it returned it came [prewrapped in an NDA](/sources/fenton-on-podcast-full/) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
+
+**Speaking of PILOT terms....**
+
+The closest thing to those terms on the public record is [Resolution R2005-24](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/), put before the council on May 12, 2020. Woolhawk, LLC, a Delaware limited liability company, would pay a flat $1,000,000 for the first building and less for every building after it. 
+
+$750,000 for the second, $550,000 by the sixth.
+
+**Twenty** years of abatement on each.
+
+Until the first building is finished, the payment is the taxes on the raw land as it was zoned before.
 
 That is what was presented. Whether it is what was signed, nobody outside the deal can say. 
 
