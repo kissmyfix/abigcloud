@@ -38,13 +38,15 @@ The TVA did catch some heat through all of this. Of course, having a sudden appe
 
 For the most part though all of this was happening everywhere all at once with little to no outside coverage. What coverage there was came out of the state's own press release, and I mean that literally: the [Nashville Area Chamber of Commerce](/sources/2020-08-11-nashville-chamber-facebook-gallatin-verbatim-reprint/), [Tennessee Lookout](/sources/2020-08-12-tennessee-lookout-gallatin-lands-facebook/) and [Business Facilities](/sources/2020-08-business-facilities-facebook-800m-tennessee/) all ran the same paragraphs, word for word, unquoted and unattributed, within hours of each other.
 
-Then, more recently, the larger public began taking notice. Admit it, some of y’all got big mad when the outrage finally arrived. However sideways that anger was seemingly aimed.
+Then more recently the larger public began taking notice during the whole [DC Blox debacle](/sources/2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer/). During which some of y’all got big mad when the outrage finally arrived. From my vantage point, however, that anger all seemed aimed in the wrong direction.
 
-I won’t spend the time here rehashing [the DC Blox deal](/sources/2026-07-09-tennessean-what-is-dc-blox-nashville-zoo-primer/). And honestly I’m a bit biased in where I rank the two stories, but the zoo angle just never sat quite right with me.
+This wasn't about noise complaints or saving the pandas. Not in my opinion that is anyway. I am a bit biased in where I rank the two stories, but the zoo angle just never sat quite right with me.
 
 The whole thing felt manufactured and misplaced. Both sides of it.
 
 So I decided to do something that seemed simple. Figure out the real pros and cons. The true community impact these facilities carry. Not by listening to either one of them, but by checking the receipts.
+
+## The Simple Question That Was. Until it Wasn't
 
 > **I picked the Meta facility in Gallatin as my test case for a few reasons:**
 >
@@ -52,31 +54,34 @@ So I decided to do something that seemed simple. Figure out the real pros and co
 > Because it came in before the controversy it had flown mostly under the radar.\
 > It's a modern version to what the term "Data Center" has come to truly mean.
 
-### The Simple Question That Was. Until it Wasn't
+### Have [the promises made](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf) been kept?
 
-Have [the promises made](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf) been kept?
+The short answer is yes. The promises were kept.
 
-The short answer is yes. The promises were kept. Technically. And that "technically" is where this entire story lives.
+***Technically.***
 
-It wasn't that the talking points were wrong. It's that they were engineered. Every word chosen carefully enough to survive a fact-check while completely misrepresenting what was actually happening.
+That though is where this entire story lives. It wasn't that the talking points were wrong. The talking points are all perfectly crisp. It's that they were engineered and carefully crafted. Every word chosen carefully enough to survive a fact check. While completely misrepresenting what was actually happening.
 
-If you've ever bought a used car from a guy who slapped the hood and said it "runs great" while knowing the transmission was about to go kaput, you know the feeling:
+If you've ever bought a car from the cliche used car salesman who slapped the hood and said it "runs great" while knowing the transmission was about to go kaput, you know the feeling:
 
-It's not a *lie*. \
-It's ***worse*** than a lie. \
-A lie can be *caught*.
+It's ***technically*** not a lie.\
+It might even be worse than a lie.\
+A lie can be *caught*.\
+This is much tougher.\
+It's deceptive. 
 
-This stuff is built to hold up under scrutiny while meaning something entirely different than what you heard.
+And that's what this story builds from. The facts and narratives which were made to hold up under scrutiny while meaning something entirely different than what you **heard** with your own ears, **saw** with your own eyes, or **felt** within your own self.
 
-My questions were reformed once I realized the framing itself was the trick. No longer was I asking "are data centers good or bad?".
+My original questions walking in were reformed once I realized this. The framing itself was the trick. No longer was I asking "are data centers good or bad?".
 
-My questions became: \
-Why is seemingly everyone in on this? \
-Why are state and local officials from both parties bending over backwards to twist words into new meanings? \
-Why are those officials taking that political risk? \
-What could possibly make every level of government line up behind the same carefully crafted narrative for corporations that are worth trillions and do not need the help?
+> **My questions then became:**
+>
+> Why is seemingly everyone in on this? \
+> Why are state and local officials from both parties bending over backwards to twist words into new meanings? \
+> Why are those officials taking that political risk? \
+> What could possibly make every level of government line up behind the same carefully crafted narrative for corporations that are worth trillions and do not need the help?
 
-I was mostly left just asking myself the  ***"WHY???"*** behind it all.
+I was mostly though left just asking myself the  ***"WHY???"*** behind it all.
 
 Finding *those* answers is when things started getting interesting.
 
