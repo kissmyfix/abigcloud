@@ -59,6 +59,17 @@ function stripClaudeNotes() {
 export default defineConfig({
 	site: 'https://abigcloud.com',
 	integrations: [mdx(), sitemap()],
+	// The Reference section became Explainers on 2026-08-21. Anything already
+	// pointing at the old paths keeps working instead of 404ing.
+	redirects: {
+		'/reference': '/explainers',
+		'/reference/501c4-vs-instrumentality': '/explainers/501c4-vs-instrumentality',
+		'/reference/confirmed-falsehoods': '/explainers/confirmed-falsehoods',
+		'/reference/open-threads': '/explainers/open-threads',
+		'/reference/the-title-transfer-mechanism': '/explainers/the-title-transfer-mechanism',
+		'/reference/what-is-a-pilot': '/explainers/what-is-a-pilot',
+		'/reference/what-is-an-idb': '/explainers/what-is-an-idb',
+	},
 	markdown: {
 		remarkPlugins: [stripClaudeNotes],
 		rehypePlugins: [eagerFirstImage],

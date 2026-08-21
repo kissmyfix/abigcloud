@@ -36,7 +36,7 @@ separates the ordinary IDB mechanism from what is specific to Gallatin.
 ## Notes
 Gibson files as a 501(c)(6). Gallatin filed as a 501(c)(4). The question of why that choice
 was available and what it required is worked in
-`web/content/reference/501c4-vs-instrumentality.md`, and the comparison here is the empirical half of
+`web/content/explainers/501c4-vs-instrumentality.md`, and the comparison here is the empirical half of
 that argument.
 
 The matching PILOT registry filings were in

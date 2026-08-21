@@ -89,11 +89,11 @@ Here's the short version.
 
 Back in 1955, during a national economic boom, landing a large manufacturer could set a small city up for decades. One big factory meant stable jobs, stable tax revenue, and the budget certainty needed for planned growth. City leaders were willing to sweeten the deal to attract those companies.
 
-The problem was Tennessee's constitution. [Article II, Section 28](/reference/the-title-transfer-mechanism/) requires that all property in the state be taxed. No exceptions, period. Section 29 goes further, and says cities and counties are explicitly prohibited from lending their credit or giving financial favors to private corporations. A city couldn't just hand Goodyear or Ford Motor Company a tax break. It would be unconstitutional.
+The problem was Tennessee's constitution. [Article II, Section 28](/explainers/the-title-transfer-mechanism/) requires that all property in the state be taxed. No exceptions, period. Section 29 goes further, and says cities and counties are explicitly prohibited from lending their credit or giving financial favors to private corporations. A city couldn't just hand Goodyear or Ford Motor Company a tax break. It would be unconstitutional.
 
-So instead of changing the constitution, lawmakers built a workaround. [The Industrial Development Corporations Act](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf) let cities create a separate public board, an [Industrial Development Board](/reference/what-is-an-idb/), or IDB for short.
+So instead of changing the constitution, lawmakers built a workaround. [The Industrial Development Corporations Act](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf) let cities create a separate public board, an [Industrial Development Board](/explainers/what-is-an-idb/), or IDB for short.
 
-The IDB owns the industrial property instead of the company. And since the IDB is technically a public entity, [its land is tax-exempt](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-305-tax-exemption-pilot.pdf). No constitutional violation. The board then leases that land back to the company, and instead of property taxes, the company pays the board whatever the two sides negotiate. That negotiated payment is the [PILOT, Payment In Lieu Of Taxes](/reference/what-is-a-pilot/).
+The IDB owns the industrial property instead of the company. And since the IDB is technically a public entity, [its land is tax-exempt](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-305-tax-exemption-pilot.pdf). No constitutional violation. The board then leases that land back to the company, and instead of property taxes, the company pays the board whatever the two sides negotiate. That negotiated payment is the [PILOT, Payment In Lieu Of Taxes](/explainers/what-is-a-pilot/).
 
 A structure built in 1955 for factories that employed thousands, now being used to shelter trillion-dollar tech companies that employ ["approximately 100"](/sources/2020-08-12-tnecd-press-release-facebook-gallatin/).
 
@@ -139,7 +139,7 @@ Gallatin files as a 501(c)(4).
 
 The difference isn't cosmetic. A 501(c)(3) is the standard charity, the one where your donation is deductible and political activity is tightly limited. That's what the Shalom Zone is, and the Gallatin daycare. A 501(c)(6) is a business league, the chamber of commerce category, and it's the obvious fit for a board whose whole job is recruiting industry. That's where the other IDBs sit.
 
-A [501(c)(4) is a social welfare organization](/reference/501c4-vs-instrumentality/). Civic leagues and advocacy groups. It can lobby without limit, it can spend on politics, and it never has to say who paid for any of it. That last part is why the category turns up in every story ever written about dark money.
+A [501(c)(4) is a social welfare organization](/explainers/501c4-vs-instrumentality/). Civic leagues and advocacy groups. It can lobby without limit, it can spend on politics, and it never has to say who paid for any of it. That last part is why the category turns up in every story ever written about dark money.
 
 Not a regional quirk. Not a gray area. The only one.
 

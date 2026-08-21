@@ -53,7 +53,7 @@ Everything lives in **`github.com/kissmyfix/abigcloud`**. There is no second rep
 | `web/content/sources/` | **Generated, never hand-edited.** One page per cited text document, rendered in the site's layout: `.md` formatted, `.txt` verbatim in `<pre>`, PDFs skipped. Written by the publish step; a document appears here the first time a page cites it. |
 | `web/assets/` | Site images. `banners/` for page heroes referenced from frontmatter, `img/` for images held for future use. A one-page image colocates with its page instead. Not evidence, and unreachable by `@/`. |
 | `web/src/` | The Astro site: layouts, components, content config, styles. Hand-edited. |
-| `web/content/reference/` | Standing explainers a reader can be sent to mid-article rather than having the argument stop to define a term: what an IDB is, what a PILOT is, the title-transfer mechanism, 501(c)(4) versus instrumentality, confirmed falsehoods, open threads. Edited like any other page. |
+| `web/content/explainers/` | Standing explainers a reader can be sent to mid-article rather than having the argument stop to define a term: what an IDB is, what a PILOT is, the title-transfer mechanism, 501(c)(4) versus instrumentality, confirmed falsehoods, open threads. Edited like any other page. |
 | `podcasts/transcripts/` | Whisper transcripts of every episode in `manifest.csv`, one `.txt` each. |
 | `sumner_county/gallatin_electric_utility/` | Gallatin Department of Electricity rate sheets, 2016–2026, standardised on June. The ratepayer-cost instrument. |
 | `.claude/skills/` | Project-local skills. `investigative-journalist/` defines the five working modes. |

@@ -73,4 +73,4 @@ Every claim traces to a public record. State filings, federal tax documents, pro
 
 These pieces run into the same structures over and over. If a term stops you, start here.
 
-[What is an IDB?](/reference/what-is-an-idb/) · [What is a PILOT?](/reference/what-is-a-pilot/) · [The title-transfer mechanism](/reference/the-title-transfer-mechanism/) · [501(c)(4) vs. instrumentality](/reference/501c4-vs-instrumentality/)
+[What is an IDB?](/explainers/what-is-an-idb/) · [What is a PILOT?](/explainers/what-is-a-pilot/) · [The title-transfer mechanism](/explainers/the-title-transfer-mechanism/) · [501(c)(4) vs. instrumentality](/explainers/501c4-vs-instrumentality/)
