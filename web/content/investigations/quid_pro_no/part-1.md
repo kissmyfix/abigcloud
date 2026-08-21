@@ -63,7 +63,7 @@ Under this workaround the IDB can now own the land under which a factory sits in
 No constitutional violation. \
 Easy-peasy. No harm. No foul.
 
-This mechanism allows for the public IDB to then lease that land it now ***technically*** owns back to the corporation who plans to build their factory on top of it. Now, instead of traditional property taxes, the company will make payments under whatever terms is and the industrial development negotiated.
+This mechanism allows for the public IDB to then lease that land it now ***technically*** owns back to the corporation who plans to build their factory on top of it. Now, instead of traditional property taxes, the company will make payments under whatever terms it and the industrial development board negotiated.
 
 Those negotiated payments are commonly referred to as a Payment In Lieu Of Tax agreement or just the [PILOT](/explainers/what-is-a-pilot/) agreement for short.
 
@@ -71,7 +71,24 @@ A structure built in 1955 for factories that employed thousands, now being used 
 
 ### The Unicorn
 
-When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement. Gallatin had already courted this company once, under the codename Project Skillet, and watched it go to Huntsville. GEDA's own account is that Project Skillet ["morphed into Project Wool Hawk"](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-bates.pdf) - same company, new name, back knocking on the door. When it returned it came [wrapped in an NDA](/sources/fenton-on-podcast-full/) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
+When I went looking for the Meta PILOT agreement, I hit a wall. The whole deal starts years before any public announcement and had been initiated from the very beginning with secrecy in mind. And as a matter of doing business.
+
+First, Gallatin had already courted this company once under the codename Project Skillet.
+
+So we're already hitting some points to remember here:
+
+The company we all now know as Meta in our present day was at the time still publicly known as Facebook.
+
+Adding to that name change difference, Facebook creates shell companies registered in Delaware for it to operate incognito under while negotiating with your elected leaders.
+
+Par for the expected course so far. 
+
+>**On a personal note here:**
+>
+> Gotta love the irony of a corporation such as Meta of demanding privacy.\
+> Hypocrisy much anyone?
+
+For our purposes here, we'll have two codename projects to keep up with. First in 2016 as Project Skillet. Then as Project Woolhawk beginning around 2017.  and watched as it lost that first attempt in landing Facebook  it go to Huntsville. GEDA's own account is that Project Skillet ["morphed into Project Wool Hawk"](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-bates.pdf) - same company, new name, back knocking on the door. When it returned it came [wrapped in an NDA](/sources/fenton-on-podcast-full/) and routed through a shell corporation called Project Woolhawk. By the time anyone in Gallatin heard the name, the terms were already set.
 
 The closest thing to those terms on the public record is [Resolution R2005-24](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/), put before the council on May 12, 2020. Woolhawk, LLC, a Delaware limited liability company, would pay a flat $1,000,000 a year for the first building and less for every building after it, $750,000 for the second, $550,000 by the sixth. Twenty years of abatement on each. Until the first building is finished, the payment is the taxes on the raw land as it was zoned before.
 
