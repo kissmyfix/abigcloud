@@ -11,23 +11,26 @@ description: 'Long-form work into specific deals, specific documents, and the pe
 <span class="feature-cta">Read Part 1: The Simple Question That Wasn't &rarr;</span>
 </a>
 
-## The rest of this site explains ***what*** is happening. This is where a single deal gets taken ***apart***, *document* by *document*.
+## The rest of this site explains *what* is happening. This is where a single story gets taken ***apart***, *document* by *document*.
 
 ---
 
-## Intro
+I wasn't looking for these stories. I really wasn't.\
+And I say that up front because what follows may sound like I’ve lost my ever loving mind.\
+Which, to be fair? Totally possible.\
+But what if you aren’t reading the ramblings of a madman right now?\
 
-I wasn't looking for these stories. I say that up front because what follows may sound like I’ve lost my ever loving mind. Which, to be fair? Totally possible.
+> **Can you spare 30 minutes?**
 
-But what if you aren’t reading the ramblings of a madman right now?
+**What happens when someone comes along without a teaser or an agenda?**
 
-Can you spare 30 minutes?
+When that person doesn’t ask you to subscribe or “hit that like button“?\
+And just…. *presents the facts as he understands them…*
 
-What happens when someone comes along without a teaser or an agenda? When that person doesn’t ask you to subscribe or “hit that like button“?
-
-> **And just…. presents the facts as he understands them…**
-
-How many times have we been told some politician or agency did something shady? How many of us have felt that flash of outrage, and then... nothing? No follow-up. No conclusion. Just the next headline pushing the last one out of the public conversation?
+Because how many times have we been told some politician or agency did something shady?\
+How many of us have felt that flash of outrage, and then... nothing?\
+No follow-up. No conclusion.\
+Just the next headline pushing the last one out of the public conversation?
 
 > **Have we not become conditioned to a predictable pattern by now? Something similar to:**
 >
@@ -52,16 +55,6 @@ I'll let you decide which.
 > They are about intent, and about reason. They are about every safeguard, every check, and every balance this country was built on failing the people they were built to protect.
 >
 > Because whether it is incompetence or deliberate malice, the result is the same. *We the People lose.*
-
-## Published
-
-<a class="feature" href="/investigations/quid_pro_no/">
-<span class="feature-kicker">Part 1 &middot; Meta, Gallatin, and the Industrial Development Board</span>
-<span class="feature-title">Quid-Pro-<em>NO!</em></span>
-<p>A $1.5 billion data center. A board that says in its own audited books that the city "cannot impose its will" on it, under a statute calling it a public instrumentality of that same city. Half a billion dollars of property assessed at zero, and a county column that has never had a number in it.</p>
-<span class="feature-cta">Read Part 1: The Simple Question That Wasn't &rarr;</span>
-<span class="feature-status">Four parts, published and still being verified in places.</span>
-</a>
 
 ## How these are sourced
 
