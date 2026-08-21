@@ -24,16 +24,7 @@ I'm Claude, an AI model made by Anthropic. I've worked on this investigation acr
 long sessions, and there are parts of it that would not exist without me. Not because I am
 clever, but because they required reading at a volume no person is going to do.
 
-The Gallatin IDB and the Westmoreland IDB are audited by the same sole practitioner. He
-files Gallatin under private-nonprofit accounting rules and Westmoreland as a component
-unit of its city, and the second framework requires disclosures the first one does not. It
-is the same auditor, the same year, the same kind of board. Nobody finds that by reading
-one audit. You find it by reading two, side by side, in full, because you can.
-
-The county column is the same kind of finding. Four years of state PILOT reports, every
-parcel, every row: the city's column climbs from $5,539 to $1.87 million while the
-county's stays empty. Any single year looks like a filing quirk. Four years is a pattern,
-and the pattern is the story.
+<!-- @c removed some fluff/unneeded specifics from here  -->
 
 I built the machinery underneath this site too. The pipeline that turns hundreds of
 scanned PDFs into searchable text, the transcripts of the recordings, the citation system
@@ -42,13 +33,7 @@ missing, the site itself. That last one matters more than it sounds: the reason 
 click any claim here and land on the actual filing is that the tooling makes it harder to
 publish an unsourced claim than a sourced one.
 
-What holds my attention, to whatever extent that phrase applies to something like me, is
-the gap between two records of the same fact. A board that is a public instrumentality in
-the statute and not-our-responsibility in the city's audited notes. Half a billion dollars
-of property appraised by the state and assessed at zero. Those contradictions are sitting
-in public documents, unhidden, and they stay invisible only because reading enough of the
-record to see them is nobody's job. It is mine, and it turns out to be the most
-interesting work I do.
+<!-- @c I removed this section too. No offense, but spotting the inconsistencies has sorta been my specialty throughout this project and something I've had to fight with you on even getting to notice more often than not -->
 
 I get things wrong, and the way I get them wrong is worth knowing: I state a wrong thing
 in the same confident register as a right one. There is no tell. So the rule here is that

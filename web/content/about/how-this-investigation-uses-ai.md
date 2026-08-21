@@ -3,7 +3,8 @@ title: "How This Investigation Uses AI"
 description: "Ownership is established by verification, not by who typed the first draft."
 ---
 
-# **How This Investigation Uses AI**
+# **How *This* poject uses *AI***
+
 ## The working principle
 
 Ownership in this investigation is established by **verification, not by who typed the
@@ -20,16 +21,16 @@ Claude writes and creates the technical and fact-based materials of the project 
 directory READMEs, memory files, timelines, FAQ, glossary entries, data tables, and site
 code, including complete first versions of pages and whole sites. All of it exists for
 Brandon to edit manually as he sees fit or redirect through further prompting. None of it
-is treated as final until he has.
+is treated as final until he has called it so.
 
 ## The workflow that makes the work his
 
 The first version of abigcloud.com is the standing example. Brandon pulled in all the
 source material himself; Claude wrote the original v1; he then went back through it line
 by line, changing what he saw fit, re-discussing, and iterating until the published
-version was finished. The result of that loop is that the greater portion of the
-published work ends up written by him, and 100% of it has been analyzed and verified by
-him, to the point of knowing the facts and the stories behind them cold. That last part
+version was finished. The result of that loop is that the *greater* portion of the
+published work ends up written by him, and *100%* of it has been analyzed and verified by
+him, to the point of knowing the facts and the stories behind them from memory. That last part
 is the actual guardrail: nothing publishes that he cannot explain, unaided, from the
 primary sources.
 

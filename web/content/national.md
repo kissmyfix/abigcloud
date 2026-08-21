@@ -1,6 +1,6 @@
 ---
-title: 'The National Picture'
-description: 'Data centers consumed 4.4% of U.S. electricity in 2023. The growth trajectory is the part that should concern anyone paying attention.'
+title: 'National'
+description: 'The United States'
 ---
 
 # **The *United* States**
