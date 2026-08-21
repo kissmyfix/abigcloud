@@ -112,15 +112,32 @@ That is what was presented. Whether it is what was signed, nobody outside the de
 
 But the wall wasn't just secrecy. It was structural. The Gallatin IDB had evolved into something I can only describe as a legal hybrid claiming to be a public agency when it needed tax-exempt status while operating like a private corporation when it needed to avoid transparency. Having it both ways.
 
-The city says so itself, in writing, in its own audited books. Buried in the notes of the [2023 annual financial report](/sources/1688-2023-c-gallatin-rpt-cpa811-12-21-23/) is a section called Related Organizations, and it says the city's "accountability for these organizations does not extend beyond making the appointments," that the city "does not provide funding," and that it "cannot impose its will upon the operations" of the IDB.
+> **Who doesn't Love having their cake and eating it too?**
+>
+> Gallatin says it most certainly does.\
+> In its own writing.\
+> In its own audited books. 
+>
+>Buried in the notes of a [2023 annual financial report](/sources/1688-2023-c-gallatin-rpt-cpa811-12-21-23/) is a section called Related Organizations.\
+>Under this section of the audit the city of Gallatin says this: 
+>
+>**"accountability for these organizations does not extend beyond making the appointments," that the city "does not provide funding," and that it "cannot impose its will upon the operations" of the IDB.**
 
-That IDB? Not ours. We just name the people on it.
+OH?! That IDB? Not ours. We just name the people on it.
 
-Except the statute that let Gallatin create the thing says the opposite. It calls the board "a public instrumentality of such municipality," and that phrase is not decoration. It is the reason the property is tax exempt in the first place.
+Problem?
 
-I pulled every PILOT filing the state comptroller has. Then I pulled the parcel itself.
+Well, for starters, the statute that let Gallatin create the thing says the opposite. It calls industrial development boards "a public instrumentality of such municipality," and that phrase is not decoration. It is the ***ENTIRE*** reason the property is tax exempt in the first place.
 
-It's one parcel. About 500 acres.
+I pulled every PILOT filing the state comptroller has had reported to it across the state.
+
+Then I pulled Meta's parcel in Gallatin itself.
+
+> **It's one parcel. About 500 acres.**
+>
+>**Minus about a six acres:**\
+> Six acres carved out and gifted to the TVA in order for that federal agency to build the electrical infrastructure Meta depends on and needs to plug into.\
+> But that's another story for another day. 
 
 And Meta doesn't own it. The Industrial Development Board of the City of Gallatin does.
 
