@@ -9,15 +9,13 @@ series: 'quid_pro_no'
 partTitle: 'Introduction'
 ---
 
-# **Quid-Pro-*NO!***
-
-## How every level of government has failed Tennesseans and the steps elected leaders took to keep those failures secret
-
----
+> # **Quid-Pro-*NO!***
+>
+>## How *every* level of government has *failed* **Tennesseans** and the steps elected leaders took to keep those failures *secret*
+>
 > ![Andy and Red, The Shawshank Redemption](./andy.png)
 > “He’s got ***scams*** you haven’t even dreamed of. ***Kickbacks*** on his ***kickbacks***. There’s a ***river of dirty money*** running through this place.” \
 > **Andy Dufresne**, *The Shawshank Redemption*
----
 
 About a 30 minute drive north from Nashville there exists a single facility that has been quietly growing since its construction began in 2020.
 
