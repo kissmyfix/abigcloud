@@ -2,7 +2,7 @@
 title: 'Investigations'
 description: 'Long-form work into specific deals, specific documents, and the people who signed them.'
 ---
-# **Asking *Questions***
+# **Seeking *Answers***
 
 ## The rest of this site explains ***what*** is happening. This is where a single deal gets taken ***apart***, *document* by *document*.
 
