@@ -156,7 +156,7 @@ There is nothing left to tax.
 
 That's what the name in "PILOT" is supposed to cover. ***Payment In Lieu Of Tax***. The property comes off the rolls, and instead of the taxes nobody can collect anymore, the company pays something else. That something else is the trade.
 
-#### Quid-Pro-Quo in theory if you will...
+### Quid-Pro-Quo in theory if you will...
 
 Meta paid the city of Gallatin [$1,821,846](/sources/woolhawk-pilot-reporting/) last year. Through Gallatin's very own except when it isn't IDB first though of course.
 
@@ -175,7 +175,7 @@ There is half a billion dollars of property sitting in Sumner County and the cou
 >***The eighth is the only outlier. The eighth is in Gallatin.***\
 *And Gallatin's IDB files as a 501(c)(4).*
 
-That difference is *NOT* cosmetic.
+That difference here is *NOT* cosmetic.
 
 A 501(c)(6) is a business league, the chamber of commerce category, and it's the obvious fit for a board whose whole job is recruiting industry. That's where the other IDBs such as those found in Gibson and Hamilton counties fit in with their IRS filings.
 
