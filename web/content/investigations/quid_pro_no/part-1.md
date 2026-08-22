@@ -108,13 +108,15 @@ When it returned it came [prewrapped in an NDA](/sources/fenton-on-podcast-full/
 >
 >The closest thing to those terms on the public record is [Resolution R2005-24](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/), put before the Gallatin City Council on May 12, 2020 as Woolhawk, LLC, a Delaware limited liability company, who would pay a flat $1,000,000 for the first building and less for every building after it.
 >
->$750,000 for the second, $550,000 by the sixth.\
+>$750,000 for the second, $550,000 by the sixth.
 >
->**Twenty** years of tax abatement on ***each***.
+>**Twenty** years of tax abatement on ***each building***.
 
 Until the first building is finished, the payment is the taxes on the raw land as it was zoned before.
 
-That is what was presented. Whether it is what was signed, nobody outside the deal can say for sure, but we can watch the ramp up in reported payments to verify the amounts one would expect under these type of terms.
+That is what was presented. Whether it is what was signed, nobody outside the deal can say for sure, but we can watch the ramp up in reported payments to verify the amounts one would expect under these term types.
+
+Which we of course ***can*** and ***have*** done.
 
 But the wall wasn't *just* secrecy. It was ***structural***. The Gallatin IDB had evolved by this point into something I can only describe as a legal hybrid claiming to be a public agency when it needed tax-exemption status while operating like a private corporation when it needed to avoid transparency.
 
@@ -131,11 +133,11 @@ But the wall wasn't *just* secrecy. It was ***structural***. The Gallatin IDB ha
 >
 >**"accountability for these organizations does not extend beyond making the appointments," that the city "does not provide funding," and that it "cannot impose its will upon the operations" of the IDB.**
 
-***OH?!*** That *IDB?* Not ours. We just name the people on it. *Is there a Problem?*
+***OH?!*** That *IDB?* Not ours. We just name the people on it. Can't control them though. Why? *Is there a Problem?*
 
-Well, for starters, the statute that let Gallatin (or any other municipality) create the thing in the first place says the opposite. It calls industrial development boards *"a public instrumentality of such municipality,"* and that phrase is not decoration. It is the ***ENTIRE*** reason the property is tax exempt in the first place.
+Well, for starters, the statute that allows for Gallatin (or any other municipality) to create the thing in the first place says the opposite. It calls industrial development boards *"a public instrumentality of such municipality,"* and that phrase is not decoration. It is the ***ENTIRE*** reason the property is tax exempt in the first place.
 
-I pulled every PILOT filing the state comptroller has had reported to it across the state.
+In plain speak that translates roughly to say industrial development boards are a public extension of the municipality they are born from. An IDB == the government body which formed it.  
 
 Then I pulled Meta's parcel in Gallatin itself.
 
@@ -173,7 +175,7 @@ There is half a billion dollars of property sitting in Sumner County and the cou
 >Seven of those eight file as 501(c)(6) organizations.
 >
 >***The eighth is the only outlier. The eighth is in Gallatin.***\
-*And Gallatin's IDB files as a 501(c)(4).*
+*And Gallatin's IDB files as a ***501(c)(4)***.*
 
 That difference here is *NOT* cosmetic.
 
