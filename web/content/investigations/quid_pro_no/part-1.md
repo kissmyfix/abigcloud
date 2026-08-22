@@ -455,14 +455,27 @@ The IDB doesn't get a line. It gets half of one:
 
 One last detail before I leave you to sit with all of this.
 
-When Meta's deal was first announced, the press release touted ["$1.4M+ in direct funding to Sumner County area schools and nonprofits."](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf) Great headline. Generous company.
+When Meta's deal was first announced, the press release touted ["$1.4M+ in direct funding to Sumner County area schools and nonprofits."](/sources/sumner_county/sumner_entities/woolhawk/metas-gallatin-data-center.pdf)
 
-The [2023 IDB filing](/sources/usa_federal/irs_990_data/gallatin_idb/idb2023.pdf) shows $901,080 to Sumner County Schools. The [2024 filing](/sources/usa_federal/irs_990_data/gallatin_idb/idb2024.pdf) shows $640,457. That's $1.54 million, close enough to the $1.4 million promise to call it fulfilled.
+*Great headline. Generous company. Everyone claps.*
 
-But those aren't donations. That's PILOT money flowing through the structure. Money Meta owes under the agreement. The IDB's legally required distribution to schools repackaged in a press release as corporate philanthropy. The same dollars counted once as a statutory obligation and again as a generous gift.
+The [2023 IDB filing](/sources/usa_federal/irs_990_data/gallatin_idb/idb2023.pdf) shows $901,080 to Sumner County Schools.\
+The [2024 filing](/sources/usa_federal/irs_990_data/gallatin_idb/idb2024.pdf) shows $640,457.\
+That's $1.54 million. Pretty close to the $1.4 million promise made upon this deal's announcement to call it fulfilled.
+
+**Technically**
+
+But, *IF* that's what those payments were, then those aren't donations.\
+That's PILOT money flowing through the structure.\
+That's money Meta owes under the agreement.\
+The IDB's legally required distribution to schools repackaged in a press release as corporate philanthropy.
+
+The same dollars counted once as a statutory obligation and again as a generous gift.
 
 The community heard generosity. Leon's report called it compliance. The IRS filing logged it as an expense. Same money. Three stories. Depending on who's asking.
 
+### So what now?
+
 The next parts in this series will follow the money upward. Through the state mechanisms that are supposed to catch exactly this, and into the federal structures that make it possible. The Gallatin IDB isn't just a local story. It's a case study in what happens when every safeguard fails at once.
 
-Or maybe, when they're designed to.
+***Or, maybe when they're purposefully designed to fail...***
