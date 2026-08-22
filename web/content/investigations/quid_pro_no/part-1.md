@@ -463,8 +463,6 @@ But those aren't donations. That's PILOT money flowing through the structure. Mo
 
 The community heard generosity. Leon's report called it compliance. The IRS filing logged it as an expense. Same money. Three stories. Depending on who's asking.
 
----
-
-Part 2 will follow the money upward, through the state mechanisms that are supposed to catch exactly this, and into the federal structures that make it possible. The Gallatin IDB isn't just a local story. It's a case study in what happens when every safeguard fails at once.
+The next parts in this series will follow the money upward. Through the state mechanisms that are supposed to catch exactly this, and into the federal structures that make it possible. The Gallatin IDB isn't just a local story. It's a case study in what happens when every safeguard fails at once.
 
 Or maybe, when they're designed to.
