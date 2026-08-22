@@ -40,7 +40,6 @@ Where a document was captured from a page that has since changed or gone behind 
 
 - [2020-05-12-r2005-24-woolhawk-pilot-terms.pdf](/sources/sumner_county/gallatin_council_meetings/2020-05-12-r2005-24-woolhawk-pilot-terms.pdf)
 - [2026-07-gallatin-civic-calendar.pdf](/sources/sumner_county/gallatin_council_meetings/2026-07-gallatin-civic-calendar.pdf)
-- [2026-08-19-gallatintn-boards-commissions.html](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-boards-commissions.html)
 - [2026-08-19-gallatintn-industrial-development-board.html](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-industrial-development-board.html)
 - [2020-05-12-r2005-24-woolhawk-pilot-terms.txt](/sources/2020-05-12-r2005-24-woolhawk-pilot-terms/)
 - [1994-2026-idb-gallatin.pdf](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf)

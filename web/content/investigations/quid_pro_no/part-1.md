@@ -399,9 +399,9 @@ Every word ***crafted*** to obscure what actually happened.
 
 You might be beginning to wonder where public accountability enters this picture. After all, [Tennessee law](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf) requires IDBs to hold public meetings, post agendas, and keep minutes.
 
-So, head on over to [gallatintn.gov](https://gallatintn.gov) and click through to [Boards and Commissions](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-boards-commissions.html).
+So, head on over to [gallatintn.gov](https://gallatintn.gov) and click through to [Boards and Commissions](https://www.gallatintn.gov/491/Boards-Commissions).
 
->**There, you'll find fifteen of them. Boards that is.**
+>**There, you'll find fifteen of them. Including Boards Like:**
 >
 > - The Beer Board tells you it issues permits to sell beer and enforces the code.
 > - The Electric Power Board tells you it supervises the city's electric system.
@@ -410,7 +410,7 @@ So, head on over to [gallatintn.gov](https://gallatintn.gov) and click through t
 
 Then click [Industrial Development Board](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-industrial-development-board.html).
 
-Eight names and the dates their terms expire.
+Nine names and the dates their terms expire.
 
 That's the entire page. No description of what the board is. No statement of what it does. Nothing about when it meets or where. The one board on that list holding title to half a billion dollars of property is the only one that doesn't tell you what it's for.
 
@@ -424,17 +424,32 @@ The IDB doesn't get a line. It gets half of one:
 
 > Industrial Development Board & Health, Educational, and Housing Board
 
-One entry. Two boards. The same nine people, the same room, and whichever name the business in front of them requires.
+***One entry. Two boards. The same nine people, the same room, and whichever name the business in front of them requires.***
 
 ### Where the Money Goes
 
-Follow the 990 filings from [2020](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf) to [2024](/sources/usa_federal/irs_990_data/gallatin_idb/idb2024.pdf) and you watch a story unfold in numbers.
+> **Follow the 990 filings from **2020** through **2024** and you watch a story unfold in numbers.**
+>
+> [2020](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf): **The fabricated origin**
+> -  $100K in revenue, contradictory figures, tenants listed as beneficiaries.<!-- @c need some additional relevant details from the 2020 filing here. speaking of, I haven't seen or read any mention of the IDB stating it had made payment to "the county(Gallatin)" as it had done in this initial filing. That tidbit should probably be sprinkled into the section under "The Unicorn" above as well-->
+>
+> [*2021*](/sources/usa_federal/irs_990_data/gallatin_idb/idb2021.pdf): **The first real filing**
+> - $145,425 in revenue. Largest expense is **$107,488** in property taxes.\
+> *A tax-exempt entity whose largest line item is the thing it exists to not pay.*\
+>**No audit.**\
+> And the board says so outright, on the form itself that it does not read the form before it goes to the IRS. That "Due to time constraints, the board reviews the Form 990 after it is filed. The board administrator reviews it prior to filing."
+> 
+>[2022](/sources/usa_federal/irs_990_data/gallatin_idb/idb2022.pdf): **Revenue doubles to $334,268**
+> - The mission statement gets rewritten but they check "No" on significant changes. An independent audit is suddenly claimed. The first school payment appears: $74K.
+>
+>[2023](/sources/usa_federal/irs_990_data/gallatin_idb/idb2023.pdf): **The Woolhawk money arrives**
+>
+> - Revenue explodes to $1,796,648. School payment jumps to $901K. But net assets balloon from $187K to $904K. The board is hoarding.
+>
+>[2024](/sources/usa_federal/irs_990_data/gallatin_idb/idb2024.pdf): **Revenue hits $2,242,221**
+> - And expenses hit $2,998,536. The IDB dumps $2.29 million in a single line item called "PILOT fees distributed" and names no recipient. School payment drops $260K from the prior year with no explanation. New line items appear from nowhere: $45,000 in consulting fees and $12,000 in management fees, both to unnamed parties. Net assets collapse from $904K to $148K. And the filing is signed in August, months ahead of the November pattern established every prior year.
 
-2020, the fabricated origin. $100K in revenue, contradictory figures, tenants listed as beneficiaries. [2021](/sources/usa_federal/irs_990_data/gallatin_idb/idb2021.pdf), the first real filing. $145,425 in revenue. Biggest expense: $107,488 in property taxes. A tax-exempt entity whose largest line item is the thing it exists to not pay. No audit. And the board says outright, on the form itself, that it does not read the form before it goes to Washington: "Due to time constraints, the board reviews the Form 990 after it is filed. The board administrator reviews it prior to filing." [2022](/sources/usa_federal/irs_990_data/gallatin_idb/idb2022.pdf), revenue doubles to $334,268. The mission statement gets rewritten but they check "No" on significant changes. An independent audit is suddenly claimed. The first school payment appears: $74K. [2023](/sources/usa_federal/irs_990_data/gallatin_idb/idb2023.pdf), the Woolhawk money arrives. Revenue explodes to $1,796,648. School payment jumps to $901K. But net assets balloon from $187K to $904K. The board is hoarding.
-
-Then [2024](/sources/usa_federal/irs_990_data/gallatin_idb/idb2024.pdf). Revenue hits $2,242,221. Expenses hit $2,998,536. The IDB dumps $2.29 million in a single line item called "PILOT fees distributed" and names no recipient. School payment drops $260K from the prior year with no explanation. New line items appear from nowhere: $45,000 in consulting fees and $12,000 in management fees, both to unnamed parties. Net assets collapse from $904K to $148K. And the filing is signed in August, months ahead of the November pattern established every prior year.
-
-They accumulated. They hoarded. And then they flushed it, to people and entities they won't name on a federal form.
+***They accumulated. They hoarded. And then they flushed it, to people and entities they won't name on a federal form.***
 
 ### The Same Dollars, Three Stories
 
