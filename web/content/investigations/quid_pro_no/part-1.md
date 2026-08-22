@@ -380,7 +380,7 @@ Then in 2018 he moved it out of the City Attorney's office and into his own.
 
 Much like Leon did in her Capstone report, Fenton did a victory lap as well when he sat down for a podcast interview with a local Republican group where he narrated the whole saga like a war story.
 
-Describing the assembling of [800 acres from private owners](/sources/fenton-on-podcast-full/), maneuvering around and eventually replacing a University of Tennessee president who tried to say no (that president was replaced by Tennessee's former Economic Development Commissioner, who said yes), calling in a state senator and mayors to resolve a utility dispute three weeks before announcement.
+Describing the assemblage of [800 acres from private owners](/sources/fenton-on-podcast-full/), maneuvering around and eventually replacing a University of Tennessee president who tried to say no (a resident that was later replaced by Tennessee's former Economic Development Commissioner, who said yes), calling in a state senator and mayors to resolve a utility dispute three weeks before announcement.
 
 >**In [the entire interview](/sources/fenton-on-podcast-full/):**
 >
@@ -399,7 +399,14 @@ Every word ***crafted*** to obscure what actually happened.
 
 You might be beginning to wonder where public accountability enters this picture. After all, [Tennessee law](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf) requires IDBs to hold public meetings, post agendas, and keep minutes.
 
-So, head on over to [gallatintn.gov](https://gallatintn.gov) and click through to [Boards and Commissions](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-boards-commissions.html). Fifteen of them. The Beer Board tells you it issues permits to sell beer and enforces the code. The Electric Power Board tells you it supervises the city's electric system. The Health, Educational and Housing Facilities Board tells you it finances facilities for low income families, the disabled, and the elderly. The Planning Commission tells you it meets the fourth Monday of the month at 5 p.m. in Council Chambers.
+So, head on over to [gallatintn.gov](https://gallatintn.gov) and click through to [Boards and Commissions](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-boards-commissions.html).
+
+>**There, you'll find fifteen of them. Boards that is.**
+>
+> - The Beer Board tells you it issues permits to sell beer and enforces the code.
+> - The Electric Power Board tells you it supervises the city's electric system.
+> - The Health, Educational and Housing Facilities Board tells you it finances facilities for low income families, the disabled, and the elderly.
+>  - The Planning Commission tells you it meets the fourth Monday of the month at 5 p.m. in Council Chambers.
 
 Then click [Industrial Development Board](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-industrial-development-board.html).
 
