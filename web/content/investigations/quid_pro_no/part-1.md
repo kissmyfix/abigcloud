@@ -334,17 +334,23 @@ She isn't wrong exactly, and this is where that ***technically*** from earlier c
 
 The agreement raises the payment five percent on every five-year anniversary, so there is a five-year cycle in there if you go looking for one. There's also a seven-year investment test, and ten, thirteen, sixteen and twenty-year windows for later buildings. Six different numbers to pick from.
 
-She picked the smallest one. In the document arguing the board should keep the money, a ***five***-year favor is a much easier thing to defend than a ***forty***-year one.
+She picked the smallest one. In a document arguing the board should keep the money, a ***five***-year favor is a much easier thing to defend than a ***forty***-year one.
 
 Her paper is dated August 29, 2024. The state filing where Meta's payments to the city jump from $168,226 to $1,202,500 was submitted twenty-five days later.
 
 ***She wrote a confession and turned it in for a grade.***
 
+I for one have little doubt she aced it.
+
 ### The Operator
 
-The man behind all of it is James Fenton, who served roughly twelve years as [Executive Director](/sources/fenton-on-podcast-full/) of the Gallatin Economic Development Agency.
+The man behind all of this is James Fenton. He is who served roughly twelve years as [Executive Director](/sources/fenton-on-podcast-full/) of the Gallatin Economic Development Agency.
 
-Before Gallatin he also served six years doing economic development in Cheatham County. He signed the NDA for Project Skillet, which he dates to 2016 while GEDA's own later account dates to 2017.
+Before Gallatin he also served six years doing economic development in Cheatham County. 
+
+Weird how Sumner and Cheatham counties are sharing *another* thing in common in our story isn't it?
+
+Fenton is also who signed the NDA for Project Skillet, which he dates to 2016 while GEDA's own later account dates to 2017.
 
 In July 2018, just months after Woolhawk negotiations began, the board's address of record moved out of the City Attorney's office and into his agency.
 
