@@ -280,7 +280,7 @@ Look at what he signed. The line above the signature reads: "Under penalties of 
 
 There are two promises in that sentence and only one of them is hedged. Whether it's accurate is limited to the best of his knowledge. That he read it is not.
 
-But wait, there's one more!
+***But wait, there's one more!***
 
 The 2023 and 2024 filings both say the board's finances were reviewed by an outside auditor that year. I went looking for those audits. The only one that exists anywhere in the public record is for the year ending June 30, 2025, and it came out after both of those filings were signed.
 
