@@ -54,7 +54,9 @@ In trying to answer the question about promised tax benefits, I fell into a worl
 
 Back in 1955, during a national economic boom, landing a large manufacturer could set a small city up for decades. One big factory meant stable jobs, stable tax revenue, and the budget certainty needed for planned growth. City leaders were willing to sweeten the deal to attract those companies.
 
-The problem was Tennessee's constitution. [Article II, Section 28](/explainers/the-title-transfer-mechanism/) requires that all property in the state be taxed. No exceptions, period. Section 29 goes further, and says cities and counties are explicitly prohibited from lending their credit or giving financial favors to private corporations. A city couldn't just hand Goodyear or Ford Motor Company a tax break. It would be unconstitutional.
+The problem was Tennessee's constitution. Those pesky constitutional rules and all. 
+
+Specifically, [Article II, Section 28](/explainers/the-title-transfer-mechanism/) requires that all property in the state be taxed. No exceptions, period. Section 29 goes further, and says cities and counties are explicitly prohibited from lending their credit or giving financial favors to private corporations. A city couldn't just hand Goodyear or Ford Motor Company a tax break. It would be unconstitutional.
 
 So instead of changing the constitution, lawmakers built a workaround. [The Industrial Development Corporations Act](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf) allowed for cities to create a separate ***PUBLIC*** board called an [Industrial Development Board](/explainers/what-is-an-idb/), or IDB for short.
 

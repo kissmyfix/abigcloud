@@ -10,7 +10,9 @@ part: 2
 partTitle: 'The Modern Greasing of the Wheels'
 ---
 
-# Part 2: The Modern Greasing of the Wheels
+# **Quid-Pro-*NO!***
+
+## The Modern *Greasing* of the *Wheels*
 
 The messy 2020 IRS filing wasn’t just a localized scramble to satisfy Meta’s corporate lawyers. It was the bottom end of a pipeline that had been meticulously greased at the state capitol just one year prior.
 

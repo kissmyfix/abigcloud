@@ -9,8 +9,9 @@ series: 'quid_pro_no'
 part: 3
 partTitle: 'The Man with Two Ledgers'
 ---
+# **Quid-Pro-*NO!***
 
-# Part 3: The Man with Two Ledgers
+## The *Man* with *Two* Ledgers
 
 When the Gallatin IDB finally checked that "initial return" box on its first 990 in late 2021 to legitimize itself for Meta, a new name appeared on the paperwork: Preston Stark.
 
