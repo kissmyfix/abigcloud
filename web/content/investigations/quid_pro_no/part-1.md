@@ -217,9 +217,9 @@ That's a choice.
 
 *The choice to file with the IRS at all appears to have in fact been forced.*
 
-The [Gallatin IDB](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf), was first chartered in 1994, was then administratively dissolved in 2012, only to then get reinstated in early 2013 when companies like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 there are no public federal filings.
+The [Gallatin IDB](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf) was first chartered in 1994. It was then administratively dissolved in 2012 only to then get reinstated in early 2013 (more on the significance of that year later) when companies like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 there are no public federal filings.
 
-That doesn't mean there's nothing to look at. The state's PILOT reporting covers those years, and it shows a board that has always operated under its own set of rules and in its very own way. Well, since 2013 that is, more on the significance of that year later.
+That doesn't mean there's nothing to look at. The state's PILOT reporting covers those years, and it shows a board that has always operated under its own set of rules and in its very own way. Well, since 2013 (the year we're saving for later) that is.
 
 [Bradford](/sources/woolhawk-pilot-reporting/) has been on the Gallatin IDB's books since 2016. Every year it files, it reports its payments to the state comptroller's office as payments marked RENT. Both the PILOT to County and the PILOT to City payment columns report zero.
 
@@ -235,11 +235,11 @@ Then Meta shows up. Along with Meta's lawyers.
 
 Once would likely be safe in assuming attorneys of a trillion dollar corporation would presumably have expectations about doing business with a counterpart who exists on paper to the federal government.
 
-They are about to quitclaim their newest land acquisition where they plan on spending upwards of a billion dollars building on for the grand sum of $0 after all. Seems reasonable they'd like to have a known entity to point the IRS towards should it ever like to know about who these million plus dollar payments are going to. 
+They are about to quitclaim their newest land acquisition where they plan on spending upwards of a billion dollars building on for the grand sum of $0 after all. Seems reasonable they'd like to have a known entity to point the IRS towards should it ever like to know about who these million plus dollar payments are going to as well. 
 
-My working theory, supported by the timeline, is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal. They may have even learned that lesson the hard way back in 2017, when Gallatin lost the earlier iteration of this deal, Project Skillet, to Alabama.
+My working theory, supported by the timeline, is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal with Facebook. They may have even learned that lesson the hard way in 2017, when Gallatin lost the earlier iteration of this deal, Project Skillet, to Alabama.
 
-*So. They filed.*
+***So. They filed.***
 
 They couldn't file honestly though because an honest filing would mean explaining twenty-six years of unreported activity.
 
