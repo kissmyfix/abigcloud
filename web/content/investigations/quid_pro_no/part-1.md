@@ -163,17 +163,17 @@ A tax obligation based on an assessed value of $0 will always be $0 no matter wh
 The board owns the title, so the property is exempt.\
 There is nothing left to tax.
 
-That's what the name in "PILOT" is supposed to cover. ***Payment In Lieu Of Tax***. The property comes off the rolls, and instead of the taxes nobody can collect anymore, the company pays something else. That something else is the trade.
+That's what the name in "PILOT" is supposed to cover. ***Payment In Lieu Of Tax***. The property comes off the tax rolls, and instead of the taxes no one can collect anymore, the company pays something else. That something else is the trade.
 
 **In theory this is the Quid-Pro-Quo part of the deal...**
 
 For its part, Meta paid the city of Gallatin [$1,821,846](/sources/woolhawk-pilot-reporting/) last year. Through Gallatin's very own (except when it isn't) IDB first of course, though.
 
-As for Sumner County, it gets nothing and the fields of the state comptroller's report designed to display the county's benefit in PILOT deals is blank. And it has been blank every year since the deal first began and "Woolhawk" began reporting yearly payments back in 2021.
+As for Sumner County, it gets nothing and the fields of the state comptroller's report designed to display the county's benefit in PILOT deals is blank. And it has been blank every year since the deal first began and *Woolhawk, LLC* began reporting yearly PILOT payments back in 2021.
 
-There is half a billion dollars of property sitting in Sumner County and the county has never reported collecting a dollar against it. Nor will it ever. 
+There is half a billion dollars of property sitting in Sumner County and the county has never collected a single dollar against it. Nor will it ever. 
 
-### How Much Have your Own Property Taxes Increased During This Time?
+***How Much Have your Own County Property Taxes Increased During This Time?***
 
 > **I then looked to the federal filings:**
 >
@@ -184,29 +184,31 @@ There is half a billion dollars of property sitting in Sumner County and the cou
 >***The eighth is the only outlier. The eighth is in Gallatin.***\
 *And Gallatin's IDB files as a ***501(c)(4)***.*
 
-That difference here is *NOT* cosmetic.
+The difference here is *NOT* cosmetic.
 
-A 501(c)(6) is a business league, the chamber of commerce category, and it's the obvious fit for a board whose whole job is recruiting industry. That's where the other IDBs such as those found in Gibson and Hamilton counties fit in with their IRS filings.
+A 501(c)(6) is a business league. It's the chamber of commerce. Those category types. It's also the obvious natural fit for a board whose whole job is recruiting industry. That's where the other IDBs such as those found in Gibson and Hamilton counties fit in with their IRS filings.
 
-A [501(c)(4) is a social welfare organization](/explainers/501c4-vs-instrumentality/). Civic leagues and advocacy groups. It can lobby without limit, it can spend on politics, and it never has to say who paid for any of it. That last part is why the category turns up in every story ever written about dark money.
+A [501(c)(4)](/explainers/501c4-vs-instrumentality/) is a social welfare organization. Think civic leagues and advocacy groups for this category. It can lobby without limit. It can spend on politics. It never has to say who paid for any of it. That last part is why this category turns up in every story ever written about dark money.
 
 Not a *regional* quirk. Not a *gray* area. The ***only*** one.
+
+***A true unicorn amongst its peers***
 
 So why pick the one that makes you stick out like a sore thumb?
 
 I believe you have to stop asking which status described them and start asking which one they could actually get. And why they even needed to get an IRS designation to begin with.
 
-An Industrial Development Board ordinarily owes the IRS nothing at all, because it is treated as an arm of its city. But claiming that requires showing the city controls it, funds it, answers for it. Gallatin had spent years building a record that says the opposite, and their own auditors wrote it down.
+An Industrial Development Board ordinarily owes the IRS nothing at all because it is treated as an arm of its city. But claiming that requires showing the city controls it, funds it, answers for it. Gallatin had spent years building a record that says the opposite, and their own auditors wrote it down.
 
-A 501(c)(3) means applying, waiting, and letting the IRS examine what you actually do. Hard to explain when the main thing you do is hand a tax break to a trillion-dollar company. A 501(c)(6) is for business leagues with active members. This board has none.
+A 501(c)(3) would mean applying, waiting, and letting the IRS examine what you actually do. Hard to explain when the main thing you do is hand a tax break to a trillion-dollar company. A 501(c)(6) is for business leagues with active members. This board has none.
 
 A 501(c)(4) you can simply declare *yourself* to be. No ***application***. No ***determination*** letter. *No one* at the IRS deciding whether "social welfare" fits. You notify them and you start filing.
 
-But it wasn't chosen *only* because it fit. It was *also* chosen because it was the only federal existence they could grant themselves, on a deadline, without asking anyone's permission. Sticking out like a sore thumb was the price they were willing to pay because nobody reads an IDB's 990. 
+But it wasn't chosen *only* because of fit. It was *also* chosen because it was the only federal existence they could grant themselves, on a deadline, without asking anyone's permission. Sticking out like a sore thumb was the price they were willing to pay because nobody reads an IDB's 990. 
 
 ***Until they do.***
 
-A board holding half a billion dollars of exempt property for a company that reports paying the county nothing, while filing under a federal tax status no other IDB in the state uses.\
+A board holding half a billion dollars of exempt property for a company that reports paying the county nothing, while filing under a federal tax status no other IDB in the state uses.
 
 That's not a coincidence.\
 That's a choice.
@@ -217,21 +219,23 @@ That's a choice.
 
 The [Gallatin IDB](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf), was first chartered in 1994, was then administratively dissolved in 2012, only to then get reinstated in early 2013 when companies like Bradford and Beretta came along. For the entire stretch from 1994 to 2020 there are no public federal filings.
 
-That doesn't mean there's nothing to look at. The state's PILOT reporting covers those years, and it shows a board that has always operated under its own set of rules in its very own way. Well, since 2013 that is, more on the significance of that year in a moment.
+That doesn't mean there's nothing to look at. The state's PILOT reporting covers those years, and it shows a board that has always operated under its own set of rules and in its very own way. Well, since 2013 that is, more on the significance of that year later.
 
 [Bradford](/sources/woolhawk-pilot-reporting/) has been on the Gallatin IDB's books since 2016. Every year it files, it reports its payments to the state comptroller's office as payments marked RENT. Both the PILOT to County and the PILOT to City payment columns report zero.
 
 Rent isn't a payment in lieu of tax. It doesn't get looked at the way a PILOT gets looked at.
 
-[Beretta](/sources/2014-01-29-tnecd-beretta-gallatin-manufacturing-announcement/) is even more strange. The state announced it in January 2014 along with the PR campaign tagline citing "$45 million dollars invested by Beretta and 300 jobs created." Beretta's PILOT payments show up in the PILOT reporting twice as "NO INFO" in 2015 and 2016, and by 2016 Beretta stops appearing at all. 
+[Beretta](/sources/2014-01-29-tnecd-beretta-gallatin-manufacturing-announcement/) is even more strange. The state announced it in January 2014 along with the PR campaign tagline citing "$45 million dollars invested by Beretta and 300 jobs created." Beretta's PILOT payment reports show up as "NO INFO" in 2015 and 2016. By 2017 Beretta stops displaying at all. 
 
-Not a reduced payment. Not a disputed one. It never reported paying anything, and then it stopped being asked.
+Not a reduced payment. Not a disputed one. It never reported paying anything, and then it stopped reporting altogether.
 
-Which is its own story for another day, because the state had put eight million dollars ([$8,000,000](/sources/2014-06-12-cumulative-fiscal-note-2014-session/)) to land that project through general obligation bond money and flowing through this same board.
+Which is its own story for another day, because the state had put eight million dollars ([$8,000,000](/sources/2014-06-12-cumulative-fiscal-note-2014-session/)) to land that project through a general obligation slush fund. Eight million dollars of "slush money" flowing through this same board.
 
 Then Meta shows up. Along with Meta's lawyers. 
 
-Once would likely be safe in assuming lawyers of a trillion dollar corporation would presumably have expectations about doing business with a counterpart who exists on paper.
+Once would likely be safe in assuming attorneys of a trillion dollar corporation would presumably have expectations about doing business with a counterpart who exists on paper to the federal government.
+
+They are about to quitclaim their newest land acquisition where they plan on spending upwards of a billion dollars building on for the grand sum of $0 after all. Seems reasonable they'd like to have a known entity to point the IRS towards should it ever like to know about who these million plus dollar payments are going to. 
 
 My working theory, supported by the timeline, is that the IDB's choice to finally file with the IRS wasn't voluntary. It was the cost of landing the deal. They may have even learned that lesson the hard way back in 2017, when Gallatin lost the earlier iteration of this deal, Project Skillet, to Alabama.
 
