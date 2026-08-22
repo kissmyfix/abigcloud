@@ -143,9 +143,10 @@ Then I pulled Meta's parcel in Gallatin itself.
 
 > **It's one parcel. About 500 acres.**
 >
->**Minus about a six acres:**\
-> Six acres carved out and gifted to the TVA in order for that federal agency to build the electrical infrastructure Meta depends on and needs to plug into.\
-> But that's another story for another day. 
+>**Minus about six acres:**\
+> Six acres carved out and quit-claimed to the TVA for zero dollars in order for that federal agency to build the electrical infrastructure Meta depends on and needs to plug into.
+>
+> But that's ***another*** story for ***another*** day. 
 
 And Meta doesn't own it. The Industrial Development Board of the City of Gallatin does.
 
