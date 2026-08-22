@@ -282,45 +282,87 @@ There are two promises in that sentence and only one of them is hedged. Whether 
 
 ***But wait, there's one more!***
 
-The 2023 and 2024 filings both say the board's finances were reviewed by an outside auditor that year. I went looking for those audits. The only one that exists anywhere in the public record is for the year ending June 30, 2025, and it came out after both of those filings were signed.
+The 2023 and 2024 filings both say the board's finances were reviewed by an outside auditor that year. I went looking for those audits. The only one that exists anywhere in the public record is for the year ending June 30, 2025, and it came out ***after*** both of those filings were signed.
 
 ### The Confession That Doesn't Know It's Confessing
 
 If you Google how PILOTs and IDBs work in Tennessee, one of the first things you'll find is a capstone project by a woman named Lilibeth Leon. It's polished. It looks academic. And its author was an employee of the Gallatin Economic Development Agency, working directly under the man who negotiated the Meta deal.
 
-Leon's report is remarkable because she lays out the entire playbook and frames it as good governance. Some highlights:
+Leon's report is remarkable because she lays out the entire playbook and frames it as good governance.
 
-She admits the Woolhawk PILOT agreement was deliberately written to be more ambiguous about fund distribution than every prior agreement. Not accidentally vague. In [her words](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-leon.pdf), Facebook's agreement was "different from previous contracts and left more ambiguity concerning the exact distribution of funds." The board could have kept splitting the money as it always had, about 35% to Gallatin and 65% to Sumner County with 60% of the county's share going to schools. It chose discretion instead.
+***Some highlights:***
 
-She admits the IDB is sitting on over a million dollars in accumulated PILOT payments that haven't been distributed, and notes that number "will only increase." Her recommendation isn't to send it where it's supposed to go. It's to keep it. The board had already put over $600,000 into a new daycare whose operator "agreed to reserve slots exclusively for industry partners." The rest she'd steer toward workforce training and buying industrial land, so the city isn't "at the mercy of private owners for site selection." An unelected board controlling what should be public tax revenue and spending it on projects that serve corporate interests.
+In her paper, she admits the Woolhawk PILOT agreement was deliberately written to be more ambiguous about fund distribution than every prior agreement.
 
-She identifies an "anti-growth coalition" on the Sumner County Commission and Gallatin City Council as a threat. Elected officials who wanted to manage public spending differently are the enemy. The quiet part out loud: we rewrote the agreement so that elected representatives couldn't direct these funds.
+> **Not **accidentally** vague.**
+>
+>In [her own words](/sources/sumner_county/gallatin_idb_data/report-gallatin-idb-leon.pdf), Facebook's agreement was "different from previous contracts and left more ambiguity concerning the exact distribution of funds."
+>
+> Which she **expands** further while saying:
+>
+>"The board could have kept splitting the money as it always had, about 35% to Gallatin and 65% to Sumner County with 60% of the county's share going to schools. It chose discretion instead."
 
-She admits, in one sentence, what the ambiguity was for. The new arrangement "left the Industrial Development Board responsible for deciding how much of the PILOT monies would be paid out to municipal governments and how much they would control."
+She also states plainly the IDB is sitting on over a million dollars (at the time of her report) in accumulated PILOT payments that haven't been distributed, and notes that number ***"will only increase."*** 
 
-Read that twice. The board decides its own cut.
+Her recommendation isn't to send it where it's supposed to go.
 
-And then there's the part I almost missed. She describes Facebook as approved for a five-year agreement, with buildings paying "for four years thereafter." The resolution the council actually approved says the first partial year plus twenty full tax years, for every building, with each building starting its own clock.
+It's to keep it.
 
-She isn't wrong, exactly. The agreement raises the payment five percent on every five-year anniversary, so there is a five-year cycle in there if you go looking for one. There's also a seven-year investment test, and ten, thirteen, sixteen and twenty-year windows for later buildings. Six different numbers to pick from.
+The board had already put over $600,000 into a new daycare whose operator "agreed to reserve slots exclusively for industry partners." The rest she'd steer toward "workforce training" and "buying industrial land" so the city isn't "at the mercy of private owners for site selection."
 
-She picked the smallest one. In the document arguing the board should keep the money, a five-year favor is a much easier thing to defend than a forty-year one.
+***An unelected board controlling what should be public tax revenue and spending it on projects that serve corporate interests.***
+
+She also identifies an "anti-growth coalition" on the Sumner County Commission and Gallatin City Council as a threat. Elected officials who wanted to manage public spending differently are the enemy. 
+
+> **The quiet part out loud (paraphrasing mine):**
+>
+> ***"We (the GEDA) rewrote the agreement so that elected representatives couldn't direct these funds."***
+>
+>Or, put another way:\
+> *Trust us, we're the government and we're here to help.*
+>
+She *even* ***admits***, in one sentence, what the ambiguity was for.\
+That the new arrangement "left the Industrial Development Board responsible for deciding how much of the PILOT monies would be paid out to municipal governments and how much they would control."
+
+***Read that twice. The IDB decides. All is well according to plan.***
+
+And then there's the part I almost missed. She describes Facebook as approved for a **five**-year agreement, with buildings paying "for four years thereafter."
+
+The resolution the council actually approved says the first partial year plus ***twenty*** full tax years, for every building, with each building starting its own clock.
+
+She isn't wrong exactly, and this is where that ***technically*** from earlier comes back into the story.
+
+The agreement raises the payment five percent on every five-year anniversary, so there is a five-year cycle in there if you go looking for one. There's also a seven-year investment test, and ten, thirteen, sixteen and twenty-year windows for later buildings. Six different numbers to pick from.
+
+She picked the smallest one. In the document arguing the board should keep the money, a ***five***-year favor is a much easier thing to defend than a ***forty***-year one.
 
 Her paper is dated August 29, 2024. The state filing where Meta's payments to the city jump from $168,226 to $1,202,500 was submitted twenty-five days later.
 
-She wrote a confession and turned it in for a grade.
+***She wrote a confession and turned it in for a grade.***
 
 ### The Operator
 
-The man behind all of it is James Fenton, who served [roughly twelve years as Executive Director](/sources/fenton-on-podcast-full/) of the Gallatin Economic Development Agency. Before Gallatin, six years doing economic development in Cheatham County. He signed the NDA for Project Skillet, which he dates to 2016 and GEDA's own later account dates to 2017. And in July 2018, two months after Woolhawk negotiations began, the board's address of record moved out of the City Attorney's office and into his agency. [The state filing](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf) puts it plainly: Principal Address 3 changed from "CITY ATTORNEY" to "GALLATIN ECONOMIC DEVELOPMENT AGENCY."
+The man behind all of it is James Fenton, who served roughly twelve years as [Executive Director](/sources/fenton-on-podcast-full/) of the Gallatin Economic Development Agency.
 
-Read that again. While he was negotiating the deal, the address where the board received its official mail stopped being the city attorney's office and became his. At the exact moment it mattered most.
+Before Gallatin he also served six years doing economic development in Cheatham County. He signed the NDA for Project Skillet, which he dates to 2016 while GEDA's own later account dates to 2017.
+
+In July 2018, just months after Woolhawk negotiations began, the board's address of record moved out of the City Attorney's office and into his agency.
+
+>**[The state filing](/sources/sumner_county/gallatin_idb_data/1994-2026-idb-gallatin.pdf) lists this change as:**
+>
+>Principal Address 3 change from: "CITY ATTORNEY" to "GALLATIN ECONOMIC DEVELOPMENT AGENCY."
+
+In other words, while he was negotiating the deal, the address where the board receives its official (and legal) mail stopped being the city attorney's office and became his.
+
+*At the exact moment it mattered most.*
 
 The registered agent itself stayed with the city attorney until July 2021, when it changed to Preston Stark.
 
-But look at how the whole thing bookends.
+***But look at how the whole thing bookends.***
 
-Fenton started at GEDA in July 2012. That December, the state administratively dissolved the Gallatin IDB, which is what happens when a board stops filing and stops meeting. In February 2013 it was brought back, and the address they gave the state was 132 West Main Street, listed as the City Attorney.
+Fenton started at GEDA in July 2012. That December (2013 ringing a bell now?), the state administratively dissolved the Gallatin IDB, which is what happens when a board stops filing and stops meeting.
+
+In February 2013 (ringing louder now) it was brought back, and the address they gave the state was 132 West Main Street, listed as the City Attorney.
 
 Beretta was announced eleven months later.
 
@@ -328,19 +370,30 @@ So the board wasn't revived because Gallatin needed oversight of anything. It wa
 
 Then in 2018 he moved it out of the City Attorney's office and into his own.
 
-Independent legal custody in at the start. Out at the moment it mattered.
+***Legal oversight and custody in at the start. Out at the moment it mattered most.***
 
-Fenton did a victory-lap podcast interview with a local Republican group where he narrated the whole saga like a war story, assembling [800 acres from private owners](/sources/fenton-on-podcast-full/), maneuvering around a university president who tried to say no (that president was replaced by Tennessee's former Economic Development Commissioner, who said yes), calling in a state senator and mayors to resolve a utility dispute three weeks before announcement.
+Much like Leon did in her Capstone report, Fenton did a victory lap as well when he sat down for a podcast interview with a local Republican group where he narrated the whole saga like a war story.
 
-In [the entire interview](/sources/fenton-on-podcast-full/), he never says Woolhawk. Never says PILOT. Never says abatement. Never says IDB. And he closes with: "We didn't give them, you know, anything. We didn't put anything in for them. They paid for everything and upgraded our water system."
+Describing the assembling of [800 acres from private owners](/sources/fenton-on-podcast-full/), maneuvering around and eventually replacing a University of Tennessee president who tried to say no (that president was replaced by Tennessee's former Economic Development Commissioner, who said yes), calling in a state senator and mayors to resolve a utility dispute three weeks before announcement.
 
-Every word technically true. Every word designed to obscure what actually happened.
+>**In [the entire interview](/sources/fenton-on-podcast-full/):**
+>
+> He never says Woolhawk.\
+> He never says PILOT.\
+> He never says abatement.\
+> He never says IDB.
+>
+>And he closes with:\
+>***"We didn't give them, you know, anything. We didn't put anything in for them. They paid for everything and upgraded our water system."***
+
+Every word ***technically*** true.\
+Every word ***crafted*** to obscure what actually happened.
 
 ### The Shadow and the Stage
 
-You might wonder where public accountability enters this picture. After all, [Tennessee law requires IDBs to hold public meetings, post agendas, and keep minutes](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf).
+You might be beginning to wonder where public accountability enters this picture. After all, [Tennessee law](/sources/state_of_tennessee/tn_annotated_code/tca-7-53-302-corporate-powers.pdf) requires IDBs to hold public meetings, post agendas, and keep minutes.
 
-So go to gallatintn.gov and click through to [Boards and Commissions](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-boards-commissions.html). Fifteen of them. The Beer Board tells you it issues permits to sell beer and enforces the code. The Electric Power Board tells you it supervises the city's electric system. The Health, Educational and Housing Facilities Board tells you it finances facilities for low income families, the disabled, and the elderly. The Planning Commission tells you it meets the fourth Monday of the month at 5 p.m. in Council Chambers.
+So, head on over to [gallatintn.gov](https://gallatintn.gov) and click through to [Boards and Commissions](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-boards-commissions.html). Fifteen of them. The Beer Board tells you it issues permits to sell beer and enforces the code. The Electric Power Board tells you it supervises the city's electric system. The Health, Educational and Housing Facilities Board tells you it finances facilities for low income families, the disabled, and the elderly. The Planning Commission tells you it meets the fourth Monday of the month at 5 p.m. in Council Chambers.
 
 Then click [Industrial Development Board](/sources/sumner_county/gallatin_council_meetings/2026-08-19-gallatintn-industrial-development-board.html).
 
