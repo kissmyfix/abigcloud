@@ -156,20 +156,20 @@ There is nothing left to tax.
 
 That's what the name in "PILOT" is supposed to cover. ***Payment In Lieu Of Tax***. The property comes off the rolls, and instead of the taxes nobody can collect anymore, the company pays something else. That something else is the trade.
 
-***Quid-Pro-Quo in theory if you will...***
+#### Quid-Pro-Quo in theory if you will...
 
 Meta paid the city of Gallatin [$1,821,846](/sources/woolhawk-pilot-reporting/) last year. Through Gallatin's very own except when it isn't IDB first though of course.
 
-The county's column on that same form is blank, and it has been blank every year since the deal first began and "Woolhawk" begin reporting yearly payments to the state comptrollers office back in 2021.
+The county's column on that same form is blank, and it has been blank every year since the deal first began and "Woolhawk" began reporting yearly payments to the state comptrollers office back in 2021.
 
 There is half a billion dollars of property sitting in Sumner County and the county has never reported collecting a dollar against it.
 
-**How Much Have your Own Property Taxes increased in This Time?**
+### How Much Have your Own Property Taxes Increased During This Time?
 
-> **I then looked the the federal filings:**
+> **I then looked to the federal filings:**
 >
 >Tennessee has roughly [400 Industrial Development Boards](/sources/idb-count-method/).\
->Only [Eight](/sources/tn-idb-subsections/) those ~400 file with the IRS at all.\
+>Only [Eight](/sources/tn-idb-subsections/) of those ~400 file with the IRS at all.\
 >Seven of those eight file as 501(c)(6) organizations.
 >
 >***The eighth is the only outlier. The eighth is in Gallatin.***\
@@ -181,7 +181,7 @@ A 501(c)(6) is a business league, the chamber of commerce category, and it's the
 
 A [501(c)(4) is a social welfare organization](/explainers/501c4-vs-instrumentality/). Civic leagues and advocacy groups. It can lobby without limit, it can spend on politics, and it never has to say who paid for any of it. That last part is why the category turns up in every story ever written about dark money.
 
-Not a regional quirk. Not a gray area. The only one.
+Not a *regional* quirk. Not a *gray* area. The ***only*** one.
 
 So why pick the one that makes you stick out like a sore thumb?
 
