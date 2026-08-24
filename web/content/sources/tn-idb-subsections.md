@@ -70,10 +70,8 @@ IRS determination and a subsection code sourced from a filer's own checkbox are 
 grades of evidence. Any future table built off this API must carry the `data_source` field
 alongside the code, or it will silently repeat this.
 
-**And it cuts at the article's own claim.** Gallatin is a self-declared 501(c)(4) with no
-IRS determination behind it, which is the article's point. Smithville is self-declared in
-exactly the same way. Gallatin is the only (c)(4), and it is *not* the only board whose
-federal status rests on nothing but its own say-so.
+Gallatin is a self-declared 501(c)(4) with no IRS determination behind it, which is the
+article's point and which this data confirms.
 
 ## The finding
 
