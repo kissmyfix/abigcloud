@@ -1,0 +1,642 @@
+file,effective,rate_class,line,base_rate,fuel_cost,effective_rate
+2016-dec,"December 1, 2016",RESIDENTIAL,customer_charge,13.55,,
+2016-dec,"December 1, 2016",RESIDENTIAL,Summer kWh,6.869,TBA,TBA
+2016-dec,"December 1, 2016",RESIDENTIAL,Winter kWh,6.555,2.335,8.890
+2016-dec,"December 1, 2016",RESIDENTIAL,Transition Month kWh,6.359,TBA,TBA
+2016-dec,"December 1, 2016",GSA1,customer_charge,16.60,,
+2016-dec,"December 1, 2016",GSA1,Summer kWh,8.072,TBA,TBA
+2016-dec,"December 1, 2016",GSA1,Winter kWh,7.758,2.317,10.075
+2016-dec,"December 1, 2016",GSA1,Transition Month kWh,7.562,TBA,TBA
+2016-dec,"December 1, 2016",GSA2,customer_charge,40.00,,
+2016-dec,"December 1, 2016",GSA2,"demand Summer >50 – 1,000 kW",10.12,,
+2016-dec,"December 1, 2016",GSA2,"demand Winter >50 – 1,000 kW",9.19,,
+2016-dec,"December 1, 2016",GSA2,"demand Transition Month >50 – 1,000 kW",9.19,,
+2016-dec,"December 1, 2016",GSA2,"Summer First 15,000 kWh",7.361,TBA,TBA
+2016-dec,"December 1, 2016",GSA2,"Winter First 15,000 kWh",7.048,2.317,9.365
+2016-dec,"December 1, 2016",GSA2,"Transition Month First 15,000 kWh",6.851,TBA,TBA
+2016-dec,"December 1, 2016",GSA2,"Summer addl. kWh >15,000",4.451,TBA,TBA
+2016-dec,"December 1, 2016",GSA2,"Winter addl. kWh >15,000",4.144,2.297,6.441
+2016-dec,"December 1, 2016",GSA2,"Transition Month addl. kWh >15,000",4.014,TBA,TBA
+2016-dec,"December 1, 2016",GSA3,customer_charge,150.00,,
+2016-dec,"December 1, 2016",GSA3,"demand Summer 0 – 1,000 kW",10.15,,
+2016-dec,"December 1, 2016",GSA3,"demand Winter 0 – 1,000 kW",9.24,,
+2016-dec,"December 1, 2016",GSA3,"demand Transition Month 0 – 1,000 kW",9.24,,
+2016-dec,"December 1, 2016",GSA3,"demand Summer 1,000 – 5,000 kW",14.09,,
+2016-dec,"December 1, 2016",GSA3,"demand Winter 1,000 – 5,000 kW",13.16,,
+2016-dec,"December 1, 2016",GSA3,"demand Transition Month 1,000 – 5,000 kW",13.16,,
+2016-dec,"December 1, 2016",GSA3,Summer kWh,4.448,TBA,TBA
+2016-dec,"December 1, 2016",GSA3,Winter kWh,4.144,2.297,6.441
+2016-dec,"December 1, 2016",GSA3,Transition Month kWh,4.013,TBA,TBA
+2016-dec,"December 1, 2016",GSA3,"demand Summer 5,000 – 15,000 kW",19.92,,
+2016-dec,"December 1, 2016",GSA3,"demand Winter 5,000 – 15,000 kW",16.75,,
+2016-dec,"December 1, 2016",GSA3,"demand Transition Month 5,000 – 15,000 kW",13.62,,
+2016-dec,"December 1, 2016",GSA3,Summer kWh,3.018,TBA,TBA
+2016-dec,"December 1, 2016",GSA3,Winter kWh,2.565,2.262,4.827
+2016-dec,"December 1, 2016",GSA3,Transition Month kWh,2.463,TBA,TBA
+2016-dec,"December 1, 2016",MSB,Additional HUD,0.045,TBA,TBA
+2016-dec,"December 1, 2016",MSB,Additional HUD,0.045,2.262,2.307
+2016-dec,"December 1, 2016",MSB,Additional HUD,0.045,TBA,TBA
+2016-dec,"December 1, 2016",MSD,Additional HUD,0.206,TBA,TBA
+2016-dec,"December 1, 2016",MSD,Additional HUD,0.206,2.262,2.468
+2016-dec,"December 1, 2016",MSD,Additional HUD,0.206,TBA,TBA
+2016-dec,"December 1, 2016",OUTDOOR,Summer kWh,4.680,TBA,TBA
+2016-dec,"December 1, 2016",OUTDOOR,Winter kWh,4.367,2.335,6.702
+2016-dec,"December 1, 2016",OUTDOOR,Transition Month kWh,4.172,TBA,TBA
+2016-jan,"January 1, 2016",RESIDENTIAL,customer_charge,13.55,,
+2016-jan,"January 1, 2016",RESIDENTIAL,Summer kWh,6.713,TBA,TBA
+2016-jan,"January 1, 2016",RESIDENTIAL,Winter kWh,6.406,1.957,8.363
+2016-jan,"January 1, 2016",RESIDENTIAL,Transition Month kWh,6.215,TBA,TBA
+2016-jan,"January 1, 2016",GSA1,customer_charge,16.60,,
+2016-jan,"January 1, 2016",GSA1,Summer kWh,7.904,TBA,TBA
+2016-jan,"January 1, 2016",GSA1,Winter kWh,7.597,1.941,9.538
+2016-jan,"January 1, 2016",GSA1,Transition Month kWh,7.406,TBA,TBA
+2016-jan,"January 1, 2016",GSA2,customer_charge,40.00,,
+2016-jan,"January 1, 2016",GSA2,"demand Summer >50 – 1,000 kW",9.90,,
+2016-jan,"January 1, 2016",GSA2,"demand Winter >50 – 1,000 kW",8.99,,
+2016-jan,"January 1, 2016",GSA2,"demand Transition Month >50 – 1,000 kW",8.99,,
+2016-jan,"January 1, 2016",GSA2,"Summer First 15,000 kWh",7.205,TBA,TBA
+2016-jan,"January 1, 2016",GSA2,"Winter First 15,000 kWh",6.899,1.941,8.840
+2016-jan,"January 1, 2016",GSA2,"Transition Month First 15,000 kWh",6.707,TBA,TBA
+2016-jan,"January 1, 2016",GSA2,"Summer addl. kWh >15,000",4.357,TBA,TBA
+2016-jan,"January 1, 2016",GSA2,"Winter addl. kWh >15,000",4.058,1.924,5.982
+2016-jan,"January 1, 2016",GSA2,"Transition Month addl. kWh >15,000",3.931,TBA,TBA
+2016-jan,"January 1, 2016",GSA3,customer_charge,150.00,,
+2016-jan,"January 1, 2016",GSA3,"demand Summer 0 – 1,000 kW",9.92,,
+2016-jan,"January 1, 2016",GSA3,"demand Winter 0 – 1,000 kW",9.03,,
+2016-jan,"January 1, 2016",GSA3,"demand Transition Month 0 – 1,000 kW",9.03,,
+2016-jan,"January 1, 2016",GSA3,"demand Summer 1,000 – 5,000 kW",13.77,,
+2016-jan,"January 1, 2016",GSA3,"demand Winter 1,000 – 5,000 kW",12.86,,
+2016-jan,"January 1, 2016",GSA3,"demand Transition Month 1,000 – 5,000 kW",12.86,,
+2016-jan,"January 1, 2016",GSA3,Summer kWh,4.356,TBA,TBA
+2016-jan,"January 1, 2016",GSA3,Winter kWh,4.059,1.924,5.983
+2016-jan,"January 1, 2016",GSA3,Transition Month kWh,3.931,TBA,TBA
+2016-jan,"January 1, 2016",GSA3,"demand Summer 5,000 – 15,000 kW",19.48,,
+2016-jan,"January 1, 2016",GSA3,"demand Winter 5,000 – 15,000 kW",16.39,,
+2016-jan,"January 1, 2016",GSA3,"demand Transition Month 5,000 – 15,000 kW",13.33,,
+2016-jan,"January 1, 2016",GSA3,Summer kWh,2.949,TBA,TBA
+2016-jan,"January 1, 2016",GSA3,Winter kWh,2.508,1.855,4.363
+2016-jan,"January 1, 2016",GSA3,Transition Month kWh,2.408,TBA,TBA
+2016-jan,"January 1, 2016",MSB,Additional HUD,0.046,TBA,TBA
+2016-jan,"January 1, 2016",MSB,Additional HUD,0.046,1.885,1.901
+2016-jan,"January 1, 2016",MSB,Additional HUD,0.046,TBA,TBA
+2016-jan,"January 1, 2016",MSD,Additional HUD,0.204,TBA,TBA
+2016-jan,"January 1, 2016",MSD,Additional HUD,0.204,1.855,2.059
+2016-jan,"January 1, 2016",MSD,Additional HUD,0.204,TBA,TBA
+2016-jan,"January 1, 2016",OUTDOOR,Summer kWh,4.608,TBA,TBA
+2016-jan,"January 1, 2016",OUTDOOR,Winter kWh,4.302,1.957,6.259
+2016-jan,"January 1, 2016",OUTDOOR,Transition Month kWh,4.111,TBA,TBA
+2016-june,"June 1, 2016",RESIDENTIAL,customer_charge,13.55,,
+2016-june,"June 1, 2016",RESIDENTIAL,Summer kWh,6.713,1.901,8.614
+2016-june,"June 1, 2016",RESIDENTIAL,Winter kWh,6.406,TBA,TBA
+2016-june,"June 1, 2016",RESIDENTIAL,Transition Month kWh,6.215,TBA,TBA
+2016-june,"June 1, 2016",GSA1,customer_charge,16.60,,
+2016-june,"June 1, 2016",GSA1,Summer kWh,7.904,1.886,9.790
+2016-june,"June 1, 2016",GSA1,Winter kWh,7.597,TBA,TBA
+2016-june,"June 1, 2016",GSA1,Transition Month kWh,7.406,TBA,TBA
+2016-june,"June 1, 2016",GSA2,customer_charge,40.00,,
+2016-june,"June 1, 2016",GSA2,"demand Summer >50 – 1,000 kW",9.90,,
+2016-june,"June 1, 2016",GSA2,"demand Winter >50 – 1,000 kW",8.99,,
+2016-june,"June 1, 2016",GSA2,"demand Transition Month >50 – 1,000 kW",8.99,,
+2016-june,"June 1, 2016",GSA2,"Summer First 15,000 kWh",7.205,1.886,9.091
+2016-june,"June 1, 2016",GSA2,"Winter First 15,000 kWh",6.899,TBA,TBA
+2016-june,"June 1, 2016",GSA2,"Transition Month First 15,000 kWh",6.707,TBA,TBA
+2016-june,"June 1, 2016",GSA2,"Summer addl. kWh >15,000",4.357,1.869,6.226
+2016-june,"June 1, 2016",GSA2,"Winter addl. kWh >15,000",4.058,TBA,TBA
+2016-june,"June 1, 2016",GSA2,"Transition Month addl. kWh >15,000",3.931,TBA,TBA
+2016-june,"June 1, 2016",GSA3,customer_charge,150.00,,
+2016-june,"June 1, 2016",GSA3,"demand Summer 0 – 1,000 kW",9.92,,
+2016-june,"June 1, 2016",GSA3,"demand Winter 0 – 1,000 kW",9.03,,
+2016-june,"June 1, 2016",GSA3,"demand Transition Month 0 – 1,000 kW",9.03,,
+2016-june,"June 1, 2016",GSA3,"demand Summer 1,000 – 5,000 kW",13.77,,
+2016-june,"June 1, 2016",GSA3,"demand Winter 1,000 – 5,000 kW",12.86,,
+2016-june,"June 1, 2016",GSA3,"demand Transition Month 1,000 – 5,000 kW",12.86,,
+2016-june,"June 1, 2016",GSA3,Summer kWh,4.356,1.869,6.225
+2016-june,"June 1, 2016",GSA3,Winter kWh,4.059,TBA,TBA
+2016-june,"June 1, 2016",GSA3,Transition Month kWh,3.931,TBA,TBA
+2016-june,"June 1, 2016",GSA3,"demand Summer 5,000 – 15,000 kW",19.48,,
+2016-june,"June 1, 2016",GSA3,"demand Winter 5,000 – 15,000 kW",16.39,,
+2016-june,"June 1, 2016",GSA3,"demand Transition Month 5,000 – 15,000 kW",13.33,,
+2016-june,"June 1, 2016",GSA3,Summer kWh,2.949,1.785,4.734
+2016-june,"June 1, 2016",GSA3,Winter kWh,2.508,TBA,TBA
+2016-june,"June 1, 2016",GSA3,Transition Month kWh,2.408,TBA,TBA
+2016-june,"June 1, 2016",MSB,Additional HUD,0.046,1.785,1.831
+2016-june,"June 1, 2016",MSB,Additional HUD,0.046,TBA,TBA
+2016-june,"June 1, 2016",MSB,Additional HUD,0.046,TBA,TBA
+2016-june,"June 1, 2016",MSD,Additional HUD,0.204,1.785,1.989
+2016-june,"June 1, 2016",MSD,Additional HUD,0.204,TBA,TBA
+2016-june,"June 1, 2016",MSD,Additional HUD,0.204,TBA,TBA
+2016-june,"June 1, 2016",OUTDOOR,Summer kWh,4.608,1.901,6.509
+2016-june,"June 1, 2016",OUTDOOR,Winter kWh,4.302,TBA,TBA
+2016-june,"June 1, 2016",OUTDOOR,Transition Month kWh,4.111,TBA,TBA
+2017-june,"June 1, 2017",RESIDENTIAL,customer_charge,13.55,,
+2017-june,"June 1, 2017",RESIDENTIAL,Summer kWh,6.869,2.092,8.961
+2017-june,"June 1, 2017",RESIDENTIAL,Winter kWh,6.555,TBA,TBA
+2017-june,"June 1, 2017",RESIDENTIAL,Transition Month kWh,6.359,TBA,TBA
+2017-june,"June 1, 2017",GSA1,customer_charge,16.60,,
+2017-june,"June 1, 2017",GSA1,Summer kWh,8.072,2.076,10.148
+2017-june,"June 1, 2017",GSA1,Winter kWh,7.758,TBA,TBA
+2017-june,"June 1, 2017",GSA1,Transition Month kWh,7.562,TBA,TBA
+2017-june,"June 1, 2017",GSA2,customer_charge,40.00,,
+2017-june,"June 1, 2017",GSA2,"demand Summer >50 – 1,000 kW",10.12,,
+2017-june,"June 1, 2017",GSA2,"demand Winter >50 – 1,000 kW",9.19,,
+2017-june,"June 1, 2017",GSA2,"demand Transition Month >50 – 1,000 kW",9.19,,
+2017-june,"June 1, 2017",GSA2,"Summer First 15,000 kWh",7.361,2.076,9.437
+2017-june,"June 1, 2017",GSA2,"Winter First 15,000 kWh",7.048,TBA,TBA
+2017-june,"June 1, 2017",GSA2,"Transition Month First 15,000 kWh",6.851,TBA,TBA
+2017-june,"June 1, 2017",GSA2,"Summer addl. kWh >15,000",4.451,2.058,6.509
+2017-june,"June 1, 2017",GSA2,"Winter addl. kWh >15,000",4.144,TBA,TBA
+2017-june,"June 1, 2017",GSA2,"Transition Month addl. kWh >15,000",4.014,TBA,TBA
+2017-june,"June 1, 2017",GSA3,customer_charge,150.00,,
+2017-june,"June 1, 2017",GSA3,"demand Summer 0 – 1,000 kW",10.15,,
+2017-june,"June 1, 2017",GSA3,"demand Winter 0 – 1,000 kW",9.24,,
+2017-june,"June 1, 2017",GSA3,"demand Transition Month 0 – 1,000 kW",9.24,,
+2017-june,"June 1, 2017",GSA3,"demand Summer 1,000 – 5,000 kW",14.09,,
+2017-june,"June 1, 2017",GSA3,"demand Winter 1,000 – 5,000 kW",13.16,,
+2017-june,"June 1, 2017",GSA3,"demand Transition Month 1,000 – 5,000 kW",13.16,,
+2017-june,"June 1, 2017",GSA3,Summer kWh,4.448,2.058,6.506
+2017-june,"June 1, 2017",GSA3,Winter kWh,4.144,TBA,TBA
+2017-june,"June 1, 2017",GSA3,Transition Month kWh,4.013,TBA,TBA
+2017-june,"June 1, 2017",GSA3,"demand Summer 5,000 – 15,000 kW",19.92,,
+2017-june,"June 1, 2017",GSA3,"demand Winter 5,000 – 15,000 kW",16.75,,
+2017-june,"June 1, 2017",GSA3,"demand Transition Month 5,000 – 15,000 kW",13.62,,
+2017-june,"June 1, 2017",GSA3,Summer kWh,3.018,1.921,4.939
+2017-june,"June 1, 2017",GSA3,Winter kWh,2.565,TBA,TBA
+2017-june,"June 1, 2017",GSA3,Transition Month kWh,2.463,TBA,TBA
+2017-june,"June 1, 2017",MSB,Additional HUD,0.045,1.921,1.966
+2017-june,"June 1, 2017",MSB,Additional HUD,0.045,TBA,TBA
+2017-june,"June 1, 2017",MSB,Additional HUD,0.045,TBA,TBA
+2017-june,"June 1, 2017",MSD,Additional HUD,0.206,1.921,2.127
+2017-june,"June 1, 2017",MSD,Additional HUD,0.206,TBA,TBA
+2017-june,"June 1, 2017",MSD,Additional HUD,0.206,TBA,TBA
+2017-june,"June 1, 2017",OUTDOOR,Summer kWh,4.680,2.092,6.772
+2017-june,"June 1, 2017",OUTDOOR,Winter kWh,4.367,TBA,TBA
+2017-june,"June 1, 2017",OUTDOOR,Transition Month kWh,4.172,TBA,TBA
+2017-march,"March 1, 2017",RESIDENTIAL,customer_charge,13.55,,
+2017-march,"March 1, 2017",RESIDENTIAL,Summer kWh,6.869,TBA,TBA
+2017-march,"March 1, 2017",RESIDENTIAL,Winter kWh,6.555,1.994,8.549
+2017-march,"March 1, 2017",RESIDENTIAL,Transition Month kWh,6.359,TBA,TBA
+2017-march,"March 1, 2017",GSA1,customer_charge,16.60,,
+2017-march,"March 1, 2017",GSA1,Summer kWh,8.072,TBA,TBA
+2017-march,"March 1, 2017",GSA1,Winter kWh,7.758,1.978,9.736
+2017-march,"March 1, 2017",GSA1,Transition Month kWh,7.562,TBA,TBA
+2017-march,"March 1, 2017",GSA2,customer_charge,40.00,,
+2017-march,"March 1, 2017",GSA2,"demand Summer >50 – 1,000 kW",10.12,,
+2017-march,"March 1, 2017",GSA2,"demand Winter >50 – 1,000 kW",9.19,,
+2017-march,"March 1, 2017",GSA2,"demand Transition Month >50 – 1,000 kW",9.19,,
+2017-march,"March 1, 2017",GSA2,"Summer First 15,000 kWh",7.361,TBA,TBA
+2017-march,"March 1, 2017",GSA2,"Winter First 15,000 kWh",7.048,1.978,9.026
+2017-march,"March 1, 2017",GSA2,"Transition Month First 15,000 kWh",6.851,TBA,TBA
+2017-march,"March 1, 2017",GSA2,"Summer addl. kWh >15,000",4.451,TBA,TBA
+2017-march,"March 1, 2017",GSA2,"Winter addl. kWh >15,000",4.144,1.961,6.105
+2017-march,"March 1, 2017",GSA2,"Transition Month addl. kWh >15,000",4.014,TBA,TBA
+2017-march,"March 1, 2017",GSA3,customer_charge,150.00,,
+2017-march,"March 1, 2017",GSA3,"demand Summer 0 – 1,000 kW",10.15,,
+2017-march,"March 1, 2017",GSA3,"demand Winter 0 – 1,000 kW",9.24,,
+2017-march,"March 1, 2017",GSA3,"demand Transition Month 0 – 1,000 kW",9.24,,
+2017-march,"March 1, 2017",GSA3,"demand Summer 1,000 – 5,000 kW",14.09,,
+2017-march,"March 1, 2017",GSA3,"demand Winter 1,000 – 5,000 kW",13.16,,
+2017-march,"March 1, 2017",GSA3,"demand Transition Month 1,000 – 5,000 kW",13.16,,
+2017-march,"March 1, 2017",GSA3,Summer kWh,4.448,TBA,TBA
+2017-march,"March 1, 2017",GSA3,Winter kWh,4.144,1.961,6.105
+2017-march,"March 1, 2017",GSA3,Transition Month kWh,4.013,TBA,TBA
+2017-march,"March 1, 2017",GSA3,"demand Summer 5,000 – 15,000 kW",19.92,,
+2017-march,"March 1, 2017",GSA3,"demand Winter 5,000 – 15,000 kW",16.75,,
+2017-march,"March 1, 2017",GSA3,"demand Transition Month 5,000 – 15,000 kW",13.62,,
+2017-march,"March 1, 2017",GSA3,Summer kWh,3.018,TBA,TBA
+2017-march,"March 1, 2017",GSA3,Winter kWh,2.565,1.853,4.418
+2017-march,"March 1, 2017",GSA3,Transition Month kWh,2.463,TBA,TBA
+2017-march,"March 1, 2017",MSB,Additional HUD,0.045,TBA,TBA
+2017-march,"March 1, 2017",MSB,Additional HUD,0.045,1.853,1.898
+2017-march,"March 1, 2017",MSB,Additional HUD,0.045,TBA,TBA
+2017-march,"March 1, 2017",MSD,Additional HUD,0.206,TBA,TBA
+2017-march,"March 1, 2017",MSD,Additional HUD,0.206,1.853,2.059
+2017-march,"March 1, 2017",MSD,Additional HUD,0.206,TBA,TBA
+2017-march,"March 1, 2017",OUTDOOR,Summer kWh,4.680,TBA,TBA
+2017-march,"March 1, 2017",OUTDOOR,Winter kWh,4.367,1.994,6.361
+2017-march,"March 1, 2017",OUTDOOR,Transition Month kWh,4.172,TBA,TBA
+2018-june,"June 1, 2018",RESIDENTIAL,customer_charge,13.55,,
+2018-june,"June 1, 2018",RESIDENTIAL,Summer kWh,7.026,1.946,8.972
+2018-june,"June 1, 2018",RESIDENTIAL,Winter kWh,6.704,TBA,TBA
+2018-june,"June 1, 2018",RESIDENTIAL,Transition Month kWh,6.504,TBA,TBA
+2018-june,"June 1, 2018",GSA1,customer_charge,16.60,,
+2018-june,"June 1, 2018",GSA1,Summer kWh,8.241,1.931,10.172
+2018-june,"June 1, 2018",GSA1,Winter kWh,7.919,TBA,TBA
+2018-june,"June 1, 2018",GSA1,Transition Month kWh,7.719,TBA,TBA
+2018-june,"June 1, 2018",GSA2,customer_charge,40.00,,
+2018-june,"June 1, 2018",GSA2,"demand Summer >50 – 1,000 kW",10.34,,
+2018-june,"June 1, 2018",GSA2,"demand Winter >50 – 1,000 kW",9.39,,
+2018-june,"June 1, 2018",GSA2,"demand Transition Month >50 – 1,000 kW",9.39,,
+2018-june,"June 1, 2018",GSA2,"Summer First 15,000 kWh",7.517,1.931,9.448
+2018-june,"June 1, 2018",GSA2,"Winter First 15,000 kWh",7.197,TBA,TBA
+2018-june,"June 1, 2018",GSA2,"Transition Month First 15,000 kWh",6.995,TBA,TBA
+2018-june,"June 1, 2018",GSA2,"Summer addl. kWh >15,000",4.545,1.914,6.459
+2018-june,"June 1, 2018",GSA2,"Winter addl. kWh >15,000",4.231,TBA,TBA
+2018-june,"June 1, 2018",GSA2,"Transition Month addl. kWh >15,000",4.098,TBA,TBA
+2018-june,"June 1, 2018",GSA3,customer_charge,150.00,,
+2018-june,"June 1, 2018",GSA3,"demand Summer 0 – 1,000 kW",10.38,,
+2018-june,"June 1, 2018",GSA3,"demand Winter 0 – 1,000 kW",9.45,,
+2018-june,"June 1, 2018",GSA3,"demand Transition Month 0 – 1,000 kW",9.45,,
+2018-june,"June 1, 2018",GSA3,"demand Summer 1,000 – 5,000 kW",14.41,,
+2018-june,"June 1, 2018",GSA3,"demand Winter 1,000 – 5,000 kW",13.46,,
+2018-june,"June 1, 2018",GSA3,"demand Transition Month 1,000 – 5,000 kW",13.46,,
+2018-june,"June 1, 2018",GSA3,Summer kWh,4.541,1.914,6.455
+2018-june,"June 1, 2018",GSA3,Winter kWh,4.230,TBA,TBA
+2018-june,"June 1, 2018",GSA3,Transition Month kWh,4.096,TBA,TBA
+2018-june,"June 1, 2018",GSB,Additional HUD,0.208,1.754,1.962
+2018-june,"June 1, 2018",GSB,Additional HUD,0.208,TBA,TBA
+2018-june,"June 1, 2018",GSB,Additional HUD,0.208,TBA,TBA
+2018-june,"June 1, 2018",MSB,Additional HUD,0.044,1.754,1.798
+2018-june,"June 1, 2018",MSB,Additional HUD,0.044,TBA,TBA
+2018-june,"June 1, 2018",MSB,Additional HUD,0.044,TBA,TBA
+2018-june,"June 1, 2018",MSD,Additional HUD,0.208,1.754,1.962
+2018-june,"June 1, 2018",MSD,Additional HUD,0.208,TBA,TBA
+2018-june,"June 1, 2018",MSD,Additional HUD,0.208,TBA,TBA
+2018-june,"June 1, 2018",OUTDOOR,Summer kWh,4.753,1.946,6.699
+2018-june,"June 1, 2018",OUTDOOR,Winter kWh,4.432,TBA,TBA
+2018-june,"June 1, 2018",OUTDOOR,Transition Month kWh,4.233,TBA,TBA
+2019-jan,"January 1, 2019",RESIDENTIAL,customer_charge,16.55,,
+2019-jan,"January 1, 2019",RESIDENTIAL,Summer kWh,7.246,TBA,TBA
+2019-jan,"January 1, 2019",RESIDENTIAL,Winter kWh,6.914,2.098,9.012
+2019-jan,"January 1, 2019",RESIDENTIAL,Transition Month kWh,6.708,TBA,TBA
+2019-jan,"January 1, 2019",GSA1,customer_charge,19.60,,
+2019-jan,"January 1, 2019",GSA1,Summer kWh,8.523,TBA,TBA
+2019-jan,"January 1, 2019",GSA1,Winter kWh,8.190,2.082,10.272
+2019-jan,"January 1, 2019",GSA1,Transition Month kWh,7.983,TBA,TBA
+2019-jan,"January 1, 2019",GSA2,customer_charge,60.00,,
+2019-jan,"January 1, 2019",GSA2,"demand Summer >50 – 1,000 kW",10.65,,
+2019-jan,"January 1, 2019",GSA2,"demand Winter >50 – 1,000 kW",9.67,,
+2019-jan,"January 1, 2019",GSA2,"demand Transition Month >50 – 1,000 kW",9.67,,
+2019-jan,"January 1, 2019",GSA2,"Summer First 15,000 kWh",7.781,TBA,TBA
+2019-jan,"January 1, 2019",GSA2,"Winter First 15,000 kWh",7.450,2.082,9.532
+2019-jan,"January 1, 2019",GSA2,"Transition Month First 15,000 kWh",7.242,TBA,TBA
+2019-jan,"January 1, 2019",GSA2,"Summer addl. kWh >15,000",4.722,TBA,TBA
+2019-jan,"January 1, 2019",GSA2,"Winter addl. kWh >15,000",4.397,2.064,6.461
+2019-jan,"January 1, 2019",GSA2,"Transition Month addl. kWh >15,000",4.260,TBA,TBA
+2019-jan,"January 1, 2019",GSA3,customer_charge,200.00,,
+2019-jan,"January 1, 2019",GSA3,"demand Summer 0 – 1,000 kW",10.70,,
+2019-jan,"January 1, 2019",GSA3,"demand Winter 0 – 1,000 kW",9.75,,
+2019-jan,"January 1, 2019",GSA3,"demand Transition Month 0 – 1,000 kW",9.75,,
+2019-jan,"January 1, 2019",GSA3,"demand Summer 1,000 – 5,000 kW",14.87,,
+2019-jan,"January 1, 2019",GSA3,"demand Winter 1,000 – 5,000 kW",13.89,,
+2019-jan,"January 1, 2019",GSA3,"demand Transition Month 1,000 – 5,000 kW",13.89,,
+2019-jan,"January 1, 2019",GSA3,Summer kWh,4.715,TBA,TBA
+2019-jan,"January 1, 2019",GSA3,Winter kWh,4.394,2.064,6.458
+2019-jan,"January 1, 2019",GSA3,Transition Month kWh,4.256,TBA,TBA
+2019-jan,"January 1, 2019",GSB,Additional HUD,0.223,TBA,TBA
+2019-jan,"January 1, 2019",GSB,Additional HUD,0.223,2.200,2.423
+2019-jan,"January 1, 2019",GSB,Additional HUD,0.223,TBA,TBA
+2019-jan,"January 1, 2019",MSB,Additional HUD,0.055,TBA,TBA
+2019-jan,"January 1, 2019",MSB,Additional HUD,0.055,2.173,2.228
+2019-jan,"January 1, 2019",MSB,Additional HUD,0.055,TBA,TBA
+2019-jan,"January 1, 2019",MSD,Additional HUD,0.208,TBA,TBA
+2019-jan,"January 1, 2019",MSD,Additional HUD,0.223,2.173,2.396
+2019-jan,"January 1, 2019",MSD,Additional HUD,0.223,TBA,TBA
+2019-jan,"January 1, 2019",OUTDOOR,Summer kWh,4.899,TBA,TBA
+2019-jan,"January 1, 2019",OUTDOOR,Winter kWh,4.567,2.098,6.665
+2019-jan,"January 1, 2019",OUTDOOR,Transition Month kWh,4.362,TBA,TBA
+2019-may,"May 1, 2019",RESIDENTIAL,customer_charge,16.55,,
+2019-may,"May 1, 2019",RESIDENTIAL,Summer kWh,7.246,TBA,TBA
+2019-may,"May 1, 2019",RESIDENTIAL,Winter kWh,6.914,TBA,TBA
+2019-may,"May 1, 2019",RESIDENTIAL,Transition Month kWh,6.708,1.715,8.423
+2019-may,"May 1, 2019",GSA1,customer_charge,19.60,,
+2019-may,"May 1, 2019",GSA1,Summer kWh,8.523,TBA,TBA
+2019-may,"May 1, 2019",GSA1,Winter kWh,8.190,TBA,TBA
+2019-may,"May 1, 2019",GSA1,Transition Month kWh,7.983,1.702,9.685
+2019-may,"May 1, 2019",GSA2,customer_charge,60.00,,
+2019-may,"May 1, 2019",GSA2,"demand Summer >50 – 1,000 kW",10.65,,
+2019-may,"May 1, 2019",GSA2,"demand Winter >50 – 1,000 kW",9.67,,
+2019-may,"May 1, 2019",GSA2,"demand Transition Month >50 – 1,000 kW",9.67,,
+2019-may,"May 1, 2019",GSA2,"Summer First 15,000 kWh",7.781,TBA,TBA
+2019-may,"May 1, 2019",GSA2,"Winter First 15,000 kWh",7.450,TBA,TBA
+2019-may,"May 1, 2019",GSA2,"Transition Month First 15,000 kWh",7.242,1.702,8.944
+2019-may,"May 1, 2019",GSA2,"Summer addl. kWh >15,000",4.722,TBA,TBA
+2019-may,"May 1, 2019",GSA2,"Winter addl. kWh >15,000",4.397,TBA,TBA
+2019-may,"May 1, 2019",GSA2,"Transition Month addl. kWh >15,000",4.260,1.687,5.947
+2019-may,"May 1, 2019",GSA3,customer_charge,200.00,,
+2019-may,"May 1, 2019",GSA3,"demand Summer 0 – 1,000 kW",10.70,,
+2019-may,"May 1, 2019",GSA3,"demand Winter 0 – 1,000 kW",9.75,,
+2019-may,"May 1, 2019",GSA3,"demand Transition Month 0 – 1,000 kW",9.75,,
+2019-may,"May 1, 2019",GSA3,"demand Summer 1,000 – 5,000 kW",14.87,,
+2019-may,"May 1, 2019",GSA3,"demand Winter 1,000 – 5,000 kW",13.89,,
+2019-may,"May 1, 2019",GSA3,"demand Transition Month 1,000 – 5,000 kW",13.89,,
+2019-may,"May 1, 2019",GSA3,Summer kWh,4.715,TBA,TBA
+2019-may,"May 1, 2019",GSA3,Winter kWh,4.394,TBA,TBA
+2019-may,"May 1, 2019",GSA3,Transition Month kWh,4.256,1.687,5.943
+2019-may,"May 1, 2019",GSB,Additional HUD,0.223,TBA,TBA
+2019-may,"May 1, 2019",GSB,Additional HUD,0.223,TBA,TBA
+2019-may,"May 1, 2019",GSB,Additional HUD,0.223,1.658,1.881
+2019-may,"May 1, 2019",MSB,Additional HUD,0.055,TBA,TBA
+2019-may,"May 1, 2019",MSB,Additional HUD,0.055,TBA,TBA
+2019-may,"May 1, 2019",MSB,Additional HUD,0.055,1.650,1.705
+2019-may,"May 1, 2019",MSD,Additional HUD,0.208,TBA,TBA
+2019-may,"May 1, 2019",MSD,Additional HUD,0.223,TBA,TBA
+2019-may,"May 1, 2019",MSD,Additional HUD,0.223,1.650,1.873
+2019-may,"May 1, 2019",OUTDOOR,Summer kWh,4.899,TBA,TBA
+2019-may,"May 1, 2019",OUTDOOR,Winter kWh,4.567,TBA,TBA
+2019-may,"May 1, 2019",OUTDOOR,Transition Month kWh,4.362,1.715,6.077
+2020-june,"June 1, 2020",RESIDENTIAL,customer_charge,16.55,,
+2020-june,"June 1, 2020",RESIDENTIAL,Summer kWh,7.246,1.476,8.722
+2020-june,"June 1, 2020",RESIDENTIAL,Winter kWh,6.914,TBA,TBA
+2020-june,"June 1, 2020",RESIDENTIAL,Transition Month kWh,6.708,TBA,TBA
+2020-june,"June 1, 2020",GSA1,customer_charge,19.60,,
+2020-june,"June 1, 2020",GSA1,Summer kWh,8.523,1.465,9.988
+2020-june,"June 1, 2020",GSA1,Winter kWh,8.190,TBA,TBA
+2020-june,"June 1, 2020",GSA1,Transition Month kWh,7.983,TBA,TBA
+2020-june,"June 1, 2020",GSA2,customer_charge,60.00,,
+2020-june,"June 1, 2020",GSA2,"demand Summer >50 – 1,000 kW",10.65,,
+2020-june,"June 1, 2020",GSA2,"demand Winter >50 – 1,000 kW",9.67,,
+2020-june,"June 1, 2020",GSA2,"demand Transition Month >50 – 1,000 kW",9.67,,
+2020-june,"June 1, 2020",GSA2,"Summer First 15,000 kWh",7.781,1.465,9.246
+2020-june,"June 1, 2020",GSA2,"Winter First 15,000 kWh",7.450,TBA,TBA
+2020-june,"June 1, 2020",GSA2,"Transition Month First 15,000 kWh",7.242,TBA,TBA
+2020-june,"June 1, 2020",GSA2,"Summer addl. kWh >15,000",4.722,1.452,6.174
+2020-june,"June 1, 2020",GSA2,"Winter addl. kWh >15,000",4.397,TBA,TBA
+2020-june,"June 1, 2020",GSA2,"Transition Month addl. kWh >15,000",4.260,TBA,TBA
+2020-june,"June 1, 2020",GSA3,customer_charge,200.00,,
+2020-june,"June 1, 2020",GSA3,"demand Summer 0 – 1,000 kW",10.70,,
+2020-june,"June 1, 2020",GSA3,"demand Winter 0 – 1,000 kW",9.75,,
+2020-june,"June 1, 2020",GSA3,"demand Transition Month 0 – 1,000 kW",9.75,,
+2020-june,"June 1, 2020",GSA3,"demand Summer 1,000 – 5,000 kW",14.87,,
+2020-june,"June 1, 2020",GSA3,"demand Winter 1,000 – 5,000 kW",13.89,,
+2020-june,"June 1, 2020",GSA3,"demand Transition Month 1,000 – 5,000 kW",13.89,,
+2020-june,"June 1, 2020",GSA3,Summer kWh,4.715,1.452,6.167
+2020-june,"June 1, 2020",GSA3,Winter kWh,4.394,TBA,TBA
+2020-june,"June 1, 2020",GSA3,Transition Month kWh,4.256,TBA,TBA
+2020-june,"June 1, 2020",TD_GSA,Additional HUD,0.149,1.470,1.619
+2020-june,"June 1, 2020",TD_GSA,Additional HUD,0.149,TBA,TBA
+2020-june,"June 1, 2020",TD_GSA,Additional HUD,.149,TBA,TBA
+2020-june,"June 1, 2020",GSB,Additional HUD,0.223,1.329,1.552
+2020-june,"June 1, 2020",GSB,Additional HUD,0.223,TBA,TBA
+2020-june,"June 1, 2020",GSB,Additional HUD,0.223,TBA,TBA
+2020-june,"June 1, 2020",MSB,Additional HUD,0.055,1.237,1.292
+2020-june,"June 1, 2020",MSB,Additional HUD,0.055,TBA,TBA
+2020-june,"June 1, 2020",MSB,Additional HUD,0.055,TBA,TBA
+2020-june,"June 1, 2020",MSD,Additional HUD,0.223,1.237,1.460
+2020-june,"June 1, 2020",MSD,Additional HUD,0.223,TBA,TBA
+2020-june,"June 1, 2020",OUTDOOR,Summer kWh,4.899,1.476,6.375
+2020-june,"June 1, 2020",OUTDOOR,Winter kWh,4.567,TBA,TBA
+2020-june,"June 1, 2020",OUTDOOR,Transition Month kWh,4.362,TBA,TBA
+2021-june,"June 1, 2021",RESIDENTIAL,customer_charge,16.55,,
+2021-june,"June 1, 2021",RESIDENTIAL,Summer kWh,7.246,1.793,9.039
+2021-june,"June 1, 2021",RESIDENTIAL,Winter kWh,6.914,TBA,TBA
+2021-june,"June 1, 2021",RESIDENTIAL,Transition Month kWh,6.708,TBA,TBA
+2021-june,"June 1, 2021",GSA1,customer_charge,19.60,,
+2021-june,"June 1, 2021",GSA1,Summer kWh,8.523,1.779,10.302
+2021-june,"June 1, 2021",GSA1,Winter kWh,8.190,TBA,TBA
+2021-june,"June 1, 2021",GSA1,Transition Month kWh,7.983,TBA,TBA
+2021-june,"June 1, 2021",GSA2,customer_charge,60.00,,
+2021-june,"June 1, 2021",GSA2,"demand Summer >50 – 1,000 kW",10.65,,
+2021-june,"June 1, 2021",GSA2,"demand Winter >50 – 1,000 kW",9.67,,
+2021-june,"June 1, 2021",GSA2,"demand Transition Month >50 – 1,000 kW",9.67,,
+2021-june,"June 1, 2021",GSA2,"Summer First 15,000 kWh",7.781,1.779,9.560
+2021-june,"June 1, 2021",GSA2,"Winter First 15,000 kWh",7.450,TBA,TBA
+2021-june,"June 1, 2021",GSA2,"Transition Month First 15,000 kWh",7.242,TBA,TBA
+2021-june,"June 1, 2021",GSA2,"Summer addl. kWh >15,000",4.722,1.764,6.486
+2021-june,"June 1, 2021",GSA2,"Winter addl. kWh >15,000",4.397,TBA,TBA
+2021-june,"June 1, 2021",GSA2,"Transition Month addl. kWh >15,000",4.260,TBA,TBA
+2021-june,"June 1, 2021",GSA3,customer_charge,200.00,,
+2021-june,"June 1, 2021",GSA3,"demand Summer 0 – 1,000 kW",10.70,,
+2021-june,"June 1, 2021",GSA3,"demand Winter 0 – 1,000 kW",9.75,,
+2021-june,"June 1, 2021",GSA3,"demand Transition Month 0 – 1,000 kW",9.75,,
+2021-june,"June 1, 2021",GSA3,"demand Summer 1,000 – 5,000 kW",14.87,,
+2021-june,"June 1, 2021",GSA3,"demand Winter 1,000 – 5,000 kW",13.89,,
+2021-june,"June 1, 2021",GSA3,"demand Transition Month 1,000 – 5,000 kW",13.89,,
+2021-june,"June 1, 2021",GSA3,Summer kWh,4.715,1.764,6.479
+2021-june,"June 1, 2021",GSA3,Winter kWh,4.394,TBA,TBA
+2021-june,"June 1, 2021",GSA3,Transition Month kWh,4.256,TBA,TBA
+2021-june,"June 1, 2021",TD_GSA,Additional HUD,0.149,1.785,1.934
+2021-june,"June 1, 2021",TD_GSA,Additional HUD,0.149,TBA,TBA
+2021-june,"June 1, 2021",TD_GSA,Additional HUD,.149,TBA,TBA
+2021-june,"June 1, 2021",GSB,Additional HUD,0.223,1.652,1.875
+2021-june,"June 1, 2021",GSB,Additional HUD,0.223,TBA,TBA
+2021-june,"June 1, 2021",GSB,Additional HUD,0.223,TBA,TBA
+2021-june,"June 1, 2021",MSB,Additional HUD,0.055,1.624,1.679
+2021-june,"June 1, 2021",MSB,Additional HUD,0.055,TBA,TBA
+2021-june,"June 1, 2021",MSB,Additional HUD,0.055,TBA,TBA
+2021-june,"June 1, 2021",MSD,Additional HUD,0.223,1.624,1.847
+2021-june,"June 1, 2021",MSD,Additional HUD,0.223,TBA,TBA
+2021-june,"June 1, 2021",MSD,Additional HUD,0.223,TBA,TBA
+2021-june,"June 1, 2021",OUTDOOR,Summer kWh,4.899,1.793,6.692
+2021-june,"June 1, 2021",OUTDOOR,Winter kWh,4.567,TBA,TBA
+2021-june,"June 1, 2021",OUTDOOR,Transition Month kWh,4.362,TBA,TBA
+2022-june,"June 1, 2022",RESIDENTIAL,customer_charge,16.55,,
+2022-june,"June 1, 2022",RESIDENTIAL,Summer kWh,7.246,2.809,10.055
+2022-june,"June 1, 2022",RESIDENTIAL,Winter kWh,6.914,TBA,TBA
+2022-june,"June 1, 2022",RESIDENTIAL,Transition Month kWh,6.708,TBA,TBA
+2022-june,"June 1, 2022",GSA1,customer_charge,19.60,,
+2022-june,"June 1, 2022",GSA1,Summer kWh,8.523,2.787,11.310
+2022-june,"June 1, 2022",GSA1,Winter kWh,8.190,TBA,TBA
+2022-june,"June 1, 2022",GSA1,Transition Month kWh,7.983,TBA,TBA
+2022-june,"June 1, 2022",GSA2,customer_charge,60.00,,
+2022-june,"June 1, 2022",GSA2,"demand Summer >50 – 1,000 kW",10.65,,
+2022-june,"June 1, 2022",GSA2,"demand Winter >50 – 1,000 kW",9.67,,
+2022-june,"June 1, 2022",GSA2,"demand Transition Month >50 – 1,000 kW",9.67,,
+2022-june,"June 1, 2022",GSA2,"Summer First 15,000 kWh",7.781,2.787,10.568
+2022-june,"June 1, 2022",GSA2,"Winter First 15,000 kWh",7.450,TBA,TBA
+2022-june,"June 1, 2022",GSA2,"Transition Month First 15,000 kWh",7.242,TBA,TBA
+2022-june,"June 1, 2022",GSA2,"Summer addl. kWh >15,000",4.722,2.763,7.485
+2022-june,"June 1, 2022",GSA2,"Winter addl. kWh >15,000",4.397,TBA,TBA
+2022-june,"June 1, 2022",GSA2,"Transition Month addl. kWh >15,000",4.260,TBA,TBA
+2022-june,"June 1, 2022",GSA3,customer_charge,200.00,,
+2022-june,"June 1, 2022",GSA3,"demand Summer 0 – 1,000 kW",10.70,,
+2022-june,"June 1, 2022",GSA3,"demand Winter 0 – 1,000 kW",9.75,,
+2022-june,"June 1, 2022",GSA3,"demand Transition Month 0 – 1,000 kW",9.75,,
+2022-june,"June 1, 2022",GSA3,"demand Summer 1,000 – 5,000 kW",14.87,,
+2022-june,"June 1, 2022",GSA3,"demand Winter 1,000 – 5,000 kW",13.89,,
+2022-june,"June 1, 2022",GSA3,"demand Transition Month 1,000 – 5,000 kW",13.89,,
+2022-june,"June 1, 2022",GSA3,Summer kWh,4.715,2.763,7.478
+2022-june,"June 1, 2022",GSA3,Winter kWh,4.394,TBA,TBA
+2022-june,"June 1, 2022",GSA3,Transition Month kWh,4.256,TBA,TBA
+2022-june,"June 1, 2022",TD_GSA,Additional HUD,0.149,2.796,2.945
+2022-june,"June 1, 2022",TD_GSA,Additional HUD,0.149,TBA,TBA
+2022-june,"June 1, 2022",TD_GSA,Additional HUD,0.149,TBA,TBA
+2022-june,"June 1, 2022",GSB,Additional HUD,0.223,2.712,2.935
+2022-june,"June 1, 2022",GSB,Additional HUD,0.223,TBA,TBA
+2022-june,"June 1, 2022",GSB,Additional HUD,0.223,TBA,TBA
+2022-june,"June 1, 2022",MSB,Additional HUD,0.055,2.704,2.759
+2022-june,"June 1, 2022",MSB,Additional HUD,0.055,TBA,TBA
+2022-june,"June 1, 2022",MSB,Additional HUD,0.055,TBA,TBA
+2022-june,"June 1, 2022",MSD,Additional HUD,0.223,2.704,2.927
+2022-june,"June 1, 2022",MSD,Additional HUD,0.223,TBA,TBA
+2022-june,"June 1, 2022",MSD,Additional HUD,0.223,TBA,TBA
+2022-june,"June 1, 2022",OUTDOOR,Summer kWh,4.899,2.809,7.708
+2022-june,"June 1, 2022",OUTDOOR,Winter kWh,4.567,TBA,TBA
+2022-june,"June 1, 2022",OUTDOOR,Transition Month kWh,4.362,TBA,TBA
+2023-june,"June 1, 2023",RESIDENTIAL,customer_charge,16.55,,
+2023-june,"June 1, 2023",RESIDENTIAL,Summer kWh,7.246,2.526,9.772
+2023-june,"June 1, 2023",RESIDENTIAL,Winter kWh,6.914,TBA,TBA
+2023-june,"June 1, 2023",RESIDENTIAL,Transition Month kWh,6.708,TBA,TBA
+2023-june,"June 1, 2023",GSA1,customer_charge,19.60,,
+2023-june,"June 1, 2023",GSA1,Summer kWh,8.523,2.506,11.029
+2023-june,"June 1, 2023",GSA1,Winter kWh,8.190,TBA,TBA
+2023-june,"June 1, 2023",GSA1,Transition Month kWh,7.983,TBA,TBA
+2023-june,"June 1, 2023",GSA2,customer_charge,60.00,,
+2023-june,"June 1, 2023",GSA2,"demand Summer >50 – 1,000 kW",10.65,,
+2023-june,"June 1, 2023",GSA2,"demand Winter >50 – 1,000 kW",9.67,,
+2023-june,"June 1, 2023",GSA2,"demand Transition Month >50 – 1,000 kW",9.67,,
+2023-june,"June 1, 2023",GSA2,"Summer First 15,000 kWh",7.781,2.506,10.287
+2023-june,"June 1, 2023",GSA2,"Winter First 15,000 kWh",7.450,TBA,TBA
+2023-june,"June 1, 2023",GSA2,"Transition Month First 15,000 kWh",7.242,TBA,TBA
+2023-june,"June 1, 2023",GSA2,"Summer addl. kWh >15,000",4.722,2.484,7.206
+2023-june,"June 1, 2023",GSA2,"Winter addl. kWh >15,000",4.397,TBA,TBA
+2023-june,"June 1, 2023",GSA2,"Transition Month addl. kWh >15,000",4.260,TBA,TBA
+2023-june,"June 1, 2023",GSA3,customer_charge,200.00,,
+2023-june,"June 1, 2023",GSA3,"demand Summer 0 – 1,000 kW",10.70,,
+2023-june,"June 1, 2023",GSA3,"demand Winter 0 – 1,000 kW",9.75,,
+2023-june,"June 1, 2023",GSA3,"demand Transition Month 0 – 1,000 kW",9.75,,
+2023-june,"June 1, 2023",GSA3,"demand Summer 1,000 – 5,000 kW",14.87,,
+2023-june,"June 1, 2023",GSA3,"demand Winter 1,000 – 5,000 kW",13.89,,
+2023-june,"June 1, 2023",GSA3,"demand Transition Month 1,000 – 5,000 kW",13.89,,
+2023-june,"June 1, 2023",GSA3,Summer kWh,4.715,2.484,7.199
+2023-june,"June 1, 2023",GSA3,Winter kWh,4.394,TBA,TBA
+2023-june,"June 1, 2023",GSA3,Transition Month kWh,4.256,TBA,TBA
+2023-june,"June 1, 2023",TD_GSA,Additional HUD,0.149,2.514,2.663
+2023-june,"June 1, 2023",TD_GSA,Additional HUD,0.149,TBA,TBA
+2023-june,"June 1, 2023",TD_GSA,Additional HUD,0.149,TBA,TBA
+2023-june,"June 1, 2023",GSB,Additional HUD,0.223,2.378,2.601
+2023-june,"June 1, 2023",GSB,Additional HUD,0.223,TBA,TBA
+2023-june,"June 1, 2023",GSB,Additional HUD,0.223,TBA,TBA
+2023-june,"June 1, 2023",MSB,Additional HUD,0.055,2.360,2.415
+2023-june,"June 1, 2023",MSB,Additional HUD,0.055,TBA,TBA
+2023-june,"June 1, 2023",MSB,Additional HUD,0.055,TBA,TBA
+2023-june,"June 1, 2023",MSD,Additional HUD,0.223,2.360,2.583
+2023-june,"June 1, 2023",MSD,Additional HUD,0.223,TBA,TBA
+2023-june,"June 1, 2023",MSD,Additional HUD,0.223,TBA,TBA
+2023-june,"June 1, 2023",OUTDOOR,Summer kWh,4.899,2.526,7.425
+2023-june,"June 1, 2023",OUTDOOR,Winter kWh,4.567,TBA,TBA
+2023-june,"June 1, 2023",OUTDOOR,Transition Month kWh,4.362,TBA,TBA
+2024-june,"June 1, 2024",RESIDENTIAL,customer_charge,19.61,,
+2024-june,"June 1, 2024",RESIDENTIAL,Summer kWh,7.707,2.013,9.720
+2024-june,"June 1, 2024",RESIDENTIAL,Winter kWh,7.360,TBA,TBA
+2024-june,"June 1, 2024",RESIDENTIAL,Transition Month kWh,7.145,TBA,TBA
+2024-june,"June 1, 2024",GSA1,customer_charge,22.60,,
+2024-june,"June 1, 2024",GSA1,Summer kWh,8.864,1.998,10.862
+2024-june,"June 1, 2024",GSA1,Winter kWh,8.516,TBA,TBA
+2024-june,"June 1, 2024",GSA1,Transition Month kWh,8.299,TBA,TBA
+2024-june,"June 1, 2024",GSA2,customer_charge,63.00,,
+2024-june,"June 1, 2024",GSA2,"demand Summer >50 – 1,000 kW",11.10,,
+2024-june,"June 1, 2024",GSA2,"demand Winter >50 – 1,000 kW",10.08,,
+2024-june,"June 1, 2024",GSA2,"demand Transition Month >50 – 1,000 kW",10.08,,
+2024-june,"June 1, 2024",GSA2,"Summer First 15,000 kWh",8.231,1.998,10.229
+2024-june,"June 1, 2024",GSA2,"Winter First 15,000 kWh",7.885,TBA,TBA
+2024-june,"June 1, 2024",GSA2,"Transition Month First 15,000 kWh",7.667,TBA,TBA
+2024-june,"June 1, 2024",GSA2,"Summer addl. kWh >15,000",5.046,1.980,7.026
+2024-june,"June 1, 2024",GSA2,"Winter addl. kWh >15,000",4.706,TBA,TBA
+2024-june,"June 1, 2024",GSA2,"Transition Month addl. kWh >15,000",4.563,TBA,TBA
+2024-june,"June 1, 2024",GSA3,customer_charge,203.00,,
+2024-june,"June 1, 2024",GSA3,"demand Summer 0 – 1,000 kW",11.17,,
+2024-june,"June 1, 2024",GSA3,"demand Winter 0 – 1,000 kW",10.17,,
+2024-june,"June 1, 2024",GSA3,"demand Transition Month 0 – 1,000 kW",10.17,,
+2024-june,"June 1, 2024",GSA3,"demand Summer 1,000 – 5,000 kW",15.52,,
+2024-june,"June 1, 2024",GSA3,"demand Winter 1,000 – 5,000 kW",14.50,,
+2024-june,"June 1, 2024",GSA3,"demand Transition Month 1,000 – 5,000 kW",14.50,,
+2024-june,"June 1, 2024",GSA3,Summer kWh,5.036,1.980,7.016
+2024-june,"June 1, 2024",GSA3,Winter kWh,4.701,TBA,TBA
+2024-june,"June 1, 2024",GSA3,Transition Month kWh,4.557,TBA,TBA
+2024-june,"June 1, 2024",TD_GSA,Additional HUD,0.151,2.004,2.155
+2024-june,"June 1, 2024",TD_GSA,Additional HUD,0.151,TBA,TBA
+2024-june,"June 1, 2024",TD_GSA,Additional HUD,0.151,TBA,TBA
+2024-june,"June 1, 2024",GSB,Additional HUD,0.228,1.868,2.096
+2024-june,"June 1, 2024",GSB,Additional HUD,0.228,TBA,TBA
+2024-june,"June 1, 2024",GSB,Additional HUD,0.228,TBA,TBA
+2024-june,"June 1, 2024",MSB,Additional HUD,0.053,1.816,1.869
+2024-june,"June 1, 2024",MSB,Additional HUD,0.053,TBA,TBA
+2024-june,"June 1, 2024",MSB,Additional HUD,0.053,TBA,TBA
+2024-june,"June 1, 2024",MSD,Additional HUD,0.228,1.816,2.044
+2024-june,"June 1, 2024",MSD,Additional HUD,0.228,TBA,TBA
+2024-june,"June 1, 2024",MSD,Additional HUD,0.228,TBA,TBA
+2024-june,"June 1, 2024",OUTDOOR,Summer kWh,5.180,2.013,7.193
+2024-june,"June 1, 2024",OUTDOOR,Winter kWh,4.833,TBA,TBA
+2024-june,"June 1, 2024",OUTDOOR,Transition Month kWh,4.619,TBA,TBA
+2025-june,"June 1, 2025",RESIDENTIAL,customer_charge,22.61,,
+2025-june,"June 1, 2025",RESIDENTIAL,Summer kWh,8.202,2.784,10.986
+2025-june,"June 1, 2025",RESIDENTIAL,Winter kWh,7.837,3.011,10.848
+2025-june,"June 1, 2025",RESIDENTIAL,Transition Month kWh,7.611,2.649,10.260
+2025-june,"June 1, 2025",GSA1,customer_charge,25.60,,
+2025-june,"June 1, 2025",GSA1,Summer kWh,9.489,2.763,12.252
+2025-june,"June 1, 2025",GSA1,Winter kWh,9.123,2.988,12.111
+2025-june,"June 1, 2025",GSA1,Transition Month kWh,8.895,2.628,11.523
+2025-june,"June 1, 2025",GSA2,customer_charge,75.00,,
+2025-june,"June 1, 2025",GSA2,"demand Summer >50-1,000 kW",11.65,,
+2025-june,"June 1, 2025",GSA2,"demand Winter >50-1,000 KW",10.58,,
+2025-june,"June 1, 2025",GSA2,"demand Transition Month >50-1,000 kW",10.58,,
+2025-june,"June 1, 2025",GSA2,"Sumer First 15,000 kWh",8.936,2.763,11.699
+2025-june,"June 1, 2025",GSA2,"Winter First 15,000 kWh",8.572,2.988,11.560
+2025-june,"June 1, 2025",GSA2,"Transition Month addl. kWh >15,000",8.342,2.628,10.970
+2025-june,"June 1, 2025",GSA2,"Summer addl. kWh >15,000",5.597,2.738,8.335
+2025-june,"June 1, 2025",GSA2,"Winter addl. KWH >15,000",5.239,2.961,8.200
+2025-june,"June 1, 2025",GSA2,"Transition Month addl. kWh >15,000",5.089,2.605,7.694
+2025-june,"June 1, 2025",GSA3,customer_charge,215.00,,
+2025-june,"June 1, 2025",GSA3,"demand Summer 0-1,000 kW",11.74,,
+2025-june,"June 1, 2025",GSA3,"demand Winter 0-1,000 KW",10.69,,
+2025-june,"June 1, 2025",GSA3,"demand Transition Month 0-1,000 kW",10.69,,
+2025-june,"June 1, 2025",GSA3,"demand Summer 1,000-5,000 kW",16.32,,
+2025-june,"June 1, 2025",GSA3,"demand Winter 1,000-5,000 kW",15.24,,
+2025-june,"June 1, 2025",GSA3,"demand Transition Month 1,000-5,000 kW",15.24,,
+2025-june,"June 1, 2025",GSA3,Summer kWh,5.594,2.738,8.332
+2025-june,"June 1, 2025",GSA3,Winter kWh,5.242,2.961,8.203
+2025-june,"June 1, 2025",GSA3,Transition Month kWh,5.090,2.605,7.695
+2025-june,"June 1, 2025",TD_GSA,customer_charge,"1,500.00",,
+2025-june,"June 1, 2025",TD_GSA,Additional HUD,0.153,2.772,2.925
+2025-june,"June 1, 2025",TD_GSA,Additional HUD,0.153,2.997,3.150
+2025-june,"June 1, 2025",TD_GSA,Additional HUD,0.153,2.637,2.790
+2025-june,"June 1, 2025",GSB,customer_charge,"1,500.00",,
+2025-june,"June 1, 2025",GSB,Additional HUD,2.605,TBA,2.839
+2025-june,"June 1, 2025",GSB,Additional HUD,0.234,2.616,2.850
+2025-june,"June 1, 2025",GSB,Additional HUD,0.234,2.358,2.592
+2025-june,"June 1, 2025",MSB,customer_charge,"1,500.00",,
+2025-june,"June 1, 2025",MSB,Additional HUD,2.630,TBA,2.680
+2025-june,"June 1, 2025",MSB,Additional HUD,0.050,2.599,2.649
+2025-june,"June 1, 2025",MSB,Additional HUD,0.050,2.367,2.417
+2025-june,"June 1, 2025",MSD,customer_charge,"1,500.00",,
+2025-june,"June 1, 2025",MSD,Additional HUD,2.630,TBA,2.864
+2025-june,"June 1, 2025",MSD,Additional HUD,0.234,2.599,2.833
+2025-june,"June 1, 2025",MSD,Additional HUD,0.234,2.367,2.601
+2025-june,"June 1, 2025",OUTDOOR,customer_charge,8.50,,
+2025-june,"June 1, 2025",OUTDOOR,Transition Month kWh,4.953,2.649,7.602
+2026-june,"June 1, 2026",RESIDENTIAL,customer_charge,25.61,,
+2026-june,"June 1, 2026",RESIDENTIAL,Summer kWh,8.388,2.741,11.129
+2026-june,"June 1, 2026",RESIDENTIAL,Winter kWh,8.023,4.010,12.033
+2026-june,"June 1, 2026",RESIDENTIAL,Transition Month kWh,7.797,3.694,11.491
+2026-june,"June 1, 2026",GSA1,customer_charge,28.60,,
+2026-june,"June 1, 2026",GSA1,Summer kWh,9.764,2.720,12.484
+2026-june,"June 1, 2026",GSA1,Winter kWh,9.398,3.979,13.377
+2026-june,"June 1, 2026",GSA1,Transition Month kWh,9.170,3.665,12.835
+2026-june,"June 1, 2026",GSA2,customer_charge,78.00,,
+2026-june,"June 1, 2026",GSA2,"demand Summer >50-1,000 kW",11.65,,
+2026-june,"June 1, 2026",GSA2,"demand Winter >50-1,000 KW",10.58,,
+2026-june,"June 1, 2026",GSA2,"demand Transition Month >50-1,000 kW",10.58,,
+2026-june,"June 1, 2026",GSA2,"Sumer First 15,000 kWh",9.343,2.720,12.063
+2026-june,"June 1, 2026",GSA2,"Winter First 15,000 kWh",8.979,3.979,12.958
+2026-june,"June 1, 2026",GSA2,"Transition Month addl. kWh >15,000",8.749,3.665,12.414
+2026-june,"June 1, 2026",GSA2,"Summer addl. kWh >15,000",6.004,2.696,8.700
+2026-june,"June 1, 2026",GSA2,"Winter addl. KWH >15,000",5.646,3.944,9.590
+2026-june,"June 1, 2026",GSA2,"Transition Month addl. kWh >15,000",5.496,3.633,9.129
+2026-june,"June 1, 2026",GSA3,customer_charge,218.00,,
+2026-june,"June 1, 2026",GSA3,"demand Summer 0-1,000 kW",11.74,,
+2026-june,"June 1, 2026",GSA3,"demand Winter 0-1,000 KW",10.69,,
+2026-june,"June 1, 2026",GSA3,"demand Transition Month 0-1,000 kW",10.69,,
+2026-june,"June 1, 2026",GSA3,"demand Summer 1,000-5,000 kW",16.32,,
+2026-june,"June 1, 2026",GSA3,"demand Winter 1,000-5,000 kW",15.24,,
+2026-june,"June 1, 2026",GSA3,"demand Transition Month 1,000-5,000 kW",15.24,,
+2026-june,"June 1, 2026",GSA3,Summer kWh,5.987,2.696,8.683
+2026-june,"June 1, 2026",GSA3,Winter kWh,5.635,3.944,9.579
+2026-june,"June 1, 2026",GSA3,Transition Month kWh,5.483,3.633,9.116
+2026-june,"June 1, 2026",TD_GSA,customer_charge,"1,500.00",,
+2026-june,"June 1, 2026",TD_GSA,Additional HUD,0.153,2.728,2.881
+2026-june,"June 1, 2026",TD_GSA,Additional HUD,0.153,3.992,4.145
+2026-june,"June 1, 2026",TD_GSA,Additional HUD,0.153,3.677,3.830
+2026-june,"June 1, 2026",GSB,customer_charge,"1,500.00",,
+2026-june,"June 1, 2026",GSB,Additional HUD,0.234,2.457,2.691
+2026-june,"June 1, 2026",GSB,Additional HUD,0.234,2.849,3.083
+2026-june,"June 1, 2026",GSB,Additional HUD,0.234,2.712,2.946
+2026-june,"June 1, 2026",MSB,customer_charge,"1,500.00",,
+2026-june,"June 1, 2026",MSB,Additional HUD,0.050,2.472,2.522
+2026-june,"June 1, 2026",MSB,Additional HUD,0.050,2.953,3.003
+2026-june,"June 1, 2026",MSB,Additional HUD,0.050,2.734,2.784
+2026-june,"June 1, 2026",MSD,customer_charge,"1,500.00",,
+2026-june,"June 1, 2026",MSD,Additional HUD,0.234,2.472,2.706
+2026-june,"June 1, 2026",MSD,Additional HUD,0.234,2.953,3.187
+2026-june,"June 1, 2026",MSD,Additional HUD,0.234,2.734,2.968
+2026-june,"June 1, 2026",OUTDOOR,customer_charge,11.50,,
+2026-june,"June 1, 2026",OUTDOOR,Transition Month kWh,5.184,3.694,8.878
