@@ -15,6 +15,12 @@ true any more.*
 Do not explore speculatively. Ingest files on an as-needed basis: when the subject of an
 entry below comes up in the work.
 
+**This file says where documents live. `files/ARCHIVE-INDEX.md` says what each one is
+doing** — cited on the site, in play in `memory/`, held as a comparison baseline, on the
+subject but unused, or acquired speculatively. Read it when the question is "what do we
+have on X" rather than "where does X live." Regenerate with `files/bin/archive-index.sh`
+after adding documents or publishing new citations.
+
 When directed to a directory, read its `README.md` before touching any file. If it has no
 `README.md`, copy `files/DIR_README_TEMPLATE.md` in and customise it. When directed to a
 specific file, read the directory `README.md` first, then the file.
