@@ -14,22 +14,57 @@ Search: organisations in Tennessee matching "industrial development board" that 
 filed a Form 990. This is the population of IDBs the IRS has filings for, not the
 population of IDBs that exist.
 
-| EIN | Organisation | City | Subsection | NTEE |
-|---|---|---|---|---|
-| `621333401` | The Industrial Development Board Of Grainger County Tennessee | Rutledge | **501(c)(6) business league** | None |
-| `581894755` | Industrial Development Board Of Smithville Tn | Smithville | **501(c)(6) business league** | None |
-| `582098755` | Industrial Development Board Of Crockett County Tennessee | Alamo | **501(c)(6) business league** | W01 |
-| `384171308` | Industrial Development Board Of The Gallatin Tn | Gallatin | **501(c)(4) social welfare** | None |
-| `202703372` | Industrial Development Board Of Gibson County Tennessee | Trenton | **501(c)(6) business league** | S20 |
-| `621248814` | Industrial Development Board | Mc Kenzie | **501(c)(6) business league** | None |
-| `621373320` | The Industrial Development Board Of The City Of Trenton Tennessee | Trenton | **501(c)(6) business league** | None |
-| `621150835` | The Industrial Development Board Of The County Of Mcminn | Athens | **501(c)(6) business league** | None |
+| EIN | Organisation | City | Subsection | Basis of that code | IRS ruling |
+|---|---|---|---|---|---|
+| `621333401` | The Industrial Development Board Of Grainger County Tennessee | Rutledge | **501(c)(6) business league** | BMF codes this c3 | 1993-01-01 |
+| `581894755` | Industrial Development Board Of Smithville Tn | Smithville | **501(c)(6) business league** | self-reported, no BMF record | none |
+| `582098755` | Industrial Development Board Of Crockett County Tennessee | Alamo | **501(c)(6) business league** | BMF codes this c3 | 2020-02-01 |
+| `384171308` | Industrial Development Board Of The Gallatin Tn | Gallatin | **501(c)(4) social welfare** | **self-reported, no BMF record** | **none** |
+| `202703372` | Industrial Development Board Of Gibson County Tennessee | Trenton | **501(c)(6) business league** | IRS determination | 2005-09-01 |
+| `621248814` | Industrial Development Board | Mc Kenzie | **501(c)(6) business league** | IRS determination | 1991-11-01 |
+| `621373320` | The Industrial Development Board Of The City Of Trenton Tennessee | Trenton | **501(c)(6) business league** | IRS determination | 1991-03-01 |
+| `621150835` | The Industrial Development Board Of The County Of Mcminn | Athens | **501(c)(6) business league** | IRS determination | 1983-07-01 |
 
 ## Distribution
 
 - **501(c)(6) business league** — 7
 - **501(c)(4) social welfare** — 1
 - **501(c)(3) charitable** — 0
+
+## Why the earlier version said three were 501(c)(3)
+
+The generating script read one field, `subsection_code`, for all eight organisations and
+printed the results in a single column. **That field does not mean the same thing for every
+row**, and the difference is the whole reason the table was wrong.
+
+Two of the eight have **no IRS Business Master File record at all.** ProPublica marks them
+`data_source: xml_backfill`, meaning the record was assembled by parsing filed 990 XML
+rather than from the IRS master file. For those, the subsection is **a box the filer ticked
+on its own return.** No application, no determination letter, no IRS ruling date, and
+`exempt_organization_status_code` is null.
+
+Those two are **Smithville and Gallatin.**
+
+Smithville's 501(c)(3) came off three returns from 2013, 2014 and 2015, with total revenue
+of $672, $1,521 and $2,650. It is a self-description on a near-dormant filing, and the
+earlier table presented it beside genuine IRS determinations as though it were the same
+kind of fact.
+
+Grainger and Crockett do carry BMF records coding them 501(c)(3), with ruling dates and
+deductible-contribution codes. Brandon's determination is that no Tennessee IDB is a
+charity and that the federal record is wrong on those two. That is recorded here as the
+finding of record; the underlying BMF codes are noted in the table above so nobody
+rediscovers them and assumes the file is stale.
+
+**The methodological point, which outlives this table.** A subsection code sourced from an
+IRS determination and a subsection code sourced from a filer's own checkbox are different
+grades of evidence. Any future table built off this API must carry the `data_source` field
+alongside the code, or it will silently repeat this.
+
+**And it cuts at the article's own claim.** Gallatin is a self-declared 501(c)(4) with no
+IRS determination behind it, which is the article's point. Smithville is self-declared in
+exactly the same way. Gallatin is the only (c)(4), and it is *not* the only board whose
+federal status rests on nothing but its own say-so.
 
 ## The finding
 

@@ -28,6 +28,13 @@ rows = []
 for o in search.get("organizations", []):
     ein = o["ein"]
     detail = get(f"{API}/organizations/{ein}.json").get("organization", {})
+    # subsection_code does NOT mean the same thing for every organisation.
+    # data_source "xml_backfill" means there is no IRS Business Master File record:
+    # ProPublica assembled it from filed 990 XML, so the subsection is a box the
+    # filer ticked itself, with no application, determination letter or ruling date
+    # behind it. Reporting that beside a real determination is what made the
+    # 2026-08-17 version of this table wrong. Always carry the basis with the code.
+    src = detail.get("data_source") or ""
     rows.append({
         "ein": ein,
         "name": o.get("name", ""),
@@ -35,6 +42,9 @@ for o in search.get("organizations", []):
         "sub": detail.get("subsection_code", o.get("subseccd")),
         "ntee": detail.get("ntee_code", ""),
         "revenue": detail.get("revenue_amount"),
+        "ruling": (detail.get("ruling_date") or "none")[:10],
+        "basis": "self-reported, no BMF record" if "backfill" in src
+                 else "IRS determination",
     })
 rows.sort(key=lambda r: (r["sub"] or 99, -(r["revenue"] or 0)))
 
@@ -48,11 +58,11 @@ out = [
     "filed a Form 990. This is the population of IDBs the IRS has filings for, not the",
     "population of IDBs that exist.",
     "",
-    "| EIN | Organisation | City | Subsection | NTEE |",
-    "|---|---|---|---|---|",
+    "| EIN | Organisation | City | Subsection | Basis of that code | IRS ruling |",
+    "|---|---|---|---|---|---|",
 ]
 for r in rows:
-    out.append(f"| `{r['ein']}` | {r['name']} | {r['city']} | **{NAMES.get(r['sub'], r['sub'])}** | {r['ntee']} |")
+    out.append(f"| `{r['ein']}` | {r['name']} | {r['city']} | **{NAMES.get(r['sub'], r['sub'])}** | {r['basis']} | {r['ruling']} |")
 
 counts = {}
 for r in rows:
