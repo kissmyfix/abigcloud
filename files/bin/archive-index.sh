@@ -79,6 +79,15 @@ Built $(date +%Y-%m-%d) · $TOTAL documents
 machine output, regenerable, and never cited by rule. Its index is the \`pdf-index.csv\`
 sitting beside it.
 
+## Finding aids
+
+A finding aid is the content map for one directory: what is in each document and on which
+page. Where one exists, **read it before opening anything in that directory.**
+
+$(find $ARCH -name 'FINDING-AID.md' | sort | sed 's|^|- \`|; s|$|\`|')
+
+Directories without one are navigated by grep against their \`derived/\` extractions.
+
 ---
 
 ## CITED — the evidence of record

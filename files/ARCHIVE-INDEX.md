@@ -24,6 +24,19 @@ Built 2026-08-24 · 202 documents
 machine output, regenerable, and never cited by rule. Its index is the `pdf-index.csv`
 sitting beside it.
 
+## Finding aids
+
+A finding aid is the content map for one directory: what is in each document and on which
+page. Where one exists, **read it before opening anything in that directory.**
+
+- `state_of_tennessee/state_audits/gallatin_city/derived/FINDING-AID.md`
+- `state_of_tennessee/state_audits/sumner_county/derived/FINDING-AID.md`
+- `state_of_tennessee/tn_comptroller_pilot_reports/derived/FINDING-AID.md`
+- `sumner_county/gallatin_council_meetings/derived/FINDING-AID.md`
+- `sumner_county/gallatin_electric_utility/rates/derived/FINDING-AID.md`
+
+Directories without one are navigated by grep against their `derived/` extractions.
+
 ---
 
 ## CITED — the evidence of record
