@@ -15,9 +15,9 @@ Built 2026-08-24 · 202 documents
 | Class | Count | Meaning |
 |---|---:|---|
 | CITED | 34 | A published page cites it. The evidence of record. |
-| WORKING | 8 | Named in `memory/`, not yet on the site. |
+| WORKING | 10 | Named in `memory/`, not yet on the site. |
 | BASELINE | 10 | Comparison jurisdiction. Never cited, still doing work. |
-| CORE-UNCITED | 108 | Core subject matter nothing has used yet. |
+| CORE-UNCITED | 106 | Core subject matter nothing has used yet. |
 | SPECULATIVE | 42 | Acquired in case. Largely unassessed. |
 
 **Derived extractions are excluded.** Everything under a `derived/` directory is
@@ -73,10 +73,12 @@ something other than what the page says it says, a live page is wrong. Treat as 
 Named in `memory/` but not cited by any page. These are the documents the investigation
 is currently reasoning from. The shortest path from here to a published claim.
 
+- `state_of_tennessee/state_audits/gallatin_city/1688-2019-c-gallatin-rpt-cpa6-12-31-19.pdf`
 - `state_of_tennessee/tn_annotated_code/pc265-sb708-as-enacted.pdf`
 - `state_of_tennessee/tn_comptroller_pilot_reports/sumner_county/2015-pilot-sumner.pdf`
 - `state_of_tennessee/tn_comptroller_pilot_reports/tn_comptroller_archived/2018-pilot.pdf`
 - `state_of_tennessee/tn_comptroller_pilot_reports/tn_comptroller_archived/2021-pilot.pdf`
+- `sumner_county/gallatin_council_meetings/2019-gallatin-annual-financial-report.pdf`
 - `sumner_county/gallatin_council_meetings/2020-09-15-city-council-agenda.pdf`
 - `sumner_county/gallatin_council_meetings/2024-06-21-geda-bates-executive-director.txt`
 - `sumner_county/gallatin_council_meetings/2024-10-31-gallatin-city-hall-space-needs-assessment.pdf`
@@ -114,12 +116,11 @@ Not dead weight; unspent. This is where a contradiction would be hiding, because
 document nobody has opened is a document nobody has been troubled by.
 
 
-**`state_of_tennessee/state_audits/gallatin_city/`** — 13
+**`state_of_tennessee/state_audits/gallatin_city/`** — 12
   - 1688-2015-c-gallatin-rpt-cpa6-1-14-16.pdf
   - 1688-2016-c-gallatin-rpt-cpa6-2-24-17-rev1.pdf
   - 1688-2017-c-gallatin-rpt-cpa6-1-11-18.pdf
   - 1688-2018-c-gallatin-rpt-cpa6-1-07-19.pdf
-  - 1688-2019-c-gallatin-rpt-cpa6-12-31-19.pdf
   - 1688-2020-c-gallatin-rpt-cpa811-12-31-20.pdf
   - 1688-2021-c-gallatin-rpt-cpa811-8-17-22-rev1.pdf
   - 1688-2022-c-gallatin-rpt-cpa811-12-31-22.pdf
@@ -197,9 +198,8 @@ document nobody has opened is a document nobody has been troubled by.
   - 2002-preston-stark-inc-sos-business-detail.pdf
   - gallatin-daycare-sos-entity-report.pdf
 
-**`sumner_county/gallatin_council_meetings/`** — 20
+**`sumner_county/gallatin_council_meetings/`** — 19
   - 2018-06-19-city-council-agenda.pdf
-  - 2019-gallatin-annual-financial-report.pdf
   - 2020-05-05-city-council-agenda.pdf
   - 2020-05-12-council-committee-agenda.pdf
   - 2020-06-09-council-committee-agenda.pdf
