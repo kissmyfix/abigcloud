@@ -66,17 +66,25 @@ out += [
     "",
     f"Of the {len(rows)} Tennessee Industrial Development Boards with IRS filings, exactly one",
     "is classified **501(c)(4)**: the Industrial Development Board of the Gallatin TN,",
-    "EIN 38-4171308. Every other one files as a 501(c)(3) or a 501(c)(6).",
+    "EIN 38-4171308. **Every other one files as a 501(c)(6) business league.**",
     "",
-    "A 501(c)(4) is a social welfare organisation. A 501(c)(6) is a business league. Neither",
-    "is the natural federal posture for a government instrumentality, but the peer group",
-    "chose (c)(6) or (c)(3); Gallatin chose the category that holds advocacy groups.",
+    "A 501(c)(6) is a business league -- the chamber of commerce category, and the obvious",
+    "fit for a board whose whole job is recruiting industry. A 501(c)(4) is a social welfare",
+    "organisation, the category that holds advocacy groups.",
     "",
     "**Scope.** This establishes uniqueness among *filers*. It does not establish the total",
     "number of IDBs chartered in Tennessee -- that figure needs its own source.",
 ]
 p = pathlib.Path("usa_federal/irs_990_data/derived/tn-idb-subsections.md")
 p.parent.mkdir(parents=True, exist_ok=True)
+if p.exists() and "Corrected 2026-08-24" in p.read_text(encoding="utf-8"):
+    alt = p.with_suffix(".raw.md")
+    alt.write_text("\n".join(out) + "\n", encoding="utf-8")
+    print(f"REFUSED to overwrite {p} -- it carries a manual correction.")
+    print(f"raw ProPublica output written to {alt} instead.")
+    print("ProPublica's BMF copy miscodes three of these boards as 501(c)(3).")
+    print("They are 501(c)(6). Merge by hand if you need to refresh the table.")
+    raise SystemExit(0)
 p.write_text("\n".join(out) + "\n", encoding="utf-8")
 print(f"wrote {p} ({len(rows)} organisations)")
 for r in rows:
