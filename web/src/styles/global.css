@@ -481,10 +481,18 @@ main.landing > table {
    the palette changes: .is-finding, .is-caution, .is-context, .is-verified.
    Colour aliases are provided because the author writes these by hand.
 
-   Usage, on a blockquote or an .info-box:
-       <div class="info-box is-finding"> ... </div>
+   Usage in markdown (handled by remarkCallouts in astro.config.mjs):
+       > [!source]
+       > body                      <- teal callout
+       > [!context]  / [!blue]     <- blue
+       > [!caution]  / [!gold]     <- gold
+       > [!verified] / [!green]    <- green
+       > [!finding]  / [!red]      <- red (same as a plain blockquote)
        > **Label**
        > body                      <- plain blockquote, unchanged, red accent
+
+   On an .info-box (raw HTML):
+       <div class="info-box is-finding"> ... </div>
 */
 .is-finding,  .is-red    { --cal-bg: var(--red-bg);   --cal-line: var(--accent); --cal-label: var(--red-text); }
 .is-context,  .is-blue   { --cal-bg: var(--blue-bg);  --cal-line: #2f6fb0;       --cal-label: #1c4f85; }
