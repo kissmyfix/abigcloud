@@ -1,0 +1,155 @@
+[
+ {
+  "id": "tva-fair-rate-changes",
+  "topic": "TVA · rate class",
+  "original": "TVA addresses data center concerns with fair rate changes",
+  "corrected": "TVA addresses data center concerns with false promises",
+  "outlet": "WPSD Local 6",
+  "date": "2026-08-24",
+  "url": ""
+ },
+ {
+  "id": "tva-10-percent-spike",
+  "topic": "TVA · rate class",
+  "original": "TVA approves 10% rate spike for data centers to protect household rate payers",
+  "corrected": "TVA approves minimal 10% rate increase for data centers to appease household rate payers",
+  "outlet": "Action News 5",
+  "date": "2026-08-24",
+  "url": ""
+ },
+ {
+  "id": "project-river-logging",
+  "topic": "Bradley County · Project River",
+  "original": "Project River: $11.3B Bradley County campus aims to revive logging, attract data center",
+  "corrected": "Project River: $11.3B Bradley County campus aims to burn logs, power data center",
+  "outlet": "Chattanooga Times Free Press",
+  "date": "2026-08-26",
+  "url": ""
+ },
+ {
+  "id": "xai-fourth-data-center",
+  "topic": "Memphis · xAI",
+  "original": "xAI announces fourth data center; turbines to be removed from Southaven site",
+  "corrected": "xAI announces fourth data center; unpermitted turbines to be removed from Southaven site after NAACP lawsuit",
+  "outlet": "Action News 5",
+  "date": "2026-07-31",
+  "url": ""
+ },
+ {
+  "id": "gallatin-residents-describe",
+  "topic": "Gallatin · moratorium",
+  "original": "Gallatin residents describe living near one of Tennessee's largest data centers as city council defers moratorium vote",
+  "corrected": "Gallatin residents describe flooding and unsellable homes near one of Tennessee's largest data centers as city council annexes 125 more acres while postponing moratorium",
+  "outlet": "WSMV",
+  "date": "2026-06-24",
+  "url": ""
+ },
+ {
+  "id": "gallatin-idd-designation",
+  "topic": "Gallatin · IDD",
+  "original": "New designation helps Gallatin, TN pay for growth",
+  "corrected": "New state law allows Gallatin, TN to make new residents pay for growth",
+  "outlet": "WKRN",
+  "date": "2026-08-26",
+  "url": ""
+ },
+ {
+  "id": "nashville-zoo-eminent-domain",
+  "topic": "Nashville · zoo data center",
+  "original": "Metro Council approves eminent domain legislation for Nashville Zoo data center",
+  "corrected": "Metro Council votes to have Nashville taxpayers buy the data center site at a price DC BLOX and a court will set",
+  "outlet": "WSMV",
+  "date": "2026-08-05",
+  "url": ""
+ },
+ {
+  "id": "lee-ratepayer-pledge",
+  "topic": "Tennessee · ratepayer pledge",
+  "original": "Gov. Lee signed Trump's pledge to prevent Americans from 'footing the bill' of data centers. Here's what it means for Tennessee",
+  "corrected": "Gov. Lee signed Trump's unenforceable pledge against Americans 'footing the bill' of data centers. Here's what it doesn't mean for Tennessee",
+  "outlet": "WSMV",
+  "date": "2026-07-24",
+  "url": ""
+ },
+ {
+  "id": "nashville-halts-development",
+  "topic": "Nashville · moratorium",
+  "original": "Nashville halts data center development for now",
+  "corrected": "Nashville temporarily pauses new data center permitting, leaving DC BLOX unaffected",
+  "outlet": "The Center Square",
+  "date": "2026-07-22",
+  "url": ""
+ },
+ {
+  "id": "fisk-town-hall",
+  "topic": "Nashville · Fisk",
+  "original": "Fisk town hall addresses community concerns about proposed data center",
+  "corrected": "Fisk town hall takes written questions about proposed data center, won't say what it is or who pays",
+  "outlet": "WPLN",
+  "date": "2026-06-30",
+  "url": "https://wpln.org/post/fisk-town-hall-addresses-community-concerns-about-proposed-data-center/"
+ },
+ {
+  "id": "memphis-moratorium",
+  "topic": "Memphis · moratorium",
+  "original": "Memphis weighs data center moratorium in city Musk's xAI calls 'home'",
+  "corrected": "Memphis weighs data center moratorium that would not touch xAI",
+  "outlet": "E&E News",
+  "date": "2026-08-20",
+  "url": ""
+ },
+ {
+  "id": "dcblox-sues-metro",
+  "topic": "Nashville · DC BLOX suit",
+  "original": "Company behind data center near Nashville Zoo sues Metro Nashville",
+  "corrected": "DC BLOX sues Nashville over a moratorium the city passed knowing it would not hold",
+  "outlet": "WKRN",
+  "date": "2026-08-12",
+  "url": ""
+ },
+ {
+  "id": "gibson-county-minimal",
+  "topic": "Gibson County",
+  "original": "Residents raise concerns over new Gibson County data center, local leaders say impact will be minimal",
+  "corrected": "Residents raise concerns over new Gibson County crypto mine, local leaders call 2 million gallons a year minimal",
+  "outlet": "WBBJ",
+  "date": "2026-07-27",
+  "url": "https://www.wbbjtv.com/2026/07/27/residents-raise-concerns-over-new-gibson-county-data-center-local-leaders-say-impact-will-be-minimal/"
+ },
+ {
+  "id": "crucible-zinc-should-could",
+  "topic": "Montgomery County · PILOT",
+  "original": "Crucible Zinc incentive approved, should bring $5 million in tax revenue by 2029",
+  "corrected": "Crucible Zinc incentive approved, could bring $5 million in tax revenue by 2029",
+  "outlet": "Clarksville Now",
+  "date": "2026-08-26",
+  "url": "https://clarksvillenow.com/local/crucible-zinc-incentive-approved-should-bring-5-million-in-tax-revenue-by-2029/"
+ },
+ {
+  "id": "roane-county-moves-closer",
+  "topic": "Roane County",
+  "original": "Another East Tennessee county moves closer to pausing data centers",
+  "corrected": "Roane County votes to ask its planning commission to recommend pausing data centers",
+  "outlet": "WVLT",
+  "date": "2026-07-14",
+  "url": "https://www.wvlt.tv/2026/07/14/they-are-monster-deal-with-during-emergency-events-another-east-tennessee-county-moves-closer-pausing-data-centers/"
+ },
+ {
+  "id": "cookeville-idb-aphena",
+  "topic": "Cookeville IDB",
+  "original": "Cookeville IDB Approves Aphena Grant Compliance Extension",
+  "corrected": "Cookeville IDB gives Aphena two more years to hit its grant's job numbers",
+  "outlet": "The UC Now",
+  "date": "2026-08-19",
+  "url": "https://theucnow.com/cookeville-idb-approves-aphena-grant-compliance-extension/"
+ },
+ {
+  "id": "loudon-pause",
+  "topic": "Loudon",
+  "original": "City of Loudon hits 'pause' on data center construction",
+  "corrected": "City of Loudon pauses data center zoning for 12 months after cutting it from 18",
+  "outlet": "WVLT",
+  "date": "2026-08-25",
+  "url": "https://www.wvlt.tv/2026/08/25/city-loudon-hits-pause-data-center-construction/"
+ }
+]

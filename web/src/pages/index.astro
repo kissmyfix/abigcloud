@@ -6,6 +6,8 @@ import BaseHead from '../components/BaseHead.astro';
 import BackToTop from '../components/BackToTop.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import Ticker from '../components/Ticker.astro';
+import FeaturedCard from '../components/FeaturedCard.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 // Landing page content. Edit web/index.md.
 import { Content as Readme } from '../../index.md';
@@ -21,6 +23,8 @@ import { Content as Readme } from '../../index.md';
 		<Banner wide={banner} narrow={bannerNarrow} />
 		<main class="landing">
 			<Readme />
+			<Ticker />
+			<FeaturedCard />
 		</main>
 		<Footer />
 		<BackToTop />

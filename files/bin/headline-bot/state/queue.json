@@ -1,0 +1,56 @@
+[
+ {
+  "cluster": "bradley bring center data jobs project",
+  "date": "2026-08-26",
+  "outlet": "Local 3 News",
+  "url": "https://www.local3news.com/local-news/new-project-river-data-center-to-bring-2-600-new-jobs-to-bradley/article_d65a0607-ea98-4e70-9cec-ce4299d2fb45.html",
+  "original": "New Project River, data center to bring 2,600 new jobs to Bradley",
+  "corrected": "New Project River data center could bring 2,600 jobs to Bradley, if rezoned",
+  "operative": "\"to bring\" states as settled a project that the body describes only as proposed, awaiting rezoning, and phrased throughout as \"could\"",
+  "findings": [
+   "parcel only \"submitted for rezoning\" Tuesday, not approved",
+   "body says \"could bring,\" never \"will\"",
+   "project described as \"proposed for construction\"",
+   "built in phases over 60 months",
+   "every claim sourced to the developer's own news release",
+   "body never states a jobs figure at all"
+  ],
+  "quote": "was submitted for rezoning and incorporation into the City of Cleveland on Tuesday"
+ },
+ {
+  "cluster": "bradley campus county family industrial planned",
+  "date": "2026-08-26",
+  "outlet": "Construction Review",
+  "url": "https://constructionreviewonline.com/wright-family-unveils-project-river-11-3b-industrial-campus-planned-in-bradley-county-tennessee/",
+  "original": "Wright Family Unveils Project River: $11.3B Industrial Campus Planned in Bradley County, Tennessee",
+  "corrected": "Wright Family Unveils Project River: $11.3B Industrial Campus Proposed in Bradley County With No Tenant Yet",
+  "operative": "\"Unveils\" and the flat \"$11.3B Industrial Campus Planned\" grant the project a confirmed identity and an anchor tenant it does not have; the body says there is no operator, no tenant, no offtaker, and no zoning yet.",
+  "findings": [
+   "no confirmed data center operator or customer",
+   "no power offtaker secured",
+   "land not yet rezoned or annexed into Cleveland",
+   "requires Planning Commission and City Council approval",
+   "$11.3B figure excludes all IT hardware",
+   "groundbreaking targeted for late 2027 at the earliest"
+  ],
+  "quote": "The project does not yet have a confirmed data center operator or power offtaker."
+ },
+ {
+  "cluster": "centers data electricity raise rates",
+  "date": "2026-08-26",
+  "outlet": "Alabama Daily News",
+  "url": "https://aldailynews.com/tva-to-raise-data-centers-electricity-rates/",
+  "original": "TVA to raise data centers\u2019 electricity rates",
+  "corrected": "TVA to phase in data center rate over three years as it plans for double the load",
+  "operative": "\"raise data centers' electricity rates\" reads as a rate hike taking effect, when the body says it phases in over three fiscal years and is the utility's own design for supporting data center growth",
+  "findings": [
+   "set to begin Oct. 1 in phases over the next three fiscal years",
+   "board approved unanimously with no questions and no lengthy discussion",
+   "rate structure explicitly designed to \"support significant growth of data centers in the valley\"",
+   "data centers were nearly 20% of TVA's industrial load last year",
+   "data center growth expected to double in the region by 2030",
+   "all board members appointed by the president"
+  ],
+  "quote": "which is set to begin Oct. 1 in phases over the next three fiscal years"
+ }
+]

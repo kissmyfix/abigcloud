@@ -1,0 +1,256 @@
+---
+/*
+  The headline ticker. Types a real published headline, then types the corrected
+  version underneath it, then scrolls up and does the next one. Forever.
+
+  Pairs live in src/data/ticker.json. Adding, editing or removing one is an edit
+  to that file alone — this component and index.md never change. Entries with an
+  empty `url` render without a link.
+
+  No external libraries and no network calls: the whole set is inlined at build
+  time as JSON, and the animation is a few lines of vanilla JS.
+*/
+import pairs from '../data/ticker.json';
+
+const rows = pairs.map((p) => ({
+	topic: p.topic,
+	original: p.original,
+	corrected: p.corrected,
+	outlet: p.outlet,
+	date: p.date,
+	url: p.url ?? '',
+}));
+---
+
+<section class="ticker" aria-label="Headlines, corrected">
+	<div class="ticker-frame">
+		<ol class="ticker-log" id="ticker-log"></ol>
+	</div>
+	<noscript>
+		<ol class="ticker-log is-static">
+			{rows.slice(0, 4).map((r) => (
+				<li class="tick">
+					<p class="tick-topic">@@ {r.topic} @@</p>
+					<p class="tick-line is-minus"><span class="mark">&minus;</span>{r.original}</p>
+					<p class="tick-src">{r.outlet} &middot; {r.date}</p>
+					<p class="tick-line is-plus"><span class="mark">+</span>{r.corrected}</p>
+				</li>
+			))}
+		</ol>
+	</noscript>
+</section>
+
+<script is:inline define:vars={{ rows }}>
+	(() => {
+		const log = document.getElementById('ticker-log');
+		if (!log || !rows.length) return;
+
+		const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		const MAX_ON_SCREEN = 3;
+
+		// Shuffle once per page load so the same pair is not always first.
+		const order = rows.map((_, i) => i);
+		for (let i = order.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[order[i], order[j]] = [order[j], order[i]];
+		}
+
+		const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+
+		async function type(el, text, speed) {
+			if (reduced) {
+				el.textContent = text;
+				return;
+			}
+			for (let i = 0; i < text.length; i++) {
+				el.textContent = text.slice(0, i + 1);
+				// Pause a beat at sentence breaks so it reads like typing, not a spinner.
+				await wait(/[.,;:]/.test(text[i]) ? speed * 6 : speed);
+			}
+		}
+
+		function row(cls, mark) {
+			const p = document.createElement('p');
+			p.className = 'tick-line ' + cls;
+			const m = document.createElement('span');
+			m.className = 'mark';
+			m.textContent = mark;
+			const t = document.createElement('span');
+			t.className = 'text';
+			p.append(m, t);
+			return { p, t };
+		}
+
+		async function play(entry) {
+			const li = document.createElement('li');
+			li.className = 'tick is-live';
+
+			const topic = document.createElement('p');
+			topic.className = 'tick-topic';
+			topic.textContent = '@@ ' + entry.topic + ' @@';
+			li.append(topic);
+
+			const minus = row('is-minus', '−');
+			li.append(minus.p);
+			log.append(li);
+			trim();
+
+			await type(minus.t, entry.original, 18);
+
+			const src = document.createElement('p');
+			src.className = 'tick-src';
+			if (entry.url) {
+				const a = document.createElement('a');
+				a.href = entry.url;
+				a.rel = 'nofollow noopener';
+				a.target = '_blank';
+				a.textContent = entry.outlet;
+				src.append(a, document.createTextNode(' · ' + entry.date));
+			} else {
+				src.textContent = entry.outlet + ' · ' + entry.date;
+			}
+			li.append(src);
+
+			await wait(reduced ? 400 : 900);
+
+			const plus = row('is-plus', '+');
+			li.append(plus.p);
+			await type(plus.t, entry.corrected, 22);
+
+			li.classList.remove('is-live');
+			await wait(reduced ? 1200 : 3400);
+		}
+
+		function trim() {
+			while (log.children.length > MAX_ON_SCREEN) log.firstElementChild.remove();
+		}
+
+		(async () => {
+			let i = 0;
+			// Runs for the life of the page. Each pass reshuffles nothing, so the
+			// reader sees the whole set before any repeat.
+			for (;;) {
+				await play(rows[order[i % order.length]]);
+				i++;
+			}
+		})();
+	})();
+</script>
+
+<style>
+	.ticker {
+		margin: 2.4em 0 3em;
+	}
+
+	.ticker-frame {
+		background: var(--bg2);
+		border: 1px solid var(--bg3);
+		border-radius: 4px;
+		padding: 1.1em 1.3em;
+		min-height: 11em;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		overflow: hidden;
+	}
+
+	.ticker-log {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.tick {
+		padding: 0.55em 0 0.85em;
+		border-top: 1px solid var(--bg3);
+		animation: rise 0.45s ease-out;
+	}
+	.tick:first-child {
+		border-top: 0;
+		opacity: 0.45;
+	}
+	.tick:last-child {
+		opacity: 1;
+	}
+	.ticker-log:not(.is-static) .tick:not(:last-child) {
+		opacity: 0.4;
+	}
+
+	@keyframes rise {
+		from { transform: translateY(10px); opacity: 0; }
+		to   { transform: translateY(0); }
+	}
+
+	.tick-topic {
+		font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+		font-size: 11px;
+		letter-spacing: 0.04em;
+		color: var(--ink3);
+		margin: 0 0 0.4em;
+	}
+
+	.tick-line {
+		font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+		font-size: 14px;
+		line-height: 1.5;
+		margin: 0 0 0.25em;
+		padding: 0.2em 0.45em 0.2em 0.35em;
+		border-radius: 2px;
+		display: flex;
+		gap: 0.7em;
+		align-items: baseline;
+		overflow-wrap: anywhere;
+	}
+	.tick-line .mark {
+		flex: none;
+		width: 0.8em;
+		text-align: center;
+		font-weight: 700;
+		opacity: 0.75;
+	}
+	.is-minus {
+		background: var(--red-bg);
+		color: var(--red-text);
+	}
+	.is-plus {
+		background: var(--green-bg);
+		color: var(--green-text);
+	}
+
+	.tick-src {
+		font-size: 11.5px;
+		color: var(--ink3);
+		margin: 0.15em 0 0.55em 1.5em;
+	}
+	.tick-src a {
+		color: var(--ink3);
+		text-decoration: underline;
+		text-underline-offset: 2px;
+	}
+
+	.is-live .is-minus .text::after,
+	.is-live .is-plus:last-child .text::after {
+		content: '';
+		display: inline-block;
+		width: 0.5em;
+		height: 1em;
+		margin-left: 1px;
+		vertical-align: -0.15em;
+		background: currentColor;
+		animation: blink 1s steps(2, start) infinite;
+	}
+	@keyframes blink {
+		to { visibility: hidden; }
+	}
+
+	@media (max-width: 560px) {
+		.tick-line { font-size: 13px; }
+		.ticker-frame { padding: 0.9em 0.9em; min-height: 17em; }
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.tick { animation: none; }
+		.is-live .is-minus .text::after,
+		.is-live .is-plus:last-child .text::after { animation: none; }
+	}
+</style>
