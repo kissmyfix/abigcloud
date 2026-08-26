@@ -1,98 +1,91 @@
 ---
 /*
-  The headline ticker, rebuilt on the v1 mechanic from
-  ~/Coding/claude_code/abigcloud.com/scripts/ticker.js.
+  The headline ticker.
 
-  A fixed-height viewport with the roll absolutely positioned inside it. Lines are
-  appended to the roll and the roll translates upward on a slow ease, so the newest
-  line stays in view and older ones drift off the top through a fade. The viewport
-  never changes size, so nothing on the page moves as the ticker runs.
+  Each entry is a published headline and our corrected version, written as a diff:
+  the `−` line is theirs, the `+` line is ours. Only the words that differ carry
+  colour, because the whole point of the diff form is to show what changed.
 
-  Each headline is an array of segments. A plain string types in body colour; an
-  object {"r": "..."} or {"g": "..."} types in accent or teal and then has its
-  highlight background swept in once the line has finished. That is where the
-  colour comes from: the phrase doing the work is marked, on both sides.
+  A fixed-height viewport holds a roll that is translated upward as new lines are
+  written, so the newest line sits at the bottom and older ones drift up through a
+  fade. The viewport never changes size, so nothing else on the page moves.
+
+  The first PRELOAD pairs are rendered at build time, already finished, so the
+  ticker is full of readable content the instant the page paints. The script picks
+  up from there and keeps going.
 
   Pairs live in src/data/ticker.json. Adding, editing or removing one is an edit to
-  that file alone. Entries with an empty `url` render without a link.
+  that file alone.
 */
 import pairs from '../data/ticker.json';
+
+const PRELOAD = 4;
+const preloaded = pairs.slice(0, PRELOAD);
+const rest = pairs.slice(PRELOAD);
 ---
 
 <section class="ticker" aria-label="Headlines, corrected">
 	<div class="ticker-viewport" id="t-viewport">
-		<div class="ticker-roll" id="t-roll"></div>
-	</div>
-	<noscript>
-		<div class="ticker-static">
-			{pairs.slice(0, 3).map((p) => (
-				<div class="t-pair">
-					<p class="t-line t-section"><span class="t-marker">@@</span><span class="t-text">{p.topic}</span></p>
-					<p class="t-line t-minus"><span class="t-marker">&minus;</span><span class="t-text">{p.original}</span></p>
-					<p class="t-line t-plus"><span class="t-marker">+</span><span class="t-text">{p.corrected}</span></p>
-				</div>
+		<div class="ticker-roll" id="t-roll">
+			{preloaded.map((p) => (
+				<>
+					<div class="t-line t-minus">
+						<span class="t-marker">&minus;</span>
+						<span class="t-text">
+							{p.minus.map((seg) =>
+								typeof seg === 'string'
+									? seg
+									: <span class="tw-red hl">{seg.r ?? seg.g}</span>
+							)}
+						</span>
+					</div>
+					<div class="t-line t-plus">
+						<span class="t-marker">+</span>
+						<span class="t-text">
+							{p.plus.map((seg) =>
+								typeof seg === 'string'
+									? seg
+									: <span class="tw-green hl">{seg.g ?? seg.r}</span>
+							)}
+						</span>
+					</div>
+					<div class="t-line t-blank"></div>
+				</>
 			))}
 		</div>
-	</noscript>
+	</div>
 </section>
 
-<script is:inline define:vars={{ pairs }}>
+<script is:inline define:vars={{ rest, all: pairs }}>
 	(() => {
 		const roll = document.getElementById('t-roll');
 		const vp = document.getElementById('t-viewport');
-		if (!roll || !vp || !pairs.length) return;
+		if (!roll || !vp) return;
 
 		const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-		const CHAR = 52;          // per-character typing delay, from v1
-		const MAX_LINES = 60;     // trim the top of the roll so it cannot grow forever
+		const CHAR = 52;        // per-character typing delay
+		const MAX_LINES = 45;   // trim off the top so the roll cannot grow forever
 
 		const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-		// Keep the newest line in view by sliding the whole roll up. The transition
-		// on .ticker-roll is what makes this a drift rather than a jump.
+		// Slide the whole roll up so the newest line stays at the bottom edge. The
+		// transition on .ticker-roll is what turns this into a drift.
 		function scrollRoll() {
 			const over = roll.scrollHeight - vp.offsetHeight;
 			roll.style.transform = over > 0 ? `translateY(-${over}px)` : '';
 		}
-
-		function trim() {
-			while (roll.children.length > MAX_LINES) roll.firstElementChild.remove();
-		}
+		scrollRoll();
 
 		function addLine(cls) {
 			const d = document.createElement('div');
 			d.className = 't-line ' + cls;
 			roll.appendChild(d);
-			trim();
+			while (roll.children.length > MAX_LINES) roll.firstElementChild.remove();
 			scrollRoll();
 			return d;
 		}
 
-		function section(topic) {
-			const d = addLine('t-section');
-			d.innerHTML = '<span class="t-marker">@@</span><span class="t-text"></span>';
-			d.lastElementChild.textContent = topic;
-		}
-
-		function source(entry) {
-			const d = addLine('t-source');
-			const t = document.createElement('span');
-			t.className = 't-text';
-			if (entry.url) {
-				const a = document.createElement('a');
-				a.href = entry.url;
-				a.rel = 'nofollow noopener';
-				a.target = '_blank';
-				a.textContent = entry.outlet;
-				t.append(a, document.createTextNode(' · ' + entry.date));
-			} else {
-				t.textContent = entry.outlet + ' · ' + entry.date;
-			}
-			d.append(Object.assign(document.createElement('span'), { className: 't-marker' }), t);
-			scrollRoll();
-		}
-
-		async function typeLine(mark, cls, segs) {
+		async function typeLine(mark, cls, segs, tone) {
 			const line = addLine(cls);
 
 			const marker = document.createElement('span');
@@ -109,7 +102,7 @@ import pairs from '../data/ticker.json';
 			line.append(marker, text);
 			scrollRoll();
 
-			const marked = [];
+			const changed = [];
 			for (const seg of segs) {
 				const plain = typeof seg === 'string';
 				const body = plain ? seg : (seg.r ?? seg.g);
@@ -118,8 +111,8 @@ import pairs from '../data/ticker.json';
 					node = document.createTextNode('');
 				} else {
 					node = document.createElement('span');
-					node.className = seg.r ? 'tw-red' : 'tw-green';
-					marked.push(node);
+					node.className = tone;
+					changed.push(node);
 				}
 				text.insertBefore(node, cursor);
 
@@ -133,14 +126,14 @@ import pairs from '../data/ticker.json';
 					await sleep(ch === ' ' ? CHAR * 0.6 : CHAR);
 				}
 			}
-			return { cursor, marked };
+			return { cursor, changed };
 		}
 
-		// The highlight backgrounds arrive after the line is written, left to right,
-		// so the eye is pulled back across the phrases that carry the claim.
-		async function sweep(marked) {
-			for (const span of marked) {
-				await sleep(reduced ? 0 : span.textContent.length * CHAR * 0.55);
+		// Backgrounds arrive after the line is written, left to right, pulling the eye
+		// back across the words that changed.
+		async function sweep(changed) {
+			for (const span of changed) {
+				await sleep(reduced ? 0 : span.textContent.length * CHAR * 0.5);
 				span.classList.add('hl');
 				await sleep(reduced ? 0 : 90);
 			}
@@ -153,63 +146,51 @@ import pairs from '../data/ticker.json';
 		}
 
 		async function runPair(entry) {
-			section(entry.topic);
-			await sleep(reduced ? 120 : 460);
-
-			const minus = await typeLine('−', 't-minus', entry.minus);
+			const minus = await typeLine('−', 't-minus', entry.minus, 'tw-red');
 			await sleep(reduced ? 0 : 280);
-			await sweep(minus.marked);
+			await sweep(minus.changed);
 			await retire(minus.cursor);
-			source(entry);
-			await sleep(reduced ? 200 : 900);
+			await sleep(reduced ? 200 : 850);
 
-			const plus = await typeLine('+', 't-plus', entry.plus);
+			const plus = await typeLine('+', 't-plus', entry.plus, 'tw-green');
 			await sleep(reduced ? 0 : 280);
-			await sweep(plus.marked);
+			await sweep(plus.changed);
 			await retire(plus.cursor);
 
 			addLine('t-blank');
 			await sleep(reduced ? 900 : 3600);
 		}
 
-		// Shuffle once per load so the same pair is not always first, then run the
-		// whole set before any repeat.
-		const order = pairs.map((_, i) => i);
-		for (let i = order.length - 1; i > 0; i--) {
-			const j = Math.floor(Math.random() * (i + 1));
-			[order[i], order[j]] = [order[j], order[i]];
-		}
-
 		(async () => {
-			await sleep(700);
-			let i = 0;
-			for (;;) {
-				await runPair(pairs[order[i++ % order.length]]);
-			}
+			await sleep(1400);
+			// Work through the ones not already on screen, then the whole set forever.
+			for (const entry of rest) await runPair(entry);
+			for (let i = 0; ; i++) await runPair(all[i % all.length]);
 		})();
 	})();
 </script>
 
 <style>
 	.ticker {
-		margin: 2.2em 0 3em;
+		width: 100%;
+		margin: 0 0 2.6em;
 	}
 
 	.ticker-viewport {
 		position: relative;
 		width: 100%;
-		height: 320px;
+		height: 340px;
 		overflow: hidden;
 	}
 
-	/* Old lines dissolve into the page background as they leave the top. */
+	/* Lines dissolve into the page as they leave the top. */
 	.ticker-viewport::after {
 		content: '';
 		position: absolute;
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 110px;
+		height: 120px;
 		background: linear-gradient(to bottom, var(--bg) 0%, transparent 100%);
 		pointer-events: none;
 		z-index: 3;
@@ -220,10 +201,6 @@ import pairs from '../data/ticker.json';
 		top: 0;
 		left: 0;
 		right: 0;
-		/* A viewport-tall spacer above the first line, so a line is written at the
-		   bottom edge in clear space and then drifts up into the fade. Without it
-		   the ticker starts inside its own gradient. */
-		padding-top: 320px;
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
@@ -235,17 +212,17 @@ import pairs from '../data/ticker.json';
 		align-items: baseline;
 		min-height: 30px;
 		font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-		font-size: 14px;
+		font-size: 14.5px;
 		line-height: 1.6;
 		flex-shrink: 0;
 	}
 
 	.t-marker {
-		width: 28px;
-		min-width: 28px;
-		padding-right: 6px;
+		width: 26px;
+		min-width: 26px;
+		padding-right: 8px;
 		text-align: right;
-		font-size: 13px;
+		font-size: 14px;
 		font-weight: 700;
 	}
 	.t-minus .t-marker { color: var(--accent); }
@@ -257,35 +234,16 @@ import pairs from '../data/ticker.json';
 		overflow-wrap: anywhere;
 	}
 
-	.t-section .t-marker,
-	.t-section .t-text {
-		font-size: 10px;
-		letter-spacing: 0.12em;
-		text-transform: uppercase;
-		color: var(--ink3);
-	}
+	.t-blank { min-height: 20px; }
 
-	.t-source {
-		min-height: 22px;
-	}
-	.t-source .t-text {
-		font-size: 11px;
-		color: var(--ink3);
-	}
-	.t-source a {
-		color: var(--ink3);
-		text-decoration: underline;
-		text-underline-offset: 2px;
-	}
-
-	.t-blank { min-height: 18px; }
-
+	/* Only the changed words carry colour. */
 	.tw-red,
 	.tw-green {
 		border-radius: 2px;
-		padding: 0 2px;
+		padding: 0 3px;
+		font-weight: 600;
 		background: transparent;
-		transition: background 0.25s ease;
+		transition: background 0.3s ease;
 	}
 	.tw-red   { color: var(--accent); }
 	.tw-green { color: var(--teal); }
@@ -306,13 +264,10 @@ import pairs from '../data/ticker.json';
 		50%      { opacity: 0; }
 	}
 
-	.ticker-static .t-pair { margin-bottom: 1.2em; }
-
 	@media (max-width: 560px) {
-		.ticker-viewport { height: 300px; }
-		.ticker-roll { padding-top: 300px; }
+		.ticker-viewport { height: 320px; }
 		.t-line { font-size: 13px; }
-		.t-marker { width: 22px; min-width: 22px; }
+		.t-marker { width: 20px; min-width: 20px; padding-right: 6px; }
 	}
 
 	@media (prefers-reduced-motion: reduce) {
