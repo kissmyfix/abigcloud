@@ -1,137 +1,190 @@
 ---
 /*
-  The headline ticker. Types a real published headline, then types the corrected
-  version underneath it, then scrolls up and does the next one. Forever.
+  The headline ticker, rebuilt on the v1 mechanic from
+  ~/Coding/claude_code/abigcloud.com/scripts/ticker.js.
 
-  Pairs live in src/data/ticker.json. Adding, editing or removing one is an edit
-  to that file alone — this component and index.md never change. Entries with an
-  empty `url` render without a link.
+  A fixed-height viewport with the roll absolutely positioned inside it. Lines are
+  appended to the roll and the roll translates upward on a slow ease, so the newest
+  line stays in view and older ones drift off the top through a fade. The viewport
+  never changes size, so nothing on the page moves as the ticker runs.
 
-  No external libraries and no network calls: the whole set is inlined at build
-  time as JSON, and the animation is a few lines of vanilla JS.
+  Each headline is an array of segments. A plain string types in body colour; an
+  object {"r": "..."} or {"g": "..."} types in accent or teal and then has its
+  highlight background swept in once the line has finished. That is where the
+  colour comes from: the phrase doing the work is marked, on both sides.
+
+  Pairs live in src/data/ticker.json. Adding, editing or removing one is an edit to
+  that file alone. Entries with an empty `url` render without a link.
 */
 import pairs from '../data/ticker.json';
-
-const rows = pairs.map((p) => ({
-	topic: p.topic,
-	original: p.original,
-	corrected: p.corrected,
-	outlet: p.outlet,
-	date: p.date,
-	url: p.url ?? '',
-}));
 ---
 
 <section class="ticker" aria-label="Headlines, corrected">
-	<div class="ticker-frame">
-		<ol class="ticker-log" id="ticker-log"></ol>
+	<div class="ticker-viewport" id="t-viewport">
+		<div class="ticker-roll" id="t-roll"></div>
 	</div>
 	<noscript>
-		<ol class="ticker-log is-static">
-			{rows.slice(0, 4).map((r) => (
-				<li class="tick">
-					<p class="tick-topic">@@ {r.topic} @@</p>
-					<p class="tick-line is-minus"><span class="mark">&minus;</span>{r.original}</p>
-					<p class="tick-src">{r.outlet} &middot; {r.date}</p>
-					<p class="tick-line is-plus"><span class="mark">+</span>{r.corrected}</p>
-				</li>
+		<div class="ticker-static">
+			{pairs.slice(0, 3).map((p) => (
+				<div class="t-pair">
+					<p class="t-line t-section"><span class="t-marker">@@</span><span class="t-text">{p.topic}</span></p>
+					<p class="t-line t-minus"><span class="t-marker">&minus;</span><span class="t-text">{p.original}</span></p>
+					<p class="t-line t-plus"><span class="t-marker">+</span><span class="t-text">{p.corrected}</span></p>
+				</div>
 			))}
-		</ol>
+		</div>
 	</noscript>
 </section>
 
-<script is:inline define:vars={{ rows }}>
+<script is:inline define:vars={{ pairs }}>
 	(() => {
-		const log = document.getElementById('ticker-log');
-		if (!log || !rows.length) return;
+		const roll = document.getElementById('t-roll');
+		const vp = document.getElementById('t-viewport');
+		if (!roll || !vp || !pairs.length) return;
 
 		const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-		const MAX_ON_SCREEN = 3;
+		const CHAR = 52;          // per-character typing delay, from v1
+		const MAX_LINES = 60;     // trim the top of the roll so it cannot grow forever
 
-		// Shuffle once per page load so the same pair is not always first.
-		const order = rows.map((_, i) => i);
-		for (let i = order.length - 1; i > 0; i--) {
-			const j = Math.floor(Math.random() * (i + 1));
-			[order[i], order[j]] = [order[j], order[i]];
+		const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+		// Keep the newest line in view by sliding the whole roll up. The transition
+		// on .ticker-roll is what makes this a drift rather than a jump.
+		function scrollRoll() {
+			const over = roll.scrollHeight - vp.offsetHeight;
+			roll.style.transform = over > 0 ? `translateY(-${over}px)` : '';
 		}
 
-		const wait = (ms) => new Promise((r) => setTimeout(r, ms));
-
-		async function type(el, text, speed) {
-			if (reduced) {
-				el.textContent = text;
-				return;
-			}
-			for (let i = 0; i < text.length; i++) {
-				el.textContent = text.slice(0, i + 1);
-				// Pause a beat at sentence breaks so it reads like typing, not a spinner.
-				await wait(/[.,;:]/.test(text[i]) ? speed * 6 : speed);
-			}
+		function trim() {
+			while (roll.children.length > MAX_LINES) roll.firstElementChild.remove();
 		}
 
-		function row(cls, mark) {
-			const p = document.createElement('p');
-			p.className = 'tick-line ' + cls;
-			const m = document.createElement('span');
-			m.className = 'mark';
-			m.textContent = mark;
-			const t = document.createElement('span');
-			t.className = 'text';
-			p.append(m, t);
-			return { p, t };
-		}
-
-		async function play(entry) {
-			const li = document.createElement('li');
-			li.className = 'tick is-live';
-
-			const topic = document.createElement('p');
-			topic.className = 'tick-topic';
-			topic.textContent = '@@ ' + entry.topic + ' @@';
-			li.append(topic);
-
-			const minus = row('is-minus', '−');
-			li.append(minus.p);
-			log.append(li);
+		function addLine(cls) {
+			const d = document.createElement('div');
+			d.className = 't-line ' + cls;
+			roll.appendChild(d);
 			trim();
+			scrollRoll();
+			return d;
+		}
 
-			await type(minus.t, entry.original, 18);
+		function section(topic) {
+			const d = addLine('t-section');
+			d.innerHTML = '<span class="t-marker">@@</span><span class="t-text"></span>';
+			d.lastElementChild.textContent = topic;
+		}
 
-			const src = document.createElement('p');
-			src.className = 'tick-src';
+		function source(entry) {
+			const d = addLine('t-source');
+			const t = document.createElement('span');
+			t.className = 't-text';
 			if (entry.url) {
 				const a = document.createElement('a');
 				a.href = entry.url;
 				a.rel = 'nofollow noopener';
 				a.target = '_blank';
 				a.textContent = entry.outlet;
-				src.append(a, document.createTextNode(' · ' + entry.date));
+				t.append(a, document.createTextNode(' · ' + entry.date));
 			} else {
-				src.textContent = entry.outlet + ' · ' + entry.date;
+				t.textContent = entry.outlet + ' · ' + entry.date;
 			}
-			li.append(src);
-
-			await wait(reduced ? 400 : 900);
-
-			const plus = row('is-plus', '+');
-			li.append(plus.p);
-			await type(plus.t, entry.corrected, 22);
-
-			li.classList.remove('is-live');
-			await wait(reduced ? 1200 : 3400);
+			d.append(Object.assign(document.createElement('span'), { className: 't-marker' }), t);
+			scrollRoll();
 		}
 
-		function trim() {
-			while (log.children.length > MAX_ON_SCREEN) log.firstElementChild.remove();
+		async function typeLine(mark, cls, segs) {
+			const line = addLine(cls);
+
+			const marker = document.createElement('span');
+			marker.className = 't-marker';
+			marker.textContent = mark;
+
+			const text = document.createElement('span');
+			text.className = 't-text';
+
+			const cursor = document.createElement('span');
+			cursor.className = 't-cursor blinking';
+			text.appendChild(cursor);
+
+			line.append(marker, text);
+			scrollRoll();
+
+			const marked = [];
+			for (const seg of segs) {
+				const plain = typeof seg === 'string';
+				const body = plain ? seg : (seg.r ?? seg.g);
+				let node;
+				if (plain) {
+					node = document.createTextNode('');
+				} else {
+					node = document.createElement('span');
+					node.className = seg.r ? 'tw-red' : 'tw-green';
+					marked.push(node);
+				}
+				text.insertBefore(node, cursor);
+
+				if (reduced) {
+					node.textContent = body;
+					continue;
+				}
+				for (const ch of body) {
+					node.textContent += ch;
+					scrollRoll();
+					await sleep(ch === ' ' ? CHAR * 0.6 : CHAR);
+				}
+			}
+			return { cursor, marked };
+		}
+
+		// The highlight backgrounds arrive after the line is written, left to right,
+		// so the eye is pulled back across the phrases that carry the claim.
+		async function sweep(marked) {
+			for (const span of marked) {
+				await sleep(reduced ? 0 : span.textContent.length * CHAR * 0.55);
+				span.classList.add('hl');
+				await sleep(reduced ? 0 : 90);
+			}
+		}
+
+		async function retire(cursor) {
+			cursor.classList.remove('blinking');
+			await sleep(reduced ? 0 : 140);
+			cursor.remove();
+		}
+
+		async function runPair(entry) {
+			section(entry.topic);
+			await sleep(reduced ? 120 : 460);
+
+			const minus = await typeLine('−', 't-minus', entry.minus);
+			await sleep(reduced ? 0 : 280);
+			await sweep(minus.marked);
+			await retire(minus.cursor);
+			source(entry);
+			await sleep(reduced ? 200 : 900);
+
+			const plus = await typeLine('+', 't-plus', entry.plus);
+			await sleep(reduced ? 0 : 280);
+			await sweep(plus.marked);
+			await retire(plus.cursor);
+
+			addLine('t-blank');
+			await sleep(reduced ? 900 : 3600);
+		}
+
+		// Shuffle once per load so the same pair is not always first, then run the
+		// whole set before any repeat.
+		const order = pairs.map((_, i) => i);
+		for (let i = order.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[order[i], order[j]] = [order[j], order[i]];
 		}
 
 		(async () => {
+			await sleep(700);
 			let i = 0;
-			// Runs for the life of the page. Each pass reshuffles nothing, so the
-			// reader sees the whole set before any repeat.
 			for (;;) {
-				await play(rows[order[i % order.length]]);
-				i++;
+				await runPair(pairs[order[i++ % order.length]]);
 			}
 		})();
 	})();
@@ -139,118 +192,131 @@ const rows = pairs.map((p) => ({
 
 <style>
 	.ticker {
-		margin: 2.4em 0 3em;
+		margin: 2.2em 0 3em;
 	}
 
-	.ticker-frame {
-		background: var(--bg2);
-		border: 1px solid var(--bg3);
-		border-radius: 4px;
-		padding: 1.1em 1.3em;
-		min-height: 11em;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
+	.ticker-viewport {
+		position: relative;
+		width: 100%;
+		height: 320px;
 		overflow: hidden;
 	}
 
-	.ticker-log {
-		list-style: none;
-		margin: 0;
-		padding: 0;
+	/* Old lines dissolve into the page background as they leave the top. */
+	.ticker-viewport::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 110px;
+		background: linear-gradient(to bottom, var(--bg) 0%, transparent 100%);
+		pointer-events: none;
+		z-index: 3;
 	}
 
-	.tick {
-		padding: 0.55em 0 0.85em;
-		border-top: 1px solid var(--bg3);
-		animation: rise 0.45s ease-out;
-	}
-	.tick:first-child {
-		border-top: 0;
-		opacity: 0.45;
-	}
-	.tick:last-child {
-		opacity: 1;
-	}
-	.ticker-log:not(.is-static) .tick:not(:last-child) {
-		opacity: 0.4;
-	}
-
-	@keyframes rise {
-		from { transform: translateY(10px); opacity: 0; }
-		to   { transform: translateY(0); }
-	}
-
-	.tick-topic {
-		font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-		font-size: 11px;
-		letter-spacing: 0.04em;
-		color: var(--ink3);
-		margin: 0 0 0.4em;
-	}
-
-	.tick-line {
-		font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-		font-size: 14px;
-		line-height: 1.5;
-		margin: 0 0 0.25em;
-		padding: 0.2em 0.45em 0.2em 0.35em;
-		border-radius: 2px;
+	.ticker-roll {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		/* A viewport-tall spacer above the first line, so a line is written at the
+		   bottom edge in clear space and then drifts up into the fade. Without it
+		   the ticker starts inside its own gradient. */
+		padding-top: 320px;
 		display: flex;
-		gap: 0.7em;
+		flex-direction: column;
+		align-items: stretch;
+		transition: transform 0.6s ease;
+	}
+
+	.t-line {
+		display: flex;
 		align-items: baseline;
+		min-height: 30px;
+		font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+		font-size: 14px;
+		line-height: 1.6;
+		flex-shrink: 0;
+	}
+
+	.t-marker {
+		width: 28px;
+		min-width: 28px;
+		padding-right: 6px;
+		text-align: right;
+		font-size: 13px;
+		font-weight: 700;
+	}
+	.t-minus .t-marker { color: var(--accent); }
+	.t-plus  .t-marker { color: var(--teal); }
+
+	.t-text {
+		flex: 1;
+		color: var(--ink2);
 		overflow-wrap: anywhere;
 	}
-	.tick-line .mark {
-		flex: none;
-		width: 0.8em;
-		text-align: center;
-		font-weight: 700;
-		opacity: 0.75;
-	}
-	.is-minus {
-		background: var(--red-bg);
-		color: var(--red-text);
-	}
-	.is-plus {
-		background: var(--green-bg);
-		color: var(--green-text);
+
+	.t-section .t-marker,
+	.t-section .t-text {
+		font-size: 10px;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--ink3);
 	}
 
-	.tick-src {
-		font-size: 11.5px;
-		color: var(--ink3);
-		margin: 0.15em 0 0.55em 1.5em;
+	.t-source {
+		min-height: 22px;
 	}
-	.tick-src a {
+	.t-source .t-text {
+		font-size: 11px;
+		color: var(--ink3);
+	}
+	.t-source a {
 		color: var(--ink3);
 		text-decoration: underline;
 		text-underline-offset: 2px;
 	}
 
-	.is-live .is-minus .text::after,
-	.is-live .is-plus:last-child .text::after {
-		content: '';
+	.t-blank { min-height: 18px; }
+
+	.tw-red,
+	.tw-green {
+		border-radius: 2px;
+		padding: 0 2px;
+		background: transparent;
+		transition: background 0.25s ease;
+	}
+	.tw-red   { color: var(--accent); }
+	.tw-green { color: var(--teal); }
+	.tw-red.hl   { background: var(--red-bg); }
+	.tw-green.hl { background: var(--green-bg); }
+
+	.t-cursor {
 		display: inline-block;
-		width: 0.5em;
+		width: 8px;
 		height: 1em;
 		margin-left: 1px;
-		vertical-align: -0.15em;
-		background: currentColor;
-		animation: blink 1s steps(2, start) infinite;
+		vertical-align: -0.1em;
+		background: var(--ink3);
 	}
-	@keyframes blink {
-		to { visibility: hidden; }
+	.t-cursor.blinking { animation: tcblink 0.65s step-end infinite; }
+	@keyframes tcblink {
+		0%, 100% { opacity: 1; }
+		50%      { opacity: 0; }
 	}
 
+	.ticker-static .t-pair { margin-bottom: 1.2em; }
+
 	@media (max-width: 560px) {
-		.tick-line { font-size: 13px; }
-		.ticker-frame { padding: 0.9em 0.9em; min-height: 17em; }
+		.ticker-viewport { height: 300px; }
+		.ticker-roll { padding-top: 300px; }
+		.t-line { font-size: 13px; }
+		.t-marker { width: 22px; min-width: 22px; }
 	}
 
 	@media (prefers-reduced-motion: reduce) {
-		.tick { animation: none; }
-		.is-live .is-minus .text::after,
-		.is-live .is-plus:last-child .text::after { animation: none; }
+		.ticker-roll { transition: none; }
+		.t-cursor.blinking { animation: none; }
 	}
 </style>
