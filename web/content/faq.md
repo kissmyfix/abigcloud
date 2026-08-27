@@ -5,8 +5,6 @@ description: 'How AI is used here and where it is not, what a data center actual
 
 # **Frequently Asked Questions**
 ## Is This Written by AI?
-<!-- @c This is a test. This is only a test. Testing workflow scripts and processes.  -->
-<!-- @c This is a second test. This is only the second test. Testing workflow scripts and processes test two -->
 **Yes, in part, and it is disclosed rather than hidden.**
 
 AI is used openly and heavily on this project as a drafting and analysis tool. It reads

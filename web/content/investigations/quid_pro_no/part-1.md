@@ -171,6 +171,8 @@ For its part, Meta paid the city of Gallatin [$1,821,846](/sources/woolhawk-pilo
 
 As for Sumner County, it gets nothing and the fields of the state comptroller's report designed to display the county's benefit in PILOT deals is blank. And it has been blank every year since the deal first began and *Woolhawk, LLC* began reporting yearly PILOT payments back in 2021.
 
+The IDB's own federal filings call its payments going to "the county (Gallatin)." Gallatin is not the county. Sumner County is. But if the county is Gallatin, there is no one else to pay.
+
 There is half a billion dollars of property sitting in Sumner County and the county has never collected a single dollar against it. Nor will it ever. 
 
 ***How Much Have your Own County Property Taxes Increased During This Time?***
@@ -431,7 +433,7 @@ The IDB doesn't get a line. It gets half of one:
 > **Follow the 990 filings from **2020** through **2024** and you watch a story unfold in numbers.**
 >
 > [2020](/sources/usa_federal/irs_990_data/gallatin_idb/idb2020.pdf): **The fabricated origin**
-> -  $100K in revenue, contradictory figures, tenants listed as beneficiaries.<!-- @c need some additional relevant details from the 2020 filing here. speaking of, I haven't seen or read any mention of the IDB stating it had made payment to "the county(Gallatin)" as it had done in this initial filing. That tidbit should probably be sprinkled into the section under "The Unicorn" above as well-->
+> -  $100K in revenue, contradictory figures, tenants listed as beneficiaries. Payments to **Sumner County**, by name.
 >
 > [*2021*](/sources/usa_federal/irs_990_data/gallatin_idb/idb2021.pdf): **The first real filing**
 > - $145,425 in revenue. Largest expense is **$107,488** in property taxes.\
@@ -440,7 +442,7 @@ The IDB doesn't get a line. It gets half of one:
 > And the board says so outright, on the form itself that it does not read the form before it goes to the IRS. That "Due to time constraints, the board reviews the Form 990 after it is filed. The board administrator reviews it prior to filing."
 > 
 >[2022](/sources/usa_federal/irs_990_data/gallatin_idb/idb2022.pdf): **Revenue doubles to $334,268**
-> - The mission statement gets rewritten but they check "No" on significant changes. An independent audit is suddenly claimed. The first school payment appears: $74K.
+> - Mission rewritten. Sumner County becomes "the county (Gallatin)." Checked "No" on significant changes. An independent audit is suddenly claimed. The first school payment appears: $74K.
 >
 >[2023](/sources/usa_federal/irs_990_data/gallatin_idb/idb2023.pdf): **The Woolhawk money arrives**
 >
