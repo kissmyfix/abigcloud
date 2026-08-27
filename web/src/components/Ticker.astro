@@ -170,28 +170,30 @@ const rest = pairs.slice(PRELOAD);
 	})();
 </script>
 
-<style>
+<style is:global>
 	.ticker {
 		width: 100%;
-		margin: 0 0 2.6em;
+		/* The banner ends in a fade to page background. This picks that up and
+		   carries it down into the roll, so the two read as one gradient. */
+		margin: -1.5em 0 2.6em;
 	}
 
 	.ticker-viewport {
 		position: relative;
 		width: 100%;
-		height: 340px;
+		height: 380px;
 		overflow: hidden;
 	}
 
-	/* Lines dissolve into the page as they leave the top. */
+	/* Same shape and weight as the banner's bottom fade. */
 	.ticker-viewport::after {
 		content: '';
 		position: absolute;
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 120px;
-		background: linear-gradient(to bottom, var(--bg) 0%, transparent 100%);
+		height: 76px;
+		background: linear-gradient(to bottom, var(--bg) 0%, rgba(0, 0, 0, 0) 100%);
 		pointer-events: none;
 		z-index: 3;
 	}
@@ -207,71 +209,74 @@ const rest = pairs.slice(PRELOAD);
 		transition: transform 0.6s ease;
 	}
 
-	.t-line {
+	.ticker .t-line {
 		display: flex;
 		align-items: baseline;
-		min-height: 30px;
-		font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-		font-size: 14.5px;
-		line-height: 1.6;
+		min-height: 36px;
 		flex-shrink: 0;
 	}
 
-	.t-marker {
+	/* The marker stays monospace so the two columns line up like a diff. */
+	.ticker .t-marker {
 		width: 26px;
 		min-width: 26px;
-		padding-right: 8px;
+		padding-right: 10px;
 		text-align: right;
-		font-size: 14px;
+		font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+		font-size: 16px;
 		font-weight: 700;
+		line-height: 1.4;
 	}
-	.t-minus .t-marker { color: var(--accent); }
-	.t-plus  .t-marker { color: var(--teal); }
+	.ticker .t-minus .t-marker { color: var(--accent); }
+	.ticker .t-plus .t-marker { color: var(--teal); }
 
-	.t-text {
+	/* These are headlines, so they are set like headlines. */
+	.ticker .t-text {
 		flex: 1;
-		color: var(--ink2);
+		font-family: var(--font-serif);
+		font-size: 20px;
+		line-height: 1.4;
+		color: var(--ink);
 		overflow-wrap: anywhere;
 	}
 
-	.t-blank { min-height: 20px; }
+	.ticker .t-blank { min-height: 22px; }
 
-	/* Only the changed words carry colour. */
-	.tw-red,
-	.tw-green {
+	/* Colour lands only on the words that differ between the two lines. */
+	.ticker .tw-red,
+	.ticker .tw-green {
 		border-radius: 2px;
 		padding: 0 3px;
-		font-weight: 600;
 		background: transparent;
 		transition: background 0.3s ease;
 	}
-	.tw-red   { color: var(--accent); }
-	.tw-green { color: var(--teal); }
-	.tw-red.hl   { background: var(--red-bg); }
-	.tw-green.hl { background: var(--green-bg); }
+	.ticker .tw-red { color: var(--accent); }
+	.ticker .tw-green { color: var(--teal); }
+	.ticker .tw-red.hl { background: var(--red-bg); }
+	.ticker .tw-green.hl { background: var(--green-bg); }
 
-	.t-cursor {
+	.ticker .t-cursor {
 		display: inline-block;
-		width: 8px;
-		height: 1em;
-		margin-left: 1px;
-		vertical-align: -0.1em;
+		width: 9px;
+		height: 0.9em;
+		margin-left: 2px;
+		vertical-align: -0.05em;
 		background: var(--ink3);
 	}
-	.t-cursor.blinking { animation: tcblink 0.65s step-end infinite; }
+	.ticker .t-cursor.blinking { animation: tcblink 0.65s step-end infinite; }
 	@keyframes tcblink {
 		0%, 100% { opacity: 1; }
-		50%      { opacity: 0; }
+		50% { opacity: 0; }
 	}
 
-	@media (max-width: 560px) {
-		.ticker-viewport { height: 320px; }
-		.t-line { font-size: 13px; }
-		.t-marker { width: 20px; min-width: 20px; padding-right: 6px; }
+	@media (max-width: 700px) {
+		.ticker-viewport { height: 340px; }
+		.ticker .t-text { font-size: 17px; }
+		.ticker .t-marker { width: 20px; min-width: 20px; padding-right: 7px; font-size: 14px; }
 	}
 
 	@media (prefers-reduced-motion: reduce) {
 		.ticker-roll { transition: none; }
-		.t-cursor.blinking { animation: none; }
+		.ticker .t-cursor.blinking { animation: none; }
 	}
 </style>
