@@ -48,7 +48,7 @@
 	   Light mode needs a shorter fade, because a pale wash over a dark photo
 	   reads as damage rather than as a blend. */
 	--banner-fade-top: 10%;
-	--banner-fade-bottom: 62%;
+	--banner-fade-bottom: 80%;
 }
 
 /* Dark values live in one place and are applied by either signal below. */
@@ -75,7 +75,7 @@
 		--blue-bg: #081a30;
 		--blue-text: #7ab8f0;
 		--banner-fade-top: 22%;
-		--banner-fade-bottom: 40%;
+		--banner-fade-bottom: 48%;
 	}
 }
 :root[data-theme='dark'] {
@@ -100,7 +100,7 @@
 	--blue-bg: #081a30;
 	--blue-text: #7ab8f0;
 	--banner-fade-top: 22%;
-	--banner-fade-bottom: 40%;
+	--banner-fade-bottom: 48%;
 }
 
 * {
