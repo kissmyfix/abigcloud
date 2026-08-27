@@ -31,8 +31,9 @@ const rest = pairs.slice(PRELOAD);
 		id="t-what"
 		aria-expanded="false"
 		aria-controls="t-explainer"
+		aria-label="What is this?"
 	>
-		What is this?
+		?
 	</button>
 
 	<div class="t-explainer" id="t-explainer" role="note" hidden>
@@ -105,18 +106,16 @@ const rest = pairs.slice(PRELOAD);
 				what.setAttribute('aria-expanded', String(open));
 				document.querySelector('.ticker').classList.toggle('explaining', open);
 			};
-			what.addEventListener('mouseenter', () => show(true));
-			what.addEventListener('focus', () => show(true));
+			/* Click or tap only. Opening on hover put the panel up before anyone
+			   asked for it and left them hunting for how to dismiss it. */
 			what.addEventListener('click', (e) => {
 				e.preventDefault();
+				e.stopPropagation();
 				show(panel.hidden);
 			});
-			const leave = (e) => {
-				if (!e.relatedTarget || !e.relatedTarget.closest?.('.ticker')) show(false);
-			};
-			what.addEventListener('mouseleave', leave);
-			panel.addEventListener('mouseleave', leave);
-			what.addEventListener('blur', () => show(false));
+			addEventListener('click', (e) => {
+				if (!panel.hidden && !e.target.closest('#t-explainer')) show(false);
+			});
 			addEventListener('keydown', (e) => e.key === 'Escape' && show(false));
 		}
 
@@ -325,20 +324,22 @@ const rest = pairs.slice(PRELOAD);
 
 	.ticker .t-what {
 		position: absolute;
-		/* Clear of the banner: the section itself starts 62px up inside it. */
-		top: 74px;
+		bottom: 0;
 		right: 0;
 		z-index: 6;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 26px;
+		height: 26px;
 		border: 1px solid var(--border2);
-		border-radius: 999px;
+		border-radius: 50%;
 		background: color-mix(in srgb, var(--bg) 80%, transparent);
 		color: var(--ink3);
 		font-family: var(--font-sans);
-		font-size: 11px;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		padding: 0.4em 0.9em;
-		cursor: help;
+		font-size: 14px;
+		line-height: 1;
+		cursor: pointer;
 		transition: color 0.15s, border-color 0.15s;
 	}
 	.ticker .t-what:hover,
@@ -349,7 +350,7 @@ const rest = pairs.slice(PRELOAD);
 
 	.ticker .t-explainer {
 		position: absolute;
-		top: 112px;
+		bottom: 36px;
 		right: 0;
 		z-index: 6;
 		width: min(30em, 100%);
