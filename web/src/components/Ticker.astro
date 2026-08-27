@@ -183,6 +183,12 @@ const rest = pairs.slice(PRELOAD);
 		width: 100%;
 		height: 380px;
 		overflow: hidden;
+		/* The script adds lines and trims them off the top as it runs. Without
+		   these the browser treats that churn as content shifting under the
+		   reader and nudges the page scroll to compensate, which reads as the
+		   ticker dragging the page down. */
+		overflow-anchor: none;
+		contain: layout paint;
 	}
 
 	/* Same shape and weight as the banner's bottom fade. */
@@ -203,6 +209,7 @@ const rest = pairs.slice(PRELOAD);
 		top: 0;
 		left: 0;
 		right: 0;
+		overflow-anchor: none;
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
