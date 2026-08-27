@@ -65,6 +65,7 @@ const REPO = 'https://github.com/kissmyfix/abigcloud';
 		border-bottom-color: var(--border);
 		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
 	}
+
 	h2 {
 		margin: 0;
 		font-family: var(--font-serif);
@@ -192,6 +193,15 @@ const REPO = 'https://github.com/kissmyfix/abigcloud';
 		sync();
 		addEventListener('scroll', sync, { passive: true });
 
+		/* On a page that opens with a banner, the banner is pulled up under the
+		   header so the nav sits on the image. The nav wraps to two rows at some
+		   widths, so its height has to be measured rather than assumed. */
+		const publishHeight = () =>
+			document.documentElement.style.setProperty('--header-h-actual', header.offsetHeight + 'px');
+		publishHeight();
+		if (window.ResizeObserver) new ResizeObserver(publishHeight).observe(header);
+		else addEventListener('resize', publishHeight);
+
 		const toggle = header.querySelector('#nav-toggle');
 		const links = header.querySelector('#nav-links');
 		if (!toggle || !links) return;
@@ -211,3 +221,45 @@ const REPO = 'https://github.com/kissmyfix/abigcloud';
 		matchMedia('(min-width: 901px)').addEventListener('change', () => setOpen(false));
 	})();
 </script>
+
+<style is:global>
+/* ── Nav over the banner ──────────────────────────────────────────────
+	   When a banner follows the header, the page opens as one image with the
+	   nav floating on it rather than as a nav stripe stacked above a picture.
+	   Everything here is scoped to that case, so a page without a banner keeps
+	   the ordinary solid header. Scrolling past the banner restores it.
+
+	   The combinator is ~ and not +: Astro emits this component's inline script
+	   as a sibling between the header and the banner, so they are not actually
+	   adjacent in the output. */
+	header:has(~ .banner):not(.scrolled) {
+		background: transparent;
+	}
+	/* A scrim, so the links stay readable over whatever the image is doing. */
+	header:has(~ .banner)::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		z-index: -1;
+		pointer-events: none;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0) 100%);
+		opacity: 1;
+		transition: opacity 0.2s;
+	}
+	header:has(~ .banner).scrolled::before {
+		opacity: 0;
+	}
+	/* The banner art is dark in both themes, so the nav goes light over it. */
+	header:has(~ .banner):not(.scrolled) h2 a,
+	header:has(~ .banner):not(.scrolled) .internal-links a.active,
+	header:has(~ .banner):not(.scrolled) .social-links a,
+	header:has(~ .banner):not(.scrolled) .social-links button {
+		color: #f2efe8;
+	}
+	header:has(~ .banner):not(.scrolled) .internal-links a {
+		color: rgba(242, 239, 232, 0.82);
+	}
+	header:has(~ .banner):not(.scrolled) .internal-links a:hover {
+		color: #fff;
+	}
+</style>

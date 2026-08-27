@@ -68,6 +68,10 @@ const narrowImg = narrow
 		position: relative;
 		width: 100%;
 		line-height: 0;
+		/* Slide up under the header so the image starts at the top of the page
+		   and the nav rides on it. --header-h-actual is measured by the header's
+		   own script; the token is the fallback before that runs. */
+		margin-top: calc(-1 * var(--header-h-actual, var(--header-h)));
 	}
 	.banner img {
 		display: block;
@@ -93,8 +97,6 @@ const narrowImg = narrow
 		pointer-events: none;
 		background: linear-gradient(
 			to bottom,
-			var(--bg) 0%,
-			rgba(0, 0, 0, 0) var(--banner-fade-top),
 			rgba(0, 0, 0, 0) var(--banner-fade-bottom),
 			var(--bg) 100%
 		);
