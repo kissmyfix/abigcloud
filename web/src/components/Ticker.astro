@@ -25,6 +25,28 @@ const rest = pairs.slice(PRELOAD);
 ---
 
 <section class="ticker" aria-label="Headlines, corrected">
+	<button
+		type="button"
+		class="t-what"
+		id="t-what"
+		aria-expanded="false"
+		aria-controls="t-explainer"
+	>
+		What is this?
+	</button>
+
+	<div class="t-explainer" id="t-explainer" role="note" hidden>
+		<p>Every top line is a real headline, published by a real newsroom.</p>
+		<p>
+			Under it is the same story told straight, rewritten using only what that
+			article already says further down. Nothing is added from anywhere else.
+		</p>
+		<p>
+			Read it as a diff. Orange is the word that was chosen. Teal is what the
+			reporting underneath it actually supports.
+		</p>
+	</div>
+
 	<div class="ticker-viewport" id="t-viewport">
 		<div class="ticker-roll" id="t-roll">
 			{preloaded.map((p) => (
@@ -66,7 +88,37 @@ const rest = pairs.slice(PRELOAD);
 		const CHAR = 52;        // per-character typing delay
 		const MAX_LINES = 45;   // trim off the top so the roll cannot grow forever
 
-		const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+		let paused = false;
+		/* Typing halts while the explainer is open, so nothing moves under someone
+		   who is reading it. */
+		const sleep = async (ms) => {
+			await new Promise((r) => setTimeout(r, ms));
+			while (paused) await new Promise((r) => setTimeout(r, 120));
+		};
+
+		const what = document.getElementById('t-what');
+		const panel = document.getElementById('t-explainer');
+		if (what && panel) {
+			const show = (open) => {
+				paused = open;
+				panel.hidden = !open;
+				what.setAttribute('aria-expanded', String(open));
+				document.querySelector('.ticker').classList.toggle('explaining', open);
+			};
+			what.addEventListener('mouseenter', () => show(true));
+			what.addEventListener('focus', () => show(true));
+			what.addEventListener('click', (e) => {
+				e.preventDefault();
+				show(panel.hidden);
+			});
+			const leave = (e) => {
+				if (!e.relatedTarget || !e.relatedTarget.closest?.('.ticker')) show(false);
+			};
+			what.addEventListener('mouseleave', leave);
+			panel.addEventListener('mouseleave', leave);
+			what.addEventListener('blur', () => show(false));
+			addEventListener('keydown', (e) => e.key === 'Escape' && show(false));
+		}
 
 		// Slide the whole roll up so the newest line stays at the bottom edge. The
 		// transition on .ticker-roll is what turns this into a drift.
@@ -270,6 +322,59 @@ const rest = pairs.slice(PRELOAD);
 	.ticker .tw-green { color: var(--teal); }
 	.ticker .tw-red.hl { background: var(--red-bg); }
 	.ticker .tw-green.hl { background: var(--green-bg); }
+
+	.ticker .t-what {
+		position: absolute;
+		/* Clear of the banner: the section itself starts 62px up inside it. */
+		top: 74px;
+		right: 0;
+		z-index: 6;
+		border: 1px solid var(--border2);
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--bg) 80%, transparent);
+		color: var(--ink3);
+		font-family: var(--font-sans);
+		font-size: 11px;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		padding: 0.4em 0.9em;
+		cursor: help;
+		transition: color 0.15s, border-color 0.15s;
+	}
+	.ticker .t-what:hover,
+	.ticker .t-what:focus-visible {
+		color: var(--ink);
+		border-color: var(--accent);
+	}
+
+	.ticker .t-explainer {
+		position: absolute;
+		top: 112px;
+		right: 0;
+		z-index: 6;
+		width: min(30em, 100%);
+		background: var(--bg2);
+		border: 1px solid var(--bg3);
+		border-radius: 4px;
+		padding: 1.1em 1.25em;
+		box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+	}
+	.ticker .t-explainer p {
+		font-family: var(--font-sans);
+		font-size: 14.5px;
+		line-height: 1.6;
+		color: var(--ink2);
+		margin: 0 0 0.7em;
+	}
+	.ticker .t-explainer p:last-child {
+		margin-bottom: 0;
+	}
+
+	/* Hold the lines still and step them back while the explainer is up. */
+	.ticker.explaining .ticker-roll {
+		opacity: 0.35;
+		transition: opacity 0.2s;
+	}
 
 	.ticker .t-cursor {
 		display: inline-block;
