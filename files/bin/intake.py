@@ -153,6 +153,42 @@ def manifest_write(rows):
             w.writerow(existing[k])
 
 
+def reconcile(idx):
+    """Close out rows whose inbox file is gone.
+
+    A document leaves the inbox two ways: it gets filed into the archive, or it
+    is deleted as redundant. Neither one told the ledger, so rows sat at
+    NEEDS FILING forever and a completeness query counted ghosts. Identity is
+    the sha256, so if the archive now holds those bytes the row is FILED and we
+    can say where; if nothing holds them, it was discarded."""
+    if not MANIFEST.exists():
+        return 0, 0
+    by_hash = {}
+    for rel, h in idx.items():
+        by_hash.setdefault(h[:16], []).append(rel)
+
+    rows = list(csv.DictReader(open(MANIFEST)))
+    filed = gone = 0
+    for r in rows:
+        if r["status"] in ("FILED", "DISCARDED"):
+            continue
+        if (ROOT / r["inbox_path"]).exists():
+            continue
+        hit = by_hash.get(r["sha256"])
+        if hit:
+            r["status"], r["filed_to"] = "FILED", hit[0]
+            filed += 1
+        else:
+            r["status"] = "DISCARDED"
+            r["note"] = r.get("note") or "left the inbox without being filed; no copy in the archive"
+            gone += 1
+    if filed or gone:
+        with open(MANIFEST, "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+            w.writeheader(); w.writerows(rows)
+    return filed, gone
+
+
 def process(paths, idx):
     by_hash = {}
     for rel, h in idx.items():
@@ -287,6 +323,9 @@ def write_queue(entries):
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     idx = build_index(force="--rescan" in sys.argv)
+    rf, rg = reconcile(idx)
+    if rf or rg:
+        print(f"reconciled: {rf} now filed, {rg} discarded")
 
     if args:
         paths = [Path(a).resolve() for a in args]
