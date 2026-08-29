@@ -1,0 +1,39 @@
+[[page 1]]
+                                                                              Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                             Current Owner                                   GATEWAY DR 1412
+                                                           GALLATIN CITY OF
+Tax Year 2026 | Reappraisal 2024                                                                                                                                   Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           TENNESSEE                                                                                               112                  012.07          000
+                                                           132 WEST MAIN STREET
+                                                           GALLATIN TN 37066
+Value Information
+Land Market Value:                         $893,400
+Improvement Value:                               $0
+Total Market Appraisal:                    $893,400
+Assessment Percentage:                          0%
+Assessment:                                      $0
+Additional Information
+PB28 PG325 LT 6 RESUB ,PB28 PG193-194 LT6 PB31 PG227 LOT3
+General Information
+Class: 02 - City                                          City: GALLATIN
+City #: 278                                               Special Service District 2:
+Special Service District 1:                               Neighborhood: G40
+District: 00                                              Number of Mobile Homes:
+Number of Buildings: 0                                    Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC             Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                      Type            Description                                          Area/Units
+
+
+Sale Information
+Sale Date          Price      Book   Page Vacant/Improved        Type Instrument                 Qualification
+
+8/7/2014        $170,922      3983     425 V - VACANT            WD - WARRANTY DEED              -
+
+
+Land Information
+Deed Acres: 0                          Calculated Acres: 14.89             Total Land Units: 14.89
+Land Code                                               Soil Class                                         Units
+
+15 - INDUSTRIAL                                                                                            14.89

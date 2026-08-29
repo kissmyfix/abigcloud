@@ -1,0 +1,43 @@
+[[page 1]]
+                                                                              Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                              Jan 1 Owner                                                   Current Owner                              COMMERCE WAY
+                                                          GALLATIN CITY OF
+Tax Year 2026 | Reappraisal 2024                                                                                                                                   Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                          MAIN ST                                                                                                  112                  110.00          000
+                                                          GALLATIN TN 37066
+Value Information
+Land Market Value:                               $0
+Improvement Value:                               $0
+Total Market Appraisal:                          $0
+Assessment Percentage:                          0%
+Assessment:                                      $0
+Subdivision Data
+Subdivision:
+GALLATIN INDUSTRIAL
+Plat Book:                  Plat Page:                    Block:                         Lot:
+23                          103                                                          3
+Additional Information
+PLAT: 23 PAGE: 103 BLOCK: LOT: 3 SUBD: GALLATIN INDUSTRIAL CTR
+General Information
+Class: 02 - City                                          City: GALLATIN
+City #: 278                                               Special Service District 2:
+Special Service District 1:                               Neighborhood: G40
+District: 02                                              Number of Mobile Homes:
+Number of Buildings: 0                                    Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC             Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                    Type              Description                                             Area/Units
+
+
+Sale Information
+Sale Date        Price    Book       Page Vacant/Improved           Type Instrument              Qualification
+
+1/29/1992           $0      231       451 V - VACANT                -                            -
+
+
+Land Information
+Deed Acres: 0                        Calculated Acres: 2.46                Total Land Units: 2.46
+Land Code                                         Soil Class                                                 Units
+
+70 - EXEMPT                                                                                                      2.46

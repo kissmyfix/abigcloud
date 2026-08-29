@@ -44,3 +44,26 @@ files/cold-read/
 *~
 *.swp
 *.astro.index
+
+# --- Held back 2026-08-28: the 600 Small Street / Children Are People work ---
+# Hunch-stage. Theories, adjacencies and characterisations of named private individuals,
+# none of it yet load-bearing for a published claim. Publish piece by piece as each claim
+# gets sourced and lands in an article, not as a directory. `memory/` is already ignored
+# above, so the day's MEMORY/TIMELINE/PINBOARD work is covered by that line, not this one.
+sumner_county/600_small_street/
+state_of_tennessee/tn_property_assessments/sumner-assessment-600-small-st-*.pdf
+state_of_tennessee/tn_property_assessments/sumner-assessment-carson-st.pdf
+
+# Player profiles opened 2026-08-28 from board-roster cross-referencing. Each names a
+# living private individual against a theory, not a published finding. Lamberth is
+# explicitly parked. Review before any of these publish.
+the_players/derrick_jackson.md
+the_players/don_cunningham.md
+the_players/kee_bryant_mccormick.md
+the_players/william_lamberth.md
+
+# Intake staging — unfiled, unvetted material and its bookkeeping
+inbox/
+files/.archive-hashes
+files/.intake.log
+files/MANIFEST.csv

@@ -1,0 +1,61 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                             Jan 1 Owner                                                    Current Owner                               AIRPORT RD 168
+                                                         EQUITABLE ENTERPRISES INC                                      EQUITABLE ENTERPRISES LLC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                         PO BOX 2188                                                    1209 W TRINITY LANE                         112                  018.00          000
+                                                         SOMERSET NJ 08875                                              NASHVILLE TN 37218
+Value Information
+Land Market Value:                       $686,100     Land Use Value:                                  $74,100
+Improvement Value:                         $5,100     Improvement Value:                                $5,100
+Total Market Appraisal:                  $691,200     Total Use Appraisal:                             $79,200
+                                                      Assessment Percentage:                              25%
+                                                      Assessment:                                      $19,800
+Additional Information
+GB #8293 FOR 2022
+General Information
+Class: 11 - Agricultural                                City: GALLATIN
+City #: 278                                             Special Service District 2:
+Special Service District 1:                             Neighborhood: G01
+District: 10                                            Number of Mobile Homes:
+Number of Buildings: 0                                  Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC           Zoning:
+Utilities - Gas/Gas Type: 01 - PUBLIC - NATURAL
+GAS
+Outbuildings & Yard Items
+Building #                Type                                 Description                              Area/Units
+
+1                         LBN - LOFT BARN                      90                                            2,400
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 37.62                 Total Land Units: 37.62
+Land Code                                               Soil Class                                           Units
+
+54 - PASTURE                                            G                                                    36.12
+
+62 - WOODLAND 2                                         A                                                        1.50
+
+[[page 2]]
+Sale Information
+Sale Date               Price   Book   Page Vacant/Improved   Type Instrument              Qualification
+
+6/30/2026                 $0    6897    379 I - IMPROVED      QC - QUITCLAIM DEED          -
+
+3/17/2021                 $0    5537     96 I - IMPROVED      WD - WARRANTY DEED           P - MULTIPLE PARCELS
+
+3/17/2021          $3,250,000   5537     93 I - IMPROVED      WD - WARRANTY DEED           P - MULTIPLE PARCELS
+
+8/30/2016           $359,260    4376    476 I - IMPROVED      WD - WARRANTY DEED           G - FORCED SALE
+
+8/29/2016                 $0    4376    474 I - IMPROVED      HR - AFFIDAVIT OF HEIRSHIP   -
+
+10/18/1999          $126,500    1037    866 I - IMPROVED      WD - WARRANTY DEED           B - FAMILY SALE
+
+2/3/1981                  $0     438    524 V - VACANT        -                            -
+
+12/5/1980                 $0     436    671 V - VACANT        -                            -
+
+8/23/1974                 $0     348    456 V - VACANT        -                            -

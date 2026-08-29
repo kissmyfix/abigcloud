@@ -1,0 +1,63 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                                  Jan 1 Owner                                          Current Owner                                    31E HWY
+                                                              HML HOLDINGS LLC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                              P O BOX 574                                                                                           105                  046.00          000
+                                                              GALLATIN TN 37066
+Value Information
+Land Market Value:                       $764,600       Land Use Value:                             $143,100
+Improvement Value:                             $0       Improvement Value:                                $0
+Total Market Appraisal:                  $764,600       Total Use Appraisal:                        $143,100
+                                                        Assessment Percentage:                          25%
+                                                        Assessment:                                  $35,775
+Additional Information
+GB #8421 FOR 2022
+General Information
+Class: 11 - Agricultural                                   City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G49
+District: 10                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 01 - PUBLIC - NATURAL
+GAS
+Outbuildings & Yard Items
+Building #                    Type               Description                                          Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 118                  Total Land Units: 118
+Land Code                                                 Soil Class                                       Units
+
+62 - WOODLAND 2                                           A                                               118.00
+
+[[page 2]]
+Sale Information
+Sale Date               Price   Book   Page Vacant/Improved   Type Instrument       Qualification
+
+5/19/2021                 $0    5610    249 V - VACANT        QC - QUITCLAIM DEED   -
+
+3/12/2021          $1,725,000   5535     39 V - VACANT        -                     L - LIMITED
+
+5/28/2008                 $0    3036     75 V - VACANT        -                     -
+
+5/23/2008                 $0    3036     73 V - VACANT        -                     -
+
+4/18/2007                 $0    2739    693 V - VACANT        -                     -
+
+4/24/2006                 $0    2497    336 V - VACANT        -                     -
+
+12/28/2005                $0    2415     37 V - VACANT        -                     -
+
+10/14/2005         $2,000,000   2366    767 V - VACANT        WD - WARRANTY DEED    H - BUSINESS/CORPORATE SALE
+
+10/7/2004          $1,103,070   2111    161 I - IMPROVED      WD - WARRANTY DEED    A - ACCEPTED
+
+9/4/2003                  $0    1864    749 V - VACANT        -                     -
+
+12/22/1999                $0    1068    180 V - VACANT        -                     -
+
+12/11/1997                $0    1427    638 V - VACANT        -                     -

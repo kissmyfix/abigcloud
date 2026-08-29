@@ -1,0 +1,63 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                              Current Owner                                   31E HWY 1691
+                                                           EQUITABLE ENTERPRISES INC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           PO BOX 2188                                                                                              105                  045.00          000
+                                                           SOMERSET NJ 08875
+Value Information
+Land Market Value:                     $1,208,800       Land Use Value:                           $210,000
+Improvement Value:                             $0       Improvement Value:                              $0
+Total Market Appraisal:                $1,208,800       Total Use Appraisal:                      $210,000
+                                                        Assessment Percentage:                        25%
+                                                        Assessment:                                $52,500
+Additional Information
+GB #8293 FOR 2022
+General Information
+Class: 11 - Agricultural                                   City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G01
+District: 10                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 01 - PUBLIC - NATURAL
+GAS
+Outbuildings & Yard Items
+Building #                    Type               Description                                           Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 104.93               Total Land Units: 104.93
+Land Code                                          Soil Class                                              Units
+
+54 - PASTURE                                       G                                                      104.93
+
+[[page 2]]
+Sale Information
+Sale Date               Price   Book   Page Vacant/Improved   Type Instrument      Qualification
+
+3/17/2021                 $0    5537     96 I - IMPROVED      WD - WARRANTY DEED   P - MULTIPLE PARCELS
+
+3/17/2021          $3,250,000   5537     93 I - IMPROVED      WD - WARRANTY DEED   P - MULTIPLE PARCELS
+
+12/5/2014           $500,000    4039     28 I - IMPROVED      WD - WARRANTY DEED   I - FINANCIAL INSTITUTION
+
+6/6/2012                  $0    3590    658 V - VACANT        -                    -
+
+3/15/2010                 $0    3253     85 V - VACANT        -                    -
+
+12/21/2006         $3,000,000   2663    665 I - IMPROVED      WD - WARRANTY DEED   A - ACCEPTED
+
+10/31/2005         $1,030,000   2373    864 I - IMPROVED      WD - WARRANTY DEED   H - BUSINESS/CORPORATE SALE
+
+12/31/1999                $0    1064    301 V - VACANT        -                    -
+
+8/30/1996           $237,000     625    129 I - IMPROVED      WD - WARRANTY DEED   A - ACCEPTED
+
+12/21/1988          $185,000      60    590 I - IMPROVED      WD - WARRANTY DEED   N - NON-ARM'S LENGTH
+
+7/8/1975                  $0    WB22    157 V - VACANT        -                    -
+
+6/28/1945                 $0     128    505 V - VACANT        -                    -

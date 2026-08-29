@@ -1,0 +1,66 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                           Current Owner                                      SOUTHPARK CIRCLE 108
+                                                           GALLATIN DAY CARE CENTERS
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:     Group:     Parcel:     PI:           SI:
+                                                           I & II INC                                                                                               135M          A          013.00                    000
+                                                           108 SOUTHPARK CIRCLE
+                                                           GALLATIN TN 37066
+Value Information                                                                                                Commercial Building #: 1
+Land Market Value:                         $80,000                                                               Improvement Type:                                  Actual Year Built:
+Improvement Value:                        $279,400                                                               18 - STORE CLASS "S"                               1989
+Total Market Appraisal:                   $359,400                                                               Quality:                                           Business Living Area:
+Assessment Percentage:                         0%                                                                1 - AVERAGE                                        4200
+Assessment:                                     $0                                                               Foundation:                                        Floor System:
+Subdivision Data                                                                                                 03 - SPREAD FOOTING                                01 - SLAB ON GRADE
+Subdivision:                                                                                                     Roof Framing:                                      Roof Cover/Deck:
+SOUTHPARK                                                                                                        05 - BAR JOIST/RIGID FRAME                         13 - PREFIN METAL CRIMPED
+Plat Book:                   Plat Page:                    Block:                         Lot:                   Cabinet/Millwork:                                  Floor Finish:
+12                           230                                                          6                      03 - AVERAGE                                       11 - CARPET COMBINATION
+Additional Information                                                                                           Interior Finish:                                   Paint/Decor:
+PLAT: 12 PAGE: 230 BLOCK: LOT: 6 SUBD: SOUTHPARK                                                                 07 - DRYWALL                                       03 - AVERAGE
+General Information                                                                                              Bath Tiles:                                        Electrical:
+Class: 06 - Ed/Sci/Charitable                              City: GALLATIN                                        00 - NONE                                          03 - AVERAGE
+City #: 278                                                Special Service District 2:                           Shape:                                             Structural Frame:
+Special Service District 1:                                Neighborhood: G60                                     Heat and AC:                                       00 - NONE
+District: 03                                               Number of Mobile Homes:                               07 - HVAC SPLIT                                    Plumbing Fixtures:
+Number of Buildings: 1                                     Utilities - Electricity: 01 - PUBLIC                                                                     9
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:                                               Building Sketch                                    Interior/Exterior Areas
+Utilities - Gas/Gas Type: 01 - PUBLIC - NATURAL                                                                                                                                            Square
+GAS                                                                                                                                                                  Type                  Feet        Exterior Wall
+Outbuildings & Yard Items
+                                                                                                                                                                     18 - STORE                4,200 11 - COMMON
+Building #           Type                                            Description                  Area/Units                                                         CLASS "S"                       BRICK
+
+1                    CNC - CONCRETE PAVING                           90                               11,000
+                                                                                                                                                                    Commercial Features
+                                                                                                                                                                     Type                                      Units
+Sale Information
+Long Sale Information list on subsequent pages                                                                                                                       OPF - OPEN PORCH FINISHED                 1320 X 1
+Land Information
+Deed Acres: 0                        Calculated Acres: 1                    Total Land Units: 1
+Land Code                                         Soil Class                                           Units
+
+70 - EXEMPT                                                                                             1.00
+
+[[page 2]]
+Sale Information
+Sale Date             Price   Book   Page Vacant/Improved   Type Instrument      Qualification
+
+11/5/2002          $165,000   1584    536 I - IMPROVED      WD - WARRANTY DEED   M - PHYSICAL DIFFERENCE
+
+5/12/1998               $0     831    279 V - VACANT        -                    -
+
+2/28/1997               $0     687    288 V - VACANT        -                    -
+
+2/28/1997          $150,000    671    547 I - IMPROVED      WD - WARRANTY DEED   A - ACCEPTED
+
+10/21/1996         $100,000    638    119 I - IMPROVED      WD - WARRANTY DEED   N - NON-ARM'S LENGTH
+
+3/10/1995          $100,000    484    445 I - IMPROVED      WD - WARRANTY DEED   M - PHYSICAL DIFFERENCE
+
+6/15/1992               $0     260    524 V - VACANT        -                    -
+
+11/25/1991              $0     223    520 V - VACANT        -                    -
+
+5/31/1988               $0      24    752 V - VACANT        -                    -

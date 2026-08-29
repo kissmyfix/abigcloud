@@ -1,0 +1,94 @@
+[[page 1]]
+                                                                             Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                             Jan 1 Owner                                           Current Owner                                      GATEWAY DRIVE 1399
+                                                         GALLATIN CITY OF IDB
+Tax Year 2026 | Reappraisal 2024                                                                                                                                  Ctrl Map:    Group:      Parcel:      PI:          SI:
+                                                         DANA A FRAZIER C/O                                                                                       112                      012.02                    000
+                                                         17601 BERETTA DRIVE
+                                                         ACCOKEEK MD 20607
+Value Information                                                                                              Commercial Building #: 1
+Land Market Value:                     $9,049,100                                                              Improvement Type:                                  Actual Year Built:
+Improvement Value:                    $10,063,000                                                              44 - LIGHT MFG                                     2015
+Total Market Appraisal:               $19,112,100                                                              Quality:                                           Business Living Area:
+Assessment Percentage:                        0%                                                               1 - AVERAGE                                        160138
+Assessment:                                    $0                                                              Foundation:                                        Floor System:
+Subdivision Data                                                                                               03 - SPREAD FOOTING                                01 - SLAB ON GRADE
+Subdivision:                                                                                                   Roof Framing:                                      Roof Cover/Deck:
+Plat Book:                   Plat Page:                  Block:                         Lot:                   06 - STEEL TRUSS/PURLINS                           13 - PREFIN METAL CRIMPED
+28                                                       193-194                        4                      Cabinet/Millwork:                                  Floor Finish:
+Additional Information                                                                                         03 - AVERAGE                                       01 - CONCRETE FINISH
+PB28 PG193-194 LT4                                                                                             Interior Finish:                                   Paint/Decor:
+General Information                                                                                            01 - UNFINISHED                                    03 - AVERAGE
+Class: 02 - City                                         City: GALLATIN                                        Bath Tiles:                                        Electrical:
+City #: 278                                              Special Service District 2:                           Shape:                                             03 - AVERAGE
+Special Service District 1:                              Neighborhood: G40                                     Heat and AC:                                       Structural Frame:
+District: 02                                             Number of Mobile Homes:                               01 - UNIT HEATER                                   04 - SPECIAL
+Number of Buildings: 1                                   Utilities - Electricity: 01 - PUBLIC                                                                     Plumbing Fixtures:
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC            Zoning:                                                                                                  46
+Utilities - Gas/Gas Type: 00 - NONE                                                                            Building Sketch                                    Interior/Exterior Areas
+
+Outbuildings & Yard Items                                                                                                                                                               Square
+Long OutBuilding & Yard Items list on subsequent pages                                                                                                             Type                 Feet         Exterior Wall
+
+Sale Information                                                                                                                                                   44 - LIGHT MFG         133,760 16 - PRECAST
+Long Sale Information list on subsequent pages                                                                                                                                                    PANEL
+
+Land Information                                                                                                                                                   OFA - Office -          13,202 16 - PRECAST
+Deed Acres: 0                        Calculated Acres: 99.88              Total Land Units: 99.88                                                                  Average                        PANEL
+Land Code                                        Soil Class                                          Units
+                                                                                                                                                                   44 - LIGHT MFG          13,176 16 - PRECAST
+70 - EXEMPT                                                                                          99.88                                                                                        PANEL
+
+
+                                                                                                                                                                  Commercial Features
+                                                                                                                                                                   Type                                   Units
+
+                                                                                                                                                                   CAW - CANOPY                           3430 X 1
+
+                                                                                                                                                                   CAW - CANOPY                           672 X 1
+
+                                                                                                                                                                   OPF - OPEN PORCH FINISHED              544 X 1
+
+                                                                                                                                                                   HAC - HEATING AND COOLING              133760 X 1
+
+[[page 2]]
+Outbuildings & Yard Items
+Building #                    Type                                                              Description                          Area/Units
+
+1                             ASP - ASPHALT PAVING                                              20                                     214,000
+
+1                             CNC - CONCRETE PAVING                                             12                                      26,000
+
+1                             CLF - CHAIN LINK FENCE                                            12                                      10,500
+
+1                             CLF - CHAIN LINK FENCE                                            12                                         560
+
+1                             LGT - LIGHTS                                                      20                                           1
+
+1                             LGT - LIGHTS                                                      20                                          14
+
+
+Sale Information
+Sale Date                        Price        Book     Page Vacant/Improved   Type Instrument                 Qualification
+
+12/13/2017                           $0       4673      606 V - VACANT        ES - EASEMENT                   -
+
+8/28/2014                            $0       4001      628 I - IMPROVED      QC - QUITCLAIM DEED             -
+
+8/7/2014                     $170,922         3983      425 V - VACANT        WD - WARRANTY DEED              -
+
+7/28/2014                            $0       3983      136 I - IMPROVED      QC - QUITCLAIM DEED             -
+
+5/14/2008                            $0       2962      808 V - VACANT        -                               -
+
+5/13/2008                   $3,615,848        2962      802 V - VACANT        WD - WARRANTY DEED              P - MULTIPLE PARCELS
+
+5/12/2008                   $1,452,332        2962      797 V - VACANT        WD - WARRANTY DEED              P - MULTIPLE PARCELS
+
+7/10/1987                            $0        541      517 V - VACANT        -                               -
+
+1/27/1976                            $0        361      627 V - VACANT        -                               -
+
+12/31/1975                           $0        360      571 V - VACANT        -                               -
+
+6/11/1957                            $0      WB12        21 V - VACANT        -                               -

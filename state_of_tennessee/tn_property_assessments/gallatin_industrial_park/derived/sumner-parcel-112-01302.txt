@@ -1,0 +1,72 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                             Current Owner                                    HARTSVILLE PIKE 1749
+                                                           INDUSTRIAL DEVELOPMENT BOARD OF THE CITY
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           C/O WOOLHAWK LLC ATTN: TAX                                                                               112                  013.02          000
+                                                           1601 WILLOW RD
+                                                           MENLO PARK CA 94025
+Value Information
+Land Market Value:                     $1,414,800
+Improvement Value:                             $0
+Total Market Appraisal:                $1,414,800
+Assessment Percentage:                        0%
+Assessment:                                    $0
+Subdivision Data
+Subdivision:
+GALLATIN IND
+Plat Book:                   Plat Page:                    Block:                         Lot:
+33                           366                                                          6
+Additional Information
+PB33 PG366 LT 6,GB #6317 FOR 2016 ANNEXED 2021 RES #R2006-31
+General Information
+Class: 02 - City                                           City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G01
+District: 02                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                    Type               Description                                          Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 53.35                Total Land Units: 53.35
+Land Code                                          Soil Class                                             Units
+
+70 - EXEMPT                                        A                                                      53.35
+
+[[page 2]]
+Sale Information
+Sale Date               Price   Book   Page Vacant/Improved   Type Instrument       Qualification
+
+8/27/2020                 $0    5362    506 I - IMPROVED      WD - WARRANTY DEED    P - MULTIPLE PARCELS
+
+5/14/2020                 $0    5218    830 I - IMPROVED      QC - QUITCLAIM DEED   -
+
+5/13/2020          $2,695,000   5218    821 I - IMPROVED      WD - WARRANTY DEED    -
+
+3/13/2020          $2,695,000   5218    821 I - IMPROVED      WD - WARRANTY DEED    -
+
+2/22/2017                 $0    4483    547 V - VACANT        ES - EASEMENT         -
+
+5/21/2015           $745,000    4118    371 V - VACANT        WD - WARRANTY DEED    A - ACCEPTED
+
+1/24/2012                 $0    3527    568 V - VACANT        -                     -
+
+1/24/2012                 $0    3527    564 V - VACANT        -                     -
+
+1/12/2012                 $0    3524     41 V - VACANT        -                     -
+
+11/5/2010                 $0    3351    112 V - VACANT        -                     -
+
+3/18/2010                 $0    3254    295 V - VACANT        -                     -
+
+9/29/2009                 $0    3195    787 V - VACANT        -                     -
+
+9/24/2009                 $0    3191    720 V - VACANT        -                     -
+
+9/3/2009                  $0    3184    121 V - VACANT        -                     -

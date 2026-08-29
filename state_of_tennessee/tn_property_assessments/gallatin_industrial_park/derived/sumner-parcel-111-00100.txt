@@ -1,0 +1,298 @@
+[[page 1]]
+                                                                              Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                                  Jan 1 Owner                                       Current Owner                                      GTN5 META LOOP 1
+                                                              INDUSTRIAL DEV BRD OF CITY OF GALLATIN
+Tax Year 2026 | Reappraisal 2024                                                                                                                                   Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                              C/O WOOLHAWK LLC ATTN: TAX                                                                           111                  001.00          000
+                                                              1601 WILLOW RD
+                                                              MENLO PARK CA 94025
+Value Information
+Land Market Value:                    $46,026,100
+Improvement Value:                   $473,163,700
+Total Market Appraisal:              $519,189,800
+Assessment Percentage:                        0%
+Assessment:                                    $0
+Subdivision Data
+Subdivision:
+GALLATIN IND REPLAT LOT 1
+Plat Book:              Plat Page:                        Block:                         Lot:
+34                      148-150                                                          1
+Additional Information
+PB33 PG366 LT1 SURVEYOR CORR 5847-137 GALLATIN IND. CENTER PH. 3 COMB PCL 112
+-12.03 W/THIS FOR GB# 6136 FOR 15
+General Information
+Class: 02 - City                                          City: GALLATIN
+City #: 278                                               Special Service District 2:
+Special Service District 1:                               Neighborhood: G40
+District: 02                                              Number of Mobile Homes:
+Number of Buildings: 5                                    Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC             Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Long OutBuilding & Yard Items list on subsequent pages
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 512.54              Total Land Units: 512.54
+Land Code                                        Soil Class                                            Units
+
+70 - EXEMPT                                                                                           512.54
+
+[[page 2]]
+Commercial Building #: 2                                                      Commercial Building #: 3
+Improvement Type:          Actual Year Built:                                 Improvement Type:          Actual Year Built:
+49 - EXCEPTIONAL           2023                                               49 - EXCEPTIONAL           2021
+Quality:                   Business Living Area:                              Quality:                   Business Living Area:
+1 - AVERAGE                981430                                             1 - AVERAGE                40824
+Foundation:                Floor System:                                      Foundation:                Floor System:
+Roof Framing:              Roof Cover/Deck:                                   Roof Framing:              Roof Cover/Deck:
+Cabinet/Millwork:          Floor Finish:                                      Cabinet/Millwork:          Floor Finish:
+Interior Finish:           Paint/Decor:                                       Interior Finish:           Paint/Decor:
+Bath Tiles:                Electrical:                                        Bath Tiles:                Electrical:
+Shape:                     Structural Frame:                                  Shape:                     Structural Frame:
+Heat and AC:               Plumbing Fixtures:                                 Heat and AC:               Plumbing Fixtures:
+Building Sketch            Interior/Exterior Areas                            Building Sketch            Interior/Exterior Areas
+                                                     Square                                                                   Square
+                           Type                      Feet     Exterior Wall                              Type                 Feet     Exterior Wall
+
+                           49 - EXCEPTIONAL          279,130 16 - PRECAST                                49 -                   40,824 19 - PREFIN METAL
+                                                             PANEL                                       EXCEPTIONAL                   CRIMPED
+
+                           49 - EXCEPTIONAL          181,140 16 - PRECAST
+                                                             PANEL                                       Commercial Features
+                                                                                                         Type                                    Units
+                           39 - EXCEPTIONAL            17,024 16 - PRECAST
+                                                              PANEL                                      CAN - CANOPY                            4860 X 1
+
+                           39 - EXCEPTIONAL            16,560 16 - PRECAST                               SPR - SPRINKLER SYSTEM                  40824 X 1
+                                                              PANEL
+                                                                                                         HAC - HEATING AND COOLING               40824 X 1
+                           SPN - Service               27,306 16 - PRECAST
+                           Production Area                    PANEL
+
+                           49 - EXCEPTIONAL          279,130 16 - PRECAST
+                                                              PANEL
+
+                           49 - EXCEPTIONAL          181,140 16 - PRECAST
+                                                              PANEL
+
+
+                           Commercial Features
+                           Type                                  Units
+
+                           SPR - SPRINKLER SYSTEM                279130 X 1
+
+                           HAC - HEATING AND COOLING             279130 X 1
+
+                           CAN - CANOPY                          1428 X 1
+
+                           SPR - SPRINKLER SYSTEM                27306 X 1
+
+                           HAC - HEATING AND COOLING             27306 X 1
+
+                           SPR - SPRINKLER SYSTEM                181140 X 1
+
+                           HAC - HEATING AND COOLING             181140 X 1
+
+                           CAN - CANOPY                          2240 X 1
+
+                           SPR - SPRINKLER SYSTEM                17024 X 1
+
+                           SPR - SPRINKLER SYSTEM                16560 X 1
+
+[[page 3]]
+Type                        Units
+
+FEL - FREIGHT ELEVATOR      162400 X 1
+
+PEL - PASSENGER ELEVATOR    194200 X 1
+
+SPR - SPRINKLER SYSTEM      279130 X 1
+
+HAC - HEATING AND COOLING   279130 X 1
+
+SPR - SPRINKLER SYSTEM      181140 X 1
+
+HAC - HEATING AND COOLING   181140 X 1
+
+[[page 4]]
+Commercial Building #: 4                                                    Commercial Building #: 5
+Improvement Type:          Actual Year Built:                               Improvement Type:          Actual Year Built:
+49 - EXCEPTIONAL           2021                                             39 - EXCEPTIONAL           2021
+Quality:                   Business Living Area:                            Quality:                   Business Living Area:
+1 - AVERAGE                51809                                            1 - AVERAGE                552
+Foundation:                Floor System:                                    Foundation:                Floor System:
+Roof Framing:              Roof Cover/Deck:                                 Roof Framing:              Roof Cover/Deck:
+Cabinet/Millwork:          Floor Finish:                                    Cabinet/Millwork:          Floor Finish:
+Interior Finish:           Paint/Decor:                                     Interior Finish:           Paint/Decor:
+Bath Tiles:                Electrical:                                      Bath Tiles:                Electrical:
+Shape:                     Structural Frame:                                Shape:                     Structural Frame:
+Heat and AC:               Plumbing Fixtures:                               Heat and AC:               Plumbing Fixtures:
+Building Sketch            Interior/Exterior Areas                          Building Sketch            Interior/Exterior Areas
+                                             Square                                                                       Square
+                           Type              Feet      Exterior Wall                                   Type               Feet       Exterior Wall
+
+                           49 -                 51,809 19 - PREFIN METAL                               39 -                      552 05 - SIDING ABOVE
+                           EXCEPTIONAL                 CRIMPED                                         EXCEPTIONAL                   AVG
+
+
+                           Commercial Features                                                         Commercial Features
+                           Type                                 Units                                  Type                                    Units
+
+                           SPR - SPRINKLER SYSTEM               51809 X 1                              CAN - CANOPY                            160 X 1
+
+                                                                                                       SPR - SPRINKLER SYSTEM                  552 X 1
+
+[[page 5]]
+Commercial Building #: 6
+Improvement Type:          Actual Year Built:
+49 - EXCEPTIONAL           2024
+Quality:                   Business Living Area:
+1 - AVERAGE                503498
+Foundation:                Floor System:
+Roof Framing:              Roof Cover/Deck:
+Cabinet/Millwork:          Floor Finish:
+Interior Finish:           Paint/Decor:
+Bath Tiles:                Electrical:
+Shape:                     Structural Frame:
+Heat and AC:               Plumbing Fixtures:
+Building Sketch            Interior/Exterior Areas
+                                                     Square
+                           Type                      Feet     Exterior Wall
+
+                           49 - EXCEPTIONAL          279,410 16 - PRECAST
+                                                             PANEL
+
+                           49 - EXCEPTIONAL          181,140 16 - PRECAST
+                                                              PANEL
+
+                           SPN - Service               27,306 16 - PRECAST
+                           Production Area                    PANEL
+
+                           39 - EXCEPTIONAL            15,642 16 - PRECAST
+                                                              PANEL
+
+
+                           Commercial Features
+                           Type                                  Units
+
+                           SPR - SPRINKLER SYSTEM                279410 X 1
+
+                           HAC - HEATING AND COOLING             279410 X 1
+
+                           SPR - SPRINKLER SYSTEM                181140 X 1
+
+                           HAC - HEATING AND COOLING             181140 X 1
+
+                           SPR - SPRINKLER SYSTEM                27306 X 1
+
+                           HAC - HEATING AND COOLING             27306 X 1
+
+                           SPR - SPRINKLER SYSTEM                15642 X 1
+
+                           FEL - FREIGHT ELEVATOR                162400 X 1
+
+[[page 6]]
+Outbuildings & Yard Items
+Building #             Type                                   Description          Area/Units
+
+2                      CNC - CONCRETE PAVING                                          59,000
+
+2                      CNC - CONCRETE PAVING                                          29,000
+
+2                      ASP - ASPHALT PAVING                                          870,000
+
+2                      UTB - UTILITY BUILDING                                          1,200
+
+2                      UTB - UTILITY BUILDING                                            588
+
+2                      UTB - UTILITY BUILDING                                            351
+
+2                      TNK - TANK - FERTILIZER/CHEMICAL/ETC                          130,000
+
+2                      CLF - CHAIN LINK FENCE                                          1,427
+
+2                      CLF - CHAIN LINK FENCE                                          3,168
+
+2                      CNC - CONCRETE PAVING                                         169,300
+
+2                      CNC - CONCRETE PAVING                                          92,800
+
+2                      CNC - CONCRETE PAVING                                         331,190
+
+2                      UTB - UTILITY BUILDING                                            588
+
+2                      UTB - UTILITY BUILDING                                          1,200
+
+2                      TNK - TANK - FERTILIZER/CHEMICAL/ETC                          130,000
+
+2                      CLF - CHAIN LINK FENCE                                          1,427
+
+2                      LGT - LIGHTS                           159 POLES, 1 LIGHT         159
+
+2                      LGT - LIGHTS                           22 POLES, 2 LIGHT           22
+
+3                      LGT - LIGHTS                           6 POLES, 1 LIGHT             6
+
+4                      CNC - CONCRETE PAVING                                          50,000
+
+4                      CNC - CONCRETE PAVING                                          36,000
+
+4                      LGT - LIGHTS                           25 POLES, 1 LIGHT           25
+
+4                      MLF - METAL FENCE                                               2,000
+
+6                      CNC - CONCRETE PAVING                                          30,600
+
+6                      CNC - CONCRETE PAVING                                          33,669
+
+6                      CNC - CONCRETE PAVING                                          61,500
+
+6                      CLF - CHAIN LINK FENCE                                          1,427
+
+6                      CLF - CHAIN LINK FENCE                                            775
+
+6                      TNK - TANK - FERTILIZER/CHEMICAL/ETC                          130,000
+
+6                      UTB - UTILITY BUILDING                                          1,200
+
+6                      UTB - UTILITY BUILDING                                            588
+
+[[page 7]]
+Building #         Type                                                                     Description                                Area/Units
+
+6                  LGT - LIGHTS                                                             54 POLES, 1 LIGHT                                 54
+
+6                  LGT - LIGHTS                                                             10 POLES, 2 LIGHT                                 10
+
+6                  CNC - CONCRETE PAVING                                                                                                 120,600
+
+6                  CLF - CHAIN LINK FENCE                                                                                                  2,900
+
+
+Sale Information
+Sale Date                         Price     Book   Page Vacant/Improved   Type Instrument                       Qualification
+
+10/2/2020                           $0      5362    506 I - IMPROVED      QC - QUITCLAIM DEED                   -
+
+8/27/2020                           $0      5362    506 I - IMPROVED      WD - WARRANTY DEED                    P - MULTIPLE PARCELS
+
+5/18/2020                 $8,268,000        5218    424 I - IMPROVED      -                                     L - LIMITED
+
+8/6/2003                            $0      1811    783 V - VACANT        -                                     -
+
+2/13/2001                           $0      1226    553 V - VACANT        -                                     -
+
+10/16/2000                 $400,000         1168    298 I - IMPROVED      WD - WARRANTY DEED                    N - NON-ARM'S LENGTH
+
+12/31/1995                 $286,000          584    591 I - IMPROVED      WD - WARRANTY DEED                    B - FAMILY SALE
+
+7/10/1987                           $0       541    513 V - VACANT        -                                     -
+
+1/27/1976                           $0       361    627 V - VACANT        -                                     -
+
+12/31/1975                          $0       360    571 V - VACANT        -                                     -
+
+6/11/1957                           $0      WB12     21 V - VACANT        -                                     -
+
+11/20/1907                          $0        58    468 V - VACANT        -                                     -

@@ -1,0 +1,89 @@
+[[page 1]]
+                                                                             Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                             Jan 1 Owner                                           Current Owner                                      SMALL STREET 600
+                                                         GALLATIN SHALOM ZONE INC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                  Ctrl Map:   Group:       Parcel:       PI:         SI:
+                                                         600 SMALL STREET                                                                                         113O        H            032.00                    000
+                                                         GALLATIN TN 37066-1435
+Value Information                                                                                              Commercial Building #: 1
+Land Market Value:                       $246,400                                                              Improvement Type:                                  Actual Year Built:
+Improvement Value:                       $803,100                                                              25 - RESTAURANT                                    1950
+Total Market Appraisal:                $1,049,500                                                              Quality:                                           Business Living Area:
+Assessment Percentage:                        0%                                                               1 - AVERAGE                                        1574
+Assessment:                                    $0                                                              Foundation:                                        Floor System:
+Additional Information                                                                                         03 - SPREAD FOOTING                                01 - SLAB ON GRADE
+General Information                                                                                            Roof Framing:                                      Roof Cover/Deck:
+Class: 06 - Ed/Sci/Charitable                            City: GALLATIN                                        06 - STEEL TRUSS/PURLINS                           11 - BUILT-UP/METAL GYPSUM
+City #: 278                                              Special Service District 2:                           Cabinet/Millwork:                                  Floor Finish:
+Special Service District 1:                              Neighborhood: G99                                     03 - AVERAGE                                       04 - ASPHALT TILE
+District: 03                                             Number of Mobile Homes:                               Interior Finish:                                   Paint/Decor:
+Number of Buildings: 2                                   Utilities - Electricity: 01 - PUBLIC                  06 - MASONRY                                       03 - AVERAGE
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC            Zoning:                                               Bath Tiles:                                        Electrical:
+Utilities - Gas/Gas Type: 00 - NONE                                                                            01 - FLOOR ONLY                                    03 - AVERAGE
+Outbuildings & Yard Items                                                                                      Shape:                                             Structural Frame:
+                                                                                                               Heat and AC:                                       02 - MASONRY PIL/STL
+Building #          Type                                            Description                   Area/Units   00 - NONE                                          Plumbing Fixtures:
+                                                                                                                                                                  4
+1                   SPR - SPRINKLER SYSTEM                          22                                1,574
+                                                                                                               Building Sketch                                    Interior/Exterior Areas
+1                   SPR - SPRINKLER SYSTEM                          22                                9,597
+                                                                                                                                                                                       Square
+                                                                                                                                                                   Type                Feet          Exterior Wall
+Sale Information                                                                                                                                                   25 -                    1,574 11 - COMMON
+Long Sale Information list on subsequent pages                                                                                                                     RESTAURANT                    BRICK
+Land Information
+Deed Acres: 0                        Calculated Acres: 6.2                Total Land Units: 6.2                                                                   Commercial Features
+Land Code                                        Soil Class                                           Units                                                        Type                                        Units
+
+70 - EXEMPT                                                                                             6.20                                                       OPF - OPEN PORCH FINISHED                   84 X 1
+
+70 - EXEMPT                                                                                             0.00
+
+[[page 2]]
+Commercial Building #: 2
+Improvement Type:          Actual Year Built:
+27 - THEATER               1950
+Quality:                   Business Living Area:
+1 - AVERAGE                9597
+Foundation:                Floor System:
+03 - SPREAD FOOTING        01 - SLAB ON GRADE
+Roof Framing:              Roof Cover/Deck:
+06 - STEEL TRUSS/PURLINS   11 - BUILT-UP/METAL GYPSUM
+Cabinet/Millwork:          Floor Finish:
+03 - AVERAGE               01 - CONCRETE FINISH
+Interior Finish:           Paint/Decor:
+06 - MASONRY               03 - AVERAGE
+Bath Tiles:                Electrical:
+01 - FLOOR ONLY            03 - AVERAGE
+Shape:                     Structural Frame:
+Heat and AC:               02 - MASONRY PIL/STL
+01 - UNIT HEATER           Plumbing Fixtures:
+                           10
+Building Sketch            Interior/Exterior Areas
+                                           Square
+                           Type            Feet           Exterior Wall
+
+                           27 -                      9,597 11 - COMMON
+                           THEATER                        BRICK
+
+
+                           Commercial Features
+                           Type                                           Units
+
+                           OPU - OPEN PORCH UNFINISHED                    35 X 1
+
+[[page 3]]
+Sale Information
+Sale Date          Price   Book    Page Vacant/Improved   Type Instrument   Qualification
+
+11/5/2007            $0     2862    315 V - VACANT        -                 -
+
+10/29/2007           $0     2860    133 V - VACANT        -                 -
+
+10/28/2007           $0     2860    131 V - VACANT        -                 -
+
+6/21/2007            $0     2855    668 V - VACANT        -                 -
+
+10/19/2004           $0     2122    534 V - VACANT        -                 -
+
+7/17/1948            $0    00139   00394 V - VACANT       -                 -

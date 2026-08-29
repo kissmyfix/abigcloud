@@ -1,0 +1,91 @@
+[[page 1]]
+                                                                              Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                              Jan 1 Owner                                                   Current Owner                              GATEWAY DRIVE 1356
+                                                          LTT REALTY LLC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                   Ctrl Map:     Group:      Parcel:    PI:      SI:
+                                                          161 MAULE ROAD                                                                                           112                       016.06              000
+                                                          TIFFIN OH 44883
+Value Information                                                                                                       Commercial Building #: 1
+Land Market Value:                     $1,044,000                                                                       Improvement Type:                          Actual Year Built:
+Improvement Value:                     $2,381,900                                                                       44 - LIGHT MFG                             1998
+Total Market Appraisal:                $3,425,900                                                                       Quality:                                   Business Living Area:
+Assessment Percentage:                       40%                                                                        1 - AVERAGE                                40000
+Assessment:                            $1,370,360                                                                       Foundation:                                Floor System:
+Subdivision Data                                                                                                        03 - SPREAD FOOTING                        01 - SLAB ON GRADE
+Subdivision:                                                                                                            Roof Framing:                              Roof Cover/Deck:
+GALLATIN IND CENTER                                                                                                     06 - STEEL TRUSS/PURLINS                   13 - PREFIN METAL CRIMPED
+Plat Book:                   Plat Page:                   Block:                         Lot:                           Cabinet/Millwork:                          Floor Finish:
+17                           31                                                          11                             03 - AVERAGE                               01 - CONCRETE FINISH
+Additional Information                                                                                                  Interior Finish:                           Paint/Decor:
+PLAT: 17 PAGE: 31 BLOCK: LOT: 11 SUBD: GALLATIN IND CENTER                                                              00 - NONE                                  03 - AVERAGE
+General Information                                                                                                     Bath Tiles:                                Electrical:
+Class: 09 - Industrial                                    City: GALLATIN                                                00 - NONE                                  03 - AVERAGE
+City #: 278                                               Special Service District 2:                                   Shape:                                     Structural Frame:
+Special Service District 1:                               Neighborhood: G40                                             Heat and AC:                               02 - MASONRY PIL/STL
+District: 02                                              Number of Mobile Homes:                                       01 - UNIT HEATER                           Plumbing Fixtures:
+Number of Buildings: 3                                    Utilities - Electricity: 01 - PUBLIC                                                                     11
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC             Zoning:                                                       Building Sketch                            Interior/Exterior Areas
+Utilities - Gas/Gas Type: 00 - NONE                                                                                                                                                   Square
+Outbuildings & Yard Items                                                                                                                                           Type              Feet       Exterior Wall
+Long OutBuilding & Yard Items list on subsequent pages                                                                                                              44 - LIGHT            39,000 19 - PREFIN METAL
+Sale Information                                                                                                                                                    MFG                          CRIMPED
+
+Sale Date         Price   Book    Page Vacant/Improved           Type Instrument                 Qualification                                                      OFA - Office -         1,000 19 - PREFIN METAL
+                                                                                                                                                                    Average                      CRIMPED
+10/17/2019           $0    5057      20 I - IMPROVED             -                               L - LIMITED
+
+3/18/1998       $67,500     796      89 V - VACANT               WD - WARRANTY DEED              A - ACCEPTED
+                                                                                                                                                                   Commercial Features
+                                                                                                                                                                    Type                       Units
+Land Information
+Deed Acres: 0                       Calculated Acres: 8.81                 Total Land Units: 8.81
+Land Code                                           Soil Class                                                 Units
+
+16 - IND PARK                                                                                                    8.81
+
+[[page 2]]
+Commercial Building #: 2                                                   Commercial Building #: 3
+Improvement Type:          Actual Year Built:                              Improvement Type:          Actual Year Built:
+44 - LIGHT MFG             2004                                            40 - WAREHOUSE             2010
+Quality:                   Business Living Area:                           Quality:                   Business Living Area:
+1 - AVERAGE                20000                                           1 - AVERAGE                20000
+Foundation:                Floor System:                                   Foundation:                Floor System:
+03 - SPREAD FOOTING        01 - SLAB ON GRADE                              03 - SPREAD FOOTING        01 - SLAB ON GRADE
+Roof Framing:              Roof Cover/Deck:                                Roof Framing:              Roof Cover/Deck:
+06 - STEEL TRUSS/PURLINS   00 - CORRUGATED METAL                           06 - STEEL TRUSS/PURLINS   13 - PREFIN METAL CRIMPED
+Cabinet/Millwork:          Floor Finish:                                   Cabinet/Millwork:          Floor Finish:
+03 - AVERAGE               01 - CONCRETE FINISH                            03 - AVERAGE               01 - CONCRETE FINISH
+Interior Finish:           Paint/Decor:                                    Interior Finish:           Paint/Decor:
+00 - NONE                  03 - AVERAGE                                    00 - NONE                  03 - AVERAGE
+Bath Tiles:                Electrical:                                     Bath Tiles:                Electrical:
+00 - NONE                  03 - AVERAGE                                    00 - NONE                  03 - AVERAGE
+Shape:                     Structural Frame:                               Shape:                     Structural Frame:
+Heat and AC:               02 - MASONRY PIL/STL                            Heat and AC:               02 - MASONRY PIL/STL
+01 - UNIT HEATER           Plumbing Fixtures:                              01 - UNIT HEATER           Plumbing Fixtures:
+                           0                                                                          0
+Building Sketch            Interior/Exterior Areas                         Building Sketch            Interior/Exterior Areas
+                                           Square                                                                     Square
+                           Type            Feet        Exterior Wall                                  Type            Feet        Exterior Wall
+
+                           44 - LIGHT           20,000 19 - PREFIN METAL                              40 -                 20,000 19 - PREFIN METAL
+                           MFG                         CRIMPED                                        WAREHOUSE                   CRIMPED
+
+
+                           Commercial Features                                                        Commercial Features
+                           Type                       Units                                           Type                             Units
+
+                                                                                                      CAW - CANOPY                     7500 X 1
+
+[[page 3]]
+Outbuildings & Yard Items
+Building #                  Type                    Description   Area/Units
+
+1                           ASP - ASPHALT PAVING    65               14,800
+
+1                           LDK - LOADING DOCK      42                1,000
+
+1                           CNC - CONCRETE PAVING   45               24,000
+
+1                           ASP - ASPHALT PAVING    90               12,000
+
+1                           LDK - LOADING DOCK      42                2,000

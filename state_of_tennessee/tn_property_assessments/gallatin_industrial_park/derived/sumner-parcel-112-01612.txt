@@ -1,0 +1,84 @@
+[[page 1]]
+                                                                             Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                             Jan 1 Owner                                           Current Owner                                      AIRPORT ROAD 255
+                                                         SUMNER COUNTY TENNESSEE
+Tax Year 2026 | Reappraisal 2024                                                                                                                                  Ctrl Map:   Group:       Parcel:    PI:     SI:
+                                                         355 NORTH BELVEDERE DRIVE                                                                                112                      016.12             000
+                                                         GALLATIN TN 37066
+Value Information                                                                                              Commercial Building #: 1
+Land Market Value:                       $498,800                                                              Improvement Type:                                  Actual Year Built:
+Improvement Value:                     $2,158,600                                                              40 - WAREHOUSE                                     2005
+Total Market Appraisal:                $2,657,400                                                              Quality:                                           Business Living Area:
+Assessment Percentage:                        0%                                                               1 - AVERAGE                                        59500
+Assessment:                                    $0                                                              Foundation:                                        Floor System:
+Subdivision Data                                                                                               03 - SPREAD FOOTING                                01 - SLAB ON GRADE
+Subdivision:                                                                                                   Roof Framing:                                      Roof Cover/Deck:
+INDUSTRIAL PARK FOR HODGES & SUMNER CO                                                                         05 - BAR JOIST/RIGID FRAME                         13 - PREFIN METAL CRIMPED
+Plat Book:             Plat Page:                        Block:                         Lot:                   Cabinet/Millwork:                                  Floor Finish:
+27                     289                                                              1                      03 - AVERAGE                                       01 - CONCRETE FINISH
+Additional Information                                                                                         Interior Finish:                                   Paint/Decor:
+P.B.27 PG.289-290 LT.1,PO12 SUBD: GALLATIN IND                                                                 01 - UNFINISHED                                    03 - AVERAGE
+General Information                                                                                            Bath Tiles:                                        Electrical:
+Class: 01 - County                                       City: GALLATIN                                        00 - NONE                                          03 - AVERAGE
+City #: 278                                              Special Service District 2:                           Shape:                                             Structural Frame:
+Special Service District 1:                              Neighborhood: G40                                     Heat and AC:                                       02 - MASONRY PIL/STL
+District: 02                                             Number of Mobile Homes:                               01 - UNIT HEATER                                   Plumbing Fixtures:
+Number of Buildings: 1                                   Utilities - Electricity: 01 - PUBLIC                                                                     12
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC            Zoning:                                               Building Sketch                                    Interior/Exterior Areas
+Utilities - Gas/Gas Type: 00 - NONE                                                                                                                                              Square
+Outbuildings & Yard Items                                                                                                                                          Type          Feet         Exterior Wall
+Long OutBuilding & Yard Items list on subsequent pages                                                                                                             40 -                30,000 19 - PREFIN METAL
+Sale Information                                                                                                                                                   WAREHOUSE                  CRIMPED
+Long Sale Information list on subsequent pages
+                                                                                                                                                                   40 -                29,500 19 - PREFIN METAL
+Land Information                                                                                                                                                   WAREHOUSE                  CRIMPED
+Deed Acres: 0                        Calculated Acres: 8.82               Total Land Units: 8.82
+Land Code                                        Soil Class                                          Units                                                        Commercial Features
+
+70 - EXEMPT                                                                                           8.82                                                         Type                     Units
+
+70 - EXEMPT                                                                                           0.00
+
+[[page 2]]
+Outbuildings & Yard Items
+Building #                      Type                                                                         Description                             Area/Units
+
+1                               ASP - ASPHALT PAVING                                                         70                                         90,600
+
+1                               LGT - LIGHTS                                                                 70                                              7
+
+1                               LGT - LIGHTS                                                                 70                                              2
+
+1                               CNC - CONCRETE PAVING                                                        42                                          6,500
+
+1                               MSN - MASONRY WALL                                                           28                                          1,300
+
+1                               SPR - SPRINKLER SYSTEM                                                       28                                         75,000
+
+1                               PEL - PASSENGER ELEVATOR                                                     35                                              2
+
+1                               HAC - HEATING AND COOLING                                                    22                                         15,000
+
+1                               CNC - CONCRETE PAVING                                                        1                                           2,500
+
+1                               CNC - CONCRETE PAVING                                                        1                                          19,000
+
+1                               WDK - WOOD DECK                                                              1                                             275
+
+1                               UTB - UTILITY BUILDING                                                       1                                             320
+
+
+Sale Information
+Sale Date                      Price      Book           Page Vacant/Improved   Type Instrument                            Qualification
+
+6/1/2015                         $0        4124           724 I - IMPROVED      SC - SCRIVENER'S AFFIDAVIT                 -
+
+3/11/2013                   $100,000       3746           454 V - VACANT        -                                          -
+
+12/13/2012                       $0        3690           349 I - IMPROVED      QC - QUITCLAIM DEED                        -
+
+1/14/2005                   $764,550       2171           607 I - IMPROVED      WD - WARRANTY DEED                         M - PHYSICAL DIFFERENCE
+
+12/10/2004                       $0        2171           604 V - VACANT        -                                          -
+
+5/31/2002                        $0        1488           244 V - VACANT        -                                          -

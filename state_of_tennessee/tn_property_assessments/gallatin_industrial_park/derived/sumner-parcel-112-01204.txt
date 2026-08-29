@@ -1,0 +1,48 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                             Current Owner                                    GATEWAY DRIVE 1386
+                                                           GALLATIN DATA CENTERS LLC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           3100 OLYMPUS BLVD STE 510                                                                                112                  012.04          000
+                                                           COPPELL TX 75019
+Value Information
+Land Market Value:                     $1,313,200
+Improvement Value:                             $0
+Total Market Appraisal:                $1,313,200
+Assessment Percentage:                       40%
+Assessment:                              $525,280
+Subdivision Data
+Subdivision:
+Plat Book:                   Plat Page:                    Block:                         Lot:
+31                                                         227                            1
+Additional Information
+PB31 PG227 LOT1 PB28 PG325 LT 6 RESUB ,PB28 PG193-194 LT6
+General Information
+Class: 09 - Industrial                                     City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G40
+District:                                                  Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                    Type               Description                                          Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 32.83                Total Land Units: 32.83
+Land Code                                               Soil Class                                        Units
+
+15 - INDUSTRIAL                                                                                           32.83
+
+[[page 2]]
+Sale Information
+Sale Date               Price   Book   Page Vacant/Improved   Type Instrument      Qualification
+
+6/14/2022          $1,231,425   5984    342 V - VACANT        WD - WARRANTY DEED   A - ACCEPTED
+
+8/7/2014            $170,922    3983    425 V - VACANT        WD - WARRANTY DEED   -
+
+11/13/2008                $0    3043    249 V - VACANT        -                    -

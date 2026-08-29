@@ -1,0 +1,85 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                           Current Owner                                      GATEWAY DRIVE 1330
+                                                           1330 GATEWAY DRIVE F6 LLC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:     Parcel:    PI:       SI:
+                                                           8381 WESTVIEW DR, SUITE 200                                                                              112                    016.04               000
+                                                           HOUSTON TX 77055
+Value Information                                                                                                Commercial Building #: 1
+Land Market Value:                       $741,600                                                                Improvement Type:                                  Actual Year Built:
+Improvement Value:                       $753,200                                                                34 - OFFICE CLASS "S"                              1996
+Total Market Appraisal:                $1,494,800                                                                Quality:                                           Business Living Area:
+Assessment Percentage:                       40%                                                                 1 - AVERAGE                                        4752
+Assessment:                              $597,920                                                                Foundation:                                        Floor System:
+Additional Information                                                                                           03 - SPREAD FOOTING                                01 - SLAB ON GRADE
+General Information                                                                                              Roof Framing:                                      Roof Cover/Deck:
+Class: 09 - Industrial                                     City: GALLATIN                                        05 - BAR JOIST/RIGID FRAME                         13 - PREFIN METAL CRIMPED
+City #: 278                                                Special Service District 2:                           Cabinet/Millwork:                                  Floor Finish:
+Special Service District 1:                                Neighborhood: G40                                     03 - AVERAGE                                       11 - CARPET COMBINATION
+District: 02                                               Number of Mobile Homes:                               Interior Finish:                                   Paint/Decor:
+Number of Buildings: 2                                     Utilities - Electricity: 01 - PUBLIC                  07 - DRYWALL                                       03 - AVERAGE
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:                                               Bath Tiles:                                        Electrical:
+Utilities - Gas/Gas Type: 00 - NONE                                                                              00 - NONE                                          03 - AVERAGE
+Outbuildings & Yard Items                                                                                        Shape:                                             Structural Frame:
+                                                                                                                 Heat and AC:                                       05 - RIGID FRAME
+Building #           Type                                            Description                  Area/Units     08 - HVAC PKG                                      Plumbing Fixtures:
+                                                                                                                                                                    5
+1                    ASP - ASPHALT PAVING                            90                                8,700
+                                                                                                                 Building Sketch                                    Interior/Exterior Areas
+1                    CNC - CONCRETE PAVING                           57                                3,200
+                                                                                                                                                                                     Square
+                                                                                                                                                                     Type            Feet       Exterior Wall
+Sale Information                                                                                                                                                     34 - OFFICE          4,752 19 - PREFIN METAL
+Long Sale Information list on subsequent pages                                                                                                                       CLASS "S"                  CRIMPED
+Land Information
+Deed Acres: 0                        Calculated Acres: 6                    Total Land Units: 6                                                                     Commercial Features
+Land Code                                           Soil Class                                         Units                                                         Type                            Units
+
+16 - IND PARK                                                                                           6.00                                                         CAN - CANOPY                    344 X 1
+
+[[page 2]]
+Commercial Building #: 2
+Improvement Type:          Actual Year Built:
+41 - GARAGE                2000
+Quality:                   Business Living Area:
+1 - AVERAGE                13340
+Foundation:                Floor System:
+03 - SPREAD FOOTING        02 - SLAB ABOVE GRADE
+Roof Framing:              Roof Cover/Deck:
+06 - STEEL TRUSS/PURLINS   13 - PREFIN METAL CRIMPED
+Cabinet/Millwork:          Floor Finish:
+03 - AVERAGE               01 - CONCRETE FINISH
+Interior Finish:           Paint/Decor:
+00 - NONE                  03 - AVERAGE
+Bath Tiles:                Electrical:
+00 - NONE                  03 - AVERAGE
+Shape:                     Structural Frame:
+Heat and AC:               05 - RIGID FRAME
+01 - UNIT HEATER           Plumbing Fixtures:
+                           4
+Building Sketch            Interior/Exterior Areas
+                                        Square
+                           Type         Feet         Exterior Wall
+
+                           41 -             13,340 19 - PREFIN METAL
+                           GARAGE                    CRIMPED
+
+
+                           Commercial Features
+                           Type                             Units
+
+                           CAW - CANOPY                     1600 X 1
+
+[[page 3]]
+Sale Information
+Sale Date               Price   Book   Page Vacant/Improved   Type Instrument      Qualification
+
+8/30/2023          $3,400,000   6227    783 I - IMPROVED      WD - WARRANTY DEED   A - ACCEPTED
+
+3/14/2000           $410,000    1090    556 I - IMPROVED      WD - WARRANTY DEED   R - PERSONAL PROPERTY
+
+10/24/1995           $12,000     538    675 V - VACANT        WD - WARRANTY DEED   A - ACCEPTED
+
+8/31/1995                 $0     534    789 V - VACANT        -                    -
+
+1/29/1992                 $0     231    451 V - VACANT        -                    -

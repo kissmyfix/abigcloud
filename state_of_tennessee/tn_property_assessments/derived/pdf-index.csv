@@ -1,9 +1,19 @@
 text_file,source,kind,pages,chars,chars_per_page,raster_share,trust,producer
+sumner-assessment-600-small-st-1.txt,sumner-assessment-600-small-st-1.pdf,DIGITAL,3,8101,2700,0.0,extraction authoritative,Skia/PDF m106
+sumner-assessment-600-small-st-2.txt,sumner-assessment-600-small-st-2.pdf,DIGITAL,4,13461,3365,0.0,extraction authoritative,Skia/PDF m106
 sumner-assessment-beretta.txt,sumner-assessment-beretta.pdf,DIGITAL,2,9974,4987,0.0,extraction authoritative,Skia/PDF m106
 sumner-assessment-bradford-confirmed.txt,sumner-assessment-bradford-confirmed.pdf,DIGITAL,2,8984,4492,0.0,extraction authoritative,cairo 1.18.0 (https://cairographics.org)
 sumner-assessment-bradford.txt,sumner-assessment-bradford.pdf,DIGITAL,2,7544,3772,0.0,extraction authoritative,Skia/PDF m106
+sumner-assessment-carson-st.txt,sumner-assessment-carson-st.pdf,DIGITAL,1,2699,2699,0.0,extraction authoritative,Skia/PDF m106
 sumner-assessment-daycare-108-southpark.txt,sumner-assessment-daycare-108-southpark.pdf,DIGITAL,2,7461,3730,0.0,extraction authoritative,Skia/PDF m106
 sumner-assessment-daycare-112-southpark.txt,sumner-assessment-daycare-112-southpark.pdf,DIGITAL,2,7158,3579,0.0,extraction authoritative,Skia/PDF m106
 sumner-assessment-tva.txt,sumner-assessment-tva.pdf,DIGITAL,2,3935,1967,0.0,extraction authoritative,Skia/PDF m106
+sumner-assessment-woolhawk-hartsville-pike.txt,sumner-assessment-woolhawk-hartsville-pike.pdf,DIGITAL,2,3510,1755,0.0,extraction authoritative,Skia/PDF m106
 sumner-assessment-woolhawk.txt,sumner-assessment-woolhawk.pdf,DIGITAL,7,17415,2487,0.0,extraction authoritative,Skia/PDF m106
+sumner-parcel-112k-b-00401.txt,sumner-parcel-112k-b-00401.pdf,DIGITAL,2,3718,1859,0.0,extraction authoritative,Skia/PDF m106
+sumner-parcel-113j-a-01100.txt,sumner-parcel-113j-a-01100.pdf,DIGITAL,1,2699,2699,0.0,extraction authoritative,Skia/PDF m106
+sumner-parcel-113o-h-03200.txt,sumner-parcel-113o-h-03200.pdf,DIGITAL,4,13461,3365,0.0,extraction authoritative,Skia/PDF m106
+sumner-parcel-125e-a-01000.txt,sumner-parcel-125e-a-01000.pdf,DIGITAL,2,8053,4026,0.0,extraction authoritative,Skia/PDF m106
+sumner-parcel-135m-a-01200.txt,sumner-parcel-135m-a-01200.pdf,DIGITAL,2,7137,3568,0.0,extraction authoritative,Skia/PDF m106
+sumner-parcel-135m-a-01300.txt,sumner-parcel-135m-a-01300.pdf,DIGITAL,2,7440,3720,0.0,extraction authoritative,Skia/PDF m106
 unknown-assessment.txt,unknown-assessment.pdf,DIGITAL,2,7544,3772,0.0,extraction authoritative,Skia/PDF m106

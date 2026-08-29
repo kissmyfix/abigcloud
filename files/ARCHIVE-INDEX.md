@@ -10,15 +10,15 @@ publishing new citations; do not hand-edit this file.
 Companion to `files/DATA_MAP.md`, which tells you where things live. This tells you
 what they are for.
 
-Built 2026-08-24 · 202 documents
+Built 2026-08-29 · 378 documents
 
 | Class | Count | Meaning |
 |---|---:|---|
 | CITED | 34 | A published page cites it. The evidence of record. |
-| WORKING | 10 | Named in `memory/`, not yet on the site. |
+| WORKING | 14 | Named in `memory/`, not yet on the site. |
 | BASELINE | 10 | Comparison jurisdiction. Never cited, still doing work. |
-| CORE-UNCITED | 106 | Core subject matter nothing has used yet. |
-| SPECULATIVE | 42 | Acquired in case. Largely unassessed. |
+| CORE-UNCITED | 274 | Core subject matter nothing has used yet. |
+| SPECULATIVE | 46 | Acquired in case. Largely unassessed. |
 
 **Derived extractions are excluded.** Everything under a `derived/` directory is
 machine output, regenerable, and never cited by rule. Its index is the `pdf-index.csv`
@@ -91,10 +91,14 @@ is currently reasoning from. The shortest path from here to a published claim.
 - `state_of_tennessee/tn_comptroller_pilot_reports/sumner_county/2015-pilot-sumner.pdf`
 - `state_of_tennessee/tn_comptroller_pilot_reports/tn_comptroller_archived/2018-pilot.pdf`
 - `state_of_tennessee/tn_comptroller_pilot_reports/tn_comptroller_archived/2021-pilot.pdf`
+- `state_of_tennessee/tn_property_assessments/sumner-assessment-600-small-st-1.pdf`
+- `state_of_tennessee/tn_property_assessments/sumner-assessment-woolhawk-hartsville-pike.pdf`
+- `sumner_county/600_small_street/inbox/parcels/sumner-assessment-600-small-st-1.pdf`
 - `sumner_county/gallatin_council_meetings/2019-gallatin-annual-financial-report.pdf`
 - `sumner_county/gallatin_council_meetings/2020-09-15-city-council-agenda.pdf`
 - `sumner_county/gallatin_council_meetings/2024-06-21-geda-bates-executive-director.txt`
 - `sumner_county/gallatin_council_meetings/2024-10-31-gallatin-city-hall-space-needs-assessment.pdf`
+- `sumner_county/gallatin_electric_utility/rates/2023-june.pdf`
 - `web_articles/geda-newsroom-kuropatwa-existing-industries-coordinator.txt`
 
 ---
@@ -199,17 +203,484 @@ document nobody has opened is a document nobody has been troubled by.
   - 2020-pilot.pdf
   - 2022-pilot.pdf
 
-**`state_of_tennessee/tn_property_assessments/`** — 6
+**`state_of_tennessee/tn_property_assessments/`** — 56
+  - classification_index/2026-08-29-sumner-class-agricultural.csv
+  - classification_index/2026-08-29-sumner-class-city.csv
+  - classification_index/2026-08-29-sumner-class-commercial.csv
+  - classification_index/2026-08-29-sumner-class-county.csv
+  - classification_index/2026-08-29-sumner-class-edu-sci-char.csv
+  - classification_index/2026-08-29-sumner-class-farm.csv
+  - classification_index/2026-08-29-sumner-class-federal.csv
+  - classification_index/2026-08-29-sumner-class-industrial.csv
+  - classification_index/2026-08-29-sumner-class-other-exempt.csv
+  - classification_index/2026-08-29-sumner-class-religious.csv
+  - classification_index/2026-08-29-sumner-class-residential.csv
+  - classification_index/2026-08-29-sumner-class-state-assessed.csv
+  - classification_index/2026-08-29-sumner-class-state.csv
+  - gallatin_industrial_park/sumner-parcel-105-04500.pdf
+  - gallatin_industrial_park/sumner-parcel-105-04600.pdf
+  - gallatin_industrial_park/sumner-parcel-105-04601.pdf
+  - gallatin_industrial_park/sumner-parcel-106-03500.pdf
+  - gallatin_industrial_park/sumner-parcel-111-00100.pdf
+  - gallatin_industrial_park/sumner-parcel-111-00101.pdf
+  - gallatin_industrial_park/sumner-parcel-111-00102.pdf
+  - gallatin_industrial_park/sumner-parcel-111-00200.pdf
+  - gallatin_industrial_park/sumner-parcel-111-02001.pdf
+  - gallatin_industrial_park/sumner-parcel-111-02400.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01200.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01201.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01202.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01204.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01206.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01207.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01302.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01604.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01606.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01607.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01610.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01611.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01612.pdf
+  - gallatin_industrial_park/sumner-parcel-112-01800.pdf
+  - gallatin_industrial_park/sumner-parcel-112-10300.pdf
+  - gallatin_industrial_park/sumner-parcel-112-11000.pdf
+  - gallatin_industrial_park/sumner-parcel-112-11900.pdf
+  - gallatin_industrial_park/sumner-parcel-112-12000.pdf
+  - gallatin_industrial_park/sumner-parcel-112-12100.pdf
+  - sumner-assessment-600-small-st-2.pdf
   - sumner-assessment-bradford-confirmed.pdf
   - sumner-assessment-bradford.pdf
+  - sumner-assessment-carson-st.pdf
   - sumner-assessment-daycare-108-southpark.pdf
   - sumner-assessment-daycare-112-southpark.pdf
   - sumner-assessment-tva.pdf
+  - sumner-parcel-112k-b-00401.pdf
+  - sumner-parcel-113j-a-01100.pdf
+  - sumner-parcel-113o-h-03200.pdf
+  - sumner-parcel-125e-a-01000.pdf
+  - sumner-parcel-135m-a-01200.pdf
+  - sumner-parcel-135m-a-01300.pdf
   - unknown-assessment.pdf
+
+**`state_of_tennessee/tn_property_assessments/classification_index/`** — 13
+  - 2026-08-29-sumner-class-agricultural.csv
+  - 2026-08-29-sumner-class-city.csv
+  - 2026-08-29-sumner-class-commercial.csv
+  - 2026-08-29-sumner-class-county.csv
+  - 2026-08-29-sumner-class-edu-sci-char.csv
+  - 2026-08-29-sumner-class-farm.csv
+  - 2026-08-29-sumner-class-federal.csv
+  - 2026-08-29-sumner-class-industrial.csv
+  - 2026-08-29-sumner-class-other-exempt.csv
+  - 2026-08-29-sumner-class-religious.csv
+  - 2026-08-29-sumner-class-residential.csv
+  - 2026-08-29-sumner-class-state-assessed.csv
+  - 2026-08-29-sumner-class-state.csv
+
+**`state_of_tennessee/tn_property_assessments/gallatin_industrial_park/`** — 29
+  - sumner-parcel-105-04500.pdf
+  - sumner-parcel-105-04600.pdf
+  - sumner-parcel-105-04601.pdf
+  - sumner-parcel-106-03500.pdf
+  - sumner-parcel-111-00100.pdf
+  - sumner-parcel-111-00101.pdf
+  - sumner-parcel-111-00102.pdf
+  - sumner-parcel-111-00200.pdf
+  - sumner-parcel-111-02001.pdf
+  - sumner-parcel-111-02400.pdf
+  - sumner-parcel-112-01200.pdf
+  - sumner-parcel-112-01201.pdf
+  - sumner-parcel-112-01202.pdf
+  - sumner-parcel-112-01204.pdf
+  - sumner-parcel-112-01206.pdf
+  - sumner-parcel-112-01207.pdf
+  - sumner-parcel-112-01302.pdf
+  - sumner-parcel-112-01604.pdf
+  - sumner-parcel-112-01606.pdf
+  - sumner-parcel-112-01607.pdf
+  - sumner-parcel-112-01610.pdf
+  - sumner-parcel-112-01611.pdf
+  - sumner-parcel-112-01612.pdf
+  - sumner-parcel-112-01800.pdf
+  - sumner-parcel-112-10300.pdf
+  - sumner-parcel-112-11000.pdf
+  - sumner-parcel-112-11900.pdf
+  - sumner-parcel-112-12000.pdf
+  - sumner-parcel-112-12100.pdf
 
 **`state_of_tennessee/tn_sos_filings/`** — 2
   - 2002-preston-stark-inc-sos-business-detail.pdf
   - gallatin-daycare-sos-entity-report.pdf
+
+**`sumner_county/600_small_street/`** — 117
+  - ENTITIES.md
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-200706-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-200806-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-200906-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-201006-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-201106-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-201206-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-201306-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-201406-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-201506-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-201606-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-201706-990.pdf
+  - inbox/gallatin_child_care_990s/gallatin-child-care-center-201806-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-200306-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-200406-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-200506-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-200606-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-200706-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-200806-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-200906-990ER.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-201006-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-201106-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-201206-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-201306-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-201406-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-201506-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-201606-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-201706-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-201806-990.pdf
+  - inbox/gallatin_day_care_990s/gallatin-day-care-center-201907-990.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-200306-990.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-200406-990.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-200506-990.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-200606-990.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-200706-990.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-200806-990.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-200906-990EZ.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-201006-990EZ.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-201106-990EZ.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-201606-990.pdf
+  - inbox/good_neighbor_990s/good-neighbor-mission-201706-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-200206-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-200306-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-200406-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-200506-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-200606-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-200706-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-200806-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-200906-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-201006-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-201106-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-201206-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-201306-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-201406-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-201506-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-201606-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-201706-990.pdf
+  - inbox/mid_cumberland_990s/midcumberland-caa-201806-990.pdf
+  - inbox/news/1983-11-16-tennessean-page-18-stark-quotes.pdf
+  - inbox/news/2024-05-28-wkrn-gallatin-daycare-facility-planning.txt
+  - inbox/news/2025-06-12-mainstreetmedia-community-help-sought-gallatin-daycare.txt
+  - inbox/news/2025-11-07-wsmv-gallatin-daycare-shalom-zone-partnership.txt
+  - inbox/NOTES.md
+  - inbox/our_notes/BMF-600-small-street-irs-business-master-file.csv
+  - inbox/our_notes/CAPSTONE-bates-2021.pdf
+  - inbox/our_notes/EXCERPT-leon-capstone-daycare-section.txt
+  - inbox/our_notes/EXCERPT-timeline-this-thread.txt
+  - inbox/our_notes/EXCERPT-tlo-podcast-shalom-zone-segment.txt
+  - inbox/our_notes/NOTES-deal-600-small-street-section.md
+  - inbox/our_notes/NOTES-preston_stark.md
+  - inbox/our_notes/NOTES-rosemary_bates.md
+  - inbox/our_notes/PAYING-SIDE-idb2023.pdf
+  - inbox/our_notes/PAYING-SIDE-idb2024.pdf
+  - inbox/parcels/PARCEL-108-southpark-2026-08-03.pdf
+  - inbox/parcels/PARCEL-112-southpark-2026-08-03.pdf
+  - inbox/parcels/PARCEL-112-southpark-2026-08-15.pdf
+  - inbox/parcels/PARCEL-carson-st-board-of-ed.pdf
+  - inbox/parcels/sumner-assessment-600-small-st-2.pdf
+  - inbox/parcels/sumner-assessment-daycare-108-southpark.pdf
+  - inbox/parcels/sumner-assessment-daycare-108-southpark.txt
+  - inbox/parcels/sumner-assessment-daycare-112-southpark.pdf
+  - inbox/parcels/sumner-assessment-daycare-112-southpark.txt
+  - inbox/shalom_zone_990s_scanned/shalom2023.pdf
+  - inbox/shalom_zone_990s_scanned/shalom2023.txt
+  - inbox/shalom_zone_990s_scanned/shalom2024.pdf
+  - inbox/shalom_zone_990s_scanned/shalom2024-propublica.pdf
+  - inbox/shalom_zone_990s_scanned/shalom2024-propublica.txt
+  - inbox/shalom_zone_990s_scanned/shalom2024.txt
+  - inbox/shalom_zone_990s_scanned/shalomzone-200206-990EZ.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-200306-990EZ.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-200406-990EZ.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-200506-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-200706-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-200806-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-200906-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-201006-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-201106-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-201206-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-201306-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-201406-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-201506-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-201606-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-201706-990.pdf
+  - inbox/shalom_zone_990s_scanned/shalomzone-202506-990-FY2025.pdf
+  - inbox/sos_records/2002-preston-stark-inc-sos-business-detail.pdf
+  - inbox/sos_records/gallatin-daycare-sos-entity-report.pdf
+  - inbox/sos_records/gallatin-daycare-sos-entity-report.txt
+  - inbox/sos_records/SOS-children-are-people.pdf
+  - inbox/sos_records/SOS-gallatin-day-care-centers-I-II-a.pdf
+  - inbox/sos_records/SOS-gallatin-day-care-centers-I-II-b.pdf
+  - inbox/sos_records/SOS-gallatin-idb-address-history.pdf
+  - inbox/sos_records/SOS-gallatin-idb.pdf
+  - inbox/sos_records/SOS-preston-stark-inc.pdf
+  - INDEX.csv
+  - memory/FINDING-shalom-zone-fy2025-money.md
+  - memory/HANDOFF-children-are-people.md
+  - memory/MEMORY.md
+
+**`sumner_county/600_small_street/inbox/`** — 112
+  - gallatin_child_care_990s/gallatin-child-care-center-200706-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-200806-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-200906-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-201006-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-201106-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-201206-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-201306-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-201406-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-201506-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-201606-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-201706-990.pdf
+  - gallatin_child_care_990s/gallatin-child-care-center-201806-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-200306-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-200406-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-200506-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-200606-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-200706-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-200806-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-200906-990ER.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-201006-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-201106-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-201206-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-201306-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-201406-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-201506-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-201606-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-201706-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-201806-990.pdf
+  - gallatin_day_care_990s/gallatin-day-care-center-201907-990.pdf
+  - good_neighbor_990s/good-neighbor-mission-200306-990.pdf
+  - good_neighbor_990s/good-neighbor-mission-200406-990.pdf
+  - good_neighbor_990s/good-neighbor-mission-200506-990.pdf
+  - good_neighbor_990s/good-neighbor-mission-200606-990.pdf
+  - good_neighbor_990s/good-neighbor-mission-200706-990.pdf
+  - good_neighbor_990s/good-neighbor-mission-200806-990.pdf
+  - good_neighbor_990s/good-neighbor-mission-200906-990EZ.pdf
+  - good_neighbor_990s/good-neighbor-mission-201006-990EZ.pdf
+  - good_neighbor_990s/good-neighbor-mission-201106-990EZ.pdf
+  - good_neighbor_990s/good-neighbor-mission-201606-990.pdf
+  - good_neighbor_990s/good-neighbor-mission-201706-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-200206-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-200306-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-200406-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-200506-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-200606-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-200706-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-200806-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-200906-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-201006-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-201106-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-201206-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-201306-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-201406-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-201506-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-201606-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-201706-990.pdf
+  - mid_cumberland_990s/midcumberland-caa-201806-990.pdf
+  - news/1983-11-16-tennessean-page-18-stark-quotes.pdf
+  - news/2024-05-28-wkrn-gallatin-daycare-facility-planning.txt
+  - news/2025-06-12-mainstreetmedia-community-help-sought-gallatin-daycare.txt
+  - news/2025-11-07-wsmv-gallatin-daycare-shalom-zone-partnership.txt
+  - NOTES.md
+  - our_notes/BMF-600-small-street-irs-business-master-file.csv
+  - our_notes/CAPSTONE-bates-2021.pdf
+  - our_notes/EXCERPT-leon-capstone-daycare-section.txt
+  - our_notes/EXCERPT-timeline-this-thread.txt
+  - our_notes/EXCERPT-tlo-podcast-shalom-zone-segment.txt
+  - our_notes/NOTES-deal-600-small-street-section.md
+  - our_notes/NOTES-preston_stark.md
+  - our_notes/NOTES-rosemary_bates.md
+  - our_notes/PAYING-SIDE-idb2023.pdf
+  - our_notes/PAYING-SIDE-idb2024.pdf
+  - parcels/PARCEL-108-southpark-2026-08-03.pdf
+  - parcels/PARCEL-112-southpark-2026-08-03.pdf
+  - parcels/PARCEL-112-southpark-2026-08-15.pdf
+  - parcels/PARCEL-carson-st-board-of-ed.pdf
+  - parcels/sumner-assessment-600-small-st-2.pdf
+  - parcels/sumner-assessment-daycare-108-southpark.pdf
+  - parcels/sumner-assessment-daycare-108-southpark.txt
+  - parcels/sumner-assessment-daycare-112-southpark.pdf
+  - parcels/sumner-assessment-daycare-112-southpark.txt
+  - shalom_zone_990s_scanned/shalom2023.pdf
+  - shalom_zone_990s_scanned/shalom2023.txt
+  - shalom_zone_990s_scanned/shalom2024.pdf
+  - shalom_zone_990s_scanned/shalom2024-propublica.pdf
+  - shalom_zone_990s_scanned/shalom2024-propublica.txt
+  - shalom_zone_990s_scanned/shalom2024.txt
+  - shalom_zone_990s_scanned/shalomzone-200206-990EZ.pdf
+  - shalom_zone_990s_scanned/shalomzone-200306-990EZ.pdf
+  - shalom_zone_990s_scanned/shalomzone-200406-990EZ.pdf
+  - shalom_zone_990s_scanned/shalomzone-200506-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-200706-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-200806-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-200906-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-201006-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-201106-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-201206-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-201306-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-201406-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-201506-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-201606-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-201706-990.pdf
+  - shalom_zone_990s_scanned/shalomzone-202506-990-FY2025.pdf
+  - sos_records/2002-preston-stark-inc-sos-business-detail.pdf
+  - sos_records/gallatin-daycare-sos-entity-report.pdf
+  - sos_records/gallatin-daycare-sos-entity-report.txt
+  - sos_records/SOS-children-are-people.pdf
+  - sos_records/SOS-gallatin-day-care-centers-I-II-a.pdf
+  - sos_records/SOS-gallatin-day-care-centers-I-II-b.pdf
+  - sos_records/SOS-gallatin-idb-address-history.pdf
+  - sos_records/SOS-gallatin-idb.pdf
+  - sos_records/SOS-preston-stark-inc.pdf
+
+**`sumner_county/600_small_street/inbox/gallatin_child_care_990s/`** — 12
+  - gallatin-child-care-center-200706-990.pdf
+  - gallatin-child-care-center-200806-990.pdf
+  - gallatin-child-care-center-200906-990.pdf
+  - gallatin-child-care-center-201006-990.pdf
+  - gallatin-child-care-center-201106-990.pdf
+  - gallatin-child-care-center-201206-990.pdf
+  - gallatin-child-care-center-201306-990.pdf
+  - gallatin-child-care-center-201406-990.pdf
+  - gallatin-child-care-center-201506-990.pdf
+  - gallatin-child-care-center-201606-990.pdf
+  - gallatin-child-care-center-201706-990.pdf
+  - gallatin-child-care-center-201806-990.pdf
+
+**`sumner_county/600_small_street/inbox/gallatin_day_care_990s/`** — 17
+  - gallatin-day-care-center-200306-990.pdf
+  - gallatin-day-care-center-200406-990.pdf
+  - gallatin-day-care-center-200506-990.pdf
+  - gallatin-day-care-center-200606-990.pdf
+  - gallatin-day-care-center-200706-990.pdf
+  - gallatin-day-care-center-200806-990.pdf
+  - gallatin-day-care-center-200906-990ER.pdf
+  - gallatin-day-care-center-201006-990.pdf
+  - gallatin-day-care-center-201106-990.pdf
+  - gallatin-day-care-center-201206-990.pdf
+  - gallatin-day-care-center-201306-990.pdf
+  - gallatin-day-care-center-201406-990.pdf
+  - gallatin-day-care-center-201506-990.pdf
+  - gallatin-day-care-center-201606-990.pdf
+  - gallatin-day-care-center-201706-990.pdf
+  - gallatin-day-care-center-201806-990.pdf
+  - gallatin-day-care-center-201907-990.pdf
+
+**`sumner_county/600_small_street/inbox/good_neighbor_990s/`** — 11
+  - good-neighbor-mission-200306-990.pdf
+  - good-neighbor-mission-200406-990.pdf
+  - good-neighbor-mission-200506-990.pdf
+  - good-neighbor-mission-200606-990.pdf
+  - good-neighbor-mission-200706-990.pdf
+  - good-neighbor-mission-200806-990.pdf
+  - good-neighbor-mission-200906-990EZ.pdf
+  - good-neighbor-mission-201006-990EZ.pdf
+  - good-neighbor-mission-201106-990EZ.pdf
+  - good-neighbor-mission-201606-990.pdf
+  - good-neighbor-mission-201706-990.pdf
+
+**`sumner_county/600_small_street/inbox/mid_cumberland_990s/`** — 17
+  - midcumberland-caa-200206-990.pdf
+  - midcumberland-caa-200306-990.pdf
+  - midcumberland-caa-200406-990.pdf
+  - midcumberland-caa-200506-990.pdf
+  - midcumberland-caa-200606-990.pdf
+  - midcumberland-caa-200706-990.pdf
+  - midcumberland-caa-200806-990.pdf
+  - midcumberland-caa-200906-990.pdf
+  - midcumberland-caa-201006-990.pdf
+  - midcumberland-caa-201106-990.pdf
+  - midcumberland-caa-201206-990.pdf
+  - midcumberland-caa-201306-990.pdf
+  - midcumberland-caa-201406-990.pdf
+  - midcumberland-caa-201506-990.pdf
+  - midcumberland-caa-201606-990.pdf
+  - midcumberland-caa-201706-990.pdf
+  - midcumberland-caa-201806-990.pdf
+
+**`sumner_county/600_small_street/inbox/news/`** — 4
+  - 1983-11-16-tennessean-page-18-stark-quotes.pdf
+  - 2024-05-28-wkrn-gallatin-daycare-facility-planning.txt
+  - 2025-06-12-mainstreetmedia-community-help-sought-gallatin-daycare.txt
+  - 2025-11-07-wsmv-gallatin-daycare-shalom-zone-partnership.txt
+
+**`sumner_county/600_small_street/inbox/our_notes/`** — 10
+  - BMF-600-small-street-irs-business-master-file.csv
+  - CAPSTONE-bates-2021.pdf
+  - EXCERPT-leon-capstone-daycare-section.txt
+  - EXCERPT-timeline-this-thread.txt
+  - EXCERPT-tlo-podcast-shalom-zone-segment.txt
+  - NOTES-deal-600-small-street-section.md
+  - NOTES-preston_stark.md
+  - NOTES-rosemary_bates.md
+  - PAYING-SIDE-idb2023.pdf
+  - PAYING-SIDE-idb2024.pdf
+
+**`sumner_county/600_small_street/inbox/parcels/`** — 9
+  - PARCEL-108-southpark-2026-08-03.pdf
+  - PARCEL-112-southpark-2026-08-03.pdf
+  - PARCEL-112-southpark-2026-08-15.pdf
+  - PARCEL-carson-st-board-of-ed.pdf
+  - sumner-assessment-600-small-st-2.pdf
+  - sumner-assessment-daycare-108-southpark.pdf
+  - sumner-assessment-daycare-108-southpark.txt
+  - sumner-assessment-daycare-112-southpark.pdf
+  - sumner-assessment-daycare-112-southpark.txt
+
+**`sumner_county/600_small_street/inbox/shalom_zone_990s_scanned/`** — 22
+  - shalom2023.pdf
+  - shalom2023.txt
+  - shalom2024.pdf
+  - shalom2024-propublica.pdf
+  - shalom2024-propublica.txt
+  - shalom2024.txt
+  - shalomzone-200206-990EZ.pdf
+  - shalomzone-200306-990EZ.pdf
+  - shalomzone-200406-990EZ.pdf
+  - shalomzone-200506-990.pdf
+  - shalomzone-200706-990.pdf
+  - shalomzone-200806-990.pdf
+  - shalomzone-200906-990.pdf
+  - shalomzone-201006-990.pdf
+  - shalomzone-201106-990.pdf
+  - shalomzone-201206-990.pdf
+  - shalomzone-201306-990.pdf
+  - shalomzone-201406-990.pdf
+  - shalomzone-201506-990.pdf
+  - shalomzone-201606-990.pdf
+  - shalomzone-201706-990.pdf
+  - shalomzone-202506-990-FY2025.pdf
+
+**`sumner_county/600_small_street/inbox/sos_records/`** — 9
+  - 2002-preston-stark-inc-sos-business-detail.pdf
+  - gallatin-daycare-sos-entity-report.pdf
+  - gallatin-daycare-sos-entity-report.txt
+  - SOS-children-are-people.pdf
+  - SOS-gallatin-day-care-centers-I-II-a.pdf
+  - SOS-gallatin-day-care-centers-I-II-b.pdf
+  - SOS-gallatin-idb-address-history.pdf
+  - SOS-gallatin-idb.pdf
+  - SOS-preston-stark-inc.pdf
+
+**`sumner_county/600_small_street/memory/`** — 3
+  - FINDING-shalom-zone-fy2025-money.md
+  - HANDOFF-children-are-people.md
+  - MEMORY.md
+
+**`sumner_county/805_teal_drive/inbox/`** — 2
+  - 2026-parcel-805-teal-drive-125E-A-010.00.pdf
+  - SOS-keiths-canines-holdings-llc.pdf
 
 **`sumner_county/gallatin_council_meetings/`** — 19
   - 2018-06-19-city-council-agenda.pdf
@@ -232,7 +703,7 @@ document nobody has opened is a document nobody has been troubled by.
   - 2024-09-17-city-council-agenda.pdf
   - 2026-07-meetings-public-notice.pdf
 
-**`sumner_county/gallatin_electric_utility/`** — 18
+**`sumner_county/gallatin_electric_utility/`** — 17
   - 2026-04-30-electric-development-infrastructure-policy.pdf
   - rates/2016-dec.pdf
   - rates/2016-jan.pdf
@@ -246,13 +717,12 @@ document nobody has opened is a document nobody has been troubled by.
   - rates/2020-june.pdf
   - rates/2021-june.pdf
   - rates/2022-june.pdf
-  - rates/2023-june.pdf
   - rates/2024-june.pdf
   - rates/2025-june.pdf
   - rates/2026-june.pdf
   - rates/2026-outdoor.pdf
 
-**`sumner_county/gallatin_electric_utility/rates/`** — 17
+**`sumner_county/gallatin_electric_utility/rates/`** — 16
   - 2016-dec.pdf
   - 2016-jan.pdf
   - 2016-june.pdf
@@ -265,7 +735,6 @@ document nobody has opened is a document nobody has been troubled by.
   - 2020-june.pdf
   - 2021-june.pdf
   - 2022-june.pdf
-  - 2023-june.pdf
   - 2024-june.pdf
   - 2025-june.pdf
   - 2026-june.pdf
@@ -378,9 +847,12 @@ each.
   - the-loyal-opposition-tlo-episode-0401.txt
   - the-sobros-power-hour-nashville-ep-26-facebook-coming-to-gallatin.txt
 
-**`the_players/`** — 10
+**`the_players/`** — 14
   - allan_ramsey.md
+  - derrick_jackson.md
+  - don_cunningham.md
   - james_fenton.md
+  - kee_bryant_mccormick.md
   - leonard_assante.md
   - lilibeth_leon.md
   - neil_burgess.md
@@ -389,6 +861,7 @@ each.
   - randy_boyd.md
   - rosemary_bates.md
   - susan_high_mcauley.md
+  - william_lamberth.md
 
 **`web_articles/`** — 9
   - 1983-11-16-tennessean-page-18-stark-quotes.pdf

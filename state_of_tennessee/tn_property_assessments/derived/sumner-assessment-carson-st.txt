@@ -1,0 +1,43 @@
+[[page 1]]
+                                                                              Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                              Jan 1 Owner                                                   Current Owner                              CARSON STREET
+                                                          SUMNER COUNTY BOARD OF ED
+Tax Year 2026 | Reappraisal 2024                                                                                                                                   Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                          00000                                                                                                    113J        A        011.00          000
+Value Information
+Land Market Value:                       $65,000
+Improvement Value:                            $0
+Total Market Appraisal:                  $65,000
+Assessment Percentage:                       0%
+Assessment:                                   $0
+Subdivision Data
+Subdivision:
+CLEARVIEW HTS. NO. 4
+Plat Book:                 Plat Page:                     Block:                         Lot:
+0001                       O                                                             IST
+Additional Information
+PLAT: 0001 PAGE: 0159 BLOCK: O LOT: LIST SUBD: CLEARVIEW HTS. NO. 4
+General Information
+Class: 01 - County                                        City: GALLATIN
+City #: 278                                               Special Service District 2:
+Special Service District 1:                               Neighborhood: G90
+District: 03                                              Number of Mobile Homes:
+Number of Buildings: 0                                    Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC             Zoning:
+Utilities - Gas/Gas Type: 01 - PUBLIC - NATURAL
+GAS
+Outbuildings & Yard Items
+Building #                   Type            Description                                               Area/Units
+
+
+Sale Information
+Sale Date       Price     Book      Page Vacant/Improved             Type Instrument             Qualification
+
+10/2/1957          $0     00169     00556 V - VACANT                 -                           -
+
+
+Land Information
+Deed Acres: 0                       Calculated Acres: 1                    Total Land Units: 1
+Land Code                                         Soil Class                                                 Units
+
+70 - EXEMPT                                                                                                      1.00

@@ -1,0 +1,150 @@
+[[page 1]]
+                                                                             Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                             Jan 1 Owner                                           Current Owner                                      SMALL STREET
+                                                         GALLATIN SHALOM ZONE
+Tax Year 2026 | Reappraisal 2024                                                                                                                                  Ctrl Map:   Group:     Parcel:    PI:        SI:
+                                                         600 SMALL STREET                                                                                         113O        H          032.00                001
+                                                         GALLATIN TN 37066
+Value Information                                                                                              Commercial Building #: 1
+Land Market Value:                       $197,100                                                              Improvement Type:                                  Actual Year Built:
+Improvement Value:                     $1,983,200                                                              30 - OFFICE                                        1950
+Total Market Appraisal:                $2,180,300                                                              Quality:                                           Business Living Area:
+Assessment Percentage:                        0%                                                               1 - AVERAGE                                        20712
+Assessment:                                    $0                                                              Foundation:                                        Floor System:
+Additional Information                                                                                         03 - SPREAD FOOTING                                01 - SLAB ON GRADE
+General Information                                                                                            Roof Framing:                                      Roof Cover/Deck:
+Class: 06 - Ed/Sci/Charitable                            City: GALLATIN                                        06 - STEEL TRUSS/PURLINS                           11 - BUILT-UP/METAL GYPSUM
+City #: 278                                              Special Service District 2:                           Cabinet/Millwork:                                  Floor Finish:
+Special Service District 1:                              Neighborhood: G99                                     00 - NONE                                          04 - ASPHALT TILE
+District: 03                                             Number of Mobile Homes:                               Interior Finish:                                   Paint/Decor:
+Number of Buildings: 4                                   Utilities - Electricity: 01 - PUBLIC                  06 - MASONRY                                       00 - NONE
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC            Zoning:                                               Bath Tiles:                                        Electrical:
+Utilities - Gas/Gas Type: 01 - PUBLIC - NATURAL                                                                00 - NONE                                          01 - MINIMUM
+GAS                                                                                                            Shape:                                             Structural Frame:
+                                                                                                               Heat and AC:                                       02 - MASONRY PIL/STL
+Outbuildings & Yard Items
+                                                                                                               00 - NONE                                          Plumbing Fixtures:
+Long OutBuilding & Yard Items list on subsequent pages
+                                                                                                                                                                  2
+Sale Information                                                                                               Building Sketch                                    Interior/Exterior Areas
+Long Sale Information list on subsequent pages
+                                                                                                                                                                   Type          Square Feet Exterior Wall
+Land Information
+                                                                                                                                                                   30 - OFFICE         12,366 11 - COMMON BRICK
+Long Land Information list on subsequent pages
+                                                                                                                                                                   30 - OFFICE          8,346 11 - COMMON BRICK
+
+
+                                                                                                                                                                  Commercial Features
+                                                                                                                                                                   Type                                      Units
+
+                                                                                                                                                                   OPF - OPEN PORCH FINISHED                 72 X 1
+
+                                                                                                                                                                   OPU - OPEN PORCH UNFINISHED               60 X 1
+
+                                                                                                                                                                   OPF - OPEN PORCH FINISHED                 60 X 1
+
+[[page 2]]
+Commercial Building #: 2                                                     Commercial Building #: 3
+Improvement Type:          Actual Year Built:                                Improvement Type:          Actual Year Built:
+30 - OFFICE                1970                                              30 - OFFICE                1975
+Quality:                   Business Living Area:                             Quality:                   Business Living Area:
+1 - AVERAGE                5550                                              1 - AVERAGE                5026
+Foundation:                Floor System:                                     Foundation:                Floor System:
+03 - SPREAD FOOTING        01 - SLAB ON GRADE                                03 - SPREAD FOOTING        01 - SLAB ON GRADE
+Roof Framing:              Roof Cover/Deck:                                  Roof Framing:              Roof Cover/Deck:
+06 - STEEL TRUSS/PURLINS   11 - BUILT-UP/METAL GYPSUM                        06 - STEEL TRUSS/PURLINS   11 - BUILT-UP/METAL GYPSUM
+Cabinet/Millwork:          Floor Finish:                                     Cabinet/Millwork:          Floor Finish:
+03 - AVERAGE               04 - ASPHALT TILE                                 03 - AVERAGE               04 - ASPHALT TILE
+Interior Finish:           Paint/Decor:                                      Interior Finish:           Paint/Decor:
+07 - DRYWALL               03 - AVERAGE                                      06 - MASONRY               03 - AVERAGE
+Bath Tiles:                Electrical:                                       Bath Tiles:                Electrical:
+01 - FLOOR ONLY            03 - AVERAGE                                      01 - FLOOR ONLY            03 - AVERAGE
+Shape:                     Structural Frame:                                 Shape:                     Structural Frame:
+Heat and AC:               02 - MASONRY PIL/STL                              Heat and AC:               02 - MASONRY PIL/STL
+08 - HVAC PKG              Plumbing Fixtures:                                08 - HVAC PKG              Plumbing Fixtures:
+                           2                                                                            8
+Building Sketch            Interior/Exterior Areas                           Building Sketch            Interior/Exterior Areas
+                           Type            Square Feet Exterior Wall                                    Type            Square Feet Exterior Wall
+
+                           30 - OFFICE           5,550 11 - COMMON BRICK                                30 - OFFICE           5,026 11 - COMMON BRICK
+
+
+                           Commercial Features                                                          Commercial Features
+                           Type                                    Units                                Type                                        Units
+
+                           OPF - OPEN PORCH FINISHED               148 X 1                              OPU - OPEN PORCH UNFINISHED                 468 X 1
+
+                                                                                                        OPU - OPEN PORCH UNFINISHED                 196 X 1
+
+                                                                                                        OPF - OPEN PORCH FINISHED                   52 X 1
+
+                                                                                                        OPF - OPEN PORCH FINISHED                   44 X 1
+
+[[page 3]]
+Commercial Building #: 4
+Improvement Type:          Actual Year Built:
+30 - OFFICE                1960
+Quality:                   Business Living Area:
+1 - AVERAGE                5920
+Foundation:                Floor System:
+03 - SPREAD FOOTING        01 - SLAB ON GRADE
+Roof Framing:              Roof Cover/Deck:
+06 - STEEL TRUSS/PURLINS   11 - BUILT-UP/METAL GYPSUM
+Cabinet/Millwork:          Floor Finish:
+03 - AVERAGE               04 - ASPHALT TILE
+Interior Finish:           Paint/Decor:
+07 - DRYWALL               03 - AVERAGE
+Bath Tiles:                Electrical:
+01 - FLOOR ONLY            03 - AVERAGE
+Shape:                     Structural Frame:
+Heat and AC:               02 - MASONRY PIL/STL
+08 - HVAC PKG              Plumbing Fixtures:
+                           22
+Building Sketch            Interior/Exterior Areas
+                           Type          Square Feet Exterior Wall
+
+                           30 - OFFICE           5,920 11 - COMMON BRICK
+
+
+                           Commercial Features
+                           Type                                  Units
+
+                           OPF - OPEN PORCH FINISHED             148 X 1
+
+[[page 4]]
+Outbuildings & Yard Items
+Building #                  Type                                                           Description                                            Area/Units
+
+1                           CPY - CANOPY                                                   18                                                           320
+
+1                           CLF - CHAIN LINK FENCE                                         27                                                           418
+
+1                           UTB - UTILITY BUILDING                                         18                                                           192
+
+1                           CLF - CHAIN LINK FENCE                                         33                                                            12
+
+
+Sale Information
+Sale Date                     Price           Book        Page Vacant/Improved               Type Instrument                      Qualification
+
+11/5/2007                          $0          2862         315 V - VACANT                   -                                    -
+
+10/29/2007                         $0          2860         133 V - VACANT                   -                                    -
+
+10/28/2007                         $0          2860         131 V - VACANT                   -                                    -
+
+6/21/2007                          $0          2855         668 V - VACANT                   -                                    -
+
+
+Land Information
+Deed Acres: 0                                         Calculated Acres: 6.2                               Total Land Units: 6.2
+Land Code                                                                     Soil Class                                                              Units
+
+70 - EXEMPT                                                                                                                                             6.20
+
+70 - EXEMPT                                                                                                                                             0.00
+
+70 - EXEMPT                                                                                                                                             0.00
+
+70 - EXEMPT                                                                                                                                             0.00

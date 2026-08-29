@@ -1,0 +1,55 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                           Current Owner                                      GATEWAY DRIVE 1389
+                                                           GALLATIN CITY OF                                      MKB DEVELOPMENTS LLC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           TENNESSEE                                             800 HARDEN STREET                                  112                  012.01          000
+                                                           132 WEST MAIN STREET                                  GALLATIN TN 37066
+                                                           GALLATIN TN 37066
+Value Information
+Land Market Value:                        $412,500
+Improvement Value:                              $0
+Total Market Appraisal:                   $412,500
+Assessment Percentage:                         0%
+Assessment:                                     $0
+Subdivision Data
+Subdivision:
+Plat Book:                   Plat Page:                    Block:                         Lot:
+28                                                         193-194                        3
+Additional Information
+PB28 PG193-194 LT3
+General Information
+Class: 02 - City                                           City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G40
+District: 02                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                    Type               Description                                        Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 3.3                  Total Land Units: 3.3
+Land Code                                                Soil Class                                     Units
+
+15 - INDUSTRIAL                                                                                           3.30
+
+[[page 2]]
+Sale Information
+Sale Date               Price   Book   Page Vacant/Improved   Type Instrument      Qualification
+
+3/20/2026            $90,000    6808    840 I - IMPROVED      WD - WARRANTY DEED   F - TAX EXEMPT SALE
+
+12/8/2017                 $0    4673    608 V - VACANT        WD - WARRANTY DEED   K - RIGHT-OF-WAY SALE
+
+5/14/2008                 $0    2962    808 V - VACANT        -                    -
+
+5/13/2008          $3,615,848   2962    802 V - VACANT        WD - WARRANTY DEED   P - MULTIPLE PARCELS
+
+5/12/2008          $1,216,747   2962    792 V - VACANT        WD - WARRANTY DEED   P - MULTIPLE PARCELS
+
+7/10/1987                $10     541    508 V - VACANT        -                    -

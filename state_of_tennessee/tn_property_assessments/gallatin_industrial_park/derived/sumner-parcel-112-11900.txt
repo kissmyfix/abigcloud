@@ -1,0 +1,68 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                             Current Owner                                    ROUNDTREE DRIVE 1130
+                                                           INDUSTRIAL DEV BRD OF CITY OF GALLATIN
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           C/O WOOLHAWK LLC ATTN: TAX                                                                               112                  119.00          000
+                                                           1601 WILLOW RD
+                                                           MENLO PARK CA 94025
+Value Information
+Land Market Value:                     $1,173,200
+Improvement Value:                             $0
+Total Market Appraisal:                $1,173,200
+Assessment Percentage:                        0%
+Assessment:                                    $0
+Subdivision Data
+Subdivision:
+GALLATIN INDUSTRIAL CENTER PH 4
+Plat Book:             Plat Page:                          Block:                         Lot:
+33                     366                                                                3
+Additional Information
+PB33 PG366 LT3
+General Information
+Class: 02 - City                                           City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G40
+District: 02                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                    Type               Description                                          Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 10.01                Total Land Units: 10.01
+Land Code                                          Soil Class                                             Units
+
+70 - EXEMPT                                                                                               10.01
+
+[[page 2]]
+Sale Information
+Sale Date               Price   Book   Page Vacant/Improved   Type Instrument       Qualification
+
+10/2/2020                 $0    5362    506 I - IMPROVED      QC - QUITCLAIM DEED   -
+
+8/27/2020                 $0    5362    506 I - IMPROVED      WD - WARRANTY DEED    P - MULTIPLE PARCELS
+
+5/18/2020          $8,268,000   5218    424 I - IMPROVED      -                     L - LIMITED
+
+8/6/2003                  $0    1811    783 V - VACANT        -                     -
+
+2/13/2001                 $0    1226    553 V - VACANT        -                     -
+
+10/16/2000          $400,000    1168    298 I - IMPROVED      WD - WARRANTY DEED    N - NON-ARM'S LENGTH
+
+12/31/1995          $286,000     584    591 I - IMPROVED      WD - WARRANTY DEED    B - FAMILY SALE
+
+7/10/1987                 $0     541    513 V - VACANT        -                     -
+
+1/27/1976                 $0     361    627 V - VACANT        -                     -
+
+12/31/1975                $0     360    571 V - VACANT        -                     -
+
+6/11/1957                 $0    WB12     21 V - VACANT        -                     -
+
+11/20/1907                $0      58    468 V - VACANT        -                     -

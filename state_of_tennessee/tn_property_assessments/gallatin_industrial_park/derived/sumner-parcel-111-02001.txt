@@ -1,0 +1,41 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                                 Jan 1 Owner                                              Current Owner                                 25E HWY
+                                                             ARRENDALE SHIRLEY W FLP
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                             293 GREENFIELD LANE                                                                                    111                  020.01          000
+                                                             CASTALIAN SPRINGS TN 37031
+Value Information
+Land Market Value:                        $346,500       Land Use Value:                               $32,300
+Improvement Value:                          $9,700       Improvement Value:                             $9,700
+Total Market Appraisal:                   $356,200       Total Use Appraisal:                          $42,000
+                                                         Assessment Percentage:                           25%
+                                                         Assessment:                                   $10,500
+Additional Information
+General Information
+Class: 11 - Agricultural                                   City:
+City #:                                                    Special Service District 2:
+Special Service District 1:                                Neighborhood: A41
+District: 02                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer:                                   Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #           Type                                          Description                          Area/Units
+
+1                    TBN - TOBACCO BARN                            90                                         5,964
+
+
+Sale Information
+Sale Date         Price     Book      Page Vacant/Improved              Type Instrument           Qualification
+
+12/21/2001           $0     1393       744 V - VACANT                   -                         -
+
+2/26/1980            $0      425       546 V - VACANT                   -                         -
+
+
+Land Information
+Deed Acres: 0                         Calculated Acres: 15                  Total Land Units: 15
+Land Code                                            Soil Class                                               Units
+
+46 - ROTATION                                        P                                                        15.00

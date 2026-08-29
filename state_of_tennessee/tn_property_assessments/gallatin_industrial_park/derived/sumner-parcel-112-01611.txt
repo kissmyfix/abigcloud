@@ -1,0 +1,35 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                                   Current Owner                              AIRPORT ROAD
+                                                           CEMETERY
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           AIRPORT ROAD                                                                                             112                  016.11          000
+                                                           GALLATIN TN 37066
+Value Information
+Land Market Value:                       $150,000
+Improvement Value:                             $0
+Total Market Appraisal:                  $150,000
+Assessment Percentage:                        0%
+Assessment:                                    $0
+Additional Information
+General Information
+Class: 05 - Religious                                      City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G40
+District: 02                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                    Type              Description                                              Area/Units
+
+
+Sale Information
+Sale Date        Price    Book       Page Vacant/Improved            Type Instrument              Qualification
+
+
+Land Information
+Deed Acres: 0                        Calculated Acres: 1                    Total Land Units: 1
+Land Code                                         Soil Class                                                  Units
+
+70 - EXEMPT                                                                                                       1.00

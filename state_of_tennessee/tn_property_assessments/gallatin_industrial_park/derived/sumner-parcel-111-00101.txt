@@ -1,0 +1,44 @@
+[[page 1]]
+                                                                                 Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                                 Jan 1 Owner                                             Current Owner                                    HARTSVILLE PIKE
+                                                             GALLATIN CITY OF
+Tax Year 2026 | Reappraisal 2024                                                                                                                                      Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                                                                                                                                      111                  001.01          000
+Value Information
+Land Market Value:                        $625,000
+Improvement Value:                              $0
+Total Market Appraisal:                   $625,000
+Assessment Percentage:                         0%
+Assessment:                                     $0
+Subdivision Data
+Subdivision:
+GALLATIN INDUSTRIAL CENTER PH 4
+Plat Book:             Plat Page:                            Block:                         Lot:
+33                     366                                                                  10-11
+Additional Information
+PB33 PG366 LT 10 & 11
+General Information
+Class: 02 - City                                             City: GALLATIN
+City #: 278                                                  Special Service District 2:
+Special Service District 1:                                  Neighborhood: G40
+District: 00                                                 Number of Mobile Homes:
+Number of Buildings: 0                                       Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC                Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                     Type             Description                                             Area/Units
+
+
+Sale Information
+Sale Date       Price Book Page Vacant/Improved          Type Instrument                Qualification
+
+2/10/2015    $125,000   4070    790 V - VACANT           WD - WARRANTY DEED             K - RIGHT-OF-WAY SALE
+
+8/6/2003           $0   1811    783 V - VACANT           -                              -
+
+
+Land Information
+Deed Acres: 0                         Calculated Acres: 6.25                  Total Land Units: 6.25
+Land Code                                         Soil Class                                                Units
+
+70 - EXEMPT                                                                                                   6.25

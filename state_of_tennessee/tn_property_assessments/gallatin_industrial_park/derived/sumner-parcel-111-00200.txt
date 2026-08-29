@@ -1,0 +1,60 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                             Current Owner                                    HARTSVILLE PIKE 1969
+                                                           INDUSTRIAL DEVELOPMENT BOARD OF THE CITY
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           C/O WOOLHAWK LLC ATTN: TAX                                                                               111                  002.00          000
+                                                           1601 WILLOW RD
+                                                           MENLO PARK CA 94025
+Value Information
+Land Market Value:                     $4,659,000
+Improvement Value:                             $0
+Total Market Appraisal:                $4,659,000
+Assessment Percentage:                        0%
+Assessment:                                    $0
+Subdivision Data
+Subdivision:
+GALLATIN IND
+Plat Book:                   Plat Page:                    Block:                         Lot:
+33                           366                                                          8
+Additional Information
+PB33 PG366 LT8, ANNEXED 2021 RES #R2006-31
+General Information
+Class: 02 - City                                           City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G40
+District: 02                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                    Type               Description                                          Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 51.03                Total Land Units: 51.03
+Land Code                                           Soil Class                                            Units
+
+16 - IND PARK                                                                                             51.03
+
+[[page 2]]
+Sale Information
+Sale Date               Price   Book    Page Vacant/Improved   Type Instrument       Qualification
+
+8/27/2020                 $0     5362    506 I - IMPROVED      WD - WARRANTY DEED    P - MULTIPLE PARCELS
+
+5/29/2020                 $0     5229    833 I - IMPROVED      QC - QUITCLAIM DEED   -
+
+5/28/2020          $4,800,000    5229    823 I - IMPROVED      WD - WARRANTY DEED    -
+
+5/27/2020                 $0     5229    812 I - IMPROVED      QC - QUITCLAIM DEED   -
+
+2/24/2016                 $0     4267    704 I - IMPROVED      QC - QUITCLAIM DEED   -
+
+9/29/1937                 $0    00113   00009 V - VACANT       -                     -
+
+7/25/1936                 $0    00110   00405 V - VACANT       -                     -
+
+12/31/1926                $0    00096   00234 V - VACANT       -                     -

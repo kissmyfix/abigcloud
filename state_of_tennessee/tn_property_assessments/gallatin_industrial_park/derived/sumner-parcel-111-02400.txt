@@ -1,0 +1,68 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                           Current Owner                                      25E HWY
+                                                           INDUSTRIAL DEVELOPMENT BOARD OF THE CITY
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           C/O WOOLHAWK LLC ATTN: TAX                                                                               111                  024.00          000
+                                                           1601 WILLOW RD
+                                                           MENLO PARK CA 94025
+Value Information
+Land Market Value:                     $4,612,900
+Improvement Value:                             $0
+Total Market Appraisal:                $4,612,900
+Assessment Percentage:                        0%
+Assessment:                                    $0
+Subdivision Data
+Subdivision:
+GALLATIN IND
+Plat Book:                   Plat Page:                    Block:                         Lot:
+33                           366                                                          7
+Additional Information
+PB33 PG366 LT7
+General Information
+Class: 02 - City                                           City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G01
+District: 02                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                    Type               Description                                      Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Long Land Information list on subsequent pages
+
+[[page 2]]
+Sale Information
+Sale Date               Price   Book    Page Vacant/Improved                     Type Instrument            Qualification
+
+8/27/2020                 $0     5362    506 I - IMPROVED                        WD - WARRANTY DEED         P - MULTIPLE PARCELS
+
+5/14/2020                 $0     5218    419 I - IMPROVED                        QC - QUITCLAIM DEED        -
+
+5/14/2020          $4,130,000            413 I - IMPROVED                        WD - WARRANTY DEED         P - MULTIPLE PARCELS
+
+4/6/2017                  $0     4510    313 V - VACANT                          ES - EASEMENT              -
+
+10/25/2000          $615,000     1172    107 I - IMPROVED                        WD - WARRANTY DEED         H - BUSINESS/CORPORATE SALE
+
+1/2/1996            $262,230      584    595 I - IMPROVED                        WD - WARRANTY DEED         A - ACCEPTED
+
+3/4/1959                  $0    00176   00169 V - VACANT                         -                          -
+
+
+Land Information
+Deed Acres: 0                                  Calculated Acres: 116.22                                Total Land Units: 116.22
+Land Code                                                           Soil Class                                                            Units
+
+70 - EXEMPT                                                         P                                                                     36.50
+
+70 - EXEMPT                                                         G                                                                     22.00
+
+70 - EXEMPT                                                         A                                                                     18.50
+
+70 - EXEMPT                                                         A                                                                     39.22

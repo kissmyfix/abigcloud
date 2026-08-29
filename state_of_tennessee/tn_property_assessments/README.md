@@ -19,6 +19,9 @@ assessed values, ownership, and mailing addresses on file.
 | `sumner-assessment-*.pdf` | Source reports, one per parcel. |
 | `unknown-assessment.pdf` | Duplicate download of the Bradford parcel — see below. |
 | `sumner-assessment-bradford-confirmed.pdf` | Second, independent rendering of the Bradford parcel. Cross-check source, not parsed. |
+| `gallatin_industrial_park/` | **29 parcels** on control maps 105/106/111/112, collected 2026-08-29. Has its own README and a `derived/parcels.csv` dataset. Read that before opening anything in it. |
+| `classification_index/` | Thirteen CSV exports of the state search, one per classification code, covering all of Sumner County. A finding aid: parcel IDs and owners, no figures. |
+| `sumner-assessment-woolhawk-hartsville-pike.pdf` | **Second IDB/Woolhawk parcel**, Ctrl Map 111 parcel **002.00**, 1969 Hartsville Pike, 51.03 acres. Sibling of `sumner-assessment-woolhawk.pdf` (111 001.00, 512.54 acres). Same owner line: INDUSTRIAL DEVELOPMENT BOARD OF THE CITY c/o WOOLHAWK LLC ATTN: TAX, 1601 Willow Rd, Menlo Park CA. Trust bucket **SPARSE**, 2pp, born-digital. Not part of the four-parcel dataset. Retrieved 2026-08-29 from assessment.cot.tn.gov. |
 | `sumner-assessment-daycare-*.pdf` | The two Gallatin Day Care Centers parcels on Southpark Circle, 108 and 112. Not part of the four-parcel dataset below. |
 
 Regenerate from the project root with `python3 files/bin/parse-assessment.py`, then

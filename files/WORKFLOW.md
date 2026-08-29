@@ -331,6 +331,32 @@ conventions in the findings directory.*
 write that code again. `libreoffice --headless --convert-to csv` is the fallback if a file
 is malformed.
 
+**Querying CSVs with SQL: `duckdb`** (v1.5.5, installed 2026-08-29). Reads a CSV in place,
+no import, no schema. Use it instead of writing a pandas script to answer one question:
+
+    duckdb -c "select kind, count(*) n from read_csv_auto('web_articles/derived/pdf-index.csv') group by 1 order by n desc"
+
+It globs, so a whole set of derived CSVs is one table: `read_csv_auto('**/derived/pdf-index.csv', union_by_name=true)`.
+**This is how series-completeness questions get answered** — which years are missing from a
+filing run is a `generate_series` left join, not an act of memory.
+
+**Browsing CSVs: `visidata`** (`files/venv/bin/vd <file>`, installed 2026-08-29). A spreadsheet
+in the terminal. Sort, filter, and frequency-count a column without loading anything. Reach for
+it before `head`ing a CSV to see what is in it.
+
+**Broken PDFs: `qpdf`** (12.2.0, installed 2026-08-29). Repairs malformed files, splits, merges,
+decrypts. Government PDFs fail to parse regularly; `qpdf --replace-input damaged.pdf` fixes most
+of them before giving up on a download.
+
+**Web articles: `trafilatura`** (in `files/venv`, installed 2026-08-29). Extracts clean body text
+plus title, byline and date from an HTML page. The provenance header that `web_articles/` requires
+(SOURCE, HEADLINE, BYLINE, DATE) is largely fillable from its metadata output rather than by hand.
+
+**Archiving a cited URL: `archivenow`** (in `files/venv`, installed 2026-08-29). Submits a URL to
+the Wayback Machine and returns the archive link for the ARCHIVE field. **Link rot is a live threat
+to already-published citations** — a source that 404s later cannot be re-verified by a reader, so
+archive on the way in, not when something breaks.
+
 **Image tooling available:** ImageMagick 7 (`magick`, `identify`, `convert`), `exiftool`,
 `exifprobe`, `feh`, Python Pillow. **Not** installed: `cwebp`, `jpegoptim`, `chafa`.
 

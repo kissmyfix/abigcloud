@@ -1,0 +1,45 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                           Current Owner                                      AIRPORT ROAD
+                                                           MELCO LAND & SEA LLC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           223 WOODLAKE DR                                                                                          112                  016.07          000
+                                                           GALLATIN TN 37066
+Value Information
+Land Market Value:                       $247,300
+Improvement Value:                             $0
+Total Market Appraisal:                  $247,300
+Assessment Percentage:                       25%
+Assessment:                               $61,825
+Additional Information
+General Information
+Class: 00 - Residential                                    City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G01
+District: 02                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                    Type               Description                                        Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 6.6                  Total Land Units: 6.6
+Land Code                                                  Soil Class                                   Units
+
+03 - SMALL TRACT                                                                                          6.60
+
+[[page 2]]
+Sale Information
+Sale Date             Price   Book   Page Vacant/Improved   Type Instrument       Qualification
+
+5/8/2017                $0    4529    186 V - VACANT        QC - QUITCLAIM DEED   -
+
+5/15/2008          $450,225   2963    409 V - VACANT        WD - WARRANTY DEED    P - MULTIPLE PARCELS
+
+6/11/2002           $70,000   1491    797 V - VACANT        WD - WARRANTY DEED    A - ACCEPTED
+
+8/28/1998           $59,400    864    781 V - VACANT        WD - WARRANTY DEED    A - ACCEPTED

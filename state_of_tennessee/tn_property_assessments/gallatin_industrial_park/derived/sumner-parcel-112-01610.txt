@@ -1,0 +1,51 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                             Current Owner                                    AIRPORT RD 271
+                                                           SUMNER COUNTY TN
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           355 N BELVEDERE DR #303                                                                                  112                  016.10          000
+                                                           GALLATIN TN 37066
+Value Information
+Land Market Value:                                $0
+Improvement Value:                                $0
+Total Market Appraisal:                           $0
+Assessment Percentage:                           0%
+Assessment:                                       $0
+Subdivision Data
+Subdivision:
+INDUSTRIAL PARK FOR HODGES & SUMNER CO
+Plat Book:             Plat Page:                          Block:                         Lot:
+27                     289                                                                2
+Additional Information
+P.B.27 PG.289-290 LT.2 ,LOT: 10 SUBD: GALLATIN IND
+General Information
+Class: 01 - County                                         City: GALLATIN
+City #: 278                                                Special Service District 2:
+Special Service District 1:                                Neighborhood: G40
+District: 02                                               Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:
+Utilities - Gas/Gas Type: 00 - NONE
+Outbuildings & Yard Items
+Building #                    Type               Description                                          Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Deed Acres: 0                        Calculated Acres: 17.35                Total Land Units: 17.35
+Land Code                                          Soil Class                                             Units
+
+70 - EXEMPT                                                                                               17.35
+
+[[page 2]]
+Sale Information
+Sale Date             Price   Book   Page Vacant/Improved   Type Instrument      Qualification
+
+10/31/2018         $654,500   4842     88 V - VACANT        WD - WARRANTY DEED   F - TAX EXEMPT SALE
+
+3/29/2005          $452,562   2216    341 V - VACANT        WD - WARRANTY DEED   A - ACCEPTED
+
+8/22/2000               $0    1148     68 V - VACANT        -                    -
+
+5/1/2000           $167,130   1107    723 V - VACANT        WD - WARRANTY DEED   M - PHYSICAL DIFFERENCE

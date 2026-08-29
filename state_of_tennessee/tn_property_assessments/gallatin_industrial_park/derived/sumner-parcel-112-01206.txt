@@ -1,0 +1,66 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                           Current Owner                                      GATEWAY DRIVE 1398
+                                                           INDUSTRIAL DEV BD GALLATIN CITY
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:      Parcel:       PI:         SI:
+                                                           132 W MAIN ST                                                                                            112                     012.06                    000
+                                                           GALLATIN TN 37066
+Value Information                                                                                                Commercial Building #: 1
+Land Market Value:                     $2,644,700                                                                Improvement Type:                                  Actual Year Built:
+Improvement Value:                     $7,743,800                                                                49 - EXCEPTIONAL                                   2020
+Total Market Appraisal:               $10,388,500                                                                Quality:                                           Business Living Area:
+Assessment Percentage:                        0%                                                                 1 - AVERAGE                                        82479
+Assessment:                                    $0                                                                Foundation:                                        Floor System:
+Subdivision Data                                                                                                 03 - SPREAD FOOTING                                01 - SLAB ON GRADE
+Subdivision:                                                                                                     Roof Framing:                                      Roof Cover/Deck:
+Plat Book:                   Plat Page:                    Block:                         Lot:                   05 - BAR JOIST/RIGID FRAME                         11 - BUILT-UP/METAL GYPSUM
+31                                                         227                            2                      Cabinet/Millwork:                                  Floor Finish:
+Additional Information                                                                                           00 - NONE                                          01 - CONCRETE FINISH
+PB31 PG227 LOT2 PRT PCL 112-12.04                                                                                Interior Finish:                                   Paint/Decor:
+General Information                                                                                              06 - MASONRY                                       00 - NONE
+Class: 02 - City                                           City: GALLATIN                                        Bath Tiles:                                        Electrical:
+City #: 278                                                Special Service District 2:                           Shape:                                             01 - MINIMUM
+Special Service District 1:                                Neighborhood: G40                                     Heat and AC:                                       Structural Frame:
+District: 02                                               Number of Mobile Homes:                               00 - NONE                                          06 - FIRE PROOF STEEL
+Number of Buildings: 1                                     Utilities - Electricity: 01 - PUBLIC                                                                     Plumbing Fixtures:
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC              Zoning:                                                                                                  0
+Utilities - Gas/Gas Type: 00 - NONE                                                                              Building Sketch                                    Interior/Exterior Areas
+
+Outbuildings & Yard Items                                                                                                                                                                Square
+Long OutBuilding & Yard Items list on subsequent pages                                                                                                               Type                Feet         Exterior Wall
+
+Sale Information                                                                                                                                                     39 -                   10,024 16 - PRECAST
+Long Sale Information list on subsequent pages                                                                                                                       EXCEPTIONAL                   PANEL
+
+Land Information                                                                                                                                                     49 -                   72,455 16 - PRECAST
+Deed Acres: 0                        Calculated Acres: 28.56                Total Land Units: 28.56                                                                  EXCEPTIONAL                   PANEL
+Land Code                                                Soil Class                                    Units
+                                                                                                                                                                    Commercial Features
+15 - INDUSTRIAL                                                                                        28.56
+                                                                                                                                                                     Type                              Units
+
+                                                                                                                                                                     CAN - CANOPY                      2841 X 1
+
+[[page 2]]
+Outbuildings & Yard Items
+Building #                  Type                                                 Description                     Area/Units
+
+1                           ASP - ASPHALT PAVING                                 1                                  13,300
+
+1                           CNC - CONCRETE PAVING                                1                                   9,000
+
+1                           CNC - CONCRETE PAVING                                1                                   9,000
+
+1                           ASP - ASPHALT PAVING                                 1                                  26,000
+
+1                           MSN - MASONRY WALL                                   1                                     286
+
+
+Sale Information
+Sale Date                      Price         Book   Page Vacant/Improved   Type Instrument       Qualification
+
+3/6/2020                           $0        5161    850 I - IMPROVED      QC - QUITCLAIM DEED   -
+
+4/16/2019                   $999,705         4926    708 V - VACANT        -                     L - LIMITED
+
+8/7/2014                    $170,922         3983    425 V - VACANT        WD - WARRANTY DEED    -

@@ -1,0 +1,52 @@
+[[page 1]]
+                                                                               Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                               Jan 1 Owner                                           Current Owner                                      ROUNDTREE DRIVE
+                                                           GREGORY REAL ESTATE LLC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                    Ctrl Map:   Group:   Parcel:   PI:   SI:
+                                                           145 ZIEGLERS FORT ROAD                                                                                   106                  035.00          000
+                                                           GALLATIN TN 37066
+Value Information
+Land Market Value:                     $4,284,700       Land Use Value:                           $730,800
+Improvement Value:                             $0       Improvement Value:                              $0
+Total Market Appraisal:                $4,284,700       Total Use Appraisal:                      $730,800
+                                                        Assessment Percentage:                        25%
+                                                        Assessment:                               $182,700
+Additional Information
+GB #8782 FOR 2025
+General Information
+Class: 11 - Agricultural                                   City:
+City #:                                                    Special Service District 2:
+Special Service District 1:                                Neighborhood: A01
+District:                                                  Number of Mobile Homes:
+Number of Buildings: 0                                     Utilities - Electricity: 01 - PUBLIC
+Utilities - Water/Sewer:                                   Zoning:
+Utilities - Gas/Gas Type:
+Outbuildings & Yard Items
+Building #                    Type               Description                                        Area/Units
+
+
+Sale Information
+Long Sale Information list on subsequent pages
+Land Information
+Long Land Information list on subsequent pages
+
+[[page 2]]
+Sale Information
+Sale Date          Price   Book      Page Vacant/Improved                 Type Instrument                          Qualification
+
+8/6/2003             $0    1811       783 V - VACANT                      -                                        -
+
+3/12/1992            $0     242       655 V - VACANT                      -                                        -
+
+1/11/1985            $0     496         6 V - VACANT                      -                                        -
+
+
+Land Information
+Deed Acres: 0                     Calculated Acres: 328.31                              Total Land Units: 328.31
+Land Code                                                    Soil Class                                                             Units
+
+46 - ROTATION                                                A                                                                     232.30
+
+54 - PASTURE                                                 A                                                                      88.10
+
+62 - WOODLAND 2                                              A                                                                       7.91
