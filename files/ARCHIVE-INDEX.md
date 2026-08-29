@@ -10,15 +10,15 @@ publishing new citations; do not hand-edit this file.
 Companion to `files/DATA_MAP.md`, which tells you where things live. This tells you
 what they are for.
 
-Built 2026-08-29 · 378 documents
+Built 2026-08-29 · 380 documents
 
 | Class | Count | Meaning |
 |---|---:|---|
 | CITED | 34 | A published page cites it. The evidence of record. |
-| WORKING | 14 | Named in `memory/`, not yet on the site. |
+| WORKING | 15 | Named in `memory/`, not yet on the site. |
 | BASELINE | 10 | Comparison jurisdiction. Never cited, still doing work. |
 | CORE-UNCITED | 274 | Core subject matter nothing has used yet. |
-| SPECULATIVE | 46 | Acquired in case. Largely unassessed. |
+| SPECULATIVE | 47 | Acquired in case. Largely unassessed. |
 
 **Derived extractions are excluded.** Everything under a `derived/` directory is
 machine output, regenerable, and never cited by rule. Its index is the `pdf-index.csv`
@@ -91,6 +91,7 @@ is currently reasoning from. The shortest path from here to a published claim.
 - `state_of_tennessee/tn_comptroller_pilot_reports/sumner_county/2015-pilot-sumner.pdf`
 - `state_of_tennessee/tn_comptroller_pilot_reports/tn_comptroller_archived/2018-pilot.pdf`
 - `state_of_tennessee/tn_comptroller_pilot_reports/tn_comptroller_archived/2021-pilot.pdf`
+- `state_of_tennessee/tn_property_assessments/classification_index/2026-08-29-sumner-class-city.csv`
 - `state_of_tennessee/tn_property_assessments/sumner-assessment-600-small-st-1.pdf`
 - `state_of_tennessee/tn_property_assessments/sumner-assessment-woolhawk-hartsville-pike.pdf`
 - `sumner_county/600_small_street/inbox/parcels/sumner-assessment-600-small-st-1.pdf`
@@ -160,12 +161,13 @@ document nobody has opened is a document nobody has been troubled by.
   - 2559-2024-s-sumcoact-rpt-cpa522-12-24-24.pdf
   - 2559-2025-s-sumcoact-rpt-cpa522-12-27-25.pdf
 
-**`state_of_tennessee/tn_annotated_code/`** — 5
+**`state_of_tennessee/tn_annotated_code/`** — 6
   - 2026-06-27-ctas-2472-payment-in-lieu-of-tax-agreements.pdf
   - hb1269-sb708-as-introduced.pdf
   - pc265-sb708-fiscal-memo.pdf
   - pc265-sb708-legislative-history.md
   - tca-7-53-308.pdf
+  - tca-8-44-open-meetings-act.pdf
 
 **`state_of_tennessee/tn_comptroller_pilot_reports/`** — 16
   - 2025-idb-annual-debt-reporting-request.pdf
@@ -203,9 +205,8 @@ document nobody has opened is a document nobody has been troubled by.
   - 2020-pilot.pdf
   - 2022-pilot.pdf
 
-**`state_of_tennessee/tn_property_assessments/`** — 56
+**`state_of_tennessee/tn_property_assessments/`** — 55
   - classification_index/2026-08-29-sumner-class-agricultural.csv
-  - classification_index/2026-08-29-sumner-class-city.csv
   - classification_index/2026-08-29-sumner-class-commercial.csv
   - classification_index/2026-08-29-sumner-class-county.csv
   - classification_index/2026-08-29-sumner-class-edu-sci-char.csv
@@ -261,9 +262,8 @@ document nobody has opened is a document nobody has been troubled by.
   - sumner-parcel-135m-a-01300.pdf
   - unknown-assessment.pdf
 
-**`state_of_tennessee/tn_property_assessments/classification_index/`** — 13
+**`state_of_tennessee/tn_property_assessments/classification_index/`** — 12
   - 2026-08-29-sumner-class-agricultural.csv
-  - 2026-08-29-sumner-class-city.csv
   - 2026-08-29-sumner-class-commercial.csv
   - 2026-08-29-sumner-class-county.csv
   - 2026-08-29-sumner-class-edu-sci-char.csv
@@ -847,7 +847,7 @@ each.
   - the-loyal-opposition-tlo-episode-0401.txt
   - the-sobros-power-hour-nashville-ep-26-facebook-coming-to-gallatin.txt
 
-**`the_players/`** — 14
+**`the_players/`** — 15
   - allan_ramsey.md
   - derrick_jackson.md
   - don_cunningham.md
@@ -861,6 +861,7 @@ each.
   - randy_boyd.md
   - rosemary_bates.md
   - susan_high_mcauley.md
+  - susan_superczynski.md
   - william_lamberth.md
 
 **`web_articles/`** — 9

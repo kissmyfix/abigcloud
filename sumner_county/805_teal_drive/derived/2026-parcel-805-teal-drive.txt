@@ -1,0 +1,72 @@
+# Parcel Details Report — 805 TEAL DRIVE, Gallatin (Sumner 083)
+# Parcel 125E / A / 010.00 | Tax Year 2026 | Reappraisal 2024
+# Source: TN Property Assessment Data, https://assessment.cot.tn.gov/
+# Downloaded by Brandon 2026-08-28; filed from ~/Downloads/805-teal-drive-children-are-people.pdf
+# Original: ../inbox/2026-parcel-805-teal-drive-125E-A-010.00.pdf
+
+                                                                              Tennessee Property Assessment Data - Parcel Details Report - https://assessment.cot.tn.gov/
+Sumner (083)                                              Jan 1 Owner                                           Current Owner                                      TEAL DRIVE 805
+                                                          CHILDREN ARE PEOPLE                                   KEITHS CANINES HOLDINGS LLC
+Tax Year 2026 | Reappraisal 2024                                                                                                                                   Ctrl Map:   Group:    Parcel:    PI:           SI:
+                                                          C/O SUSAN SUPERCZYNSKI                                805 TEAL DR                                        125E        A         010.00                   000
+                                                          117 E. WINCHESTER ST                                  GALLATIN TN 37066
+                                                          GALLATIN TN 37066
+Value Information                                                                                               Commercial Building #: 1
+Land Market Value:                        $103,100                                                              Improvement Type:                                  Actual Year Built:
+Improvement Value:                        $682,900                                                              30 - OFFICE                                        1989
+Total Market Appraisal:                   $786,000                                                              Quality:                                           Business Living Area:
+Assessment Percentage:                        40%                                                               1 - AVERAGE                                        6600
+Assessment:                               $314,400                                                              Foundation:                                        Floor System:
+Subdivision Data                                                                                                02 - CONTINUOUS FOOTING                            02 - SLAB ABOVE GRADE
+Subdivision:                                                                                                    Roof Framing:                                      Roof Cover/Deck:
+VILLAGE GREEN BUSINE                                                                                            05 - BAR JOIST/RIGID FRAME                         13 - PREFIN METAL CRIMPED
+Plat Book:                   Plat Page:                   Block:                         Lot:                   Cabinet/Millwork:                                  Floor Finish:
+13                           109                                                         10                     03 - AVERAGE                                       01 - CONCRETE FINISH
+Additional Information                                                                                          Interior Finish:                                   Paint/Decor:
+PLAT: 13 PAGE: 109 BLOCK: LOT: 10 SUBD: VILLAGE GREEN BUSINESS                                                  01 - UNFINISHED                                    03 - AVERAGE
+General Information                                                                                             Bath Tiles:                                        Electrical:
+Class: 08 - Commercial                                    City: GALLATIN                                        00 - NONE                                          03 - AVERAGE
+City #: 278                                               Special Service District 2:                           Shape:                                             Structural Frame:
+Special Service District 1:                               Neighborhood: G40                                     Heat and AC:                                       05 - RIGID FRAME
+District: 03                                              Number of Mobile Homes:                               08 - HVAC PKG                                      Plumbing Fixtures:
+Number of Buildings: 1                                    Utilities - Electricity: 01 - PUBLIC                                                                     7
+Utilities - Water/Sewer: 01 - PUBLIC / PUBLIC             Zoning:                                               Building Sketch                                    Interior/Exterior Areas
+Utilities - Gas/Gas Type: 00 - NONE                                                                                                                                            Square
+Outbuildings & Yard Items                                                                                                                                           Type       Feet      Exterior Wall
+Long OutBuilding & Yard Items list on subsequent pages                                                                                                              30 -           6,600 19 - PREFIN METAL
+Sale Information                                                                                                                                                    OFFICE               CRIMPED
+Long Sale Information list on subsequent pages
+Land Information                                                                                                                                                   Commercial Features
+Deed Acres: 0                        Calculated Acres: 1.29                Total Land Units: 1.29                                                                   Type                                  Units
+Land Code                                    Soil Class                                               Units
+                                                                                                                                                                    LPF - LOADING PLATFORM                168 X 1
+10 - COM                                                                                               1.29
+Outbuildings & Yard Items
+Building #                       Type                                                            Description                             Area/Units
+
+1                                ASP - ASPHALT PAVING                                            65                                          9,000
+
+1                                LGT - LIGHTS                                                    90                                              2
+
+1                                LGT - LIGHTS                                                    90                                              2
+
+
+Sale Information
+Sale Date                        Price      Book        Page Vacant/Improved   Type Instrument                 Qualification
+
+1/12/2026                   $1,200,000          6764     167 I - IMPROVED      WD - WARRANTY DEED              A - ACCEPTED
+
+10/19/2021                         $0           5756     504 I - IMPROVED      -                               L - LIMITED
+
+9/20/2021                   $1,200,000          5724     834 I - IMPROVED      WD - WARRANTY DEED              M - PHYSICAL DIFFERENCE
+
+5/6/2015                     $470,000           4110     870 I - IMPROVED      WD - WARRANTY DEED              N - NON-ARM'S LENGTH
+
+3/23/2010                          $0           3259     133 V - VACANT        -                               -
+
+8/23/1996                          $0            621     359 V - VACANT        -                               -
+
+8/21/1996                    $225,000            621     361 I - IMPROVED      WD - WARRANTY DEED              A - ACCEPTED
+
+9/13/1988                     $36,500             44     408 V - VACANT        WD - WARRANTY DEED              A - ACCEPTED
+

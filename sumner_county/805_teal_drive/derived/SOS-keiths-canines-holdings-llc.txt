@@ -1,0 +1,76 @@
+# SOS entity record — KEITH'S CANINES HOLDINGS LLC
+# Buyer of 805 Teal Drive, 2026-01-12, deed book 6764 page 167, $1,200,000
+# TN Secretary of State | Control Number 000938053
+# Downloaded by Brandon 2026-08-28; filed from ~/Downloads/keith-canines-holdings.pdf
+# Original: ../inbox/SOS-keiths-canines-holdings-llc.pdf
+
+KEITH’S CANINES HOLDINGS LLC
+Entity Type: Limited Liability Company (LLC)                                              Status: Active
+Formed in: TENNESSEE                                                                      Control Number: 000938053
+Term of Duration: Perpetual                                                               Initial Filing Date: 1/1/2018 12:00:00 AM
+Managed By: Director Managed                                                              Fiscal Ending Month: December
+Series LLC: No                                                                            AR Due Date: 04/01/2027
+Number of Members: 3                                                                      Obligated Member Entity: No
+
+
+Registered Agent                                               Principal Office Address                                 Mailing Address
+BERNARD WINFRED KEITH, JR                                      1038 STANLEY DR                                          1038 STANLEY DR
+1038 STANLEY DR                                                MT JULIET, TN 37122-4167                                 MT JULIET, TN 37122-4167
+MT JULIET, TN 37122
+ AR Standing: Good                                  RA Standing: Good                     Other Standing: Good                     Revenue Standing: Not Good
+
+   History (13)
+
+ Type                                  Date                             Tracking Number                Change History
+
+ 2025 Annual Report for KEITH’S
+                                       3/24/2026 2:09:04 PM             B2026287128                        Annual Report Due Date changed from: 4/1/2026 to: 4/1/2027
+ CANINES HOLDINGS LLC
+
+ 2024 Annual Report for KEITH’S                                                                            Annual Report Due Date changed from: 4/1/2025 to: 4/1/2026
+                                       3/27/2025 9:26:45 AM             B2025147477
+ CANINES HOLDINGS LLC                                                                                      NAICS changed
+
+ 2023 Annual Report for Keith’s
+                                       3/28/2024 12:59:55 PM            B1538-7076
+ Canines Holdings LLC
+
+ 2022 Annual Report for Keith’s
+                                       6/26/2023 1:30:54 PM             B1418-0584
+ Canines Holdings LLC
+
+ Notice of Determination for Keith’s
+                                       6/2/2023 1:40:29 AM              B1403-6593
+ Canines Holdings LLC
+
+ System Amendment for Keith’s
+                                       4/5/2023 1:43:16 AM
+ Canines Holdings LLC
+
+ 2021 Annual Report for Keith’s
+                                       4/4/2022 8:25:32 AM              B1196-2239
+ Canines Holdings LLC
+
+ 2020 Annual Report for Keith’s
+                                       3/30/2021 5:15:07 PM             B1011-2204
+ Canines Holdings LLC
+2019 Annual Report for Keith’s
+                                      3/31/2020 9:57:57 AM     B0849-8244
+Canines Holdings LLC
+
+2018 Annual Report for Keith’s
+                                      6/18/2019 10:51:35 AM    B0723-5136
+Canines Holdings LLC
+
+Notice of Determination for Keith’s
+                                      6/1/2019 1:40:20 AM      B0715-9208
+Canines Holdings LLC
+
+System Amendment for Keith’s
+                                      4/4/2019 1:40:32 AM
+Canines Holdings LLC
+
+Initial Filing for Keith’s Canines
+                                      12/27/2017 10:45:41 AM   B0472-0124
+Holdings LLC
+
